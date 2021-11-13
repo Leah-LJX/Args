@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "description": "Compute the outer product between two vectors",
+  "methodName": "getOuterProduct",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "com.opengamma.analytics.math.matrix.DoubleMatrix1D",
+    "com.opengamma.analytics.math.matrix.DoubleMatrix1D"
+  ],
+  "tgtType": "com.opengamma.analytics.math.matrix.DoubleMatrix2D",
+  "packages": [
+    "com.opengamma.analytics.math",
+    "org.apache.commons.math.linear"
+  ],
+  "libs": [
+    "./lib/commons-math-2.2.jar",
+    "./lib/og-analytics-2.17.0.jar",
+    "./lib/commons-lang-2.6.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/7/TestSource.java"
+}

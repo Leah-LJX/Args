@@ -1,0 +1,21 @@
+{
+  "id": 8,
+  "description": "Predict a value from a sample by linear regression",
+  "methodName": "predict",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "double[][]",
+    "double"
+  ],
+  "tgtType": "double",
+  "packages": [
+    "org.apache.commons.math.stat"
+  ],
+  "libs": [
+    "./lib/commons-math-2.2.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/8/TestSource.java"
+}

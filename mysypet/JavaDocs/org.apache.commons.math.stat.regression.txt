@@ -1,0 +1,53 @@
+AbstractMultipleLinearRegression.newSampleData(double[],int,int)	Loads model x and y sample data from a flat input array overriding any previous sample
+MultipleLinearRegression.estimateRegressandVariance()	Returns the variance of the regressand ie Var y
+SimpleRegression.getSlopeStdErr()	Returns the standard error of the slope estimate usually denoted s b1
+GLSMultipleLinearRegression.GLSMultipleLinearRegression()	Estimates the standard error of the regression
+OLSMultipleLinearRegression.newSampleData(double[],double[][])	Loads model x and y sample data overriding any previous sample
+AbstractMultipleLinearRegression.estimateRegressandVariance()	Returns the variance of the regressand ie Var y
+SimpleRegression.SimpleRegression(int)	Create an empty SimpleRegression
+SimpleRegression.getSumSquaredErrors()	Returns the sum of squared errors SSE associated with the regression model
+SimpleRegression.getSlopeConfidenceInterval(double)	Returns the half width of a 100 100 alpha confidence interval for the slope estimate
+SimpleRegression.clear()	Clears all data from the model
+OLSMultipleLinearRegression.OLSMultipleLinearRegression()	Replace sample data overriding any previous sample
+AbstractMultipleLinearRegression.estimateRegressionParameters()	Estimates the regression parameters b
+GLSMultipleLinearRegression.N(0,Omega)	Estimates the standard error of the regression
+SimpleRegression.addData(double,double)	Adds the observation x y to the regression data set
+AbstractMultipleLinearRegression.estimateResiduals()	Estimates the residuals ie u y X b
+SimpleRegression.getMeanSquareError()	Returns the sum of squared errors divided by the degrees of freedom usually abbreviated MSE
+AbstractMultipleLinearRegression.estimateRegressionStandardError()	Estimates the standard error of the regression
+SimpleRegression.SimpleRegression()	Create an empty SimpleRegression instance
+OLSMultipleLinearRegression.calculateTotalSumOfSquares()	Returns the sum of squared deviations of Y from its mean
+SimpleRegression.getTotalSumSquares()	Returns the sum of squared deviations of the y values about their mean
+MultipleLinearRegression.estimateResiduals()	Estimates the residuals ie u y X b
+SimpleRegression.getInterceptStdErr()	Returns the standard error of the intercept estimate usually denoted s b0
+SimpleRegression.removeData(double[][])	Removes observations represented by the elements in data
+AbstractMultipleLinearRegression.estimateErrorVariance()	Estimates the variance of the error
+SimpleRegression.addData(double[][])	Adds the observations represented by the elements in data
+OLSMultipleLinearRegression.newSampleData(double[],int,int)	Loads model x and y sample data from a flat input array overriding any previous sample
+SimpleRegression.predict(double)	Returns the predicted y value associated with the supplied x value based on the data that has been added to the model when this method is activated
+SimpleRegression.getR()	Returns Pearson s product moment correlation coefficient usually denoted r
+SimpleRegression.removeData(double,double)	Removes the observation x y from the regression data set
+SimpleRegression.setDistribution(TDistribution)	Modify the distribution used to compute inference statistics
+SimpleRegression.getRegressionSumSquares()	Returns the sum of squared deviations of the predicted y values about their mean which equals the mean of y
+SimpleRegression.getN()	Returns the number of observations that have been added to the model
+AbstractMultipleLinearRegression.setNoIntercept(boolean)	
+SimpleRegression.SimpleRegression(TDistribution)	Create an empty SimpleRegression using the given distribution object to compute inference statistics
+MultipleLinearRegression.estimateRegressionParameters()	Estimates the regression parameters b
+OLSMultipleLinearRegression.calculateRSquared()	Returns the R Squared statistic defined by the formula R2 1 SSR SSTO where SSR is the sum of squared residuals and SSTO is the total sum of squares Returns R square statisticSince 2 2
+SimpleRegression.getSlopeConfidenceInterval()	Returns the half width of a 95 confidence interval for the slope estimate
+SimpleRegression.getSlope()	Returns the slope of the estimated regression line
+OLSMultipleLinearRegression.calculateResidualSumOfSquares()	Returns the sum of squared residuals
+AbstractMultipleLinearRegression.isNoIntercept()	
+AbstractMultipleLinearRegression.AbstractMultipleLinearRegression()	Modify the distribution used to compute inference statistics
+AbstractMultipleLinearRegression.estimateRegressionParametersVariance()	Estimates the variance of the regression parameters ie Var b
+GLSMultipleLinearRegression.newSampleData(double[],double[][],double[][])	Replace sample data overriding any previous sample
+MultipleLinearRegression.estimateRegressionParametersStandardErrors()	Returns the standard errors of the regression parameters
+OLSMultipleLinearRegression.calculateAdjustedRSquared()	Returns the adjusted R squared statistic defined by the formula R2adj 1 SSR n 1 SSTO n p where SSR is the sum of squared residuals SSTO is the total sum of squares n is the number of observations and p is the number of parameters estimated including the intercept
+SimpleRegression.getIntercept()	Returns the intercept of the estimated regression line
+SimpleRegression.getXSumSquares()	Returns the sum of squared deviations of the x values about their mean
+SimpleRegression.getSignificance()	Returns the significance level of the slope equiv correlation
+SimpleRegression.getRSquare()	Returns the coefficient of determination usually denoted r square
+AbstractMultipleLinearRegression.estimateRegressionParametersStandardErrors()	Returns the standard errors of the regression parameters
+MultipleLinearRegression.estimateRegressionParametersVariance()	Estimates the variance of the regression parameters ie Var b
+SimpleRegression.getSumOfCrossProducts()	Returns the sum of crossproducts xi yi
+OLSMultipleLinearRegression.calculateHat()	Compute the hat matrix

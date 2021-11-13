@@ -1,0 +1,21 @@
+{
+  "id": 48,
+  "description": "Find the matched string with regular expression",
+  "methodName": "match",
+  "paramNames": [
+    "sypet_arg0",
+	"sypet_arg1"
+  ],
+  "srcTypes": [
+    "java.lang.String",
+	  "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "java.util.regex"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/test/48/TestSource.java"
+}

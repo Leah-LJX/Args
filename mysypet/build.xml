@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="sypet" default="jar">
+
+    <dirname property="this.dir" file="${ant.file}"/>
+    <property name="target.loc" location="${target}"/>
+
+    <target name="init">
+        <mkdir dir="bin"/>
+    </target>
+
+    <target name="compile" depends="init"
+          description="compile the source code">
+
+    <javac target="1.7" source="1.7" srcdir="src" destdir="bin" debug="true">
+        <classpath>
+          <pathelement location="lib/commons-cli-1.2.jar"/>
+          <pathelement location="lib/apt.jar"/>
+	  <pathelement location="lib/pdbadapter.jar"/>
+            <pathelement location="lib/bow4j.jar"/>
+            <pathelement location="lib/commons-lang3-3.4.jar"/>
+            <pathelement location="lib/ecj-4.5.1.jar"/>
+            <pathelement location="lib/gson-2.3.1.jar"/>
+            <pathelement location="lib/guava-18.0.jar"/>
+            <pathelement location="lib/soot-trunk.jar"/>
+            <pathelement location="lib/sat4j-pb.jar"/>
+            <pathelement location="lib/snowball-stemmer-1.3.0.581.1.jar"/>
+            <pathelement location="lib/junit-4.12.jar"/>
+            <pathelement location="lib/hamcrest-core-1.3.jar"/>
+            <pathelement location="lib/jython.jar"/>
+            <pathelement location="lib/httpclient-4.5.2.jar"/>
+            <pathelement location="lib/httpcore-4.4.4.jar"/>
+            <pathelement location="lib/joda-time-2.8.2.jar"/>
+            <pathelement location="lib/rt7.jar"/>
+            <pathelement location="lib/commons-io-2.5.jar"/>
+	<pathelement location="lib/MyJar.jar"/>
+            <pathelement location="lib/MyJar2.jar"/>
+            <pathelement location="lib/MyJar3.jar"/>
+            <pathelement location="lib/MyJar4.jar"/>
+            <pathelement location="lib/MyJar5.jar"/>
+            <pathelement location="lib/MyJar6.jar"/>
+            <pathelement location="lib/MyJar7.jar"/>
+            <pathelement location="lib/MyJar8.jar"/>
+            <pathelement location="lib/MyJar9.jar"/>
+            <pathelement location="lib/MyJar10.jar"/>
+            <pathelement location="lib/MyJar11.jar"/>
+            <pathelement location="lib/newJar1.jar"/>
+            <pathelement location="lib/newJar2.jar"/>
+            <pathelement location="lib/newJar3.jar"/>
+            <pathelement location="lib/newJar4.jar"/>
+            <pathelement location="lib/newJar5.jar"/>
+            <pathelement location="lib/newJar6.jar"/>
+            <pathelement location="lib/newJar8.jar"/>
+            <pathelement location="lib/NewJar10.jar"/>
+            <pathelement location="lib/com.springsource.org.apache.regexp-1.5.0.jar"/>
+            <pathelement location="lib/jsoup-1.11.3.jar"/>
+	<pathelement location="lib/org-analytics-2.17.0.jar"/>
+	<pathelement location="lib/org.eclipse.core.contenttype_3.7.100.v20180817-1401.jar"/>
+	<pathelement location="lib/org.eclipse.core.jobs_3.10.100.v20180817-1215.jar"/>
+	<pathelement location="lib/org.eclipse.core.resources_3.13.100.v20180828-0158.jar"/>
+	<pathelement location="lib/org.eclipse.core.runtime_3.15.0.v20180817-1401.jar"/>
+	<pathelement location="lib/org.eclipse.equinox.common_3.10.100.v20180827-1235.jar"/>
+	<pathelement location="lib/org.eclipse.equinox.preferences_3.7.200.v20180827-1235.jar"/>
+	<pathelement location="lib/org.eclipse.equinox.registry_3.8.100.v20180827-1235.jar"/>
+	<pathelement location="lib/org.eclipse.jdt.core-3.10.0.jar"/>
+	<pathelement location="lib/org.eclipse.osgi_3.13.100.v20180827-1536.jar"/>
+	<pathelement location="lib/org.eclipse.text_3.7.0.v20180822-1511.jar"/>
+        </classpath>
+    </javac>
+    </target>
+
+    <target name="sypet">
+    <java classname="edu.utexas.sypet.Experiment"
+          maxmemory="4g"
+          fork="true"
+          failonerror="true">
+        <arg line="${args}"/>
+        <jvmarg value="-ea"/>
+        <classpath>
+            <pathelement location="${this.dir}/sypet.jar"/>
+            <pathelement location="lib/bow4j.jar"/>
+            <pathelement location="lib/commons-lang3-3.4.jar"/>
+   
+            <pathelement location="lib/gson-2.3.1.jar"/>
+            <pathelement location="lib/guava-18.0.jar"/>
+            <pathelement location="lib/soot-trunk.jar"/>
+            <pathelement location="lib/sat4j-pb.jar"/>
+            <pathelement location="lib/snowball-stemmer-1.3.0.581.1.jar"/>
+            <pathelement location="lib/apt.jar"/>
+	    <pathelement location="lib/commons-cli-1.2.jar"/>
+            <pathelement location="lib/jython.jar"/>
+            <pathelement location="lib/httpclient-4.5.2.jar"/>
+            <pathelement location="lib/httpcore-4.4.4.jar"/>
+            <pathelement location="lib/joda-time-2.8.2.jar"/>
+            <pathelement location="lib/rt7.jar"/>
+            <pathelement location="lib/commons-io-2.5.jar"/>
+	<pathelement location="lib/MyJar.jar"/>
+            <pathelement location="lib/MyJar2.jar"/>
+            <pathelement location="lib/MyJar3.jar"/>
+            <pathelement location="lib/MyJar4.jar"/>
+            <pathelement location="lib/MyJar5.jar"/>
+            <pathelement location="lib/MyJar6.jar"/>
+            <pathelement location="lib/MyJar7.jar"/>
+            <pathelement location="lib/MyJar8.jar"/>
+            <pathelement location="lib/MyJar9.jar"/>
+            <pathelement location="lib/MyJar10.jar"/>
+            <pathelement location="lib/MyJar11.jar"/>
+            <pathelement location="lib/newJar1.jar"/>
+            <pathelement location="lib/newJar2.jar"/>
+            <pathelement location="lib/newJar3.jar"/>
+            <pathelement location="lib/newJar4.jar"/>
+            <pathelement location="lib/newJar5.jar"/>
+            <pathelement location="lib/newJar6.jar"/>
+            <pathelement location="lib/newJar8.jar"/>
+            <pathelement location="lib/NewJar10.jar"/>
+            <pathelement location="lib/com.springsource.org.apache.regexp-1.5.0.jar"/>
+            <pathelement location="lib/jsoup-1.11.3.jar"/>
+	<pathelement location="lib/org-analytics-2.17.0.jar"/>
+	<pathelement location="lib/org.eclipse.core.contenttype_3.7.100.v20180817-1401.jar"/>
+	<pathelement location="lib/org.eclipse.core.jobs_3.10.100.v20180817-1215.jar"/>
+	<pathelement location="lib/org.eclipse.core.resources_3.13.100.v20180828-0158.jar"/>
+	<pathelement location="lib/org.eclipse.core.runtime_3.15.0.v20180817-1401.jar"/>
+	<pathelement location="lib/org.eclipse.equinox.common_3.10.100.v20180827-1235.jar"/>
+	<pathelement location="lib/org.eclipse.equinox.preferences_3.7.200.v20180827-1235.jar"/>
+	<pathelement location="lib/org.eclipse.equinox.registry_3.8.100.v20180827-1235.jar"/>
+	<pathelement location="lib/org.eclipse.jdt.core-3.10.0.jar"/>
+	<pathelement location="lib/org.eclipse.osgi_3.13.100.v20180827-1536.jar"/>
+	<pathelement location="lib/org.eclipse.text_3.7.0.v20180822-1511.jar"/>
+        </classpath>
+    </java>
+    </target>
+
+    <target name="jar" depends="compile"
+          description="generate the distribution" >
+        <jar jarfile="sypet.jar" basedir="bin"/>
+    </target>
+
+    <target name="clean"
+          description="clean up" >
+        <delete dir="bin"/>
+        <delete file="sypet.jar"/>
+    </target>
+</project>

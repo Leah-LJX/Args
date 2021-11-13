@@ -1,0 +1,196 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/22/benchmark22.json
+     [java] Benchmark Id: 22
+     [java] Method name: getAge
+     [java] Packages: [org.joda.time]
+     [java] Libraries: [./lib/joda-time-2.8.2.jar]
+     [java] Source type(s): [org.joda.time.DateTime]
+     [java] Target type: int
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: org.joda.convert.ToString is a phantom class!
+     [java] Warning: org.joda.convert.FromString is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 22
+     [java] =========cnt:=========134
+     [java] #Classes: 246
+     [java] #Methods: 4425
+     [java] Soot Time: 2146.015513
+     [java] PetriNet for path length: 1 [places: 58 ; transitions: 210 ; edges: 484]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 58 ; transitions: 210 ; edges: 484]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 58 ; transitions: 210 ; edges: 484]
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfMonth()>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getMonthOfYear()>
+     [java] #Program: 2
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getYear()>
+     [java] #Program: 4
+     [java] =========sketch========
+     [java] #Program: 6
+     [java] PetriNet for path length: 4 [places: 58 ; transitions: 210 ; edges: 484]
+     [java] =========sketch========
+     [java] _upper11
+     [java] sypet_clone_void
+     [java] <org.joda.time.base.AbstractDateTime: int getYear()>
+     [java] #Program: 6
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfMonth()>
+     [java] #Program: 8
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getMonthOfYear()>
+     [java] #Program: 10
+     [java] =========sketch========
+     [java] #Program: 12
+     [java] PetriNet for path length: 5 [places: 58 ; transitions: 210 ; edges: 484]
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_org.joda.time.ReadableInstant
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 12
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_org.joda.time.ReadableInstant
+     [java] <org.joda.time.Months: org.joda.time.Months monthsBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Months: int getMonths()>
+     [java] #Program: 14
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_org.joda.time.ReadableInstant
+     [java] <org.joda.time.Years: org.joda.time.Years yearsBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Years: int getYears()>
+     [java] #Program: 16
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 18
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 20
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_org.joda.time.ReadableInstant
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 22
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_org.joda.time.ReadableInstant
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 24
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_org.joda.time.ReadableInstant
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 26
+     [java] =========sketch========
+     [java] #Program: 28
+     [java] PetriNet for path length: 6 [places: 58 ; transitions: 210 ; edges: 484]
+     [java] =========sketch========
+     [java] sypet_clone_org.joda.time.DateTime
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Years: org.joda.time.Years yearsBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Years: int getYears()>
+     [java] #Program: 28
+     [java] =========sketch========
+     [java] sypet_clone_org.joda.time.DateTime
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Months: org.joda.time.Months monthsBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Months: int getMonths()>
+     [java] #Program: 31
+     [java] =========sketch========
+     [java] sypet_clone_org.joda.time.DateTime
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 34
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 37
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: void <init>()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 39
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: void <init>()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Months: org.joda.time.Months monthsBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Months: int getMonths()>
+     [java] #Program: 44
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: void <init>()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Years: org.joda.time.Years yearsBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Years: int getYears()>
+     [java] #Program: 49
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 22
+     [java] Recommend Api Number:134
+     [java] Sketch Generation Time: 305.15621300000004
+     [java] Sketch Completion Time: 24.549885999999997
+     [java] Compilation Time: 755.0678780000001
+     [java] Running Test cases Time: 64.47384999999998
+     [java] Synthesis Time: 394.179949
+     [java] Total Time: 3295.2633400000004
+     [java] Number of components: 5
+     [java] Number of holes: 6
+     [java] Number of completed programs: 50
+     [java] Number of sketches: 21
+     [java] Solution:
+     [java]  org.joda.time.DateTime sypet_var87 = new org.joda.time.DateTime();
+     [java]  org.joda.time.ReadableInstant sypet_var88 = sypet_var87;
+     [java]  org.joda.time.ReadableInstant sypet_var89 = sypet_arg0;
+     [java]  org.joda.time.Years sypet_var90 = org.joda.time.Years.yearsBetween(sypet_var89,sypet_var88);
+     [java]  int sypet_var91 = sypet_var90.getYears();
+     [java]  return sypet_var91;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 3 seconds

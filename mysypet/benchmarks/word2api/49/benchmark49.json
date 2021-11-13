@@ -1,0 +1,19 @@
+{
+  "id": 49,
+  "description": "Reverse a string and append the result to it java.lang.StringBuffer",
+  "methodName": "reverseAndAppend",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "java.lang.StringBuffer"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/word2api/49/TestSource.java"
+}

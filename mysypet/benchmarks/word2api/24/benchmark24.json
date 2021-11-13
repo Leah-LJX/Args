@@ -1,0 +1,21 @@
+{
+  "id": 24,
+  "description": "Get a paragraph element given its offset in the a document javax.swing.text",
+  "methodName": "getParagraphElement",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "javax.swing.text.Document",
+    "int"
+  ],
+  "tgtType": "javax.swing.text.Element",
+  "packages": [
+    "javax.swing.text"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/word2api/24/TestSource.java"
+}

@@ -1,0 +1,56 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/nlp2api/36/benchmark36.json
+     [java] Benchmark Id: 36
+     [java] Method name: parseJson
+     [java] Packages: [com.google.gson]
+     [java] Libraries: [./lib/gson-2.3.1.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] =========cnt:=========79
+     [java] #Classes: 165
+     [java] #Methods: 949
+     [java] Soot Time: 2156.654839
+     [java] PetriNet for path length: 1 [places: 78 ; transitions: 177 ; edges: 419]
+     [java] PetriNet for path length: 2 [places: 78 ; transitions: 177 ; edges: 419]
+     [java] PetriNet for path length: 3 [places: 78 ; transitions: 177 ; edges: 419]
+     [java] PetriNet for path length: 4 [places: 78 ; transitions: 177 ; edges: 419]
+     [java] PetriNet for path length: 5 [places: 78 ; transitions: 177 ; edges: 419]
+     [java] PetriNet for path length: 6 [places: 78 ; transitions: 177 ; edges: 419]
+     [java] PetriNet for path length: 7 [places: 78 ; transitions: 177 ; edges: 419]
+     [java] PetriNet for path length: 8 [places: 78 ; transitions: 177 ; edges: 419]
+     [java] PetriNet for path length: 9 [places: 78 ; transitions: 177 ; edges: 419]
+     [java] PetriNet for path length: 10 [places: 78 ; transitions: 177 ; edges: 419]
+     [java] =========Statistics=========
+     [java] Benchmark Id: 36
+     [java] Recommend Api Number:79
+     [java] Soot Time: 2156.654839
+     [java] Sketch Generation Time: 71621.15941599983
+     [java] Sketch Completion Time: 221738.16413199878
+     [java] Compilation Time: 295833.15040600114
+     [java] Running Test cases Time: 5240.336248000024
+     [java] Synthesis Time: null
+     [java] Total Time: null
+     [java] Number of components: null
+     [java] Number of holes: null
+     [java] Number of completed programs: 25166
+     [java] Number of sketches: 8333
+     [java] TIMEOUT after 600000 ms
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 10 minutes 2 seconds

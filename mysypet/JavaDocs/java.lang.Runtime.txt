@@ -1,0 +1,24 @@
+Runtime.freeMemory()	Returns the amount of free memory in the Java Virtual Machine
+Runtime.runFinalizersOnExit(boolean)	Enable or disable finalization on exit doing so specifies that the finalizers of all objects that have finalizers that have not yet been automatically invoked are to be run before the Java runtime exits
+Runtime.availableProcessors()	Returns the number of processors available to the Java virtual machine
+Runtime.traceInstructions(boolean)	Enables Disables tracing of instructions
+Runtime.removeShutdownHook(Thread)	De registers a previously registered virtual machine shutdown hook
+Runtime.exec(String,String[],File)	Executes the specified string command in a separate process with the specified environment and working directory
+Runtime.maxMemory()	Returns the maximum amount of memory that the Java virtual machine will attempt to use If there is no inherent limit then the value Long MAX VALUE will be returned
+Runtime.totalMemory()	Returns the total amount of memory in the Java virtual machine
+Runtime.exec(String[])	Executes the specified command and arguments in a separate process
+Runtime.getLocalizedInputStream(InputStream)	Creates a localized version of an input stream This method takes an InputStream and returns an InputStream equivalent to the argument in all respects except that it is localized as characters in the local character set are read from the stream they are automatically converted from the local character set to Unicode
+Runtime.exec(String[],String[])	Executes the specified command and arguments in a separate process with the specified environment
+Runtime.loadLibrary(String)	Loads the dynamic library with the specified library name
+Runtime.getLocalizedOutputStream(OutputStream)	Creates a localized version of an output stream This method takes an OutputStream and returns an OutputStream equivalent to the argument in all respects except that it is localized as Unicode characters are written to the stream they are automatically converted to the local character set
+Runtime.traceMethodCalls(boolean)	Enables Disables tracing of method calls
+Runtime.exit(int)	Terminates the currently running Java virtual machine by initiating its shutdown sequence This method never returns normally The argument serves as a status code by convention a nonzero status code indicates abnormal termination
+Runtime.halt(int)	Forcibly terminates the currently running Java virtual machine This method never returns normally
+Runtime.addShutdownHook(Thread)	Registers a new virtual machine shutdown hook
+Runtime.exec(String[],String[],File)	Executes the specified command and arguments in a separate process with the specified environment and working directory
+Runtime.exec(String,String[])	Executes the specified string command in a separate process with the specified environment
+Runtime.getRuntime()	Returns the runtime object associated with the current Java application
+Runtime.gc()	Runs the garbage collector
+Runtime.load(String)	Loads the specified filename as a dynamic library The filename argument must be a complete path name for example Runtime getRuntime load home avh lib libX11 so
+Runtime.exec(String)	Executes the specified string command in a separate process
+Runtime.runFinalization()	Runs the finalization methods of any objects pending finalization

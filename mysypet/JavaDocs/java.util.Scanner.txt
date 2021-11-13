@@ -1,0 +1,65 @@
+Scanner.hasNextDouble()	Returns true if the next token in this scanner s input can be interpreted as a double value using the nextDouble method The scanner does not advance past any input
+Scanner.hasNext()	Returns true if this scanner has another token in its input
+Scanner.Scanner(File,String)	Constructs a new Scanner that produces values scanned from the specified file Bytes from the file are converted into characters using the specified charset
+Scanner.hasNextLine()	Returns true if there is another line in the input of this scanner
+Scanner.Scanner(Path,String)	Constructs a new Scanner that produces values scanned from the specified file Bytes from the file are converted into characters using the specified charset
+Scanner.hasNextLong()	Returns true if the next token in this scanner s input can be interpreted as a long value in the default radix using the nextLong method The scanner does not advance past any input
+Scanner.nextInt(int)	Scans the next token of the input as an int
+Scanner.useDelimiter(String)	Sets this scanner s delimiting pattern to a pattern constructed from the specified String
+Scanner.nextBoolean()	Scans the next token of the input into a boolean value and returns that value This method will throw InputMismatchException if the next token cannot be translated into a valid boolean value
+Scanner.nextBigDecimal()	Scans the next token of the input as a BigDecimal
+Scanner.findInLine(String)	Attempts to find the next occurrence of a pattern constructed from the specified string ignoring delimiters
+Scanner.nextLine()	Advances this scanner past the current line and returns the input that was skipped
+Scanner.ioException()	Returns the IOException last thrown by this Scanner s underlying Readable This method returns null if no such exception exists
+Scanner.nextLong(int)	Scans the next token of the input as a long
+Scanner.Scanner(ReadableByteChannel,String)	Constructs a new Scanner that produces values scanned from the specified channel Bytes from the source are converted into characters using the specified charset
+Scanner.findWithinHorizon(String,int)	Attempts to find the next occurrence of a pattern constructed from the specified string ignoring delimiters
+Scanner.nextShort()	Scans the next token of the input as a short
+Scanner.Scanner(InputStream)	Constructs a new Scanner that produces values scanned from the specified input stream Bytes from the stream are converted into characters using the underlying platform s default charset
+Scanner.hasNextByte()	Returns true if the next token in this scanner s input can be interpreted as a byte value in the default radix using the nextByte method The scanner does not advance past any input
+Scanner.nextLong()	Scans the next token of the input as a long
+Scanner.next(Pattern)	Returns the next token if it matches the specified pattern This method may block while waiting for input to scan even if a previous invocation of hasNext Pattern returned true
+Scanner.nextDouble()	Scans the next token of the input as a double
+Scanner.useRadix(int)	Sets this scanner s default radix to the specified radix
+Scanner.nextShort(int)	Scans the next token of the input as a short
+Scanner.hasNextShort()	Returns true if the next token in this scanner s input can be interpreted as a short value in the default radix using the nextShort method The scanner does not advance past any input
+Scanner.Scanner(Readable)	Constructs a new Scanner that produces values scanned from the specified source
+Scanner.remove()	The remove operation is not supported by this implementation of Iterator
+Scanner.nextBigInteger(int)	Scans the next token of the input as a BigInteger
+Scanner.next()	Finds and returns the next complete token from this scanner
+Scanner.Scanner(InputStream,String)	Constructs a new Scanner that produces values scanned from the specified input stream Bytes from the stream are converted into characters using the specified charset
+Scanner.findInLine(Pattern)	Attempts to find the next occurrence of the specified pattern ignoring delimiters If the pattern is found before the next line separator the scanner advances past the input that matched and returns the string that matched the pattern
+Scanner.hasNextBoolean()	Returns true if the next token in this scanner s input can be interpreted as a boolean value using a case insensitive pattern created from the string true false The scanner does not advance past the input that matched
+Scanner.close()	Closes this scanner
+Scanner.hasNextBigInteger(int)	Returns true if the next token in this scanner s input can be interpreted as a BigInteger in the specified radix using the nextBigInteger method The scanner does not advance past any input
+Scanner.Scanner(Path)	Constructs a new Scanner that produces values scanned from the specified file Bytes from the file are converted into characters using the underlying platform s default charset
+Scanner.Scanner(String)	Constructs a new Scanner that produces values scanned from the specified string
+Scanner.hasNext(String)	Returns true if the next token matches the pattern constructed from the specified string The scanner does not advance past any input
+Scanner.useLocale(Locale)	Sets this scanner s locale to the specified locale
+Scanner.hasNextInt()	Returns true if the next token in this scanner s input can be interpreted as an int value in the default radix using the nextInt method The scanner does not advance past any input
+Scanner.hasNextInt(int)	Returns true if the next token in this scanner s input can be interpreted as an int value in the specified radix using the nextInt method The scanner does not advance past any input
+Scanner.nextFloat()	Scans the next token of the input as a float
+Scanner.Scanner(ReadableByteChannel)	Constructs a new Scanner that produces values scanned from the specified channel Bytes from the source are converted into characters using the underlying platform s default charset
+Scanner.findWithinHorizon(Pattern,int)	Attempts to find the next occurrence of the specified pattern
+Scanner.useDelimiter(Pattern)	Sets this scanner s delimiting pattern to the specified pattern
+Scanner.radix()	Returns this scanner s default radix
+Scanner.hasNext(Pattern)	Returns true if the next complete token matches the specified pattern
+Scanner.nextBigInteger()	Scans the next token of the input as a BigInteger
+Scanner.hasNextBigInteger()	Returns true if the next token in this scanner s input can be interpreted as a BigInteger in the default radix using the nextBigInteger method The scanner does not advance past any input
+Scanner.hasNextByte(int)	Returns true if the next token in this scanner s input can be interpreted as a byte value in the specified radix using the nextByte method The scanner does not advance past any input
+Scanner.nextByte()	Scans the next token of the input as a byte
+Scanner.nextByte(int)	Scans the next token of the input as a byte
+Scanner.hasNextFloat()	Returns true if the next token in this scanner s input can be interpreted as a float value using the nextFloat method The scanner does not advance past any input
+Scanner.hasNextBigDecimal()	Returns true if the next token in this scanner s input can be interpreted as a BigDecimal using the nextBigDecimal method The scanner does not advance past any input
+Scanner.skip(String)	Skips input that matches a pattern constructed from the specified string
+Scanner.toString()	Returns the string representation of this Scanner The string representation of a Scanner contains information that may be useful for debugging The exact format is unspecified
+Scanner.Scanner(File)	Constructs a new Scanner that produces values scanned from the specified file Bytes from the file are converted into characters using the underlying platform s default charset
+Scanner.delimiter()	Returns the Pattern this Scanner is currently using to match delimiters
+Scanner.next(String)	Returns the next token if it matches the pattern constructed from the specified string If the match is successful the scanner advances past the input that matched the pattern
+Scanner.hasNextShort(int)	Returns true if the next token in this scanner s input can be interpreted as a short value in the specified radix using the nextShort method The scanner does not advance past any input
+Scanner.skip(Pattern)	Skips input that matches the specified pattern ignoring delimiters
+Scanner.match()	Returns the match result of the last scanning operation performed by this scanner This method throws IllegalStateException if no match has been performed or if the last match was not successful
+Scanner.locale()	Returns this scanner s locale
+Scanner.reset()	Resets this scanner
+Scanner.nextInt()	Scans the next token of the input as an int
+Scanner.hasNextLong(int)	Returns true if the next token in this scanner s input can be interpreted as a long value in the specified radix using the nextLong method The scanner does not advance past any input

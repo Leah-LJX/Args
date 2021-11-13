@@ -1,0 +1,76 @@
+BigDecimal.valueOf(double)	Translates a double into a BigDecimal using the double s canonical string representation provided by the Double toString double method
+BigDecimal.BigDecimal(BigInteger)	Translates a BigInteger into a BigDecimal
+BigDecimal.intValueExact()	Converts this BigDecimal to an int checking for lost information If this BigDecimal has a nonzero fractional part or is out of the possible range for an int result then an ArithmeticException is thrown
+BigDecimal.BigDecimal(BigInteger,int,MathContext)	Translates a BigInteger unscaled value and an int scale into a BigDecimal with rounding according to the context settings The value of the BigDecimal is unscaledVal 10 scale rounded according to the precision and rounding mode settings
+BigDecimal.byteValueExact()	Converts this BigDecimal to a byte checking for lost information If this BigDecimal has a nonzero fractional part or is out of the possible range for a byte result then an ArithmeticException is thrown
+BigDecimal.movePointRight(int)	Returns a BigDecimal which is equivalent to this one with the decimal point moved n places to the right
+BigDecimal.divideAndRemainder(BigDecimal)	Returns a two element BigDecimal array containing the result of divideToIntegralValue followed by the result of remainder on the two operands
+BigDecimal.divide(BigDecimal,int,RoundingMode)	Returns a BigDecimal whose value is this divisor and whose scale is as specified If rounding must be performed to generate a result with the specified scale the specified rounding mode is applied
+BigDecimal.BigDecimal(String,MathContext)	Translates the string representation of a BigDecimal into a BigDecimal accepting the same strings as the BigDecimal String constructor with rounding according to the context settings
+BigDecimal.subtract(BigDecimal,MathContext)	Returns a BigDecimal whose value is this subtrahend with rounding according to the context settings
+BigDecimal.divide(BigDecimal,MathContext)	Returns a BigDecimal whose value is this divisor with rounding according to the context settings
+BigDecimal.scale()	Returns the scale of this BigDecimal If zero or positive the scale is the number of digits to the right of the decimal point If negative the unscaled value of the number is multiplied by ten to the power of the negation of the scale For example a scale of 3 means the unscaled value is multiplied by 1000
+BigDecimal.add(BigDecimal,MathContext)	Returns a BigDecimal whose value is this augend with rounding according to the context settings
+BigDecimal.abs(MathContext)	Returns a BigDecimal whose value is the absolute value of this BigDecimal with rounding according to the context settings
+BigDecimal.BigDecimal(BigInteger,MathContext)	Translates a BigInteger into a BigDecimal rounding according to the context settings The scale of the BigDecimal is zero
+BigDecimal.pow(int)	Returns a BigDecimal whose value is thisn The power is computed exactly to unlimited precision
+BigDecimal.BigDecimal(long)	Translates a long into a BigDecimal The scale of the BigDecimal is zero
+BigDecimal.divideToIntegralValue(BigDecimal,MathContext)	Returns a BigDecimal whose value is the integer part of this divisor Since the integer part of the exact quotient does not depend on the rounding mode the rounding mode does not affect the values returned by this method The preferred scale of the result is this scale divisor scale An ArithmeticException is thrown if the integer part of the exact quotient needs more than mc precision digits
+BigDecimal.floatValue()	Converts this BigDecimal to a float
+BigDecimal.pow(int,MathContext)	Returns a BigDecimal whose value is thisn The current implementation uses the core algorithm defined in ANSI standard X3 274 1996 with rounding according to the context settings In general the returned numerical value is within two ulps of the exact numerical value for the chosen precision Note that future releases may use a different algorithm with a decreased allowable error bound and increased allowable exponent range
+BigDecimal.remainder(BigDecimal)	Returns a BigDecimal whose value is this divisor
+BigDecimal.toPlainString()	Returns a string representation of this BigDecimal without an exponent field For values with a positive scale the number of digits to the right of the decimal point is used to indicate scale For values with a zero or negative scale the resulting string is generated as if the value were converted to a numerically equal value with zero scale and as if all the trailing zeros of the zero scale value were present in the result
+BigDecimal.round(MathContext)	Returns a BigDecimal rounded according to the MathContext settings If the precision setting is 0 then no rounding takes place
+BigDecimal.BigDecimal(char[],int,int)	Translates a character array representation of a BigDecimal into a BigDecimal accepting the same sequence of characters as the BigDecimal String constructor while allowing a sub array to be specified
+BigDecimal.movePointLeft(int)	Returns a BigDecimal which is equivalent to this one with the decimal point moved n places to the left If n is non negative the call merely adds n to the scale If n is negative the call is equivalent to movePointRight n The BigDecimal returned by this call has value this 10 n and scale max this scale n 0
+BigDecimal.BigDecimal(char[])	Translates a character array representation of a BigDecimal into a BigDecimal accepting the same sequence of characters as the BigDecimal String constructor
+BigDecimal.divide(BigDecimal,int)	Returns a BigDecimal whose value is this divisor and whose scale is this scale If rounding must be performed to generate a result with the given scale the specified rounding mode is applied
+BigDecimal.setScale(int,int)	Returns a BigDecimal whose scale is the specified value and whose unscaled value is determined by multiplying or dividing this BigDecimal s unscaled value by the appropriate power of ten to maintain its overall value If the scale is reduced by the operation the unscaled value must be divided rather than multiplied and the value may be changed in this case the specified rounding mode is applied to the division
+BigDecimal.BigDecimal(int,MathContext)	Translates an int into a BigDecimal with rounding according to the context settings The scale of the BigDecimal before any rounding is zero
+BigDecimal.negate(MathContext)	Returns a BigDecimal whose value is this with rounding according to the context settings
+BigDecimal.BigDecimal(double,MathContext)	Translates a double into a BigDecimal with rounding according to the context settings The scale of the BigDecimal is the smallest value such that 10scale val is an integer
+BigDecimal.valueOf(long,int)	Translates a long unscaled value and an int scale into a BigDecimal This static factory method is provided in preference to a long int constructor because it allows for reuse of frequently used BigDecimal values
+BigDecimal.multiply(BigDecimal)	Returns a BigDecimal whose value is this multiplicand and whose scale is this scale multiplicand scale
+BigDecimal.shortValueExact()	Converts this BigDecimal to a short checking for lost information If this BigDecimal has a nonzero fractional part or is out of the possible range for a short result then an ArithmeticException is thrown
+BigDecimal.intValue()	Converts this BigDecimal to an int
+BigDecimal.setScale(int,RoundingMode)	Returns a BigDecimal whose scale is the specified value and whose unscaled value is determined by multiplying or dividing this BigDecimal s unscaled value by the appropriate power of ten to maintain its overall value If the scale is reduced by the operation the unscaled value must be divided rather than multiplied and the value may be changed in this case the specified rounding mode is applied to the division
+BigDecimal.compareTo(BigDecimal)	Compares this BigDecimal with the specified BigDecimal Two BigDecimal objects that are equal in value but have a different scale like 2 0 and 2 00 are considered equal by this method This method is provided in preference to individual methods for each of the six boolean comparison operators The suggested idiom for performing these comparisons is x compareTo y op 0 where op is one of the six comparison operators
+BigDecimal.abs()	Returns a BigDecimal whose value is the absolute value of this BigDecimal and whose scale is this scale
+BigDecimal.BigDecimal(char[],int,int,MathContext)	Translates a character array representation of a BigDecimal into a BigDecimal accepting the same sequence of characters as the BigDecimal String constructor while allowing a sub array to be specified and with rounding according to the context settings
+BigDecimal.stripTrailingZeros()	Returns a BigDecimal which is numerically equal to this one but with any trailing zeros removed from the representation For example stripping the trailing zeros from the BigDecimal value 600 0 which has BigInteger scale components equals to 6000 1 yields 6E2 with BigInteger scale components equals to 6 2 If this BigDecimal is numerically equal to zero then BigDecimal ZERO is returned
+BigDecimal.divide(BigDecimal,int,int)	Returns a BigDecimal whose value is this divisor and whose scale is as specified If rounding must be performed to generate a result with the specified scale the specified rounding mode is applied
+BigDecimal.hashCode()	Returns the hash code for this BigDecimal Note that two BigDecimal objects that are numerically equal but differ in scale like 2 0 and 2 00 will generally not have the same hash code
+BigDecimal.multiply(BigDecimal,MathContext)	Returns a BigDecimal whose value is this multiplicand with rounding according to the context settings
+BigDecimal.toString()	Returns the string representation of this BigDecimal using scientific notation if an exponent is needed
+BigDecimal.BigDecimal(BigInteger,int)	Translates a BigInteger unscaled value and an int scale into a BigDecimal The value of the BigDecimal is unscaledVal 10 scale
+BigDecimal.BigDecimal(int)	Translates an int into a BigDecimal The scale of the BigDecimal is zero
+BigDecimal.divide(BigDecimal,RoundingMode)	Returns a BigDecimal whose value is this divisor and whose scale is this scale If rounding must be performed to generate a result with the given scale the specified rounding mode is applied
+BigDecimal.toBigInteger()	Converts this BigDecimal to a BigInteger
+BigDecimal.toBigIntegerExact()	Converts this BigDecimal to a BigInteger checking for lost information An exception is thrown if this BigDecimal has a nonzero fractional part
+BigDecimal.toEngineeringString()	Returns a string representation of this BigDecimal using engineering notation if an exponent is needed
+BigDecimal.scaleByPowerOfTen(int)	Returns a BigDecimal whose numerical value is equal to this 10n The scale of the result is this scale n
+BigDecimal.precision()	Returns the precision of this BigDecimal The precision is the number of digits in the unscaled value The precision of a zero value is 1
+BigDecimal.negate()	Returns a BigDecimal whose value is this and whose scale is this scale
+BigDecimal.ulp()	Returns the size of an ulp a unit in the last place of this BigDecimal An ulp of a nonzero BigDecimal value is the positive distance between this value and the BigDecimal value next larger in magnitude with the same number of digits An ulp of a zero value is numerically equal to 1 with the scale of this The result is stored with the same scale as this so the result for zero and nonzero values is equal to 1 this scale
+BigDecimal.setScale(int)	Returns a BigDecimal whose scale is the specified value and whose value is numerically equal to this BigDecimal s Throws an ArithmeticException if this is not possible
+BigDecimal.BigDecimal(double)	Translates a double into a BigDecimal which is the exact decimal representation of the double s binary floating point value The scale of the returned BigDecimal is the smallest value such that 10scale val is an integer
+BigDecimal.longValueExact()	Converts this BigDecimal to a long checking for lost information If this BigDecimal has a nonzero fractional part or is out of the possible range for a long result then an ArithmeticException is thrown
+BigDecimal.BigDecimal(String)	Translates the string representation of a BigDecimal into a BigDecimal The string representation consists of an optional sign u002B or u002D followed by a sequence of zero or more decimal digits the integer optionally followed by a fraction optionally followed by an exponent
+BigDecimal.signum()	Returns the signum function of this BigDecimal
+BigDecimal.longValue()	Converts this BigDecimal to a long
+BigDecimal.divideAndRemainder(BigDecimal,MathContext)	Returns a two element BigDecimal array containing the result of divideToIntegralValue followed by the result of remainder on the two operands calculated with rounding according to the context settings
+BigDecimal.add(BigDecimal)	Returns a BigDecimal whose value is this augend and whose scale is max this scale augend scale
+BigDecimal.plus(MathContext)	Returns a BigDecimal whose value is this with rounding according to the context settings
+BigDecimal.divideToIntegralValue(BigDecimal)	Returns a BigDecimal whose value is the integer part of the quotient this divisor rounded down The preferred scale of the result is this scale divisor scale
+BigDecimal.plus()	Returns a BigDecimal whose value is this and whose scale is this scale
+BigDecimal.BigDecimal(long,MathContext)	Translates a long into a BigDecimal with rounding according to the context settings The scale of the BigDecimal before any rounding is zero
+BigDecimal.equals(Object)	Compares this BigDecimal with the specified Object for equality Unlike compareTo this method considers two BigDecimal objects equal only if they are equal in value and scale thus 2 0 is not equal to 2 00 when compared by this method
+BigDecimal.subtract(BigDecimal)	Returns a BigDecimal whose value is this subtrahend and whose scale is max this scale subtrahend scale
+BigDecimal.BigDecimal(char[],MathContext)	Translates a character array representation of a BigDecimal into a BigDecimal accepting the same sequence of characters as the BigDecimal String constructor and with rounding according to the context settings
+BigDecimal.unscaledValue()	Returns a BigInteger whose value is the unscaled value of this BigDecimal Computes this 10this scale
+BigDecimal.remainder(BigDecimal,MathContext)	Returns a BigDecimal whose value is this divisor with rounding according to the context settings
+BigDecimal.valueOf(long)	Translates a long value into a BigDecimal with a scale of zero This static factory method is provided in preference to a long constructor because it allows for reuse of frequently used BigDecimal values
+BigDecimal.min(BigDecimal)	Returns the minimum of this BigDecimal and val
+BigDecimal.divide(BigDecimal)	Returns a BigDecimal whose value is this divisor and whose preferred scale is this scale divisor scale if the exact quotient cannot be represented because it has a non terminating decimal expansion an ArithmeticException is thrown
+BigDecimal.doubleValue()	Converts this BigDecimal to a double
+BigDecimal.max(BigDecimal)	Returns the maximum of this BigDecimal and val

@@ -1,0 +1,13 @@
+StringWriter.StringWriter()	Create a new string writer using the default initial string buffer size
+StringWriter.close()	Closing a StringWriter has no effect The methods in this class can be called after the stream has been closed without generating an IOException
+StringWriter.write(char[],int,int)	Write a portion of an array of characters
+StringWriter.write(String)	Write a string
+StringWriter.append(char)	Appends the specified character to this writer
+StringWriter.StringWriter(int)	Create a new string writer using the specified initial string buffer size
+StringWriter.toString()	Return the buffer s current value as a string
+StringWriter.append(CharSequence)	Appends the specified character sequence to this writer
+StringWriter.getBuffer()	Return the string buffer itself
+StringWriter.write(String,int,int)	Write a portion of a string
+StringWriter.write(int)	Write a single character
+StringWriter.append(CharSequence,int,int)	Appends a subsequence of the specified character sequence to this writer
+StringWriter.flush()	Flush the stream

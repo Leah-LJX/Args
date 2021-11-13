@@ -1,0 +1,832 @@
+ChangeNotifyingArrayList.addAll(int,Collection)	
+Connection.Base.headers()	Retrieve all of the request response header names and corresponding values as a map For headers with multiple values only the first header is returned Note that this is a view of the headers only and changes made to this map will not be reflected in the request response object
+TextNode.baseUri()	Description copied from class Node
+Elements.filter(NodeFilter)	Perform a depth first filtering on each of the selected elements
+W3CDom.W3CDom()	
+HttpConnection.get()	Description copied from interface Connection
+Element.tagName(String)	Change the tag of this element For example convert a span to a div with el tagName div
+Evaluator.IsEmpty.toString()	
+Jsoup.parse(String)	Parse HTML into a Document As no base URI is specified absolute URL detection relies on the HTML including a base href tag
+Element.baseUri()	Description copied from class Node
+Evaluator.ContainsOwnText.matches(Element,Element)	Description copied from class Evaluator
+Comment.attr(String,String)	Description copied from class Node
+Evaluator.MatchText.matches(Element,Element)	Description copied from class Evaluator
+Elements.Elements()	
+TokenQueue.matches(String)	Tests if the next characters on the queue match the sequence Case insensitive
+TokenQueue.consume()	Consume one character off queue
+ConstrainableInputStream.read(byte[],int,int)	
+HttpStatusException.getStatusCode()	
+Element.toggleClass(String)	Toggle a class name on this element s class attribute if present remove it otherwise add it
+Evaluator.IndexLessThan.IndexLessThan(int)	
+Elements.eachAttr(String)	Get the attribute value for each of the matched elements If an element does not have this attribute no value is included in the result set for that element
+XmlDeclaration.absUrl(String)	Description copied from class Node
+SerializationException.SerializationException(Throwable)	Creates and initializes a new serialization exception with the specified cause and an error message of cause null null cause toString which typically contains the class and error message of cause
+TokenQueue.toString()	
+Node.nodeName()	Get the node name of this node Use for debugging purposes and not logic switching for that use instanceof
+Evaluator.AttributeWithValueMatching.toString()	
+Elements.hasClass(String)	Determine if any of the matched elements have this class name set in their class attribute
+DataUtil.load(InputStream,String,String,Parser)	Parses a Document from an input steam using the provided Parser
+Whitelist.relaxed()	This whitelist allows a full range of text and structural body HTML a b blockquote br caption cite code col colgroup dd div dl dt em h1 h2 h3 h4 h5 h6 i img li ol p pre q small span strike strong sub sup table tbody td tfoot th thead tr u ul Links do not have an enforced rel nofollow attribute but you can add that if desired
+Elements.eachText()	Get the text content of each of the matched elements If an element has no text then it is not included in the result
+Elements.val(String)	Set the form element s value in each of the matched elements
+Connection.followRedirects(boolean)	Configures the connection to not follow server redirects By default this is true
+Jsoup.parse(File,String)	Parse the contents of a file as HTML The location of the file is used as the base URI to qualify relative URLs
+Evaluator.IsOnlyChild.IsOnlyChild()	
+Evaluator.Matches.Matches(Pattern)	
+HtmlTreeBuilder.toString()	
+Connection.referrer(String)	Set the request referrer aka referer header
+Connection.Response.body()	Get the body of the response as a plain string
+Node.outerHtml()	Get the outer HTML of this node
+Jsoup.clean(String,String,Whitelist,OutputSettings)	Get safe HTML from untrusted input HTML by parsing input HTML and filtering it through a white list of permitted tags and attributes The HTML is treated as a body fragment it s expected the cleaned HTML will be used within the body of an existing document If you want to clean full documents use Cleaner clean Document instead and add structural tags html head body etc to the whitelist
+TextNode.TextNode(String,String)	Create a new TextNode representing the supplied unencoded text
+Attributes.clone()	
+HttpConnection.Request.proxy()	Description copied from interface Connection Request
+W3CDom.asString(Document)	Serialize a W3C document to a String
+CharacterReader.consumeTo(char)	Reads characters up to the specific char
+Connection.Base.removeCookie(String)	Remove a cookie by name
+Connection.KeyVal.value()	Get the value of a keyval
+ConstrainableInputStream.readToByteBuffer(int)	Reads this inputstream to a ByteBuffer The supplied max may be less than the inputstream s max to support reading just the first bytes
+Element.lastElementSibling()	Gets the last element sibling of this element
+ListLinks.ListLinks()	
+Connection.post()	Execute the request as a POST and parse the result
+Connection.KeyVal.key()	Get the key of a keyval
+Elements.prevAll(String)	Get all of the previous element siblings of each element in this list filtered by the query
+Parser.htmlParser()	Create a new HTML parser This parser treats input as HTML5 and enforces the creation of a normalised document based on a knowledge of the semantics of the incoming tags
+HttpConnection.data(String,String,InputStream)	Description copied from interface Connection
+Tag.getName()	Get this tag s name
+TokenQueue.unescape(String)	Unescape a escaped string
+TokenQueue.matchesAny()	
+DataNode.toString()	
+Document.OutputSettings.syntax(Syntax)	Set the document s output syntax Either html with empty tags and boolean attributes etc or xml with self closing tags
+CharacterReader.advance()	Moves the current position by one
+Evaluator.IndexGreaterThan.toString()	
+Jsoup.clean(String,Whitelist)	Get safe HTML from untrusted input HTML by parsing input HTML and filtering it through a white list of permitted tags and attributes
+Evaluator.ContainsData.toString()	
+TextNode.createFromEncoded(String)	Create a new TextNode from HTML encoded aka escaped data
+Evaluator.AllElements.matches(Element,Element)	Description copied from class Evaluator
+TextNode.createFromEncoded(String,String)	Create a new TextNode from HTML encoded aka escaped data
+Connection.Request.parser()	Get the current parser to use when parsing the document
+Connection.ignoreContentType(boolean)	Ignore the document s Content Type when parsing the response By default this is false an unrecognised content type will cause an IOException to be thrown This is to prevent producing garbage by attempting to parse a JPEG binary image for example Set to true to force a parse attempt regardless of content type
+Elements.clone()	Creates a deep copy of these elements
+Comment.attr(String)	Description copied from class Node
+Evaluator.IndexLessThan.toString()	
+Attributes.Attributes()	
+Attributes.hasKeyIgnoreCase(String)	Tests if these attributes contain an attribute with this key
+Entities.escape(String)	HTML escape an input string using the default settings UTF 8 base entities That is is returned as lt
+Element.getElementsMatchingOwnText(String)	Find elements whose text matches the supplied regular expression
+TokenQueue.consumeToIgnoreCase(String)	
+Evaluator.CssNthEvaluator.CssNthEvaluator(int)	
+ParseError.getErrorMessage()	Retrieve the error message
+XmlDeclaration.attributes()	Description copied from class Node
+Jsoup.isValid(String,Whitelist)	Test if the input body HTML has only tags and attributes allowed by the Whitelist Useful for form validation The input HTML should still be run through the cleaner to set up enforced attributes and to tidy the output Assumes the HTML is a body fragment i e will be used in an existing HTML document body
+Tag.isKnownTag(String)	Check if this tagname is a known tag
+Element.text()	Gets the combined text of this element and all its children Whitespace is normalized and trimmed For example given HTML p Hello b there b now p p text returns Hello there now
+Connection.Base.cookie(String,String)	Set a cookie in this request response
+Connection.Response.bufferUp()	Read the body of the response into a local buffer so that parse may be called repeatedly on the same connection response otherwise once the response is read its InputStream will have been drained and may not be re read Calling body or bodyAsBytes has the same effect
+Evaluator.AttributeStarting.AttributeStarting(String)	
+Element.wholeText()	Get the unencoded text of all children of this element including any newlines and spaces present in the original
+StringUtil.appendNormalisedWhitespace(StringBuilder,String,boolean)	After normalizing the whitespace within a string appends it to a string builder
+Whitelist.preserveRelativeLinks(boolean)	Configure this Whitelist to preserve relative links in an element s URL attribute or convert them to absolute links By default this is false URLs will be made absolute e g start with an allowed protocol like e g http Note that when handling relative links the input document must have an appropriate base URI set when parsing so that the link s protocol can be confirmed Regardless of the setting of the preserve relative links option the link must be resolvable against the base URI to an allowed protocol otherwise the attribute will be removed
+Elements.parents()	Get all of the parents and ancestor elements of the matched elements
+HttpConnection.Request.data(KeyVal)	Description copied from interface Connection Request
+DataNode.attr(String)	Description copied from class Node
+Connection.Request.data()	Get all of the request s data parameters
+Whitelist.Whitelist()	Create a new empty whitelist Generally it will be better to start with a default prepared whitelist instead
+Connection.Response.parse()	Read and parse the body of the response as a Document If you intend to parse the same response multiple times you should bufferUp first
+Elements.val()	Get the form element s value of the first matched element
+NodeTraversor.NodeTraversor(NodeVisitor)	Create a new traversor
+HttpConnection.postDataCharset(String)	Description copied from interface Connection
+HttpConnection.KeyVal.inputStream(InputStream)	Description copied from interface Connection KeyVal
+Evaluator.Tag.toString()	
+Tag.equals(Object)	
+Validate.notNull(Object,String)	Validates that the object is not null
+Evaluator.IndexEvaluator.IndexEvaluator(int)	
+Evaluator.AttributeWithValueEnding.AttributeWithValueEnding(String,String)	
+W3CDom.fromJsoup(Document)	Convert a jsoup Document to a W3C Document
+HttpConnection.KeyVal.contentType()	Description copied from interface Connection KeyVal
+Connection.Base.cookie(String)	Get a cookie value by name from this request response Response objects have a simplified cookie model Each cookie set in the response is added to the response object s cookie key value map The cookie s path domain and expiry date are ignored
+DataNode.attr(String,String)	Description copied from class Node
+Elements.addClass(String)	Add the class name to every matched element s class attribute
+CharacterReader.isEmpty()	Tests if all the content has been read
+Element.hasText()	Test if this element has any text content that is not just whitespace
+Connection.data(Collection)	Adds all of the supplied data to the request data parameters
+CharacterReader.current()	Get the char at the current position
+Connection.Request.proxy(Proxy)	Update the proxy for this request
+HttpConnection.Request.timeout()	Description copied from interface Connection Request
+Parser.parseInput(String,String)	
+Parser.Parser(TreeBuilder)	Create a new Parser using the specified TreeBuilder
+Attribute.createFromEncoded(String,String)	Create a new Attribute from an unencoded key and a HTML attribute encoded value
+HttpConnection.data()	Description copied from interface Connection
+Element.getElementsByAttribute(String)	Find elements that have a named attribute set Case insensitive
+Evaluator.Attribute.toString()	
+Element.getElementsByIndexEquals(int)	Find elements whose sibling index is equal to the supplied index
+Evaluator.CssNthEvaluator.toString()	
+Node.before(Node)	Insert the specified node into the DOM before this node i e as a preceding sibling
+Connection.Base.method(Method)	Set the request method
+Node.childNodeSize()	Get the number of child nodes that this node holds
+Node.wrap(String)	Wrap the supplied HTML around this node
+Evaluator.Id.toString()	
+Evaluator.Attribute.matches(Element,Element)	Description copied from class Evaluator
+Node.nextSibling()	Get this node s next sibling
+Attributes.hashCode()	Calculates the hashcode of these attributes by iterating all attributes and summing their hashcodes
+ChangeNotifyingArrayList.addAll(Collection)	
+TokenQueue.consumeWord()	Retrieves the next run of word type letter or digit off the queue
+Connection.url(URL)	Set the request URL to fetch The protocol must be HTTP or HTTPS
+Node.ownerDocument()	Gets the Document associated with this Node
+Selector.selectFirst(String,Element)	Find the first element that matches the query
+HttpConnection.proxy(String,int)	Description copied from interface Connection
+Evaluator.IsEmpty.IsEmpty()	
+Evaluator.TagEndsWith.matches(Element,Element)	Description copied from class Evaluator
+Element.dataset()	Get this element s HTML5 custom data attributes Each attribute in the element that has a key starting with data is included the dataset E g the element div data package jsoup data language Java class group has the dataset package jsoup language java This map is a filtered view of the element s attribute map Changes to one map add remove update are reflected in the other map You can find elements that have data attributes using the data attribute key prefix selector
+Connection.request()	Get the request object associated with this connection
+Evaluator.IsOnlyOfType.matches(Element,Element)	Description copied from class Evaluator
+Evaluator.Class.matches(Element,Element)	Description copied from class Evaluator
+Elements.after(String)	Insert the supplied HTML after each matched element s outer HTML
+HtmlToPlainText.HtmlToPlainText()	
+NodeFilter.tail(Node,int)	Callback for when a node is last visited after all of its descendants have been visited
+Element.html(String)	Set this element s inner HTML Clears the existing HTML first
+Element.Element(String)	Create a new standalone element
+ChangeNotifyingArrayList.remove(int)	
+Element.classNames(Set)	Set the element s class attribute to the supplied class names
+Element.appendElement(String)	Create a new element by tag name and add it as the last child
+Node.replaceWith(Node)	Replace this node in the DOM with the supplied node
+StringUtil.in(String,)	
+Parser.isTrackErrors()	Check if parse error tracking is enabled
+Element.after(String)	Insert the specified HTML into the DOM after this element as a following sibling
+Node.baseUri()	Get the base URI of this node
+Evaluator.IndexGreaterThan.IndexGreaterThan(int)	
+ParseErrorList.noTracking()	
+Element.child(int)	Get a child element of this element by its 0 based index number Note that an element can have both mixed Nodes and Elements as children This method inspects a filtered list of children that are elements and the index is based on that filtered list
+Attribute.toString()	Get the string representation of this attribute implemented as html
+Attributes.dataset()	Retrieves a filtered view of attributes that are HTML5 custom data attributes that is attributes with keys starting with data
+DataUtil.load(File,String,String)	Loads a file to a Document
+Evaluator.IsRoot.matches(Element,Element)	Description copied from class Evaluator
+XmlDeclaration.XmlDeclaration(String,boolean)	Create a new XML declaration
+TokenQueue.addFirst(Character)	Add a character to the start of the queue will be the next character retrieved
+ChangeNotifyingArrayList.ChangeNotifyingArrayList(int)	
+TokenQueue.addFirst(String)	Add a string to the start of the queue
+Elements.text()	Get the combined text of all the matched elements Note that it is possible to get repeats if the matched elements contain both parent elements and their own children as the Element text method returns the combined text of a parent and all its children
+Validate.noNullElements(Object[])	Validates that the array contains no null elements
+XmlDeclaration.attr(String)	Description copied from class Node
+HttpStatusException.HttpStatusException(String,int,String)	
+Element.removeClass(String)	Remove a class name from this element s class attribute
+Document.Document(String)	Create a new empty Document
+Evaluator.IsNthOfType.IsNthOfType(int,int)	
+Tag.preserveWhitespace()	Get if this tag should preserve whitespace within child text nodes
+Element.getElementsContainingOwnText(String)	Find elements that directly contain the specified string The search is case insensitive The text must appear directly in the element not in any of its descendants
+Element.getElementsByAttributeValueMatching(String,Pattern)	Find elements that have attributes whose values match the supplied regular expression
+Attributes.put(Attribute)	Set a new attribute or replace an existing one by key
+HttpConnection.Request.postDataCharset(String)	Description copied from interface Connection Request
+Connection.userAgent(String)	Set the request user agent header
+HttpConnection.ignoreHttpErrors(boolean)	Description copied from interface Connection
+Evaluator.AttributeWithValue.toString()	
+Evaluator.AttributeWithValueStarting.matches(Element,Element)	Description copied from class Evaluator
+DocumentType.DocumentType(String,String,String,String,String)	Create a new doctype element
+Attributes.normalize()	Internal method Lowercases all keys
+HttpConnection.request(Request)	Description copied from interface Connection
+CharacterReader.CharacterReader(Reader,int)	
+Evaluator.IsFirstChild.toString()	
+Evaluator.AttributeWithValueStarting.toString()	
+Connection.Request.requestBody()	Get the current request body
+HttpConnection.header(String,String)	Description copied from interface Connection
+Attribute.setValue(String)	Set the attribute value
+Selector.select(String,Iterable)	Find elements matching selector
+Document.outputSettings()	Get the document s current output settings
+StringUtil.StringUtil()	
+Element.getElementsByAttributeValueMatching(String,String)	Find elements that have attributes whose values match the supplied regular expression
+Evaluator.AttributeWithValue.AttributeWithValue(String,String)	
+ChangeNotifyingArrayList.remove(Object)	
+HttpConnection.Request.validateTLSCertificates()	Description copied from interface Connection Request
+Entities.escape(String,OutputSettings)	HTML escape an input string That is is returned as lt
+Parser.getTreeBuilder()	Get the TreeBuilder currently in use
+TokenQueue.consumeTagName()	Consume an tag name off the queue word or
+Element.getElementsByAttributeValueStarting(String,String)	Find elements that have attributes that start with the value prefix Case insensitive
+TextNode.attr(String,String)	Description copied from class Node
+Element.attributes()	Description copied from class Node
+Connection.parser(Parser)	Provide an alternate parser to use when parsing the response to a Document If not set defaults to the HTML parser unless the response content type is XML in which case the XML parser is used
+Document.OutputSettings.indentAmount()	Get the current tag indent amount used when pretty printing
+Element.append(String)	Add inner HTML to this element The supplied HTML will be parsed and each node appended to the end of the children
+Cleaner.isValid(Document)	Determines if the input document bodyis valid against the whitelist It is considered valid if all the tags and attributes in the input HTML are allowed by the whitelist and that there is no content in the head This method can be used as a validator for user input An invalid document will still be cleaned successfully using the clean Document document If using as a validator it is recommended to still clean the document to ensure enforced attributes are set correctly and that the output is tidied
+SerializationException.SerializationException(String)	Creates and initializes a new serialization exception with the given error message and no cause
+Document.OutputSettings.OutputSettings()	
+Evaluator.IsOnlyChild.toString()	
+Validate.isTrue(boolean)	Validates that the value is true
+HttpConnection.KeyVal.value(String)	Description copied from interface Connection KeyVal
+Parser.parseInput(Reader,String)	
+CharacterReader.CharacterReader(Reader)	
+Connection.Request.followRedirects(boolean)	Configures the request to not follow server redirects By default this is true
+UnsupportedMimeTypeException.UnsupportedMimeTypeException(String,String,String)	
+Element.attr(String,String)	Set an attribute value on this element If this element already has an attribute with the key its value is updated otherwise a new attribute is added
+HttpConnection.connect(String)	
+Evaluator.MatchesOwn.toString()	
+HttpConnection.Request.parser()	Description copied from interface Connection Request
+PseudoTextElement.PseudoTextElement(Tag,String,Attributes)	
+Attributes.addAll(Attributes)	Add all the attributes from the incoming set to this set
+Attribute.Attribute(String,String,Attributes)	Create a new attribute from unencoded raw key and value
+Elements.prevAll()	Get all of the previous element siblings of each element in this list
+Attribute.getKey()	Get the attribute key
+Element.className()	Gets the literal value of this element s class attribute which may include multiple class names space separated E g on div class header gray returns header gray
+HttpConnection.cookie(String,String)	Description copied from interface Connection
+UncheckedIOException.UncheckedIOException(IOException)	
+StringUtil.isWhitespace(int)	Tests if a code point is whitespace as defined in the HTML spec Used for output HTML
+Elements.html()	Get the combined inner HTML of all matched elements
+Node.shallowClone()	Create a stand alone shallow copy of this node None of its children if any will be cloned and it will have no parent or sibling nodes
+Elements.nextAll(String)	Get all of the following element siblings of each element in this list filtered by the query
+Elements.before(String)	Insert the supplied HTML before each matched element s outer HTML
+Whitelist.none()	This whitelist allows only text nodes all HTML will be stripped
+Connection.data(String)	Get the data KeyVal for this key if any
+Element.nextElementSibling()	Gets the next sibling element of this element E g if a div contains two ps the nextElementSibling of the first p is the second p This is similar to Node nextSibling but specifically finds only Elements
+Element.tagName()	Get the name of the tag for this element E g div
+Jsoup.clean(String,String,Whitelist)	Get safe HTML from untrusted input HTML by parsing input HTML and filtering it through a white list of permitted tags and attributes
+Elements.html(String)	Set the inner HTML of each matched element
+BooleanAttribute.BooleanAttribute(String)	Create a new boolean attribute from unencoded raw key
+Tag.isKnownTag()	Get if this is a pre defined tag or was auto created on parsing
+StringUtil.isActuallyWhitespace(int)	Tests if a code point is whitespace as defined by what it looks like Used for Element text etc
+Elements.next(String)	Get the immediate next element sibling of each element in this list filtered by the query
+Comment.childNodeSize()	Description copied from class Node
+Tag.isData()	Gets if this tag is a data only tag
+Connection.KeyVal.inputStream(InputStream)	Add or update an input stream to this keyVal
+Connection.Response.statusCode()	Get the status code of the response
+Element.getElementsByAttributeValueNot(String,String)	Find elements that either do not have this attribute or have it with a different value Case insensitive
+Document.title(String)	Set the document s title element Updates the existing element or adds title to head if not present
+Comment.removeAttr(String)	Description copied from class Node
+TextNode.getWholeText()	Get the unencoded text of this text node including any newlines and spaces present in the original
+Element.tag()	Get the Tag for this element
+TokenQueue.consumeTo(String)	Pulls a string off the queue up to but exclusive of the match sequence or to the queue running out
+HttpConnection.response(Response)	Description copied from interface Connection
+HttpConnection.Response.statusCode()	Description copied from interface Connection Response
+Node.parent()	Gets this node s parent node
+Document.updateMetaCharsetElement()	Returns whether the element with charset information in this document is updated on changes through Document charset Charset or not
+HttpConnection.method(Method)	Description copied from interface Connection
+Connection.Request.maxBodySize(int)	Update the maximum body size in bytes
+TokenQueue.matchesWhitespace()	Tests if queue starts with a whitespace character
+TextNode.isBlank()	Test if this text node is blank that is empty or only whitespace including newlines
+Comment.hasAttr(String)	Description copied from class Node
+Element.addClass(String)	Add a class name to this element s class attribute
+NodeVisitor.tail(Node,int)	Callback for when a node is last visited after all of its descendants have been visited
+Node.attr(String,String)	Set an attribute key value If the attribute already exists it is replaced The attribute key comparison is case insensitive
+Evaluator.AttributeWithValueMatching.matches(Element,Element)	Description copied from class Evaluator
+Document.outputSettings(OutputSettings)	Set the document s output settings
+Connection.Request.postDataCharset(String)	Sets the post data character set for x www form urlencoded post data
+Connection.cookie(String,String)	Set a cookie to be sent in the request
+Connection.request(Request)	Set the connection s request
+Evaluator.ContainsText.matches(Element,Element)	Description copied from class Evaluator
+Connection.Base.addHeader(String,String)	Add a header The header will be added regardless of whether a header with the same name already exists
+Connection.Request.proxy(String,int)	Set the HTTP proxy to use for this request
+StringUtil.padding(int)	Returns space padding
+Element.getElementsContainingText(String)	Find elements that contain the specified string The search is case insensitive The text may appear directly in the element or in any of its descendants
+StringUtil.normaliseWhitespace(String)	Normalise the whitespace within this string multiple spaces collapse to a single and all whitespace characters e g newline tab convert to a simple space
+Document.location()	Get the URL this Document was parsed from If the starting URL is a redirect this will return the final URL from which the document was served from
+TextNode.text(String)	Set the text content of this text node
+Connection.response()	Get the response once the request has been executed
+Connection.Base.cookies()	Retrieve all of the request response cookies as a map
+StringUtil.isBlank(String)	Tests if a string is blank null empty or only whitespace r n t etc
+Connection.headers(Map)	Adds each of the supplied headers to the request
+Tag.valueOf(String)	Get a Tag by name If not previously defined unknown returns a new generic tag that can do anything Pre defined tags P DIV etc will be but unknown tags are not registered and will only equals
+HtmlTreeBuilder.processStartTag(String,Attributes)	
+HttpConnection.Response.charset()	Description copied from interface Connection Response
+Element.insertChildren(int,Collection)	Inserts the given child nodes into this element at the specified index Current nodes will be shifted to the right The inserted nodes will be moved from their current parent To prevent moving copy the nodes first
+Elements.toString()	Get the combined outer HTML of all matched elements Alias of outerHtml
+ChangeNotifyingArrayList.add(int,E)	
+HttpConnection.Request.proxy(String,int)	Description copied from interface Connection Request
+Element.clone()	Description copied from class Node
+Elements.next()	Get the immediate next element sibling of each element in this list
+DataNode.nodeName()	Description copied from class Node
+Node.html(Connection.Base>)	Write this node and its children to the given Appendable
+Attributes.iterator()	
+HttpConnection.Request.parser(Parser)	Description copied from interface Connection Request
+Evaluator.AttributeWithValueContaining.toString()	
+TokenQueue.consumeToAny()	Consumes to the first sequence provided or to the end of the queue Leaves the terminator on the queue
+Element.id()	Get the id attribute of this element
+Jsoup.parseBodyFragment(String,String)	Parse a fragment of HTML with the assumption that it forms the body of the HTML
+Document.charset()	Returns the charset used in this document This method is equivalent to Document OutputSettings charset
+Evaluator.IsRoot.IsRoot()	
+DataNode.getWholeData()	Get the data contents of this node Will be unescaped and with original new lines space etc
+Connection.timeout(int)	Set the total request timeout duration If a timeout occurs an SocketTimeoutException will be thrown The default timeout is 30 seconds 30 000 millis A timeout of zero is treated as an infinite timeout Note that this timeout specifies the combined maximum duration of the connection time and the time to read the full response
+TokenQueue.matchesStartTag()	
+Connection.Request.validateTLSCertificates(boolean)	Set TLS certificate validation True by default
+HttpConnection.Request.validateTLSCertificates(boolean)	Description copied from interface Connection Request
+HttpConnection.data(String)	Description copied from interface Connection
+Element.wrap(String)	Wrap the supplied HTML around this element
+XmlDeclaration.childNodeSize()	Description copied from class Node
+DocumentType.DocumentType(String,String,String,String)	Create a new doctype element
+Attributes.size()	Get the number of attributes in this set
+Element.data()	Get the combined data of this element Data is e g the inside of a script tag Note that data is NOT the text of the element Use text to get the text that would be visible to a user and data for the contents of scripts comments CSS styles etc
+Connection.Response.bodyStream()	Get the body of the response as a buffered InputStream You should close the input stream when you re done with it Other body methods like bufferUp body parse etc will not work in conjunction with this method This method is useful for writing large responses to disk without buffering them completely into memory first
+Elements.Elements(Collection)	
+Evaluator.ContainsOwnText.ContainsOwnText(String)	
+Connection.Base.method()	Get the request method
+Element.appendText(String)	Create and append a new TextNode to this element
+Whitelist.addAttributes(String,)	Add a list of allowed attributes to a tag If an attribute is not allowed on an element it will be removed E g addAttributes a href class allows href and class attributes on a tags To make an attribute valid for all tags use the pseudo tag all e g addAttributes all class
+Element.previousElementSibling()	Gets the previous element sibling of this element
+HttpConnection.data(Map)	Description copied from interface Connection
+Element.getElementsByIndexGreaterThan(int)	Find elements whose sibling index is greater than the supplied index
+TextNode.childNodeSize()	Description copied from class Node
+HttpStatusException.getUrl()	
+DataUtil.readToByteBuffer(InputStream,int)	Read the input stream into a byte buffer To deal with slow input streams you may interrupt the thread this method is executing on The data read until being interrupted will be available
+Document.outerHtml()	Description copied from class Node
+HttpConnection.KeyVal.create(String,String)	
+Connection.data(String,String)	Add a request data parameter Request parameters are sent in the request query string for GETs and in the request body for POSTs A request may have multiple values of the same name
+Connection.header(String,String)	Set a request header
+Node.attributes()	Get all of the element s attributes
+StringUtil.isInvisibleChar(int)	
+Evaluator.AttributeWithValueNot.AttributeWithValueNot(String,String)	
+Attribute.equals(Object)	
+Element.nodeName()	Description copied from class Node
+Elements.wrap(String)	Wrap the supplied HTML around each matched elements For example with HTML p b This b is b Jsoup b p doc select b wrap i i becomes p i b This b i is i b jsoup b i p
+ChangeNotifyingArrayList.onContentsChanged()	
+Node.setBaseUri(String)	Update the base URI of this node and all of its descendants
+Validate.notEmpty(String)	Validates that the string is not empty
+DocumentType.nodeName()	Description copied from class Node
+Connection.ignoreHttpErrors(boolean)	Configures the connection to not throw exceptions when a HTTP error occurs 4xx 5xx e g 404 or 500 By default this is false an IOException is thrown if an error is encountered If set to true the response is populated with the error body and the status message will reflect the error
+ChangeNotifyingArrayList.add(E)	
+Evaluator.Tag.Tag(String)	
+TokenQueue.matchChomp(String)	Tests if the queue matches the sequence as with match and if they do removes the matched string from the queue
+HttpConnection.headers(Map)	Description copied from interface Connection
+Element.prependText(String)	Create and prepend a new TextNode to this element
+TextNode.removeAttr(String)	Description copied from class Node
+Connection.Request.postDataCharset()	Gets the post data character set for x www form urlencoded post data
+W3CDom.W3CBuilder.W3CBuilder(Document)	
+Validate.notNull(Object)	Validates that the object is not null
+Element.getElementById(String)	Find an element by ID including or under this element Note that this finds the first matching ID starting with this element If you search down from a different starting point it is possible to find a different element by ID For unique element by ID within a Document use getElementById String
+Node.attr(String)	Get an attribute s value by its key Case insensitive To get an absolute URL from an attribute that may be a relative URL prefix the key with abs which is a shortcut to the absUrl java lang String method E g String url a attr abs href
+ChangeNotifyingArrayList.clear()	
+Evaluator.AttributeStarting.matches(Element,Element)	Description copied from class Evaluator
+HttpConnection.Request.data()	Description copied from interface Connection Request
+UnsupportedMimeTypeException.getMimeType()	
+Connection.KeyVal.key(String)	Update the key of a keyval
+Elements.forms()	Get the FormElement forms from the selected elements if any
+Evaluator.AttributeWithValue.matches(Element,Element)	Description copied from class Evaluator
+ConstrainableInputStream.wrap(InputStream,int,int)	If this InputStream is not already a ConstrainableInputStream let it be one
+Connection.method(Method)	Set the request method to use GET or POST Default is GET
+Element.parents()	Get this element s parent and ancestors up to the document root
+Elements.Elements(int)	
+Node.before(String)	Insert the specified HTML into the DOM before this node i e as a preceding sibling
+Evaluator.AttributeKeyPair.AttributeKeyPair(String,String)	
+HttpConnection.url(URL)	Description copied from interface Connection
+Evaluator.Id.matches(Element,Element)	Description copied from class Evaluator
+Connection.Base.removeHeader(String)	Remove headers by name If there is more than one header with this name they will all be removed
+Attributes.get(String)	Get an attribute value by key
+Tag.valueOf(String,ParseSettings)	Get a Tag by name If not previously defined unknown returns a new generic tag that can do anything Pre defined tags P DIV etc will be but unknown tags are not registered and will only equals
+Whitelist.addProtocols(String,String,)	Add allowed URL protocols for an element s URL attribute This restricts the possible values of the attribute to URLs with the defined protocol E g addProtocols a href ftp http https To allow a link to an in page URL anchor i e a href anchor add a E g addProtocols a href
+Connection.KeyVal.contentType()	Get the current Content Type or null if not set
+Attributes.put(String,boolean)	Set a new boolean attribute remove attribute if value is false
+HttpConnection.execute()	Description copied from interface Connection
+Evaluator.AttributeStarting.toString()	
+DataUtil.load(InputStream,String,String)	Parses a Document from an input steam
+Elements.empty()	Empty remove all child nodes from each matched element This is similar to setting the inner HTML of each element to nothing E g HTML div p Hello b there b p p now p div doc select p empty HTML div p p p p div
+TokenQueue.chompBalanced(char,char)	Pulls a balanced string off the queue E g if queue is one two three four will return one two three and leave four on the queue Unbalanced openers and closers can be quoted with or or escaped with Those escapes will be left in the returned string which is suitable for regexes where we need to preserve the escape but unsuitable for contains text strings use unescape for that
+Connection.Request.ignoreContentType()	Get the current ignoreContentType configuration
+Element.parent()	Description copied from class Node
+Elements.eq(int)	Get the nth matched element as an Elements object See also ArrayList get int to retrieve an Element
+HttpConnection.Response.bodyAsBytes()	Description copied from interface Connection Response
+Selector.SelectorParseException.SelectorParseException(String,)	
+Element.Element(Tag,String)	Create a new Element from a tag and a base URI
+Element.textNodes()	Get this element s child text nodes The list is unmodifiable but the text nodes may be manipulated This is effectively a filter on Node childNodes to get Text nodes
+Element.before(String)	Insert the specified HTML into the DOM before this element as a preceding sibling
+Elements.append(String)	Add the supplied HTML to the end of each matched element s inner HTML
+Evaluator.Tag.matches(Element,Element)	Description copied from class Evaluator
+FormElement.submit()	Prepare to submit this form A Connection object is created with the request set up from the form values You can then set up other options like user agent timeout cookies then execute it
+Validate.noNullElements(Object[],String)	Validates that the array contains no null elements
+Elements.last()	Get the last matched element
+Selector.select(String,Element)	Find elements matching selector
+Evaluator.IsRoot.toString()	
+Element.after(Node)	Insert the specified node into the DOM after this node as a following sibling
+Comment.toString()	
+UncheckedIOException.ioException()	
+Connection.Request.ignoreContentType(boolean)	Configures the request to ignore the Content Type of the response
+Attribute.setKey(String)	Set the attribute key case is preserved
+Evaluator.IsLastOfType.toString()	
+Document.charset(Charset)	Sets the charset used in this document This method is equivalent to OutputSettings charset Charset but in addition it updates the charset encoding element within the document This enables meta charset update
+Attribute.hashCode()	
+Evaluator.IsOnlyChild.matches(Element,Element)	Description copied from class Evaluator
+CharacterReader.toString()	
+Evaluator.Class.toString()	
+Connection.Base.headers(String)	Get the values of a header
+HttpConnection.maxBodySize(int)	Description copied from interface Connection
+Connection.KeyVal.contentType(String)	Set the Content Type header used in the MIME body aka mimetype when uploading files Only useful if inputStream InputStream is set Will default to application octet stream
+W3CDom.convert(Document,Document)	Converts a jsoup document into the provided W3C Document If required you can set options on the output document before converting
+TextNode.absUrl(String)	Description copied from class Node
+Node.after(String)	Insert the specified HTML into the DOM after this node i e as a following sibling
+HttpConnection.KeyVal.contentType(String)	Description copied from interface Connection KeyVal
+Evaluator.ContainsData.ContainsData(String)	
+HttpConnection.Request.ignoreHttpErrors(boolean)	Description copied from interface Connection Request
+Element.cssSelector()	Get a CSS selector that will uniquely select this element If the element has an ID returns id otherwise returns the parent if any CSS selector followed by followed by a unique selector for the element tag class class nth child n
+ParseSettings.ParseSettings(boolean,boolean)	Define parse settings
+XmlDeclaration.removeAttr(String)	Description copied from class Node
+Evaluator.TagEndsWith.toString()	
+Tag.isInline()	Gets if this tag is an inline tag
+Node.parentNode()	Gets this node s parent node Not overridable by extending classes so useful if you really just need the Node type
+DataNode.DataNode(String)	Create a new DataNode
+Element.select(String)	Find elements that match the Selector CSS query with this element as the starting context Matched elements may include this element or any of its children This method is generally more powerful to use than the DOM type getElementBy methods because multiple filters can be combined e g el select a href finds links a tags with href attributes el select a href example com finds links pointing to example com loosely See the query syntax documentation in Selector
+Connection.KeyVal.hasInputStream()	Does this keyval have an input stream
+Element.prependElement(String)	Create a new element by tag name and add it as the first child
+Elements.removeClass(String)	Remove the class name from every matched element s class attribute if present
+Element.elementSiblingIndex()	Get the list index of this element in its element sibling list I e if this is the first element sibling returns 0
+Connection.Response.charset()	Get the character set name of the response derived from the content type header
+Document.OutputSettings.clone()	
+DocumentType.baseUri()	Description copied from class Node
+Comment.absUrl(String)	Description copied from class Node
+Document.head()	Accessor to the document s head element
+XmlDeclaration.getWholeDeclaration()	Get the unencoded XML declaration
+HttpConnection.KeyVal.create(String,String,InputStream)	
+Elements.not(String)	Remove elements from this list that match the Selector query E g HTML div class logo One div div Two div Elements divs doc select div not logo Result divs div Two div
+Element.ownText()	Gets the text owned by this element only does not get the combined text of all children For example given HTML p Hello b there b now p p ownText returns Hello now whereas p text returns Hello there now Note that the text within the b element is not returned as it is not a direct child of the p element
+XmlDeclaration.toString()	
+HttpConnection.Request.followRedirects()	Description copied from interface Connection Request
+Element.getElementsMatchingText(String)	Find elements whose text matches the supplied regular expression
+Connection.Response.bodyAsBytes()	Get the body of the response as an array of bytes
+HttpConnection.ignoreContentType(boolean)	Description copied from interface Connection
+StringUtil.resolve(String,String)	Create a new absolute URL from a provided existing absolute URL and a relative URL component
+Evaluator.MatchesOwn.MatchesOwn(Pattern)	
+Elements.nextAll()	Get all of the following element siblings of each element in this list
+Attribute.Attribute(String,String)	Create a new attribute from unencoded raw key and value
+Element.prepend(String)	Add inner HTML into this element The supplied HTML will be parsed and each node prepended to the start of the element s children
+Elements.tagName(String)	Update the tag name of each matched element For example to change each i to a em do doc select i tagName em
+Connection.response(Response)	Set the connection s response
+HttpConnection.requestBody(String)	Description copied from interface Connection
+TokenQueue.consumeElementSelector()	Consume a CSS element selector tag name but instead of for namespaces or for wildcard namespace to not conflict with pseudo selects
+Element.is(String)	Check if this element matches the given Selector CSS query
+ConstrainableInputStream.timeout(long,long)	
+HttpConnection.request()	Description copied from interface Connection
+Element.getElementsMatchingText(Pattern)	Find elements whose text matches the supplied regular expression
+Node.toString()	
+Evaluator.TagEndsWith.TagEndsWith(String)	
+Whitelist.basicWithImages()	This whitelist allows the same text tags as basic and also allows img tags with appropriate attributes with src pointing to http or https
+HttpConnection.connect(URL)	
+Evaluator.Attribute.Attribute(String)	
+Elements.prev(String)	Get the immediate previous element sibling of each element in this list filtered by the query
+Attributes.html()	Get the HTML representation of these attributes
+Comment.baseUri()	Description copied from class Node
+HttpStatusException.toString()	
+NodeTraversor.traverse(NodeVisitor,Node)	Start a depth first traverse of the root and all of its descendants
+Evaluator.IsNthLastChild.IsNthLastChild(int,int)	
+Connection.Response.statusMessage()	Get the status message of the response
+Evaluator.AttributeWithValueContaining.AttributeWithValueContaining(String,String)	
+Evaluator.AttributeWithValueNot.toString()	
+Element.getElementsMatchingOwnText(Pattern)	Find elements whose own text matches the supplied regular expression
+DataNode.setWholeData(String)	Set the data contents of this node
+HttpConnection.response()	Description copied from interface Connection
+TextNode.text()	Get the text content of this text node
+Evaluator.Id.Id(String)	
+Element.appendChild(Node)	Add a node child node to this element
+TokenQueue.isEmpty()	Is the queue empty
+HttpConnection.Response.parse()	Description copied from interface Connection Response
+Element.insertChildren(int,)	Inserts the given child nodes into this element at the specified index Current nodes will be shifted to the right The inserted nodes will be moved from their current parent To prevent moving copy the nodes first
+HttpConnection.KeyVal.toString()	
+Evaluator.Matches.matches(Element,Element)	Description copied from class Evaluator
+Evaluator.AllElements.AllElements()	
+XmlTreeBuilder.processStartTag(String,Attributes)	
+Elements.remove()	Remove each matched element from the DOM This is similar to setting the outer HTML of each element to nothing E g HTML div p Hello p p there p img div doc select p remove HTML div img div Note that this method should not be used to clean user submitted HTML rather use Cleaner to clean HTML
+Elements.prepend(String)	Add the supplied HTML to the start of each matched element s inner HTML
+Elements.hasAttr(String)	Checks if any of the matched elements have this attribute defined
+Jsoup.parse(URL,int)	Fetch a URL and parse it as HTML Provided for compatibility in most cases use connect String instead The encoding character set is determined by the content type header or http equiv meta tag or falls back to UTF 8
+Document.OutputSettings.syntax()	Get the document s current output syntax
+Node.clearAttributes()	Clear remove all of the attributes in this node
+DocumentType.attributes()	Description copied from class Node
+Jsoup.parse(String,String,Parser)	Parse HTML into a Document using the provided Parser You can provide an alternate parser such as a simple XML non HTML parser
+ParseError.getPosition()	Retrieves the offset of the error
+Tag.isFormListed()	Get if this tag represents a control associated with a form E g input textarea output
+Whitelist.removeEnforcedAttribute(String,String)	Remove a previously configured enforced attribute from a tag
+FormElement.FormElement(Tag,String,Attributes)	Create a new standalone form element
+HttpConnection.Request.followRedirects(boolean)	Description copied from interface Connection Request
+Element.is(Evaluator)	Check if this element matches the given evaluator
+Evaluator.IsNthChild.IsNthChild(int,int)	
+Parser.parse(String,String)	Parse HTML into a Document
+Elements.first()	Get the first matched element
+Connection.cookies(Map)	Adds each of the supplied cookies to the request
+Jsoup.connect(String)	Creates a new Connection to a URL Use to fetch and parse a HTML page Use examples Document doc Jsoup connect http example com userAgent Mozilla data name jsoup get Document doc Jsoup connect http example com cookie auth token post
+Tag.isSelfClosing()	Get if this tag is self closing
+Document.createShell(String)	Create a valid empty shell of a document suitable for adding more elements to
+Evaluator.IsFirstOfType.toString()	
+Evaluator.MatchText.MatchText()	
+HttpConnection.followRedirects(boolean)	Description copied from interface Connection
+XmlDeclaration.nodeName()	Description copied from class Node
+Tag.formatAsBlock()	Gets if this tag should be formatted as a block or as inline
+ParseErrorList.tracking(int)	
+Element.dataNodes()	Get this element s child data nodes The list is unmodifiable but the data nodes may be manipulated This is effectively a filter on Node childNodes to get Data nodes
+Elements.attr(String,String)	Set an attribute on all matched elements
+TokenQueue.chompToIgnoreCase(String)	
+HttpConnection.KeyVal.value()	Description copied from interface Connection KeyVal
+Parser.setTreeBuilder(TreeBuilder)	Update the TreeBuilder used when parsing content
+Evaluator.IsNthLastOfType.IsNthLastOfType(int,int)	
+ChangeNotifyingArrayList.removeAll(Collection)	
+Whitelist.addTags()	Add a list of allowed elements to a whitelist If a tag is not allowed it will be removed from the HTML
+TextNode.attributes()	Description copied from class Node
+HttpConnection.post()	Description copied from interface Connection
+Attributes.asList()	Get the attributes as a List for iteration
+Element.siblingElements()	Get sibling elements If the element has no sibling elements returns an empty list An element is not a sibling of itself so will not be included in the returned list
+Attribute.clone()	
+Evaluator.MatchesOwn.matches(Element,Element)	Description copied from class Evaluator
+DataNode.baseUri()	Description copied from class Node
+XmlDeclaration.hasAttr(String)	Description copied from class Node
+Jsoup.parse(File,String,String)	Parse the contents of a file as HTML
+Evaluator.CssNthEvaluator.CssNthEvaluator(int,int)	
+DocumentType.attr(String)	Description copied from class Node
+Whitelist.removeAttributes(String,)	Remove a list of allowed attributes from a tag If an attribute is not allowed on an element it will be removed E g removeAttributes a href class disallows href and class attributes on a tags To make an attribute invalid for all tags use the pseudo tag all e g removeAttributes all class
+Collector.collect(Evaluator,Element)	Build a list of elements by visiting root and every descendant of root and testing it against the evaluator
+HtmlToPlainText.getPlainText(Element)	Format an Element to plain text
+ChangeNotifyingArrayList.retainAll(Collection)	
+Evaluator.AttributeWithValueEnding.matches(Element,Element)	Description copied from class Evaluator
+Tag.isBlock()	Gets if this is a block tag
+TokenQueue.matchesCS(String)	Case sensitive match test
+Parser.parseFragment(String,Element,String)	Parse a fragment of HTML into a list of nodes The context element if supplied supplies parsing context
+Element.val(String)	Set the value of a form element input textarea etc
+TokenQueue.TokenQueue(String)	Create a new TokenQueue
+Evaluator.IsFirstChild.IsFirstChild()	
+Node.after(Node)	Insert the specified node into the DOM after this node i e as a following sibling
+Node.hasParent()	
+Connection.Request.followRedirects()	Get the current followRedirects configuration
+CharacterReader.CharacterReader(String)	
+Document.nodeName()	Description copied from class Node
+Document.quirksMode(QuirksMode)	
+Element.empty()	Remove all of the element s child nodes Any attributes are left as is
+Evaluator.ContainsText.toString()	
+StringUtil.resolve(URL,String)	Create a new absolute URL from a provided existing absolute URL and a relative URL component
+Connection.postDataCharset(String)	Sets the default post data character set for x www form urlencoded post data
+HttpConnection.Request.proxy(Proxy)	Description copied from interface Connection Request
+Cleaner.Cleaner(Whitelist)	Create a new cleaner that sanitizes documents using the supplied whitelist
+Connection.execute()	Execute the request
+TokenQueue.consumeWhitespace()	Pulls the next run of whitespace characters of the queue
+Connection.Request.ignoreHttpErrors()	Get the current ignoreHttpErrors configuration
+Entities.codepointsForName(String,int[])	
+Normalizer.Normalizer()	
+HttpConnection.data(Collection)	Description copied from interface Connection
+Element.html()	Retrieves the element s inner HTML E g on a div with one empty p would return p p Whereas Node outerHtml would return div p p div
+DataNode.hasAttr(String)	Description copied from class Node
+ListLinks.main(String[])	
+XmlTreeBuilder.XmlTreeBuilder()	
+Validate.isFalse(boolean,String)	Validates that the value is false
+Document.OutputSettings.escapeMode()	Get the document s current HTML escape mode base which provides a limited set of named HTML entities and escapes other characters as numbered entities for maximum compatibility or extended which uses the complete set of HTML named entities The default escape mode is base
+Parser.unescapeEntities(String,boolean)	Utility method to unescape HTML entities from a string
+Element.childNodeSize()	Description copied from class Node
+DocumentType.absUrl(String)	Description copied from class Node
+HttpConnection.timeout(int)	Description copied from interface Connection
+Connection.Request.maxBodySize()	Get the maximum body size in bytes
+Element.getElementsByIndexLessThan(int)	Find elements whose sibling index is less than the supplied index
+Element.getAllElements()	Find all elements under this element including self and children of children
+ConstrainableInputStream.reset()	
+DocumentType.removeAttr(String)	Description copied from class Node
+Document.OutputSettings.charset(String)	Update the document s output charset
+Element.text(String)	Set the text of this element Any existing contents text or elements will be cleared
+Document.OutputSettings.outline(boolean)	Enable or disable HTML outline mode
+Elements.unwrap()	Removes the matched elements from the DOM and moves their children up into their parents This has the effect of dropping the elements but keeping their children This is useful for e g removing unwanted formatting elements but keeping their contents E g with HTML div font One font font a href Two a font div doc select font unwrap HTML div One a href Two a div
+Evaluator.IsLastChild.matches(Element,Element)	Description copied from class Evaluator
+Document.body()	Accessor to the document s body element
+Node.childNode(int)	Get a child node by its 0 based index
+Connection.Base.hasCookie(String)	Check if a cookie is present
+Document.normalise()	Normalise the document This happens after the parse phase so generally does not need to be called Moves any text content that is not in the body element into the body
+Node.hasSameValue(Object)	Check if this node is has the same content as another node A node is considered the same if its name attributes and content match the other node particularly its position in the tree does not influence its similarity
+Entities.getCharacterByName(String)	Get the Character value of the named entity
+Connection.requestBody(String)	Set a POST or PUT request body Useful when a server expects a plain request body not a set for URL encoded form key value pairs E g Jsoup connect url requestBody json header Content Type application json post If any data key vals are supplied they will be sent as URL query params
+TextNode.TextNode(String)	Create a new TextNode representing the supplied unencoded text
+Tag.isFormSubmittable()	Get if this tag represents an element that should be submitted with a form E g input option
+Evaluator.AttributeWithValueStarting.AttributeWithValueStarting(String,String)	
+Evaluator.IndexGreaterThan.matches(Element,Element)	Description copied from class Evaluator
+Elements.outerHtml()	Get the combined outer HTML of all matched elements
+Evaluator.ContainsData.matches(Element,Element)	Description copied from class Evaluator
+Element.selectFirst(String)	Find the first Element that matches the Selector CSS query with this element as the starting context This is effectively the same as calling element select query first but is more efficient as query execution stops on the first hit
+ParseError.toString()	
+NodeVisitor.head(Node,int)	Callback for when a node is first visited
+Wikipedia.Wikipedia()	
+HttpConnection.Response.statusMessage()	Description copied from interface Connection Response
+Validate.isFalse(boolean)	Validates that the value is false
+Evaluator.IsOnlyOfType.toString()	
+TokenQueue.matchesWord()	Test if the queue matches a word character letter or digit
+Element.attr(String,boolean)	Set a boolean attribute value on this element Setting to true sets the attribute value to and marks the attribute as boolean so no value is written out Setting to false removes the attribute with the same key if it exists
+Entities.unescape(String)	Un escape an HTML escaped string That is lt is returned as
+HttpConnection.KeyVal.hasInputStream()	Description copied from interface Connection KeyVal
+HttpConnection.KeyVal.inputStream()	Description copied from interface Connection KeyVal
+Evaluator.IsFirstChild.matches(Element,Element)	Description copied from class Evaluator
+Evaluator.Class.Class(String)	
+Document.clone()	Description copied from class Node
+Node.remove()	Remove delete this node from the DOM tree If this node has children they are also removed
+Connection.get()	Execute the request as a GET and parse the result
+Element.classNames()	Get all of the element s class names E g on element div class header gray returns a set of two elements header gray Note that modifications to this set are not pushed to the backing class attribute use the classNames java util Set method to persist them
+CharacterReader.consumeToAny()	Read characters until the first of any delimiters is found
+Evaluator.AttributeWithValueNot.matches(Element,Element)	Description copied from class Evaluator
+NodeTraversor.traverse(NodeVisitor,Elements)	Start a depth first traverse of all elements
+Connection.Request.data(KeyVal)	Add a data parameter to the request
+Whitelist.removeProtocols(String,String,)	Remove allowed URL protocols for an element s URL attribute If you remove all protocols for an attribute that attribute will allow any protocol E g removeProtocols a href ftp
+HttpConnection.data(String,String,InputStream,String)	Description copied from interface Connection
+FormElement.elements()	Get the list of form control elements associated with this form
+Element.getElementsByTag(String)	Finds elements including and recursively under this element with the specified tag name
+TextNode.toString()	
+XmlDeclaration.baseUri()	Description copied from class Node
+HttpConnection.Request.maxBodySize(int)	Description copied from interface Connection Request
+HttpConnection.KeyVal.key(String)	Description copied from interface Connection KeyVal
+Elements.removeAttr(String)	Remove an attribute from every matched element
+StringUtil.join(Collection,String)	Join a collection of strings by a separator
+Connection.Request.ignoreHttpErrors(boolean)	Configures the request to ignore HTTP errors in the response
+Element.getElementsByAttributeStarting(String)	Find elements that have an attribute name starting with the supplied prefix Use data to find elements that have HTML5 datasets
+HttpConnection.Request.ignoreContentType()	Description copied from interface Connection Request
+HttpConnection.url(String)	Description copied from interface Connection
+Elements.select(String)	Find matching elements within this element list
+Comment.attributes()	Description copied from class Node
+Element.shallowClone()	Description copied from class Node
+Document.quirksMode()	
+Element.toString()	
+Connection.Request.requestBody(String)	Set a POST or PUT request body Useful when a server expects a plain request body not a set for URL encoded form key value pairs E g Jsoup connect url requestBody json header Content Type application json post If any data key vals are supplied they will be sent as URL query params
+NodeFilter.head(Node,int)	Callback for when a node is first visited
+TokenQueue.peek()	Retrieves but does not remove the first character from the queue
+HttpConnection.parser(Parser)	Description copied from interface Connection
+Connection.Base.multiHeaders()	Retreive all of the headers keyed by the header name and with a list of values per header
+Entities.isBaseNamedEntity(String)	Check if the input is a known named entity in the base entity set
+TokenQueue.advance()	Drops the next character off the queue
+Wikipedia.main(String[])	
+W3CDom.W3CBuilder.tail(Node,int)	Description copied from interface NodeVisitor
+Comment.nodeName()	Description copied from class Node
+Connection.maxBodySize(int)	Set the maximum bytes to read from the uncompressed connection into the body before the connection is closed and the input truncated The default maximum is 1MB A max size of zero is treated as an infinite amount bounded only by your patience and the memory available on your machine
+Document.OutputSettings.outline()	Get if outline mode is enabled Default is false If enabled the HTML output methods will consider all tags as block
+DocumentType.hasAttr(String)	Description copied from class Node
+Comment.Comment(String)	Create a new comment node
+Document.OutputSettings.prettyPrint()	Get if pretty printing is enabled Default is true If disabled the HTML output methods will not re format the output and the output will generally look like the input
+Elements.toggleClass(String)	Toggle the class name on every matched element s class attribute
+Whitelist.basic()	This whitelist allows a fuller range of text nodes a b blockquote br cite code dd dl dt em i li ol p pre q small span strike strong sub sup u ul and appropriate attributes Links a elements can point to http https ftp mailto and have an enforced rel nofollow attribute Does not allow images
+Cleaner.clean(Document)	Creates a new clean document from the original dirty document containing only elements allowed by the whitelist The original document is not modified Only elements from the dirt document s body are used
+Element.appendTo(Element)	Add this element to the supplied parent element as its next child
+HttpConnection.referrer(String)	Description copied from interface Connection
+Jsoup.parse(InputStream,String,String,Parser)	Read an input stream and parse it to a Document You can provide an alternate parser such as a simple XML non HTML parser
+Elements.traverse(NodeVisitor)	Perform a depth first traversal on each of the selected elements
+Jsoup.parse(String,String)	Parse HTML into a Document The parser will make a sensible balanced document tree out of any HTML
+Validate.notEmpty(String,String)	Validates that the string is not empty
+Evaluator.AttributeWithValueEnding.toString()	
+Node.childNodesCopy()	Returns a deep copy of this node s children Changes made to these nodes will not be reflected in the original nodes
+DataNode.attributes()	Description copied from class Node
+Evaluator.AllElements.toString()	
+Node.previousSibling()	Get this node s previous sibling
+HttpConnection.data(String,String)	Description copied from interface Connection
+Attributes.equals(Object)	Checks if these attributes are equal to another set of attributes by comparing the two sets
+Node.clone()	Create a stand alone deep copy of this node and all of its children The cloned node will have no siblings or parent node As a stand alone object any changes made to the clone or any of its children will not impact the original node The cloned node may be adopted into another Document or node structure using Element appendChild Node
+Connection.data(Map)	Adds all of the supplied data to the request data parameters
+UnsupportedMimeTypeException.toString()	
+TokenQueue.consumeAttributeKey()	Consume an attribute key off the queue letter digit
+XmlDeclaration.XmlDeclaration(String,String,boolean)	Create a new XML declaration
+Attributes.put(String,String)	Set a new attribute or replace an existing one by key
+TokenQueue.consume(String)	Consumes the supplied sequence of the queue If the queue does not start with the supplied sequence will throw an illegal state exception but you should be running match against that condition Case insensitive
+Whitelist.removeTags()	Remove a list of allowed elements from a whitelist If a tag is not allowed it will be removed from the HTML
+W3CDom.W3CBuilder.head(Node,int)	Description copied from interface NodeVisitor
+NodeTraversor.filter(NodeFilter,Node)	Start a depth first filtering of the root and all of its descendants
+HttpConnection.proxy(Proxy)	Description copied from interface Connection
+FormElement.addElement(Element)	Add a form control element to this form
+Element.hasClass(String)	Tests if this element has a class Case insensitive
+Connection.Response.contentType()	Get the response content type e g text html
+Node.unwrap()	Removes this node from the DOM and moves its children up into the node s parent This has the effect of dropping the node but keeping its children For example with the input html div One span Two b Three b span div Calling element unwrap on the span element will result in the html div One Two b Three b div and the Two TextNode being returned
+Evaluator.AttributeWithValueContaining.matches(Element,Element)	Description copied from class Evaluator
+Connection.Request.timeout()	Get the request timeout in milliseconds
+Evaluator.IsEmpty.matches(Element,Element)	Description copied from class Evaluator
+Element.prependChild(Node)	Add a node to the start of this element s children
+DataNode.DataNode(String,String)	Create a new DataNode
+Evaluator.IsLastChild.IsLastChild()	
+Whitelist.simpleText()	This whitelist allows only simple text formatting b em i strong u All other HTML tags and attributes will be removed
+Validate.fail(String)	Cause a failure
+Connection.Response.charset(String)	Set override the response character set When the document body is parsed it will be with this charset
+HttpConnection.userAgent(String)	Description copied from interface Connection
+HttpConnection.Response.contentType()	Description copied from interface Connection Response
+Evaluator.CssNthEvaluator.matches(Element,Element)	Description copied from class Evaluator
+Element.getElementsByClass(String)	Find elements that have this class including or under this element Case insensitive Elements can have multiple classes e g div class header round first This method checks each class so you can find the above with el getElementsByClass header
+Evaluator.IsLastChild.toString()	
+Tag.isEmpty()	Get if this is an empty tag
+Parser.xmlParser()	Create a new XML parser This parser assumes no knowledge of the incoming tags and does not treat it as HTML rather creates a simple tree directly from the input
+Document.text(String)	Set the text of the body of this document Any existing nodes within the body will be cleared
+DataNode.createFromEncoded(String,String)	Create a new DataNode from HTML encoded data
+Document.createElement(String)	Create a new Element with this document s base uri Does not make the new element a child of this document
+Parser.parseFragment(String,Element,String,ParseErrorList)	Parse a fragment of HTML into a list of nodes The context element if supplied supplies parsing context
+Evaluator.IndexEquals.toString()	
+HttpConnection.Response.charset(String)	Description copied from interface Connection Response
+Connection.Base.header(String,String)	Set a header This method will overwrite any existing header with the same case insensitive name If there is more than one value for this header this method will update the first matching header
+Cleaner.isValidBodyHtml(String)	
+Tag.toString()	
+Element.before(Node)	Insert the specified node into the DOM before this node as a preceding sibling
+Connection.Request.parser(Parser)	Specify the parser to use when parsing the document
+Element.html(Connection.Base>)	Write this node and its children to the given Appendable
+NodeTraversor.traverse(Node)	Start a depth first traverse of the root and all of its descendants
+Connection.data(String,String,InputStream,String)	Add an input stream as a request data parameter For GETs has no effect but for POSTS this will upload the input stream
+Parser.parseBodyFragment(String,String)	Parse a fragment of HTML into the body of a Document
+Connection.url(String)	Set the request URL to fetch The protocol must be HTTP or HTTPS
+XmlDeclaration.name()	Get the name of this declaration
+UnsupportedMimeTypeException.getUrl()	
+Node.siblingIndex()	Get the list index of this node in its node sibling list I e if this is the first node sibling returns 0
+StringUtil.inSorted(String,String[])	
+Evaluator.Matches.toString()	
+Parser.parseXmlFragment(String,String)	Parse a fragment of XML into a list of nodes
+Connection.data(String,String,InputStream)	Add an input stream as a request data parameter For GETs has no effect but for POSTS this will upload the input stream
+StringUtil.stringBuilder()	Maintains a cached StringBuilder to minimize new StringBuilder GCs Prevents it from growing to big per thread Care must be taken to not grab more than one in the same stack not locked or mutexed or anything
+HttpConnection.Request.ignoreContentType(boolean)	Description copied from interface Connection Request
+Element.val()	Get the value of a form element input textarea etc
+Attribute.getValue()	Get the attribute value
+Comment.getData()	Get the contents of the comment
+Connection.Request.validateTLSCertificates()	Get the current state of TLS SSL certificate validation
+TokenQueue.chompTo(String)	Pulls a string off the queue like consumeTo and then pulls off the matched string but does not return it If the queue runs out of characters before finding the seq will return as much as it can and queue will go isEmpty true
+TokenQueue.remainder()	Consume and return whatever is left on the queue
+HttpConnection.Response.body()	Description copied from interface Connection Response
+HttpConnection.validateTLSCertificates(boolean)	Description copied from interface Connection
+Document.OutputSettings.charset()	Get the document s current output charset which is used to control which characters are escaped when generating HTML via the html methods and which are kept intact Where possible when parsing from a URL or File the document s output charset is automatically set to the input charset Otherwise it defaults to UTF 8
+Connection.KeyVal.value(String)	Update the value of a keyval
+Comment.Comment(String,String)	Create a new comment node
+Parser.setTrackErrors(int)	Enable or disable parse error tracking for the next parse
+Element.Element(Tag,String,Attributes)	Create a new standalone Element Standalone in that is has no parent
+Document.OutputSettings.prettyPrint(boolean)	Enable or disable pretty printing
+Connection.Base.hasHeaderWithValue(String,String)	Check if a header is present with the given value
+CharacterReader.pos()	Gets the current cursor position in the content
+Elements.hasText()	Test if any matched Element has any text content that is not just whitespace
+Connection.proxy(String,int)	Set the HTTP proxy to use for this request
+Node.root()	Get this node s root node that is its topmost ancestor If this node is the top ancestor returns this
+HttpConnection.Request.requestBody(String)	Description copied from interface Connection Request
+Element.getElementsByAttributeValue(String,String)	Find elements that have an attribute with the specific value Case insensitive
+Connection.proxy(Proxy)	Set the proxy to use for this request Set to null to disable
+Elements.Elements(List)	
+HttpConnection.Request.timeout(int)	Description copied from interface Connection Request
+Whitelist.addEnforcedAttribute(String,String,String)	Add an enforced attribute to a tag An enforced attribute will always be added to the element If the element already has the attribute set it will be overridden with this value E g addEnforcedAttribute a rel nofollow will make all a tags output as a href rel nofollow
+DocumentType.setPubSysKey(String)	
+Node.absUrl(String)	Get an absolute URL from a URL attribute that may be relative i e an a href or img src E g String absUrl linkEl absUrl href If the attribute value is already absolute i e it starts with a protocol like http or https etc and it successfully parses as a URL the attribute is returned directly Otherwise it is treated as a URL relative to the element s baseUri and made absolute using that As an alternate you can use the attr java lang String method with the abs prefix e g String absUrl linkEl attr abs href
+Attributes.getIgnoreCase(String)	Get an attribute s value by case insensitive key
+DataNode.absUrl(String)	Description copied from class Node
+Tag.canContainBlock()	Gets if this tag can contain block tags
+Element.children()	Get this element s child elements This is effectively a filter on Node childNodes to get Element nodes
+Document.updateMetaCharsetElement(boolean)	Sets whether the element with charset information in this document is updated on changes through Document charset Charset or not If set to false default there are no elements modified
+StringUtil.join(String[],String)	Join an array of strings by a separator
+HttpConnection.cookies(Map)	Description copied from interface Connection
+Evaluator.IndexEquals.matches(Element,Element)	Description copied from class Evaluator
+Attributes.hasKey(String)	Tests if these attributes contain an attribute with this key
+Element.isBlock()	Test if this element is a block level element E g div true or an inline element p false
+SerializationException.SerializationException()	Creates and initializes a new serialization exception with no error message and cause
+Selector.select(Evaluator,Element)	Find elements matching selector
+Connection.Base.url(URL)	Set the URL
+Element.getElementsByAttributeValueEnding(String,String)	Find elements that have attributes that end with the value suffix Case insensitive
+Element.getElementsByAttributeValueContaining(String,String)	Find elements that have attributes whose value contains the match string Case insensitive
+NodeTraversor.filter(NodeFilter,Elements)	Start a depth first filtering of all elements
+Connection.Base.header(String)	Get the value of a header If there is more than one header value with the same name the headers are returned comma seperated per rfc2616 sec4 Header names are case insensitive
+Elements.attr(String)	Get an attribute value from the first matched element that has the attribute
+Validate.isTrue(boolean,String)	Validates that the value is true
+Parser.getErrors()	Retrieve the parse errors if any from the last parse
+DocumentType.attr(String,String)	Description copied from class Node
+Tag.hashCode()	
+Parser.settings(ParseSettings)	
+Connection.Base.url()	Get the URL
+Node.equals(Object)	Check if this node is the same instance of another object identity test
+Connection.Request.timeout(int)	Update the request timeout
+Parser.settings()	
+FormElement.formData()	Get the data that this form submits The returned list is a copy of the data and changes to the contents of the list will not be reflected in the DOM
+HttpConnection.Request.ignoreHttpErrors()	Description copied from interface Connection Request
+Entities.getByName(String)	Get the character s represented by the named entity
+DataNode.removeAttr(String)	Description copied from class Node
+Evaluator.IndexEquals.IndexEquals(int)	
+XmlDeclaration.attr(String,String)	Description copied from class Node
+Document.OutputSettings.indentAmount(int)	Set the indent amount for pretty printing
+Node.hasAttr(String)	Test if this element has an attribute Case insensitive
+Node.removeAttr(String)	Remove an attribute from this element
+DataNode.childNodeSize()	Description copied from class Node
+Attributes.toString()	
+Attribute.html()	Get the HTML representation of this attribute e g href index html
+HttpConnection.Response.bufferUp()	Description copied from interface Connection Response
+HtmlToPlainText.main()	
+Attributes.remove(String)	Remove an attribute by key Case sensitive
+Evaluator.ContainsText.ContainsText(String)	
+HttpConnection.Response.bodyStream()	Description copied from interface Connection Response
+Collector.findFirst(Evaluator,Element)	
+DocumentType.childNodeSize()	Description copied from class Node
+TextNode.nodeName()	Description copied from class Node
+Jsoup.parseBodyFragment(String)	Parse a fragment of HTML with the assumption that it forms the body of the HTML
+Jsoup.parse(InputStream,String,String)	Read an input stream and parse it to a Document
+Node.traverse(NodeVisitor)	Perform a depth first traversal through this node and its descendants
+Node.filter(NodeFilter)	Perform a depth first filtering through this node and its descendants
+Document.title()	Get the string contents of the document s title element
+TextNode.splitText(int)	Split this text node into two nodes at the specified string offset After splitting this node will contain the original text up to the offset and will have a new text node sibling containing the text after the offset
+Normalizer.normalize(String)	
+Connection.data()	Add a number of request data parameters Multiple parameters may be set at once e g data name jsoup language Java language English creates a query string like name jsoup language Java language English
+HttpConnection.Request.postDataCharset()	Description copied from interface Connection Request
+Evaluator.IsLastOfType.IsLastOfType()	
+Element.firstElementSibling()	Gets the first element sibling of this element
+QueryParser.parse(String)	Parse a CSS query into an Evaluator
+Document.OutputSettings.escapeMode(EscapeMode)	Set the document s escape mode which determines how characters are escaped when the output character set does not support a given character using either a named or a numbered escape
+HttpConnection.Request.requestBody()	Description copied from interface Connection Request
+Evaluator.IsOnlyOfType.IsOnlyOfType()	
+ChangeNotifyingArrayList.set(int,E)	
+HttpConnection.Request.maxBodySize()	Description copied from interface Connection Request
+Evaluator.IndexLessThan.matches(Element,Element)	Description copied from class Evaluator
+Evaluator.AttributeWithValueMatching.AttributeWithValueMatching(String,Pattern)	
+StringUtil.join(Iterator,String)	Join a collection of strings by a separator
+SerializationException.SerializationException(String,Throwable)	Creates and initializes a new serialization exception with the given error message and cause
+Elements.prev()	Get the immediate previous element sibling of each element in this list
+Connection.Request.proxy()	Get the proxy used for this request
+Attributes.removeIgnoreCase(String)	Remove an attribute by key Case insensitive
+Entities.isNamedEntity(String)	Check if the input is a known named entity
+Elements.is(String)	Test if any of the matched elements match the supplied query
+Evaluator.matches(Element,Element)	Test if the element meets the evaluator s requirements
+TextNode.attr(String)	Description copied from class Node
+Evaluator.MatchText.toString()	
+Connection.Base.hasHeader(String)	Check if a header is present
+Document.OutputSettings.charset(Charset)	Update the document s output charset
+Evaluator.ContainsOwnText.toString()	
+StringUtil.isNumeric(String)	Tests if a string is numeric i e contains only digit characters
+TextNode.hasAttr(String)	Description copied from class Node
+Connection.validateTLSCertificates(boolean)	Disable enable TLS certificates validation for HTTPS requests By default this is true all connections over HTTPS perform normal validation of certificates and will abort requests if the provided certificate does not validate Some servers use expired self generated certificates or your JDK may not support SNI hosts In which case you may want to enable this setting Be careful and understand why you need to disable these validations
+Normalizer.lowerCase(String)	
+Evaluator.IsFirstOfType.IsFirstOfType()	
+DocumentType.DocumentType(String,String,String)	Create a new doctype element
+HttpConnection.KeyVal.key()	Description copied from interface Connection KeyVal
+Connection.KeyVal.inputStream()	Get the input stream associated with this keyval if any
+Node.childNodes()	Get this node s children Presented as an unmodifiable list new children can not be added but the child nodes themselves can be manipulated
+TokenQueue.consumeCssIdentifier()	Consume a CSS identifier ID or class off the queue letter digit http www w3 org TR CSS2 syndata html value def identifier
+Node.siblingNodes()	Retrieves this node s sibling nodes Similar to node parent childNodes but does not include this node a node is not a sibling of itself

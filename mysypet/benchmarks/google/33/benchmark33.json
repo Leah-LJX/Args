@@ -1,0 +1,23 @@
+{
+  "id": 33,
+  "description": "Distance from a point to a line",
+  "methodName": "distance",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+    "java.awt.geom.Point2D",
+    "java.awt.geom.Point2D",
+    "java.awt.geom.Point2D"
+  ],
+  "tgtType": "double",
+  "packages": [
+    "java.awt.geom"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/test/33/TestSource.java"
+}

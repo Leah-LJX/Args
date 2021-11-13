@@ -1,0 +1,210 @@
+JSONTokener.nextClean()	Get the next char in the string skipping whitespace
+JSONML.toJSONArray(XMLTokener)	Convert a well formed but not necessarily valid XML string into a JSONArray using the JsonML transform Each XML tag is represented as a JSONArray in which the first element is the tag name If the tag has attributes then the second element will be JSONObject containing the name value pairs If the tag contains children then strings and JSONArrays will represent the child content and tags
+JSONObject.put(String,double)	Put a key double pair in the JSONObject
+JSONObject.doubleToString(double)	Produce a string from a double The string null will be returned if the number is not finite
+JSONArray.iterator()	
+JSONTokener.JSONTokener(InputStream)	Construct a JSONTokener from an InputStream
+JSONArray.length()	Get the number of elements in the JSONArray included nulls
+JSONObject.optEnum(Class,String,E)	Get the enum value associated with a key
+JSONTokener.end()	
+JSONObject.wrap(Object)	Wrap an object if necessary If the object is null return the NULL object If it is an array or collection wrap it in a JSONArray If it is a map wrap it in a JSONObject If it is a standard property Double String et al then it is already wrapped Otherwise if it comes from one of the java packages turn it into a string And if it doesn t try to wrap it in a JSONObject If the wrapping fails then null is returned
+JSONArray.write(Writer,int,int)	Write the contents of the JSONArray as JSON text to a writer For compactness no whitespace is added
+JSONArray.put(double)	Append a double value This increases the array s length by one
+JSONTokener.nextTo(char)	Get the text up but not including the specified character or the end of line whichever comes first
+CDL.rowToJSONObject(JSONArray,JSONTokener)	Produce a JSONObject from a row of comma delimited text using a parallel JSONArray of strings to provides the names of the elements
+JSONObject.getJSONArray(String)	Get the JSONArray value associated with a key
+JSONTokener.more()	Determine if the source string still contains characters that next can consume
+JSONObject.keys()	Get an enumeration of the keys of the JSONObject
+JSONObject.JSONObject(String,Locale)	Construct a JSONObject from a ResourceBundle
+JSONML.toJSONArray(String)	Convert a well formed but not necessarily valid XML string into a JSONArray using the JsonML transform Each XML tag is represented as a JSONArray in which the first element is the tag name If the tag has attributes then the second element will be JSONObject containing the name value pairs If the tag contains children then strings and JSONArrays will represent the child tags
+JSONObject.keySet()	Get a set of keys of the JSONObject
+CDL.toJSONArray(JSONArray,String)	Produce a JSONArray of JSONObjects from a comma delimited text string using a supplied JSONArray as the source of element names
+JSONArray.put(int,Object)	Put or replace an object value in the JSONArray If the index is greater than the length of the JSONArray then null elements will be added as necessary to pad it out
+HTTP.toJSONObject(String)	Convert an HTTP header string into a JSONObject It can be a request header or a response header A request header will contain Method POST for example Request URI for example HTTP Version HTTP 1 1 for example A response header will contain HTTP Version HTTP 1 1 for example Status Code 200 for example Reason Phrase OK for example In addition the other parameters in the header will be captured using the HTTP field names as JSON names so that Date Sun 26 May 2002 18 06 04 GMT Cookie Q q2 PPEAsg B 677gi6ouf29bn b 2 f s Cache Control no cache become
+JSONWriter.value(double)	Append a double value
+JSONArray.put(int,Map)	Put a value in the JSONArray where the value will be a JSONObject that is produced from a Map
+JSONObject.remove(String)	Remove a name and its value if present
+JSONString.toJSONString()	The toJSONString method allows a class to produce its own JSON serialization
+JSONArray.getEnum(Class,int)	Get the enum value associated with an index
+JSONArray.optInt(int,int)	Get the optional int value associated with an index The defaultValue is returned if there is no value for the index or if the value is not a number and cannot be converted to a number
+JSONObject.similar(Object)	Determine if two JSONObjects are similar
+Cookie.unescape(String)	Convert hh sequences to single characters and convert plus to space
+Cookie.Cookie()	
+XMLTokener.nextToken()	Get the next XML Token These tokens are found inside of angle brackets It may be one of these characters or it may be a string wrapped in single quotes or double quotes or it may be a name
+JSONArray.optDouble(int)	Get the optional double value associated with an index NaN is returned if there is no value for the index or if the value is not a number and cannot be converted to a number
+JSONObject.increment(String)	Increment a property of a JSONObject If there is no such property create one with a value of 1 If there is such a property and if it is an Integer Long Double or Float then add one to it
+JSONObject.getLong(String)	Get the long value associated with a key
+JSONArray.JSONArray(Object)	Construct a JSONArray from an array
+Property.toJSONObject(Properties)	Converts a property file object into a JSONObject The property file object is a table of name value pairs
+JSONObject.JSONObject(JSONTokener)	Construct a JSONObject from a JSONTokener
+XML.escape(String)	Replace special characters with XML escapes ampersand is replaced by amp less than is replaced by lt greater than is replaced by gt double quote is replaced by quot
+JSONArray.getBoolean(int)	Get the boolean value associated with an index The string values true and false are converted to boolean
+JSONObject.toString(int)	Make a prettyprinted JSON text of this JSONObject
+XMLTokener.nextMeta()	Returns the next XML meta token This is used for skipping over and structures
+JSONArray.toString()	Make a JSON text of this JSONArray For compactness no unnecessary whitespace is added If it is not possible to produce a syntactically correct JSON text then null will be returned instead This could occur if the array contains an invalid number
+Cookie.escape(String)	Produce a copy of a string in which the characters and control characters are replaced with hh This is a gentle form of URL encoding attempting to cause as little distortion to the string as possible The characters and are meta characters in cookies By convention they are escaped using the URL encoding This is only a convention not a standard Often cookies are expected to have encoded values We encode and because we must We encode and because they are meta characters in URL encoding
+HTTP.toString(JSONObject)	Convert a JSONObject into an HTTP header A request header must contain Method POST for example Request URI for example HTTP Version HTTP 1 1 for example A response header must contain HTTP Version HTTP 1 1 for example Status Code 200 for example Reason Phrase OK for example Any other members of the JSONObject will be output as HTTP fields
+JSONObject.getDouble(String)	Get the double value associated with a key
+JSONObject.has(String)	Determine if the JSONObject contains a specific key
+JSONObject.testValidity(Object)	Throw an exception if the object is a NaN or infinite number
+JSONObject.JSONObject(Map)	Construct a JSONObject from a Map
+JSONArray.put(Object)	Append an object value This increases the array s length by one
+JSONArray.similar(Object)	Determine if two JSONArrays are similar
+JSONArray.put(boolean)	Append a boolean value This increases the array s length by one
+JSONTokener.toString()	Make a printable string of this JSONTokener
+JSONWriter.object()	Begin appending a new object All keys and values until the balancing endObject will be appended to this object The endObject method must be called to mark the object s end
+JSONTokener.nextString(char)	Return the characters up to the next close quote character
+JSONArray.JSONArray(String)	Construct a JSONArray from a source JSON text
+JSONStringer.toString()	Return the JSON text This method is used to obtain the product of the JSONStringer instance It will return null if there was a problem in the construction of the JSON text such as the calls to array were not properly balanced with calls to endArray
+JSONObject.optBigInteger(String,BigInteger)	Get an optional BigInteger associated with a key or the defaultValue if there is no such key or if its value is not a number If the value is a string an attempt will be made to evaluate it as a number
+JSONObject.isNull(String)	Determine if the value associated with the key is null or if there is no value
+JSONArray.put(int,Collection)	Put a value in the JSONArray where the value will be a JSONArray which is produced from a Collection
+JSONArray.put(int,long)	Put or replace a long value If the index is greater than the length of the JSONArray then null elements will be added as necessary to pad it out
+JSONObject.write(Writer,int,int)	Write the contents of the JSONObject as JSON text to a writer For compactness no whitespace is added
+JSONObject.get(String)	Get the value object associated with a key
+JSONObject.optJSONArray(String)	Get an optional JSONArray associated with a key It returns null if there is no such key or if its value is not a JSONArray
+JSONTokener.next()	Get the next character in the source string
+XMLTokener.nextEntity(char)	Return the next entity These entities are translated to Characters
+JSONTokener.JSONTokener(String)	Construct a JSONTokener from a string
+JSONObject.put(String,boolean)	Put a key boolean pair in the JSONObject
+JSONObject.getString(String)	Get the string associated with a key
+JSONArray.optDouble(int,double)	Get the optional double value associated with an index The defaultValue is returned if there is no value for the index or if the value is not a number and cannot be converted to a number
+JSONObject.optInt(String)	Get an optional int value associated with a key or zero if there is no such key or if the value is not a number If the value is a string an attempt will be made to evaluate it as a number
+JSONArray.join(String)	Make a string from the contents of this JSONArray The separator string is inserted between each element Warning This method assumes that the data structure is acyclical
+JSONTokener.JSONTokener(Reader)	Construct a JSONTokener from a Reader
+JSONObject.optJSONObject(String)	Get an optional JSONObject associated with a key It returns null if there is no such key or if its value is not a JSONObject
+JSONArray.opt(int)	Get the optional object value associated with an index
+JSONArray.optBoolean(int)	Get the optional boolean value associated with an index It returns false if there is no value at that index or if the value is not Boolean TRUE or the String true
+JSONObject.optBoolean(String,boolean)	Get an optional boolean associated with a key It returns the defaultValue if there is no such key or if it is not a Boolean or the String true or false case insensitive
+JSONTokener.next(char)	Consume the next character and check that it matches a specified character
+JSONException.JSONException(String,Throwable)	Constructs a JSONException with an explanatory message and cause
+JSONObject.getNames(JSONObject)	Get an array of field names from a JSONObject
+JSONObject.optBoolean(String)	Get an optional boolean associated with a key It returns false if there is no such key or if the value is not Boolean TRUE or the String true
+JSONArray.optEnum(Class,int,E)	Get the enum value associated with a key
+JSONML.toJSONObject(XMLTokener)	Convert a well formed but not necessarily valid XML string into a JSONObject using the JsonML transform Each XML tag is represented as a JSONObject with a tagName property If the tag has attributes then the attributes will be in the JSONObject as properties If the tag contains children the object will have a childNodes property which will be an array of strings and JsonML JSONObjects
+JSONObject.JSONObject(Object,String[])	Construct a JSONObject from an Object using reflection to find the public members The resulting JSONObject s keys will be the strings from the names array and the values will be the field values associated with those keys in the object If a key is not found or not visible then it will not be copied into the new JSONObject
+JSONArray.JSONArray(Collection)	Construct a JSONArray from a Collection
+JSONWriter.JSONWriter(Writer)	Make a fresh JSONWriter It can be used to build one JSON text
+JSONWriter.value(Object)	Append an object value
+CDL.rowToJSONArray(JSONTokener)	Produce a JSONArray of strings from a row of comma delimited values
+JSONTokener.next(int)	Get the next n characters
+CookieList.CookieList()	
+JSONObject.length()	Get the number of keys stored in the JSONObject
+CDL.rowToString(JSONArray)	Produce a comma delimited text row from a JSONArray Values containing the comma character will be quoted Troublesome characters may be removed
+JSONObject.JSONObject(JSONObject,String[])	Construct a JSONObject from a subset of another JSONObject An array of strings is used to identify the keys that should be copied Missing keys are ignored
+JSONObject.getNames(Object)	Get an array of field names from an Object
+CookieList.toString(JSONObject)	Convert a JSONObject into a cookie list A cookie list is a sequence of name value pairs The names are separated from the values by
+JSONArray.optEnum(Class,int)	Get the enum value associated with a key
+JSONObject.putOpt(String,Object)	Put a key value pair in the JSONObject but only if the key and the value are both non null
+XML.stringToValue(String)	This method has been deprecated in favor of the JSONObject stringToValue String method Use it instead
+JSONArray.getBigInteger(int)	Get the BigInteger value associated with an index
+JSONWriter.endObject()	End an object This method most be called to balance calls to object
+JSONArray.getJSONObject(int)	Get the JSONObject associated with an index
+JSONObject.getBigInteger(String)	Get the BigInteger value associated with a key
+JSONException.JSONException(Throwable)	Constructs a new JSONException with the specified cause
+JSONML.JSONML()	
+JSONArray.optString(int,String)	Get the optional string associated with an index The defaultValue is returned if the key is not found
+JSONArray.toJSONObject(JSONArray)	Produce a JSONObject by combining a JSONArray of names with the values of this JSONArray
+JSONObject.getJSONObject(String)	Get the JSONObject value associated with a key
+JSONObject.toJSONArray(JSONArray)	Produce a JSONArray containing the values of the members of this JSONObject
+JSONObject.optLong(String)	Get an optional long value associated with a key or zero if there is no such key or if the value is not a number If the value is a string an attempt will be made to evaluate it as a number
+JSONObject.getBoolean(String)	Get the boolean value associated with a key
+Property.Property()	
+XMLTokener.skipPast(String)	Skip characters until past the requested string
+JSONObject.quote(String)	Produce a string in double quotes with backslash sequences in all the right places A backslash will be inserted within producing Parameters string A String Returns A String correctly formatted for insertion in a JSON text
+JSONObject.JSONObject(Object)	Construct a JSONObject from an Object using bean getters It reflects on all of the public methods of the object For each of the methods with no parameters and a name starting with get or is followed by an uppercase letter the method is invoked and a key and the value returned from the getter method are put into the new JSONObject
+JSONObject.put(String,Collection)	Put a key value pair in the JSONObject where the value will be a JSONArray which is produced from a Collection
+JSONArray.remove(int)	Remove an index and close the hole
+JSONObject.getInt(String)	Get the int value associated with a key
+CDL.toJSONArray(JSONTokener)	Produce a JSONArray of JSONObjects from a comma delimited text string using the first row as a source of names
+JSONArray.optInt(int)	Get the optional int value associated with an index Zero is returned if there is no value for the index or if the value is not a number and cannot be converted to a number
+JSONObject.JSONObject()	Construct an empty JSONObject
+JSONArray.get(int)	Get the object value associated with an index
+JSONObject.optLong(String,long)	Get an optional long value associated with a key or the default if there is no such key or if the value is not a number If the value is a string an attempt will be made to evaluate it as a number
+JSONWriter.key(String)	Append a key The key will be associated with the next value In an object every value must be preceded by a key
+JSONWriter.array()	Begin appending a new array All values until the balancing endArray will be appended to this array The endArray method must be called to mark the array s end
+CookieList.toJSONObject(String)	Convert a cookie list into a JSONObject A cookie list is a sequence of name value pairs The names are separated from the values by
+JSONObject.opt(String)	Get an optional value associated with a key
+JSONTokener.back()	Back up one character This provides a sort of lookahead capability so that you can test for a digit or letter before attempting to parse the next number or identifier
+JSONArray.put(int,int)	Put or replace an int value If the index is greater than the length of the JSONArray then null elements will be added as necessary to pad it out
+Cookie.toString(JSONObject)	Convert a JSONObject into a cookie specification string The JSONObject must contain name and value members
+JSONObject.put(String,Map)	Put a key value pair in the JSONObject where the value will be a JSONObject which is produced from a Map
+JSONArray.getInt(int)	Get the int value associated with an index
+JSONArray.write(Writer)	Write the contents of the JSONArray as JSON text to a writer For compactness no whitespace is added
+JSONArray.put(Map)	Put a value in the JSONArray where the value will be a JSONObject which is produced from a Map
+HTTPTokener.nextToken()	Get the next token or string This is used in parsing HTTP headers
+JSONObject.put(String,int)	Put a key int pair in the JSONObject
+XML.noSpace(String)	Throw an exception if the string contains whitespace Whitespace is not allowed in tagNames and attributes
+JSONWriter.endArray()	End an array This method most be called to balance calls to array
+JSONObject.getBigDecimal(String)	Get the BigDecimal value associated with a key
+JSONObject.write(Writer)	Write the contents of the JSONObject as JSON text to a writer For compactness no whitespace is added
+JSONObject.optBigDecimal(String,BigDecimal)	Get an optional BigDecimal associated with a key or the defaultValue if there is no such key or if its value is not a number If the value is a string an attempt will be made to evaluate it as a number
+JSONWriter.value(long)	Append a long value
+JSONWriter.value(boolean)	Append either the value true or the value false
+JSONObject.optString(String,String)	Get an optional string associated with a key It returns the defaultValue if there is no such key
+JSONArray.getDouble(int)	Get the double value associated with an index
+JSONArray.isNull(int)	Determine if the value is null
+JSONObject.numberToString(Number)	Produce a string from a Number
+JSONArray.put(int)	Append an int value This increases the array s length by one
+JSONTokener.syntaxError(String)	Make a JSONException to signal a syntax error
+JSONObject.quote(String,Writer)	
+JSONArray.optBoolean(int,boolean)	Get the optional boolean value associated with an index It returns the defaultValue if there is no value at that index or if it is not a Boolean or the String true or false case insensitive
+XML.toString(Object)	Convert a JSONObject into a well formed element normal XML string
+JSONArray.put(int,boolean)	Put or replace a boolean value in the JSONArray If the index is greater than the length of the JSONArray then null elements will be added as necessary to pad it out
+JSONObject.putOnce(String,Object)	Put a key value pair in the JSONObject but only if the key and the value are both non null and only if there is not already a member with that name
+JSONObject.valueToString(Object)	Make a JSON text of an Object value If the object has an value toJSONString method then that method will be used to produce the JSON text The method is required to produce a strictly conforming text
+JSONObject.names()	Produce a JSONArray containing the names of the elements of this JSONObject
+JSONObject.JSONObject(String)	Construct a JSONObject from a source JSON text string This is the most commonly used JSONObject constructor
+JSONArray.put(Collection)	Put a value in the JSONArray where the value will be a JSONArray which is produced from a Collection
+JSONObject.stringToValue(String)	Try to convert a string into a number boolean or null If the string can t be converted return the string
+JSONArray.optLong(int,long)	Get the optional long value associated with an index The defaultValue is returned if there is no value for the index or if the value is not a number and cannot be converted to a number
+JSONML.toJSONObject(String)	Convert a well formed but not necessarily valid XML string into a JSONObject using the JsonML transform Each XML tag is represented as a JSONObject with a tagName property If the tag has attributes then the attributes will be in the JSONObject as properties If the tag contains children the object will have a childNodes property which will be an array of strings and JsonML JSONObjects
+XML.XML()	
+JSONObject.toString()	Make a JSON text of this JSONObject For compactness no whitespace is added If this would not result in a syntactically correct JSON text then null will be returned instead
+JSONArray.optBigInteger(int,BigInteger)	Get the optional BigInteger value associated with an index The defaultValue is returned if there is no value for the index or if the value is not a number and cannot be converted to a number
+CDL.toJSONArray(String)	Produce a JSONArray of JSONObjects from a comma delimited text string using the first row as a source of names
+JSONTokener.dehexchar(char)	Get the hex value of a character base16
+Cookie.toJSONObject(String)	Convert a cookie specification string into a JSONObject The string will contain a name value pair separated by The name and the value will be unescaped possibly converting and sequences The cookie properties may follow separated by also represented as name value except the secure property which does not have a value
+JSONObject.optInt(String,int)	Get an optional int value associated with a key or the default if there is no such key or if the value is not a number If the value is a string an attempt will be made to evaluate it as a number
+JSONML.toString(JSONArray)	Reverse the JSONML transformation making an XML text from a JSONArray
+JSONArray.optJSONObject(int)	Get the optional JSONObject associated with an index Null is returned if the key is not found or null if the index has no value or if the value is not a JSONObject
+CDL.CDL()	
+JSONObject.put(String,long)	Put a key long pair in the JSONObject
+JSONArray.toString(int)	Make a prettyprinted JSON text of this JSONArray Warning This method assumes that the data structure is acyclical
+Property.toProperties(JSONObject)	Converts the JSONObject into a property file object
+HTTP.HTTP()	
+JSONArray.optJSONArray(int)	Get the optional JSONArray associated with an index
+CDL.toString(JSONArray)	Produce a comma delimited text from a JSONArray of JSONObjects The first row will be a list of names obtained by inspecting the first JSONObject
+JSONArray.put(long)	Append an long value This increases the array s length by one
+XML.toJSONObject(String)	Convert a well formed but not necessarily valid XML string into a JSONObject Some information may be lost in this transformation because JSON is a data format and XML is a document format XML uses elements attributes and content text while JSON uses unordered collections of name value pairs and arrays of values JSON does not does not like to distinguish between elements and attributes Sequences of similar elements are represented as JSONArrays Content text may be placed in a content member Comments prologs DTDs and are ignored
+JSONTokener.skipTo(char)	Skip characters until the next character is the requested character
+JSONObject.getEnum(Class,String)	Get the enum value associated with a key
+JSONTokener.nextValue()	Get the next value The value can be a Boolean Double Integer JSONArray JSONObject Long or String or the JSONObject NULL object
+JSONTokener.nextTo(String)	Get the text up but not including one of the specified delimiter characters or the end of line whichever comes first
+JSONArray.optBigDecimal(int,BigDecimal)	Get the optional BigDecimal value associated with an index The defaultValue is returned if there is no value for the index or if the value is not a number and cannot be converted to a number
+JSONArray.getString(int)	Get the string associated with an index
+JSONML.toString(JSONObject)	Reverse the JSONML transformation making an XML text from a JSONObject
+XMLTokener.nextCDATA()	Get the text in the CDATA block
+CDL.toJSONArray(JSONArray,JSONTokener)	Produce a JSONArray of JSONObjects from a comma delimited text string using a supplied JSONArray as the source of element names
+XMLTokener.nextContent()	Get the next XML outer token trimming whitespace There are two kinds of tokens the Returns A string or a Throws JSONException nextEntity public java lang Object nextEntity char ampersand throws JSONException Return the next entity These entities are translated to Characters
+JSONArray.getBigDecimal(int)	Get the BigDecimal value associated with an index
+JSONArray.getLong(int)	Get the long value associated with an index
+JSONObject.optDouble(String,double)	Get an optional double associated with a key or the defaultValue if there is no such key or if its value is not a number If the value is a string an attempt will be made to evaluate it as a number
+JSONObject.accumulate(String,Object)	Accumulate values under a key It is similar to the put method except that if there is already an object stored under the key then a JSONArray is stored under the key to hold all of the accumulated values If there is already a JSONArray then the new value is appended to it In contrast the put method replaces the previous value
+JSONArray.optLong(int)	Get the optional long value associated with an index Zero is returned if there is no value for the index or if the value is not a number and cannot be converted to a number
+JSONArray.put(int,double)	Put or replace a double value If the index is greater than the length of the JSONArray then null elements will be added as necessary to pad it out
+JSONArray.getJSONArray(int)	Get the JSONArray associated with an index
+JSONObject.optEnum(Class,String)	Get the enum value associated with a key
+CDL.toString(JSONArray,JSONArray)	Produce a comma delimited text from a JSONArray of JSONObjects using a provided list of names The list of names is not included in the output
+JSONException.JSONException(String)	Constructs a JSONException with an explanatory message
+JSONObject.optDouble(String)	Get an optional double associated with a key or NaN if there is no such key or if its value is not a number If the value is a string an attempt will be made to evaluate it as a number
+JSONArray.JSONArray()	Construct an empty JSONArray
+XMLTokener.XMLTokener(String)	Construct an XMLTokener from a string
+JSONObject.optString(String)	Get an optional string associated with a key It returns an empty string if there is no such key If the value is not a string and is not null then it is converted to a string
+JSONObject.append(String,Object)	Append values to the array under a key If the key does not exist in the JSONObject then the key is put in the JSONObject with its value being a JSONArray containing the value parameter If the key was already associated with a JSONArray then the value parameter is appended to it
+JSONObject.put(String,Object)	Put a key value pair in the JSONObject If the value is null then the key will be removed from the JSONObject if it is present
+HTTPTokener.HTTPTokener(String)	Construct an HTTPTokener from a string
+JSONStringer.JSONStringer()	Make a fresh JSONStringer It can be used to build one JSON text
+JSONArray.JSONArray(JSONTokener)	Construct a JSONArray from a JSONTokener
+XML.toString(Object,String)	Convert a JSONObject into a well formed element normal XML string
+JSONArray.optString(int)	Get the optional string value associated with an index It returns an empty string if there is no value at that index If the value is not a string and is not null then it is coverted to a string

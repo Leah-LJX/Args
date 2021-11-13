@@ -1,0 +1,10 @@
+Shape.contains(Rectangle2D)	Tests if the interior of the Shape entirely contains the specified Rectangle2D
+Shape.contains(double,double)	Tests if the specified coordinates are inside the boundary of the Shape as described by the definition of insideness
+Shape.getBounds()	Returns an integer Rectangle that completely encloses the Shape Note that there is no guarantee that the returned Rectangle is the smallest bounding box that encloses the Shape only that the Shape lies entirely within the indicated Rectangle The returned Rectangle might also fail to completely enclose the Shape if the Shape overflows the limited range of the integer data type The getBounds2D method generally returns a tighter bounding box due to its greater flexibility in representation
+Shape.getPathIterator(AffineTransform,double)	Returns an iterator object that iterates along the Shape boundary and provides access to a flattened view of the Shape outline geometry
+Shape.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+Shape.getPathIterator(AffineTransform)	Returns an iterator object that iterates along the Shape boundary and provides access to the geometry of the Shape outline If an optional AffineTransform is specified the coordinates returned in the iteration are transformed accordingly
+Shape.intersects(Rectangle2D)	Tests if the interior of the Shape intersects the interior of a specified Rectangle2D
+Shape.contains(Point2D)	Tests if a specified Point2D is inside the boundary of the Shape as described by the definition of insideness
+Shape.contains(double,double,double,double)	Tests if the interior of the Shape entirely contains the specified rectangular area All coordinates that lie inside the rectangular area must lie within the Shape for the entire rectanglar area to be considered contained within the Shape
+Shape.intersects(double,double,double,double)	Tests if the interior of the Shape intersects the interior of a specified rectangular area

@@ -1,0 +1,7 @@
+Base64.getMimeEncoder()	Returns a Base64 Encoder that encodes using the MIME type base64 encoding scheme
+Base64.getDecoder()	Returns a Base64 Decoder that decodes using the Basic type base64 encoding scheme
+Base64.getUrlEncoder()	Returns a Base64 Encoder that encodes using the URL and Filename safe type base64 encoding scheme
+Base64.getMimeDecoder()	Returns a Base64 Decoder that decodes using the MIME type base64 decoding scheme
+Base64.getEncoder()	Returns a Base64 Encoder that encodes using the Basic type base64 encoding scheme
+Base64.getMimeEncoder(int,byte[])	Returns a Base64 Encoder that encodes using the MIME type base64 encoding scheme with specified line length and line separators
+Base64.getUrlDecoder()	Returns a Base64 Decoder that decodes using the URL and Filename safe type base64 encoding scheme

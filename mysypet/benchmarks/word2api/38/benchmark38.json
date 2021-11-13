@@ -1,0 +1,19 @@
+{
+  "id": 38,
+  "description": "Read a line from a file java.io",
+  "methodName": "readFile",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.io.File"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+	  "java.io"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/word2api/38/TestSource.java"
+}

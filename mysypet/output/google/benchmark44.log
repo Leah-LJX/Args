@@ -1,0 +1,97 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/44/benchmark44.json
+     [java] Benchmark Id: 44
+     [java] Method name: hex2Float
+     [java] Packages: [java.lang.Long, java.lang.Float]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.String, int]
+     [java] Target type: float
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 44
+     [java] =========cnt:=========26
+     [java] #Classes: 4
+     [java] #Methods: 82
+     [java] Soot Time: 4156.798611
+     [java] PetriNet for path length: 1 [places: 48 ; transitions: 98 ; edges: 199]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 48 ; transitions: 98 ; edges: 199]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 48 ; transitions: 98 ; edges: 199]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 48 ; transitions: 98 ; edges: 199]
+     [java] =========sketch========
+     [java] <java.lang.Long: java.lang.Long valueOf(java.lang.String,int)>
+     [java] <java.lang.Long: int intValue()>
+     [java] <java.lang.Float: float intBitsToFloat(int)>
+     [java] #Program: 0
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 44
+     [java] Recommend Api Number:26
+     [java] Sketch Generation Time: 25.388648
+     [java] Sketch Completion Time: 7.9673169999999995
+     [java] Compilation Time: 354.355248
+     [java] Running Test cases Time: 0.170218
+     [java] Synthesis Time: 33.526182999999996
+     [java] Total Time: 4544.680042000001
+     [java] Number of components: 3
+     [java] Number of holes: 5
+     [java] Number of completed programs: 1
+     [java] Number of sketches: 1
+     [java] Solution:
+     [java]  java.lang.Long sypet_var3 = java.lang.Long.valueOf(sypet_arg0,sypet_arg1);
+     [java]  int sypet_var4 = sypet_var3.intValue();
+     [java]  float sypet_var5 = java.lang.Float.intBitsToFloat(sypet_var4);
+     [java]  return sypet_var5;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 5 seconds

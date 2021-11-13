@@ -1,0 +1,36 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/nlp2api/47/benchmark47.json
+     [java] Benchmark Id: 47
+     [java] Method name: getDivision
+     [java] Packages: [org.apache.commons.math3]
+     [java] Libraries: [./lib/commons-math3-3.5.jar]
+     [java] Source type(s): [int, int, int, int]
+     [java] Target type: org.apache.commons.math3.fraction.BigFraction
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] =========cnt:=========289
+     [java] #Classes: 1215
+     [java] #Methods: 9578
+     [java] Soot Time: 4776.899279
+     [java] PetriNet for path length: 1 [places: 69 ; transitions: 381 ; edges: 887]
+     [java] PetriNet for path length: 2 [places: 69 ; transitions: 381 ; edges: 887]
+     [java] PetriNet for path length: 3 [places: 69 ; transitions: 381 ; edges: 887]
+     [java] PetriNet for path length: 4 [places: 69 ; transitions: 381 ; edges: 887]
+
+BUILD FAILED
+/root/workspace/liujiaxin/mysypet/build.xml:75: Java returned: 137
+
+Total time: 1 minute 18 seconds

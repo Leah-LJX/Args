@@ -1,0 +1,1006 @@
+AbstractFieldMatrix.setColumnVector(int,FieldVector)	Set the entries in column number column as a vector
+JacobiPreconditioner.JacobiPreconditioner(double[],boolean)	Creates a new instance of this class
+AbstractRealMatrix.operate(RealVector)	Returns the result of multiplying this by the vector x
+Array2DRowFieldMatrix.getRowDimension()	Returns the number of rows in the matrix
+BlockRealMatrix.getFrobeniusNorm()	Returns the Frobenius norm of the matrix
+BlockFieldMatrix.getColumn(int)	Get the entries in column number col as an array
+AbstractFieldMatrix.walkInRowOrder(FieldMatrixPreservingVisitor)	Visit but don t change all matrix entries in row order
+FieldDecompositionSolver.solve(FieldVector)	Solve the linear equation A X B for matrices A
+SparseFieldVector.mapAdd(FieldElement)	Map an addition operation to each entry
+SparseFieldVector.outerProduct(SparseFieldVector)	Optimized method to compute outer product when both vectors are sparse
+Array2DRowRealMatrix.walkInColumnOrder(RealMatrixPreservingVisitor)	Visit but don t change all matrix entries in column order
+AbstractFieldMatrix.getField()	Get the type of field elements of the matrix
+ArrayFieldVector.walkInDefaultOrder(FieldVectorPreservingVisitor,int,int)	Visits but does not alter some entries of this vector in default order increasing index
+ArrayFieldVector.ArrayFieldVector(Field,FieldElement[],int,int)	Construct a vector from part of a array
+Array2DRowRealMatrix.walkInColumnOrder(RealMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in column order
+MatrixUtils.createFieldMatrix(T[][])	Returns a FieldMatrix whose entries are the the values in the the input array
+BlockRealMatrix.walkInRowOrder(RealMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in row order
+DiagonalMatrix.createMatrix(int,int)	Create a new RealMatrix of the same type as the instance with the supplied row and column dimensions
+RealVector.iterator()	Generic dense iterator Iteration is in increasing order of the vector index
+Array2DRowFieldMatrix.walkInRowOrder(FieldMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in row order
+ArrayFieldVector.ArrayFieldVector(FieldElement[],FieldVector)	Construct a vector by appending one vector to another vector
+BlockFieldMatrix.getData()	Returns matrix entries as a two dimensional array
+PreconditionedIterativeLinearSolver.solveInPlace(RealLinearOperator,RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b The solution is computed in place initial guess is modified
+ArrayFieldVector.ArrayFieldVector(FieldVector)	Construct a vector from another vector using a deep copy
+FieldMatrix.getRowMatrix(int)	Get the entries in row number row as a row matrix
+SingularOperatorException.SingularOperatorException()	Creates a new instance of this class
+DecompositionSolver.getInverse()	Get the pseudo inverse of the decomposed matrix
+RealVector.mapDivideToSelf(double)	Divide each entry by the argument
+Array2DRowRealMatrix.walkInColumnOrder(RealMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in column order
+DefaultFieldMatrixPreservingVisitor.start(int,int,int,int,int,int)	Start visiting a matrix
+FieldVector.getEntry(int)	Returns the entry in the specified index
+RealVector.walkInOptimizedOrder(RealVectorChangingVisitor,int,int)	Visits and possibly change some entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+FieldVector.mapAddToSelf(FieldElement)	Map an addition operation to each entry
+ArrayRealVector.addToEntry(int,double)	Change an entry at the specified index
+DefaultIterativeLinearSolverEvent.DefaultIterativeLinearSolverEvent(Object,int,RealVector,RealVector,double)	Creates a new instance of this class This implementation does not deep copy the specified vectors x b
+ArrayFieldVector.walkInOptimizedOrder(FieldVectorPreservingVisitor)	Visits but does not alter all entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+BlockRealMatrix.getNorm()	Returns the maximum absolute row sum norm of the matrix
+BlockFieldMatrix.BlockFieldMatrix(Field,int,int)	Create a new matrix with the supplied row and column dimensions
+MatrixDimensionMismatchException.getExpectedColumnDimension()	the expected column dimension
+RealVector.append(RealVector)	Construct a new vector by appending a vector to this vector
+RealLinearOperator.operateTranspose(RealVector)	Returns the result of multiplying the transpose of this operator by the vector x optional operation The default implementation throws an UnsupportedOperationException Users overriding this method must also override isTransposable
+FieldMatrix.preMultiply(FieldVector)	Returns the row vector result of premultiplying this by the vector v
+RectangularCholeskyDecomposition.getRank()	Get the rank of the symmetric positive semidefinite matrix
+PreconditionedIterativeLinearSolver.solve(RealLinearOperator,RealVector)	Returns an estimate of the solution to the linear system A x b
+FieldMatrix.operate(FieldVector)	Returns the result of multiplying this by the vector v
+RealVector.SparseEntryIterator.next()	
+BlockRealMatrix.walkInRowOrder(RealMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in row order
+BlockFieldMatrix.setRowMatrix(int,FieldMatrix)	Set the entries in row number row as a row matrix
+OpenMapRealVector.getLInfDistance(RealVector)	Distance between two vectors
+ArrayRealVector.getDataRef()	Get a reference to the underlying data array
+EigenDecomposition.getSolver()	Gets a solver for finding the A X B solution in exact linear sense
+MatrixUtils.checkMatrixIndex(AnyMatrix,int,int)	Check if matrix indices are valid
+RealLinearOperator.getColumnDimension()	Returns the dimension of the domain of this operator
+SparseFieldVector.mapSubtractToSelf(FieldElement)	Map a subtraction operation to each entry
+RealVectorFormat.getFormat()	Get the components format
+OpenMapRealVector.ebeMultiply(RealVector)	Element by element multiplication
+BlockRealMatrix.add(BlockRealMatrix)	Compute the sum of this matrix and m
+BlockFieldMatrix.toBlocksLayout(FieldElement[][])	Convert a data array from raw layout to blocks layout
+EigenDecomposition.getD()	Gets the block diagonal matrix D of the decomposition
+BlockRealMatrix.getRowMatrix(int)	Get the entries at the given row index as a row matrix Row indices start at 0
+OpenMapRealVector.subtract(RealVector)	Subtract v from this vector
+FieldMatrix.setEntry(int,int,FieldElement)	Set the entry in the specified row and column
+DiagonalMatrix.DiagonalMatrix(double[],boolean)	Creates a matrix using the input array as the underlying data
+OpenMapRealVector.getSubVector(int,int)	Get a subvector from consecutive elements
+DiagonalMatrix.getColumnDimension()	Returns the number of columns of this matrix
+BlockRealMatrix.setRowMatrix(int,BlockRealMatrix)	Sets the entries in row number row as a row matrix Row indices start at 0
+OpenMapRealVector.mapAdd(double)	Add a value to each entry
+ArrayRealVector.getSubVector(int,int)	Get a subvector from consecutive elements
+Array2DRowRealMatrix.walkInColumnOrder(RealMatrixChangingVisitor)	Visit and possibly change all matrix entries in column order
+ArrayRealVector.mapToSelf(UnivariateFunction)	Acts as if it is implemented as Entry e null for Iterator it iterator it hasNext e it next e setValue function value e getValue Entries of this vector are modified in place by this method
+RealVector.setEntry(int,double)	Set a single element
+RealLinearOperator.RealLinearOperator()	
+Array2DRowRealMatrix.preMultiply(double[])	Returns the row vector result of premultiplying this by the vector v
+BlockFieldMatrix.walkInRowOrder(FieldMatrixPreservingVisitor)	Visit but don t change all matrix entries in row order
+SparseFieldVector.append(FieldVector)	Construct a vector by appending a vector to this vector
+AbstractRealMatrix.getEntry(int,int)	Get the entry in the specified row and column Row and column indices start at 0
+ArrayRealVector.ArrayRealVector(double[],double[])	Construct a vector by appending one vector to another vector
+FieldMatrix.createMatrix(int,int)	Create a new FieldMatrix of the same type as the instance with the supplied row and column dimensions
+ArrayRealVector.isInfinite()	Check whether any coordinate of this vector is infinite and none are NaN
+OpenMapRealVector.isNaN()	Check whether any coordinate of this vector is NaN
+ArrayFieldVector.mapMultiplyToSelf(FieldElement)	Map a multiplication operation to each entry
+FieldVectorPreservingVisitor.end()	End visiting a vector This method is called once after all entries of the vector have been visited
+AbstractFieldMatrix.copySubMatrix(int[],int[],FieldElement[][])	Copy a submatrix Rows and columns are indicated counting from 0 to n 1
+FieldMatrix.copy()	Make a deep copy of this
+FieldMatrix.setRowMatrix(int,FieldMatrix)	Set the entries in row number row as a row matrix
+NonPositiveDefiniteMatrixException.getThreshold()	the absolute positivity threshold
+RealVector.getNorm()	Returns the L2 norm of the vector
+RealMatrix.walkInRowOrder(RealMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in row order
+ArrayFieldVector.copy()	Returns a deep copy of this
+AbstractRealMatrix.getNorm()	Returns the maximum absolute row sum norm of the matrix
+SingularValueDecomposition.getNorm()	Returns the L2 norm of the matrix
+ArrayRealVector.toString()	
+DiagonalMatrix.getEntry(int,int)	Get the entry in the specified row and column Row and column indices start at 0
+RealMatrixFormat.RealMatrixFormat()	Create an instance with default settings
+RealMatrix.setRowVector(int,RealVector)	Sets the specified row of this matrix to the entries of the specified vector Row indices start at 0
+ArrayRealVector.mapSubtractToSelf(double)	Subtract a value from each entry
+NonPositiveDefiniteMatrixException.NonPositiveDefiniteMatrixException(double,int,double)	Construct an exception
+FieldVector.mapMultiplyToSelf(FieldElement)	Map a multiplication operation to each entry
+MatrixUtils.createRealDiagonalMatrix(double[])	Returns a diagonal matrix with specified elements
+BlockRealMatrix.walkInOptimizedOrder(RealMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries using the fastest possible order
+Array2DRowFieldMatrix.getColumnDimension()	Returns the number of columns in the matrix
+RealVectorChangingVisitor.end()	End visiting a vector This method is called once after all entries of the vector have been visited
+AbstractRealMatrix.setRow(int,double[])	Sets the specified row of this matrix to the entries of the specified array Row indices start at 0
+OpenMapRealVector.getEntry(int)	Return the entry at the specified index
+MatrixUtils.createFieldMatrix(Field,int,int)	Returns a FieldMatrix with specified dimensions
+RealVectorFormat.format(RealVector)	This method calls format RealVector StringBuffer FieldPosition
+OpenMapRealVector.setEntry(int,double)	Set a single element
+RealVector.getMaxValue()	Get the value of the maximum entry
+OpenMapRealVector.equals(Object)	Test for the equality of two real vectors If all coordinates of two real vectors are exactly the same and none are NaN the two real vectors are considered to be equal NaN coordinates are considered to affect globally the vector and be equals to each other i e if either or all coordinates of the real vector are equal to NaN the real vector is equal to a vector with all NaN coordinates
+DefaultIterativeLinearSolverEvent.getSolution()	Returns the current estimate of the solution to the linear system to be solved This method should return an unmodifiable view or a deep copy of the actual current solution in order not to compromise subsequent iterations of the source IterativeLinearSolver
+MatrixUtils.checkColumnIndex(AnyMatrix,int)	Check if a column index is valid
+FieldLUDecomposition.getU()	Returns the matrix U of the decomposition
+RealVector.toArray()	Convert the vector to an array of doubles
+OpenMapRealVector.OpenMapEntry.getValue()	Get the value of the entry
+BlockRealMatrix.setRow(int,double[])	Sets the specified row of this matrix to the entries of the specified array Row indices start at 0
+OpenMapRealVector.sparseIterator()	Create a sparse iterator over the vector which may omit some entries
+ArrayRealVector.ArrayRealVector(RealVector)	Construct a vector from another vector using a deep copy
+RealMatrix.preMultiply(RealVector)	Returns the row vector result of premultiplying this by the vector v
+SparseFieldVector.getSubVector(int,int)	Get a subvector from consecutive elements
+FieldMatrixChangingVisitor.end()	End visiting a matrix
+OpenMapRealVector.OpenMapEntry.getIndex()	Get the index of the entry
+BlockFieldMatrix.getColumnVector(int)	Returns the entries in column number column as a vector
+SparseFieldVector.SparseFieldVector(SparseFieldVector)	Copy constructor
+ArrayRealVector.ArrayRealVector(ArrayRealVector,ArrayRealVector)	Construct a vector by appending one vector to another vector
+SymmLQ.solve(RealLinearOperator,RealVector,boolean,double)	Returns the solution to the system A shift I x b
+ArrayFieldVector.append(ArrayFieldVector)	Construct a vector by appending a vector to this vector
+IterativeLinearSolver.solveInPlace(RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b The solution is computed in place initial guess is modified
+FieldVectorChangingVisitor.visit(int,FieldElement)	Visit one entry of the vector
+EigenDecomposition.getVT()	Gets the transpose of the matrix V of the decomposition
+OpenMapRealVector.toArray()	Convert the vector to an array of doubles
+QRDecomposition.QRDecomposition(RealMatrix,double)	Calculates the QR decomposition of the given matrix
+RealVector.getMaxIndex()	Get the index of the maximum entry
+MatrixUtils.checkSymmetric(RealMatrix,double)	Checks whether a matrix is symmetric
+BlockRealMatrix.getColumn(int)	Get the entries at the given column index as an array Column indices start at 0
+ArrayRealVector.walkInDefaultOrder(RealVectorChangingVisitor,int,int)	Visits and possibly alters some entries of this vector in default order increasing index
+ArrayRealVector.walkInDefaultOrder(RealVectorPreservingVisitor)	Visits but does not alter all entries of this vector in default order increasing index
+DefaultFieldMatrixChangingVisitor.DefaultFieldMatrixChangingVisitor(FieldElement)	Build a new instance
+ArrayFieldVector.ebeMultiply(FieldVector)	Element by element multiplication
+BlockRealMatrix.BlockRealMatrix(double[][])	Create a new dense matrix copying entries from raw layout data
+JacobiPreconditioner.getColumnDimension()	Returns the dimension of the domain of this operator
+ArrayFieldVector.mapAdd(FieldElement)	Map an addition operation to each entry
+RealMatrix.setColumn(int,double[])	Sets the specified column of this matrix to the entries of the specified array Column indices start at 0
+ArrayFieldVector.setEntry(int,FieldElement)	Set a single element
+ArrayFieldVector.mapAddToSelf(FieldElement)	Map an addition operation to each entry
+EigenDecomposition.getImagEigenvalues()	Gets a copy of the imaginary parts of the eigenvalues of the original matrix
+RealVector.walkInOptimizedOrder(RealVectorPreservingVisitor)	Visits but does not alter all entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+OpenMapRealMatrix.multiply(RealMatrix)	Returns the result of postmultiplying this by m
+RealMatrixPreservingVisitor.end()	End visiting a matrix
+PreconditionedIterativeLinearSolver.solveInPlace(RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b The solution is computed in place initial guess is modified
+RealMatrix.walkInOptimizedOrder(RealMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries using the fastest possible order
+ArrayFieldVector.ArrayFieldVector(int,FieldElement)	Construct a vector with preset values
+RealMatrix.getNorm()	Returns the maximum absolute row sum norm of the matrix
+RealMatrix.setSubMatrix(double[][],int,int)	Replace the submatrix starting at row column using data in the input subMatrix array Indexes are 0 based
+RealMatrixChangingVisitor.visit(int,int,double)	Visit one matrix entry
+FieldMatrix.preMultiply(FieldMatrix)	Premultiply this matrix by m
+NonSelfAdjointOperatorException.NonSelfAdjointOperatorException()	Creates a new instance of this class
+FieldVector.mapSubtractToSelf(FieldElement)	Map a subtraction operation to each entry
+RealVector.projection(RealVector)	Find the orthogonal projection of this vector onto another vector
+AbstractRealMatrix.getSubMatrix(int[],int[])	Gets a submatrix Rows and columns are indicated counting from 0 to n 1
+SymmLQ.solve(RealLinearOperator,RealVector)	Returns an estimate of the solution to the linear system A x b
+ArrayFieldVector.walkInOptimizedOrder(FieldVectorChangingVisitor,int,int)	Visits and possibly change some entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+MatrixUtils.serializeRealMatrix(RealMatrix,ObjectOutputStream)	Serialize a RealMatrix
+ArrayFieldVector.ArrayFieldVector(FieldElement[],ArrayFieldVector)	Construct a vector by appending one vector to another vector
+Array2DRowRealMatrix.Array2DRowRealMatrix()	Creates a matrix with no data
+MatrixUtils.createRealIdentityMatrix(int)	Returns dimension x dimension identity matrix
+AbstractRealMatrix.scalarAdd(double)	Returns the result of adding d to each entry of this
+AbstractFieldMatrix.walkInColumnOrder(FieldMatrixPreservingVisitor)	Visit but don t change all matrix entries in column order
+CholeskyDecomposition.getDeterminant()	Return the determinant of the matrix
+MatrixUtils.inverse(RealMatrix,double)	Computes the inverse of the given matrix
+SingularValueDecomposition.getInverseConditionNumber()	Computes the inverse of the condition number
+FieldMatrix.multiply(FieldMatrix)	Postmultiply this matrix by m
+DiagonalMatrix.getData()	Returns matrix entries as a two dimensional array
+RealVector.walkInDefaultOrder(RealVectorPreservingVisitor)	Visits but does not alter all entries of this vector in default order increasing index
+SymmLQ.solve(RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b
+RealVector.mapDivide(double)	Divide each entry by the argument Returns a new vector
+MatrixUtils.inverse(RealMatrix)	Computes the inverse of the given matrix
+DefaultIterativeLinearSolverEvent.getRightHandSideVector()	Returns the current right hand side of the linear system to be solved
+FieldDecompositionSolver.solve(FieldMatrix)	Solve the linear equation A X B for matrices A
+PreconditionedIterativeLinearSolver.solve(RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b
+OpenMapRealMatrix.getRowDimension()	Returns the number of rows of this matrix
+BlockRealMatrix.getRowVector(int)	Returns the entries in row number row as a vector Row indices start at 0
+SparseFieldVector.getDimension()	Returns the size of the vector
+AbstractFieldMatrix.walkInOptimizedOrder(FieldMatrixPreservingVisitor)	Visit but don t change all matrix entries using the fastest possible order
+Array2DRowRealMatrix.Array2DRowRealMatrix(int,int)	Create a new RealMatrix with the supplied row and column dimensions
+AbstractRealMatrix.getColumn(int)	Get the entries at the given column index as an array Column indices start at 0
+AbstractFieldMatrix.multiply(FieldMatrix)	Postmultiply this matrix by m
+AbstractRealMatrix.power(int)	Returns the result of multiplying this with itself p times Depending on the underlying storage instability for high powers might occur
+FieldMatrix.getSubMatrix(int,int,int,int)	Get a submatrix Rows and columns are indicated counting from 0 to n 1
+ArrayFieldVector.walkInOptimizedOrder(FieldVectorPreservingVisitor,int,int)	Visits but does not alter some entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+FieldVector.append(FieldElement)	Construct a vector by appending a T to this vector
+RealMatrix.getColumn(int)	Get the entries at the given column index as an array Column indices start at 0
+Array2DRowRealMatrix.walkInRowOrder(RealMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in row order
+JacobiPreconditioner.create(RealLinearOperator)	Creates a new instance of this class This method extracts the diagonal coefficients of the specified linear operator If a does not extend AbstractRealMatrix then the coefficients of the underlying matrix are not accessible coefficient extraction is made by matrix vector products with the basis vectors and might therefore take some time With matrices direct entry access is carried out
+RealVector.getLInfNorm()	Returns the L norm of the vector
+RealMatrixPreservingVisitor.visit(int,int,double)	Visit one matrix entry
+AbstractRealMatrix.walkInColumnOrder(RealMatrixChangingVisitor)	Visit and possibly change all matrix entries in column order
+ArrayRealVector.subtract(RealVector)	Subtract v from this vector
+BlockFieldMatrix.multiplyEntry(int,int,FieldElement)	Change an entry in the specified row and column
+ArrayFieldVector.mapSubtractToSelf(FieldElement)	Map a subtraction operation to each entry
+ArrayRealVector.ArrayRealVector()	Build a 0 length vector
+MatrixUtils.checkAdditionCompatible(AnyMatrix,AnyMatrix)	Check if matrices are addition compatible
+RealMatrix.operate(double[])	Returns the result of multiplying this by the vector v
+RealVector.hashCode()	This method must be overriden by concrete subclasses of RealVector current implementation throws an exception
+AbstractFieldMatrix.getRowMatrix(int)	Get the entries in row number row as a row matrix
+RealVectorFormat.getInstance()	Returns the default real vector format for the current locale
+OpenMapRealVector.unitize()	Converts this vector into a unit vector
+ArrayRealVector.copy()	Returns a deep copy of this vector
+Array2DRowFieldMatrix.Array2DRowFieldMatrix(FieldElement[][],boolean)	Create a new FieldMatrix T using the input array as the underlying data array
+RealMatrix.walkInColumnOrder(RealMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in column order
+FieldMatrix.addToEntry(int,int,FieldElement)	Change an entry in the specified row and column
+RealVector.mapSubtract(double)	Subtract a value from each entry Returns a new vector
+PreconditionedIterativeLinearSolver.solve(RealLinearOperator,RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b
+AbstractFieldMatrix.getRow(int)	Get the entries in row number row as an array
+ArrayRealVector.getDimension()	Returns the size of the vector
+AbstractRealMatrix.walkInRowOrder(RealMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in row order
+AbstractFieldMatrix.scalarMultiply(FieldElement)	Multiply each entry by d
+RealVectorFormat.getSuffix()	Get the format suffix
+Array2DRowFieldMatrix.walkInRowOrder(FieldMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in row order
+RealMatrix.walkInRowOrder(RealMatrixPreservingVisitor)	Visit but don t change all matrix entries in row order
+SparseFieldMatrix.SparseFieldMatrix(Field,int,int)	Create a new SparseFieldMatrix with the supplied row and column dimensions
+BlockFieldMatrix.setColumn(int,FieldElement[])	Set the entries in column number column as a column matrix
+OpenMapRealMatrix.OpenMapRealMatrix(int,int)	Build a sparse matrix with the supplied row and column dimensions
+FieldVectorChangingVisitor.start(int,int,int)	Start visiting a vector This method is called once before any entry of the vector is visited
+Array2DRowFieldMatrix.preMultiply(FieldElement[])	Returns the row vector result of premultiplying this by the vector v
+BlockFieldMatrix.scalarMultiply(FieldElement)	Multiply each entry by d
+AbstractRealMatrix.preMultiply(RealMatrix)	Returns the result of premultiplying this by m
+FieldVector.setEntry(int,FieldElement)	Set a single element
+RealVectorFormat.parse(String)	Parse a string to produce a RealVector object
+QRDecomposition.QRDecomposition(RealMatrix)	Calculates the QR decomposition of the given matrix
+ArrayRealVector.toArray()	Convert the vector to an array of doubles
+RealMatrix.getSubMatrix(int[],int[])	Gets a submatrix Rows and columns are indicated counting from 0 to n 1
+MatrixUtils.checkSubMatrixIndex(AnyMatrix,int[],int[])	Check if submatrix ranges indices are valid
+RealMatrix.preMultiply(RealMatrix)	Returns the result of premultiplying this by m
+AbstractRealMatrix.multiplyEntry(int,int,double)	Multiplies in place the specified entry of this matrix by the specified value Row and column indices start at 0
+RealVector.isNaN()	Check whether any coordinate of this vector is NaN
+RealVector.combine(double,double,RealVector)	Returns a new vector representing a this b y the linear combination of this and y
+SparseFieldVector.walkInDefaultOrder(FieldVectorPreservingVisitor)	Visits but does not alter all entries of this vector in default order increasing index
+RealMatrix.getFrobeniusNorm()	Returns the Frobenius norm of the matrix
+OpenMapRealVector.append(OpenMapRealVector)	Optimized method to append a OpenMapRealVector
+SparseFieldMatrix.multiplyEntry(int,int,FieldElement)	Change an entry in the specified row and column
+DiagonalMatrix.copy()	Returns a deep copy of this
+AbstractRealMatrix.equals(Object)	Returns true iff object is a RealMatrix instance with the same dimensions as this and all corresponding matrix entries are equal
+ArrayFieldVector.getEntry(int)	Returns the entry in the specified index
+ArrayFieldVector.ArrayFieldVector(Field,FieldElement[],FieldElement[])	Construct a vector by appending one vector to another vector
+BlockRealMatrix.copy()	Returns a deep copy of this
+SparseFieldVector.setEntry(int,FieldElement)	Set a single element
+ArrayFieldVector.outerProduct(FieldVector)	Compute the outer product
+RealMatrixFormat.format(RealMatrix,StringBuffer,FieldPosition)	Formats a RealMatrix object to produce a string
+RealVectorFormat.RealVectorFormat(String,String,String,NumberFormat)	Create an instance with custom prefix suffix separator and format for components
+ArrayRealVector.walkInOptimizedOrder(RealVectorChangingVisitor)	Visits and possibly alters all entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+DiagonalMatrix.inverse(double)	Computes the inverse of this diagonal matrix
+Array2DRowFieldMatrix.walkInRowOrder(FieldMatrixChangingVisitor)	Visit and possibly change all matrix entries in row order
+FieldVector.mapDivide(FieldElement)	Map a division operation to each entry
+AbstractFieldMatrix.toString()	Get a string representation for this matrix
+AbstractFieldMatrix.setRowMatrix(int,FieldMatrix)	Set the entries in row number row as a row matrix
+BlockFieldMatrix.setColumnMatrix(int,FieldMatrix)	Set the entries in column number column as a column matrix
+FieldVector.toArray()	Convert the vector to a T array
+FieldMatrix.getEntry(int,int)	Returns the entry in the specified row and column
+IterativeLinearSolver.solve(RealLinearOperator,RealVector)	Returns an estimate of the solution to the linear system A x b
+ArrayFieldVector.ArrayFieldVector(FieldVector,FieldVector)	Construct a vector by appending one vector to another vector
+SparseFieldVector.subtract(FieldVector)	Compute this minus v
+Array2DRowRealMatrix.Array2DRowRealMatrix(double[][])	Create a new RealMatrix using the input array as the underlying data array
+RealMatrix.add(RealMatrix)	Returns the sum of this and m
+FieldMatrix.walkInOptimizedOrder(FieldMatrixChangingVisitor)	Visit and possibly change all matrix entries using the fastest possible order
+BlockRealMatrix.walkInOptimizedOrder(RealMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries using the fastest possible order
+Array2DRowRealMatrix.walkInRowOrder(RealMatrixPreservingVisitor)	Visit but don t change all matrix entries in row order
+SymmLQ.solveInPlace(RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b The solution is computed in place initial guess is modified
+BlockFieldMatrix.subtract(BlockFieldMatrix)	Compute this m
+ArrayFieldVector.ArrayFieldVector(Field,FieldElement[])	Construct a vector from an array copying the input array
+RealVector.unitize()	Converts this vector into a unit vector
+SparseFieldVector.walkInDefaultOrder(FieldVectorPreservingVisitor,int,int)	Visits but does not alter some entries of this vector in default order increasing index
+SparseFieldVector.walkInOptimizedOrder(FieldVectorChangingVisitor,int,int)	Visits and possibly change some entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+ArrayRealVector.setSubVector(int,RealVector)	Set a sequence of consecutive elements
+SparseFieldVector.getField()	Get the type of field elements of the vector
+ArrayRealVector.ArrayRealVector(RealVector,ArrayRealVector)	Construct a vector by appending one vector to another vector
+RealVectorPreservingVisitor.visit(int,double)	Visit one entry of the vector
+BlockFieldMatrix.setColumnVector(int,FieldVector)	Set the entries in column number column as a vector
+AbstractRealMatrix.subtract(RealMatrix)	Returns this minus m
+NonSymmetricMatrixException.getRow()	the row index of the entry
+LUDecomposition.getSolver()	Get a solver for finding the A X B solution in exact linear sense
+NonPositiveDefiniteOperatorException.NonPositiveDefiniteOperatorException()	Creates a new instance of this class
+DiagonalMatrix.operate(double[])	Returns the result of multiplying this by the vector v
+OpenMapRealMatrix.getEntry(int,int)	Get the entry in the specified row and column Row and column indices start at 0
+RealMatrix.scalarAdd(double)	Returns the result of adding d to each entry of this
+SparseFieldVector.toArray()	Convert the vector to a T array
+RealMatrixFormat.getFormat()	Get the components format
+SparseFieldVector.set(FieldElement)	Set all elements to a single value
+RealMatrix.setColumnVector(int,RealVector)	Sets the specified column of this matrix to the entries of the specified vector Column indices start at 0
+ArrayFieldVector.ArrayFieldVector(Field,FieldElement[],boolean)	Create a new ArrayFieldVector using the input array as the underlying data array
+FieldMatrix.setColumn(int,FieldElement[])	Set the entries in column number column as a column matrix
+FieldVector.getSubVector(int,int)	Get a subvector from consecutive elements
+RealMatrix.walkInOptimizedOrder(RealMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries using the fastest possible order
+MatrixUtils.createColumnRealMatrix(double[])	Creates a column RealMatrix using the data from the input array
+BlockRealMatrix.multiplyEntry(int,int,double)	Multiplies in place the specified entry of this matrix by the specified value Row and column indices start at 0
+RealLinearOperator.isTransposable()	Returns true if this operator supports operateTranspose RealVector If true is returned operateTranspose RealVector should not throw UnsupportedOperationException The default implementation returns false
+ArrayFieldVector.ArrayFieldVector(Field)	Build a 0 length vector
+BlockRealMatrix.getData()	Returns matrix entries as a two dimensional array
+RealMatrix.walkInRowOrder(RealMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in row order
+RealVector.mapMultiplyToSelf(double)	Multiply each entry
+NonSquareMatrixException.NonSquareMatrixException(int,int)	Construct an exception from the mismatched dimensions
+AbstractFieldMatrix.walkInRowOrder(FieldMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in row order
+RealMatrix.copySubMatrix(int[],int[],double[][])	Copy a submatrix Rows and columns are indicated counting from 0 to n 1
+SparseFieldVector.copy()	Returns a deep copy of this
+FieldVector.mapInvToSelf()	Map the 1 x function to each entry
+ArrayRealVector.ArrayRealVector(ArrayRealVector)	Construct a vector from another vector using a deep copy
+RealVector.mapSubtractToSelf(double)	Subtract a value from each entry
+AbstractRealMatrix.setRowMatrix(int,RealMatrix)	Sets the specified row of this matrix to the entries of the specified row matrix Row indices start at 0
+SymmLQ.solve(RealLinearOperator,RealLinearOperator,RealVector,boolean,double)	Returns an estimate of the solution to the linear system A shift I x b
+ArrayFieldVector.walkInDefaultOrder(FieldVectorChangingVisitor)	Visits and possibly alters all entries of this vector in default order increasing index
+SingularValueDecomposition.getUT()	Returns the transpose of the matrix U of the decomposition
+FieldMatrix.getSubMatrix(int[],int[])	Get a submatrix Rows and columns are indicated counting from 0 to n 1
+SparseFieldVector.SparseFieldVector(Field,int,int)	Build a vector with known the sparseness for advanced use only
+ArrayRealVector.ArrayRealVector(double[])	Construct a vector from an array copying the input array
+SparseFieldMatrix.createMatrix(int,int)	Create a new FieldMatrix of the same type as the instance with the supplied row and column dimensions
+RealMatrix.copy()	Returns a deep copy of this
+ArrayRealVector.ArrayRealVector(ArrayRealVector,RealVector)	Construct a vector by appending one vector to another vector
+SparseFieldMatrix.getRowDimension()	Returns the number of rows in the matrix
+FieldMatrix.preMultiply(FieldElement[])	Returns the row vector result of premultiplying this by the vector v
+ArrayRealVector.append(double)	Construct a new vector by appending a double to this vector
+FieldMatrix.getField()	Get the type of field elements of the matrix
+MatrixUtils.checkSubMatrixIndex(AnyMatrix,int,int,int,int)	Check if submatrix ranges indices are valid
+SparseFieldVector.projection(FieldVector)	Find the orthogonal projection of this vector onto another vector
+LUDecomposition.getU()	Returns the matrix U of the decomposition
+Array2DRowFieldMatrix.getEntry(int,int)	Returns the entry in the specified row and column
+AbstractRealMatrix.isSquare()	Is this a square matrix
+SparseFieldVector.walkInOptimizedOrder(FieldVectorPreservingVisitor,int,int)	Visits but does not alter some entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+RealVector.getEntry(int)	Return the entry at the specified index
+FieldMatrix.walkInOptimizedOrder(FieldMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries using the fastest possible order
+FieldVector.append(FieldVector)	Construct a vector by appending a vector to this vector
+AbstractFieldMatrix.power(int)	Returns the result multiplying this with itself p times
+Array2DRowRealMatrix.add(Array2DRowRealMatrix)	Compute the sum of this and m
+OpenMapRealVector.copy()	Returns a deep copy of this vector
+SparseFieldVector.add(FieldVector)	Compute the sum of this and v
+OpenMapRealVector.add(RealVector)	Compute the sum of this vector and v
+Array2DRowFieldMatrix.walkInColumnOrder(FieldMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in column order
+ArrayFieldVector.projection(ArrayFieldVector)	Find the orthogonal projection of this vector onto another vector
+Array2DRowFieldMatrix.Array2DRowFieldMatrix(Field,FieldElement[][])	Create a new FieldMatrix T using the input array as the underlying data array
+AbstractFieldMatrix.multiplyEntry(int,int,FieldElement)	Change an entry in the specified row and column
+RealMatrix.getTrace()	Returns the trace of the matrix the sum of the elements on the main diagonal
+BlockRealMatrix.setColumnMatrix(int,RealMatrix)	Sets the specified column of this matrix to the entries of the specified column matrix Column indices start at 0
+SparseFieldVector.subtract(SparseFieldVector)	Optimized method to compute this minus v
+RealVector.map(UnivariateFunction)	Acts as if implemented as return copy mapToSelf function Returns a new vector Does not change instance data
+SingularValueDecomposition.getS()	Returns the diagonal matrix of the decomposition
+ArrayFieldVector.outerProduct(ArrayFieldVector)	Compute the outer product
+Array2DRowFieldMatrix.setSubMatrix(FieldElement[][],int,int)	Replace the submatrix starting at row column using data in the input subMatrix array Indexes are 0 based
+DefaultRealMatrixPreservingVisitor.start(int,int,int,int,int,int)	Start visiting a matrix
+Array2DRowFieldMatrix.addToEntry(int,int,FieldElement)	Change an entry in the specified row and column
+RealVector.add(RealVector)	Compute the sum of this vector and v
+RealVector.unitVector()	Creates a unit vector pointing in the direction of this vector
+BlockFieldMatrix.getEntry(int,int)	Returns the entry in the specified row and column
+RealVector.ebeMultiply(RealVector)	Element by element multiplication
+ArrayFieldVector.ArrayFieldVector(FieldElement[],boolean)	Create a new ArrayFieldVector using the input array as the underlying data array
+ArrayFieldVector.ArrayFieldVector(ArrayFieldVector,ArrayFieldVector)	Construct a vector by appending one vector to another vector
+SparseFieldMatrix.setEntry(int,int,FieldElement)	Set the entry in the specified row and column
+CholeskyDecomposition.CholeskyDecomposition(RealMatrix,double,double)	Calculates the Cholesky decomposition of the given matrix
+ArrayFieldVector.ArrayFieldVector(ArrayFieldVector)	Construct a vector from another vector using a deep copy
+RRQRDecomposition.getRank(double)	Return the effective numerical matrix rank
+Array2DRowRealMatrix.Array2DRowRealMatrix(double[])	Create a new column RealMatrix using v as the data for the unique column of the created matrix
+RealMatrixFormat.getAvailableLocales()	Get the set of locales for which real vectors formats are available
+ArrayFieldVector.setSubVector(int,FieldVector)	Set a set of consecutive elements
+AbstractRealMatrix.walkInOptimizedOrder(RealMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries using the fastest possible order
+RealVector.equals(Object)	Test for the equality of two real vectors If all coordinates of two real vectors are exactly the same and none are NaN the two real vectors are considered to be equal NaN coordinates are considered to affect globally the vector and be equals to each other i e if either or all coordinates of the real vector are equal to NaN the real vector is equal to a vector with all NaN coordinates
+AbstractFieldMatrix.add(FieldMatrix)	Compute the sum of this and m
+EigenDecomposition.getRealEigenvalues()	Gets a copy of the real parts of the eigenvalues of the original matrix
+Array2DRowRealMatrix.getEntry(int,int)	Get the entry in the specified row and column Row and column indices start at 0
+RealVector.getMinIndex()	Get the index of the minimum entry
+DefaultRealMatrixChangingVisitor.visit(int,int,double)	Visit one matrix entry
+QRDecomposition.getR()	Returns the matrix R of the decomposition
+ArrayRealVector.ArrayRealVector(double[],int,int)	Construct a vector from part of a array
+DefaultFieldMatrixChangingVisitor.end()	End visiting a matrix
+ArrayRealVector.map(UnivariateFunction)	Acts as if implemented as return copy mapToSelf function Returns a new vector Does not change instance data
+ArrayFieldVector.toArray()	Convert the vector to a T array
+OpenMapRealVector.OpenMapSparseIterator.remove()	
+RealVectorChangingVisitor.visit(int,double)	Visit one entry of the vector
+RealVector.RealVector()	
+Array2DRowFieldMatrix.createMatrix(int,int)	Create a new FieldMatrix of the same type as the instance with the supplied row and column dimensions
+BlockRealMatrix.walkInRowOrder(RealMatrixChangingVisitor)	Visit and possibly change all matrix entries in row order
+FieldLUDecomposition.getDeterminant()	Return the determinant of the matrix
+OpenMapRealVector.append(double)	Construct a new vector by appending a double to this vector
+FieldMatrix.getData()	Returns matrix entries as a two dimensional array
+RealLinearOperator.getRowDimension()	Returns the dimension of the codomain of this operator
+SparseFieldVector.mapMultiply(FieldElement)	Map a multiplication operation to each entry
+ArrayFieldVector.append(FieldVector)	Construct a vector by appending a vector to this vector
+AbstractFieldMatrix.getColumn(int)	Get the entries in column number col as an array
+FieldVector.setSubVector(int,FieldVector)	Set a set of consecutive elements
+FieldMatrix.power(int)	Returns the result multiplying this with itself p times
+AbstractFieldMatrix.subtract(FieldMatrix)	Subtract m from this matrix
+BlockFieldMatrix.BlockFieldMatrix(FieldElement[][])	Create a new dense matrix copying entries from raw layout data
+BlockRealMatrix.getColumnMatrix(int)	Get the entries at the given column index as a column matrix Column indices start at 0
+OpenMapRealVector.getDistance(RealVector)	Distance between two vectors
+RealVector.getDistance(RealVector)	Distance between two vectors
+MatrixUtils.createRealMatrix(double[][])	Returns a RealMatrix whose entries are the the values in the the input array
+OpenMapRealVector.isInfinite()	Check whether any coordinate of this vector is infinite and none are NaN
+DiagonalMatrix.addToEntry(int,int,double)	Adds in place the specified value to the specified entry of this matrix Row and column indices start at 0
+Array2DRowFieldMatrix.Array2DRowFieldMatrix(Field,FieldElement[][],boolean)	Create a new FieldMatrix T using the input array as the underlying data array
+AbstractRealMatrix.walkInColumnOrder(RealMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in column order
+MatrixUtils.checkSubtractionCompatible(AnyMatrix,AnyMatrix)	Check if matrices are subtraction compatible
+AbstractFieldMatrix.createMatrix(int,int)	Create a new FieldMatrix of the same type as the instance with the supplied row and column dimensions
+BlockRealMatrix.getColumnVector(int)	Get the entries at the given column index as a vector Column indices start at 0
+SymmLQ.SymmLQ(IterationManager,double,boolean)	Creates a new instance of this class with default stopping criterion and custom iteration manager Note that setting check to true entails an extra matrix vector product in the initial phase
+FieldMatrixPreservingVisitor.end()	End visiting a matrix
+BlockRealMatrix.toBlocksLayout(double[][])	Convert a data array from raw layout to blocks layout
+DefaultRealMatrixChangingVisitor.DefaultRealMatrixChangingVisitor()	
+FieldMatrix.getColumn(int)	Get the entries in column number col as an array
+RealMatrix.setRowMatrix(int,RealMatrix)	Sets the specified row of this matrix to the entries of the specified row matrix Row indices start at 0
+RectangularCholeskyDecomposition.RectangularCholeskyDecomposition(RealMatrix)	Decompose a symmetric positive semidefinite matrix
+RealVector.SparseEntryIterator.remove()	
+OpenMapRealVector.getL1Distance(RealVector)	Distance between two vectors
+FieldMatrix.setSubMatrix(FieldElement[][],int,int)	Replace the submatrix starting at row column using data in the input subMatrix array Indexes are 0 based
+FieldMatrix.getColumnVector(int)	Returns the entries in column number column as a vector
+ArrayFieldVector.mapSubtract(FieldElement)	Map a subtraction operation to each entry
+ArrayFieldVector.mapInvToSelf()	Map the 1 x function to each entry
+MatrixUtils.checkMultiplicationCompatible(AnyMatrix,AnyMatrix)	Check if matrices are multiplication compatible
+DefaultIterativeLinearSolverEvent.DefaultIterativeLinearSolverEvent(Object,int,RealVector,RealVector,RealVector,double)	Creates a new instance of this class This implementation does not deep copy the specified vectors x b r Therefore the user must make sure that these vectors are either unmodifiable views or deep copies of the same vectors actually used by the source Failure to do so may compromise subsequent iterations of the source If the residual vector r is null then getResidual throws a MathUnsupportedOperationException and providesResidual returns false
+IterativeLinearSolverEvent.getRightHandSideVector()	Returns the current right hand side of the linear system to be solved
+EigenDecomposition.getDeterminant()	Computes the determinant of the matrix
+NonPositiveDefiniteMatrixException.getRow()	the row index
+BlockFieldMatrix.walkInOptimizedOrder(FieldMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries using the fastest possible order
+RealMatrix.power(int)	Returns the result of multiplying this with itself p times Depending on the underlying storage instability for high powers might occur
+RealVectorFormat.getInstance(Locale)	Returns the default real vector format for the given locale
+DiagonalMatrix.setEntry(int,int,double)	Set the entry in the specified row and column Row and column indices start at 0
+ArrayFieldVector.getField()	Get the type of field elements of the vector
+BlockRealMatrix.preMultiply(double[])	Returns the row vector result of premultiplying this by the vector v
+AbstractFieldMatrix.walkInColumnOrder(FieldMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in column order
+RealMatrix.walkInOptimizedOrder(RealMatrixPreservingVisitor)	Visit but don t change all matrix entries using the fastest possible order
+FieldVector.ebeMultiply(FieldVector)	Element by element multiplication
+SparseFieldVector.walkInDefaultOrder(FieldVectorChangingVisitor)	Visits and possibly alters all entries of this vector in default order increasing index
+FieldMatrix.setRow(int,FieldElement[])	Set the entries in row number row as a row matrix
+OpenMapRealVector.add(OpenMapRealVector)	Optimized method to add two OpenMapRealVectors
+RealVectorChangingVisitor.start(int,int,int)	Start visiting a vector This method is called once before any entry of the vector is visited
+RealVectorFormat.RealVectorFormat(String,String,String)	Create an instance with custom prefix suffix and separator
+Array2DRowRealMatrix.getData()	Returns matrix entries as a two dimensional array
+AbstractRealMatrix.operate(double[])	Returns the result of multiplying this by the vector v
+AbstractRealMatrix.copySubMatrix(int[],int[],double[][])	Copy a submatrix Rows and columns are indicated counting from 0 to n 1
+SparseFieldVector.walkInOptimizedOrder(FieldVectorPreservingVisitor)	Visits but does not alter all entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+ArrayRealVector.getLInfDistance(RealVector)	Distance between two vectors
+BlockFieldMatrix.walkInRowOrder(FieldMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in row order
+IterativeLinearSolverEvent.getResidual()	Returns the residual This is an optional operation as all iterative linear solvers do not provide cheap estimate of the updated residual vector in which case this method should throw a MathUnsupportedOperationException providesResidual returns false
+SymmLQ.solve(RealLinearOperator,RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b
+AbstractFieldMatrix.getTrace()	Returns the trace of the matrix the sum of the elements on the main diagonal
+FieldVector.dotProduct(FieldVector)	Compute the dot product
+OpenMapRealVector.OpenMapEntry.setValue(double)	Set the value of the entry
+OpenMapRealMatrix.copy()	Returns a deep copy of this
+RealVectorFormat.getSeparator()	Get the format separator between components
+FieldMatrix.walkInRowOrder(FieldMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in row order
+AbstractFieldMatrix.getEntry(int,int)	Returns the entry in the specified row and column
+MatrixUtils.createRealMatrix(int,int)	Returns a RealMatrix with specified dimensions
+ArrayFieldVector.ArrayFieldVector(FieldElement[],int,int)	Construct a vector from part of a array
+AbstractFieldMatrix.getColumnMatrix(int)	Get the entries in column number column as a column matrix
+SingularValueDecomposition.getSingularValues()	Returns the diagonal elements of the matrix of the decomposition
+DiagonalMatrix.inverse()	Computes the inverse of this diagonal matrix
+FieldLUDecomposition.getL()	Returns the matrix L of the decomposition
+FieldVector.mapAdd(FieldElement)	Map an addition operation to each entry
+Array2DRowFieldMatrix.multiplyEntry(int,int,FieldElement)	Change an entry in the specified row and column
+EigenDecomposition.EigenDecomposition(double[],double[],double)	Calculates the eigen decomposition of the symmetric tridiagonal matrix The Householder matrix is assumed to be the identity matrix
+RectangularCholeskyDecomposition.getRootMatrix()	Get the root of the covariance matrix
+SparseFieldVector.outerProduct(FieldVector)	Compute the outer product
+RealVector.unmodifiableRealVector(RealVector)	Returns an unmodifiable view of the specified vector
+OpenMapRealVector.OpenMapRealVector(int)	Construct a vector of zeroes
+SparseFieldMatrix.addToEntry(int,int,FieldElement)	Change an entry in the specified row and column
+RealVectorFormat.parse(String,ParsePosition)	Parse a string to produce a RealVector object
+MatrixUtils.bigFractionMatrixToRealMatrix(FieldMatrix)	Convert a FieldMatrix BigFraction matrix to a RealMatrix
+OpenMapRealVector.OpenMapRealVector(OpenMapRealVector)	Copy constructor
+DefaultIterativeLinearSolverEvent.getNormOfResidual()	Returns the norm of the residual The returned value is not required to be exact Instead the norm of the so called updated residual if available should be returned For example the conjugate gradient method computes a sequence of residuals the norm of which is cheap to compute However due to accumulation of round off errors this residual might differ from the true residual after some iterations See e g A Greenbaum and Z Strakos Predicting the Behavior of Finite Precision Lanzos and Conjugate Gradient Computations Technical Report 538 Department of Computer Science New York University 1991 available here
+RealMatrixFormat.format(RealMatrix)	This method calls format RealMatrix StringBuffer FieldPosition
+RealMatrix.operate(RealVector)	Returns the result of multiplying this by the vector v
+Array2DRowRealMatrix.addToEntry(int,int,double)	Adds in place the specified value to the specified entry of this matrix Row and column indices start at 0
+IterativeLinearSolver.IterativeLinearSolver(IterationManager)	Creates a new instance of this class with custom iteration manager
+SingularValueDecomposition.getConditionNumber()	Return the condition number of the matrix
+FieldVector.getData()	Returns vector entries as a T array
+AbstractRealMatrix.getColumnDimension()	Returns the number of columns of this matrix
+RealMatrix.walkInColumnOrder(RealMatrixPreservingVisitor)	Visit but don t change all matrix entries in column order
+IterativeLinearSolverEvent.getNormOfResidual()	Returns the norm of the residual The returned value is not required to be exact Instead the norm of the so called updated residual if available should be returned For example the conjugate gradient method computes a sequence of residuals the norm of which is cheap to compute However due to accumulation of round off errors this residual might differ from the true residual after some iterations See e g A Greenbaum and Z Strakos Predicting the Behavior of Finite Precision Lanzos and Conjugate Gradient Computations Technical Report 538 Department of Computer Science New York University 1991 available here
+ArrayFieldVector.walkInOptimizedOrder(FieldVectorChangingVisitor)	Visits and possibly alters all entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+Array2DRowFieldMatrix.copy()	Make a deep copy of this
+DiagonalMatrix.multiplyEntry(int,int,double)	Multiplies in place the specified entry of this matrix by the specified value Row and column indices start at 0
+AnyMatrix.getRowDimension()	Returns the number of rows in the matrix
+OpenMapRealVector.subtract(OpenMapRealVector)	Optimized method to subtract OpenMapRealVectors
+DefaultRealMatrixPreservingVisitor.visit(int,int,double)	Visit one matrix entry
+BlockRealMatrix.getEntry(int,int)	Get the entry in the specified row and column Row and column indices start at 0
+AbstractRealMatrix.setSubMatrix(double[][],int,int)	Replace the submatrix starting at row column using data in the input subMatrix array Indexes are 0 based
+BlockRealMatrix.operate(double[])	Returns the result of multiplying this by the vector v
+SymmLQ.getCheck()	Returns true if symmetry of the matrix and symmetry as well as positive definiteness of the preconditioner should be checked
+AbstractRealMatrix.setRowVector(int,RealVector)	Sets the specified row of this matrix to the entries of the specified vector Row indices start at 0
+RealMatrix.walkInColumnOrder(RealMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in column order
+JacobiPreconditioner.sqrt()	Returns the square root of this diagonal operator More precisely this method returns P diag 1 A11 1 A22
+RealMatrixFormat.getInstance(Locale)	Returns the default real vector format for the given locale
+AbstractRealMatrix.getFrobeniusNorm()	Returns the Frobenius norm of the matrix
+FieldVector.mapSubtract(FieldElement)	Map a subtraction operation to each entry
+AbstractFieldMatrix.scalarAdd(FieldElement)	Increment each entry of this matrix
+RealMatrix.walkInRowOrder(RealMatrixChangingVisitor)	Visit and possibly change all matrix entries in row order
+NonSquareOperatorException.NonSquareOperatorException(int,int)	Construct an exception from the mismatched dimensions
+RealVector.setSubVector(int,RealVector)	Set a sequence of consecutive elements
+ArrayRealVector.hashCode()	This method must be overriden by concrete subclasses of RealVector current implementation throws an exception All NaN values have the same hash code
+SingularValueDecomposition.getU()	Returns the matrix U of the decomposition
+SymmLQ.solveInPlace(RealLinearOperator,RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b The solution is computed in place initial guess is modified
+Array2DRowRealMatrix.multiplyEntry(int,int,double)	Multiplies in place the specified entry of this matrix by the specified value Row and column indices start at 0
+OpenMapRealVector.ebeDivide(RealVector)	Element by element division
+DiagonalMatrix.isSingular(double)	Returns whether this diagonal matrix is singular i e any diagonal entry is equal to 0 within the given threshold
+FieldMatrix.getRowVector(int)	Get the entries in row number row as a vector
+ArrayFieldVector.getSubVector(int,int)	Get a subvector from consecutive elements
+AbstractRealMatrix.getRow(int)	Get the entries at the given row index Row indices start at 0
+ArrayFieldVector.ArrayFieldVector(Field,int)	Construct a vector of zeroes
+SparseFieldVector.mapInvToSelf()	Map the 1 x function to each entry
+Array2DRowRealMatrix.copy()	Returns a deep copy of this
+FieldMatrix.add(FieldMatrix)	Compute the sum of this and m
+OpenMapRealMatrix.multiply(OpenMapRealMatrix)	Postmultiply this matrix by m
+BlockRealMatrix.setColumnVector(int,RealVector)	Sets the specified column of this matrix to the entries of the specified vector Column indices start at 0
+AbstractRealMatrix.addToEntry(int,int,double)	Adds in place the specified value to the specified entry of this matrix Row and column indices start at 0
+FieldVector.mapInv()	Map the 1 x function to each entry
+RealMatrixPreservingVisitor.start(int,int,int,int,int,int)	Start visiting a matrix
+AbstractFieldMatrix.walkInOptimizedOrder(FieldMatrixChangingVisitor)	Visit and possibly change all matrix entries using the fastest possible order
+RealVector.addToEntry(int,double)	Change an entry at the specified index
+FieldMatrix.walkInOptimizedOrder(FieldMatrixPreservingVisitor)	Visit but don t change all matrix entries using the fastest possible order
+FieldMatrix.setRowVector(int,FieldVector)	Set the entries in row number row as a vector
+MatrixUtils.deserializeRealVector(Object,String,ObjectInputStream)	Deserialize a RealVector field in a class
+RealMatrixFormat.getColumnSeparator()	Get the format separator between components
+NonSymmetricMatrixException.NonSymmetricMatrixException(int,int,double)	Construct an exception
+AbstractFieldMatrix.transpose()	Returns the transpose of this matrix
+ArrayFieldVector.append(FieldElement)	Construct a vector by appending a T to this vector
+AbstractFieldMatrix.setColumn(int,FieldElement[])	Set the entries in column number column as a column matrix
+AbstractFieldMatrix.equals(Object)	Returns true iff object is a FieldMatrix instance with the same dimensions as this and all corresponding matrix entries are equal
+FieldVectorPreservingVisitor.start(int,int,int)	Start visiting a vector This method is called once before any entry of the vector is visited
+BlockRealMatrix.BlockRealMatrix(int,int)	Create a new matrix with the supplied row and column dimensions
+BlockRealMatrix.setRowVector(int,RealVector)	Sets the specified row of this matrix to the entries of the specified vector Row indices start at 0
+FieldMatrix.walkInColumnOrder(FieldMatrixPreservingVisitor)	Visit but don t change all matrix entries in column order
+DecompositionSolver.solve(RealMatrix)	Solve the linear equation A X B for matrices A
+LUDecomposition.getP()	Returns the P rows permutation matrix
+EigenDecomposition.getEigenvector(int)	Gets a copy of the ith eigenvector of the original matrix
+IterativeLinearSolver.getIterationManager()	Returns the iteration manager attached to this solver
+FieldMatrix.transpose()	Returns the transpose of this matrix
+Array2DRowRealMatrix.setEntry(int,int,double)	Set the entry in the specified row and column Row and column indices start at 0
+BlockFieldMatrix.walkInRowOrder(FieldMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in row order
+AbstractRealMatrix.add(RealMatrix)	Returns the sum of this and m
+AbstractRealMatrix.walkInRowOrder(RealMatrixPreservingVisitor)	Visit but don t change all matrix entries in row order
+RealMatrix.walkInColumnOrder(RealMatrixChangingVisitor)	Visit and possibly change all matrix entries in column order
+FieldMatrix.operate(FieldElement[])	Returns the result of multiplying this by the vector v
+SparseFieldVector.ebeDivide(FieldVector)	Element by element division
+MatrixUtils.createFieldDiagonalMatrix(T[])	Returns a diagonal matrix with specified elements
+Array2DRowFieldMatrix.Array2DRowFieldMatrix(FieldElement[][])	Create a new FieldMatrix T using the input array as the underlying data array
+ArrayRealVector.add(RealVector)	Compute the sum of this vector and v
+FieldVector.getField()	Get the type of field elements of the vector
+OpenMapRealMatrix.addToEntry(int,int,double)	Adds in place the specified value to the specified entry of this matrix Row and column indices start at 0
+BlockFieldMatrix.copy()	Make a deep copy of this
+AbstractRealMatrix.setColumn(int,double[])	Sets the specified column of this matrix to the entries of the specified array Column indices start at 0
+BlockRealMatrix.walkInOptimizedOrder(RealMatrixChangingVisitor)	Visit and possibly change all matrix entries using the fastest possible order
+MatrixUtils.createRowRealMatrix(double[])	Create a row RealMatrix using the data from the input array
+RRQRDecomposition.RRQRDecomposition(RealMatrix)	Calculates the QR decomposition of the given matrix
+RealMatrix.getData()	Returns matrix entries as a two dimensional array
+BlockRealMatrix.walkInOptimizedOrder(RealMatrixPreservingVisitor)	Visit but don t change all matrix entries using the fastest possible order
+SparseFieldVector.append(FieldElement)	Construct a vector by appending a T to this vector
+IllConditionedOperatorException.IllConditionedOperatorException(double)	Creates a new instance of this class
+ArrayRealVector.set(double)	Set all elements to a single value
+AbstractRealMatrix.preMultiply(double[])	Returns the row vector result of premultiplying this by the vector v
+BlockFieldMatrix.walkInOptimizedOrder(FieldMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries using the fastest possible order
+ArrayFieldVector.ebeMultiply(ArrayFieldVector)	Element by element multiplication
+RealMatrix.getEntry(int,int)	Get the entry in the specified row and column Row and column indices start at 0
+SparseFieldVector.mapDivideToSelf(FieldElement)	Map a division operation to each entry
+BlockRealMatrix.setEntry(int,int,double)	Set the entry in the specified row and column Row and column indices start at 0
+OpenMapRealVector.mapAddToSelf(double)	Add a value to each entry
+ArrayRealVector.getDistance(RealVector)	Distance between two vectors
+PreconditionedIterativeLinearSolver.solve(RealLinearOperator,RealLinearOperator,RealVector)	Returns an estimate of the solution to the linear system A x b
+BlockFieldMatrix.setEntry(int,int,FieldElement)	Set the entry in the specified row and column
+MatrixDimensionMismatchException.getExpectedRowDimension()	the expected row dimension
+BlockFieldMatrix.walkInRowOrder(FieldMatrixChangingVisitor)	Visit and possibly change all matrix entries in row order
+FieldMatrix.walkInRowOrder(FieldMatrixPreservingVisitor)	Visit but don t change all matrix entries in row order
+AbstractRealMatrix.getColumnMatrix(int)	Get the entries at the given column index as a column matrix Column indices start at 0
+BlockFieldMatrix.subtract(FieldMatrix)	Subtract m from this matrix
+OpenMapRealVector.setSubVector(int,RealVector)	Set a sequence of consecutive elements
+DiagonalMatrix.multiply(DiagonalMatrix)	Returns the result of postmultiplying this by m
+EigenDecomposition.hasComplexEigenvalues()	Returns whether the calculated eigen values are complex or real
+AbstractFieldMatrix.getRowDimension()	Returns the number of rows in the matrix
+Array2DRowRealMatrix.multiply(Array2DRowRealMatrix)	Returns the result of postmultiplying this by m
+BlockRealMatrix.multiply(BlockRealMatrix)	Returns the result of postmultiplying this by m
+RRQRDecomposition.getP()	Returns the pivot matrix P used in the QR Decomposition of matrix A such that AP QR
+FieldMatrix.walkInColumnOrder(FieldMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in column order
+FieldMatrix.scalarMultiply(FieldElement)	Multiply each entry by d
+ArrayFieldVector.walkInDefaultOrder(FieldVectorPreservingVisitor)	Visits but does not alter all entries of this vector in default order increasing index
+Array2DRowFieldMatrix.Array2DRowFieldMatrix(Field)	Creates a matrix with no data
+RealMatrixFormat.getInstance()	Returns the default real vector format for the current locale
+ArrayFieldVector.add(FieldVector)	Compute the sum of this and v
+RealVector.mapToSelf(UnivariateFunction)	Acts as if it is implemented as Entry e null for Iterator it iterator it hasNext e it next e setValue function value e getValue Entries of this vector are modified in place by this method
+Array2DRowFieldMatrix.getDataRef()	Get a reference to the underlying data array
+NonPositiveDefiniteMatrixException.getColumn()	the column index
+AbstractRealMatrix.toString()	Get a string representation for this matrix
+ArrayFieldVector.mapDivide(FieldElement)	Map a division operation to each entry
+RealMatrix.getColumnMatrix(int)	Get the entries at the given column index as a column matrix Column indices start at 0
+OpenMapRealVector.getDistance(OpenMapRealVector)	Optimized method to compute distance
+OpenMapRealMatrix.add(OpenMapRealMatrix)	Compute the sum of this matrix and m
+SparseFieldVector.mapDivide(FieldElement)	Map a division operation to each entry
+RealMatrixFormat.RealMatrixFormat(String,String,String,String,String,String)	Create an instance with custom prefix suffix and separator
+DiagonalMatrix.multiply(RealMatrix)	Returns the result of postmultiplying this by m
+DefaultFieldMatrixChangingVisitor.visit(int,int,FieldElement)	Visit one matrix entry
+ArrayRealVector.getL1Norm()	Returns the L1 norm of the vector
+RealMatrix.copySubMatrix(int,int,int,int,double[][])	Copy a submatrix Rows and columns are indicated counting from 0 to n 1
+BlockRealMatrix.subtract(RealMatrix)	Returns this minus m
+FieldVector.projection(FieldVector)	Find the orthogonal projection of this vector onto another vector
+SparseFieldVector.SparseFieldVector(Field)	Build a 0 length vector
+Array2DRowRealMatrix.createMatrix(int,int)	Create a new RealMatrix of the same type as the instance with the supplied row and column dimensions
+AbstractFieldMatrix.preMultiply(FieldElement[])	Returns the row vector result of premultiplying this by the vector v
+FieldMatrix.copySubMatrix(int[],int[],FieldElement[][])	Copy a submatrix Rows and columns are indicated counting from 0 to n 1
+FieldVector.add(FieldVector)	Compute the sum of this and v
+FieldVector.set(FieldElement)	Set all elements to a single value
+DefaultIterativeLinearSolverEvent.getResidual()	Returns the residual This is an optional operation as all iterative linear solvers do not provide cheap estimate of the updated residual vector in which case this method should throw a MathUnsupportedOperationException IterativeLinearSolverEvent providesResidual returns false
+AbstractFieldMatrix.hashCode()	Computes a hashcode for the matrix
+OpenMapRealMatrix.setEntry(int,int,double)	Set the entry in the specified row and column Row and column indices start at 0
+Array2DRowFieldMatrix.Array2DRowFieldMatrix(FieldElement[])	Create a new column FieldMatrix T using v as the data for the unique column of the created matrix
+FieldDecompositionSolver.getInverse()	Get the inverse or pseudo inverse of the decomposed matrix
+EigenDecomposition.getImagEigenvalue(int)	Gets the imaginary part of the ith eigenvalue of the original matrix
+ArrayFieldVector.ebeDivide(FieldVector)	Element by element division
+AbstractFieldMatrix.walkInColumnOrder(FieldMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in column order
+RealVectorPreservingVisitor.end()	End visiting a vector This method is called once after all entries of the vector have been visited
+AbstractRealMatrix.walkInRowOrder(RealMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in row order
+BlockRealMatrix.getRowDimension()	Returns the number of rows of this matrix
+OpenMapRealVector.OpenMapRealVector(RealVector)	Generic copy constructor
+RealMatrix.scalarMultiply(double)	Returns the result of multiplying each entry of this by d
+MatrixDimensionMismatchException.getWrongColumnDimension()	the wrong column dimension
+RealVector.mapAdd(double)	Add a value to each entry
+RealVector.dotProduct(RealVector)	Compute the dot product of this vector with v
+RRQRDecomposition.RRQRDecomposition(RealMatrix,double)	Calculates the QR decomposition of the given matrix
+FieldMatrixChangingVisitor.visit(int,int,FieldElement)	Visit one matrix entry
+ConjugateGradient.getCheck()	Returns true if positive definiteness should be checked for both matrix and preconditioner
+OpenMapRealMatrix.OpenMapRealMatrix(OpenMapRealMatrix)	Build a matrix by copying another one
+QRDecomposition.getSolver()	Get a solver for finding the A X B solution in least square sense
+BlockRealMatrix.setColumn(int,double[])	Sets the specified column of this matrix to the entries of the specified array Column indices start at 0
+RealVector.set(double)	Set all elements to a single value
+RealMatrix.multiply(RealMatrix)	Returns the result of postmultiplying this by m
+CholeskyDecomposition.getL()	Returns the matrix L of the decomposition
+AbstractRealMatrix.getRowDimension()	Returns the number of rows of this matrix
+RealMatrix.setRow(int,double[])	Sets the specified row of this matrix to the entries of the specified array Row indices start at 0
+SparseFieldVector.mapMultiplyToSelf(FieldElement)	Map a multiplication operation to each entry
+FieldVector.mapMultiply(FieldElement)	Map a multiplication operation to each entry
+FieldLUDecomposition.getP()	Returns the P rows permutation matrix
+RealMatrix.getRow(int)	Get the entries at the given row index Row indices start at 0
+OpenMapRealVector.OpenMapRealVector(int,int,double)	Build a vector with known the sparseness and zero tolerance setting for advanced use only
+AbstractFieldMatrix.walkInRowOrder(FieldMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in row order
+Array2DRowRealMatrix.getColumnDimension()	Returns the number of columns of this matrix
+Array2DRowFieldMatrix.setEntry(int,int,FieldElement)	Set the entry in the specified row and column
+ArrayRealVector.setSubVector(int,double[])	Set a set of consecutive elements
+OpenMapRealVector.append(RealVector)	Construct a new vector by appending a vector to this vector
+IterativeLinearSolverEvent.IterativeLinearSolverEvent(Object,int)	Creates a new instance of this class
+BlockFieldMatrix.add(BlockFieldMatrix)	Compute the sum of this and m
+ArrayFieldVector.walkInDefaultOrder(FieldVectorChangingVisitor,int,int)	Visits and possibly alters some entries of this vector in default order increasing index
+CholeskyDecomposition.getSolver()	Get a solver for finding the A X B solution in least square sense
+AbstractFieldMatrix.walkInOptimizedOrder(FieldMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries using the fastest possible order
+IterativeLinearSolverEvent.providesResidual()	Returns true if getResidual is supported The default implementation returns false
+DefaultRealMatrixChangingVisitor.start(int,int,int,int,int,int)	Start visiting a matrix
+DiagonalMatrix.preMultiply(double[])	Returns the row vector result of premultiplying this by the vector v
+SymmLQ.solveInPlace(RealLinearOperator,RealLinearOperator,RealVector,RealVector,boolean,double)	Returns an estimate of the solution to the linear system A shift I x b The solution is computed in place
+SparseFieldVector.dotProduct(FieldVector)	Compute the dot product
+RealMatrixFormat.parse(String)	Parse a string to produce a RealMatrix object
+RealMatrix.getRowMatrix(int)	Get the entries at the given row index as a row matrix Row indices start at 0
+OpenMapRealVector.OpenMapRealVector(double[],double)	Create from an array specifying zero tolerance
+RealVector.getL1Distance(RealVector)	Distance between two vectors
+RealVector.append(double)	Construct a new vector by appending a double to this vector
+Array2DRowRealMatrix.getRowDimension()	Returns the number of rows of this matrix
+DefaultRealMatrixPreservingVisitor.DefaultRealMatrixPreservingVisitor()	
+RealVector.walkInOptimizedOrder(RealVectorChangingVisitor)	Visits and possibly alters all entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+OpenMapRealVector.OpenMapSparseIterator.next()	
+RealVectorFormat.getPrefix()	Get the format prefix
+Array2DRowFieldMatrix.Array2DRowFieldMatrix(Field,int,int)	Create a new FieldMatrix T with the supplied row and column dimensions
+SingularValueDecomposition.getSolver()	Get a solver for finding the A X B solution in least square sense
+AbstractFieldMatrix.operate(FieldVector)	Returns the result of multiplying this by the vector v
+ArrayRealVector.ebeDivide(RealVector)	Element by element division
+OpenMapRealVector.OpenMapRealVector(Double[])	Create from an array
+ArrayRealVector.getL1Distance(RealVector)	Distance between two vectors
+BlockRealMatrix.add(RealMatrix)	Returns the sum of this and m
+RealVectorFormat.RealVectorFormat(NumberFormat)	Create an instance with a custom number format for components
+RealVectorPreservingVisitor.start(int,int,int)	Start visiting a vector This method is called once before any entry of the vector is visited
+BlockFieldMatrix.setRowMatrix(int,BlockFieldMatrix)	Sets the entries in row number row as a row matrix Row indices start at 0
+RealMatrixFormat.parse(String,ParsePosition)	Parse a string to produce a RealMatrix object
+RectangularCholeskyDecomposition.RectangularCholeskyDecomposition(RealMatrix,double)	Decompose a symmetric positive semidefinite matrix
+NonSymmetricMatrixException.getThreshold()	the relative symmetry threshold
+IterativeLinearSolver.IterativeLinearSolver(int)	Creates a new instance of this class with default iteration manager
+Array2DRowRealMatrix.subtract(Array2DRowRealMatrix)	Returns this minus m
+SparseFieldVector.getEntry(int)	Returns the entry in the specified index
+IterativeLinearSolver.solve(RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b
+Array2DRowRealMatrix.setSubMatrix(double[][],int,int)	Replace the submatrix starting at row column using data in the input subMatrix array Indexes are 0 based
+FieldMatrix.walkInColumnOrder(FieldMatrixChangingVisitor)	Visit and possibly change all matrix entries in column order
+RealMatrix.transpose()	Returns the transpose of this matrix
+ArrayFieldVector.ArrayFieldVector(ArrayFieldVector,FieldElement[])	Construct a vector by appending one vector to another vector
+RealVector.SparseEntryIterator.hasNext()	
+ArrayRealVector.append(ArrayRealVector)	Construct a vector by appending a vector to this vector
+FieldLUDecomposition.getSolver()	Get a solver for finding the A X B solution in exact linear sense
+CholeskyDecomposition.CholeskyDecomposition(RealMatrix)	Calculates the Cholesky decomposition of the given matrix
+RealMatrixChangingVisitor.start(int,int,int,int,int,int)	Start visiting a matrix
+RealVector.combineToSelf(double,double,RealVector)	Updates this with the linear combination of this and y
+Array2DRowFieldMatrix.walkInColumnOrder(FieldMatrixChangingVisitor)	Visit and possibly change all matrix entries in column order
+AbstractFieldMatrix.getRowVector(int)	Get the entries in row number row as a vector
+AbstractRealMatrix.transpose()	Returns the transpose of this matrix
+BlockFieldMatrix.multiply(FieldMatrix)	Postmultiply this matrix by m
+SparseFieldVector.ebeMultiply(FieldVector)	Element by element multiplication
+FieldVector.outerProduct(FieldVector)	Compute the outer product
+FieldVector.subtract(FieldVector)	Compute this minus v
+ArrayFieldVector.projection(FieldVector)	Find the orthogonal projection of this vector onto another vector
+AbstractRealMatrix.createMatrix(int,int)	Create a new RealMatrix of the same type as the instance with the supplied row and column dimensions
+AbstractRealMatrix.multiply(RealMatrix)	Returns the result of postmultiplying this by m
+QRDecomposition.getQ()	Returns the matrix Q of the decomposition
+ArrayFieldVector.equals(Object)	Test for the equality of two vectors
+SparseFieldMatrix.SparseFieldMatrix(FieldMatrix)	Generic copy constructor
+ArrayRealVector.walkInOptimizedOrder(RealVectorPreservingVisitor)	Visits but does not alter all entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+Array2DRowFieldMatrix.walkInRowOrder(FieldMatrixPreservingVisitor)	Visit but don t change all matrix entries in row order
+FieldLUDecomposition.FieldLUDecomposition(FieldMatrix)	Calculates the LU decomposition of the given matrix
+ArrayFieldVector.hashCode()	Get a hashCode for the real vector
+RealVector.ebeDivide(RealVector)	Element by element division
+AbstractRealMatrix.walkInOptimizedOrder(RealMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries using the fastest possible order
+EigenDecomposition.EigenDecomposition(double[],double[])	Calculates the eigen decomposition of the symmetric tridiagonal matrix The Householder matrix is assumed to be the identity matrix
+ArrayRealVector.outerProduct(RealVector)	Compute the outer product
+RealVector.getMinValue()	Get the value of the minimum entry
+ArrayRealVector.ArrayRealVector(int,double)	Construct a vector with preset values
+ConjugateGradient.solveInPlace(RealLinearOperator,RealLinearOperator,RealVector,RealVector)	Returns an estimate of the solution to the linear system A x b The solution is computed in place initial guess is modified
+SparseFieldVector.mapAddToSelf(FieldElement)	Map an addition operation to each entry
+SparseFieldMatrix.copy()	Make a deep copy of this
+AbstractFieldMatrix.preMultiply(FieldMatrix)	Premultiply this matrix by m
+FieldMatrix.setColumnVector(int,FieldVector)	Set the entries in column number column as a vector
+BlockFieldMatrix.getColumnMatrix(int)	Get the entries in column number column as a column matrix
+BlockRealMatrix.createMatrix(int,int)	Create a new RealMatrix of the same type as the instance with the supplied row and column dimensions
+Array2DRowRealMatrix.operate(double[])	Returns the result of multiplying this by the vector v
+AbstractRealMatrix.setEntry(int,int,double)	Set the entry in the specified row and column Row and column indices start at 0
+BlockFieldMatrix.walkInOptimizedOrder(FieldMatrixPreservingVisitor)	Visit but don t change all matrix entries using the fastest possible order
+LUDecomposition.getDeterminant()	Return the determinant of the matrix
+CholeskyDecomposition.getLT()	Returns the transpose of the matrix L of the decomposition
+ConjugateGradient.ConjugateGradient(int,double,boolean)	Creates a new instance of this class with default stopping criterion
+MatrixUtils.createFieldIdentityMatrix(Field,int)	Returns dimension x dimension identity matrix
+FieldMatrix.setColumnMatrix(int,FieldMatrix)	Set the entries in column number column as a column matrix
+BlockFieldMatrix.addToEntry(int,int,FieldElement)	Change an entry in the specified row and column
+MatrixDimensionMismatchException.MatrixDimensionMismatchException(int,int,int,int)	Construct an exception from the mismatched dimensions
+AbstractRealMatrix.getData()	Returns matrix entries as a two dimensional array
+RealVector.getSubVector(int,int)	Get a subvector from consecutive elements
+RealMatrixFormat.getRowSeparator()	Get the format separator between rows of the matrix
+ArrayFieldVector.subtract(ArrayFieldVector)	Compute this minus v
+ArrayFieldVector.set(FieldElement)	Set all elements to a single value
+OpenMapRealVector.unitVector()	Creates a unit vector pointing in the direction of this vector
+AbstractFieldMatrix.walkInRowOrder(FieldMatrixChangingVisitor)	Visit and possibly change all matrix entries in row order
+RealLinearOperator.operate(RealVector)	Returns the result of multiplying this by the vector x
+RealVector.copy()	Returns a deep copy of this vector
+ArrayFieldVector.mapMultiply(FieldElement)	Map a multiplication operation to each entry
+ArrayRealVector.isNaN()	Check if any coordinate of this vector is NaN
+FieldDecompositionSolver.isNonSingular()	Check if the decomposed matrix is non singular
+ArrayRealVector.walkInDefaultOrder(RealVectorChangingVisitor)	Visits and possibly alters all entries of this vector in default order increasing index
+FieldVector.copy()	Returns a deep copy of this
+RealVector.getLInfDistance(RealVector)	Distance between two vectors
+ArrayRealVector.ArrayRealVector(ArrayRealVector,boolean)	Construct a vector from another vector
+BlockFieldMatrix.createBlocksLayout(Field,int,int)	Create a data array in blocks layout
+Array2DRowRealMatrix.Array2DRowRealMatrix(double[][],boolean)	Create a new RealMatrix using the input array as the underlying data array
+OpenMapRealVector.set(double)	Set all elements to a single value
+BlockFieldMatrix.walkInOptimizedOrder(FieldMatrixChangingVisitor)	Visit and possibly change all matrix entries using the fastest possible order
+DiagonalMatrix.add(DiagonalMatrix)	Compute the sum of this and m
+AbstractFieldMatrix.setRowVector(int,FieldVector)	Set the entries in row number row as a vector
+ArrayFieldVector.ArrayFieldVector(FieldElement[])	Construct a vector from an array copying the input array
+Array2DRowRealMatrix.walkInRowOrder(RealMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in row order
+AbstractRealMatrix.walkInOptimizedOrder(RealMatrixPreservingVisitor)	Visit but don t change all matrix entries using the fastest possible order
+MatrixUtils.blockInverse(RealMatrix,int)	Computes the inverse of the given matrix by splitting it into 4 sub matrices
+AbstractFieldMatrix.setEntry(int,int,FieldElement)	Set the entry in the specified row and column
+FieldMatrix.walkInOptimizedOrder(FieldMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries using the fastest possible order
+LUDecomposition.LUDecomposition(RealMatrix)	Calculates the LU decomposition of the given matrix
+RealVector.walkInOptimizedOrder(RealVectorPreservingVisitor,int,int)	Visits but does not alter some entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+OpenMapRealMatrix.subtract(RealMatrix)	Returns this minus m
+ArrayRealVector.ArrayRealVector(double[],boolean)	Create a new ArrayRealVector using the input array as the underlying data array
+FieldMatrix.walkInRowOrder(FieldMatrixChangingVisitor)	Visit and possibly change all matrix entries in row order
+DecompositionSolver.solve(RealVector)	Solve the linear equation A X B for matrices A
+AbstractRealMatrix.setColumnMatrix(int,RealMatrix)	Sets the specified column of this matrix to the entries of the specified column matrix Column indices start at 0
+ArrayFieldVector.mapDivideToSelf(FieldElement)	Map a division operation to each entry
+LUDecomposition.getL()	Returns the matrix L of the decomposition
+AbstractFieldMatrix.getColumnDimension()	Returns the number of columns in the matrix
+ArrayFieldVector.subtract(FieldVector)	Compute this minus v
+RealMatrixChangingVisitor.end()	End visiting a matrix
+ArrayFieldVector.getDimension()	Returns the size of the vector
+ArrayRealVector.ArrayRealVector(Double[])	Construct a vector from an array
+BlockRealMatrix.getRow(int)	Get the entries at the given row index Row indices start at 0
+ArrayRealVector.mapMultiplyToSelf(double)	Multiply each entry
+BlockRealMatrix.transpose()	Returns the transpose of this matrix
+MatrixUtils.createColumnFieldMatrix(T[])	Creates a column FieldMatrix using the data from the input array
+AbstractRealMatrix.walkInColumnOrder(RealMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in column order
+ArrayRealVector.walkInDefaultOrder(RealVectorPreservingVisitor,int,int)	Visits but does not alter some entries of this vector in default order increasing index
+RealMatrixFormat.RealMatrixFormat(String,String,String,String,String,String,NumberFormat)	Create an instance with custom prefix suffix separator and format for components
+AbstractFieldMatrix.getData()	Returns matrix entries as a two dimensional array
+RealVector.walkInDefaultOrder(RealVectorChangingVisitor)	Visits and possibly alters all entries of this vector in default order increasing index
+Array2DRowFieldMatrix.getData()	Returns matrix entries as a two dimensional array
+MatrixUtils.fractionMatrixToRealMatrix(FieldMatrix)	Convert a FieldMatrix Fraction matrix to a RealMatrix
+RealMatrixFormat.RealMatrixFormat(NumberFormat)	Create an instance with a custom number format for components
+BlockFieldMatrix.add(FieldMatrix)	Compute the sum of this and m
+AbstractFieldMatrix.getSubMatrix(int,int,int,int)	Get a submatrix Rows and columns are indicated counting from 0 to n 1
+ArrayRealVector.equals(Object)	Test for the equality of two real vectors If all coordinates of two real vectors are exactly the same and none are NaN the two real vectors are considered to be equal NaN coordinates are considered to affect globally the vector and be equals to each other i e if either or all coordinates of the real vector are equal to NaN the real vector is equal to a vector with all NaN coordinates
+SparseFieldVector.equals(Object)	
+BlockRealMatrix.addToEntry(int,int,double)	Adds in place the specified value to the specified entry of this matrix Row and column indices start at 0
+AbstractRealMatrix.setColumnVector(int,RealVector)	Sets the specified column of this matrix to the entries of the specified vector Column indices start at 0
+EigenDecomposition.getRealEigenvalue(int)	Returns the real part of the ith eigenvalue of the original matrix
+ArrayRealVector.getNorm()	Returns the L2 norm of the vector
+FieldMatrix.multiplyEntry(int,int,FieldElement)	Change an entry in the specified row and column
+OpenMapRealMatrix.subtract(OpenMapRealMatrix)	Subtract m from this matrix
+OpenMapRealVector.OpenMapRealVector()	Build a 0 length vector
+BlockRealMatrix.BlockRealMatrix(int,int,double[][],boolean)	Create a new dense matrix copying entries from block layout data
+FieldVectorChangingVisitor.end()	End visiting a vector This method is called once after all entries of the vector have been visited
+ArrayFieldVector.getData()	Returns vector entries as a T array
+RealMatrix.getColumnVector(int)	Get the entries at the given column index as a vector Column indices start at 0
+RealVector.getL1Norm()	Returns the L1 norm of the vector
+FieldMatrixChangingVisitor.start(int,int,int,int,int,int)	Start visiting a matrix
+ArrayRealVector.mapAddToSelf(double)	Add a value to each entry
+OpenMapRealMatrix.multiplyEntry(int,int,double)	Multiplies in place the specified entry of this matrix by the specified value Row and column indices start at 0
+SparseFieldMatrix.getColumnDimension()	Returns the number of columns in the matrix
+AbstractRealMatrix.copySubMatrix(int,int,int,int,double[][])	Copy a submatrix Rows and columns are indicated counting from 0 to n 1
+RealMatrix.createMatrix(int,int)	Create a new RealMatrix of the same type as the instance with the supplied row and column dimensions
+AbstractFieldMatrix.getColumnVector(int)	Returns the entries in column number column as a vector
+RealMatrix.preMultiply(double[])	Returns the row vector result of premultiplying this by the vector v
+PreconditionedIterativeLinearSolver.PreconditionedIterativeLinearSolver(int)	Creates a new instance of this class with default iteration manager
+SingularValueDecomposition.getV()	Returns the matrix V of the decomposition
+SingularValueDecomposition.getVT()	Returns the transpose of the matrix V of the decomposition
+AnyMatrix.isSquare()	Is this a square matrix
+RealMatrix.setColumnMatrix(int,RealMatrix)	Sets the specified column of this matrix to the entries of the specified column matrix Column indices start at 0
+AbstractFieldMatrix.copy()	Make a deep copy of this
+AbstractFieldMatrix.preMultiply(FieldVector)	Returns the row vector result of premultiplying this by the vector v
+RealMatrix.subtract(RealMatrix)	Returns this minus m
+Array2DRowFieldMatrix.subtract(Array2DRowFieldMatrix)	Subtract m from this matrix
+SingularValueDecomposition.getRank()	Return the effective numerical matrix rank
+AbstractFieldMatrix.getSubMatrix(int[],int[])	Get a submatrix Rows and columns are indicated counting from 0 to n 1
+BlockRealMatrix.walkInRowOrder(RealMatrixPreservingVisitor)	Visit but don t change all matrix entries in row order
+FieldMatrix.getTrace()	Returns the trace of the matrix the sum of the elements on the main diagonal
+OpenMapRealMatrix.getColumnDimension()	Returns the number of columns of this matrix
+SingularMatrixException.SingularMatrixException()	Construct an exception
+FieldVector.getDimension()	Returns the size of the vector
+FieldMatrix.walkInColumnOrder(FieldMatrixChangingVisitor,int,int,int,int)	Visit and possibly change some matrix entries in column order
+ArrayRealVector.append(RealVector)	Construct a new vector by appending a vector to this vector
+ArrayRealVector.getEntry(int)	Return the entry at the specified index
+BlockRealMatrix.getSubMatrix(int,int,int,int)	Gets a submatrix Rows and columns are indicated counting from 0 to n 1
+RealVector.mapMultiply(double)	Multiply each entry by the argument Returns a new vector
+FieldVectorPreservingVisitor.visit(int,FieldElement)	Visit one entry of the vector
+BlockFieldMatrix.scalarAdd(FieldElement)	Increment each entry of this matrix
+RealVectorFormat.RealVectorFormat()	Create an instance with default settings
+DiagonalMatrix.preMultiply(RealVector)	Returns the row vector result of premultiplying this by the vector v
+AbstractFieldMatrix.addToEntry(int,int,FieldElement)	Change an entry in the specified row and column
+ArrayFieldVector.ArrayFieldVector(FieldElement[],FieldElement[])	Construct a vector by appending one vector to another vector
+AbstractRealMatrix.walkInOptimizedOrder(RealMatrixChangingVisitor)	Visit and possibly change all matrix entries using the fastest possible order
+BlockFieldMatrix.transpose()	Returns the transpose of this matrix
+RealVector.subtract(RealVector)	Subtract v from this vector
+RealVector.walkInDefaultOrder(RealVectorChangingVisitor,int,int)	Visits and possibly alters some entries of this vector in default order increasing index
+ArrayRealVector.ArrayRealVector(int)	Construct a vector of zeroes
+AbstractRealMatrix.getRowVector(int)	Returns the entries in row number row as a vector Row indices start at 0
+RealMatrix.walkInOptimizedOrder(RealMatrixChangingVisitor)	Visit and possibly change all matrix entries using the fastest possible order
+SymmLQ.solve(RealLinearOperator,RealLinearOperator,RealVector)	Returns an estimate of the solution to the linear system A x b
+BlockFieldMatrix.preMultiply(FieldElement[])	Returns the row vector result of premultiplying this by the vector v
+ArrayRealVector.setEntry(int,double)	Set a single element
+DiagonalMatrix.DiagonalMatrix(int)	Creates a matrix with the supplied dimension
+BlockFieldMatrix.operate(FieldElement[])	Returns the result of multiplying this by the vector v
+DefaultRealMatrixChangingVisitor.end()	End visiting a matrix
+AbstractRealMatrix.copy()	Returns a deep copy of this
+JacobiPreconditioner.operate(RealVector)	Returns the result of multiplying this by the vector x
+AbstractRealMatrix.scalarMultiply(double)	Returns the result of multiplying each entry of this by d
+OpenMapRealVector.getDimension()	Returns the size of the vector
+EigenDecomposition.getV()	Gets the matrix V of the decomposition
+OpenMapRealVector.getL1Distance(OpenMapRealVector)	Distance between two vectors
+IterativeLinearSolverEvent.getSolution()	Returns the current estimate of the solution to the linear system to be solved This method should return an unmodifiable view or a deep copy of the actual current solution in order not to compromise subsequent iterations of the source IterativeLinearSolver
+AbstractRealMatrix.walkInRowOrder(RealMatrixChangingVisitor)	Visit and possibly change all matrix entries in row order
+SparseFieldVector.append(SparseFieldVector)	Construct a vector by appending a vector to this vector
+ArrayRealVector.combine(double,double,RealVector)	Returns a new vector representing a this b y the linear combination of this and y
+LUDecomposition.getPivot()	Returns the pivot permutation vector
+DefaultFieldMatrixChangingVisitor.start(int,int,int,int,int,int)	Start visiting a matrix
+MatrixDimensionMismatchException.getWrongRowDimension()	the expected row dimension
+SparseFieldVector.SparseFieldVector(Field,FieldElement[])	Create from a Field array
+MatrixUtils.createFieldVector(T[])	Creates a FieldVector using the data from the input array
+BlockFieldMatrix.setRowVector(int,FieldVector)	Set the entries in row number row as a vector
+AbstractFieldMatrix.copySubMatrix(int,int,int,int,FieldElement[][])	Copy a submatrix Rows and columns are indicated counting from 0 to n 1
+ArrayFieldVector.dotProduct(FieldVector)	Compute the dot product
+RealMatrixFormat.getPrefix()	Get the format prefix
+OpenMapRealVector.getSparsity()	the percentage of none zero elements as a decimal percent
+ArrayRealVector.ebeMultiply(RealVector)	Element by element multiplication
+OpenMapRealMatrix.createMatrix(int,int)	Create a new RealMatrix of the same type as the instance with the supplied row and column dimensions
+FieldVector.ebeDivide(FieldVector)	Element by element division
+ConjugateGradient.ConjugateGradient(IterationManager,double,boolean)	Creates a new instance of this class with default stopping criterion and custom iteration manager
+BlockFieldMatrix.createMatrix(int,int)	Create a new FieldMatrix of the same type as the instance with the supplied row and column dimensions
+RealVector.isInfinite()	Check whether any coordinate of this vector is infinite and none are NaN
+BlockFieldMatrix.getRow(int)	Get the entries in row number row as an array
+DefaultFieldMatrixPreservingVisitor.end()	End visiting a matrix
+EigenDecomposition.getSquareRoot()	Computes the square root of the matrix
+LUDecomposition.LUDecomposition(RealMatrix,double)	Calculates the LU decomposition of the given matrix
+MatrixUtils.createRealVector(double[])	Creates a RealVector using the data from the input array
+AbstractFieldMatrix.setSubMatrix(FieldElement[][],int,int)	Replace the submatrix starting at row column using data in the input subMatrix array Indexes are 0 based
+Array2DRowRealMatrix.getDataRef()	Get a reference to the underlying data array
+RealVector.walkInDefaultOrder(RealVectorPreservingVisitor,int,int)	Visits but does not alter some entries of this vector in default order increasing index
+ArrayRealVector.walkInOptimizedOrder(RealVectorPreservingVisitor,int,int)	Visits but does not alter some entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+Array2DRowFieldMatrix.Array2DRowFieldMatrix(Field,FieldElement[])	Create a new column FieldMatrix T using v as the data for the unique column of the created matrix
+FieldMatrix.walkInRowOrder(FieldMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in row order
+ArrayRealVector.ArrayRealVector(ArrayRealVector,double[])	Construct a vector by appending one vector to another vector
+AbstractRealMatrix.preMultiply(RealVector)	Returns the row vector result of premultiplying this by the vector v
+SparseFieldVector.walkInDefaultOrder(FieldVectorChangingVisitor,int,int)	Visits and possibly alters some entries of this vector in default order increasing index
+DecompositionSolver.isNonSingular()	Check if the decomposed matrix is non singular
+QRDecomposition.getH()	Returns the Householder reflector vectors
+SparseFieldVector.setSubVector(int,FieldVector)	Set a set of consecutive elements
+RealMatrix.multiplyEntry(int,int,double)	Multiplies in place the specified entry of this matrix by the specified value Row and column indices start at 0
+SparseFieldVector.mapInv()	Map the 1 x function to each entry
+AbstractRealMatrix.getTrace()	Returns the trace of the matrix the sum of the elements on the main diagonal
+AbstractFieldMatrix.isSquare()	Is this a square matrix
+AnyMatrix.getColumnDimension()	Returns the number of columns in the matrix
+AbstractRealMatrix.getSubMatrix(int,int,int,int)	Gets a submatrix Rows and columns are indicated counting from 0 to n 1
+BlockFieldMatrix.getSubMatrix(int,int,int,int)	Get a submatrix Rows and columns are indicated counting from 0 to n 1
+BlockRealMatrix.scalarMultiply(double)	Returns the result of multiplying each entry of this by d
+OpenMapRealVector.OpenMapRealVector(double[])	Create from an array
+SparseFieldMatrix.SparseFieldMatrix(SparseFieldMatrix)	Copy constructor
+RealVectorFormat.getAvailableLocales()	Get the set of locales for which real vectors formats are available
+OpenMapRealVector.OpenMapSparseIterator.hasNext()	
+RealMatrix.getRowVector(int)	Returns the entries in row number row as a vector Row indices start at 0
+ArrayFieldVector.set(int,ArrayFieldVector)	Set a set of consecutive elements
+ArrayFieldVector.ArrayFieldVector(ArrayFieldVector,boolean)	Construct a vector from another vector
+BlockRealMatrix.setRowMatrix(int,RealMatrix)	Sets the specified row of this matrix to the entries of the specified row matrix Row indices start at 0
+Array2DRowFieldMatrix.walkInColumnOrder(FieldMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries in column order
+AbstractRealMatrix.hashCode()	Computes a hashcode for the matrix
+RealMatrixFormat.getRowSuffix()	Get the format suffix
+ArrayFieldVector.ArrayFieldVector(FieldVector,FieldElement[])	Construct a vector by appending one vector to another vector
+DefaultIterativeLinearSolverEvent.providesResidual()	Returns true if IterativeLinearSolverEvent getResidual is supported The default implementation returns false
+Array2DRowRealMatrix.walkInRowOrder(RealMatrixChangingVisitor)	Visit and possibly change all matrix entries in row order
+DefaultFieldMatrixPreservingVisitor.DefaultFieldMatrixPreservingVisitor(FieldElement)	Build a new instance
+RealVectorFormat.format(RealVector,StringBuffer,FieldPosition)	Formats a RealVector object to produce a string
+BlockFieldMatrix.getRowVector(int)	Get the entries in row number row as a vector
+RealVector.mapAddToSelf(double)	Add a value to each entry
+BlockFieldMatrix.multiply(BlockFieldMatrix)	Returns the result of postmultiplying this by m
+ArrayRealVector.combineToSelf(double,double,RealVector)	Updates this with the linear combination of this and y
+MatrixUtils.isSymmetric(RealMatrix,double)	Checks whether a matrix is symmetric
+EigenDecomposition.EigenDecomposition(RealMatrix,double)	Calculates the eigen decomposition of the given real matrix
+FieldMatrixPreservingVisitor.start(int,int,int,int,int,int)	Start visiting a matrix
+DefaultFieldMatrixPreservingVisitor.visit(int,int,FieldElement)	Visit one matrix entry
+SparseFieldVector.walkInOptimizedOrder(FieldVectorChangingVisitor)	Visits and possibly alters all entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+EigenDecomposition.EigenDecomposition(RealMatrix)	Calculates the eigen decomposition of the given real matrix
+BlockFieldMatrix.BlockFieldMatrix(int,int,FieldElement[][],boolean)	Create a new dense matrix copying entries from block layout data
+SparseFieldVector.getData()	Returns vector entries as a T array
+BlockFieldMatrix.setSubMatrix(FieldElement[][],int,int)	Replace the submatrix starting at row column using data in the input subMatrix array Indexes are 0 based
+RealVector.outerProduct(RealVector)	Compute the outer product
+AbstractFieldMatrix.walkInOptimizedOrder(FieldMatrixPreservingVisitor,int,int,int,int)	Visit but don t change some matrix entries using the fastest possible order
+SparseFieldMatrix.SparseFieldMatrix(Field)	Create a matrix with no data
+BlockFieldMatrix.getColumnDimension()	Returns the number of columns in the matrix
+MatrixUtils.solveLowerTriangularSystem(RealMatrix,RealVector)	Solve a system of composed of a Lower Triangular Matrix RealMatrix
+AbstractFieldMatrix.setColumnMatrix(int,FieldMatrix)	Set the entries in column number column as a column matrix
+ArrayFieldVector.dotProduct(ArrayFieldVector)	Compute the dot product
+DiagonalMatrix.getDataRef()	Gets a reference to the underlying data array
+SingularValueDecomposition.SingularValueDecomposition(RealMatrix)	Calculates the compact Singular Value Decomposition of the given matrix
+OpenMapRealVector.hashCode()	This method must be overriden by concrete subclasses of RealVector current implementation throws an exception
+SymmLQ.SymmLQ(int,double,boolean)	Creates a new instance of this class with default stopping criterion Note that setting check to true entails an extra matrix vector product in the initial phase
+FieldVector.mapDivideToSelf(FieldElement)	Map a division operation to each entry
+BlockFieldMatrix.getRowMatrix(int)	Get the entries in row number row as a row matrix
+FieldMatrix.getColumnMatrix(int)	Get the entries in column number column as a column matrix
+BlockFieldMatrix.setRow(int,FieldElement[])	Set the entries in row number row as a row matrix
+ArrayFieldVector.ebeDivide(ArrayFieldVector)	Element by element division
+RealVector.getDimension()	Returns the size of the vector
+AbstractFieldMatrix.operate(FieldElement[])	Returns the result of multiplying this by the vector v
+ArrayRealVector.mapDivideToSelf(double)	Divide each entry by the argument
+QRDecomposition.getQT()	Returns the transpose of the matrix Q of the decomposition
+FieldMatrixPreservingVisitor.visit(int,int,FieldElement)	Visit one matrix entry
+SparseFieldVector.mapSubtract(FieldElement)	Map a subtraction operation to each entry
+AbstractFieldMatrix.setRow(int,FieldElement[])	Set the entries in row number row as a row matrix
+BlockRealMatrix.scalarAdd(double)	Returns the result of adding d to each entry of this
+MatrixUtils.createRowFieldMatrix(T[])	Create a row FieldMatrix using the data from the input array
+AbstractFieldMatrix.walkInColumnOrder(FieldMatrixChangingVisitor)	Visit and possibly change all matrix entries in column order
+Array2DRowFieldMatrix.walkInColumnOrder(FieldMatrixPreservingVisitor)	Visit but don t change all matrix entries in column order
+NonSymmetricMatrixException.getColumn()	the column index of the entry
+FieldMatrix.subtract(FieldMatrix)	Subtract m from this matrix
+DiagonalMatrix.getRowDimension()	Returns the number of rows of this matrix
+ArrayRealVector.dotProduct(RealVector)	Compute the dot product of this vector with v
+OpenMapRealVector.OpenMapRealVector(int,double)	Construct a vector of zeroes specifying zero tolerance
+BlockFieldMatrix.getRowDimension()	Returns the number of rows in the matrix
+ArrayRealVector.getLInfNorm()	Returns the L norm of the vector
+RealVector.sparseIterator()	Create a sparse iterator over the vector which may omit some entries
+ArrayRealVector.ArrayRealVector(Double[],int,int)	Construct a vector from part of an array
+OpenMapRealVector.dotProduct(OpenMapRealVector)	Computes the dot product
+DiagonalMatrix.DiagonalMatrix(double[])	Creates a matrix using the input array as the underlying data
+RealVector.cosine(RealVector)	Computes the cosine of the angle between this vector and the argument
+ArrayFieldVector.getDataRef()	Returns a reference to the underlying data array
+FieldMatrix.scalarAdd(FieldElement)	Increment each entry of this matrix
+Array2DRowFieldMatrix.operate(FieldElement[])	Returns the result of multiplying this by the vector v
+FieldMatrix.getRow(int)	Get the entries in row number row as an array
+RealMatrixFormat.getSuffix()	Get the format suffix
+RealMatrix.getSubMatrix(int,int,int,int)	Gets a submatrix Rows and columns are indicated counting from 0 to n 1
+ArrayFieldVector.add(ArrayFieldVector)	Compute the sum of this and v
+ArrayRealVector.walkInOptimizedOrder(RealVectorChangingVisitor,int,int)	Visits and possibly change some entries of this vector in optimized order The order in which the entries are visited is selected so as to lead to the most efficient implementation it might depend on the concrete implementation of this abstract class
+AbstractRealMatrix.getColumnVector(int)	Get the entries at the given column index as a vector Column indices start at 0
+BlockRealMatrix.createBlocksLayout(int,int)	Create a data array in blocks layout
+SparseFieldVector.SparseFieldVector(Field,int)	Construct a vector of zeroes
+ArrayRealVector.ArrayRealVector(double[],ArrayRealVector)	Construct a vector by appending one vector to another vector
+FieldLUDecomposition.getPivot()	Returns the pivot permutation vector
+MatrixUtils.deserializeRealMatrix(Object,String,ObjectInputStream)	Deserialize a RealMatrix field in a class
+SparseFieldVector.add(SparseFieldVector)	Optimized method to add sparse vectors
+SparseFieldMatrix.getEntry(int,int)	Returns the entry in the specified row and column
+JacobiPreconditioner.getRowDimension()	Returns the dimension of the codomain of this operator
+BlockRealMatrix.multiply(RealMatrix)	Returns the result of postmultiplying this by m
+OpenMapRealVector.OpenMapRealVector(Double[],double)	Create from an array
+AbstractRealMatrix.getRowMatrix(int)	Get the entries at the given row index as a row matrix Row indices start at 0
+RRQRDecomposition.getSolver()	Get a solver for finding the A X B solution in least square sense
+Array2DRowFieldMatrix.add(Array2DRowFieldMatrix)	Add m to this matrix
+RealMatrix.setEntry(int,int,double)	Set the entry in the specified row and column Row and column indices start at 0
+MatrixUtils.solveUpperTriangularSystem(RealMatrix,RealVector)	Solver a system composed of an Upper Triangular Matrix RealMatrix
+SparseRealVector.SparseRealVector()	
+BlockRealMatrix.subtract(BlockRealMatrix)	Subtract m from this matrix
+PreconditionedIterativeLinearSolver.PreconditionedIterativeLinearSolver(IterationManager)	Creates a new instance of this class with custom iteration manager
+ArrayFieldVector.mapInv()	Map the 1 x function to each entry
+Array2DRowFieldMatrix.multiply(Array2DRowFieldMatrix)	Postmultiplying this matrix by m
+OpenMapRealVector.OpenMapRealVector(int,int)	Build a vector with known the sparseness for advanced use only
+DefaultRealMatrixPreservingVisitor.end()	End visiting a matrix
+RealMatrix.addToEntry(int,int,double)	Adds in place the specified value to the specified entry of this matrix Row and column indices start at 0
+SingularValueDecomposition.getCovariance(double)	Returns the n n covariance matrix
+BlockRealMatrix.setSubMatrix(double[][],int,int)	Replace the submatrix starting at row column using data in the input subMatrix array Indexes are 0 based
+SparseFieldVector.hashCode()	
+BlockRealMatrix.getColumnDimension()	Returns the number of columns of this matrix
+AbstractRealMatrix.walkInColumnOrder(RealMatrixPreservingVisitor)	Visit but don t change all matrix entries in column order
+FieldMatrix.copySubMatrix(int,int,int,int,FieldElement[][])	Copy a submatrix Rows and columns are indicated counting from 0 to n 1
+DiagonalMatrix.subtract(DiagonalMatrix)	Returns this minus m
+MatrixUtils.serializeRealVector(RealVector,ObjectOutputStream)	Serialize a RealVector
+RealMatrixFormat.getRowPrefix()	Get the format prefix
+MatrixUtils.checkRowIndex(AnyMatrix,int)	Check if a row index is valid

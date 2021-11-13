@@ -1,0 +1,23 @@
+{
+  "id":9,
+  "description": "fetch a html and get the content",
+  "methodName":"fetchHtml",
+  "paramNames":[
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes":[
+    "java.net.URL",
+    "java.lang.String"
+  ],
+  "tgtType":"java.lang.String",
+  "packages":[
+    "java.net.URL",
+    "java.net.URLConnection",
+    "java.util.Scanner"
+  ],
+  "libs":[
+    "./lib/rt7.jar"
+  ],
+  "testPath":"benchmarks/google/51/TestSource.java"
+}

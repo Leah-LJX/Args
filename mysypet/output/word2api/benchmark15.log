@@ -1,0 +1,87 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/word2api/15/benchmark15.json
+     [java] Benchmark Id: 15
+     [java] Method name: getIntersection
+     [java] Packages: [java.awt.geom]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.awt.geom.Rectangle2D, java.awt.geom.Ellipse2D]
+     [java] Target type: java.awt.geom.Rectangle2D
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ---------------------api amount:---------------------334
+     [java] =========cnt:=========221
+     [java] #Classes: 50
+     [java] #Methods: 751
+     [java] Soot Time: 8461.966929
+     [java] PetriNet for path length: 1 [places: 56 ; transitions: 298 ; edges: 693]
+     [java] PetriNet for path length: 2 [places: 56 ; transitions: 298 ; edges: 693]
+     [java] PetriNet for path length: 3 [places: 56 ; transitions: 298 ; edges: 693]
+     [java] PetriNet for path length: 4 [places: 56 ; transitions: 298 ; edges: 693]
+     [java] PetriNet for path length: 5 [places: 56 ; transitions: 298 ; edges: 693]
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 15
+     [java] Recommend Api Number:221
+     [java] Sketch Generation Time: 98.59455299999999
+     [java] Sketch Completion Time: 14.174558000000001
+     [java] Compilation Time: 459.70546
+     [java] Running Test cases Time: 3.377614
+     [java] Synthesis Time: 116.14672499999998
+     [java] Total Time: 9037.819114000002
+     [java] Number of components: 4
+     [java] Number of holes: 6
+     [java] Number of completed programs: 4
+     [java] Number of sketches: 2
+     [java] Solution:
+     [java]  java.awt.Shape sypet_var9 = sypet_arg1;
+     [java]  java.awt.geom.Area sypet_var10 = new java.awt.geom.Area(sypet_var9);
+     [java]  java.awt.geom.Rectangle2D sypet_var11 = sypet_var10.getBounds2D();
+     [java]  java.awt.geom.Rectangle2D sypet_var12 = sypet_var11.createIntersection(sypet_arg0);
+     [java]  return sypet_var12;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 10 seconds

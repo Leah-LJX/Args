@@ -1,0 +1,25 @@
+{
+  "id": 29,
+  "description": "Generate an XML from file and query it using XPath javax.xml.parsers org.w3c.dom javax.xml.xpath",
+  "methodName": "evaluateByXpath",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+    "java.io.File",
+    "java.lang.String",
+    "javax.xml.namespace.QName"
+  ],
+  "tgtType": "java.lang.Object",
+  "packages": [
+    "org.w3c.dom",
+    "javax.xml.parsers",
+    "javax.xml.xpath"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/word2api/29/TestSource.java"
+}

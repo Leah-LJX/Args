@@ -1,0 +1,12 @@
+ByteArrayOutputStream.size()	Returns the current size of the buffer
+ByteArrayOutputStream.ByteArrayOutputStream(int)	Creates a new byte array output stream with a buffer capacity of the specified size in bytes
+ByteArrayOutputStream.writeTo(OutputStream)	Writes the complete contents of this byte array output stream to the specified output stream argument as if by calling the output stream s write method using out write buf 0 count
+ByteArrayOutputStream.close()	Closing a ByteArrayOutputStream has no effect The methods in this class can be called after the stream has been closed without generating an IOException
+ByteArrayOutputStream.reset()	Resets the count field of this byte array output stream to zero so that all currently accumulated output in the output stream is discarded The output stream can be used again reusing the already allocated buffer space
+ByteArrayOutputStream.toString(String)	Converts the buffer s contents into a string by decoding the bytes using the specified charsetName The length of the new String is a function of the charset and hence may not be equal to the length of the byte array
+ByteArrayOutputStream.write(int)	Writes the specified byte to this byte array output stream
+ByteArrayOutputStream.toByteArray()	Creates a newly allocated byte array Its size is the current size of this output stream and the valid contents of the buffer have been copied into it
+ByteArrayOutputStream.toString()	Converts the buffer s contents into a string decoding bytes using the platform s default character set The length of the new String is a function of the character set and hence may not be equal to the size of the buffer
+ByteArrayOutputStream.ByteArrayOutputStream()	Creates a new byte array output stream The buffer capacity is initially 32 bytes though its size increases if necessary
+ByteArrayOutputStream.toString(int)	Creates a newly allocated string Its size is the current size of the output stream and the valid contents of the buffer have been copied into it Each character c in the resulting string is constructed from the corresponding element b in the byte array such that c char hibyte 0xff 8 b 0xff
+ByteArrayOutputStream.write(byte[],int,int)	Writes len bytes from the specified byte array starting at offset off to this byte array output stream

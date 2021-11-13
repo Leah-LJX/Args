@@ -1,0 +1,404 @@
+RuleBasedCollator.clone()	Standard override no change in semantics
+DecimalFormatSymbols.getInstance()	Gets the DecimalFormatSymbols instance for the default locale This method provides access to DecimalFormatSymbols instances for locales supported by the Java runtime itself as well as for those supported by installed DecimalFormatSymbolsProvider implementations
+AttributedCharacterIterator.getAttributes()	Returns a map with the attributes defined on the current character
+Collator.getInstance(Locale)	Gets the Collator for the desired locale
+DecimalFormat.getPositiveSuffix()	Get the positive suffix
+DateFormat.hashCode()	Overrides hashCode
+CollationElementIterator.setText(String)	Set a new string over which to iterate
+SimpleDateFormat.setDateFormatSymbols(DateFormatSymbols)	Sets the date and time format symbols of this date format
+CharacterIterator.clone()	Create a copy of this iterator
+AttributedCharacterIterator.getAllAttributeKeys()	Returns the keys of all attributes defined on the iterator s text range The set is empty if no attributes are defined
+StringCharacterIterator.last()	Implements CharacterIterator last for String
+DecimalFormat.getMaximumFractionDigits()	Gets the maximum number of digits allowed in the fraction portion of a number
+DateFormatProvider.getDateTimeInstance(int,int,Locale)	Returns a new DateFormat instance which formats date and time with the given formatting style for the specified locale
+DateFormatSymbols.setShortWeekdays(String[])	Sets short weekday strings For example Sun Mon etc
+DecimalFormat.setMaximumFractionDigits(int)	Sets the maximum number of digits allowed in the fraction portion of a number
+DecimalFormatSymbols.setPercent(char)	Sets the character used for percent sign Different for Arabic etc
+NumberFormat.setMaximumIntegerDigits(int)	Sets the maximum number of digits allowed in the integer portion of a number maximumIntegerDigits must be minimumIntegerDigits If the new value for maximumIntegerDigits is less than the current value of minimumIntegerDigits then minimumIntegerDigits will also be set to the new value
+MessageFormat.parse(String)	Parses text from the beginning of the given string to produce an object array
+ChoiceFormat.nextDouble(double)	Finds the least double greater than d
+CharacterIterator.getEndIndex()	Returns the end index of the text This index is the index of the first character following the end of the text
+DateFormatSymbolsProvider.getInstance(Locale)	Returns a new DateFormatSymbols instance for the specified locale
+DecimalFormat.setNegativePrefix(String)	Set the negative prefix
+DecimalFormatSymbols.setInfinity(String)	Sets the string used to represent infinity Almost always left unchanged
+SimpleDateFormat.clone()	Creates a copy of this SimpleDateFormat This also clones the format s date format symbols
+StringCharacterIterator.current()	Implements CharacterIterator current for String
+MessageFormat.formatToCharacterIterator(Object)	Formats an array of objects and inserts them into the MessageFormat s pattern producing an AttributedCharacterIterator
+Annotation.getValue()	Returns the value of the attribute which may be null
+BreakIteratorProvider.getWordInstance(Locale)	Returns a new BreakIterator instance for word breaks for the given locale
+MessageFormat.format(String,)	Creates a MessageFormat with the given pattern and uses it to format the given arguments This is equivalent to new MessageFormat pattern format arguments new StringBuffer null toString
+DateFormatSymbols.getLocalPatternChars()	Gets localized date time pattern characters For example u t etc
+DecimalFormat.DecimalFormat(String)	Creates a DecimalFormat using the given pattern and the symbols for the default locale This is a convenient way to obtain a DecimalFormat when internationalization is not the main concern
+DateFormatSymbols.clone()	Overrides Cloneable
+CharacterIterator.current()	Gets the character at the current position as returned by getIndex
+MessageFormat.MessageFormat(String,Locale)	Constructs a MessageFormat for the specified locale and pattern
+DateFormatSymbols.setWeekdays(String[])	Sets weekday strings For example Sunday Monday etc
+ChoiceFormat.format(double,StringBuffer,FieldPosition)	Returns pattern with formatted double
+DecimalFormatSymbols.getDecimalSeparator()	Gets the character used for decimal sign Different for French etc
+FieldPosition.setEndIndex(int)	Sets the end index For use by subclasses of Format
+Bidi.isLeftToRight()	Return true if the line is all left to right text and the base direction is left to right
+Collator.setStrength(int)	Sets this Collator s strength property The strength property determines the minimum level of difference considered significant during comparison
+DateFormat.setNumberFormat(NumberFormat)	Allows you to set the number formatter
+DateFormat.getDateTimeInstance(int,int,Locale)	Gets the date time formatter with the given formatting styles for the given locale
+DecimalFormat.equals(Object)	Overrides equals
+AttributedCharacterIterator.getAttribute(Attribute)	Returns the value of the named attribute for the current character
+DecimalFormat.setDecimalFormatSymbols(DecimalFormatSymbols)	Sets the decimal format symbols which is generally not changed by the programmer or user
+AttributedCharacterIterator.getRunStart(Attribute)	Returns the index of the first character of the run with respect to the given attribute containing the current character
+DecimalFormatSymbolsProvider.getInstance(Locale)	Returns a new DecimalFormatSymbols instance for the specified locale
+ParsePosition.hashCode()	Returns a hash code for this ParsePosition
+DecimalFormat.getCurrency()	Gets the currency used by this decimal format when formatting currency values
+DateFormat.parse(String,ParsePosition)	Parse a date time string according to the given parse position For example a time text 07 10 96 4 5 PM PDT will be parsed into a Date that is equivalent to Date 837039900000L
+SimpleDateFormat.set2DigitYearStart(Date)	Sets the 100 year period 2 digit years will be interpreted as being in to begin on the date the user specifies
+DecimalFormatSymbols.getMinusSign()	Gets the character used to represent minus sign If no explicit negative format is specified one is formed by prefixing minusSign to the positive format
+DecimalFormatSymbols.getAvailableLocales()	Returns an array of all locales for which the getInstance methods of this class can return localized instances
+BreakIterator.getAvailableLocales()	Returns an array of all locales for which the get Instance methods of this class can return localized instances
+DateFormat.Field.ofCalendarField(int)	Returns the Field constant that corresponds to the Calendar constant calendarField
+ParsePosition.ParsePosition(int)	Create a new ParsePosition with the given initial index
+ChoiceFormat.getLimits()	Get the limits passed in the constructor
+MessageFormat.getFormatsByArgumentIndex()	Gets the formats used for the values passed into format methods or returned from parse methods The indices of elements in the returned array correspond to the argument indices used in the previously set pattern string
+BreakIterator.isBoundary(int)	Returns true if the specified character offset is a text boundary
+FieldPosition.hashCode()	Returns a hash code for this FieldPosition
+CollationElementIterator.setOffset(int)	Sets the iterator to point to the collation element corresponding to the specified character the parameter is a CHARACTER offset in the original string not an offset into its corresponding sequence of collation elements The value returned by the next call to next will be the collation element corresponding to the specified position in the text If that position is in the middle of a contracting character sequence the result of the next call to next is the collation element for that sequence This means that getOffset is not guaranteed to return the same value as was passed to a preceding call to setOffset
+NumberFormat.getInstance(Locale)	Returns a general purpose number format for the specified locale
+MessageFormat.format(Object[],StringBuffer,FieldPosition)	Formats an array of objects and appends the MessageFormat s pattern with format elements replaced by the formatted objects to the provided StringBuffer
+ChoiceFormat.clone()	Overrides Cloneable
+BreakIterator.getText()	Get the text being scanned
+ChoiceFormat.ChoiceFormat(double[],String[])	Constructs with the limits and the corresponding formats
+Collator.compare(Object,Object)	Compares its two arguments for order Returns a negative integer zero or a positive integer as the first argument is less than equal to or greater than the second
+AttributedString.AttributedString(String,Map)	Constructs an AttributedString instance with the given text and attributes
+StringCharacterIterator.getBeginIndex()	Implements CharacterIterator getBeginIndex for String
+ParseException.getErrorOffset()	Returns the position where the error was found
+DateFormatSymbols.getShortWeekdays()	Gets short weekday strings For example Sun Mon etc
+DateFormatSymbols.getZoneStrings()	Gets time zone strings Use of this method is discouraged use TimeZone getDisplayName instead
+NumberFormat.getCurrencyInstance(Locale)	Returns a currency format for the specified locale
+SimpleDateFormat.format(Date,StringBuffer,FieldPosition)	Formats the given Date into a date time string and appends the result to the given StringBuffer
+MessageFormat.toPattern()	Returns a pattern representing the current state of the message format
+NumberFormat.getMaximumFractionDigits()	Returns the maximum number of digits allowed in the fraction portion of a number
+Collator.getAvailableLocales()	Returns an array of all locales for which the getInstance methods of this class can return localized instances
+NumberFormat.getRoundingMode()	Gets the RoundingMode used in this NumberFormat
+NumberFormat.parseObject(String,ParsePosition)	Parses text from a string to produce a Number
+ChoiceFormat.format(long,StringBuffer,FieldPosition)	Specialization of format This method really calls format double StringBuffer FieldPosition thus the range of longs that are supported is only equal to the range that can be stored by double This will never be a practical limitation
+CollationElementIterator.previous()	Get the previous collation element in the string This iterator iterates over a sequence of collation elements that were built from the string
+DateFormat.getDateInstance()	Gets the date formatter with the default formatting style for the default locale
+MessageFormat.setFormatByArgumentIndex(int,Format)	Sets the format to use for the format elements within the previously set pattern string that use the given argument index
+NumberFormatProvider.getPercentInstance(Locale)	Returns a new NumberFormat instance which formats percentage values for the specified locale
+DecimalFormatSymbols.getPerMill()	Gets the character used for per mille sign Different for Arabic etc
+DecimalFormatSymbols.getGroupingSeparator()	Gets the character used for thousands separator Different for French etc
+DecimalFormatSymbols.setNaN(String)	Sets the string used to represent not a number Almost always left unchanged
+SimpleDateFormat.SimpleDateFormat(String)	Constructs a SimpleDateFormat using the given pattern and the default date format symbols for the default locale
+ChoiceFormat.applyPattern(String)	Sets the pattern
+Collator.getInstance()	Gets the Collator for the current default locale
+FieldPosition.getField()	Retrieves the field identifier
+RuleBasedCollator.compare(String,String)	Compares the character data stored in two different strings based on the collation rules Returns information about whether a string is less than greater than or equal to another string in a language
+MessageFormat.setFormat(int,Format)	Sets the format to use for the format element with the given format element index within the previously set pattern string
+DecimalFormat.setRoundingMode(RoundingMode)	Sets the RoundingMode used in this DecimalFormat
+DateFormatSymbols.DateFormatSymbols()	Construct a DateFormatSymbols object by loading format data from resources for the default locale This constructor can only construct instances for the locales supported by the Java runtime environment not for those supported by installed DateFormatSymbolsProvider implementations For full locale coverage use the getInstance method
+DateFormatSymbols.getAvailableLocales()	Returns an array of all locales for which the getInstance methods of this class can return localized instances
+DateFormat.getTimeInstance(int,Locale)	Gets the time formatter with the given formatting style for the given locale
+RuleBasedCollator.getCollationKey(String)	Transforms the string into a series of characters that can be compared with CollationKey compareTo This overrides java text Collator getCollationKey
+DecimalFormatSymbols.getZeroDigit()	Gets the character used for zero Different for Arabic etc
+DecimalFormat.setMinimumIntegerDigits(int)	Sets the minimum number of digits allowed in the integer portion of a number
+NumberFormat.format(long,StringBuffer,FieldPosition)	Specialization of format
+Normalizer.normalize(CharSequence,Form)	Normalize a sequence of char values
+DecimalFormatSymbols.getPatternSeparator()	Gets the character used to separate positive and negative subpatterns in a pattern
+DecimalFormatSymbols.setDigit(char)	Sets the character used for a digit in a pattern
+AttributedCharacterIterator.getRunStart(Set)	Returns the index of the first character of the run with respect to the given attributes containing the current character
+MessageFormat.format(Object,StringBuffer,FieldPosition)	Formats an array of objects and appends the MessageFormat s pattern with format elements replaced by the formatted objects to the provided StringBuffer
+DecimalFormat.setMinimumFractionDigits(int)	Sets the minimum number of digits allowed in the fraction portion of a number
+Format.parseObject(String)	Parses text from the beginning of the given string to produce an object
+DecimalFormatSymbols.getInternationalCurrencySymbol()	Returns the ISO 4217 currency code of the currency of these DecimalFormatSymbols
+MessageFormat.getLocale()	Gets the locale that s used when creating or comparing subformats
+DateFormat.getDateTimeInstance(int,int)	Gets the date time formatter with the given date and time formatting styles for the default locale
+NumberFormat.getMinimumIntegerDigits()	Returns the minimum number of digits allowed in the integer portion of a number
+DecimalFormat.hashCode()	Overrides hashCode
+BreakIterator.getCharacterInstance(Locale)	Returns a new BreakIterator instance for character breaks for the given locale
+BreakIterator.getSentenceInstance()	Returns a new BreakIterator instance for sentence breaks for the default locale
+DateFormat.format(Date)	Formats a Date into a date time string
+DecimalFormat.getRoundingMode()	Gets the RoundingMode used in this DecimalFormat
+RuleBasedCollator.equals(Object)	Compares the equality of two collation objects
+DecimalFormatSymbols.getInstance(Locale)	Gets the DecimalFormatSymbols instance for the specified locale This method provides access to DecimalFormatSymbols instances for locales supported by the Java runtime itself as well as for those supported by installed DecimalFormatSymbolsProvider implementations
+NumberFormat.getPercentInstance()	Returns a percentage format for the current default locale
+DateFormat.isLenient()	Tell whether date time parsing is to be lenient
+DateFormatSymbols.DateFormatSymbols(Locale)	Construct a DateFormatSymbols object by loading format data from resources for the given locale This constructor can only construct instances for the locales supported by the Java runtime environment not for those supported by installed DateFormatSymbolsProvider implementations For full locale coverage use the getInstance method
+RuleBasedCollator.getCollationElementIterator(String)	Return a CollationElementIterator for the given String
+SimpleDateFormat.applyPattern(String)	Applies the given pattern string to this date format
+NumberFormat.isParseIntegerOnly()	Returns true if this format will parse numbers as integers only
+CharacterIterator.last()	Sets the position to getEndIndex 1 getEndIndex if the text is empty and returns the character at that position
+NumberFormat.setMaximumFractionDigits(int)	Sets the maximum number of digits allowed in the fraction portion of a number maximumFractionDigits must be minimumFractionDigits If the new value for maximumFractionDigits is less than the current value of minimumFractionDigits then minimumFractionDigits will also be set to the new value
+AttributedString.getIterator()	Creates an AttributedCharacterIterator instance that provides access to the entire contents of this string
+AttributedCharacterIterator.getRunLimit(Set)	Returns the index of the first character following the run with respect to the given attributes containing the current character
+DecimalFormat.setDecimalSeparatorAlwaysShown(boolean)	Allows you to set the behavior of the decimal separator with integers
+SimpleDateFormat.equals(Object)	Compares the given object with this SimpleDateFormat for equality
+DecimalFormatSymbols.getInfinity()	Gets the string used to represent infinity Almost always left unchanged
+DecimalFormat.getPositivePrefix()	Get the positive prefix
+DateFormatSymbols.getShortMonths()	Gets short month strings For example Jan Feb etc
+CollationElementIterator.reset()	Resets the cursor to the beginning of the string The next call to next will return the first collation element in the string
+DateFormatSymbols.getInstance()	Gets the DateFormatSymbols instance for the default locale This method provides access to DateFormatSymbols instances for locales supported by the Java runtime itself as well as for those supported by installed DateFormatSymbolsProvider implementations
+StringCharacterIterator.equals(Object)	Compares the equality of two StringCharacterIterator objects
+AttributedString.AttributedString(String)	Constructs an AttributedString instance with the given text
+DecimalFormatSymbols.setCurrencySymbol(String)	Sets the currency symbol for the currency of these DecimalFormatSymbols in their locale
+SimpleDateFormat.applyLocalizedPattern(String)	Applies the given localized pattern string to this date format
+CollatorProvider.getInstance(Locale)	Returns a new Collator instance for the specified locale
+NumberFormat.getCurrency()	Gets the currency used by this number format when formatting currency values The initial value is derived in a locale dependent way The returned value may be null if no valid currency could be determined and no currency has been set using setCurrency
+NumberFormat.setMinimumIntegerDigits(int)	Sets the minimum number of digits allowed in the integer portion of a number minimumIntegerDigits must be maximumIntegerDigits If the new value for minimumIntegerDigits exceeds the current value of maximumIntegerDigits then maximumIntegerDigits will also be set to the new value
+Annotation.toString()	Returns the String representation of this Annotation
+NumberFormat.setRoundingMode(RoundingMode)	Sets the RoundingMode used in this NumberFormat
+Bidi.getBaseLevel()	Return the base level 0 if left to right 1 if right to left
+FieldPosition.FieldPosition(Field,int)	Creates a FieldPosition object for the given field
+AttributedString.addAttribute(Attribute,Object,int,int)	Adds an attribute to a subrange of the string
+DateFormat.parse(String)	Parses text from the beginning of the given string to produce a date
+StringCharacterIterator.first()	Implements CharacterIterator first for String
+NumberFormat.getNumberInstance()	Returns a general purpose number format for the current default locale
+CharacterIterator.previous()	Decrements the iterator s index by one and returns the character at the new index If the current index is getBeginIndex the index remains at getBeginIndex and a value of DONE is returned
+ChoiceFormat.toPattern()	Gets the pattern
+DateFormat.parseObject(String,ParsePosition)	Parses text from a string to produce a Date
+Bidi.baseIsLeftToRight()	Return true if the base direction is left to right
+DecimalFormat.getNegativePrefix()	Get the negative prefix
+DecimalFormatSymbols.setMonetaryDecimalSeparator(char)	Sets the monetary decimal separator
+DateFormat.getDateTimeInstance()	Gets the date time formatter with the default formatting style for the default locale
+DateFormat.getCalendar()	Gets the calendar associated with this date time formatter
+StringCharacterIterator.getEndIndex()	Implements CharacterIterator getEndIndex for String
+DecimalFormatSymbols.setCurrency(Currency)	Sets the currency of these DecimalFormatSymbols
+SimpleDateFormat.hashCode()	Returns the hash code value for this SimpleDateFormat object
+NumberFormat.parse(String)	Parses text from the beginning of the given string to produce a number
+DateFormat.getInstance()	Get a default date time formatter that uses the SHORT style for both the date and the time
+AttributedCharacterIterator.Attribute.equals(Object)	Compares two objects for equality This version only returns true for x equals y if x and y refer to the same object and guarantees this for all subclasses
+DateFormat.setLenient(boolean)	Specify whether or not date time parsing is to be lenient With lenient parsing the parser may use heuristics to interpret inputs that do not precisely match this object s format With strict parsing inputs must match this object s format
+NumberFormat.format(long)	Specialization of format
+SimpleDateFormat.toLocalizedPattern()	Returns a localized pattern string describing this date format
+DecimalFormat.formatToCharacterIterator(Object)	Formats an Object producing an AttributedCharacterIterator
+NumberFormat.format(double,StringBuffer,FieldPosition)	Specialization of format
+DecimalFormat.getMaximumIntegerDigits()	Gets the maximum number of digits allowed in the integer portion of a number
+CollationKey.compareTo(CollationKey)	Compare this CollationKey to the target CollationKey The collation rules of the Collator object which created these keys are applied Note CollationKeys created by different Collators can not be compared
+DecimalFormat.getMultiplier()	Gets the multiplier for use in percent per mille and similar formats
+NumberFormat.getMinimumFractionDigits()	Returns the minimum number of digits allowed in the fraction portion of a number
+ParsePosition.getIndex()	Retrieve the current parse position On input to a parse method this is the index of the character at which parsing will begin on output it is the index of the character following the last character parsed
+DecimalFormat.DecimalFormat(String,DecimalFormatSymbols)	Creates a DecimalFormat using the given pattern and symbols
+BreakIterator.setText(CharacterIterator)	Set a new text for scanning The current scan position is reset to first
+NumberFormat.setMinimumFractionDigits(int)	Sets the minimum number of digits allowed in the fraction portion of a number minimumFractionDigits must be maximumFractionDigits If the new value for minimumFractionDigits exceeds the current value of maximumFractionDigits then maximumIntegerDigits will also be set to the new value
+Collator.equals(Object)	Compares the equality of two Collators
+BreakIteratorProvider.getLineInstance(Locale)	Returns a new BreakIterator instance for line breaks for the given locale
+NumberFormatProvider.getCurrencyInstance(Locale)	Returns a new NumberFormat instance which formats monetary values for the specified locale
+SimpleDateFormat.SimpleDateFormat()	Constructs a SimpleDateFormat using the default pattern and date format symbols for the default locale
+BreakIterator.next(int)	Returns the nth boundary from the current boundary If either the first or last text boundary has been reached it returns BreakIterator DONE and the current position is set to either the first or last text boundary depending on which one is reached Otherwise the iterator s current position is set to the new boundary
+DateFormat.getDateInstance(int,Locale)	Gets the date formatter with the given formatting style for the given locale
+DecimalFormat.format(Object,StringBuffer,FieldPosition)	Formats a number and appends the resulting text to the given string buffer
+DecimalFormat.format(long,StringBuffer,FieldPosition)	Format a long to produce a string
+BreakIterator.last()	Returns the last boundary The iterator s current position is set to the last text boundary
+DecimalFormatSymbols.getMonetaryDecimalSeparator()	Returns the monetary decimal separator
+MessageFormat.setFormatsByArgumentIndex(Format[])	Sets the formats to use for the values passed into format methods or returned from parse methods The indices of elements in newFormats correspond to the argument indices used in the previously set pattern string
+MessageFormat.parseObject(String,ParsePosition)	Parses text from a string to produce an object array
+NumberFormat.getAvailableLocales()	Returns an array of all locales for which the get Instance methods of this class can return localized instances
+BreakIteratorProvider.getCharacterInstance(Locale)	Returns a new BreakIterator instance for character breaks for the given locale
+Collator.hashCode()	Generates the hash code for this Collator
+DecimalFormat.setMaximumIntegerDigits(int)	Sets the maximum number of digits allowed in the integer portion of a number
+NumberFormat.format(double)	Specialization of format
+SimpleDateFormat.parse(String,ParsePosition)	Parses text from a string to produce a Date
+DateFormat.equals(Object)	Overrides equals
+ParsePosition.toString()	Return a string representation of this ParsePosition
+DateFormatProvider.getTimeInstance(int,Locale)	Returns a new DateFormat instance which formats time with the given formatting style for the specified locale
+SimpleDateFormat.SimpleDateFormat(String,DateFormatSymbols)	Constructs a SimpleDateFormat using the given pattern and date format symbols
+MessageFormat.setFormats(Format[])	Sets the formats to use for the format elements in the previously set pattern string
+DateFormat.format(Date,StringBuffer,FieldPosition)	Formats a Date into a date time string
+DecimalFormat.getDecimalFormatSymbols()	Returns a copy of the decimal format symbols which is generally not changed by the programmer or user
+CharacterIterator.setIndex(int)	Sets the position to the specified position in the text and returns that character
+MessageFormat.applyPattern(String)	Sets the pattern used by this message format
+ChoiceFormat.ChoiceFormat(String)	Constructs with limits and corresponding formats based on the pattern
+DateFormatSymbols.hashCode()	Override hashCode
+SimpleDateFormat.get2DigitYearStart()	Returns the beginning date of the 100 year period 2 digit years are interpreted as being within
+DecimalFormatSymbols.setDecimalSeparator(char)	Sets the character used for decimal sign Different for French etc
+DecimalFormat.setPositiveSuffix(String)	Set the positive suffix
+DecimalFormatSymbols.setPatternSeparator(char)	Sets the character used to separate positive and negative subpatterns in a pattern
+CharacterIterator.first()	Sets the position to getBeginIndex and returns the character at that position
+FieldPosition.FieldPosition(Field)	Creates a FieldPosition object for the given field constant Fields are identified by constants defined in the various Format subclasses This is equivalent to calling new FieldPosition attribute 1
+RuleBasedCollator.RuleBasedCollator(String)	RuleBasedCollator constructor This takes the table rules and builds a collation table out of them Please see RuleBasedCollator class description for more details on the collation rule syntax
+Bidi.getRunStart(int)	Return the index of the character at the start of the nth logical run in this line as an offset from the start of the line
+DateFormatSymbols.equals(Object)	Override equals
+FieldPosition.setBeginIndex(int)	Sets the begin index For use by subclasses of Format
+StringCharacterIterator.next()	Implements CharacterIterator next for String
+ParsePosition.getErrorIndex()	Retrieve the index at which an error occurred or 1 if the error index has not been set
+StringCharacterIterator.setText(String)	Reset this iterator to point to a new string This package visible method is used by other java text classes that want to avoid allocating new StringCharacterIterator objects every time their setText method is called
+DateFormat.getTimeInstance(int)	Gets the time formatter with the given formatting style for the default locale
+NumberFormat.getInstance()	Returns a general purpose number format for the current default locale
+DecimalFormatSymbols.getDigit()	Gets the character used for a digit in a pattern
+BreakIterator.getWordInstance(Locale)	Returns a new BreakIterator instance for word breaks for the given locale
+Bidi.requiresBidi(char[],int,int)	Return true if the specified text requires bidi analysis If this returns false the text will display left to right Clients can then avoid constructing a Bidi object
+DecimalFormat.clone()	Standard override no change in semantics
+CollationElementIterator.next()	Get the next collation element in the string This iterator iterates over a sequence of collation elements that were built from the string
+ChoiceFormat.getFormats()	Get the formats passed in the constructor
+NumberFormat.setGroupingUsed(boolean)	Set whether or not grouping will be used in this format
+DateFormat.format(Object,StringBuffer,FieldPosition)	Overrides Format
+DecimalFormatSymbols.setMinusSign(char)	Sets the character used to represent minus sign If no explicit negative format is specified one is formed by prefixing minusSign to the positive format
+CollationElementIterator.setText(CharacterIterator)	Set a new string over which to iterate
+DecimalFormat.getNegativeSuffix()	Get the negative suffix
+DateFormatSymbols.getMonths()	Gets month strings For example January February etc
+AttributedCharacterIterator.Attribute.toString()	Returns a string representation of the object This version returns the concatenation of class name a name identifying the attribute and
+NumberFormatProvider.getNumberInstance(Locale)	Returns a new general purpose NumberFormat instance for the specified locale
+CollationElementIterator.tertiaryOrder(int)	Return the tertiary component of a collation element
+DecimalFormat.setParseBigDecimal(boolean)	Sets whether the parse java lang String java text ParsePosition method returns BigDecimal
+StringCharacterIterator.StringCharacterIterator(String)	Constructs an iterator with an initial index of 0
+ParseException.ParseException(String,int)	Constructs a ParseException with the specified detail message and offset
+BreakIterator.current()	Returns character index of the text boundary that was most recently returned by next next int previous first last following int or preceding int If any of these methods returns BreakIterator DONE because either first or last text boundary has been reached it returns the first or last text boundary depending on which one is reached
+Collator.setDecomposition(int)	Set the decomposition mode of this Collator See getDecomposition for a description of decomposition mode
+ParsePosition.setIndex(int)	Set the current parse position
+ParsePosition.setErrorIndex(int)	Set the index at which a parse error occurred Formatters should set this before returning an error code from their parseObject method The default value is 1 if this is not set
+Bidi.getRunLimit(int)	Return the index of the character past the end of the nth logical run in this line as an offset from the start of the line For example this will return the length of the line for the last run on the line
+FieldPosition.FieldPosition(int)	Creates a FieldPosition object for the given field Fields are identified by constants whose names typically end with FIELD in the various subclasses of Format
+Bidi.getLength()	Return the length of text in the line
+NumberFormat.equals(Object)	Overrides equals
+NumberFormat.getCurrencyInstance()	Returns a currency format for the current default locale
+FieldPosition.getEndIndex()	Retrieves the index of the character following the last character in the requested field
+Bidi.Bidi(AttributedCharacterIterator)	Create Bidi from the given paragraph of text
+NumberFormat.getPercentInstance(Locale)	Returns a percentage format for the specified locale
+DateFormatSymbols.setZoneStrings(String[][])	Sets time zone strings The argument must be a two dimensional array of strings of size n by m where m is at least 5 Each of the n rows is an entry containing the localized names for a single TimeZone
+BreakIterator.getWordInstance()	Returns a new BreakIterator instance for word breaks for the default locale
+CharacterIterator.next()	Increments the iterator s index by one and returns the character at the new index If the resulting index is greater or equal to getEndIndex the current index is reset to getEndIndex and a value of DONE is returned
+CollationKey.toByteArray()	Converts the CollationKey to a sequence of bits If two CollationKeys could be legitimately compared then one could compare the byte arrays for each of those keys to obtain the same result Byte arrays are organized most significant byte first
+Format.formatToCharacterIterator(Object)	Formats an Object producing an AttributedCharacterIterator
+NumberFormat.clone()	Overrides Cloneable
+StringCharacterIterator.previous()	Implements CharacterIterator previous for String
+AttributedCharacterIterator.getRunStart()	Returns the index of the first character of the run with respect to all attributes containing the current character
+DecimalFormat.applyLocalizedPattern(String)	Apply the given pattern to this Format object The pattern is assumed to be in a localized notation A pattern is a short hand specification for the various formatting properties
+Format.parseObject(String,ParsePosition)	Parses text from a string to produce an object
+AttributedCharacterIterator.getRunLimit(Attribute)	Returns the index of the first character following the run with respect to the given attribute containing the current character
+BreakIterator.clone()	Create a copy of this iterator
+NumberFormat.getNumberInstance(Locale)	Returns a general purpose number format for the specified locale
+DecimalFormatSymbols.setInternationalCurrencySymbol(String)	Sets the ISO 4217 currency code of the currency of these DecimalFormatSymbols
+RuleBasedCollator.getCollationElementIterator(CharacterIterator)	Return a CollationElementIterator for the given String
+DecimalFormat.toLocalizedPattern()	Synthesizes a localized pattern string that represents the current state of this Format object
+DateFormat.getNumberFormat()	Gets the number formatter which this date time formatter uses to format and parse a time
+Bidi.createLineBidi(int,int)	Create a Bidi object representing the bidi information on a line of text within the paragraph represented by the current Bidi This call is not required if the entire paragraph fits on one line
+NumberFormat.parse(String,ParsePosition)	Returns a Long if possible e g within the range Long MIN VALUE Long MAX VALUE and with no decimals otherwise a Double
+NumberFormatProvider.getIntegerInstance(Locale)	Returns a new NumberFormat instance which formats integer values for the specified locale
+DecimalFormat.format(double,StringBuffer,FieldPosition)	Formats a double to produce a string
+StringCharacterIterator.setIndex(int)	Implements CharacterIterator setIndex for String
+Bidi.Bidi(String,int)	Create Bidi from the given paragraph of text and base direction
+CollationElementIterator.getOffset()	Returns the character offset in the original text corresponding to the next collation element That is getOffset returns the position in the text corresponding to the collation element that will be returned by the next call to next This value will always be the index of the FIRST character corresponding to the collation element a contracting character sequence is when two or more characters all correspond to the same collation element
+MessageFormat.setLocale(Locale)	Sets the locale to be used when creating or comparing subformats
+Format.clone()	Creates and returns a copy of this object
+DecimalFormat.setGroupingSize(int)	Set the grouping size Grouping size is the number of digits between grouping separators in the integer portion of a number For example in the number 123 456 78 the grouping size is 3
+Bidi.isMixed()	Return true if the line is not left to right or right to left This means it either has mixed runs of left to right and right to left text or the base direction differs from the direction of the only run of text
+DateFormat.getTimeInstance()	Gets the time formatter with the default formatting style for the default locale
+CollationElementIterator.getMaxExpansion(int)	Return the maximum length of any expansion sequences that end with the specified comparison order
+AttributedString.AttributedString(AttributedCharacterIterator)	Constructs an AttributedString instance with the given attributed text represented by AttributedCharacterIterator
+DateFormatSymbols.setMonths(String[])	Sets month strings For example January February etc
+Collator.equals(String,String)	Convenience method for comparing the equality of two strings based on this Collator s collation rules
+NumberFormat.getIntegerInstance()	Returns an integer number format for the current default locale The returned number format is configured to round floating point numbers to the nearest integer using half even rounding see RoundingMode HALF EVEN for formatting and to parse only the integer part of an input string see isParseIntegerOnly
+DateFormat.getAvailableLocales()	Returns an array of all locales for which the get Instance methods of this class can return localized instances
+DecimalFormat.isDecimalSeparatorAlwaysShown()	Allows you to get the behavior of the decimal separator with integers
+DateFormatSymbols.setLocalPatternChars(String)	Sets localized date time pattern characters For example u t etc
+AttributedString.addAttributes(Map,int,int)	Adds a set of attributes to a subrange of the string
+NumberFormat.getIntegerInstance(Locale)	Returns an integer number format for the specified locale The returned number format is configured to round floating point numbers to the nearest integer using half even rounding see RoundingMode HALF EVEN for formatting and to parse only the integer part of an input string see isParseIntegerOnly
+Collator.getDecomposition()	Get the decomposition mode of this Collator Decomposition mode determines how Unicode composed characters are handled Adjusting decomposition mode allows the user to select between faster and more complete collation behavior
+DecimalFormatSymbols.setGroupingSeparator(char)	Sets the character used for thousands separator Different for French etc
+ChoiceFormat.nextDouble(double,boolean)	Finds the least double greater than d if positive true or the greatest double less than d if positive false
+DecimalFormatSymbols.getCurrencySymbol()	Returns the currency symbol for the currency of these DecimalFormatSymbols in their locale
+CharacterIterator.getBeginIndex()	Returns the start index of the text
+AttributedString.addAttribute(Attribute,Object)	Adds an attribute to the entire string
+BreakIterator.preceding(int)	Returns the last boundary preceding the specified character offset If the specified offset equals to the first text boundary it returns BreakIterator DONE and the iterator s current position is unchanged
+DateFormat.Field.getCalendarField()	Returns the Calendar field associated with this attribute For example if this represents the hours field of a Calendar this would return Calendar HOUR If there is no corresponding Calendar constant this will return 1
+MessageFormat.clone()	Creates and returns a copy of this object
+ChoiceFormat.parse(String,ParsePosition)	Parses a Number from the input text
+Bidi.getRunLevel(int)	Return the level of the nth logical run in this line
+BreakIterator.next()	Returns the boundary following the current boundary If the current boundary is the last text boundary it returns BreakIterator DONE and the iterator s current position is unchanged Otherwise the iterator s current position is set to the boundary following the current boundary
+AttributedString.AttributedString(AttributedCharacterIterator,int,int)	Constructs an AttributedString instance with the subrange of the given attributed text represented by AttributedCharacterIterator If the given range produces an empty text all attributes will be discarded Note that any attributes wrapped by an Annotation object are discarded for a subrange of the original attribute range
+DecimalFormat.setCurrency(Currency)	Sets the currency used by this number format when formatting currency values This does not update the minimum or maximum number of fraction digits used by the number format
+AttributedCharacterIterator.getRunLimit()	Returns the index of the first character following the run with respect to all attributes containing the current character
+DateFormatSymbols.setEras(String[])	Sets era strings For example AD and BC
+Annotation.Annotation(Object)	Constructs an annotation record with the given value which may be null
+Collator.getCollationKey(String)	Transforms the String into a series of bits that can be compared bitwise to other CollationKeys CollationKeys provide better performance than Collator compare when Strings are involved in multiple comparisons
+DateFormatSymbols.getInstance(Locale)	Gets the DateFormatSymbols instance for the specified locale This method provides access to DateFormatSymbols instances for locales supported by the Java runtime itself as well as for those supported by installed DateFormatSymbolsProvider implementations
+SimpleDateFormat.formatToCharacterIterator(Object)	Formats an Object producing an AttributedCharacterIterator
+DecimalFormatSymbols.setExponentSeparator(String)	Sets the string used to separate the mantissa from the exponent
+FieldPosition.getFieldAttribute()	Returns the field identifier as an attribute constant from one of the Field subclasses May return null if the field is specified only by an integer field ID
+ChoiceFormat.hashCode()	Generates a hash code for the message format object
+DecimalFormat.getGroupingSize()	Return the grouping size Grouping size is the number of digits between grouping separators in the integer portion of a number For example in the number 123 456 78 the grouping size is 3
+CharacterIterator.getIndex()	Returns the current index
+MessageFormat.equals(Object)	Equality comparison between two message format objects
+StringCharacterIterator.StringCharacterIterator(String,int)	Constructs an iterator with the specified initial index
+DateFormat.setCalendar(Calendar)	Set the calendar to be used by this date format Initially the default calendar for the specified or default locale is used
+DecimalFormat.parse(String,ParsePosition)	Parses text from a string to produce a Number
+DecimalFormat.getMinimumFractionDigits()	Gets the minimum number of digits allowed in the fraction portion of a number
+ChoiceFormat.setChoices(double[],String[])	Set the choices to be used in formatting
+DecimalFormatSymbols.getNaN()	Gets the string used to represent not a number Almost always left unchanged
+DateFormatProvider.getDateInstance(int,Locale)	Returns a new DateFormat instance which formats date with the given formatting style for the specified locale
+DecimalFormatSymbols.DecimalFormatSymbols(Locale)	Create a DecimalFormatSymbols object for the given locale
+Collator.clone()	Overrides Cloneable
+DecimalFormatSymbols.hashCode()	Override hashCode
+DateFormat.setTimeZone(TimeZone)	Sets the time zone for the calendar of this DateFormat object
+BreakIterator.previous()	Returns the boundary preceding the current boundary If the current boundary is the first text boundary it returns BreakIterator DONE and the iterator s current position is unchanged Otherwise the iterator s current position is set to the boundary preceding the current boundary
+DecimalFormatSymbols.setPerMill(char)	Sets the character used for per mille sign Different for Arabic etc
+DecimalFormatSymbols.getExponentSeparator()	Returns the string used to separate the mantissa from the exponent
+StringCharacterIterator.hashCode()	Computes a hashcode for this iterator
+ChoiceFormat.previousDouble(double)	Finds the greatest double less than d
+CollationElementIterator.primaryOrder(int)	Return the primary component of a collation element
+Bidi.reorderVisually(byte[],int,Object[],int,int)	Reorder the objects in the array into visual order based on their levels
+Bidi.getLevelAt(int)	Return the resolved level of the character at offset If offset is 0 or the length of the line return the base direction level
+Bidi.isRightToLeft()	Return true if the line is all right to left text and the base direction is right to left
+FieldPosition.equals(Object)	Overrides equals
+MessageFormat.hashCode()	Generates a hash code for the message format object
+SimpleDateFormat.getDateFormatSymbols()	Gets a copy of the date and time format symbols of this date format
+SimpleDateFormat.toPattern()	Returns a pattern string describing this date format
+CollationKey.getSourceString()	Returns the String that this CollationKey represents
+DateFormat.clone()	Overrides Cloneable
+DateFormat.getDateInstance(int)	Gets the date formatter with the given formatting style for the default locale
+NumberFormat.setParseIntegerOnly(boolean)	Sets whether or not numbers should be parsed as integers only
+Normalizer.isNormalized(CharSequence,Form)	Determines if the given sequence of char values is normalized
+Collator.compare(String,String)	Compares the source string to the target string according to the collation rules for this Collator Returns an integer less than equal to or greater than zero depending on whether the source String is less than equal to or greater than the target string See the Collator class description for an example of use
+DecimalFormatSymbols.DecimalFormatSymbols()	Create a DecimalFormatSymbols object for the default locale
+ParsePosition.equals(Object)	Overrides equals
+NumberFormat.isGroupingUsed()	Returns true if grouping is used in this format For example in the English locale with grouping on the number 1234567 might be formatted as 1 234 567 The grouping separator as well as the size of each group is locale dependant and is determined by sub classes of NumberFormat
+DecimalFormat.DecimalFormat()	Creates a DecimalFormat using the default pattern and symbols for the default locale This is a convenient way to obtain a DecimalFormat when internationalization is not the main concern
+BreakIterator.getLineInstance()	Returns a new BreakIterator instance for line breaks for the default locale
+AttributedString.getIterator(Attribute[],int,int)	Creates an AttributedCharacterIterator instance that provides access to selected contents of this string
+CollationElementIterator.secondaryOrder(int)	Return the secondary component of a collation element
+BreakIterator.getLineInstance(Locale)	Returns a new BreakIterator instance for line breaks for the given locale
+DateFormatSymbols.getWeekdays()	Gets weekday strings For example Sunday Monday etc
+StringCharacterIterator.getIndex()	Implements CharacterIterator getIndex for String
+Collator.getStrength()	Returns this Collator s strength property The strength property determines the minimum level of difference considered significant during comparison
+BreakIterator.getSentenceInstance(Locale)	Returns a new BreakIterator instance for sentence breaks for the given locale
+DecimalFormat.getMinimumIntegerDigits()	Gets the minimum number of digits allowed in the integer portion of a number
+DecimalFormat.setMultiplier(int)	Sets the multiplier for use in percent per mille and similar formats
+AttributedString.AttributedString(AttributedCharacterIterator,int,int,Attribute[])	Constructs an AttributedString instance with the subrange of the given attributed text represented by AttributedCharacterIterator Only attributes that match the given attributes will be incorporated into the instance If the given range produces an empty text all attributes will be discarded Note that any attributes wrapped by an Annotation object are discarded for a subrange of the original attribute range
+AttributedCharacterIterator.Attribute.hashCode()	Returns a hash code value for the object This version is identical to the one in Object but is also final
+BreakIterator.following(int)	Returns the first boundary following the specified character offset If the specified offset equals to the last text boundary it returns BreakIterator DONE and the iterator s current position is unchanged
+Bidi.Bidi(char[],int,byte[],int,int,int)	Create Bidi from the given text embedding and direction information
+DateFormatSymbols.getAmPmStrings()	Gets ampm strings For example AM and PM
+DecimalFormatSymbols.getPercent()	Gets the character used for percent sign Different for Arabic etc
+MessageFormat.MessageFormat(String)	Constructs a MessageFormat for the default locale and the specified pattern
+Format.format(Object,StringBuffer,FieldPosition)	Formats an object and appends the resulting text to a given string buffer
+MessageFormat.getFormats()	Gets the formats used for the format elements in the previously set pattern string
+DateFormatSymbols.setAmPmStrings(String[])	Sets ampm strings For example AM and PM
+RuleBasedCollator.getRules()	Gets the table based rules for the collation object
+BreakIterator.first()	Returns the first boundary The iterator s current position is set to the first text boundary
+DateFormat.getTimeZone()	Gets the time zone
+DateFormatSymbols.getEras()	Gets era strings For example AD and BC
+MessageFormat.parse(String,ParsePosition)	Parses the string
+DecimalFormat.setPositivePrefix(String)	Set the positive prefix
+BreakIteratorProvider.getSentenceInstance(Locale)	Returns a new BreakIterator instance for sentence breaks for the given locale
+NumberFormat.getMaximumIntegerDigits()	Returns the maximum number of digits allowed in the integer portion of a number
+StringCharacterIterator.StringCharacterIterator(String,int,int,int)	Constructs an iterator over the given range of the given string with the index set at the specified position
+SimpleDateFormat.SimpleDateFormat(String,Locale)	Constructs a SimpleDateFormat using the given pattern and the default date format symbols for the given locale
+NumberFormat.format(Object,StringBuffer,FieldPosition)	Formats a number and appends the resulting text to the given string buffer
+DecimalFormat.applyPattern(String)	Apply the given pattern to this Format object A pattern is a short hand specification for the various formatting properties
+DecimalFormatSymbols.getCurrency()	Gets the currency of these DecimalFormatSymbols May be null if the currency symbol attribute was previously set to a value that s not a valid ISO 4217 currency code
+FieldPosition.toString()	Return a string representation of this FieldPosition
+DecimalFormat.toPattern()	Synthesizes a pattern string that represents the current state of this Format object
+BreakIterator.getCharacterInstance()	Returns a new BreakIterator instance for character breaks for the default locale
+RuleBasedCollator.hashCode()	Generates the hash code for the table based collation object
+DecimalFormat.isParseBigDecimal()	Returns whether the parse java lang String java text ParsePosition method returns BigDecimal The default value is false
+DateFormatSymbols.setShortMonths(String[])	Sets short month strings For example Jan Feb etc
+Bidi.getRunCount()	Return the number of level runs
+BreakIterator.setText(String)	Set a new text string to be scanned The current scan position is reset to first
+AttributedString.getIterator(Attribute[])	Creates an AttributedCharacterIterator instance that provides access to selected contents of this string
+Bidi.toString()	Display the bidi internal state used in debugging
+NumberFormat.setCurrency(Currency)	Sets the currency used by this number format when formatting currency values This does not update the minimum or maximum number of fraction digits used by the number format
+DecimalFormatSymbols.equals(Object)	Override equals
+DecimalFormatSymbols.clone()	Standard override
+StringCharacterIterator.clone()	Creates a copy of this iterator
+DecimalFormatSymbols.setZeroDigit(char)	Sets the character used for zero Different for Arabic etc
+DecimalFormat.setNegativeSuffix(String)	Set the negative suffix
+ChoiceFormat.equals(Object)	Equality comparision between two
+FieldPosition.getBeginIndex()	Retrieves the index of the first character in the requested field
+Format.format(Object)	Formats an object to produce a string This is equivalent to format obj new StringBuffer new FieldPosition 0 toString
+NumberFormat.hashCode()	Overrides hashCode

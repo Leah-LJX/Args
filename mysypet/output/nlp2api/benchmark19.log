@@ -1,0 +1,56 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/nlp2api/19/benchmark19.json
+     [java] Benchmark Id: 19
+     [java] Method name: getDayFromString
+     [java] Packages: [org.joda.time]
+     [java] Libraries: [./lib/joda-time-2.8.2.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String]
+     [java] Target type: int
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: org.joda.convert.ToString is a phantom class!
+     [java] Warning: org.joda.convert.FromString is a phantom class!
+     [java] =========cnt:=========340
+     [java] #Classes: 246
+     [java] #Methods: 4425
+     [java] Soot Time: 2512.71147
+     [java] PetriNet for path length: 1 [places: 72 ; transitions: 438 ; edges: 1093]
+     [java] PetriNet for path length: 2 [places: 72 ; transitions: 438 ; edges: 1093]
+     [java] PetriNet for path length: 3 [places: 72 ; transitions: 438 ; edges: 1093]
+     [java] PetriNet for path length: 4 [places: 72 ; transitions: 438 ; edges: 1093]
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 19
+     [java] Recommend Api Number:340
+     [java] Sketch Generation Time: 313.682466
+     [java] Sketch Completion Time: 43.66205900000001
+     [java] Compilation Time: 1010.583813
+     [java] Running Test cases Time: 76.51119199999998
+     [java] Synthesis Time: 433.855717
+     [java] Total Time: 3957.1510000000007
+     [java] Number of components: 3
+     [java] Number of holes: 5
+     [java] Number of completed programs: 28
+     [java] Number of sketches: 10
+     [java] Solution:
+     [java]  org.joda.time.format.DateTimeFormatter sypet_var48 = org.joda.time.format.DateTimeFormat.forPattern(sypet_arg1);
+     [java]  org.joda.time.LocalDate sypet_var49 = org.joda.time.LocalDate.parse(sypet_arg0,sypet_var48);
+     [java]  int sypet_var50 = sypet_var49.getDayOfMonth();
+     [java]  return sypet_var50;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 5 seconds

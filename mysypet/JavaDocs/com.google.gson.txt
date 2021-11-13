@@ -1,0 +1,239 @@
+JsonReader.endArray()	Consumes the next token from the JSON stream and asserts that it is the end of the current array
+JsonPrimitive.getAsBigDecimal()	convenience method to get this element as a BigDecimal
+JsonWriter.value(Number)	Encodes value
+TypeToken.isAssignableFrom(Type)	Check if this type is assignable from the given Type
+TypeAdapter.toJson(Writer,T)	Converts value to a JSON document and writes it to out
+FieldAttributes.getAnnotation(Class)	Return the T annotation object from this field if it exist otherwise returns null
+JsonArray.getAsByte()	Description copied from class JsonElement
+JsonPrimitive.JsonPrimitive(String)	Create a primitive containing a String value
+JsonSerializer.serialize(T,Type,JsonSerializationContext)	Gson invokes this call back method during serialization when it encounters a field of the specified type
+JsonElement.isJsonPrimitive()	provides check for verifying if this element is a primitive or not
+JsonWriter.getSerializeNulls()	Returns true if object members are serialized when their value is null
+JsonElement.toString()	Returns a String representation of this element
+JsonElement.getAsNumber()	convenience method to get this element as a Number
+JsonPrimitive.isBoolean()	Check whether this primitive contains a boolean value
+JsonWriter.jsonValue(String)	Writes value directly to the writer without quoting or escaping
+GsonBuilder.disableHtmlEscaping()	By default Gson escapes HTML characters such as etc Use this option to configure Gson to pass through HTML characters as is
+JsonArray.getAsBigInteger()	convenience method to get this array as a BigInteger if it contains a single element
+ExclusionStrategy.shouldSkipField(FieldAttributes)	true if the field should be ignored otherwise false
+GsonBuilder.setLenient()	By default Gson is strict and only accepts JSON as specified by RFC 4627 This option makes the parser liberal in what it accepts
+FieldAttributes.getDeclaredClass()	Returns the Class object that was declared for this field
+JsonElement.getAsBigDecimal()	convenience method to get this element as a BigDecimal
+JsonElement.getAsJsonPrimitive()	convenience method to get this element as a JsonPrimitive If the element is of some other type a IllegalStateException will result Hence it is best to use this method after ensuring that this element is of the desired type by calling isJsonPrimitive first
+Gson.getAdapter(Class)	Returns the type adapter for type
+JsonReader.setLenient(boolean)	Configure this parser to be liberal in what it accepts By default this parser is strict and only accepts JSON as specified by RFC 4627 Setting the parser to lenient causes it to ignore the following syntax errors Streams that start with the non execute prefix n
+ExclusionStrategy.shouldSkipClass(Class)	true if the class should be ignored otherwise false
+TypeAdapter.toJson(T)	Converts value to a JSON document Unlike Gson s similar toJson method this write is strict Create a lenient JsonWriter and call write com google gson stream JsonWriter Object for lenient writing
+JsonPrimitive.getAsShort()	convenience method to get this element as a primitive short
+TypeAdapter.fromJson(String)	Converts the JSON document in json to a Java object Unlike Gson s similar fromJson method this read is strict Create a lenient JsonReader and call read JsonReader for lenient reading
+JsonStreamParser.JsonStreamParser(Reader)	
+Gson.getDelegateAdapter(TypeAdapterFactory,TypeToken)	This method is used to get an alternate type adapter for the specified type This is used to access a type adapter that is overridden by a TypeAdapterFactory that you may have registered This features is typically used when you want to register a type adapter that does a little bit of work but then delegates further processing to the Gson default type adapter Here is an example Let s say we want to write a type adapter that counts the number of objects being read from or written to JSON We can achieve this by writing a type adapter factory that uses the getDelegateAdapter method class StatsTypeAdapterFactory implements TypeAdapterFactory public int numReads 0 public int numWrites 0 public lt T gt TypeAdapter lt T gt create Gson gson TypeToken lt T gt type final TypeAdapter lt T gt delegate gson getDelegateAdapter this type return new TypeAdapter lt T gt public void write JsonWriter out T value throws IOException numWrites delegate write out value public T read JsonReader in throws IOException numReads return delegate read in This factory can now be used like this StatsTypeAdapterFactory stats new StatsTypeAdapterFactory Gson gson new GsonBuilder registerTypeAdapterFactory stats create Call gson toJson and fromJson methods on objects System out println Num JSON reads stats numReads System out println Num JSON writes stats numWrites Note that this call will skip all factories registered before skipPast In case of multiple TypeAdapterFactories registered it is up to the caller of this function to insure that the order of registration does not prevent this method from reaching a factory they would expect to reply from this call
+Gson.newJsonWriter(Writer)	Returns a new JSON writer configured for the settings on this Gson instance
+JsonPrimitive.getAsInt()	convenience method to get this element as a primitive integer
+JsonWriter.close()	Flushes and closes this writer and the underlying Writer
+JsonArray.hashCode()	
+GsonBuilder.GsonBuilder()	Creates a GsonBuilder instance that can be used to build Gson with various configuration settings GsonBuilder follows the builder pattern and it is typically used by first invoking various configuration methods to set desired options and finally calling create
+JsonArray.size()	Returns the number of elements in the array
+JsonElement.getAsInt()	convenience method to get this element as a primitive integer value
+Gson.getAdapter(TypeToken)	Returns the type adapter for type
+JsonWriter.beginArray()	Begins encoding a new array Each call to this method must be paired with a call to endArray
+FieldAttributes.getDeclaredType()	For example assume the following class definition public class Foo private String bar private List String red Type listParameterizedType new TypeToken List String getType This method would return String class for the bar field and listParameterizedType for the red field
+JsonObject.addProperty(String,Number)	Convenience method to add a primitive member The specified value is converted to a JsonPrimitive of Number
+JsonArray.equals(Object)	
+JsonArray.JsonArray()	Creates an empty JsonArray
+JsonArray.getAsBigDecimal()	convenience method to get this array as a BigDecimal if it contains a single element
+JsonReader.nextNull()	Consumes the next token from the JSON stream and asserts that it is a literal null
+JsonParser.parse(String)	Parses the specified JSON string into a parse tree
+JsonIOException.JsonIOException(String,Throwable)	
+JsonArray.getAsString()	convenience method to get this array as a String if it contains a single element
+FieldAttributes.getDeclaringClass()	the declaring class that contains this field
+JsonWriter.value(boolean)	Encodes value
+JsonReader.close()	Closes this JSON reader and the underlying Reader
+JsonPrimitive.JsonPrimitive(Number)	Create a primitive containing a Number
+JsonArray.getAsNumber()	convenience method to get this array as a Number if it contains a single element
+JsonReader.beginArray()	Consumes the next token from the JSON stream and asserts that it is the beginning of a new array
+Gson.newJsonReader(Reader)	Returns a new JSON writer configured for the settings on this Gson instance
+JsonWriter.endObject()	Ends encoding the current object
+TypeToken.isAssignableFrom(TypeToken)	Check if this type is assignable from the given type token
+Gson.toJson(Object,Type)	This method serializes the specified object including those of generic types into its equivalent Json representation This method must be used if the specified object is a generic type For non generic objects use toJson Object instead If you want to write out the object to a Appendable use toJson Object Type Appendable instead
+JsonStreamParser.hasNext()	Returns true if a JsonElement is available on the input for consumption
+JsonElement.getAsBigInteger()	convenience method to get this element as a BigInteger
+JsonArray.remove(JsonElement)	Removes the first occurrence of the specified element from this array if it is present
+TypeToken.get(Class)	Gets type literal for the given Class instance
+JsonWriter.isLenient()	Returns true if this writer has relaxed syntax rules
+GsonBuilder.registerTypeHierarchyAdapter(Class,Object)	Configures Gson for custom serialization or deserialization for an inheritance type hierarchy
+JsonElement.isJsonArray()	provides check for verifying if this element is an array or not
+JsonArray.add(Character)	Adds the specified character to self
+JsonObject.getAsJsonPrimitive(String)	Convenience method to get the specified member as a JsonPrimitive element
+Gson.toJsonTree(Object,Type)	This method serializes the specified object including those of generic types into its equivalent representation as a tree of JsonElements This method must be used if the specified object is a generic type For non generic objects use toJsonTree Object instead
+JsonReader.skipValue()	Skips the next value recursively If it is an object or array all nested elements are skipped This method is intended for use when the JSON token stream contains unrecognized or unhandled values
+JsonArray.add(String)	Adds the specified string to self
+JsonElement.getAsShort()	convenience method to get this element as a primitive short value
+JsonPrimitive.getAsString()	convenience method to get this element as a String
+JsonPrimitive.equals(Object)	
+Gson.toJsonTree(Object)	This method serializes the specified object into its equivalent representation as a tree of JsonElements This method should be used when the specified object is not a generic type This method uses Object getClass to get the type for the specified object but the getClass loses the generic type information because of the Type Erasure feature of Java Note that this method works fine if the any of the object fields are of generic type just the object itself should not be of a generic type If the object is of generic type use toJsonTree Object Type instead
+JsonObject.getAsJsonArray(String)	Convenience method to get the specified member as a JsonArray
+JsonArray.getAsLong()	convenience method to get this array as a long if it contains a single element
+JsonArray.iterator()	Returns an iterator to navigate the elements of the array Since the array is an ordered list the iterator navigates the elements in the order they were inserted
+Gson.toString()	
+JsonElement.getAsCharacter()	convenience method to get this element as a primitive character value
+JsonObject.addProperty(String,String)	Convenience method to add a primitive member The specified value is converted to a JsonPrimitive of String
+GsonBuilder.serializeNulls()	Configure Gson to serialize null fields By default Gson omits all fields that are null during serialization
+TypeAdapter.nullSafe()	This wrapper method is used to make a type adapter null tolerant In general a type adapter is required to handle nulls in write and read methods Here is how this is typically done Gson gson new GsonBuilder registerTypeAdapter Foo class new TypeAdapter Foo public Foo read JsonReader in throws IOException if in peek JsonToken NULL in nextNull return null read a Foo from in and return it public void write JsonWriter out Foo src throws IOException if src null out nullValue return write src as JSON to out create You can avoid this boilerplate handling of nulls by wrapping your type adapter with this method Here is how we will rewrite the above example Gson gson new GsonBuilder registerTypeAdapter Foo class new TypeAdapter Foo public Foo read JsonReader in throws IOException read a Foo from in and return it public void write JsonWriter out Foo src throws IOException write src as JSON to out nullSafe create Note that we didn t need to check for nulls in our type adapter after we used nullSafe
+JsonObject.getAsJsonObject(String)	Convenience method to get the specified member as a JsonObject
+JsonParser.parse(JsonReader)	Returns the next value from the JSON stream as a parse tree
+GsonBuilder.registerTypeAdapterFactory(TypeAdapterFactory)	Register a factory for type adapters Registering a factory is useful when the type adapter needs to be configured based on the type of the field being processed Gson is designed to handle a large number of factories so you should consider registering them to be at par with registering an individual type adapter
+TypeAdapter.fromJson(Reader)	Converts the JSON document in in to a Java object Unlike Gson s similar fromJson method this read is strict Create a lenient JsonReader and call read JsonReader for lenient reading
+Gson.fromJson(JsonElement,Class)	This method deserializes the Json read from the specified parse tree into an object of the specified type It is not suitable to use if the specified class is a generic type since it will not have the generic type information because of the Type Erasure feature of Java
+JsonParseException.JsonParseException(Throwable)	Creates exception with the specified cause Consider using JsonParseException String Throwable instead if you can describe what happened
+JsonArray.add(Boolean)	Adds the specified boolean to self
+JsonElement.getAsFloat()	convenience method to get this element as a primitive float value
+TypeToken.isAssignableFrom(Class)	Check if this type is assignable from the given class object
+FieldNamingStrategy.translateName(Field)	Translates the field name into its JSON field name representation
+GsonBuilder.setLongSerializationPolicy(LongSerializationPolicy)	Configures Gson to apply a specific serialization policy for Long and long objects
+JsonPrimitive.getAsFloat()	convenience method to get this element as a float
+JsonWriter.name(String)	Encodes the property name
+JsonArray.getAsInt()	convenience method to get this array as an integer if it contains a single element
+Gson.toJson(JsonElement,JsonWriter)	Writes the JSON for jsonElement to writer
+TypeToken.equals(Object)	
+Gson.fromJson(Reader,Class)	This method deserializes the Json read from the specified reader into an object of the specified class It is not suitable to use if the specified class is a generic type since it will not have the generic type information because of the Type Erasure feature of Java
+JsonWriter.JsonWriter(Writer)	Creates a new instance that writes a JSON encoded stream to out
+JsonReader.JsonReader(Reader)	Creates a new instance that reads a JSON encoded stream from in
+GsonBuilder.registerTypeAdapter(Type,Object)	Configures Gson for custom serialization or deserialization This method combines the registration of an TypeAdapter InstanceCreator JsonSerializer and a JsonDeserializer It is best used when a single object typeAdapter implements all the required interfaces for custom serialization with Gson If a type adapter was previously registered for the specified type it is overwritten
+TypeAdapterFactory.create(Gson,TypeToken)	Returns a type adapter for type or null if this factory doesn t support type
+JsonElement.getAsJsonArray()	convenience method to get this element as a JsonArray If the element is of some other type a IllegalStateException will result Hence it is best to use this method after ensuring that this element is of the desired type by calling isJsonArray first
+JsonParser.parse(Reader)	Parses the specified JSON string into a parse tree
+JsonNull.JsonNull()	Creates a new JsonNull object
+JsonObject.get(String)	Returns the member with the specified name
+JsonObject.add(String,JsonElement)	Adds a member which is a name value pair to self The name must be a String but the value can be an arbitrary JsonElement thereby allowing you to build a full tree of JsonElements rooted at this node
+JsonIOException.JsonIOException(Throwable)	Creates exception with the specified cause Consider using JsonIOException String Throwable instead if you can describe what happened
+JsonObject.equals(Object)	
+GsonBuilder.addSerializationExclusionStrategy(ExclusionStrategy)	Configures Gson to apply the passed in exclusion strategy during serialization
+GsonBuilder.setDateFormat(int,int)	Configures Gson to to serialize Date objects according to the style value provided
+Gson.fromJson(JsonReader,Type)	Reads the next JSON value from reader and convert it to an object of type typeOfT Returns null if the reader is at EOF
+JsonReader.nextDouble()	Returns the double value of the next token consuming it If the next token is a string this method will attempt to parse it as a double using Double parseDouble String
+JsonArray.getAsCharacter()	Description copied from class JsonElement
+GsonBuilder.setFieldNamingPolicy(FieldNamingPolicy)	Configures Gson to apply a specific naming policy to an object s field during serialization and deserialization
+InstanceCreator.createInstance(Type)	Gson invokes this call back method during deserialization to create an instance of the specified type The fields of the returned instance are overwritten with the data present in the Json Since the prior contents of the object are destroyed and overwritten do not return an instance that is useful elsewhere In particular do not return a common instance always use new to create a new instance
+JsonStreamParser.JsonStreamParser(String)	
+JsonParser.JsonParser()	
+JsonElement.getAsDouble()	convenience method to get this element as a primitive double value
+FieldAttributes.FieldAttributes(Field)	Constructs a Field Attributes object from the f
+JsonPrimitive.getAsCharacter()	Description copied from class JsonElement
+JsonPrimitive.JsonPrimitive(Character)	Create a primitive containing a character The character is turned into a one character String since Json only supports String
+JsonParseException.JsonParseException(String,Throwable)	Creates exception with the specified message and cause
+JsonElement.getAsByte()	convenience method to get this element as a primitive byte value
+JsonReader.nextBoolean()	Returns the boolean value of the next token consuming it
+MalformedJsonException.MalformedJsonException(String)	
+JsonObject.addProperty(String,Boolean)	Convenience method to add a boolean member The specified value is converted to a JsonPrimitive of Boolean
+TypeAdapter.TypeAdapter()	
+JsonReader.isLenient()	Returns true if this parser is liberal in what it accepts
+JsonWriter.flush()	Ensures all buffered data is written to the underlying Writer and flushes that writer
+MalformedJsonException.MalformedJsonException(String,Throwable)	
+JsonReader.nextLong()	Returns the long value of the next token consuming it If the next token is a string this method will attempt to parse it as a long If the next token s numeric value cannot be exactly represented by a Java long this method throws
+JsonPrimitive.JsonPrimitive(Boolean)	Create a primitive containing a boolean value
+JsonArray.getAsFloat()	convenience method to get this array as a float if it contains a single element
+JsonArray.remove(int)	Removes the element at the specified position in this array Shifts any subsequent elements to the left subtracts one from their indices Returns the element that was removed from the array
+JsonObject.entrySet()	Returns a set of members of this object The set is ordered and the order is in which the elements were added
+GsonBuilder.setPrettyPrinting()	Configures Gson to output Json that fits in a page for pretty printing This option only affects Json serialization
+JsonPrimitive.isNumber()	Check whether this primitive contains a Number
+JsonIOException.JsonIOException(String)	
+JsonParseException.JsonParseException(String)	Creates exception with the specified message If you are wrapping another exception consider using JsonParseException String Throwable instead
+TypeToken.toString()	
+JsonPrimitive.hashCode()	
+TypeToken.hashCode()	
+JsonReader.nextName()	Returns the next token a property name and consumes it
+TypeToken.getType()	Gets underlying Type instance
+Gson.toJson(JsonElement)	Converts a tree of JsonElements into its equivalent JSON representation
+JsonReader.beginObject()	Consumes the next token from the JSON stream and asserts that it is the beginning of a new object
+GsonBuilder.excludeFieldsWithoutExposeAnnotation()	Configures Gson to exclude all fields from consideration for serialization or deserialization that do not have the Expose annotation
+TypeAdapter.toJsonTree(T)	Converts value to a JSON tree
+JsonWriter.value(double)	Encodes value
+JsonWriter.setHtmlSafe(boolean)	Configure this writer to emit JSON that s safe for direct inclusion in HTML and XML documents This escapes the HTML characters and before writing them to the stream Without this setting your XML HTML encoder should replace these characters with the corresponding escape sequences
+JsonNull.equals(Object)	All instances of JsonNull are the same
+Gson.toJson(Object,Type,JsonWriter)	Writes the JSON representation of src of type typeOfSrc to writer
+JsonSerializationContext.serialize(Object,Type)	Invokes default serialization on the specified object passing the specific type information
+JsonObject.JsonObject()	
+JsonNull.hashCode()	All instances of JsonNull have the same hash code since they are indistinguishable
+TypeAdapter.read(JsonReader)	Reads one JSON value an array object string number boolean or null and converts it to a Java object Returns the converted object
+JsonArray.contains(JsonElement)	Returns true if this array contains the specified element
+JsonWriter.setSerializeNulls(boolean)	Sets whether object members are serialized when their value is null
+Gson.fromJson(String,Class)	This method deserializes the specified Json into an object of the specified class It is not suitable to use if the specified class is a generic type since it will not have the generic type information because of the Type Erasure feature of Java Therefore this method should not be used if the desired type is a generic type Note that this method works fine if the any of the fields of the specified object are generics just the object itself should not be a generic type For the cases when the object is of generic type invoke fromJson String Type If you have the Json in a Reader instead of a String use fromJson Reader Class instead
+JsonElement.getAsString()	convenience method to get this element as a string value
+JsonObject.remove(String)	Removes the property from this JsonObject
+JsonPrimitive.isString()	Check whether this primitive contains a String value
+JsonPrimitive.getAsBoolean()	convenience method to get this element as a boolean value
+JsonStreamParser.remove()	This optional Iterator method is not relevant for stream parsing and hence is not implemented
+JsonReader.peek()	Returns the type of the next token without consuming it
+JsonDeserializer.deserialize(JsonElement,Type,JsonDeserializationContext)	Gson invokes this call back method during deserialization when it encounters a field of the specified type
+JsonReader.nextString()	Returns the string value of the next token consuming it If the next token is a number this method will return its string form
+GsonBuilder.generateNonExecutableJson()	Makes the output JSON non executable in Javascript by prefixing the generated JSON with some special text This prevents attacks from third party sites through script sourcing See Gson Issue 42 for details
+JsonElement.getAsJsonNull()	convenience method to get this element as a JsonNull If the element is of some other type a IllegalStateException will result Hence it is best to use this method after ensuring that this element is of the desired type by calling isJsonNull first
+GsonBuilder.addDeserializationExclusionStrategy(ExclusionStrategy)	Configures Gson to apply the passed in exclusion strategy during deserialization
+JsonWriter.value(long)	Encodes value
+JsonPrimitive.getAsBigInteger()	convenience method to get this element as a BigInteger
+JsonObject.hashCode()	
+Gson.toJson(Object,Appendable)	This method serializes the specified object into its equivalent Json representation
+JsonSyntaxException.JsonSyntaxException(String)	
+JsonReader.getPath()	Returns a JsonPath to the current location in the JSON value
+JsonSerializationContext.serialize(Object)	Invokes default serialization on the specified object
+GsonBuilder.setDateFormat(String)	Configures Gson to serialize Date objects according to the pattern provided You can call this method or setDateFormat int multiple times but only the last invocation will be used to decide the serialization format
+JsonElement.getAsBoolean()	convenience method to get this element as a boolean value
+JsonElement.JsonElement()	
+Gson.toJson(JsonElement,Appendable)	Writes out the equivalent JSON for a tree of JsonElements
+JsonArray.getAsDouble()	convenience method to get this array as a double if it contains a single element
+GsonBuilder.setFieldNamingStrategy(FieldNamingStrategy)	Configures Gson to apply a specific naming policy strategy to an object s field during serialization and deserialization
+JsonPrimitive.getAsByte()	Description copied from class JsonElement
+FieldAttributes.getAnnotations()	Return the annotations that are present on this field
+JsonPrimitive.getAsDouble()	convenience method to get this element as a primitive double
+Gson.fromJson(Reader,Type)	This method deserializes the Json read from the specified reader into an object of the specified type This method is useful if the specified object is a generic type For non generic objects use fromJson Reader Class instead If you have the Json in a String form instead of a Reader use fromJson String Type instead
+GsonBuilder.setVersion(double)	Configures Gson to enable versioning support
+JsonSyntaxException.JsonSyntaxException(String,Throwable)	
+TypeAdapter.write(JsonWriter,T)	Writes one JSON value an array object string number boolean or null for value
+Gson.Gson()	Constructs a Gson object with default configuration The default configuration has the following settings The JSON generated by toJson methods is in compact representation This means that all the unneeded white space is removed You can change this behavior with GsonBuilder setPrettyPrinting The generated JSON omits all the fields that are null Note that nulls in arrays are kept as is since an array is an ordered list Moreover if a field is not null but its generated JSON is empty the field is kept You can configure Gson to serialize null values by setting GsonBuilder serializeNulls
+JsonReader.hasNext()	Returns true if the current array or object has another element
+JsonReader.nextInt()	Returns the int value of the next token consuming it If the next token is a string this method will attempt to parse it as an int If the next token s numeric value cannot be exactly represented by a Java int this method throws
+JsonArray.add(JsonElement)	Adds the specified element to self
+JsonArray.getAsShort()	convenience method to get this array as a primitive short if it contains a single element
+GsonBuilder.setExclusionStrategies()	Configures Gson to apply a set of exclusion strategies during both serialization and deserialization Each of the strategies will be applied as a disjunction rule
+GsonBuilder.enableComplexMapKeySerialization()	Enabling this feature will only change the serialized form if the map key is a complex type i e non primitive in its serialized JSON form The default implementation of map serialization uses toString on the key however when this is called then one of the following cases apply Maps as JSON objects For this case assume that a type adapter is registered to serialize and deserialize some Point class which contains an x and y coordinate to from the JSON Primitive string value x y The Java map would then be serialized as a JsonObject
+TypeToken.get(Type)	Gets type literal for the given Type instance
+JsonObject.addProperty(String,Character)	Convenience method to add a char member The specified value is converted to a JsonPrimitive of Character
+Gson.toJson(Object,Type,Appendable)	This method serializes the specified object including those of generic types into its equivalent Json representation This method must be used if the specified object is a generic type For non generic objects use toJson Object Appendable instead
+JsonArray.get(int)	Returns the ith element of the array
+JsonWriter.isHtmlSafe()	Returns true if this writer writes JSON that s safe for inclusion in HTML and XML documents
+JsonWriter.endArray()	Ends encoding the current array
+JsonReader.toString()	
+JsonElement.isJsonNull()	provides check for verifying if this element represents a null value or not
+JsonWriter.value(String)	Encodes value
+JsonArray.addAll(JsonArray)	Adds all the elements of the specified array to self
+TypeAdapter.fromJsonTree(JsonElement)	Converts jsonTree to a Java object
+JsonElement.isJsonObject()	provides check for verifying if this element is a Json object or not
+GsonBuilder.setDateFormat(int)	Configures Gson to to serialize Date objects according to the style value provided
+JsonWriter.setLenient(boolean)	Configure this writer to relax its syntax rules By default this writer only emits well formed JSON as specified by RFC 7159 Setting the writer to lenient permits the following Top level values of any type With strict writing the top level value must be an object or an array
+FieldAttributes.getName()	the name of the field
+Gson.fromJson(JsonElement,Type)	This method deserializes the Json read from the specified parse tree into an object of the specified type This method is useful if the specified object is a generic type For non generic objects use fromJson JsonElement Class instead
+GsonBuilder.create()	Creates a Gson instance based on the current configuration This method is free of side effects to this GsonBuilder instance and hence can be called multiple times
+Gson.toJson(Object)	This method serializes the specified object into its equivalent Json representation
+JsonReader.endObject()	Consumes the next token from the JSON stream and asserts that it is the end of the current object
+JsonDeserializationContext.deserialize(JsonElement,Type)	Invokes default deserialization on the specified object It should never be invoked on the element received as a parameter of the JsonDeserializer deserialize JsonElement Type JsonDeserializationContext method Doing so will result in an infinite loop since Gson will in turn call the custom deserializer again
+FieldAttributes.hasModifier(int)	Returns true if the field is defined with the modifier
+Gson.fromJson(String,Type)	This method deserializes the specified Json into an object of the specified type This method is useful if the specified object is a generic type For non generic objects use fromJson String Class instead If you have the Json in a Reader instead of a String use fromJson Reader Type instead
+GsonBuilder.serializeSpecialFloatingPointValues()	Section 2 4 of JSON specification disallows special double values NaN Infinity Infinity However Javascript specification see section 4 3 20 4 3 22 4 3 23 allows these values as valid Javascript values Moreover most JavaScript engines will accept these special values in JSON without problem So at a practical level it makes sense to accept these values as valid JSON even though JSON specification disallows them
+JsonArray.set(int,JsonElement)	Replaces the element at the specified position in this array with the specified element
+JsonWriter.setIndent(String)	Sets the indentation string to be repeated for each level of indentation in the encoded document If indent isEmpty the encoded document will be compact Otherwise the encoded document will be more human readable
+JsonWriter.nullValue()	Encodes null
+JsonSyntaxException.JsonSyntaxException(Throwable)	Creates exception with the specified cause Consider using JsonSyntaxException String Throwable instead if you can describe what actually happened
+JsonArray.getAsBoolean()	convenience method to get this array as a boolean if it contains a single element
+JsonPrimitive.getAsLong()	convenience method to get this element as a primitive long
+JsonWriter.beginObject()	Begins encoding a new object Each call to this method must be paired with a call to endObject
+JsonObject.has(String)	Convenience method to check if a member with the specified name is present in this object
+JsonElement.getAsLong()	convenience method to get this element as a primitive long value
+TypeToken.getRawType()	Returns the raw non generic type for this type
+JsonArray.add(Number)	Adds the specified number to self
+GsonBuilder.excludeFieldsWithModifiers()	Configures Gson to excludes all class fields that have the specified modifiers By default Gson will exclude all fields marked transient or static This method will override that behavior
+GsonBuilder.disableInnerClassSerialization()	Configures Gson to exclude inner classes during serialization
+JsonStreamParser.next()	Returns the next available JsonElement on the reader Null if none available
+MalformedJsonException.MalformedJsonException(Throwable)	
+JsonPrimitive.getAsNumber()	convenience method to get this element as a Number
+JsonElement.getAsJsonObject()	convenience method to get this element as a JsonObject If the element is of some other type a IllegalStateException will result Hence it is best to use this method after ensuring that this element is of the desired type by calling isJsonObject first

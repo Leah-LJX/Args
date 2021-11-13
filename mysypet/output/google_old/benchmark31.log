@@ -1,0 +1,1272 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/31/benchmark31.json
+     [java] Benchmark Id: 31
+     [java] Method name: loadXMLFromString
+     [java] Packages: [javax.xml.parsers, java.lang.String, java.io.ByteArrayInputStream]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.String]
+     [java] Target type: org.w3c.dom.Document
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 31
+     [java] =========cnt:=========147
+     [java] #Classes: 26
+     [java] #Methods: 435
+     [java] Soot Time: 4732.159103
+     [java] PetriNet for path length: 1 [places: 65 ; transitions: 234 ; edges: 600]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 65 ; transitions: 234 ; edges: 600]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 65 ; transitions: 234 ; edges: 600]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 65 ; transitions: 234 ; edges: 600]
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] #Program: 2
+     [java] PetriNet for path length: 5 [places: 65 ; transitions: 234 ; edges: 600]
+     [java] =========sketch========
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 2
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 4
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 6
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 8
+     [java] =========sketch========
+     [java] #Program: 10
+     [java] PetriNet for path length: 6 [places: 65 ; transitions: 234 ; edges: 600]
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: byte[] getBytes()>
+     [java] <java.lang.String: void <init>(byte[])>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 10
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: int length()>
+     [java] <java.lang.String: java.lang.String valueOf(int)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 12
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 14
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 16
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 18
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 20
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 22
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 24
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 26
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuffer)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 28
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuilder: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuilder: java.lang.String toString()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 30
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuilder: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuilder)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 32
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 34
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 36
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 38
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 40
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 42
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 44
+     [java] =========sketch========
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 46
+     [java] =========sketch========
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 48
+     [java] =========sketch========
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 50
+     [java] =========sketch========
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 52
+     [java] =========sketch========
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 54
+     [java] =========sketch========
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 56
+     [java] =========sketch========
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 58
+     [java] =========sketch========
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 60
+     [java] =========sketch========
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 62
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] sypet_clone_void
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 64
+     [java] =========sketch========
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 66
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] #Program: 68
+     [java] =========sketch========
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] sypet_clone_void
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 70
+     [java] =========sketch========
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] sypet_clone_void
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 72
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] sypet_clone_void
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 74
+     [java] =========sketch========
+     [java] #Program: 76
+     [java] PetriNet for path length: 7 [places: 65 ; transitions: 234 ; edges: 600]
+     [java] =========sketch========
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 76
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: byte[] getBytes()>
+     [java] <java.lang.String: void <init>(byte[])>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 78
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: byte[] getBytes()>
+     [java] <java.lang.String: void <init>(byte[])>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 80
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: byte[] getBytes()>
+     [java] <java.lang.String: void <init>(byte[])>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 82
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: int length()>
+     [java] <java.lang.String: java.lang.String valueOf(int)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 84
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: int length()>
+     [java] <java.lang.String: java.lang.String valueOf(int)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 86
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: int length()>
+     [java] <java.lang.String: java.lang.String valueOf(int)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 88
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 90
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 92
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 94
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 96
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 98
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 100
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 102
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 104
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 106
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 108
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 110
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 112
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 114
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 116
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 118
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 120
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 122
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 124
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 126
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 128
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 130
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 132
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 134
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuffer)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 136
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuffer)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 138
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuffer)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 140
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 142
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 144
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuffer)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 146
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 148
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuffer)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 150
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 152
+     [java] [Fatal Error] :1:1: Content is not allowed in prolog.
+     [java] [Fatal Error] :1:1: Content is not allowed in prolog.
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuilder: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuilder)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 154
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuilder: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuilder: java.lang.String toString()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 156
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuilder: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuilder)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 158
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuilder: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuilder)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 160
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuilder: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuilder: java.lang.String toString()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 162
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.StringBuilder: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuilder: java.lang.String toString()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 164
+     [java] [Fatal Error] :1:1: Content is not allowed in prolog.
+     [java] [Fatal Error] :1:1: Content is not allowed in prolog.
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] _upper21
+     [java] <java.lang.StringBuilder: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuilder: java.lang.String toString()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 166
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: int length()>
+     [java] <java.lang.StringBuilder: void <init>(int)>
+     [java] <java.lang.StringBuilder: java.lang.String toString()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 168
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: int length()>
+     [java] <java.lang.StringBuilder: void <init>(int)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuilder)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 170
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] _upper21
+     [java] <java.lang.StringBuilder: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.String: void <init>(java.lang.StringBuilder)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 172
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 174
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 176
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 178
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 180
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 182
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 184
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 186
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 188
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 190
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 192
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 194
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 196
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 198
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 200
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 202
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 204
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 206
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 208
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 210
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 212
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 214
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 216
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 218
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 220
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 222
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 224
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 226
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 228
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 230
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 232
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 234
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 236
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 238
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 240
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 242
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 244
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 246
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 248
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 250
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 252
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 254
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 256
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 258
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 260
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 262
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 264
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 266
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 268
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 270
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 272
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 274
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 276
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 278
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 280
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 282
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 284
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 286
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 288
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 290
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 292
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 294
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String toLowerCase()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 296
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: java.lang.String trim()>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <java.lang.String: void <init>(java.lang.String)>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.lang.String)>
+     [java] #Program: 298
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <java.lang.String: byte[] getBytes()>
+     [java] <java.io.ByteArrayInputStream: void <init>(byte[])>
+     [java] _upper17
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.io.InputStream)>
+     [java] #Program: 300
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 31
+     [java] Recommend Api Number:147
+     [java] Sketch Generation Time: 804.6141269999997
+     [java] Sketch Completion Time: 142.4797560000001
+     [java] Compilation Time: 1906.3222850000002
+     [java] Running Test cases Time: 148.20569099999994
+     [java] Synthesis Time: 1095.2995739999997
+     [java] Total Time: 7733.780962
+     [java] Number of components: 6
+     [java] Number of holes: 7
+     [java] Number of completed programs: 301
+     [java] Number of sketches: 151
+     [java] Solution:
+     [java]  javax.xml.parsers.DocumentBuilderFactory sypet_var998 = javax.xml.parsers.DocumentBuilderFactory.newInstance();
+     [java]  byte[] sypet_var999 = sypet_arg0.getBytes();
+     [java]  java.io.ByteArrayInputStream sypet_var1000 = new java.io.ByteArrayInputStream(sypet_var999);
+     [java]  java.io.InputStream sypet_var1001 = sypet_var1000;
+     [java]  javax.xml.parsers.DocumentBuilder sypet_var1002 = sypet_var998.newDocumentBuilder();
+     [java]  org.w3c.dom.Document sypet_var1003 = sypet_var1002.parse(sypet_var1001);
+     [java]  return sypet_var1003;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 9 seconds

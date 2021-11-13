@@ -1,0 +1,25 @@
+{
+  "id": 41,
+  "description": "Compare two dates",
+  "methodName": "compare2Dates",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+    "java.lang.String",
+    "java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "boolean",
+  "packages": [
+    "java.util.Date",
+    "java.text.DateFormat",
+    "java.text.SimpleDateFormat"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/test/41/TestSource.java"
+}

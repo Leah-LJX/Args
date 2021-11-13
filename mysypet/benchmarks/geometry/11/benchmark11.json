@@ -1,0 +1,23 @@
+{
+  "id": 11,
+  "description": "Shear a rectangle and get its tight rectangular bounds",
+  "methodName": "shear",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+    "java.awt.geom.Rectangle2D",
+    "double",
+    "double"
+  ],
+  "tgtType": "java.awt.geom.Rectangle2D",
+  "packages": [
+    "java.awt.geom"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "11/TestSource.java"
+}

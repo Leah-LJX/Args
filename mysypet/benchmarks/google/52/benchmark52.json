@@ -1,0 +1,21 @@
+{
+  "id": 52,
+  "description": "calculate the lowest common multiple of two BigIntegers",
+  "methodName": "leastCommonMultiple",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "java.math.BigInteger",
+    "java.math.BigInteger"
+  ],
+  "tgtType": "java.math.BigInteger",
+  "packages": [
+    "java.math.BigInteger"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/google/52/TestSource.java"
+}

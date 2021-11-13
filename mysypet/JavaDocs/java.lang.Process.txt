@@ -1,0 +1,7 @@
+Process.exitValue()	Returns the exit value for the subprocess
+Process.Process()	
+Process.getErrorStream()	Returns the input stream connected to the error output of the subprocess The stream obtains data piped from the error output of the process represented by this Process object
+Process.getInputStream()	Returns the input stream connected to the normal output of the subprocess The stream obtains data piped from the standard output of the process represented by this Process object
+Process.waitFor()	Causes the current thread to wait if necessary until the process represented by this Process object has terminated This method returns immediately if the subprocess has already terminated If the subprocess has not yet terminated the calling thread will be blocked until the subprocess exits
+Process.destroy()	Kills the subprocess The subprocess represented by this Process object is forcibly terminated
+Process.getOutputStream()	Returns the output stream connected to the normal input of the subprocess Output to the stream is piped into the standard input of the process represented by this Process object

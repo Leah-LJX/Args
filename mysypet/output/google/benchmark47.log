@@ -1,0 +1,92 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/47/benchmark47.json
+     [java] Benchmark Id: 47
+     [java] Method name: getDivision
+     [java] Packages: [org.apache.commons.math3]
+     [java] Libraries: [./lib/commons-math3-3.5.jar]
+     [java] Source type(s): [int, int, int, int]
+     [java] Target type: org.apache.commons.math3.fraction.BigFraction
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 47
+     [java] =========cnt:=========151
+     [java] #Classes: 1215
+     [java] #Methods: 9578
+     [java] Soot Time: 4602.52083
+     [java] PetriNet for path length: 1 [places: 74 ; transitions: 234 ; edges: 528]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 74 ; transitions: 234 ; edges: 528]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 74 ; transitions: 234 ; edges: 528]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 74 ; transitions: 234 ; edges: 528]
+     [java] =========sketch========
+     [java] <org.apache.commons.math3.fraction.BigFraction: void <init>(int,int)>
+     [java] <org.apache.commons.math3.util.ArithmeticUtils: int gcd(int,int)>
+     [java] <org.apache.commons.math3.fraction.BigFraction: org.apache.commons.math3.fraction.BigFraction subtract(int)>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] <org.apache.commons.math3.fraction.BigFraction: void <init>(int,int)>
+     [java] <org.apache.commons.math3.util.ArithmeticUtils: int gcd(int,int)>
+     [java] <org.apache.commons.math3.fraction.BigFraction: org.apache.commons.math3.fraction.BigFraction add(int)>
+     [java] #Program: 25
+     [java] =========sketch========
+     [java] <org.apache.commons.math3.fraction.BigFraction: void <init>(int,int)>
+     [java] <org.apache.commons.math3.fraction.BigFraction: org.apache.commons.math3.fraction.BigFraction add(int)>
+     [java] <org.apache.commons.math3.fraction.BigFraction: org.apache.commons.math3.fraction.BigFraction add(int)>
+     [java] #Program: 50
+     [java] =========sketch========
+     [java] <org.apache.commons.math3.fraction.BigFraction: void <init>(int,int)>
+     [java] <org.apache.commons.math3.fraction.BigFraction: org.apache.commons.math3.fraction.BigFraction divide(int)>
+     [java] <org.apache.commons.math3.fraction.BigFraction: org.apache.commons.math3.fraction.BigFraction add(int)>
+     [java] #Program: 75
+     [java] =========sketch========
+     [java] <org.apache.commons.math3.fraction.BigFraction: void <init>(int,int)>
+     [java] <org.apache.commons.math3.fraction.BigFraction: org.apache.commons.math3.fraction.BigFraction divide(int)>
+     [java] <org.apache.commons.math3.fraction.BigFraction: org.apache.commons.math3.fraction.BigFraction divide(int)>
+     [java] #Program: 100
+     [java] =========sketch========
+     [java] <org.apache.commons.math3.fraction.BigFraction: void <init>(int,int)>
+     [java] <org.apache.commons.math3.fraction.BigFraction: org.apache.commons.math3.fraction.BigFraction multiply(int)>
+     [java] <org.apache.commons.math3.fraction.BigFraction: org.apache.commons.math3.fraction.BigFraction divide(int)>
+     [java] #Program: 125
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 47
+     [java] Recommend Api Number:151
+     [java] Sketch Generation Time: 48.90280799999999
+     [java] Sketch Completion Time: 113.57270999999999
+     [java] Compilation Time: 2009.318897999999
+     [java] Running Test cases Time: 1497.4807339999998
+     [java] Synthesis Time: 1659.9562519999997
+     [java] Total Time: 8271.795979999999
+     [java] Number of components: 3
+     [java] Number of holes: 7
+     [java] Number of completed programs: 133
+     [java] Number of sketches: 6
+     [java] Solution:
+     [java]  org.apache.commons.math3.fraction.BigFraction sypet_var40 = new org.apache.commons.math3.fraction.BigFraction(sypet_arg3,sypet_arg2);
+     [java]  org.apache.commons.math3.fraction.BigFraction sypet_var41 = sypet_var40.multiply(sypet_arg0);
+     [java]  org.apache.commons.math3.fraction.BigFraction sypet_var42 = sypet_var41.divide(sypet_arg1);
+     [java]  return sypet_var42;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 8 seconds

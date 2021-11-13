@@ -1,0 +1,400 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/29/benchmark29.json
+     [java] Benchmark Id: 29
+     [java] Method name: evaluateByXpath
+     [java] Packages: [org.w3c.dom, javax.xml, org.xml.sax]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.io.File, java.lang.String, javax.xml.namespace.QName]
+     [java] Target type: java.lang.Object
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 29
+     [java] =========cnt:=========99
+     [java] #Classes: 599
+     [java] #Methods: 4130
+     [java] Soot Time: 5643.467256
+     [java] PetriNet for path length: 1 [places: 74 ; transitions: 191 ; edges: 465]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 74 ; transitions: 191 ; edges: 465]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 74 ; transitions: 191 ; edges: 465]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 74 ; transitions: 191 ; edges: 465]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 5 [places: 74 ; transitions: 191 ; edges: 465]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 6 [places: 74 ; transitions: 191 ; edges: 465]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 7 [places: 74 ; transitions: 191 ; edges: 465]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 8 [places: 74 ; transitions: 191 ; edges: 465]
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance()>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] #Program: 2
+     [java] PetriNet for path length: 9 [places: 74 ; transitions: 191 ; edges: 465]
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 2
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 4
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 6
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 8
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 10
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 12
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 14
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 16
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 18
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 20
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 22
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 24
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 26
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 28
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 30
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 32
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 34
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 36
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 38
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 40
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 42
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 44
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 46
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 48
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 50
+     [java] =========sketch========
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance()>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.xpath.XPath: javax.xml.xpath.XPathExpression compile(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.JAXBContext newInstance(java.lang.String)>
+     [java] <javax.xml.bind.JAXBContext: javax.xml.bind.Unmarshaller createUnmarshaller()>
+     [java] <javax.xml.bind.Unmarshaller: java.lang.Object unmarshal(java.io.File)>
+     [java] <javax.xml.xpath.XPathExpression: java.lang.Object evaluate(java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 52
+     [java] =========sketch========
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] sypet_clone_java.lang.String
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.io.File)>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance(java.lang.String)>
+     [java] _upper12
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 54
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPathFactory newInstance()>
+     [java] <javax.xml.xpath.XPathFactory: javax.xml.xpath.XPath newXPath()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilderFactory newInstance()>
+     [java] <javax.xml.parsers.DocumentBuilderFactory: javax.xml.parsers.DocumentBuilder newDocumentBuilder()>
+     [java] <javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(java.io.File)>
+     [java] _upper12
+     [java] <javax.xml.xpath.XPath: java.lang.Object evaluate(java.lang.String,java.lang.Object,javax.xml.namespace.QName)>
+     [java] #Program: 56
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 29
+     [java] Recommend Api Number:99
+     [java] Sketch Generation Time: 1447.2152309999997
+     [java] Sketch Completion Time: 40.88817400000001
+     [java] Compilation Time: 865.87359
+     [java] Running Test cases Time: 94.02966900000001
+     [java] Synthesis Time: 1582.1330739999999
+     [java] Total Time: 8091.473920000001
+     [java] Number of components: 8
+     [java] Number of holes: 10
+     [java] Number of completed programs: 57
+     [java] Number of sketches: 29
+     [java] Solution:
+     [java]  javax.xml.xpath.XPathFactory sypet_var258 = javax.xml.xpath.XPathFactory.newInstance();
+     [java]  javax.xml.xpath.XPath sypet_var259 = sypet_var258.newXPath();
+     [java]  javax.xml.parsers.DocumentBuilderFactory sypet_var260 = javax.xml.parsers.DocumentBuilderFactory.newInstance();
+     [java]  javax.xml.parsers.DocumentBuilder sypet_var261 = sypet_var260.newDocumentBuilder();
+     [java]  org.w3c.dom.Document sypet_var262 = sypet_var261.parse(sypet_arg0);
+     [java]  java.lang.Object sypet_var263 = sypet_var262;
+     [java]  java.lang.Object sypet_var264 = sypet_var259.evaluate(sypet_arg1,sypet_var263,sypet_arg2);
+     [java]  return sypet_var264;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 9 seconds

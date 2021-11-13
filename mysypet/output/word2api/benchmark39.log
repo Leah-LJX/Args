@@ -1,0 +1,91 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/word2api/39/benchmark39.json
+     [java] Benchmark Id: 39
+     [java] Method name: changeDateFormat
+     [java] Packages: [java.text.SimpleDateFormat, java.text.DateFormat]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String, java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ---------------------api amount:---------------------91
+     [java] =========cnt:=========41
+     [java] #Classes: 7
+     [java] #Methods: 134
+     [java] Soot Time: 9584.356454
+     [java] PetriNet for path length: 1 [places: 50 ; transitions: 115 ; edges: 261]
+     [java] PetriNet for path length: 2 [places: 50 ; transitions: 115 ; edges: 261]
+     [java] PetriNet for path length: 3 [places: 50 ; transitions: 115 ; edges: 261]
+     [java] PetriNet for path length: 4 [places: 50 ; transitions: 115 ; edges: 261]
+     [java] PetriNet for path length: 5 [places: 50 ; transitions: 115 ; edges: 261]
+     [java] PetriNet for path length: 6 [places: 50 ; transitions: 115 ; edges: 261]
+     [java] PetriNet for path length: 7 [places: 50 ; transitions: 115 ; edges: 261]
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 39
+     [java] Recommend Api Number:41
+     [java] Sketch Generation Time: 518.330989
+     [java] Sketch Completion Time: 1461.4030760000007
+     [java] Compilation Time: 15059.948079999976
+     [java] Running Test cases Time: 346.6013359999997
+     [java] Synthesis Time: 2326.3354010000003
+     [java] Total Time: 26970.639934999977
+     [java] Number of components: 6
+     [java] Number of holes: 9
+     [java] Number of completed programs: 1799
+     [java] Number of sketches: 82
+     [java] Solution:
+     [java]  java.text.SimpleDateFormat sypet_var565 = new java.text.SimpleDateFormat(sypet_arg1);
+     [java]  java.text.DateFormat sypet_var566 = sypet_var565;
+     [java]  java.text.SimpleDateFormat sypet_var567 = new java.text.SimpleDateFormat(sypet_arg2);
+     [java]  java.util.Date sypet_var568 = sypet_var566.parse(sypet_arg0);
+     [java]  java.text.DateFormat sypet_var569 = sypet_var567;
+     [java]  java.lang.String sypet_var570 = sypet_var569.format(sypet_var568);
+     [java]  return sypet_var570;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 28 seconds

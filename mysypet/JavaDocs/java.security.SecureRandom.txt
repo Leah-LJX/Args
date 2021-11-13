@@ -1,0 +1,12 @@
+SecureRandom.SecureRandom()	Constructs a secure random number generator RNG implementing the default random number algorithm
+SecureRandom.getInstance(String)	Returns a SecureRandom object that implements the specified Random Number Generator RNG algorithm
+SecureRandom.getInstance(String,String)	Returns a SecureRandom object that implements the specified Random Number Generator RNG algorithm
+SecureRandom.getSeed(int)	Returns the given number of seed bytes computed using the seed generation algorithm that this class uses to seed itself This call may be used to seed other random number generators
+SecureRandom.getAlgorithm()	Returns the name of the algorithm implemented by this SecureRandom object
+SecureRandom.generateSeed(int)	Returns the given number of seed bytes computed using the seed generation algorithm that this class uses to seed itself This call may be used to seed other random number generators
+SecureRandom.setSeed(byte[])	Reseeds this random object The given seed supplements rather than replaces the existing seed Thus repeated calls are guaranteed never to reduce randomness
+SecureRandom.SecureRandom(byte[])	Constructs a secure random number generator RNG implementing the default random number algorithm
+SecureRandom.nextBytes(byte[])	Generates a user specified number of random bytes
+SecureRandom.getProvider()	Returns the provider of this SecureRandom object
+SecureRandom.getInstance(String,Provider)	Returns a SecureRandom object that implements the specified Random Number Generator RNG algorithm
+SecureRandom.setSeed(long)	Reseeds this random object using the eight bytes contained in the given long seed The given seed supplements rather than replaces the existing seed Thus repeated calls are guaranteed never to reduce randomness

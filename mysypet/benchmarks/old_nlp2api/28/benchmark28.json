@@ -1,0 +1,21 @@
+{
+  "id": 28,
+  "description": "Read XML document from a file",
+  "methodName": "readXML",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.io.File"
+  ],
+  "tgtType": "org.w3c.dom.Document",
+  "packages": [
+    "org.w3c.dom",
+    "javax.xml.parsers",
+    "org.xml.sax"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/28/TestSource.java"
+}

@@ -1,0 +1,1933 @@
+LeastSquaresRegressionResult.LeastSquaresRegressionResult(double[],double[],double,double[],double,double,double[],double[],boolean)	
+Interpolator1DQuadraticSplineDataBundle.setYValueAtIndex(int,double)	
+ColtMatrixAlgebra.getOuterProduct(Matrix,Matrix)	Returns the outer product
+Interpolator1DCubicSplineDataBundle.getKeys()	
+LinearExtrapolator1D.getDataBundle(double[],double[])	
+SVDecompositionCommonsResult.solve(DoubleMatrix1D)	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+GeneralizedParetoDistribution.GeneralizedParetoDistribution(double,double,double)	
+GaussJacobiQuadratureIntegrator1D.GaussJacobiQuadratureIntegrator1D(int)	
+Surface.getName()	The name of the curve
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(List,List,Interpolator2D,String)	
+DoubleMatrix1D.DoubleMatrix1D(int,double)	Create an vector of length n with all entries equal to value
+DoublesCube.getZDataAsPrimitive()	Returns the z data points as a primitive array
+RationalFunctionInterpolator1D.equals(Object)	
+LinearExtrapolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+EigenvaluePolynomialRootFinder.EigenvaluePolynomialRootFinder()	
+CubicRealRootFinder.getRoots(RealPolynomialFunction1D)	The roots of the function
+FunctionalDoublesSurface.equals(Object)	
+AddCurveSpreadFunction.getOperationName()	The string representing the spread operation
+SVDecompositionColtResult.getNorm()	Returns the L 2 norm of the matrix
+ConstantDoublesCurve.getYValueParameterSensitivity(Double)	Description copied from class DoublesCurve
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,ParameterizedFunction,ParameterizedFunction,DoubleMatrix1D)	Use this when the model is in the ParameterizedFunction form and analytic parameter sensitivity
+DoubleMatrixUtils.getIdentityMatrix2D(int)	The identity matrix is a matrix with diagonal elements equals to one and zero elsewhere
+JTransformsWrapper.fullInverseTransform1DReal(double[],boolean)	The inverse backward discrete Fourier transform Note In this definition i appears in the exponential rather than i
+LaplaceDistribution.getInverseCDF(Double)	Given a probability return the value that returns this cdf
+SimpleTimer.SimpleTimer()	
+RandomNumberGenerator.getVectors(int,int)	
+Interpolator1D.getDataBundle(Map)	
+BivariateNormalDistribution.nextRandom()	Not supported
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,DoubleMatrix1D,ParameterizedFunction,ParameterizedFunction,DoubleMatrix1D)	Use this when the model is in the ParameterizedFunction form and analytic parameter sensitivity and measurement errors are available
+Interpolator1DDoubleQuadraticDataBundle.getKeys()	
+ConstantSurfaceAdditiveShiftFunction.evaluate(ConstantDoublesSurface,double,String)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface is supplied
+DiracDeltaFunction.evaluate(Double)	Description copied from class Function1D
+DoubleMatrix1D.equals(Object)	
+DistanceCalculator.getDistance(double[],double[])	
+Interpolator1DCubicSplineDataBundle.hashCode()	
+Interpolator1DQuadraticSplineDataBundle.getKeys()	
+InterpolatedDoublesCurve.equals(Object)	
+DoublesCurveNelsonSiegel.DoublesCurveNelsonSiegel(String,double,double,double,double)	Constructor from the four parameters and a name
+Interpolator.interpolate(S,T)	
+QuasiNewtonVectorMinimizer.DataBundle.getDeltaGrad()	
+LegendrePolynomialFunction.getPolynomials(int)	
+LUDecompositionResult.getU()	Returns the mathbf U matrix of the decomposition
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,ParameterizedFunction,DoubleMatrix1D)	Use this when the model is in the ParameterizedFunction form and analytic parameter sensitivity is not available
+GaussJacobiQuadratureIntegrator1D.getIntegralFunction(Function1D,Double,Double)	Returns a function that is valid for both the type of quadrature and the limits of integration
+QuasiNewtonVectorMinimizer.DataBundle.setGrad(DoubleMatrix1D)	
+DoubleQuadraticInterpolator1D.getDataBundle(double[],double[])	
+NonLinearParameterTransforms.inverseJacobian(DoubleMatrix1D)	Calculates the inverse Jacobian the rate of change of the model parameters WRT the fitting parameters
+CubicRootFinder.CubicRootFinder()	
+InverseMultiquadraticRadialBasisFunction.InverseMultiquadraticRadialBasisFunction(double)	
+DoubleRangeLimitTransform.transformGradient(double)	The gradient of the function used to transform from a model parameter that is only allows to take certain values to a fitting parameter that can take any value
+SurfaceShiftFunctionFactory.getShiftedSurface(Surface,double[],double[],double[],String,boolean)	For a surface Surface return a parallel shifted surface
+UncoupledParameterTransforms.getNumberOfModelParameters()	The number of function parameters
+RadialBasisFunctionInterpolatorND.RadialBasisFunctionInterpolatorND(Function1D,boolean)	
+ArraysDoublesCurve.ArraysDoublesCurve(DoublesPair[],boolean,String)	
+DoubleMatrix2D.equals(Object)	
+CholeskyDecompositionCommonsResult.getLT()	Description copied from interface CholeskyDecompositionResult
+MatrixAlgebra.divide(Matrix,Matrix)	Returns the quotient of two matrices C frac A B AB 1 where B 1 is the pseudo inverse of B i e BB 1 mathbb 1
+SVDecompositionCommonsResult.getNorm()	Returns the L 2 norm of the matrix
+QuasiNewtonVectorMinimizer.DataBundle.getGrad()	
+ConstantDoublesCurve.getXData()	Not supported
+InterpolatedDoublesCurve.fromSorted(DoublesPair[],Interpolator1D,String)	An interpolated curve with automatically generated name
+BrentMinimizer1D.minimize(Function1D,double,double,double)	The minimum
+Cube.hashCode()	
+OrthogonalPolynomialFunctionGenerator.getPolynomialsAndFirstDerivative(int)	
+NodalObjectsSurface.NodalObjectsSurface(T[],U[],V[])	
+DoublesCube.DoublesCube(double[],double[],double[],double[],String)	
+DoubleFunction1D.add(DoubleFunction1D)	For a DoubleFunction1D g x adding a function f x returns the function h x f x g x
+VectorFieldSecondOrderDifferentiator.VectorFieldSecondOrderDifferentiator()	
+DoubleRampFunction.DoubleRampFunction(double,double,double,double)	
+Interpolator1DCubicSplineDataBundle.getBoundedValues(Double)	
+QuadraticRealRootFinder.QuadraticRealRootFinder()	
+InterpolatedCurveShiftFunction.evaluate(InterpolatedDoublesCurve,double,double)	Returns a new curve shifted by an amount y at value x The name of the new curve will be automatically generated
+Interpolator1DQuadraticSplineDataBundle.getB(int)	
+DoublesCube.getZData()	The z data for this cube
+GaussLaguerreWeightAndAbscissaFunction.generate(int)	An object containing the weights and abscissas
+CommonsMatrixAlgebra.getTrace(Matrix)	Returns the trace i e sum of diagonal elements of a matrix
+NonCentralChiSquaredDistribution.getCDF(Double)	Returns the cumulative distribution function for a value
+NonLinearParameterTransforms.transform(DoubleMatrix1D)	Transforms from a set of model parameters to a possibly smaller set of unconstrained fitting parameters
+SVDecompositionCommonsResult.getUT()	Returns the transpose of the matrix mathbf U of the decomposition
+SampleCovarianceCalculator.evaluate()	The sample covariance
+GeneralizedExtremeValueDistribution.getInverseCDF(Double)	Given a probability return the value that returns this cdf
+CombinedInterpolatorExtrapolatorFactory.getInterpolator(String,String,String)	
+ScalarFieldFirstOrderDifferentiator.differentiate(Function1D)	A function that calculates the differential
+NavigableMapInterpolator1DDataBundle.containsKey(Double)	
+RealPolynomialFunction1D.add(double)	Adds a constant to the polynomial equivalent to adding the value to the constant term of the polynomial The result is also a polynomial
+DistributionParameterEstimator.DistributionParameterEstimator()	
+TrigonometricFunctionUtils.cosh(double)	
+IntegratorRepeated2D.integrate(Function2D,Double[],Double[])	The result of the integral
+LeastSquareResultsWithTransform.getModelParameters()	
+ChebyshevPolynomialOfFirstKindFunction.ChebyshevPolynomialOfFirstKindFunction()	
+InterpolatedFromSurfacesDoublesCube.InterpolatedFromSurfacesDoublesCube(SurfacePlane,double[],Surface,Interpolator1D,boolean,String)	
+InterpolatedFromSurfacesDoublesCube.getPoints()	The intersection point of the surfaces
+QuasiNewtonVectorMinimizer.DataBundle.DataBundle()	
+ExponentialExtrapolator1D.getDataBundle(double[],double[])	
+PSplineFitter.getDiffMatrix(int[],int,int)	
+NodalDoublesCurve.fromSorted(Map,String)	A nodal curve with automatically generated name
+ComplexNumber.getImaginary()	The imaginary part
+ObjectsCurve.ObjectsCurve(Map,boolean,String)	
+Interpolator2DDataBundle.getYData()	
+NewtonRaphsonSingleRootFinder.getRoot(Function1D,Function1D,Double,Double)	Uses the function and its derivative
+PartialMomentCalculator.evaluate(double[])	Description copied from class Function1D
+MatrixAlgebra.subtract(Matrix,Matrix)	Subtracts two matrices This operation can only be performed if the matrices are of the same type and dimensions
+BarycentricRationalFunctionInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+NodalSurfaceMultiplicativeShiftFunction.NodalSurfaceMultiplicativeShiftFunction()	
+OrdinaryLeastSquaresRegression.OrdinaryLeastSquaresRegression()	
+DoubleQuadraticInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+ShermanMorrisonVectorRootFinder.ShermanMorrisonVectorRootFinder(double,double,int)	
+InterpolatedFromCurvesDoublesSurface.InterpolatedFromCurvesDoublesSurface(boolean,List,List,Interpolator1D,boolean)	
+GammaDistribution.equals(Object)	
+ComplexNumber.ComplexNumber(double,double)	
+InterpolatedDoublesSurface.hashCode()	
+PercentileCalculator.PercentileCalculator(double)	
+InterpolatedDoublesCube.from(Double[],Double[],Double[],Double[],InterpolatorND,String)	An interpolated cube
+CommonsMathWrapper.wrapMultivariate(Function1D)	A Commons multivariate real function
+LognormalSkewnessFromVolatilityCalculator.evaluate(Double,Double)	Description copied from class Function2D
+NavigableMapInterpolator1DDataBundle.getKeys()	
+Decomposition.Decomposition()	
+InterpolatedFromSurfacesDoublesCube.InterpolatedFromSurfacesDoublesCube(SurfacePlane,double[],Surface,Interpolator1D,boolean)	
+Interpolator1DDoubleQuadraticDataBundle.size()	
+LinearExtrapolator1D.interpolate(Interpolator1DDataBundle,Double)	
+SurfaceShiftFunctionFactory.SurfaceShiftFunctionFactory()	
+NodalObjectsCurve.NodalObjectsCurve(List,List,boolean,String)	
+GeneralizedParetoDistribution.equals(Object)	
+LeastSquaresRegressionResult.getRSquared()	
+TransformedInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+Interpolator1DMonotonicIncreasingDataBundle.firstKey()	
+NodalObjectsCurve.NodalObjectsCurve(List,List,boolean)	
+InterpolatedFromSurfacesDoublesCube.size()	Not supported
+ArraysDoublesCurve.ArraysDoublesCurve(double[],double[],boolean,String)	
+ComplexMathUtils.square(ComplexNumber)	
+ParallelArrayBinarySort.parallelBinarySort(double[],T[])	Sort the content of keys and values simultaneously so that both match the correct ordering Alters the arrays in place
+SubtractCurveSpreadFunction.getOperationName()	The string representing the spread operation
+GeneralizedParetoDistribution.nextRandom()	The next random number from this distribution
+ComplexMathUtils.add()	
+ArraysDoublesCurve.ArraysDoublesCurve(List,List,boolean,String)	
+OrdinaryLeastSquaresRegression.regress(double[][],double[][],double[],boolean)	
+StudentTOneTailedCriticalValueCalculator.evaluate(Double)	Description copied from class Function1D
+SurfaceShiftFunction.evaluate(Surface,double[],double[],double[])	Returns a new surface shifted by amounts z at points x y The name of the new surface will be automatically generated
+DoublesCube.getYData()	The y data for this cube
+DoubleQuadraticInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+NormalDistribution.getStandardDeviation()	The standard deviation
+MatrixAlgebra.MatrixAlgebra()	
+InterpolatedFromCurvesSurfaceAdditiveShiftFunction.evaluate(InterpolatedFromCurvesDoublesSurface,double)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface will be automatically generated
+ArrayInterpolator1DDataBundle.firstValue()	
+VectorFieldFirstOrderDifferentiator.VectorFieldFirstOrderDifferentiator(FiniteDifferenceType,double)	Approximates the derivative of a vector function by finite difference If the size of the domain is very small or very large consider re scaling first
+RationalFunctionInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+DoubleFunction1D.divide(double)	For a DoubleFunction1D g x dividing by a constant a returns the function h x frac g x a
+InterpolatedFromCurvesDoublesSurface.from(boolean,double[],Curve,Interpolator1D)	A surface with an automatically generated name
+ArraysDoublesCurve.getXData()	The x data for this curve
+TrigonometricFunctionUtils.asin(ComplexNumber)	
+InterpolatedDoublesCurve.from(DoublesPair[],Interpolator1D)	An interpolated curve with automatically generated name
+ConstantDoublesCurve.toString()	
+LUDecompositionCommonsResult.getDeterminant()	Return the determinant of the matrix
+Cube.equals(Object)	
+SingleRangeLimitTransform.inverseTransform(double)	A function to transform an unconstrained fitting parameter y to a constrained model parameter y i e y f 1 y
+ComplexMathUtils.multiply(double,)	
+Interpolator1DDataBundle.firstKey()	
+NodalDoublesCurve.fromSorted(Set)	A nodal curve with automatically generated name
+ConstantDoublesSurface.equals(Object)	
+DoublesSurface.DoublesSurface(List,List,String)	
+DoubleMatrix1D.hashCode()	
+InterpolatedFromCurvesDoublesSurface.getZValue()	Given an x y point return the z value from this surface
+FunctionalSurfaceMultiplicativeShiftFunction.evaluate(FunctionalDoublesSurface,double,String)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface is supplied
+Function2D.Function2D()	
+GeneralizedLeastSquare.solve(List,List,List,List)	the results of the least square
+SensitivityInterfaceRenameMe.getYValueParameterSensitivity(T)	
+InterpolatedDoublesCube.InterpolatedDoublesCube(List,List,List,List,InterpolatorND,String)	
+MatrixValidate.notNaNOrInfinite(DoubleMatrix2D)	
+QuasiNewtonVectorMinimizer.QuasiNewtonVectorMinimizer(double,double,int,QuasiNewtonInverseHessianUpdate)	
+CurveShiftFunctionFactory.getShiftedCurve(Curve,double[],double[],String)	For a curve Curve return a parallel shifted curve
+GeneralizedExtremeValueDistribution.getKsi()	The shape parameter
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(List,Interpolator1D,boolean)	
+NodalObjectsCurve.from(java.lang.Comparable[],U[],String)	
+PSplineFitter.getDiffMatrix(int,int)	
+FunctionalCurveShiftFunction.evaluate(FunctionalDoublesCurve,double[],double[],String)	Returns a new curve shifted by amounts y values x The name of the new curve is supplied
+DoublesCube.equals(Object)	
+ThinPlateSplineRadialBasisFunction.ThinPlateSplineRadialBasisFunction()	
+CommonsMatrixAlgebra.getNormInfinity(Matrix)	For a vector returns the L infty norm
+ArrayInterpolator1DDataBundle.getLowerBoundKey(Double)	
+InterpolatedFromCurvesDoublesSurface.from(boolean,List,List,Interpolator1D)	A surface with an automatically generated name
+ArrayInterpolator1DDataBundle.higherValue(Double)	
+CommonsMatrixAlgebra.getPower(Matrix,int)	Returns a matrix raised to an integer power e g mathbf A 3 mathbf A mathbf A mathbf A
+InterpolatedSurfaceAdditiveShiftFunction.evaluate(InterpolatedDoublesSurface,double)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface will be automatically generated
+PopulationStandardDeviationCalculator.evaluate(double[])	Description copied from class Function1D
+NonLinearLeastSquare.NonLinearLeastSquare(Decomposition,MatrixAlgebra,double)	
+ConstantDoublesCurve.equals(Object)	
+NodalDoublesCurve.NodalDoublesCurve(Map,boolean,String)	
+ConjugateGradientVectorMinimizer.minimize(Function1D,Function1D,DoubleMatrix1D)	The minimum
+BarycentricRationalFunctionInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+Interpolator1DDoubleQuadraticDataBundle.getValues()	
+Function1D.Function1D()	
+MatrixAlgebra.getInnerProduct(Matrix,Matrix)	Returns the inner or dot product
+BivariateNormalDistribution.BivariateNormalDistribution()	
+NodalDoublesSurface.from(List)	A nodal surface with automatically generated name
+GaussianQuadratureIntegrator1D.getIntegralFunction(Function1D,Double,Double)	Returns a function that is valid for both the type of quadrature and the limits of integration
+ConjugateGradientVectorMinimizer.minimize(Function1D,DoubleMatrix1D)	The minimum
+DoubleMatrix1D.toArray()	Convert the vector to a double array
+KrigingInterpolatorND.hashCode()	
+VectorFieldSecondOrderDifferentiator.differentiate(Function1D)	This computes the second derivative of a vector field which is a rank 3 tensor field The tensor is represented as an array of DoubleMatrix2D where each matrix is a Hessian for the dependent variable y i so the indexing is H i j k partial 2y i partial x j partial x k
+ComplexMathUtils.add(ComplexNumber,ComplexNumber)	
+SurfaceShiftFunctionFactory.getShiftedSurface(Surface,double,String,boolean)	For a surface Surface return a parallel shifted surface
+Surface.getYData()	The y data for this surface
+NodalObjectsCurve.NodalObjectsCurve(Set,boolean)	
+SVDecompositionResult.getRank()	Returns the effective numerical matrix rank
+Interpolator1DDataBundle.firstValue()	
+FunctionND.getDimension()	The dimension of this function
+DoublesSurface.DoublesSurface(List,String)	
+NamedVariableLeastSquaresRegressionResult.getResult()	the result
+RealPolynomialFunction1D.toMonic()	Converts the polynomial to its monic form If begin align P x a 0 a 1 x a 2 x 2 a 3 x 3 dots a n x n end align then the monic form is begin align P x lambda 0 lambda 1 x lambda 2 x 2 lambda 3 x 3 dots x n end align where begin align lambda i frac a i a n end align
+Interpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double,boolean)	
+CommonsMathWrapper.wrap(FunctionND)	A Commons multivariate real function
+NavigableMapInterpolator1DDataBundle.higherValue(Double)	
+DoubleFunction1D.derivative(FiniteDifferenceType,double)	Returns a function that calculates the first derivative The method used is finite difference with the differencing type and epsilon as arguments
+DoublesCurveInterpolatedAnchor.from(double[],double[],double,Interpolator1D,String)	Constructor
+SampleSkewnessCalculator.SampleSkewnessCalculator()	
+TopHatFunction.evaluate(Double)	Description copied from class Function1D
+InterpolatedDoublesCurve.fromSorted(Set,Interpolator1D,String)	An interpolated curve with automatically generated name
+ShermanMorrisonMatrixUpdateFunction.ShermanMorrisonMatrixUpdateFunction(MatrixAlgebra)	
+NewtonRootFinderMatrixUpdateFunction.getUpdatedMatrix(Function1D,DoubleMatrix1D,DoubleMatrix1D,DoubleMatrix1D,DoubleMatrix2D)	
+HeavisideFunction.HeavisideFunction()	
+NormalRandomNumberGenerator.NormalRandomNumberGenerator(double,double,RandomEngine)	
+QuasiNewtonVectorMinimizer.DataBundle.setDeltaX(DoubleMatrix1D)	
+CholeskyDecompositionCommons.CholeskyDecompositionCommons()	
+DoublesCurveNelsonSiegel.hashCode()	
+PearsonSecondSkewnessCoefficientCalculator.evaluate(double[])	Description copied from class Function1D
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(DoublesPair[],Interpolator1D,boolean)	
+Differentiator.differentiate(Function1D,Function1D)	A function that calculates the differential
+DoublesSurface.DoublesSurface(Double[],Double[],Double[],String)	
+BroydenFletcherGoldfarbShannoInverseHessianUpdate.BroydenFletcherGoldfarbShannoInverseHessianUpdate()	
+InterpolatedDoublesCurve.fromSorted(Map,Interpolator1D,String)	An interpolated curve with automatically generated name
+NavigableMapInterpolator1DDataBundle.setYValueAtIndex(int,double)	
+CholeskyDecompositionCommonsResult.solve(DoubleMatrix2D)	Solves mathbf A x mathbf B where mathbf A is a decomposed matrix and mathbf B is a matrix
+CholeskyDecompositionResult.getLT()	Returns the transpose of the matrix mathbf L of the decomposition
+InterpolatedFromSurfacesDoublesCube.getPlane()	The plane of the surfaces
+ConstantDoublesCurve.getYValue(Double)	Description copied from class Curve
+ArraysDoublesCurve.ArraysDoublesCurve(Map,boolean)	
+ObjectsCurve.size()	The number of data points used to construct this curve
+CurveShiftFunctionFactory.getShiftedCurve(Curve,double,String)	For a curve Curve return a parallel shifted curve
+SampleCentralMomentCalculator.evaluate(double[])	Description copied from class Function1D
+CholeskyDecompositionOpenGammaResult.CholeskyDecompositionOpenGammaResult(double[][])	Constructor
+Interpolator1DCubicSplineDataBundle.getLowerBoundIndex(Double)	
+JTransformsWrapper.transform1DComplex(ComplexNumber[])	The forward discrete Fourier transform Note In this definition i appears in the exponential rather than i If z is an array of N complex values sampled at intervals Delta from a function h t then the transform H f int infty infty e 2i pi f t h t dt is sampled at N points at intervals of frac 1 N Delta The first frac N 2 1 values i 0 to frac N 2 are f frac i N Delta while the values i frac N 2 to N 1 are f frac i N N Delta i e negative frequencies with H frac 1 2 Delta H frac 1 2 Delta
+InterquartileRangeCalculator.evaluate(double[])	Description copied from class Function1D
+NodalDoublesCurve.from(DoublesPair[],String)	A nodal curve with automatically generated name
+RombergIntegrator1D.RombergIntegrator1D()	
+GeneralizedLeastSquare.solve(T[],double[],double[],List)	the results of the least square
+ParameterizedFunction.ParameterizedFunction()	
+SemiStandardDeviationCalculator.SemiStandardDeviationCalculator(boolean)	Creates calculator
+JacobiPolynomialFunction.getPolynomialsAndFirstDerivative(int,double,double)	
+FunctionalSurfaceAdditiveShiftFunction.evaluate(FunctionalDoublesSurface,double,double,double)	Returns a new surface shifted by an amount z at the point x y The name of the new surface will be automatically generated
+NaturalCubicSplineInterpolator1D.NaturalCubicSplineInterpolator1D(double)	
+DoublesSurface.DoublesSurface(DoublesPair[],double[],String)	
+TimeSquareInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+DoublesCurveNelsonSiegel.DoublesCurveNelsonSiegel(String,double[])	Constructor from the four parameters as an array and a name
+ShepardInterpolatorND.getDataBundle(List)	
+DoublesCurveInterpolatedAnchor.hashCode()	
+QRDecompositionCommonsResult.solve(DoubleMatrix1D)	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+CombinedInterpolatorExtrapolator.getLeftExtrapolator()	
+InterpolatedDoublesCube.hashCode()	
+SVDecompositionResult.getConditionNumber()	Returns the condition number of the matrix
+RationalFunctionInterpolator1D.hashCode()	
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(List,List,Interpolator1D,boolean,String)	
+ComplexNumber.doubleValue()	
+Interpolator1DDoubleQuadraticDataBundle.higherValue(Double)	
+Interpolator1DQuadraticSplineDataBundle.getBoundedValues(Double)	
+PopulationStandardDeviationCalculator.PopulationStandardDeviationCalculator()	
+ChiSquareDistribution.equals(Object)	
+BasisFunctionGenerator.generateSet(double[],int)	
+Interpolator1DDoubleQuadraticDataBundle.setYValueAtIndex(int,double)	
+InterpolatedDoublesCurve.from(Map,Interpolator1D)	An interpolated curve with automatically generated name
+ConstantDoublesCurve.toInterpolatedDoublesCurve(double[],Interpolator1D)	An interpolated curve with constant value
+NormalRandomNumberGenerator.NormalRandomNumberGenerator(double,double)	
+NodalDoublesCurve.fromSorted(DoublesPair[])	A nodal curve with automatically generated name
+InterpolatedFromCurvesSurfaceAdditiveShiftFunction.evaluate(InterpolatedFromCurvesDoublesSurface,double[],double[],double[],String)	Returns a new surface shifted by amounts z at points x y The name of the new surface is supplied
+NodalDoublesSurface.NodalDoublesSurface(Double[],Double[],Double[])	
+ConstantCurveShiftFunction.evaluate(ConstantDoublesCurve,double)	Returns a new curve shifted by a constant y amount i e a shift parallel to the x axis The name of the new curve will be automatically generated
+NewtonDefaultVectorRootFinder.NewtonDefaultVectorRootFinder(double,double,int)	
+NodalObjectsCurve.from(List,List)	
+RombergIntegrator1D.integrate(Function1D,Double,Double)	Romberg integration method Note that the Commons implementation fails if the lower bound is larger than the upper in this case the bounds are reversed and the result negated
+DERFC.DERFC()	
+DoubleMatrix2D.getRowVector(int)	Returns the row for a particular index
+FunctionND.evaluate()	Implementation of the interface
+InverseMultiquadraticRadialBasisFunction.evaluate(Double)	Description copied from class Function1D
+NavigableMapInterpolator1DDataBundle.getLowerBoundIndex(Double)	
+Curve.Curve()	Constructs a curve with an automatically generated name
+CholeskyDecompositionOpenGammaResult.solve(double[])	Description copied from interface DecompositionResult
+InterpolatedDoublesCurve.from(List,Interpolator1D)	An interpolated curve with automatically generated name
+SingleRangeLimitTransform.transform(double)	A function to transform a constrained model parameter y to an unconstrained fitting parameter y i e y f y
+LaguerrePolynomialFunction.LaguerrePolynomialFunction()	
+Interpolator1D.hashCode()	
+DERF.DERF()	
+D1MACH.three()	Machine precision machine radix according to IEEE Approximately 1 11E 16 Math pow 2 53 2 assuming radix 2
+UncoupledParameterTransforms.hashCode()	
+DoubleFunction1D.multiply(double)	For a DoubleFunction1D g x multiplying by a constant a returns the function h x a g x
+TrigonometricFunctionUtils.cos(ComplexNumber)	
+BasisFunctionGenerator.generate(double[],int,int)	
+DoubleFunction1D.add(double)	For a DoubleFunction1D g x adding a constant a returns the function h x g x a
+InverseMultiquadraticRadialBasisFunction.InverseMultiquadraticRadialBasisFunction()	
+InterpolatedFromSurfacesDoublesCube.fromSorted(SurfacePlane,Double[],Surface,Interpolator1D,String)	A cube
+ArraysDoublesCurve.ArraysDoublesCurve(Set,boolean)	
+NewtonDefaultVectorRootFinder.NewtonDefaultVectorRootFinder()	
+OGMatrixAlgebra.OGMatrixAlgebra()	
+Interpolator1DQuadraticSplineDataBundle.higherValue(Double)	
+InterpolatedDoublesCurve.fromSorted(List,Interpolator1D,String)	An interpolated curve with automatically generated name
+MathException.MathException(String,Throwable)	
+Interpolator1D.Interpolator1D()	
+QRDecompositionCommonsResult.QRDecompositionCommonsResult(QRDecomposition)	
+CurveShiftFunction.evaluate(Curve,double,double,String)	Returns a new curve shifted by an amount y at value x The name of the new curve is supplied
+LinearExtrapolator1D.getDataBundleFromSortedArrays(double[],double[])	
+ArraysDoublesCurve.ArraysDoublesCurve(List,List,boolean)	
+KrigingInterpolatorND.getDataBundle(List)	
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(Map,Interpolator1D,boolean,String)	
+ObjectsCurve.ObjectsCurve(Map,boolean)	
+DoubleFunction1D.subtract(double)	For a DoubleFunction1D g x subtracting a constant a returns the function h x g x a
+CommonsMatrixAlgebra.getNorm2(Matrix)	For a vector returns L 2 norm also known as the Euclidean norm
+InterpolatedCurveShiftFunction.evaluate(InterpolatedDoublesCurve,double,String)	Returns a new curve shifted by a constant y amount i e a shift parallel to the x axis The name of the new curve is supplied
+Interpolator1DCubicSplineDataBundle.setYValueAtIndex(int,double)	
+NamedVariableLeastSquaresRegressionResult.NamedVariableLeastSquaresRegressionResult(List,LeastSquaresRegressionResult)	
+Interpolator1DCubicSplineDataBundle.getLowerBoundKey(Double)	
+QuasiNewtonVectorMinimizer.DataBundle.setInverseHessianEsimate(DoubleMatrix2D)	
+IncompleteGammaFunction.IncompleteGammaFunction(double,int,double)	
+NonCentralChiSquaredDistribution.hashCode()	
+TopHatFunction.TopHatFunction(double,double,double)	
+SVDecompositionCommons.SVDecompositionCommons()	
+DoubleRangeLimitTransform.DoubleRangeLimitTransform(double,double)	
+MonotonicIncreasingInterpolator1D.MonotonicIncreasingInterpolator1D()	
+OGMatrixAlgebra.getInnerProduct(Matrix,Matrix)	Returns the inner or dot product
+InterpolatedFromCurvesDoublesSurface.from(boolean,List,List,Interpolator1D,String)	A surface
+GeneralizedParetoDistribution.getSigma()	The scale parameter
+InverseJacobianEstimateInitializationFunction.InverseJacobianEstimateInitializationFunction(Decomposition)	
+NodalObjectsCurve.from(List,List,String)	
+NodalObjectsCurve.NodalObjectsCurve(java.lang.Comparable[],U[],boolean)	
+InterpolatedDoublesCube.from(List,List,List,List,InterpolatorND,String)	An interpolated cube
+InterpolatedFromSurfacesDoublesCube.from(SurfacePlane,Map,Interpolator1D)	A cube with an automatically generated name
+CombinedInterpolatorExtrapolatorFactory.getInterpolator(String,String)	
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,Function1D,DoubleMatrix1D)	Use this when the model is given as a function of its parameters only i e a function that takes a set of parameters and return a set of model values so the measurement points are already known to the function and analytic parameter sensitivity is not available
+SVDecompositionCommonsResult.SVDecompositionCommonsResult(SingularValueDecomposition)	
+ProbabilityDistribution.getPDF(T)	Return the probability density function for a value
+NonLinearParameterTransforms.getNumberOfFittingParameters()	
+NodalDoublesSurface.from(List,List,String)	A nodal surface with automatically generated name
+GaussLegendreWeightAndAbscissaFunction.generate(int)	An object containing the weights and abscissas
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(double[],double[],Interpolator1D,boolean,String)	
+ThinPlateSplineRadialBasisFunction.evaluate(Double)	Description copied from class Function1D
+FunctionalDoublesSurface.from(Function)	A functional surface with automatically generated name
+InterpolatedSurfaceAdditiveShiftFunction.evaluate(InterpolatedDoublesSurface,double,double,double,String)	Returns a new surface shifted by an amount z at the point x y The name of the new surface is supplied
+CombinedInterpolatorExtrapolator.CombinedInterpolatorExtrapolator(Interpolator1D,Interpolator1D,Interpolator1D)	
+ShepardNormalizedRadialBasisFunction.ShepardNormalizedRadialBasisFunction(double)	
+ScalarFieldFirstOrderDifferentiator.differentiate(Function1D,Function1D)	A function that calculates the differential
+InterpolatedFromCurvesDoublesSurface.from(boolean,Double[],Curve,Interpolator1D)	A surface with an automatically generated name
+DoubleMatrix2D.getColumnVector(int)	Returns the column for a particular index
+JacobianDirectionFunction.JacobianDirectionFunction(Decomposition)	
+NormalDistribution.equals(Object)	
+ParameterLimitsTransform.transform(double)	A function to transform a constrained model parameter y to an unconstrained fitting parameter y i e y f y
+DoublesCurveNelsonSiegel.getYData()	The y data for this curve
+ParameterizedFunction.evaluate(S,T)	The value of the function at x with the parameters as input
+TrigonometricFunctionUtils.sinh(double)	
+DoubleFunction1D.subtract(DoubleFunction1D)	For a DoubleFunction1D g x subtracting a function f x returns the function h x f x g x
+MultiplyCurveSpreadFunction.evaluate(Curve)	A function that will find the value of each curve at the given input x and multiply each in turn
+Interpolator1DDoubleQuadraticDataBundle.getLowerBoundIndex(Double)	
+StudentTDistributionMaximumLikelihoodEstimator.evaluate(double[])	Description copied from class Function1D
+InterpolatedFromCurvesDoublesSurface.fromSorted(boolean,Double[],Curve,Interpolator1D)	A surface with an automatically generated name
+RealPolynomialFunction1D.hashCode()	
+SVDecompositionColt.evaluate(DoubleMatrix2D)	Description copied from class Function1D
+DoubleMatrix2D.getEntry()	Gets the entry specified by the indices For example for a 3 D matrix the indices matrix must have three elements
+BarycentricRationalFunctionInterpolator1D.hashCode()	
+SVDecompositionCommonsResult.getV()	Returns the matrix mathbf V of the decomposition
+ComplexNumber.equals(Object)	
+NodalObjectsSurface.getZValue()	Given an x y point return the z value from this surface
+SVDecompositionCommonsResult.solve(DoubleMatrix2D)	Solves mathbf A x mathbf B where mathbf A is a decomposed matrix and mathbf B is a matrix
+ChiSquareDistributionMomentEstimator.evaluate(double[])	Description copied from class Function1D
+FunctionalDoublesSurface.getZValue(Double,Double)	Given an x y point return the z value from this surface
+DoublesCube.DoublesCube(Double[],Double[],Double[],Double[])	
+ObjectsCurve.ObjectsCurve(List,List,boolean)	
+NavigableMapInterpolator1DDataBundle.hashCode()	
+NodalDoublesCurve.NodalDoublesCurve(List,boolean,String)	
+Curve.hashCode()	
+BasisFunctionGenerator.generateSet(double[],double[],int[],int[])	
+ThinPlateSplineRadialBasisFunction.ThinPlateSplineRadialBasisFunction(double)	
+ArraysDoublesCurve.ArraysDoublesCurve(Double[],Double[],boolean)	
+InterpolationBoundedValues.getLowerBoundValue()	the lowerBoundValue
+BracketRoot.getBracketedPoints(Function1D,double,double,double,double)	
+DoubleMatrix1D.DoubleMatrix1D(Double[])	
+MatrixAlgebra.getNorm2(Matrix)	For a vector returns L 2 norm also known as the Euclidean norm
+ArraysDoublesCurve.ArraysDoublesCurve(Map,boolean,String)	
+NewtonRaphsonSingleRootFinder.getRoot(DoubleFunction1D,Double)	Uses the DoubleFunction1D derivative method This method uses an initial guess for the root rather than bounds
+Interpolator1DMonotonicIncreasingDataBundle.containsKey(Double)	
+NodalDoublesSurface.getZValue(Double,Double)	Given an x y point return the z value from this surface
+InterpolatedDoublesCurve.fromSorted(DoublesPair[],Interpolator1D)	An interpolated curve with automatically generated name
+LegendrePolynomialFunction.LegendrePolynomialFunction()	
+FunctionalDoublesCube.from(Function)	A functional cube with an automatically generated name
+FunctionND.FunctionND(int)	
+InterpolatedDoublesSurface.from(Double[],Double[],Double[],Interpolator2D,String)	An interpolated surface with automatically generated name
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(DoublesPair[],Double[],Interpolator2D,String)	
+InterpolatorND.getDataBundle(List)	
+InterpolatedFromSurfacesDoublesCube.fromSorted(SurfacePlane,Double[],Surface,Interpolator1D)	A cube with an automatically generated name
+NormalDistributionMaximumLikelihoodEstimator.NormalDistributionMaximumLikelihoodEstimator()	
+InterpolatedFromSurfacesDoublesCube.from(SurfacePlane,Map,Interpolator1D,String)	A cube
+LUDecompositionResult.getL()	Returns the mathbf L matrix of the decomposition
+InterpolatedFromSurfacesDoublesCube.fromSorted(SurfacePlane,double[],Surface,Interpolator1D,String)	A cube
+InterpolatedDoublesCurve.fromSorted(List,List,Interpolator1D)	An interpolated curve with automatically generated name
+PrimeNumbers.getNextPrime(double)	
+SpreadDoublesCurve.getUnderlyingNames()	Returns a set of the unique names of the curves that were used to construct this curve If a constituent curve is a spread curve then all of its underlyings are included
+ShepardNormalizedRadialBasisFunction.evaluate(Double)	Description copied from class Function1D
+SampleMomentCalculator.evaluate(double[])	Description copied from class Function1D
+JTransformsWrapper.fullTransform1DReal(double[])	The forward discrete Fourier transform Note In this definition i appears in the exponential rather than i If z is an array of N complex values sampled at intervals Delta from a function h t then the transform H f int infty infty e 2i pi f t h t dt is sampled at N points at intervals of frac 1 N Delta The first frac N 2 1 values i 0 to frac N 2 are f frac i N Delta while the values i frac N 2 to N 1 are f frac i N N Delta i e negative frequencies with H frac 1 2 Delta H frac 1 2 Delta
+DoublesCube.DoublesCube(List,List,List,List)	
+Curve.toFunction1D()	converts a curve to a Function1D
+TrigonometricFunctionUtils.tanh(ComplexNumber)	
+RationalFunctionInterpolator1D.getDataBundle(double[],double[])	
+SampleStandardDeviationCalculator.SampleStandardDeviationCalculator()	
+InterpolatedFromCurvesDoublesSurface.getZValue(Double,Double)	Given an x y point return the z value from this surface
+InterpolatedDoublesSurface.equals(Object)	
+SurfaceShiftFunctionFactory.getShiftedSurface(Surface,double[],double[],double[],boolean)	For a surface Surface return a parallel shifted surface
+FunctionalDoublesCurve.toInterpolatedDoublesCurve(double[],Interpolator1D)	An interpolated curve with values x f x
+ArrayInterpolator1DDataBundle.getLowerBoundIndex(Double)	
+BivariateNormalDistribution.getPDF(double[])	Description copied from interface ProbabilityDistribution
+InterpolatedFromCurvesDoublesSurface.getInterpolator()	The interpolator
+DoublesSurface.getXDataAsPrimitive()	The x data as an array of primitives
+GeneralizedLeastSquareResults.getFunction()	Gets the functions field
+FunctionalDoublesCurve.size()	Not supported
+DoublesSurface.equals(Object)	
+RadialBasisFunctionInterpolatorND.getNodeSensitivitiesForValue(InterpolatorNDDataBundle,double[])	The node sensitivities
+InterpolatedDoublesSurface.from(Map,Interpolator2D)	An interpolated surface with automatically generated name
+Function.evaluate()	The value of the function
+ObjectsCurve.getYData()	The y data for this curve
+Cube.getValue(S,T,U)	Given x y z returns the value at that point
+NodalObjectsCurve.fromSorted(Map,String)	
+ProbabilityDistribution.getCDF(T)	Returns the cumulative distribution function for a value
+SampleStandardDeviationCalculator.evaluate(double[])	Description copied from class Function1D
+QRDecompositionCommonsResult.getH()	Returns the Householder reflector vectors
+LogLinearInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+InterpolatedFromCurvesDoublesSurface.InterpolatedFromCurvesDoublesSurface(boolean,double[],Curve,Interpolator1D,boolean,String)	
+KroneckerDeltaFunction.KroneckerDeltaFunction()	
+RealPolynomialFunction1D.getCoefficients()	The coefficients of this polynomial
+Interpolator1DQuadraticSplineDataBundle.getLowerBoundKey(Double)	
+NewtonRaphsonSingleRootFinder.getRoot(Function1D,Double,Double)	
+CurveShiftFunctionFactory.getShiftedCurve(Curve,double,double)	For a curve Curve return a curve shifted at one point
+PolynomialInterpolator1D.equals(Object)	
+SampleNormalizedCentralMomentCalculator.SampleNormalizedCentralMomentCalculator(int)	
+NodalDoublesSurface.NodalDoublesSurface(DoublesPair[],double[],String)	
+CurveSpreadFunction.getOperationName()	The string representing the spread operation
+MatrixAlgebra.kroneckerProduct(Matrix,Matrix)	Returns the Kronecker product of two matrices If mathbf A is an m times n matrix and mathbf B is a p times q matrix then the Kronecker product A otimes B is an mp times nq matrix with elements begin align A otimes B begin pmatrix a 11 mathbf B cdots a 1n mathbf B vdots ddots vdots a m1 mathbf B cdots a mn mathbf B end pmatrix begin pmatrix a 11 b 11 a 11 b 12 cdots a 11 b 1q cdots a 1n b 11 a 1n b 12 cdots a 1n b 1q a 11 b 21 a 11 b 22 cdots a 11 b 2q cdots a 1n b 21 a 1n b 22 cdots a 1n b 2q vdots vdots ddots vdots cdots vdots vdots ddots cdots a 11 b p1 a 11 b p2 cdots a 11 b pq cdots a 1n b p1 a 1n b p2 cdots a 1n b pq vdots vdots vdots ddots vdots vdots cdots a m1 b 11 a m1 b 12 cdots a m1 b 1q cdots a mn b 11 a mn b 12 cdots a mn b 1q a m1 b 21 a m1 b 22 cdots a m1 b 2q cdots a mn b 21 a mn b 22 cdots a mn b 2q vdots vdots ddots vdots cdots vdots vdots ddots cdots a m1 b p1 a m1 b p2 cdots a m1 b pq cdots a mn b p1 a mn b p2 cdots a mn b pq end pmatrix end align
+InterpolatedDoublesCurve.fromSorted(List,Interpolator1D)	An interpolated curve with automatically generated name
+NodalDoublesSurface.from(double[],double[],double[],String)	A nodal surface with automatically generated name
+NodalSurfaceMultiplicativeShiftFunction.evaluate(NodalDoublesSurface,double[],double[],double[])	Returns a new surface shifted by amounts z at points x y The name of the new surface will be automatically generated
+NodalDoublesSurface.NodalDoublesSurface(double[],double[],double[])	
+NodalDoublesCurve.fromSorted(Map)	A nodal curve with automatically generated name
+GeneralizedLeastSquareResults.GeneralizedLeastSquareResults(List,double,DoubleMatrix1D,DoubleMatrix2D)	
+BisectionSingleRootFinder.getRoot(Function1D,Double,Double)	
+Interpolator1DQuadraticSplineDataBundle.getValues()	
+InterpolatedDoublesCube.from(double[],double[],double[],double[],InterpolatorND,String)	An interpolated cube
+DoubleQuadraticInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+DoublesSurface.getXData()	The x data for this surface
+CholeskyDecompositionOpenGammaResult.getLT()	Description copied from interface CholeskyDecompositionResult
+ComplexMathUtils.ComplexMathUtils()	
+MatrixAlgebra.getCondition(Matrix)	Returns the condition number of the matrix
+ComplexMathUtils.divide(ComplexNumber,ComplexNumber)	
+ConstantDoublesSurface.ConstantDoublesSurface(double,String)	
+NavigableMapInterpolator1DDataBundle.firstKey()	
+AddCurveSpreadFunction.evaluate(Curve)	A function that will find the value of each curve at the given input x and return the sum of these values
+LaplaceDistribution.LaplaceDistribution(double,double,RandomEngine)	
+SVDecompositionColtResult.getS()	Returns the diagonal matrix mathbf Sigma of the decomposition
+FunctionalCurveShiftFunction.evaluate(FunctionalDoublesCurve,double,String)	Returns a new curve shifted by a constant y amount i e a shift parallel to the x axis The name of the new curve is supplied
+LinearExtrapolator1D.LinearExtrapolator1D(Interpolator1D,double)	
+SVDecompositionResult.getU()	Returns the matrix mathbf U of the decomposition
+OGMatrixAlgebra.getOuterProduct(Matrix,Matrix)	Returns the outer product
+MatrixFieldFirstOrderDifferentiator.MatrixFieldFirstOrderDifferentiator()	
+Interpolator1DMonotonicIncreasingDataBundle.firstValue()	
+OGMatrixAlgebra.getPower(Matrix,int)	Returns a matrix raised to an integer power e g mathbf A 3 mathbf A mathbf A mathbf A
+SampleFisherKurtosisCalculator.SampleFisherKurtosisCalculator()	
+FunctionalDoublesCurve.hashCode()	
+NodalDoublesCurve.from(List,List)	A nodal curve with automatically generated name
+NonLinearParameterTransforms.jacobian(DoubleMatrix1D)	Calculates the Jacobian the rate of change of the fitting parameters WRT the model parameters
+QuadraticSplineInterpolator1D.QuadraticSplineInterpolator1D()	
+DoublesSurface.DoublesSurface(Double[],Double[],Double[])	
+InterpolatedDoublesCurve.from(Set,Interpolator1D)	An interpolated curve with automatically generated name
+ShermanMorrisonVectorRootFinder.ShermanMorrisonVectorRootFinder(double,double,int,Decomposition)	
+QuadraticSplineInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+InterpolatedFromCurvesDoublesSurface.InterpolatedFromCurvesDoublesSurface(boolean,Map,Interpolator1D,boolean,String)	
+DecompositionResult.solve(DoubleMatrix1D)	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+DoublesCurve.DoublesCurve(String)	Constructor with a name
+DCSEVL.getDCSEVL(double,double[],int)	Computes the n term Chebychev series at point x
+NodalDoublesSurface.from(double[],double[],double[])	A nodal surface with automatically generated name
+Cube.getValues()	The values of this cube
+LeastSquaresRegressionResult.getMeanSquareError()	
+NodalObjectsSurface.from(T[],U[],V[])	A nodal surface with automatically generated name
+InterpolatedSurfaceAdditiveShiftFunction.InterpolatedSurfaceAdditiveShiftFunction()	
+InterpolatedFromCurvesDoublesSurface.InterpolatedFromCurvesDoublesSurface(boolean,Map,Interpolator1D,boolean)	
+InterpolationBoundedValues.getHigherBoundKey()	the higherBoundKey
+CholeskyDecompositionOpenGamma.evaluate(DoubleMatrix2D,double,double)	Perform the decomposition with a given symmetry and positivity threshold
+ColtMatrixAlgebra.getDeterminant(Matrix)	Returns the determinant of the matrix
+LaguerrePolynomialFunction.getPolynomials(int)	
+CurveShiftFunctionFactory.CurveShiftFunctionFactory()	
+QRDecompositionCommonsResult.getQ()	Returns the matrix mathbf Q of the decomposition
+DoublesSurface.getZDataAsPrimitive()	The z data as an array of primitives
+UncoupledParameterTransforms.inverseTransform(DoubleMatrix1D)	Transforms from a set of unconstrained fitting parameters to a possibly larger set of function parameters some of which may have constrained range and or be fixed
+LinearInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+GammaDistributionMomentEstimator.GammaDistributionMomentEstimator()	
+ModeCalculator.ModeCalculator()	
+InterpolatedDoublesCurve.hashCode()	
+FunctionalSurfaceMultiplicativeShiftFunction.FunctionalSurfaceMultiplicativeShiftFunction()	
+InterpolatedDoublesCurve.fromSorted(Double[],Double[],Interpolator1D,String)	An interpolated curve with automatically generated name
+DoubleMatrix2D.getNumberOfElements()	The number of elements in this matrix
+InterpolatedDoublesSurface.from(DoublesPair[],double[],Interpolator2D)	An interpolated surface with automatically generated name
+Interpolator1DDoubleQuadraticDataBundle.getLowerBoundKey(Double)	
+NonLinearLeastSquareWithPenalty.solve(DoubleMatrix1D,DoubleMatrix1D,Function1D,DoubleMatrix1D,DoubleMatrix2D)	Use this when the model is given as a function of its parameters only i e a function that takes a set of parameters and return a set of model values so the measurement points are already known to the function and analytic parameter sensitivity is not available
+NullTransform.inverseTransform(double)	Performs the null inverse transform y y A function to transform an unconstrained fitting parameter y to a constrained model parameter y i e y f 1 y
+GeneralizedParetoDistribution.GeneralizedParetoDistribution(double,double,double,RandomEngine)	
+FunctionalSurfaceAdditiveShiftFunction.FunctionalSurfaceAdditiveShiftFunction()	
+InterpolatedFromCurvesDoublesSurface.fromSorted(boolean,Map,Interpolator1D)	A surface with an automatically generated name
+SingleRangeLimitTransform.equals(Object)	
+ColtMatrixAlgebra.getTrace(Matrix)	Returns the trace i e sum of diagonal elements of a matrix
+SingleRootFinder.getRoot(Function1D,)	A root lying between x1 and x2
+NodalDoublesSurface.from(DoublesPair[],Double[])	A nodal surface with automatically generated name
+GaussJacobiWeightAndAbscissaFunction.GaussJacobiWeightAndAbscissaFunction(double,double)	
+GeneralizedExtremeValueDistribution.equals(Object)	
+NonLinearLeastSquareWithPenalty.calInverseJacobian(DoubleMatrix1D,Function1D,DoubleMatrix1D)	the inverse Jacobian where the i j entry is the sensitivity of the ith fitted parameter a i to the jth data point y j
+GeometricMeanCalculator.GeometricMeanCalculator()	
+RationalFunctionInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+Interpolator1DCubicSplineDataBundle.Interpolator1DCubicSplineDataBundle(Interpolator1DDataBundle)	
+FunctionalDoublesSurface.hashCode()	
+LUDecompositionCommonsResult.getP()	Returns the rows permutation matrix mathbf P
+SamplePearsonKurtosisCalculator.SamplePearsonKurtosisCalculator()	
+FunctionUtils.toTensorIndex(int[],int[])	
+ConstantSurfaceAdditiveShiftFunction.evaluate(ConstantDoublesSurface,double)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface will be automatically generated
+ComplexMathUtils.pow(ComplexNumber,ComplexNumber)	
+GaussHermiteWeightAndAbscissaFunction.GaussHermiteWeightAndAbscissaFunction()	
+ConstantDoublesSurface.getZData()	The z data for this surface
+IntegratedLinearInterpolator.IntegratedLinearInterpolator()	
+FunctionalSurfaceMultiplicativeShiftFunction.evaluate(FunctionalDoublesSurface,double,double,double)	Returns a new surface shifted by an amount z at the point x y The name of the new surface will be automatically generated
+TridiagonalMatrix.getDiagonal()	An array of the values of the diagonal
+Integrator.integrate(V,U[],U[])	The result of the integral
+CommonsMathWrapper.wrapUnivariate(Function1D)	A Commons univariate real function
+ConstantDoublesSurface.from(double,String)	A constant surface
+NewtonRaphsonSingleRootFinder.getRoot(DoubleFunction1D,DoubleFunction1D,Double,Double)	Uses the function and its derivative
+ChiSquareDistribution.ChiSquareDistribution(double)	
+ObjectsSurface.equals(Object)	
+ParallelArrayBinarySort.parallelBinarySort(T[],U[])	Sort the content of keys and values simultaneously so that both match the correct ordering Alters the arrays in place
+ComplexMathUtils.divide(ComplexNumber,double)	
+DoubleRangeLimitTransform.inverseTransformGradient(double)	If y 25 this returns 0
+LeastSquareResultsWithTransform.LeastSquareResultsWithTransform(LeastSquareResults)	
+InterpolatedCurveBuildingFunction.evaluate(DoubleMatrix1D)	
+NormalDistribution.nextRandom()	The next random number from this distribution
+InterpolatedFromCurvesDoublesSurface.fromSorted(boolean,List,List,Interpolator1D,String)	A surface
+InterpolatedFromCurvesDoublesSurface.from(boolean,Map,Interpolator1D)	A surface with an automatically generated name
+CholeskyDecompositionOpenGammaResult.getDeterminant()	Description copied from interface CholeskyDecompositionResult
+ArrayInterpolator1DDataBundle.containsKey(Double)	
+StudentTDistribution.hashCode()	
+SVDecompositionColtResult.solve(double[])	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+SpreadDoublesCurve.getXData()	Not supported
+GammaFunction.GammaFunction()	
+ComplexNumber.intValue()	
+WeightedLeastSquaresRegression.regress(double[][],double[],double[],boolean)	
+ConstantSurfaceMultiplicativeShiftFunction.ConstantSurfaceMultiplicativeShiftFunction()	
+InterpolatedDoublesCube.InterpolatedDoublesCube(double[],double[],double[],double[],InterpolatorND)	
+Integrator1D.Integrator1D()	
+JTransformsWrapper.inverseTransform1DComplex(ComplexNumber[],boolean)	The inverse backward discrete Fourier transform Note In this definition i appears in the exponential rather than i
+NormalDistribution.getPDF(Double)	Return the probability density function for a value
+MultiDirectionalSimplexMinimizer.MultiDirectionalSimplexMinimizer()	
+UncoupledParameterTransforms.jacobian(DoubleMatrix1D)	Calculates the Jacobian of the transform from function parameters to fitting parameters the i j element will be the partial derivative of i th fitting parameter with respect to the j th function parameter
+ConfidenceInterval.getLowerInterval()	
+InterpolatedDoublesCurve.getYValue(Double)	Description copied from class Curve
+InterpolatedFromSurfacesDoublesCube.fromSorted(SurfacePlane,Map,Interpolator1D,String)	A cube
+NormalDistributionMomentEstimator.evaluate(double[])	Description copied from class Function1D
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(Double[],Double[],Interpolator1D,boolean)	
+SVDecompositionColtResult.solve(DoubleMatrix1D)	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+SampleVarianceCalculator.evaluate(double[])	Description copied from class Function1D
+AddCurveSpreadFunction.AddCurveSpreadFunction()	
+InterpolatedDoublesCurve.fromSorted(Map,Interpolator1D)	An interpolated curve with automatically generated name
+NavigableMapInterpolator1DDataBundle.firstValue()	
+GaussLaguerreWeightAndAbscissaFunction.GaussLaguerreWeightAndAbscissaFunction()	Sets alpha 0
+StudentTOneTailedCriticalValueCalculator.StudentTOneTailedCriticalValueCalculator(double)	
+NodalObjectsCurve.fromSorted(List,List)	
+CholeskyDecompositionCommonsResult.solve(DoubleMatrix1D)	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+Surface.getZValue(T,U)	Given an x y point return the z value from this surface
+DoubleRangeLimitTransform.hashCode()	
+NodalDoublesCurve.NodalDoublesCurve(Set,boolean,String)	
+InterpolatedDoublesCurve.from(double[],double[],Interpolator1D)	An interpolated curve with automatically generated name
+Minimizer.minimize(F,S)	The minimum
+GoldenSectionMinimizer1D.GoldenSectionMinimizer1D()	
+CholeskyDecompositionCommonsResult.getDeterminant()	Description copied from interface CholeskyDecompositionResult
+InterpolatedFromSurfacesDoublesCube.from(SurfacePlane,double[],Surface,Interpolator1D)	A cube with an automatically generated name
+InterpolatedDoublesCurve.getInterpolator()	
+SumToOne.SumToOne(int)	For a set of N 1 fit parameters produces N model parameters that sum to one
+IncompleteGammaFunction.IncompleteGammaFunction(double)	
+ConstantSurfaceMultiplicativeShiftFunction.evaluate(ConstantDoublesSurface,double[],double[],double[],String)	Returns a new surface shifted by amounts z at points x y The name of the new surface is supplied
+Interpolator1DMonotonicIncreasingDataBundle.getBoundedValues(Double)	
+SpreadDoublesCurve.getYValueParameterSensitivity(Double)	Description copied from class DoublesCurve
+InterpolatedFromSurfacesDoublesCube.InterpolatedFromSurfacesDoublesCube(SurfacePlane,Map,Interpolator1D,boolean,String)	
+RidderSingleRootFinder.getRoot(Function1D,Double,Double)	
+INITDS.getInitds(double[],int,double)	Computes an orthogonal series based on coefficients os including sufficient terms to insure that the error is no larger than eta
+CholeskyDecompositionOpenGammaResult.solve(DoubleMatrix2D)	Description copied from interface DecompositionResult
+Interpolator1DMonotonicIncreasingDataBundle.getB(int)	
+PrimeNumbers.getNthPrime(int)	
+NodalSurfaceMultiplicativeShiftFunction.evaluate(NodalDoublesSurface,double,double,double)	Returns a new surface shifted by an amount z at the point x y The name of the new surface will be automatically generated
+GeneralizedParetoDistribution.getCDF(Double)	Returns the cumulative distribution function for a value
+ColtMatrixAlgebra.getCondition(Matrix)	Returns the condition number of the matrix
+ComplexMathUtils.divide(double,ComplexNumber)	
+NodalSurfaceAdditiveShiftFunction.evaluate(NodalDoublesSurface,double[],double[],double[],String)	Returns a new surface shifted by amounts z at points x y The name of the new surface is supplied
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(List,List,List,Interpolator2D,String)	
+MultiquadraticRadialBasisFunction.evaluate(Double)	Description copied from class Function1D
+QuasiNewtonVectorMinimizer.minimize(Function1D,DoubleMatrix1D)	Disabled because not working properly see JIRA issue
+InterpolatedDoublesCurve.from(DoublesPair[],Interpolator1D,String)	An interpolated curve with automatically generated name
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,Function1D,Function1D,DoubleMatrix1D,DoubleMatrix1D)	Use this when the model is given as a function of its parameters only i e a function that takes a set of parameters and return a set of model values so the measurement points are already known to the function and analytic parameter sensitivity is available
+DoublesSurface.DoublesSurface(DoublesPair[],Double[],String)	
+ConstantSurfaceMultiplicativeShiftFunction.evaluate(ConstantDoublesSurface,double[],double[],double[])	Returns a new surface shifted by amounts z at points x y The name of the new surface will be automatically generated
+InterpolatedDoublesCube.from(Double[],Double[],Double[],Double[],InterpolatorND)	An interpolated cube with automatically generated name
+InterpolatedFromCurvesDoublesSurface.fromSorted(boolean,double[],Curve,Interpolator1D)	A surface with an automatically generated name
+StudentTDistribution.getCDF(Double)	Returns the cumulative distribution function for a value
+Interpolator1DQuadraticSplineDataBundle.getA(int)	
+ArrayInterpolator1DDataBundle.ArrayInterpolator1DDataBundle(double[],double[])	
+TridiagonalMatrix.toDoubleMatrix2D()	Returns the tridiagonal matrix as a DoubleMatrix2D
+DecompositionFactory.getDecompositionName(Decomposition)	Given a decomposition method returns its name
+Diff.values(float[],int)	Finds the t th numerical difference between value at position i 1 and i effectively recurses Diff values t times
+QuasiNewtonVectorMinimizer.DataBundle.getDeltaX()	
+InterpolatedSurfaceMultiplicativeShiftFunction.evaluate(InterpolatedDoublesSurface,double,double,double)	Returns a new surface shifted by an amount z at the point x y The name of the new surface will be automatically generated
+DoublesCube.DoublesCube(double[],double[],double[],double[])	
+HermitePolynomialFunction.HermitePolynomialFunction()	
+DoublesCurveNelsonSiegel.getXData()	The x data for this curve
+FunctionalDoublesCube.equals(Object)	
+Integrator1D.integrate(Function1D,U[],U[])	The result of the integral
+SVDecompositionResult.getUT()	Returns the transpose of the matrix mathbf U of the decomposition
+HeavisideFunction.evaluate(Double)	Description copied from class Function1D
+SVDecompositionResult.getV()	Returns the matrix mathbf V of the decomposition
+ColtMatrixAlgebra.getNormInfinity(Matrix)	For a vector returns the L infty norm
+WeightedLeastSquaresRegression.WeightedLeastSquaresRegression()	
+NodalDoublesCurve.NodalDoublesCurve(Map,boolean)	
+InterpolatedFromCurvesDoublesSurface.InterpolatedFromCurvesDoublesSurface(boolean,Double[],Curve,Interpolator1D,boolean,String)	
+NormalRandomNumberGenerator.getVector(int)	
+QuasiNewtonVectorMinimizer.DataBundle.getX()	
+DoublesSurface.DoublesSurface(List,List,List,String)	
+KrigingInterpolatorND.KrigingInterpolatorND(double)	
+DoublesCube.getXData()	The x data for this cube
+CommonsMatrixAlgebra.getInnerProduct(Matrix,Matrix)	Returns the inner or dot product
+StudentTTwoTailedCriticalValueCalculator.evaluate(Double)	Description copied from class Function1D
+InterpolatedFromSurfacesDoublesCube.from(SurfacePlane,List,List,Interpolator1D,String)	A cube
+SimpleTimer.startTimer()	
+SampleCentralMomentCalculator.SampleCentralMomentCalculator(int)	
+MatrixAlgebra.scale(Matrix,double)	Scale a vector or matrix by a given amount i e each element is multiplied by the scale
+InterpolatedFromSurfacesDoublesCube.getValue(Double,Double,Double)	Description copied from class Cube
+RadialBasisFunctionInterpolatorND.equals(Object)	
+QuasiNewtonVectorMinimizer.DataBundle.swapLambdaAndReplace(double)	
+FunctionalDoublesCube.getFunction()	The function that defines the cube
+BracketRoot.getBracketedPoints(Function1D,double,double)	The bracketed points as an array where the first element is the lower bracket and the second the upper bracket
+NonLinearLeastSquare.NonLinearLeastSquare()	
+SumToOne.transform(DoubleMatrix1D)	Transform from the N 1 fit parameters to the N model parameters
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(List,Interpolator1D,boolean,String)	
+Interpolator1DDataBundle.getValues()	
+ObjectsCurve.ObjectsCurve(java.lang.Comparable[],U[],boolean,String)	
+ArraysDoublesCurve.hashCode()	
+ObjectsCurve.getXData()	The x data for this curve
+InterpolationBoundedValues.getHigherBoundValue()	the higherBoundValue
+OrthonormalHermitePolynomialFunction.OrthonormalHermitePolynomialFunction()	
+SpreadDoublesCurve.equals(Object)	
+TrigonometricFunctionUtils.asinh(double)	
+Interpolator1DDoubleQuadraticDataBundle.lastValue()	
+RealPolynomialFunction1D.evaluate(Double)	Description copied from class Function1D
+NodalDoublesCurve.from(Map,String)	A nodal curve with automatically generated name
+Interpolator2DDataBundle.Interpolator2DDataBundle(double[],double[],double[])	
+NaturalCubicSplineInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+FunctionalDoublesCube.getValue()	Description copied from class Cube
+ParallelArrayBinarySort.parallelBinarySort(long[],double[])	Sort the content of keys and values simultaneously so that both match the correct ordering Alters the arrays in place
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(double[],double[],double[],Interpolator2D)	
+InterpolatedFromCurvesSurfaceAdditiveShiftFunction.InterpolatedFromCurvesSurfaceAdditiveShiftFunction()	
+LegendrePolynomialFunction.getPolynomialsAndFirstDerivative(int)	
+RationalFunctionInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+InverseJacobianEstimateInitializationFunction.getInitializedMatrix(Function1D,DoubleMatrix1D)	
+LeastSquareResultsWithTransform.getModelParameterSensitivityToData()	This a matrix where the i jth element is the infinitesimal sensitivity of the ith fitting parameter to the jth data point NOT the model point when the fitting parameter are such that the chi squared is minimised So it is a type of inverse Jacobian but should not be confused with the model jacobian sensitivity of model data points to parameters or its inverse
+QuasiNewtonVectorMinimizer.QuasiNewtonVectorMinimizer(double,double,int)	
+ColtMatrixAlgebra.getTranspose(Matrix)	Returns the transpose of a matrix
+DoubleQuadraticInterpolator1D.DoubleQuadraticInterpolator1D()	
+MultiquadraticRadialBasisFunction.hashCode()	
+TransformedInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+RealPolynomialFunction1D.derivative()	Returns the derivative of this polynomial also a polynomial where begin align P x a 1 2 a 2 x 3 a 3 x 2 4 a 4 x 3 dots n a n x n 1 end align
+DERF.getErf(double)	Gets the error function at position x
+FunctionalDoublesCurve.getYValue(Double)	Description copied from class Curve
+DoublesSurface.getYData()	The y data for this surface
+LaplaceDistribution.getMu()	The location parameter
+SpreadCurveShiftFunction.evaluate(SpreadDoublesCurve,double[],double[])	Returns a new curve shifted by amounts y at values x The name of the new curve will be automatically generated
+NodalObjectsCurve.fromSorted(Set,String)	
+CurveShiftFunctionFactory.getFunction(Class)	Gets the function for a class type
+DoublesSurface.size()	The number of data points used to construct this surface
+NodalDoublesCurve.NodalDoublesCurve(List,List,boolean)	
+WeightedLeastSquaresRegressionResult.WeightedLeastSquaresRegressionResult(double[],double[],double,double[],double,double,double[],double[],boolean)	
+ModeCalculator.evaluate(double[])	Description copied from class Function1D
+NewtonRaphsonSingleRootFinder.getRoot(DoubleFunction1D,DoubleFunction1D,Double)	Uses the function and its derivative This method uses an initial guess for the root rather than bounds
+RungeKuttaIntegrator1D.RungeKuttaIntegrator1D(double,double,int)	
+TrigonometricFunctionUtils.cosh(ComplexNumber)	
+LeastSquaresRegressionResult.getAdjustedRSquared()	
+NodalObjectsCurve.from(Set,String)	
+BroydenVectorRootFinder.BroydenVectorRootFinder(double,double,int)	
+ConstantDoublesSurface.hashCode()	
+NodalDoublesCurve.fromSorted(List,List)	A nodal curve with automatically generated name
+FunctionalDoublesCube.getYData()	Not supported
+StepInterpolator1D.getDataBundle(double[],double[])	
+DoublesSurface.DoublesSurface(double[],double[],double[],String)	
+LeastSquareResultsWithTransform.hashCode()	
+SampleMomentCalculator.SampleMomentCalculator(int)	
+VectorFieldSecondOrderDifferentiator.differentiateFull(Function1D)	
+ArrayInterpolator1DDataBundle.getValues()	
+InterpolatedFromSurfacesDoublesCube.getValue()	Description copied from class Cube
+GaussianRadialBasisFunction.GaussianRadialBasisFunction()	
+Interpolator1DQuadraticSplineDataBundle.higherKey(Double)	
+GaussianRadialBasisFunction.GaussianRadialBasisFunction(double)	
+CombinedInterpolatorExtrapolator.getDataBundleFromSortedArrays(double[],double[])	
+SpreadDoublesCurve.getYData()	Not supported
+ComplexMathUtils.pow(ComplexNumber,double)	
+TrigonometricFunctionUtils.acos(ComplexNumber)	arccos the inverse of cos
+NodalObjectsCurve.NodalObjectsCurve(Set,boolean,String)	
+Matrix.getEntry()	Gets the entry specified by the indices For example for a 3 D matrix the indices matrix must have three elements
+InterpolatedSurfaceMultiplicativeShiftFunction.evaluate(InterpolatedDoublesSurface,double[],double[],double[])	Returns a new surface shifted by amounts z at points x y The name of the new surface will be automatically generated
+ConstantDoublesSurface.from(double)	A constant surface with automatically generated name
+NewtonRootFinderMatrixInitializationFunction.getInitializedMatrix(Function1D,DoubleMatrix1D)	
+Diff.values(int[])	Finds the numerical difference between value at position i 1 and i returning a vector of what would be needed to be added to the first n 1 elements of the original vector to get the original vector
+CombinedInterpolatorExtrapolator.interpolate(Interpolator1DDataBundle,Double)	
+InterpolatedDoublesCube.getValue(Double,Double,Double)	Description copied from class Cube
+NodalDoublesCurve.from(List,String)	A nodal curve with automatically generated name
+NormalDistribution.NormalDistribution(double,double)	
+NodalDoublesCurve.fromSorted(Double[],Double[])	A nodal curve with automatically generated name
+NodalSurfaceMultiplicativeShiftFunction.evaluate(NodalDoublesSurface,double,String)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface is supplied
+TrigonometricFunctionUtils.atanh(ComplexNumber)	
+RadialBasisFunctionInterpolatorND.getDataBundle(double[],double[],double[],double[])	
+InterpolatedFromSurfacesDoublesCube.getXData()	Not supported
+InverseIncompleteGammaFunction.evaluate(Double,Double)	Description copied from class Function2D
+SVDecompositionColtResult.getUT()	Returns the transpose of the matrix mathbf U of the decomposition
+StudentTDistribution.StudentTDistribution(double)	
+InterpolatedDoublesCurve.fromSorted(double[],double[],Interpolator1D)	An interpolated curve with automatically generated name
+NewtonDefaultUpdateFunction.getUpdatedMatrix(Function1D,DoubleMatrix1D,DoubleMatrix1D,DoubleMatrix1D,DoubleMatrix2D)	
+ConfidenceInterval.getValue()	
+SurfaceShiftFunction.evaluate(Surface,double,double,double)	Returns a new surface shifted by an amount z at the point x y The name of the new surface will be automatically generated
+CommonsMatrixAlgebra.CommonsMatrixAlgebra()	
+InverseJacobianDirectionFunction.getDirection(DoubleMatrix2D,DoubleMatrix1D)	
+BroydenMatrixUpdateFunction.BroydenMatrixUpdateFunction()	
+BarycentricRationalFunctionInterpolator1D.BarycentricRationalFunctionInterpolator1D(int,double)	
+Interpolator2D.getNodeSensitivitiesForValue(Map,DoublesPair)	
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,Function1D,DoubleMatrix1D,DoubleMatrix1D)	Use this when the model is given as a function of its parameters only i e a function that takes a set of parameters and return a set of model values so the measurement points are already known to the function and analytic parameter sensitivity is not available
+MeanCalculator.evaluate(double[])	Description copied from class Function1D
+GaussianQuadratureData.getWeights()	The weights
+ComplexMathUtils.multiply(ComplexNumber,double)	
+JacobiPolynomialFunction.getPolynomials(int)	
+FunctionalDoublesSurface.FunctionalDoublesSurface(Function)	
+SemiStandardDeviationCalculator.SemiStandardDeviationCalculator()	Creates calculator with the default value for useDownSide true
+SimpleTimer.totalTime()	
+ComplexMathUtils.log(ComplexNumber)	Returns the principal value of log with z the principal argument of z defined to lie in the interval pi pi
+KrigingInterpolatorND.interpolate(InterpolatorNDDataBundle,double[])	
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(List,Interpolator2D,String)	
+ArrayInterpolator1DDataBundle.size()	
+SVDecompositionColtResult.getVT()	Returns the transpose of the matrix mathbf V of the decomposition
+NodalDoublesCurve.from(double[],double[])	A nodal curve with automatically generated name
+JTransformsWrapper.inverseTransform1DReal(double[],boolean)	The backward discrete Fourier transform Note In this definition i appears in the exponential rather than i If x is a array of N real values sampled at intervals of Delta from a function H f then the transform h t int infty infty e 2i pi f t H f df is sampled at frac N 2 points at intervals of frac 1 N Delta t frac i N Delta for i 0 to frac N 2 1
+ComplexNumber.ComplexNumber(double)	Sets the imaginary part to zero
+LUDecompositionCommonsResult.solve(DoubleMatrix1D)	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+SurfaceShiftFunctionFactory.getFunction(Class)	Gets the function for a class type
+ObjectsSurface.getZData()	The z data for this surface
+DoubleMatrix2D.getNumberOfRows()	The number of rows in this matrix
+ConstantSurfaceMultiplicativeShiftFunction.evaluate(ConstantDoublesSurface,double,String)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface is supplied
+NodalDoublesCurve.fromSorted(Set,String)	A nodal curve with automatically generated name
+SpreadDoublesCurve.getYValue(Double)	Description copied from class Curve
+LeastSquareResults.toString()	
+NodalDoublesSurface.from(Map)	A nodal surface with automatically generated name
+ConjugateDirectionVectorMinimizer.ConjugateDirectionVectorMinimizer(ScalarMinimizer,double,int)	
+Interpolator1DMonotonicIncreasingDataBundle.getValues()	
+Interpolator1DDataBundle.getBoundedValues(Double)	
+NewtonRaphsonSingleRootFinder.NewtonRaphsonSingleRootFinder(double)	Takes the accuracy of the root as a parameter this is the maximum difference between the true root and the returned value that is allowed If this is negative then the absolute value is used
+ChebyshevPolynomialOfFirstKindFunction.getPolynomialsAndFirstDerivative(int)	
+BarycentricRationalFunctionInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+NodalDoublesCurve.NodalDoublesCurve(DoublesPair[],boolean)	
+FunctionalDoublesSurface.getZValue()	Given an x y point return the z value from this surface
+CommonsMatrixAlgebra.getDeterminant(Matrix)	Returns the determinant of the matrix
+DoublesSurface.DoublesSurface(DoublesPair[],Double[])	
+NodalDoublesSurface.from(List,List,List)	A nodal surface with automatically generated name
+RadialBasisFunctionInterpolatorDataBundle.getBasisFunction()	Gets the basisFunction field
+SampleMedianAbsoluteDeviationCalculator.evaluate(double[])	Description copied from class Function1D
+InterpolatorND.InterpolatorND()	
+Interpolator1DMonotonicIncreasingDataBundle.lastValue()	
+LeastSquaresRegressionResult.getResiduals()	
+RealPolynomialFunction1D.multiply(double)	Multiplies the polynomial by a constant value equivalent to multiplying each coefficient by this value The result is also a polynomial
+LaguerrePolynomialFunction.getPolynomials(int,double)	
+InterpolatedDoublesSurface.from(double[],double[],double[],Interpolator2D)	An interpolated surface with automatically generated name
+ParallelArrayBinarySort.parallelBinarySort(float[],int[])	Sort the content of keys and apply the same sort to the values
+DoubleMatrix2D.DoubleMatrix2D(double[][])	
+SpreadCurveShiftFunction.evaluate(SpreadDoublesCurve,double,double,String)	Returns a new curve shifted by an amount y at value x The name of the new curve is supplied
+SpreadDoublesCurve.hashCode()	
+SumToOne.jacobian(DoubleMatrix1D)	The N by N 1 Jacobian matrix between the N model parameters that sum to one and the N 1 fit parameters
+InterpolatedFromCurvesDoublesSurface.equals(Object)	
+CommonsMathWrapper.unwrap(RealMatrix)	An OG 2 D matrix of doubles
+PearsonFirstSkewnessCoefficientCalculator.PearsonFirstSkewnessCoefficientCalculator()	
+ObjectsCurve.ObjectsCurve(Set,boolean)	
+ChiSquareDistribution.getCDF(Double)	Returns the cumulative distribution function for a value
+NodalDoublesCurve.NodalDoublesCurve(DoublesPair[],boolean,String)	
+NewtonVectorRootFinder.NewtonVectorRootFinder(double,double,int,NewtonRootFinderDirectionFunction,NewtonRootFinderMatrixInitializationFunction,NewtonRootFinderMatrixUpdateFunction)	
+LogLinearInterpolator1D.getDataBundle(double[],double[])	
+VectorRootFinder.getRoot(Function1D,DoubleMatrix1D)	The vector root of this function
+CubicRootFinder.getRoots(RealPolynomialFunction1D)	The roots of the function
+NodalObjectsCurve.from(java.lang.Comparable[],U[])	
+Interpolator1DDoubleQuadraticDataBundle.hashCode()	
+PercentileCalculator.setPercentile(double)	
+ArrayInterpolator1DDataBundle.lastKey()	
+OGMatrixAlgebra.getNorm2(Matrix)	For a vector returns L 2 norm also known as the Euclidean norm
+TrigonometricFunctionUtils.sinh(ComplexNumber)	
+FunctionalDoublesSurface.from(Function,String)	A functional surface
+FunctionalDoublesCube.from(Function,String)	A functional cube
+Interpolator1DDoubleQuadraticDataBundle.higherKey(Double)	
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,Function1D,Function1D,DoubleMatrix1D,Function1D,DoubleMatrix1D)	Use this when the model is given as a function of its parameters only i e a function that takes a set of parameters and return a set of model values so the measurement points are already known to the function and analytic parameter sensitivity is available
+NodalSurfaceMultiplicativeShiftFunction.evaluate(NodalDoublesSurface,double,double,double,String)	Returns a new surface shifted by an amount z at the point x y The name of the new surface is supplied
+SpreadCurveShiftFunction.evaluate(SpreadDoublesCurve,double)	Returns a new curve shifted by a constant y amount i e a shift parallel to the x axis The name of the new curve will be automatically generated
+SingleRangeLimitTransform.inverseTransformGradient(double)	The gradient of the function used to transform from a fitting parameter that can take any value to a model parameter that is only allows to take certain values
+ParallelArrayBinarySort.parallelBinarySort(long[],int[])	Sort the content of keys and apply the same sort to the values
+ConstantDoublesCurve.size()	The size of the curve is one
+NullTransform.transformGradient(double)	The gradient of a null transform is one The gradient of the function used to transform from a model parameter that is only allows to take certain values to a fitting parameter that can take any value
+JTransformsWrapper.JTransformsWrapper()	
+ArrayInterpolator1DDataBundle.lastValue()	
+StudentTDistribution.equals(Object)	
+TridiagonalMatrix.getUpperSubDiagonal()	An array of the values of the upper sub diagonal
+DoubleMatrix2D.getData()	Returns the underlying matrix data If this is changed so is the matrix
+CholeskyDecompositionResult.getL()	Returns the mathbf L matrix of the decomposition
+MatrixAlgebra.add(Matrix,Matrix)	Adds two matrices This operation can only be performed if the matrices are of the same type and dimensions
+JacobiPolynomialFunction.getPolynomialsAndFirstDerivative(int)	
+RadialBasisFunction.evaluate(Function1D,List,double[],boolean)	
+Interpolator1DCubicSplineDataBundle.lastValue()	
+LUDecompositionCommonsResult.getPivot()	Returns the pivot permutation vector
+CholeskyDecompositionOpenGamma.CholeskyDecompositionOpenGamma()	
+Interpolator1DMonotonicIncreasingDataBundle.size()	
+TrigonometricFunctionUtils.asin(double)	
+NodalObjectsCurve.fromSorted(Map)	
+PearsonFirstSkewnessCoefficientCalculator.evaluate(double[])	Description copied from class Function1D
+Interpolator1DCubicSplineDataBundle.higherKey(Double)	
+Interpolator1DDataBundle.lastValue()	
+ConstantDoublesCurve.from(double)	A constant curve with automatically generated name
+GaussJacobiWeightAndAbscissaFunction.generate(int)	An object containing the weights and abscissas
+ConfidenceInterval.getConfidenceLevel()	
+LUDecompositionCommonsResult.getL()	Returns the mathbf L matrix of the decomposition
+LognormalFisherKurtosisFromVolatilityCalculator.evaluate(Double,Double)	Description copied from class Function2D
+LeastSquaresRegressionResult.getTStatistics()	
+FunctionalDoublesCube.FunctionalDoublesCube(Function)	
+FunctionalDoublesCube.getZData()	Not supported
+NodalObjectsCurve.NodalObjectsCurve(Map,boolean,String)	
+GeometricMeanCalculator.evaluate(double[])	Description copied from class Function1D
+ObjectsSurface.hashCode()	
+NavigableMapInterpolator1DDataBundle.lastKey()	
+StudentTDistribution.getInverseCDF(Double)	Given a probability return the value that returns this cdf The inverse cdf is given by begin align F P mathrm sign p frac 1 2 sqrt frac nu x 1 x B 2 min p 1 p end align where B is the inverse incomplete Beta function InverseIncompleteBetaFunction
+NodalDoublesSurface.from(DoublesPair[],double[])	A nodal surface with automatically generated name
+ConstantDoublesCurve.hashCode()	
+Surface.equals(Object)	
+Interpolator1DQuadraticSplineDataBundle.lastKey()	
+ScalarFieldFirstOrderDifferentiator.ScalarFieldFirstOrderDifferentiator(FiniteDifferenceType,double)	Approximates the derivative of a scalar function by finite difference If the size of the domain is very small or very large consider re scaling first
+SpreadDoublesCurve.getUnderlyingCurves()	The underlying curves
+Surface.hashCode()	
+SpreadDoublesCurve.from(CurveSpreadFunction,)	Takes an array of curves that are to be operated on by the spread function The name of the spread curve is automatically generated
+ShepardInterpolatorND.getDataBundle(double[],double[],double[],double[])	
+GaussianQuadratureIntegrator1D.hashCode()	
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(List,List,List,Interpolator2D)	
+Surface.size()	The number of data points used to construct this surface
+InterpolatorND.interpolate(InterpolatorNDDataBundle,double[])	
+NodalDoublesSurface.from(List,List)	A nodal surface with automatically generated name
+IncompleteGammaFunction.evaluate(Double)	Description copied from class Function1D
+RungeKuttaIntegrator1D.RungeKuttaIntegrator1D(double,int)	
+Diff.values(double[])	Finds the numerical difference between value at position i 1 and i returning a vector of what would be needed to be added to the first n 1 elements of the original vector to get the original vector
+MinimumBracketer.getBracketedPoints(Function1D,double,double)	
+LeastSquaresRegressionResult.hashCode()	
+LeastSquaresRegressionResult.equals(Object)	
+ScalarFirstOrderDifferentiator.ScalarFirstOrderDifferentiator()	Uses the default values of differencing type central and eps 10 5
+GeneralizedExtremeValueDistribution.GeneralizedExtremeValueDistribution(double,double,double)	
+CommonsMathWrapper.wrapAsMatrix(DoubleMatrix1D)	A Commons matrix
+OrthonormalHermitePolynomialFunction.getPolynomialsAndFirstDerivative(int)	
+DoublesCube.getXDataAsPrimitive()	Returns the x data points as a primitive array
+SampleCovarianceCalculator.SampleCovarianceCalculator()	
+PolynomialInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+TrigonometricFunctionUtils.sin(double)	
+NelderMeadDownhillSimplexMinimizer.minimize(Function1D,DoubleMatrix1D)	The minimum
+MinimizerWithGradient.minimize(F,G,S)	The minimum
+CommonsMatrixAlgebra.getTranspose(Matrix)	Returns the transpose of a matrix
+NamedVariableLeastSquaresRegressionResult.equals(Object)	
+DoublesSurface.DoublesSurface(DoublesPair[],double[])	
+SurfaceShiftFunction.evaluate(Surface,double[],double[],double[],String)	Returns a new surface shifted by amounts z at points x y The name of the new surface is supplied
+ScalarFirstOrderDifferentiator.ScalarFirstOrderDifferentiator(FiniteDifferenceType,double)	
+InterpolatedCurveShiftFunction.evaluate(InterpolatedDoublesCurve,double[],double[])	Returns a new curve shifted by amounts y at values x The name of the new curve will be automatically generated
+LeastSquaresRegressionResult.getStandardErrorOfBetas()	
+Interpolator1DQuadraticSplineDataBundle.lastValue()	
+InterpolatedCurveBuildingFunction.InterpolatedCurveBuildingFunction(LinkedHashMap,LinkedHashMap)	
+BarycentricRationalFunctionInterpolator1D.getDataBundle(double[],double[])	
+RidderSingleRootFinder.RidderSingleRootFinder(double,double)	
+NodalSurfaceAdditiveShiftFunction.evaluate(NodalDoublesSurface,double)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface will be automatically generated
+GaussianQuadratureData.hashCode()	
+NavigableMapInterpolator1DDataBundle.equals(Object)	
+Diff.values(long[])	Finds the numerical difference between value at position i 1 and i returning a vector of what would be needed to be added to the first n 1 elements of the original vector to get the original vector
+LeastSquaresRegressionResult.getPredictedValue(double[])	
+SimpleTimer.elapsedTime()	
+NonCentralChiSquaredDistribution.getDegrees()	The number of degrees of freedom
+LeastSquareResultsWithTransform.equals(Object)	
+QuadratureWeightAndAbscissaFunction.generate(int)	An object containing the weights and abscissas
+QRDecompositionResult.getQT()	Returns the transpose of the matrix mathbf Q of the decomposition
+NodalDoublesCurve.from(double[],double[],String)	A nodal curve with automatically generated name
+CholeskyDecompositionCommons.evaluate(DoubleMatrix2D)	1 D function method
+Interpolator1DMonotonicIncreasingDataBundle.getKeys()	
+ShepardInterpolatorND.ShepardInterpolatorND(double)	
+ColtMatrixAlgebra.getPower(Matrix,int)	Returns a matrix raised to an integer power e g mathbf A 3 mathbf A mathbf A mathbf A
+NodalDoublesCurve.fromSorted(double[],double[],String)	A nodal curve with automatically generated name
+PrimeNumbers.PrimeNumbers()	
+NonCentralChiSquaredDistribution.equals(Object)	
+Interpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+QRDecompositionCommonsResult.getR()	Returns the matrix mathbf R of the decomposition
+MatrixAlgebra.getPower(Matrix,double)	Returns a matrix raised to a power mathbf A 3 mathbf A mathbf A mathbf A
+QuasiNewtonVectorMinimizer.DataBundle.getG1()	
+GaussHermiteQuadratureIntegrator1D.GaussHermiteQuadratureIntegrator1D(int)	
+SimpsonIntegrator1D.SimpsonIntegrator1D()	
+NodalSurfaceAdditiveShiftFunction.evaluate(NodalDoublesSurface,double,double,double)	Returns a new surface shifted by an amount z at the point x y The name of the new surface will be automatically generated
+ConjugateGradientVectorMinimizer.ConjugateGradientVectorMinimizer(ScalarMinimizer)	Constructs the object with default values for relative and absolute tolerance 10 8 and the number of iterations 100
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(Double[],Double[],Double[],Interpolator2D,String)	
+SVDecompositionColtResult.SVDecompositionColtResult(SingularValueDecomposition)	
+PearsonSecondSkewnessCoefficientCalculator.PearsonSecondSkewnessCoefficientCalculator()	
+NodalDoublesSurface.getZValue()	Given an x y point return the z value from this surface
+PolynomialInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+PartialMomentCalculator.PartialMomentCalculator(double,boolean)	
+Function2D.evaluate()	Implementation of the interface This method only uses the first and second arguments
+Interpolator1D.equals(Object)	
+ParallelArrayBinarySort.parallelBinarySort(int[],double[])	Sort the content of keys and values simultaneously so that both match the correct ordering Alters the arrays in place
+BroydenVectorRootFinder.BroydenVectorRootFinder()	
+ConstantCurveShiftFunction.evaluate(ConstantDoublesCurve,double[],double[])	Returns a new curve shifted by amounts y at values x The name of the new curve will be automatically generated
+ConstantSurfaceMultiplicativeShiftFunction.evaluate(ConstantDoublesSurface,double,double,double,String)	Returns a new surface shifted by an amount z at the point x y The name of the new surface is supplied
+LeastSquareResults.LeastSquareResults(LeastSquareResults)	
+GammaDistribution.getTheta()	The location parameter
+InterpolatedDoublesCube.getValue()	Description copied from class Cube
+InterpolatedSurfaceAdditiveShiftFunction.evaluate(InterpolatedDoublesSurface,double[],double[],double[])	Returns a new surface shifted by amounts z at points x y The name of the new surface will be automatically generated
+FunctionalSurfaceAdditiveShiftFunction.evaluate(FunctionalDoublesSurface,double,double,double,String)	Returns a new surface shifted by an amount z at the point x y The name of the new surface is supplied
+Interpolator1DCubicSplineDataBundle.getSecondDerivatives()	
+GeneralizedLeastSquaresRegression.GeneralizedLeastSquaresRegression()	
+GeneralizedLeastSquare.solve(List,List,List,List,int[],double[],int[])	Specialist method used mainly for solving multidimensional P spline problems where the basis functions B splines span a N dimension space and the weights sit on an N dimension grid and are treated as a N order tensor rather than a vector so k order differencing is done for each tensor index while varying the other indices
+DoubleFunction1D.derivative()	Returns a function that calculates the first derivative The method used is central finite difference with epsilon 10 5 Implementing classes can override this method to return a function that is the exact functional representation of the first derivative
+ConstantCurveShiftFunction.evaluate(ConstantDoublesCurve,double,double)	Returns a new curve shifted by an amount y at value x The name of the new curve will be automatically generated
+FunctionalDoublesCurve.FunctionalDoublesCurve(Function,String)	
+NonCentralChiSquaredDistribution.getPDF(Double)	Return the probability density function for a value
+WinsorizedMeanCalculator.WinsorizedMeanCalculator(double)	
+RungeKuttaIntegrator1D.RungeKuttaIntegrator1D(int)	
+SVDecompositionColtResult.solve(DoubleMatrix2D)	Solves mathbf A x mathbf B where mathbf A is a decomposed matrix and mathbf B is a matrix
+ChebyshevPolynomialOfFirstKindFunction.getPolynomials(int)	
+NodalDoublesCurve.from(Double[],Double[],String)	A nodal curve with automatically generated name
+DoubleMatrix1D.getNumberOfElements()	The number of elements in this matrix
+PolynomialInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+NodalObjectsSurface.NodalObjectsSurface(T[],U[],V[],String)	
+Interpolator1DMonotonicIncreasingDataBundle.higherKey(Double)	
+GeneralizedExtremeValueDistribution.getCDF(Double)	Returns the cumulative distribution function for a value
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(Map,Interpolator2D,String)	
+InverseMultiquadraticRadialBasisFunction.equals(Object)	
+Interpolator1DDoubleQuadraticDataBundle.getBoundedValues(Double)	
+NodalDoublesCurve.from(DoublesPair[])	A nodal curve with automatically generated name
+DoublesCube.getValuesAsPrimitive()	Returns the values as a primitive array
+NewtonRootFinderDirectionFunction.getDirection(DoubleMatrix2D,DoubleMatrix1D)	
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(Map,Interpolator2D)	
+InterpolatedFromSurfacesDoublesCube.from(SurfacePlane,List,List,Interpolator1D)	A cube with an automatically generated name
+ParallelArrayBinarySort.parallelBinarySort(double[],double[])	Sort the content of keys and values simultaneously so that both match the correct ordering Alters the arrays in place
+ChiSquareDistribution.ChiSquareDistribution(double,RandomEngine)	
+InterpolatedDoublesCube.from(double[],double[],double[],double[],InterpolatorND)	An interpolated cube with automatically generated name
+Interpolator1DCubicSplineDataBundle.getValues()	
+LUDecompositionCommonsResult.solve(double[])	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+InterpolatedFromSurfacesDoublesCube.InterpolatedFromSurfacesDoublesCube(SurfacePlane,List,List,Interpolator1D,boolean)	
+RungeKuttaIntegrator1D.RungeKuttaIntegrator1D(double)	
+Cube.getYData()	The y data for this cube
+InterpolatedCurveShiftFunction.evaluate(InterpolatedDoublesCurve,double,double,String)	Returns a new curve shifted by an amount y at value x The name of the new curve is supplied
+GaussLaguerreWeightAndAbscissaFunction.GaussLaguerreWeightAndAbscissaFunction(double)	
+LeastSquareResults.LeastSquareResults(double,DoubleMatrix1D,DoubleMatrix2D,DoubleMatrix2D)	
+Surface.getZValue()	Given an x y point return the z value from this surface
+TransformedInterpolator1D.TransformedInterpolator1D(Interpolator1D,ParameterLimitsTransform)	
+NodalSurfaceMultiplicativeShiftFunction.evaluate(NodalDoublesSurface,double[],double[],double[],String)	Returns a new surface shifted by amounts z at points x y The name of the new surface is supplied
+ArraysDoublesCurve.ArraysDoublesCurve(List,boolean,String)	
+LaplaceDistribution.LaplaceDistribution(double,double)	
+ParameterizedFunction.asFunctionOfArguments(T)	A function that can be evaluated at different x with the input parameters
+ShermanMorrisonMatrixUpdateFunction.getUpdatedMatrix(Function1D,DoubleMatrix1D,DoubleMatrix1D,DoubleMatrix1D,DoubleMatrix2D)	
+FunctionalDoublesCurve.equals(Object)	
+GeneralizedParetoDistribution.getMu()	The location parameter
+RealPolynomialFunction1D.subtract(DoubleFunction1D)	Subtracts a function from the polynomial If the function is not a RealPolynomialFunction1D then the subtract takes place as in DoubleFunction1D otherwise the result will also be a polynomial
+FunctionalSurfaceAdditiveShiftFunction.evaluate(FunctionalDoublesSurface,double[],double[],double[],String)	Returns a new surface shifted by amounts z at points x y The name of the new surface is supplied
+InterpolatedDoublesCube.InterpolatedDoublesCube(Double[],Double[],Double[],Double[],InterpolatorND)	
+RadialBasisFunctionInterpolatorDataBundle.getWeights()	
+VectorFieldSecondOrderDifferentiator.differentiate(Function1D,Function1D)	A function that calculates the differential
+NodalObjectsCurve.NodalObjectsCurve(java.lang.Comparable[],U[],boolean,String)	
+NonLinearTransformFunction.getFittingFunction()	
+StatisticsCalculatorFactory.getCalculatorName(Function)	The calculator
+Polynomial1DRootFinder.getRoots(RealPolynomialFunction1D)	The roots of the function
+QuartileSkewnessCalculator.evaluate(double[])	Description copied from class Function1D
+InterpolatedCurveShiftFunction.InterpolatedCurveShiftFunction()	
+DoubleMatrix2D.toString()	
+MathException.MathException(Throwable)	
+VectorFieldFirstOrderDifferentiator.differentiate(Function1D)	A function that calculates the differential
+Interpolator2DDataBundle.equals(Object)	
+GaussianQuadratureIntegrator1D.equals(Object)	
+NormalDistributionMomentEstimator.NormalDistributionMomentEstimator()	
+InterpolatedDoublesCurve.fromSorted(List,List,Interpolator1D,String)	An interpolated curve with automatically generated name
+SingleRangeLimitTransform.transformGradient(double)	The gradient of the function used to transform from a model parameter that is only allows to take certain values to a fitting parameter that can take any value
+OGMatrixAlgebra.getTranspose(Matrix)	Returns the transpose of a matrix
+LaguerrePolynomialFunction.getPolynomialsAndFirstDerivative(int)	
+TransformedInterpolator1D.getDataBundle(double[],double[])	The node values must be in the transformed space
+DoubleFunction1D.DoubleFunction1D()	
+ComplexMathUtils.multiply(double,ComplexNumber)	
+IncompleteBetaFunction.evaluate(Double)	Description copied from class Function1D
+Interpolator1DQuadraticSplineDataBundle.get(Double)	
+Interpolator1DDataBundle.setYValueAtIndex(int,double)	
+GeneralizedExtremeValueDistribution.hashCode()	
+LaplaceDistribution.getPDF(Double)	Return the probability density function for a value
+StudentTTwoTailedCriticalValueCalculator.StudentTTwoTailedCriticalValueCalculator(double)	
+VectorFieldFirstOrderDifferentiator.VectorFieldFirstOrderDifferentiator(double)	Approximates the derivative of a vector function by finite difference If the size of the domain is very small or very large consider re scaling first
+SimpleTimer.stopTimer()	
+DoublesSurface.getYDataAsPrimitive()	The y data as an array of primitives
+NonCentralChiSquaredDistribution.getNonCentrality()	The non centrality parameter
+DoublesCube.size()	The number of x y z points used to construct the cube
+DoubleRangeLimitTransform.inverseTransform(double)	If y 25 this returns b If y 25 returns a
+LUDecompositionCommonsResult.LUDecompositionCommonsResult(LUDecomposition)	
+NodalDoublesSurface.from(Double[],Double[],Double[])	A nodal surface with automatically generated name
+ArraysDoublesCurve.equals(Object)	
+StudentTDistribution.getPDF(Double)	Return the probability density function for a value
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(double[],double[],Interpolator1D,boolean)	
+IntegratorRepeated2D.IntegratorRepeated2D(Integrator1D)	Constructor
+LinearInterpolator1D.getDataBundle(double[],double[])	
+ColtMathWrapper.wrap(DoubleMatrix2D)	A Colt 2D matrix
+KrigingInterpolatorND.equals(Object)	
+FunctionalSurfaceAdditiveShiftFunction.evaluate(FunctionalDoublesSurface,double)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface will be automatically generated
+Curve.Curve(String)	Constructs a curve with the given name
+JTransformsWrapper.transform1DReal(double[])	The forward discrete Fourier transform Note In this definition i appears in the exponential rather than i If h is a array of N real values sampled at intervals of Delta from a function h t then the transform H f int infty infty e 2i pi f t h t dt is sampled at frac N 2 points at intervals of frac 1 N Delta with f frac i N Delta for i 0 to frac N 2 1 As h t is real H f F f so the negative values of f which would be in frac N 2 to N 1 of the return array are suppressed
+Interpolator1DCubicSplineDataBundle.get(Double)	
+QuasiNewtonVectorMinimizer.DataBundle.getG2()	
+NormalDistribution.getMean()	The mean
+NormalDistribution.hashCode()	
+DoublesCurveInterpolatedAnchor.equals(Object)	
+ComplexNumber.hashCode()	
+NavigableMapInterpolator1DDataBundle.getBoundedValues(Double)	
+InterpolatedCurveShiftFunction.evaluate(InterpolatedDoublesCurve,double[],double[],String)	Returns a new curve shifted by amounts y values x The name of the new curve is supplied
+LeastSquaresRegressionResult.getPValues()	
+Interpolator2DDataBundle.hashCode()	
+NodalDoublesCurve.from(List)	A nodal curve with automatically generated name
+RungeKuttaIntegrator1D.RungeKuttaIntegrator1D()	
+DoublesCurveNelsonSiegel.equals(Object)	
+ObjectsCurve.equals(Object)	
+DecompositionResult.solve(double[])	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+InterpolatedFromCurvesSurfaceAdditiveShiftFunction.evaluate(InterpolatedFromCurvesDoublesSurface,double,double,double)	Returns a new surface shifted by an amount z at the point x y The name of the new surface will be automatically generated
+FunctionND.equals(Object)	
+InterpolatedDoublesCube.getInterpolator()	
+DoubleFunction1D.from(Function1D)	Converts a Function1D into a DoubleFunction1D
+LUDecompositionResult.getPivot()	Returns the pivot permutation vector
+NavigableMapInterpolator1DDataBundle.getValues()	
+DoubleRangeLimitTransform.equals(Object)	
+Interpolator1DDataBundle.getLowerBoundIndex(Double)	
+BisectionSingleRootFinder.BisectionSingleRootFinder()	Sets the accuracy to 10 15
+ComplexMathUtils.subtract(ComplexNumber,double)	
+CurveShiftFunction.evaluate(Curve,double)	Returns a new curve shifted by a constant y amount i e a shift parallel to the x axis The name of the new curve will be automatically generated
+ExponentialInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+NodalSurfaceAdditiveShiftFunction.NodalSurfaceAdditiveShiftFunction()	
+JacobianEstimateInitializationFunction.getInitializedMatrix(Function1D,DoubleMatrix1D)	
+QRDecompositionCommons.QRDecompositionCommons()	
+OGMatrixAlgebra.getInverse(Matrix)	Returns the inverse or pseudo inverse of the matrix
+InterpolatedFromSurfacesDoublesCube.fromSorted(SurfacePlane,Map,Interpolator1D)	A cube with an automatically generated name
+CombinedInterpolatorExtrapolator.CombinedInterpolatorExtrapolator(Interpolator1D,Interpolator1D)	
+QuasiNewtonInverseHessianUpdate.update(DataBundle)	
+FunctionalSurfaceMultiplicativeShiftFunction.evaluate(FunctionalDoublesSurface,double[],double[],double[],String)	Returns a new surface shifted by amounts z at points x y The name of the new surface is supplied
+SpreadDoublesCurve.SpreadDoublesCurve(CurveSpreadFunction,String,)	
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,Function1D,Function1D,DoubleMatrix1D)	Use this when the model is given as a function of its parameters only i e a function that takes a set of parameters and return a set of model values so the measurement points are already known to the function and analytic parameter sensitivity is available
+SumToOne.inverseTransform(DoubleMatrix1D)	Inverse transform from the N model parameters to the N 1 fit parameters Used mainly to find the start position of a optimisation routine
+ParameterizedFunction.asFunctionOfParameters(S)	A function that is always evaluated at x for different values of the parameters
+Interpolator1DDataBundle.lastKey()	
+LaplaceDistribution.getCDF(Double)	Returns the cumulative distribution function for a value
+MatrixValidate.MatrixValidate()	
+NullTransform.inverseTransformGradient(double)	The gradient of a null transform is one
+Interpolator1DCubicSplineDataBundle.firstKey()	
+LinearInterpolator1D.LinearInterpolator1D()	
+PSplineFitter.solve(List,List,List,double[],double[],int[],int[],double[],int[])	
+BasisFunctionGenerator.generate(double,double,int,int,int)	
+FunctionalDoublesSurface.size()	Not supported
+GridInterpolator2D.getNodeSensitivitiesForValue(Map,DoublesPair)	
+Function2D.evaluate(S,S)	2 D function method
+D1MACH.one()	Smallest normalised number representable by a double according to IEEE It s about 2 225E 308
+GammaDistribution.nextRandom()	The next random number from this distribution
+DoubleMatrix1D.toString()	
+LaguerrePolynomialFunction.getPolynomialsAndFirstDerivative(int,double)	
+QuasiNewtonVectorMinimizer.DataBundle.getG0()	
+NodalObjectsCurve.from(Map,String)	
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(List,Interpolator2D)	
+ConstantDoublesSurface.getXData()	Not supported
+Interpolator1D.getDataBundle(double[],double[])	
+PopulationVarianceCalculator.evaluate(double[])	Description copied from class Function1D
+InterpolatedFromCurvesDoublesSurface.InterpolatedFromCurvesDoublesSurface(boolean,double[],Curve,Interpolator1D,boolean)	
+SVDecompositionCommonsResult.getU()	Returns the matrix mathbf U of the decomposition
+MathException.MathException()	
+InverseIncompleteBetaFunction.InverseIncompleteBetaFunction(double,double)	
+ConjugateGradientVectorMinimizer.ConjugateGradientVectorMinimizer(ScalarMinimizer,double,double,int)	
+NewtonDefaultUpdateFunction.NewtonDefaultUpdateFunction()	
+OGMatrixAlgebra.multiply(Matrix,Matrix)	Multiplies two matrices
+Cube.getZData()	The z data for this cube
+FunctionalCurveShiftFunction.FunctionalCurveShiftFunction()	
+ExponentialExtrapolator1D.interpolate(Interpolator1DDataBundle,Double)	
+NewtonVectorRootFinder.getRoot(Function1D,Function1D,DoubleMatrix1D)	the vector root of the collection of functions
+GeneralizedExtremeValueDistribution.getMu()	The location parameter
+Interpolator2D.interpolate(Map,DoublesPair)	The value of z
+Diff.values(double[],int)	Finds the t th numerical difference between value at position i 1 and i effectively recurses Diff values t times
+RealPolynomialFunction1D.subtract(double)	Subtracts a constant from the polynomial equivalent to subtracting the value from the constant term of the polynomial The result is also a polynomial
+DoublesCurveInterpolatedAnchor.getYValueParameterSensitivity(Double)	The sensitivity is the sensitivity of the underlying interpolated
+InterpolatorNDDataBundle.getData()	
+NodalObjectsCurve.NodalObjectsCurve(Map,boolean)	
+ComplexMathUtils.conjugate(ComplexNumber)	
+LUDecompositionResult.getDeterminant()	Return the determinant of the matrix
+TrigonometricFunctionUtils.atan(ComplexNumber)	
+Cube.getName()	The name of the cube
+Interpolator1DCubicSplineDataBundle.containsKey(Double)	
+NonLinearLeastSquare.solve(DoubleMatrix1D,Function1D,DoubleMatrix1D)	Use this when the model is given as a function of its parameters only i e a function that takes a set of parameters and return a set of model values so the measurement points are already known to the function and analytic parameter sensitivity is not available
+Interpolator1DQuadraticSplineDataBundle.size()	
+NewtonVectorRootFinder.getRoot(Function1D,DoubleMatrix1D)	The vector root of this function
+DoublesSurface.DoublesSurface(Map,String)	
+SVDecompositionColtResult.getV()	Returns the matrix mathbf V of the decomposition
+Interpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+Interpolator1DDoubleQuadraticDataBundle.Interpolator1DDoubleQuadraticDataBundle(Interpolator1DDataBundle)	
+LeastSquaresRegressionResult.getBetas()	
+MatrixAlgebraFactory.getMatrixAlgebra(String)	Given a name returns an instance of the matrix algebra calculator
+LinearInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+LeastSquareResults.getChiSq()	Gets the Chi square of the fit
+FunctionalDoublesCube.hashCode()	
+MonotonicIncreasingInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+ParallelArrayBinarySort.parallelBinarySort(int[],int[])	Sort the content of keys and apply the same sort to the values
+SVDecompositionColt.SVDecompositionColt()	
+GoldenSectionMinimizer1D.minimize(Function1D,double,double)	
+SurfaceSliceFunction.cut(ConstantDoublesSurface,Axis,Double)	
+CurveShiftFunction.evaluate(Curve,double[],double[])	Returns a new curve shifted by amounts y at values x The name of the new curve will be automatically generated
+GammaDistribution.GammaDistribution(double,double)	
+GeneralizedExtremeValueDistribution.getPDF(Double)	Return the probability density function for a value
+RealPolynomialFunction1D.add(DoubleFunction1D)	Adds a function to the polynomial If the function is not a RealPolynomialFunction1D then the addition takes place as in DoubleFunction1D otherwise the result will also be a polynomial
+InterpolatedFromSurfacesDoublesCube.fromSorted(SurfacePlane,List,List,Interpolator1D,String)	A cube
+QuadraticSplineInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+DecompositionFactory.getDecomposition(String)	Given a name returns an instance of that decomposition method
+LognormalSkewnessFromVolatilityCalculator.LognormalSkewnessFromVolatilityCalculator()	
+LeastSquareResults.equals(Object)	
+MultiquadraticRadialBasisFunction.equals(Object)	
+InterpolatedDoublesCube.InterpolatedDoublesCube(double[],double[],double[],double[],InterpolatorND,String)	
+GaussLegendreQuadratureIntegrator1D.GaussLegendreQuadratureIntegrator1D(int)	
+DoublesSurface.DoublesSurface(Map)	
+Function1D.evaluate()	Implementation of the interface This method only uses the first argument
+SampleMedianAbsoluteDeviationCalculator.SampleMedianAbsoluteDeviationCalculator()	
+StudentTDistribution.nextRandom()	The next random number from this distribution
+NullTransform.transform(double)	Performs the null transform x x A function to transform a constrained model parameter y to an unconstrained fitting parameter y i e y f y
+GaussLegendreQuadratureIntegrator1D.getLimits()	The lower and upper limits for which the quadrature is valid
+ExponentialExtrapolator1D.ExponentialExtrapolator1D()	
+TrigonometricFunctionUtils.sin(ComplexNumber)	
+SurfaceShiftFunction.evaluate(Surface,double,double,double,String)	Returns a new surface shifted by an amount z at the point x y The name of the new surface is supplied
+InterpolatedFromCurvesSurfaceAdditiveShiftFunction.evaluate(InterpolatedFromCurvesDoublesSurface,double,double,double,String)	Returns a new surface shifted by an amount z at the point x y The name of the new surface is supplied
+Interpolator1DDataBundle.higherValue(Double)	
+InterpolatedFromCurvesDoublesSurface.from(boolean,double[],Curve,Interpolator1D,String)	A surface
+NaturalLogGammaFunction.evaluate(Double)	Description copied from class Function1D
+ParameterLimitsTransform.transformGradient(double)	The gradient of the function used to transform from a model parameter that is only allows to take certain values to a fitting parameter that can take any value
+CholeskyDecompositionResult.getDeterminant()	Return the determinant of the matrix
+QuasiNewtonVectorMinimizer.DataBundle.setDeltaGrad(DoubleMatrix1D)	
+DoublesSurface.DoublesSurface(List,List)	
+ColtMatrixAlgebra.getNorm2(Matrix)	For a vector returns L 2 norm also known as the Euclidean norm
+BasisFunctionGenerator.generate(double[][],int[],int[])	
+NodalDoublesCurve.getYValueParameterSensitivity(Double)	Description copied from class DoublesCurve
+Cube.size()	The number of x y z points used to construct the cube
+ComplexMathUtils.sqrt(ComplexNumber)	
+BasisFunctionGenerator.generateSet(double,double,int,int)	Generates a set of b splines with knots a fixed distance apart
+Interpolator1DCubicSplineDataBundle.firstValue()	
+BrentMinimizer1D.BrentMinimizer1D()	
+TrigonometricFunctionUtils.acos(double)	
+ObjectsSurface.ObjectsSurface(T[],U[],V[],String)	
+Interpolator1DQuadraticSplineDataBundle.Interpolator1DQuadraticSplineDataBundle(Interpolator1DDataBundle)	
+InterpolatedDoublesCurve.fromSorted(Double[],Double[],Interpolator1D)	An interpolated curve with automatically generated name
+InterpolatedFromCurvesDoublesSurface.fromSorted(boolean,Double[],Curve,Interpolator1D,String)	A surface
+InterpolatedFromCurvesDoublesSurface.getCurves()	The curves
+InterpolatedFromSurfacesDoublesCube.from(SurfacePlane,Double[],Surface,Interpolator1D)	A cube with an automatically generated name
+InterpolatedDoublesSurface.getInterpolator()	The interpolator
+Differentiator.differentiate(Function1D)	A function that calculates the differential
+FunctionalSurfaceMultiplicativeShiftFunction.evaluate(FunctionalDoublesSurface,double,double,double,String)	Returns a new surface shifted by an amount z at the point x y The name of the new surface is supplied
+ConstantSurfaceMultiplicativeShiftFunction.evaluate(ConstantDoublesSurface,double,double,double)	Returns a new surface shifted by an amount z at the point x y The name of the new surface will be automatically generated
+NullTransform.NullTransform()	
+ConstantSurfaceAdditiveShiftFunction.evaluate(ConstantDoublesSurface,double,double,double,String)	Returns a new surface shifted by an amount z at the point x y The name of the new surface is supplied
+NodalDoublesSurface.NodalDoublesSurface(DoublesPair[],Double[])	
+NodalObjectsCurve.fromSorted(List,List,String)	
+ExtendedTrapezoidIntegrator1D.ExtendedTrapezoidIntegrator1D()	
+JacobiPolynomialFunction.getPolynomials(int,double,double)	
+Cube.Cube(String)	Constructs a cube with the supplied name
+DCSEVL.DCSEVL()	
+MinimumBracketer.MinimumBracketer()	
+FunctionalDoublesCurve.getFunction()	The function
+QuasiNewtonVectorMinimizer.DataBundle.setLambda0(double)	
+InterpolatedDoublesSurface.from(DoublesPair[],Double[],Interpolator2D,String)	An interpolated surface with automatically generated name
+NonLinearLeastSquareWithConstraints.solve(DoubleMatrix1D,DoubleMatrix1D,Function1D,Function1D,DoubleMatrix1D,Function1D)	
+NewtonRaphsonSingleRootFinder.getRoot(DoubleFunction1D,Double,Double)	Uses the DoubleFunction1D derivative method x1 and x2 do not have to be increasing
+GaussLaguerreQuadratureIntegrator1D.getIntegralFunction(Function1D,Double,Double)	Returns a function that is valid for both the type of quadrature and the limits of integration
+UncoupledParameterTransforms.getNumberOfFittingParameters()	The number of fitting parameters equals the number of model parameters minus the number of fixed parameters
+ComplexMathUtils.multiply()	
+ConstantDoublesSurface.size()	The size of the surface 1
+Interpolator1DFactory.getInterpolator(String)	
+FunctionalDoublesCube.getXData()	Not supported
+FlatExtrapolator1D.getDataBundleFromSortedArrays(double[],double[])	
+TrigonometricFunctionUtils.atanh(double)	
+ShepardInterpolatorND.interpolate(InterpolatorNDDataBundle,double[])	
+VectorFieldFirstOrderDifferentiator.VectorFieldFirstOrderDifferentiator(FiniteDifferenceType)	Uses the default value of eps 10 5
+ConfidenceInterval.ConfidenceInterval(double,double,double,double)	
+NodalDoublesCurve.fromSorted(DoublesPair[],String)	A nodal curve with automatically generated name
+InterpolatedFromCurvesDoublesSurface.hashCode()	
+ColtMatrixAlgebra.getPower(Matrix,double)	Returns a matrix raised to a power mathbf A 3 mathbf A mathbf A mathbf A
+GeneralizedParetoDistributionMomentEstimator.evaluate(double[])	Description copied from class Function1D
+GeneralizedLeastSquare.solve(List,List,List,List,double,int)	Generalised least square with penalty on higher order finite differences of weights
+KrigingInterpolatorDataBundle.KrigingInterpolatorDataBundle(List,double)	
+OrdinaryLeastSquaresRegression.regress(double[][],double[],boolean)	
+Interpolator1DCubicSplineDataBundle.equals(Object)	
+SVDecompositionCommonsResult.getS()	Returns the diagonal matrix mathbf Sigma of the decomposition
+DoubleFunction1D.multiply(DoubleFunction1D)	For a DoubleFunction1D g x multiplying by a function f x returns the function h x f x g x
+ChiSquareDistribution.getInverseCDF(Double)	Given a probability return the value that returns this cdf
+BrentSingleRootFinder.BrentSingleRootFinder(double)	
+HermitePolynomialFunction.getPolynomialsAndFirstDerivative(int)	
+ExponentialExtrapolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+SpreadCurveShiftFunction.evaluate(SpreadDoublesCurve,double[],double[],String)	Returns a new curve shifted by amounts y values x The name of the new curve is supplied
+DoublesCube.getYDataAsPrimitive()	Returns the y data points as a primitive array
+InterpolatedDoublesCube.InterpolatedDoublesCube(Double[],Double[],Double[],Double[],InterpolatorND,String)	
+ComplexMathUtils.arg(ComplexNumber)	
+ArrayInterpolator1DDataBundle.equals(Object)	
+StepInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+GaussLegendreQuadratureIntegrator1D.getIntegralFunction(Function1D,Double,Double)	Returns a function that is valid for both the type of quadrature and the limits of integration
+Interpolator1DMonotonicIncreasingDataBundle.getLowerBoundIndex(Double)	
+GoldenSectionMinimizer1D.minimize(Function1D,Double)	The minimum
+LogLinearInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+SVDecompositionColtResult.getConditionNumber()	Returns the condition number of the matrix
+GeneralizedLeastSquare.GeneralizedLeastSquare()	
+LaplaceDistributionMaximumLikelihoodEstimator.LaplaceDistributionMaximumLikelihoodEstimator()	
+InterpolatorNDDataBundle.InterpolatorNDDataBundle(List)	
+SumToOne.jacobian(double[])	The N by N 1 Jacobian matrix between the N model parameters that sum to one and the N 1 fit parameters
+InterpolatedFromSurfacesDoublesCube.hashCode()	
+DavidonFletcherPowellInverseHessianUpdate.DavidonFletcherPowellInverseHessianUpdate()	
+SpreadCurveShiftFunction.SpreadCurveShiftFunction()	
+SemiStandardDeviationCalculator.evaluate(double[])	Description copied from class Function1D
+LeastSquaresRegressionResult.LeastSquaresRegressionResult(LeastSquaresRegressionResult)	
+NavigableMapInterpolator1DDataBundle.getLowerBoundKey(Double)	
+InterpolatedDoublesCurve.from(List,List,Interpolator1D)	An interpolated curve with automatically generated name
+JacobiPolynomialFunction.JacobiPolynomialFunction()	
+ConstantSurfaceAdditiveShiftFunction.evaluate(ConstantDoublesSurface,double[],double[],double[],String)	Returns a new surface shifted by amounts z at points x y The name of the new surface is supplied
+ConstantCurveShiftFunction.ConstantCurveShiftFunction()	
+MedianCalculator.evaluate(double[])	Description copied from class Function1D
+GaussianQuadratureData.GaussianQuadratureData(double[],double[])	
+FunctionalSurfaceAdditiveShiftFunction.evaluate(FunctionalDoublesSurface,double[],double[],double[])	Returns a new surface shifted by amounts z at points x y The name of the new surface will be automatically generated
+SamplePearsonKurtosisCalculator.evaluate(double[])	Description copied from class Function1D
+Interpolator1DDoubleQuadraticDataBundle.firstKey()	
+PSplineFitter.PSplineFitter()	
+NodalSurfaceAdditiveShiftFunction.evaluate(NodalDoublesSurface,double,double,double,String)	Returns a new surface shifted by an amount z at the point x y The name of the new surface is supplied
+InterpolatedSurfaceAdditiveShiftFunction.evaluate(InterpolatedDoublesSurface,double,double,double)	Returns a new surface shifted by an amount z at the point x y The name of the new surface will be automatically generated
+NullTransform.hashCode()	
+Interpolator2DDataBundle.getZData()	
+Interpolator1DDataBundle.get(Double)	
+MultiplyCurveSpreadFunction.getOperationName()	The string representing the spread operation
+SingleRangeLimitTransform.SingleRangeLimitTransform(double,LimitType)	
+QuasiNewtonVectorMinimizer.DataBundle.setG1(double)	
+NonLinearLeastSquare.calInverseJacobian(DoubleMatrix1D,Function1D,Function1D,DoubleMatrix1D)	the inverse Jacobian where the i j entry is the sensitivity of the ith fitted parameter a i to the jth data point y j
+FunctionND.hashCode()	
+Surface.Surface(String)	Constructs a surface with the given name
+InterpolatedFromSurfacesDoublesCube.InterpolatedFromSurfacesDoublesCube(SurfacePlane,Double[],Surface,Interpolator1D,boolean)	
+CommonsMathWrapper.wrap(ComplexNumber)	A Commons complex number
+Interpolator1DFactory.getInterpolatorName(Interpolator1D)	
+GammaDistributionMomentEstimator.evaluate(double[])	Description copied from class Function1D
+DoublesCurve.getYValueParameterSensitivity(Double)	Computes the sensitivity of the Y value with respect to the curve parameters
+ExponentialInterpolator1D.ExponentialInterpolator1D()	
+InterpolatedDoublesCurve.getDataBundle()	
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(DoublesPair[],double[],Interpolator2D)	
+VectorFieldSecondOrderDifferentiator.differentiateNoCross(Function1D)	
+BroydenMatrixUpdateFunction.getUpdatedMatrix(Function1D,DoubleMatrix1D,DoubleMatrix1D,DoubleMatrix1D,DoubleMatrix2D)	
+Interpolator1DCubicSplineDataBundle.lastKey()	
+GoldenSectionMinimizer1D.minimize(Function1D,double,double,double)	The minimum
+FlatExtrapolator1D.getDataBundle(double[],double[])	
+Interpolator1DDoubleQuadraticDataBundle.lastKey()	
+DoubleMatrixUtils.getTwoDimensionalDiagonalMatrix(double[])	Converts a vector into a diagonal matrix
+CommonsMathWrapper.wrapDifferentiable(DoubleFunction1D)	A Commons differentiable univariate real function
+Interpolator1DQuadraticSplineDataBundle.firstValue()	
+DoubleMatrix1D.getData()	Returns the underlying vector data If this is changed so is the vector
+ParabolicMinimumBracketer.ParabolicMinimumBracketer()	
+TridiagonalMatrix.getLowerSubDiagonal()	An array of the values of the lower sub diagonal
+GridInterpolator2D.interpolate(Map,DoublesPair)	The value of z
+KrigingInterpolatorDataBundle.getWeights()	Gets the weights field
+NewtonRaphsonSingleRootFinder.NewtonRaphsonSingleRootFinder()	Default constructor Sets accuracy to 1e 12
+NodalDoublesSurface.NodalDoublesSurface(List)	
+GaussianQuadratureIntegrator1D.integrate(Function1D,Double,Double)	1 D integration method
+GaussianQuadratureIntegrator1D.getLimits()	The lower and upper limits for which the quadrature is valid
+InverseIncompleteGammaFunction.InverseIncompleteGammaFunction()	
+OrthogonalPolynomialFunctionGenerator.OrthogonalPolynomialFunctionGenerator()	
+GeneralizedParetoDistribution.getInverseCDF(Double)	Given a probability return the value that returns this cdf
+PercentileCalculator.evaluate(double[])	Description copied from class Function1D
+QuasiNewtonVectorMinimizer.DataBundle.setG0(double)	
+WinsorizedMeanCalculator.evaluate(double[])	Description copied from class Function1D
+InterquartileRangeCalculator.InterquartileRangeCalculator()	
+Cube.Cube()	Constructs a cube with an automatically generated name
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(DoublesPair[],Double[],Interpolator2D)	
+SurfaceShiftFunctionFactory.getShiftedSurface(Surface,double,boolean)	For a surface Surface return a parallel shifted surface
+FunctionalSurfaceAdditiveShiftFunction.evaluate(FunctionalDoublesSurface,double,String)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface is supplied
+KroneckerDeltaFunction.evaluate(Integer,Integer)	Description copied from class Function2D
+SVDecompositionCommonsResult.getConditionNumber()	Returns the condition number of the matrix
+SVDecompositionCommonsResult.getRank()	Returns the effective numerical matrix rank
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(Double[],Double[],Double[],Interpolator2D)	
+MultiplyCurveSpreadFunction.MultiplyCurveSpreadFunction()	
+MatrixAlgebra.getOuterProduct(Matrix,Matrix)	Returns the outer product
+NodalDoublesCurve.fromSorted(List,List,String)	A nodal curve with automatically generated name
+DoubleFunction1D.divide(DoubleFunction1D)	For a DoubleFunction1D g x dividing by a function f x returns the function h x frac g x f x
+InterpolatedDoublesSurface.from(Map,Interpolator2D,String)	An interpolated surface with automatically generated name
+ComplexNumber.longValue()	
+GridInterpolator2D.getXInterpolator()	
+DoublesSurface.hashCode()	
+JacobianEstimateInitializationFunction.JacobianEstimateInitializationFunction()	
+InterpolatedDoublesSurface.getZValue(Double,Double)	Given an x y point return the z value from this surface
+ObjectsSurface.getYData()	The y data for this surface
+LeastSquareResults.getFittingParameterSensitivityToData()	This a matrix where the i jth element is the infinitesimal sensitivity of the ith fitting parameter to the jth data point NOT the model point when the fitting parameter are such that the chi squared is minimised So it is a type of inverse Jacobian but should not be confused with the model jacobian sensitivity of model data points to parameters or its inverse
+CombinedInterpolatorExtrapolator.getRightExtrapolator()	
+ComplexMathUtils.add(ComplexNumber,double)	
+DoubleMatrix1D.getEntry()	Gets the entry specified by the indices For example for a 3 D matrix the indices matrix must have three elements
+NewtonRaphsonSingleRootFinder.getRoot(Function1D,Function1D,Double)	Uses the function and its derivative This method uses an initial guess for the root rather than bounds
+SpreadDoublesCurve.SpreadDoublesCurve(CurveSpreadFunction,)	
+DoublesCube.DoublesCube(Double[],Double[],Double[],Double[],String)	
+CommonsMathWrapper.wrap(DoubleMatrix2D)	A Commons matrix
+ConjugateGradientVectorMinimizer.ConjugateGradientVectorMinimizer(ScalarMinimizer,double,int)	Constructs the object with equal relative and absolute values of tolerance
+NonLinearParameterTransforms.inverseTransform(DoubleMatrix1D)	Transforms from a set of unconstrained fitting parameters to a possibly larger set of function parameters
+SpreadCurveShiftFunction.evaluate(SpreadDoublesCurve,double,String)	Returns a new curve shifted by a constant y amount i e a shift parallel to the x axis The name of the new curve is supplied
+FunctionUtils.cube(double)	Returns the cube of a number
+InterpolatedDoublesSurface.fromGrid(double[],double[],double[],Interpolator2D)	Creates a surface based on a regular grid
+LUDecompositionCommonsResult.getU()	Returns the mathbf U matrix of the decomposition
+InterpolatedFromCurvesDoublesSurface.from(boolean,Double[],Curve,Interpolator1D,String)	A surface
+ComplexMathUtils.mod(ComplexNumber)	
+SurfaceSliceFunction.SurfaceSliceFunction()	
+LogLinearInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+LeastSquareResults.getFitParameters()	Gets the value of the fitting parameters when the chi squared is minimised
+ScalarFirstOrderDifferentiator.differentiate(Function1D)	A function that calculates the differential
+DoublesSurface.getZData()	The z data for this surface
+FunctionUtils.square(double)	Returns the square of a number
+InterpolatedDoublesCube.from(List,List,List,List,InterpolatorND)	An interpolated cube with automatically generated name
+TimeSquareInterpolator1D.getDataBundle(double[],double[])	
+CholeskyDecompositionCommonsResult.CholeskyDecompositionCommonsResult(CholeskyDecomposition)	Constructor
+SVDecompositionResult.getNorm()	Returns the L 2 norm of the matrix
+Surface.getXData()	The x data for this surface
+CombinedInterpolatorExtrapolator.getDataBundle(double[],double[])	
+QRDecompositionCommonsResult.solve(DoubleMatrix2D)	Solves mathbf A x mathbf B where mathbf A is a decomposed matrix and mathbf B is a matrix
+InterpolatedFromCurvesDoublesSurface.InterpolatedFromCurvesDoublesSurface(boolean,List,List,Interpolator1D,boolean,String)	
+Interpolator1DDoubleQuadraticDataBundle.firstValue()	
+TrigonometricFunctionUtils.TrigonometricFunctionUtils()	
+Interpolator1DQuadraticSplineDataBundle.containsKey(Double)	
+NodalObjectsSurface.getZValue(T,U)	Given an x y point return the z value from this surface
+InterpolatedFromSurfacesDoublesCube.InterpolatedFromSurfacesDoublesCube(SurfacePlane,List,List,Interpolator1D,boolean,String)	
+VectorRootFinder.getRoot(Function1D,)	Vector root finders only need a single starting point if more than one is provided the first is used and any other points ignored
+PolynomialInterpolator1D.hashCode()	
+NodalDoublesSurface.from(List,List,List,String)	A nodal surface with automatically generated name
+SVDecompositionCommonsResult.solve(double[])	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+InterpolatedSurfaceMultiplicativeShiftFunction.evaluate(InterpolatedDoublesSurface,double[],double[],double[],String)	Returns a new surface shifted by amounts z at points x y The name of the new surface is supplied
+ProbabilityDistribution.getInverseCDF(T)	Given a probability return the value that returns this cdf
+BasisFunctionGenerator.BasisFunctionGenerator()	
+NonLinearTransformFunction.getFittingJacobian()	
+MatrixAlgebra.getDeterminant(Matrix)	Returns the determinant of the matrix
+NelderMeadDownhillSimplexMinimizer.NelderMeadDownhillSimplexMinimizer()	
+KrigingInterpolatorDataBundle.getVariogram()	Gets the variogram field
+GeneralizedExtremeValueDistribution.getSigma()	The scale parameter
+OGMatrixAlgebra.getPower(Matrix,double)	Returns a matrix raised to a power mathbf A 3 mathbf A mathbf A mathbf A
+GaussHermiteWeightAndAbscissaFunction.generate(int)	An object containing the weights and abscissas
+MatrixAlgebra.getTrace(Matrix)	Returns the trace i e sum of diagonal elements of a matrix
+SpreadDoublesCurve.from(CurveSpreadFunction,String,)	Takes an array of curves that are to be operated on by the spread function
+ConstantCurveShiftFunction.evaluate(ConstantDoublesCurve,double[],double[],String)	Returns a new curve shifted by amounts y values x The name of the new curve is supplied
+BrentSingleRootFinder.BrentSingleRootFinder()	Sets the accuracy to 10 15
+InterpolatedSurfaceMultiplicativeShiftFunction.evaluate(InterpolatedDoublesSurface,double)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface will be automatically generated
+Interpolator1DMonotonicIncreasingDataBundle.higherValue(Double)	
+LaplaceDistribution.getB()	The scale parameter
+NavigableMapInterpolator1DDataBundle.get(Double)	
+MultiquadraticRadialBasisFunction.MultiquadraticRadialBasisFunction()	
+NonLinearLeastSquareWithPenalty.solve(DoubleMatrix1D,DoubleMatrix1D,Function1D,Function1D,DoubleMatrix1D,DoubleMatrix2D)	Use this when the model is given as a function of its parameters only i e a function that takes a set of parameters and return a set of model values so the measurement points are already known to the function and analytic parameter sensitivity is available
+InterpolatedFromSurfacesDoublesCube.getInterpolator()	The interpolator
+RealSingleRootFinder.RealSingleRootFinder()	
+TrigonometricFunctionUtils.tanh(double)	
+InterpolatedSurfaceMultiplicativeShiftFunction.InterpolatedSurfaceMultiplicativeShiftFunction()	
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(List,List,Interpolator2D)	
+ComplexNumber.floatValue()	
+GaussLaguerreQuadratureIntegrator1D.GaussLaguerreQuadratureIntegrator1D(int,double)	
+DoublesCube.getValues()	The values of this cube
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,double,ParameterizedFunction,DoubleMatrix1D)	Use this when the model is in the ParameterizedFunction form and analytic parameter sensitivity is not available but a measurement error is
+DoubleMatrix2D.toArray()	Convert the matrix to an array of double arrays
+CombinedInterpolatorExtrapolatorFactory.getInterpolator(String)	
+UncoupledParameterTransforms.inverseJacobian(DoubleMatrix1D)	Calculated the Jacobian of the transform from fitting parameters to function parameters the i j element will be the partial derivative of i th function parameter with respect to the j th fitting parameter
+NodalDoublesCurve.NodalDoublesCurve(Set,boolean)	
+MathException.MathException(String)	
+FunctionalSurfaceMultiplicativeShiftFunction.evaluate(FunctionalDoublesSurface,double[],double[],double[])	Returns a new surface shifted by amounts z at points x y The name of the new surface will be automatically generated
+ArraysDoublesCurve.ArraysDoublesCurve(List,boolean)	
+CurveShiftFunction.evaluate(Curve,double[],double[],String)	Returns a new curve shifted by amounts y values x The name of the new curve is supplied
+ChiSquareDistribution.getDegreesOfFreedom()	The number of degrees of freedom
+InterpolatedDoublesCurve.from(Set,Interpolator1D,String)	An interpolated curve with automatically generated name
+CommonsMatrixAlgebra.getInverse(Matrix)	Returns the inverse or pseudo inverse of the matrix
+RandomNumberGenerator.getVector(int)	
+DoubleMatrix2D.DoubleMatrix2D(int,int)	Sets up an empty matrix
+InterpolatorNDDataBundle.equals(Object)	
+InterpolatedDoublesCurve.from(List,List,Interpolator1D,String)	An interpolated curve with automatically generated name
+CommonsMatrixAlgebra.multiply(Matrix,Matrix)	Multiplies two matrices
+ProbabilityDistribution.nextRandom()	The next random number from this distribution
+Interpolator1DDataBundle.size()	
+PrimeNumbers.getPreviousPrime(double)	
+TrigonometricFunctionUtils.tan(double)	
+InterpolatedSurfaceAdditiveShiftFunction.evaluate(InterpolatedDoublesSurface,double[],double[],double[],String)	Returns a new surface shifted by amounts z at points x y The name of the new surface is supplied
+LeastSquareResults.getCovariance()	Gets the estimated covariance matrix of the standard errors in the fitting parameters Note only in the case of normally distributed errors does this have any meaning full mathematical interpretation See NR third edition p812 816
+InterpolatedFromCurvesDoublesSurface.from(boolean,Map,Interpolator1D,String)	A surface
+QRDecompositionCommonsResult.solve(double[])	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+InterpolatedFromSurfacesDoublesCube.InterpolatedFromSurfacesDoublesCube(SurfacePlane,Map,Interpolator1D,boolean)	
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(double[],double[],double[],Interpolator2D,String)	
+Diff.values(long[],int)	Finds the t th numerical difference between value at position i 1 and i effectively recurses Diff values t times
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(Set,Interpolator1D,boolean,String)	
+SampleVarianceCalculator.SampleVarianceCalculator()	
+GaussLaguerreQuadratureIntegrator1D.getLimits()	The lower and upper limits for which the quadrature is valid
+TimeSquareInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+SpreadDoublesCurve.getLongName()	Returns a string that represents the mathematical form of this curve For example D A B C
+ArrayInterpolator1DDataBundle.ArrayInterpolator1DDataBundle(double[],double[],boolean)	
+InterpolatedDoublesCurve.from(List,Interpolator1D,String)	An interpolated curve with automatically generated name
+InterpolatedDoublesSurface.from(List,List,List,Interpolator2D)	An interpolated surface with automatically generated name
+GridInterpolator2D.getDataBundle(Map)	
+NonLinearLeastSquareWithConstraints.NonLinearLeastSquareWithConstraints()	
+ExponentialInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+FunctionalCurveShiftFunction.evaluate(FunctionalDoublesCurve,double)	Returns a new curve shifted by a constant y amount i e a shift parallel to the x axis The name of the new curve will be automatically generated
+CurveShiftFunctionFactory.getShiftedCurve(Curve,double,double,String)	For a curve Curve return a curve shifted at one point
+FunctionalDoublesCube.getValue(Double,Double,Double)	Description copied from class Cube
+QuadraticSplineInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+SampleFisherKurtosisCalculator.evaluate(double[])	Description copied from class Function1D
+ObjectsSurface.size()	The number of data points used to construct this surface
+ConfidenceInterval.hashCode()	
+ConfidenceInterval.isWithinInterval(double)	
+DERFC.getErfc(double)	Gets the complimentary error function at position x
+GaussJacobiWeightAndAbscissaFunction.GaussJacobiWeightAndAbscissaFunction()	Sets alpha 0 and beta 0
+LognormalPearsonKurtosisFromVolatilityCalculator.LognormalPearsonKurtosisFromVolatilityCalculator()	
+DoublesCurveNelsonSiegel.getYValue(Double)	Description copied from class Curve
+MatrixAlgebra.getNorm1(Matrix)	For a vector returns the L 1 norm also known as the Taxicab norm or Manhattan norm i e Sigma x i For a matrix returns the maximum absolute column sum norm of the matrix
+JacobianDirectionFunction.getDirection(DoubleMatrix2D,DoubleMatrix1D)	
+FlatExtrapolator1D.interpolate(Interpolator1DDataBundle,Double)	
+PartialMomentCalculator.PartialMomentCalculator()	Creates calculator with default values threshold 0 and useDownSide true
+Function1D.evaluate(S)	1 D function method
+InterpolatedCurveShiftFunction.evaluate(InterpolatedDoublesCurve,double)	Returns a new curve shifted by a constant y amount i e a shift parallel to the x axis The name of the new curve will be automatically generated
+ParameterLimitsTransform.inverseTransform(double)	A function to transform an unconstrained fitting parameter y to a constrained model parameter y i e y f 1 y
+ObjectsSurface.getXData()	The x data for this surface
+ComplexMathUtils.subtract(double,ComplexNumber)	
+VectorRootFinder.VectorRootFinder()	
+KrigingInterpolatorND.getDataBundle(double[],double[],double[],double[])	
+FunctionalDoublesSurface.FunctionalDoublesSurface(Function,String)	
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(Set,Interpolator1D,boolean)	
+NodalDoublesSurface.NodalDoublesSurface(List,String)	
+DoubleMatrix2D.DoubleMatrix2D(Double[][])	
+LinearExtrapolator1D.LinearExtrapolator1D(Interpolator1D)	
+LaplaceDistribution.nextRandom()	The next random number from this distribution
+TrigonometricFunctionUtils.acosh(ComplexNumber)	
+PolynomialInterpolator1D.PolynomialInterpolator1D(int,int)	
+ParallelArrayBinarySort.parallelBinarySort(double[],int[])	Sort the content of keys and apply the same sort to the values
+UncoupledParameterTransforms.transform(DoubleMatrix1D)	Transforms from a set of function parameters some of which may have constrained range and or be fixed to a possibly smaller set of unconstrained fitting parameters Note If a parameter is fixed it is its value as provided by startValues not the value given here that will be returned by inverseTransform and thus used in the function
+NaturalCubicSplineInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+QuadraticSplineInterpolator1D.getDataBundle(double[],double[])	
+DoubleMatrix2D.hashCode()	
+NodalDoublesCurve.from(Map)	A nodal curve with automatically generated name
+DavidonFletcherPowellInverseHessianUpdate.update(DataBundle)	
+ObjectsCurve.ObjectsCurve(Set,boolean,String)	
+Interpolator1DDataBundle.getKeys()	
+NavigableMapInterpolator1DDataBundle.size()	
+TridiagonalMatrix.hashCode()	
+NonLinearLeastSquareWithPenalty.NonLinearLeastSquareWithPenalty()	
+MatrixAlgebra.getInverse(Matrix)	Returns the inverse or pseudo inverse of the matrix
+SurfaceShiftFunction.evaluate(Surface,double,String)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface is supplied
+DoubleRangeLimitTransform.transform(double)	A function to transform a constrained model parameter y to an unconstrained fitting parameter y i e y f y
+Interpolator1DMonotonicIncreasingDataBundle.get(Double)	
+QRDecompositionResult.getR()	Returns the matrix mathbf R of the decomposition
+NodalDoublesSurface.from(DoublesPair[],double[],String)	A nodal surface with automatically generated name
+NaturalCubicSplineInterpolator1D.NaturalCubicSplineInterpolator1D()	
+NodalDoublesSurface.NodalDoublesSurface(DoublesPair[],double[])	
+RealSingleRootFinder.getRoot(Function1D,)	A root lying between x1 and x2
+VectorFieldFirstOrderDifferentiator.VectorFieldFirstOrderDifferentiator()	Uses the default values of differencing type central and eps 1e 5
+GeneralizedLeastSquaresRegression.regress(double[][],double[][],double[],boolean)	
+RadialBasisFunctionInterpolatorND.interpolate(InterpolatorNDDataBundle,double[])	
+RadialBasisFunction.RadialBasisFunction()	
+NodalDoublesCurve.NodalDoublesCurve(Double[],Double[],boolean)	
+FunctionalCurveShiftFunction.evaluate(FunctionalDoublesCurve,double,double)	Returns a new curve shifted by an amount y at value x The name of the new curve will be automatically generated
+ParameterLimitsTransform.inverseTransformGradient(double)	The gradient of the function used to transform from a fitting parameter that can take any value to a model parameter that is only allows to take certain values
+GaussianQuadratureIntegrator1D.GaussianQuadratureIntegrator1D(int,QuadratureWeightAndAbscissaFunction)	
+IncompleteBetaFunction.IncompleteBetaFunction(double,double)	Uses the default values for the accuracy 10 12 and number of iterations 10000
+LaplaceDistribution.equals(Object)	
+GammaDistribution.getCDF(Double)	Returns the cumulative distribution function for a value
+Curve.getYData()	The y data for this curve
+FunctionalDoublesSurface.getYData()	Not supported
+NonCentralChiSquaredDistribution.NonCentralChiSquaredDistribution(double,double)	
+QRDecompositionResult.getH()	Returns the Householder reflector vectors
+FunctionalDoublesCube.getValues()	Not supported
+BarycentricRationalFunctionInterpolator1D.equals(Object)	
+ConfidenceInterval.equals(Object)	
+NonLinearParameterTransforms.getNumberOfModelParameters()	
+NaturalCubicSplineInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+LeastSquareResultsWithTransform.LeastSquareResultsWithTransform(LeastSquareResults,NonLinearParameterTransforms)	
+TrimmedMeanCalculator.evaluate(double[])	Description copied from class Function1D
+DiracDeltaFunction.DiracDeltaFunction()	
+Interpolator1DMonotonicIncreasingDataBundle.setYValueAtIndex(int,double)	
+CommonsMathWrapper.unwrap(RealVector)	An OG 1 D matrix of doubles
+DoubleMatrixUtils.getTranspose(DoubleMatrix2D)	The transpose of a matrix mathbf A with elements A ij is A ji
+GammaDistribution.getInverseCDF(Double)	Given a probability return the value that returns this cdf
+RealPolynomialFunction1D.RealPolynomialFunction1D()	The array of coefficients for a polynomial p x a 0 a 1 x a 2 x 2 a n 1 x n 1 is a 0 a 1 a 2 a n 1
+ArraysDoublesCurve.getYDataAsPrimitive()	Returns the y data points as a primitive array
+ConstantSurfaceMultiplicativeShiftFunction.evaluate(ConstantDoublesSurface,double)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface will be automatically generated
+Interpolator1DMonotonicIncreasingDataBundle.Interpolator1DMonotonicIncreasingDataBundle(Interpolator1DDataBundle)	
+GridInterpolator2D.GridInterpolator2D(Interpolator1D,Interpolator1D)	
+NodalObjectsCurve.fromSorted(java.lang.Comparable[],U[])	
+FunctionalDoublesCurve.from(Function)	A functional curve with an automatically generated name
+Diff.values(float[])	Finds the numerical difference between value at position i 1 and i returning a vector of what would be needed to be added to the first n 1 elements of the original vector to get the original vector
+CommonsMatrixAlgebra.getCondition(Matrix)	Returns the condition number of the matrix
+QuartileSkewnessCalculator.QuartileSkewnessCalculator()	
+OGMatrixAlgebra.getCondition(Matrix)	Returns the condition number of the matrix
+ChiSquareDistributionMomentEstimator.ChiSquareDistributionMomentEstimator()	
+NormalDistribution.getInverseCDF(Double)	Given a probability return the value that returns this cdf
+InterpolatedFromSurfacesDoublesCube.equals(Object)	
+NewtonDefaultVectorRootFinder.NewtonDefaultVectorRootFinder(double,double,int,Decomposition)	
+InterpolatedDoublesSurface.getInterpolatorData()	
+QuasiNewtonVectorMinimizer.QuasiNewtonVectorMinimizer()	
+GaussHermiteQuadratureIntegrator1D.getIntegralFunction(Function1D,Double,Double)	Returns a function that is valid for both the type of quadrature and the limits of integration
+SVDecompositionCommonsResult.getVT()	Returns the transpose of the matrix mathbf V of the decomposition
+NullTransform.equals(Object)	
+GaussLaguerreQuadratureIntegrator1D.GaussLaguerreQuadratureIntegrator1D(int)	
+CholeskyDecompositionOpenGamma.evaluate(DoubleMatrix2D)	1 D function method
+BivariateNormalDistribution.getCDF(double[])	Description copied from interface ProbabilityDistribution
+ObjectsCurve.ObjectsCurve(java.lang.Comparable[],U[],boolean)	
+RungeKuttaIntegrator1D.integrate(Function1D,Double,Double)	Description copied from class Integrator1D
+ArraysDoublesCurve.ArraysDoublesCurve(Double[],Double[],boolean,String)	
+DoublesCurveNelsonSiegel.size()	The number of data points used to construct this curve
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(List,List,Interpolator1D,boolean)	
+NodalDoublesCurve.getYValue(Double)	Given an x value return the y value from this curve
+ComplexMathUtils.add(double,ComplexNumber)	
+BracketRoot.BracketRoot()	
+NamedVariableLeastSquaresRegressionResult.getPredictedValue(Map)	
+Interpolator1DDataBundle.containsKey(Double)	
+ConjugateDirectionVectorMinimizer.minimize(Function1D,DoubleMatrix1D)	The minimum
+CommonsMathWrapper.unwrap(RealPointValuePair)	A matrix of double with the x as the first element and f x the second
+ColtMatrixAlgebra.getInnerProduct(Matrix,Matrix)	Returns the inner or dot product
+CholeskyDecompositionCommonsResult.solve(double[])	Solves mathbf A x b where mathbf A is a decomposed matrix and b is a vector
+TrimmedMeanCalculator.TrimmedMeanCalculator(double)	
+OGMatrixAlgebra.getTrace(Matrix)	Returns the trace i e sum of diagonal elements of a matrix
+NewtonRaphsonSingleRootFinder.getRoot(Function1D,Double)	
+ArrayInterpolator1DDataBundle.getBoundedValues(Double)	
+TimeSquareInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(Double[],Double[],Interpolator1D,boolean,String)	
+QRDecompositionCommons.evaluate(DoubleMatrix2D)	1 D function method
+StepInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+GeneralizedParetoDistributionMomentEstimator.GeneralizedParetoDistributionMomentEstimator()	
+FunctionalDoublesCurve.FunctionalDoublesCurve(Function)	
+NamedVariableLeastSquaresRegressionResult.getIndependentVariableNames()	the independentVariableNames
+DoublesCurveNelsonSiegel.getYValueParameterSensitivity(Double)	Description copied from class DoublesCurve
+ColtMatrixAlgebra.multiply(Matrix,Matrix)	Multiplies two matrices
+StudentTDistributionMaximumLikelihoodEstimator.StudentTDistributionMaximumLikelihoodEstimator()	
+NodalDoublesCurve.fromSorted(List)	A nodal curve with automatically generated name
+MatrixAlgebra.multiply(Matrix,Matrix)	Multiplies two matrices
+Interpolator1DDataBundle.getLowerBoundKey(Double)	
+SumToOne.inverseTransform(double[])	Inverse transform from the N model parameters to the N 1 fit parameters Used mainly to find the start position of a optimisation routine
+SurfaceShiftFunctionFactory.getShiftedSurface(Surface,double,double,double,boolean)	For a surface Surface return a surface shifted at one point
+ComplexMathUtils.pow(double,ComplexNumber)	
+InterpolationBoundedValues.InterpolationBoundedValues(int,Double,Double,Double,Double)	
+PopulationVarianceCalculator.PopulationVarianceCalculator()	
+Diff.values(int[],int)	Finds the t th numerical difference between value at position i 1 and i effectively recurses Diff values t times
+FunctionalSurfaceMultiplicativeShiftFunction.evaluate(FunctionalDoublesSurface,double)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface will be automatically generated
+CurveShiftFunctionFactory.getShiftedCurve(Curve,double)	For a curve Curve return a parallel shifted curve
+ScalarFirstOrderDifferentiator.differentiate(Function1D,Function1D)	A function that calculates the differential
+TrigonometricFunctionUtils.tan(ComplexNumber)	
+DistanceCalculator.DistanceCalculator()	
+Interpolator1DCubicSplineDataBundle.size()	
+NodalDoublesSurface.from(Double[],Double[],Double[],String)	A nodal surface with automatically generated name
+FunctionalCurveShiftFunction.evaluate(FunctionalDoublesCurve,double[],double[])	Returns a new curve shifted by amounts y at values x The name of the new curve will be automatically generated
+MultiDirectionalSimplexMinimizer.minimize(Function1D,DoubleMatrix1D)	The minimum
+InverseIncompleteBetaFunction.evaluate(Double)	Description copied from class Function1D
+CommonsMatrixAlgebra.getNorm1(Matrix)	For a vector returns the L 1 norm also known as the Taxicab norm or Manhattan norm i e Sigma x i For a matrix returns the maximum absolute column sum norm of the matrix
+PolynomialInterpolator1D.getDataBundle(double[],double[])	
+RadialBasisFunctionInterpolatorND.hashCode()	
+RealSingleRootFinder.getRoot(Function1D,Double,Double)	
+ObjectsCurve.ObjectsCurve(List,List,boolean,String)	
+StepInterpolator1D.StepInterpolator1D()	
+BroydenFletcherGoldfarbShannoInverseHessianUpdate.update(DataBundle)	
+LaguerrePolynomialRealRootFinder.getRoots(RealPolynomialFunction1D)	The roots of the function
+InterpolatedFromSurfacesDoublesCube.getYData()	Not supported
+Interpolator1DDataBundleBuilderFunction.evaluate(DoubleMatrix1D)	Description copied from class Function1D
+ArrayInterpolator1DDataBundle.hashCode()	
+NodalObjectsCurve.fromSorted(java.lang.Comparable[],U[],String)	
+Interpolator1DQuadraticSplineDataBundle.firstKey()	
+ChiSquareDistribution.getPDF(Double)	Return the probability density function for a value
+ShermanMorrisonVectorRootFinder.ShermanMorrisonVectorRootFinder(double,double,int,Decomposition,MatrixAlgebra)	
+FunctionalDoublesSurface.getFunction()	The function that defines the surface
+NavigableMapInterpolator1DDataBundle.higherKey(Double)	
+RealPolynomialFunction1D.divide(double)	Divides the polynomial by a constant value equivalent to dividing each coefficient by this value The result is also a polynomial
+Interpolator1DMonotonicIncreasingDataBundle.getLowerBoundKey(Double)	
+SurfaceSliceFunction.cut(Surface,Axis,Double,Interpolator1D)	
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(Map,Interpolator1D,boolean)	
+CombinedInterpolatorExtrapolator.toString()	
+ArrayInterpolator1DDataBundle.higherKey(Double)	
+SVDecompositionCommons.evaluate(DoubleMatrix2D)	1 D function method
+InterpolationBoundedValues.getLowerBoundKey()	the lowerBoundKey
+DoubleRampFunction.evaluate(Double)	Description copied from class Function1D
+ConstantCurveShiftFunction.evaluate(ConstantDoublesCurve,double,String)	Returns a new curve shifted by a constant y amount i e a shift parallel to the x axis The name of the new curve is supplied
+GeneralizedParetoDistribution.getPDF(Double)	Return the probability density function for a value
+NodalSurfaceAdditiveShiftFunction.evaluate(NodalDoublesSurface,double[],double[],double[])	Returns a new surface shifted by amounts z at points x y The name of the new surface will be automatically generated
+LaplaceDistributionMaximumLikelihoodEstimator.evaluate(double[])	Description copied from class Function1D
+DoubleMatrix2D.getNumberOfColumns()	The number of columns in this matrix
+InterpolatedFromCurvesDoublesSurface.fromSorted(boolean,List,List,Interpolator1D)	A surface with an automatically generated name
+NamedVariableLeastSquaresRegressionResult.hashCode()	
+MonotonicIncreasingInterpolator1D.getDataBundle(double[],double[])	
+ArrayInterpolator1DDataBundle.getKeys()	
+MatrixAlgebraFactory.getMatrixAlgebraName(MatrixAlgebra)	Given a matrix algebra calculator returns its name
+ComplexNumber.toString()	
+PSplineFitter.solve(List,List,List,double,double,int,int,double,int)	Fits a curve to x y data
+NodalObjectsCurve.getYValue(java.lang.Comparable)	Description copied from class Curve
+InterpolatedFromSurfacesDoublesCube.from(SurfacePlane,double[],Surface,Interpolator1D,String)	A cube
+InterpolatedFromCurvesDoublesSurface.InterpolatedFromCurvesDoublesSurface(boolean,Double[],Curve,Interpolator1D,boolean)	
+InterpolatedFromCurvesDoublesSurface.getYData()	Not supported
+ConfidenceInterval.getUpperInterval()	
+LaguerrePolynomialRealRootFinder.LaguerrePolynomialRealRootFinder()	
+RealFunctionIntegrator1DFactory.getIntegratorName(Integrator1D)	Given an integrator returns its name
+D1MACH.two()	Largest normalised number representable by a double according to IEEE It s about 1 7975E 308
+InterpolatedDoublesSurface.from(DoublesPair[],double[],Interpolator2D,String)	An interpolated surface with automatically generated name
+ConstantDoublesCurve.ConstantDoublesCurve(double)	
+TransformedInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	The node values must be in the transformed space
+BasisFunctionAggregation.BasisFunctionAggregation(List,double[])	
+PolynomialInterpolator1D.PolynomialInterpolator1D(int)	
+DoublesSurface.DoublesSurface(double[],double[],double[])	
+RungeKuttaIntegrator1D.RungeKuttaIntegrator1D(double,double)	
+LaplaceDistribution.hashCode()	
+NodalDoublesSurface.NodalDoublesSurface(List,List)	
+Interpolator1DDoubleQuadraticDataBundle.containsKey(Double)	
+GeneralizedParetoDistribution.hashCode()	
+Curve.equals(Object)	
+ConstantDoublesCurve.getYData()	An array containing one element the level
+BasisFunctionAggregation.evaluate(T)	Description copied from class Function1D
+NodalDoublesSurface.NodalDoublesSurface(Double[],Double[],Double[],String)	
+Cube.getXData()	The x data for this cube
+InterpolatedDoublesSurface.getZValue()	Given an x y point return the z value from this surface
+InterpolatedFromSurfacesDoublesCube.getSurfaces()	The surfaces
+ArraysDoublesCurve.ArraysDoublesCurve(Set,boolean,String)	
+TrigonometricFunctionUtils.acosh(double)	
+OrthonormalHermitePolynomialFunction.getPolynomials(int)	
+LUDecompositionCommons.evaluate(DoubleMatrix2D)	1 D function method
+DivideCurveSpreadFunction.getOperationName()	The string representing the spread operation
+LeastSquareResults.LeastSquareResults(double,DoubleMatrix1D,DoubleMatrix2D)	
+Interpolator1DCubicSplineDataBundle.higherValue(Double)	
+CombinedInterpolatorExtrapolator.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+GridInterpolator2D.GridInterpolator2D(Interpolator1D,Interpolator1D,Interpolator1D,Interpolator1D)	
+InterpolatedDoublesCube.equals(Object)	
+NaturalLogGammaFunction.NaturalLogGammaFunction()	
+MatrixAlgebra.getPower(Matrix,int)	Returns a matrix raised to an integer power e g mathbf A 3 mathbf A mathbf A mathbf A
+NonCentralChiSquaredDistribution.getInverseCDF(Double)	Given a probability return the value that returns this cdf
+WeightedLeastSquaresRegression.regress(double[][],double[][],double[],boolean)	
+QRDecompositionResult.getQ()	Returns the matrix mathbf Q of the decomposition
+FunctionUtils.fromTensorIndex(int,int[])	
+GeneralizedParetoDistribution.getKsi()	The shape parameter
+TrigonometricFunctionUtils.asinh(ComplexNumber)	
+DivideCurveSpreadFunction.evaluate(Curve)	A function that will find the value of each curve at the given input x and divide each in turn
+SurfaceShiftFunction.evaluate(Surface,double)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface will be automatically generated
+VectorFieldFirstOrderDifferentiator.differentiate(Function1D,Function1D)	A function that calculates the differential
+QRDecompositionCommonsResult.getQT()	Returns the transpose of the matrix mathbf Q of the decomposition
+LeastSquaresRegression.LeastSquaresRegression()	
+LineSearch.LineSearch(ScalarMinimizer)	
+StatisticsCalculatorFactory.getCalculator(String)	The calculator
+CommonsMathWrapper.unwrap(PolynomialFunctionLagrangeForm)	An OG 1 D function mapping doubles to doubles
+InterpolatedDoublesSurface.from(Double[],Double[],Double[],Interpolator2D)	An interpolated surface with automatically generated name
+NodalDoublesSurface.NodalDoublesSurface(double[],double[],double[],String)	
+NodalDoublesSurface.NodalDoublesSurface(List,List,List,String)	
+ColtMatrixAlgebra.ColtMatrixAlgebra()	
+InverseTridiagonalMatrixCalculator.evaluate(TridiagonalMatrix)	1 D function method
+NodalDoublesCurve.NodalDoublesCurve(List,List,boolean,String)	
+NonLinearTransformFunction.NonLinearTransformFunction(Function1D,Function1D,NonLinearParameterTransforms)	
+NodalDoublesCurve.from(List,List,String)	A nodal curve with automatically generated name
+GeneralizedExtremeValueDistribution.nextRandom()	Not supported
+NodalDoublesCurve.fromSorted(Double[],Double[],String)	A nodal curve with automatically generated name
+CommonsMathWrapper.wrap(DoubleMatrix1D)	A Commons vector
+NonCentralChiSquaredDistribution.nextRandom()	Not supported
+ArraysDoublesCurve.size()	The number of data points used to construct this curve
+WeightedLeastSquaresRegressionResult.WeightedLeastSquaresRegressionResult(LeastSquaresRegressionResult)	
+SubtractCurveSpreadFunction.SubtractCurveSpreadFunction()	
+LUDecompositionCommons.LUDecompositionCommons()	
+ArrayInterpolator1DDataBundle.get(Double)	
+ArrayInterpolator1DDataBundle.firstKey()	
+TridiagonalMatrix.TridiagonalMatrix(double[],double[],double[])	
+CurveShiftFunctionFactory.getShiftedCurve(Curve,double[],double[])	For a curve Curve return a parallel shifted curve
+InterpolationBoundedValues.getLowerBoundIndex()	
+LogLinearInterpolator1D.LogLinearInterpolator1D()	
+OrthogonalPolynomialFunctionGenerator.getPolynomials(int)	
+DoublesCube.hashCode()	
+GammaDistribution.GammaDistribution(double,double,RandomEngine)	
+SurfaceShiftFunctionFactory.getShiftedSurface(Surface,double,double,double,String,boolean)	For a surface Surface return a surface shifted at one point
+NodalDoublesCurve.fromSorted(double[],double[])	A nodal curve with automatically generated name
+ExtendedTrapezoidIntegrator1D.integrate(Function1D,Double,Double)	Trapezoid integration method Note that the Commons implementation fails if the lower bound is larger than the upper in this case the bounds are reversed and the result negated 1 D integration method
+ShermanMorrisonVectorRootFinder.ShermanMorrisonVectorRootFinder()	
+StudentTOneTailedCriticalValueCalculator.StudentTOneTailedCriticalValueCalculator(double,RandomEngine)	
+ArraysDoublesCurve.getYData()	The y data for this curve
+MatrixAlgebra.getNormInfinity(Matrix)	For a vector returns the L infty norm
+NodalSurfaceAdditiveShiftFunction.evaluate(NodalDoublesSurface,double,String)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface is supplied
+ConstantDoublesSurface.getZValue(Double,Double)	Given an x y point return the z value from this surface
+ExponentialExtrapolator1D.getDataBundleFromSortedArrays(double[],double[])	
+INITDS.INITDS()	
+GammaDistribution.getPDF(Double)	Return the probability density function for a value
+GammaDistribution.getK()	The shape parameter
+InterpolatedDoublesCurve.fromSorted(double[],double[],Interpolator1D,String)	An interpolated curve with automatically generated name
+Matrix.getNumberOfElements()	The number of elements in this matrix
+InterpolatedDoublesCurve.from(Double[],Double[],Interpolator1D,String)	An interpolated curve with automatically generated name
+ArraysDoublesCurve.ArraysDoublesCurve(double[],double[],boolean)	
+D1MACH.five()	Log10 Machine radix
+InterpolatedDoublesCurve.from(Map,Interpolator1D,String)	An interpolated curve with automatically generated name
+ColtMatrixAlgebra.getNorm1(Matrix)	For a vector returns the L 1 norm also known as the Taxicab norm or Manhattan norm i e Sigma x i For a matrix returns the maximum absolute column sum norm of the matrix
+NodalDoublesCurve.NodalDoublesCurve(double[],double[],boolean)	
+LognormalPearsonKurtosisFromVolatilityCalculator.evaluate(Double,Double)	Description copied from class Function2D
+ChiSquareDistribution.nextRandom()	The next random number from this distribution
+ComplexMathUtils.exp(ComplexNumber)	
+InterpolatedDoublesSurface.from(List,List,List,Interpolator2D,String)	An interpolated surface with automatically generated name
+MatrixAlgebra.getTranspose(Matrix)	Returns the transpose of a matrix
+NodalSurfaceMultiplicativeShiftFunction.evaluate(NodalDoublesSurface,double)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface will be automatically generated
+NodalObjectsCurve.from(Map)	
+ConstantDoublesSurface.getYData()	Not supported
+SVDecompositionCommonsResult.getSingularValues()	Returns the diagonal elements of the matrix mathbf Sigma of the decomposition
+SVDecompositionResult.getSingularValues()	Returns the diagonal elements of the matrix mathbf Sigma of the decomposition
+ColtMatrixAlgebra.getInverse(Matrix)	Returns the inverse or pseudo inverse of the matrix
+InterpolatedFromSurfacesDoublesCube.fromSorted(SurfacePlane,double[],Surface,Interpolator1D)	A cube with an automatically generated name
+CholeskyDecompositionOpenGammaResult.solve(DoubleMatrix1D)	Description copied from interface DecompositionResult
+InterpolatedSurfaceMultiplicativeShiftFunction.evaluate(InterpolatedDoublesSurface,double,String)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface is supplied
+ObjectsCurve.hashCode()	
+ArraysDoublesCurve.ArraysDoublesCurve(DoublesPair[],boolean)	
+InverseTridiagonalMatrixCalculator.InverseTridiagonalMatrixCalculator()	
+InterpolatedFromSurfacesDoublesCube.getZData()	Not supported
+ComplexMathUtils.inverse(ComplexNumber)	
+ExponentialInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+RealFunctionIntegrator1DFactory.getIntegrator(String)	Given a name returns an instance of that integrator
+GridInterpolator2D.hashCode()	
+RadialBasisFunctionInterpolatorDataBundle.getDecompositionResult()	
+NodalDoublesCurve.NodalDoublesCurve(double[],double[],boolean,String)	
+FlatExtrapolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+PrimeNumbers.getPrimes()	
+ComplexMathUtils.subtract(ComplexNumber,ComplexNumber)	
+NodalObjectsSurface.from(T[],U[],V[],String)	A nodal surface with automatically generated name
+FunctionalDoublesCurve.getYData()	Not supported
+DivideCurveSpreadFunction.DivideCurveSpreadFunction()	
+QuasiNewtonVectorMinimizer.DataBundle.getLambda1()	
+RealPolynomialFunction1D.multiply(DoubleFunction1D)	Multiplies the polynomial by a function If the function is not a RealPolynomialFunction1D then the multiplication takes place as in DoubleFunction1D otherwise the result will also be a polynomial
+MedianCalculator.MedianCalculator()	
+InterpolatedDoublesCurve.InterpolatedDoublesCurve(DoublesPair[],Interpolator1D,boolean,String)	
+NodalDoublesSurface.from(List,String)	A nodal surface with automatically generated name
+DoublesSurface.DoublesSurface(List)	
+CholeskyDecompositionCommonsResult.getL()	Description copied from interface CholeskyDecompositionResult
+GaussianRadialBasisFunction.evaluate(Double)	Description copied from class Function1D
+SubtractCurveSpreadFunction.evaluate(Curve)	A function that will find the value of each curve at the given input x and subtract each in turn
+QuasiNewtonVectorMinimizer.DataBundle.setX(DoubleMatrix1D)	
+QuasiNewtonVectorMinimizer.DataBundle.setG2(double)	
+ArrayInterpolator1DDataBundle.setYValueAtIndex(int,double)	
+CurveShiftFunction.evaluate(Curve,double,String)	Returns a new curve shifted by a constant y amount i e a shift parallel to the x axis The name of the new curve is supplied
+GaussianQuadratureData.getAbscissas()	The abscissas
+LeastSquaresRegressionResult.hasIntercept()	
+SampleSkewnessCalculator.evaluate(double[])	Description copied from class Function1D
+Interpolator1DDoubleQuadraticDataBundle.get(Double)	
+CommonsMatrixAlgebra.getPower(Matrix,double)	Returns a real matrix raised to some real power Currently this method is limited to symmetric matrices only as Commons Math does not support the diagonalization of asymmetric matrices
+InterpolatedDoublesSurface.from(List,List,Interpolator2D)	An interpolated surface with automatically generated name
+InterpolatedFromCurvesSurfaceAdditiveShiftFunction.evaluate(InterpolatedFromCurvesDoublesSurface,double,String)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface is supplied
+BroydenVectorRootFinder.BroydenVectorRootFinder(double,double,int,Decomposition)	
+Curve.getYValue(java.lang.Comparable)	Given an x value return the y value from this curve
+SingleRangeLimitTransform.hashCode()	
+InterpolatedDoublesCurve.fromSorted(Set,Interpolator1D)	An interpolated curve with automatically generated name
+ConstantCurveShiftFunction.evaluate(ConstantDoublesCurve,double,double,String)	Returns a new curve shifted by an amount y at value x The name of the new curve is supplied
+WeightedLeastSquaresRegressionResult.getWeightedPredictedValue(double[],double[])	
+IncompleteBetaFunction.IncompleteBetaFunction(double,double,double,int)	
+OGMatrixAlgebra.getNormInfinity(Matrix)	For a vector returns the L infty norm
+ScalarFieldFirstOrderDifferentiator.ScalarFieldFirstOrderDifferentiator()	Uses the default values of differencing type central and eps 1e 5
+DoubleMatrixUtils.getTwoDimensionalDiagonalMatrix(DoubleMatrix1D)	Converts a vector into a diagonal matrix
+InterpolatedFromCurvesDoublesSurface.size()	Not supported
+CurveShiftFunction.evaluate(Curve,double,double)	Returns a new curve shifted by an amount y at value x The name of the new curve will be automatically generated
+NonLinearLeastSquareWithPenalty.solve(DoubleMatrix1D,Function1D,DoubleMatrix1D,DoubleMatrix2D)	Use this when the model is given as a function of its parameters only i e a function that takes a set of parameters and return a set of model values so the measurement points are already known to the function and analytic parameter sensitivity is not available
+MonotonicIncreasingInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+InterpolatedFromCurvesDoublesSurface.getPoints()	The points at which the curve intersects that axis
+QuasiNewtonVectorMinimizer.minimize(Function1D,Function1D,DoubleMatrix1D)	The minimum
+LeastSquaresRegression.regress(double[][],double[][],double[],boolean)	
+MatrixFieldFirstOrderDifferentiator.MatrixFieldFirstOrderDifferentiator(double)	
+ConstantDoublesSurface.getZValue()	Given an x y point return the z value from this surface
+Integrator2D.Integrator2D()	
+CombinedInterpolatorExtrapolator.getInterpolator()	
+ScalarFirstOrderDifferentiator.ScalarFirstOrderDifferentiator(FiniteDifferenceType)	Uses the default value of eps 10 5
+InverseJacobianDirectionFunction.InverseJacobianDirectionFunction(MatrixAlgebra)	
+ParabolicMinimumBracketer.getBracketedPoints(Function1D,double,double)	
+FunctionalDoublesCube.FunctionalDoublesCube(Function,String)	
+Curve.size()	The number of data points used to construct this curve
+SVDecompositionColtResult.getRank()	Returns the effective numerical matrix rank
+InterpolatedFromCurvesDoublesSurface.fromSorted(boolean,Map,Interpolator1D,String)	A surface
+ParallelArrayBinarySort.parallelBinarySort(float[],double[])	Sort the content of keys and values simultaneously so that both match the correct ordering Alters the arrays in place
+SampleNormalizedCentralMomentCalculator.evaluate(double[])	Description copied from class Function1D
+BrentSingleRootFinder.getRoot(Function1D,Double,Double)	
+DoublesCurve.DoublesCurve()	Constructor
+NormalRandomNumberGenerator.getVectors(int,int)	
+InterpolatedDoublesCurve.getYValueParameterSensitivity(Double)	Description copied from class DoublesCurve
+ComplexNumber.getReal()	The real part
+Interpolator1DQuadraticSplineDataBundle.getLowerBoundIndex(Double)	
+CommonsMatrixAlgebra.getOuterProduct(Matrix,Matrix)	Returns the outer product
+MatrixFieldFirstOrderDifferentiator.differentiate(Function1D)	A function that calculates the differential
+ChiSquareDistribution.hashCode()	
+NodalDoublesCurve.NodalDoublesCurve(Double[],Double[],boolean,String)	
+InterpolatedFromCurvesDoublesSurface.getZData()	Not supported
+Interpolator2D.Interpolator2D()	
+CombinedInterpolatorExtrapolatorFactory.getExtrapolator(String,Interpolator1D)	
+RationalFunctionInterpolator1D.RationalFunctionInterpolator1D(int,double)	
+Diff.Diff()	
+NodalDoublesSurface.from(Map,String)	A nodal surface with automatically generated name
+GaussHermiteQuadratureIntegrator1D.getLimits()	The lower and upper limits for which the quadrature is valid
+LUDecompositionResult.getP()	Returns the rows permutation matrix mathbf P
+QuasiNewtonVectorMinimizer.DataBundle.getInverseHessianEsimate()	Inverse Hessian matrix
+RidderSingleRootFinder.RidderSingleRootFinder(double)	
+NormalDistribution.getCDF(Double)	Returns the cumulative distribution function for a value
+LUDecompositionCommonsResult.solve(DoubleMatrix2D)	Solves mathbf A x mathbf B where mathbf A is a decomposed matrix and mathbf B is a matrix
+Interpolator1DMonotonicIncreasingDataBundle.lastKey()	
+NodalDoublesSurface.NodalDoublesSurface(List,List,String)	
+Surface.Surface()	Constructs a surface with an automatically generated name
+InterpolatedDoublesSurface.from(List,Interpolator2D,String)	An interpolated surface with automatically generated name
+ConjugateDirectionVectorMinimizer.ConjugateDirectionVectorMinimizer(ScalarMinimizer)	Constructs the object with default values for tolerance 10 8 and number of iterations 100
+UncoupledParameterTransforms.equals(Object)	
+Curve.getName()	The name of the curve
+CholeskyDecompositionOpenGammaResult.getL()	Description copied from interface CholeskyDecompositionResult
+NodalDoublesSurface.NodalDoublesSurface(Map,String)	
+BrentMinimizer1D.minimize(Function1D,Double)	The minimum
+FunctionalDoublesCurve.getXData()	Not supported
+MeanCalculator.MeanCalculator()	
+InterpolatorNDDataBundle.hashCode()	
+BivariateNormalDistribution.getInverseCDF(double[])	Given a probability return the value that returns this cdf
+ComplexMathUtils.multiply(ComplexNumber,ComplexNumber)	
+NodalDoublesSurface.NodalDoublesSurface(Map)	
+RadialBasisFunctionInterpolatorND.getDataBundle(List)	
+InterpolatedDoublesCurve.from(Double[],Double[],Interpolator1D)	An interpolated curve with automatically generated name
+ConstantDoublesCurve.ConstantDoublesCurve(double,String)	
+SVDecompositionColtResult.getSingularValues()	Returns the diagonal elements of the matrix mathbf Sigma of the decomposition
+EigenvaluePolynomialRootFinder.getRoots(RealPolynomialFunction1D)	The roots of the function
+NodalDoublesCurve.fromSorted(List,String)	A nodal curve with automatically generated name
+HermitePolynomialFunction.getPolynomials(int)	
+Surface.getZData()	The z data for this surface
+NaturalCubicSplineInterpolator1D.getDataBundle(double[],double[])	
+SpreadDoublesCurve.size()	Not supported
+GammaDistribution.hashCode()	
+OGMatrixAlgebra.getNorm1(Matrix)	For a vector returns the L 1 norm also known as the Taxicab norm or Manhattan norm i e Sigma x i For a matrix returns the maximum absolute column sum norm of the matrix
+GeneralizedLeastSquare.solve(T[],double[],double[],List,double,int)	Generalised least square with penalty on higher order finite differences of weights
+LineSearch.minimise(Function1D,DoubleMatrix1D,DoubleMatrix1D)	
+UncoupledParameterTransforms.UncoupledParameterTransforms(DoubleMatrix1D,ParameterLimitsTransform[],BitSet)	
+ConstantSurfaceAdditiveShiftFunction.evaluate(ConstantDoublesSurface,double,double,double)	Returns a new surface shifted by an amount z at the point x y The name of the new surface will be automatically generated
+ConstantDoublesCurve.from(double,String)	A constant curve
+InterpolatedSurfaceMultiplicativeShiftFunction.evaluate(InterpolatedDoublesSurface,double,double,double,String)	Returns a new surface shifted by an amount z at the point x y The name of the new surface is supplied
+Interpolator1DDataBundleBuilderFunction.Interpolator1DDataBundleBuilderFunction(LinkedHashMap,LinkedHashMap)	
+InterpolatedFromCurvesDoublesSurface.isXZCurves()	Are the curves in the x z plane
+StudentTDistribution.getDegreesOfFreedom()	The number of degrees of freedom
+RadialBasisFunctionInterpolatorDataBundle.isNormalized()	Gets the useNormalized field
+FlatExtrapolator1D.FlatExtrapolator1D()	
+Interpolator1DCubicSplineDataBundle.getSecondDerivativesSensitivities()	
+InterpolatedFromCurvesSurfaceAdditiveShiftFunction.evaluate(InterpolatedFromCurvesDoublesSurface,double[],double[],double[])	Returns a new surface shifted by amounts z at points x y The name of the new surface will be automatically generated
+NormalDistribution.NormalDistribution(double,double,RandomEngine)	
+StepInterpolator1D.getDataBundleFromSortedArrays(double[],double[])	
+SumToOne.transform(double[])	Transform from the N 1 fit parameters to the N model parameters
+InterpolatedDoublesSurface.from(double[],double[],double[],Interpolator2D,String)	An interpolated surface with automatically generated name
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,double,ParameterizedFunction,ParameterizedFunction,DoubleMatrix1D)	Use this when the model is in the ParameterizedFunction form and analytic parameter sensitivity and a single measurement error are available
+InterpolatedFromSurfacesDoublesCube.from(SurfacePlane,Double[],Surface,Interpolator1D,String)	A cube
+NodalDoublesCurve.NodalDoublesCurve(List,boolean)	
+InterpolatedDoublesSurface.from(List,List,Interpolator2D,String)	An interpolated surface with automatically generated name
+LeastSquareResultsWithTransform.toString()	
+InterpolatedFromSurfacesDoublesCube.InterpolatedFromSurfacesDoublesCube(SurfacePlane,Double[],Surface,Interpolator1D,boolean,String)	
+NodalObjectsCurve.fromSorted(Set)	
+NodalDoublesCurve.from(Set)	A nodal curve with automatically generated name
+SVDecompositionResult.getS()	Returns the diagonal matrix mathbf Sigma of the decomposition
+ConstantSurfaceAdditiveShiftFunction.evaluate(ConstantDoublesSurface,double[],double[],double[])	Returns a new surface shifted by amounts z at points x y The name of the new surface will be automatically generated
+ObjectsSurface.ObjectsSurface(T[],U[],V[])	
+DoublesCurveInterpolatedAnchor.getAnchorIndex()	Gets the anchor index
+NonLinearLeastSquareWithPenalty.NonLinearLeastSquareWithPenalty(Decomposition,MatrixAlgebra,double)	
+QuadraticRealRootFinder.getRoots(RealPolynomialFunction1D)	The roots of the function
+InterpolatorND.getDataBundle(double[],double[],double[],double[])	
+ParallelArrayBinarySort.ParallelArrayBinarySort()	
+GaussJacobiQuadratureIntegrator1D.getLimits()	The lower and upper limits for which the quadrature is valid
+OGMatrixAlgebra.getDeterminant(Matrix)	Returns the determinant of the matrix
+Interpolator1DDoubleQuadraticDataBundle.equals(Object)	
+MatrixFieldFirstOrderDifferentiator.differentiate(Function1D,Function1D)	A function that calculates the differential
+NodalDoublesCurve.from(Double[],Double[])	A nodal curve with automatically generated name
+QuasiNewtonVectorMinimizer.DataBundle.getLambda0()	
+GaussianQuadratureData.equals(Object)	
+GaussLegendreWeightAndAbscissaFunction.GaussLegendreWeightAndAbscissaFunction()	
+SVDecompositionColtResult.getU()	Returns the matrix mathbf U of the decomposition
+TrigonometricFunctionUtils.atan(double)	
+Cube.getValue()	Given x y z returns the value at that point
+FunctionalDoublesCube.size()	Not supported
+Curve.getXData()	The x data for this curve
+CubicRealRootFinder.CubicRealRootFinder()	
+NavigableMapInterpolator1DDataBundle.NavigableMapInterpolator1DDataBundle(NavigableMap)	
+DoublesCurveInterpolatedAnchor.size()	The number of data points used to construct this curve
+Interpolator1DDoubleQuadraticDataBundle.getQuadratic(int)	
+MultiquadraticRadialBasisFunction.MultiquadraticRadialBasisFunction(double)	
+NodalDoublesSurface.from(DoublesPair[],Double[],String)	A nodal surface with automatically generated name
+InterpolatorND.getNodeSensitivitiesForValue(InterpolatorNDDataBundle,double[])	The node sensitivities
+RadialBasisFunctionInterpolatorDataBundle.RadialBasisFunctionInterpolatorDataBundle(List,Function1D,boolean)	
+LeastSquareResults.hashCode()	
+NormalDistributionMaximumLikelihoodEstimator.evaluate(double[])	Description copied from class Function1D
+ConstantSurfaceAdditiveShiftFunction.ConstantSurfaceAdditiveShiftFunction()	
+InterpolatedDoublesSurface.from(DoublesPair[],Double[],Interpolator2D)	An interpolated surface with automatically generated name
+FunctionalDoublesSurface.getXData()	Not supported
+InterpolatedSurfaceAdditiveShiftFunction.evaluate(InterpolatedDoublesSurface,double,String)	Returns a new surface shifted by a constant z amount i e a parallel shift The name of the new surface is supplied
+RidderSingleRootFinder.RidderSingleRootFinder()	Sets the accuracy to 10 15
+NodalDoublesSurface.NodalDoublesSurface(List,List,List)	
+CombinedInterpolatorExtrapolator.CombinedInterpolatorExtrapolator(Interpolator1D)	
+Interpolator1DDataBundle.higherKey(Double)	
+NodalDoublesSurface.NodalDoublesSurface(DoublesPair[],Double[],String)	
+StudentTDistribution.StudentTDistribution(double,RandomEngine)	
+SVDecompositionResult.getVT()	Returns the transpose of the matrix mathbf V of the decomposition
+InterpolatedFromSurfacesDoublesCube.getValues()	Not supported
+TridiagonalMatrix.equals(Object)	
+MonotonicIncreasingInterpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Description copied from class Interpolator1D
+ExponentialInterpolator1D.getDataBundle(double[],double[])	
+InterpolatedFromSurfacesDoublesCube.fromSorted(SurfacePlane,List,List,Interpolator1D)	A cube with an automatically generated name
+SimpsonIntegrator1D.integrate(Function1D,Double,Double)	Simpson s integration method Note that the Commons implementation fails if the lower bound is larger than the upper in this case the bounds are reversed and the result negated
+NonLinearLeastSquare.solve(DoubleMatrix1D,DoubleMatrix1D,DoubleMatrix1D,ParameterizedFunction,DoubleMatrix1D)	Use this when the model is in the ParameterizedFunction form and analytic parameter sensitivity is not available but an array of measurements errors is
+FunctionalDoublesSurface.getZData()	Not supported
+TrigonometricFunctionUtils.cos(double)	
+D1MACH.D1MACH()	
+ConstantDoublesSurface.ConstantDoublesSurface(double)	
+DecompositionResult.solve(DoubleMatrix2D)	Solves mathbf A x mathbf B where mathbf A is a decomposed matrix and mathbf B is a matrix
+TimeSquareInterpolator1D.TimeSquareInterpolator1D()	
+ArraysDoublesCurve.getXDataAsPrimitive()	Returns the x data points as a primitive array
+DoublesCube.DoublesCube(List,List,List,List,String)	
+InterpolatedFromCurvesDoublesSurface.fromSorted(boolean,double[],Curve,Interpolator1D,String)	A surface
+Integrator1D.integrate(Function1D,U,U)	1 D integration method
+NodalObjectsCurve.from(Set)	
+SpreadCurveShiftFunction.evaluate(SpreadDoublesCurve,double,double)	Returns a new curve shifted by an amount y at value x The name of the new curve will be automatically generated
+GridInterpolator2D.equals(Object)	
+InterpolatedDoublesSurface.from(List,Interpolator2D)	An interpolated surface with automatically generated name
+NavigableMapInterpolator1DDataBundle.lastValue()	
+ScalarMinimizer.minimize(Function1D,double,double,double)	The minimum
+StudentTTwoTailedCriticalValueCalculator.StudentTTwoTailedCriticalValueCalculator(double,RandomEngine)	
+LinearInterpolator1D.interpolate(Interpolator1DDataBundle,Double)	
+InterpolatedDoublesCurve.from(double[],double[],Interpolator1D,String)	An interpolated curve with automatically generated name
+DoublesSurface.DoublesSurface(List,List,List)	
+InterpolatedDoublesCube.InterpolatedDoublesCube(List,List,List,List,InterpolatorND)	
+Interpolator1D.getNodeSensitivitiesForValue(Interpolator1DDataBundle,Double)	Computes the sensitivities of the interpolated value to the input data y
+FunctionalCurveShiftFunction.evaluate(FunctionalDoublesCurve,double,double,String)	Returns a new curve shifted by an amount y at value x The name of the new curve is supplied
+DoubleMatrix1D.DoubleMatrix1D()	
+RealPolynomialFunction1D.equals(Object)	
+BisectionSingleRootFinder.BisectionSingleRootFinder(double)	
+NodalDoublesCurve.from(Set,String)	A nodal curve with automatically generated name
+InterpolatedFromCurvesDoublesSurface.getXData()	Not supported
+Interpolator2DDataBundle.getXData()	
+D1MACH.four()	Machine precision according to IEEE Approximately 2 22E 16 Math pow 2 53
+GridInterpolator2D.getYInterpolator()	
+FunctionalDoublesCurve.getYValueParameterSensitivity(Double)	Description copied from class DoublesCurve
+FunctionalDoublesCurve.from(Function,String)	A functional curve
+LognormalFisherKurtosisFromVolatilityCalculator.LognormalFisherKurtosisFromVolatilityCalculator()	
+GammaFunction.evaluate(Double)	Description copied from class Function1D
+Interpolator1DMonotonicIncreasingDataBundle.getA(int)	
+InterpolatedDoublesSurface.InterpolatedDoublesSurface(DoublesPair[],double[],Interpolator2D,String)	
+InverseMultiquadraticRadialBasisFunction.hashCode()	
+DoubleQuadraticInterpolator1D.DoubleQuadraticInterpolator1D(WeightingFunction)	

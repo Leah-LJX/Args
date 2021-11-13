@@ -1,0 +1,109 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/bayou/23/benchmark23.json
+     [java] Benchmark Id: 23
+     [java] Method name: getOffsetForLine
+     [java] Packages: [javax.swing.text]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [javax.swing.text.Document, int]
+     [java] Target type: int
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ljxdata/seq_result/23
+     [java] filenamedata/seq_result/23/2.java
+     [java] filenamedata/seq_result/23/1.java
+     [java] filenamedata/seq_result/23/7.java
+     [java] filenamedata/seq_result/23/4.java
+     [java] filenamedata/seq_result/23/5.java
+     [java] filenamedata/seq_result/23/8.java
+     [java] filenamedata/seq_result/23/9.java
+     [java] filenamedata/seq_result/23/3.java
+     [java] filenamedata/seq_result/23/6.java
+     [java] filenamedata/seq_result/23/10.java
+     [java] =========bayou-program-api=======
+     [java] javax.xml.stream.XMLStreamWriter.writeEndElement
+     [java] javax.swing.text.Document.getDefaultRootElement
+     [java] javax.swing.text.Element.getElement
+     [java] javax.swing.text.Element.getStartOffset
+     [java] java.math.BigDecimal.compareTo
+     [java] java.awt.Rectangle.<init>
+     [java] javax.swing.text.Document.getText
+     [java] javax.swing.text.Element.getElementCount
+     [java] java.math.BigDecimal.divide
+     [java] java.math.BigDecimal.<init>
+     [java] javax.swing.text.View.getElement
+     [java] javax.swing.text.Element.getEndOffset
+     [java] javax.swing.text.View.getToolTipText
+     [java] =========cnt:=========9
+     [java] #Classes: 441
+     [java] #Methods: 4076
+     [java] Soot Time: 7552.239187
+     [java] PetriNet for path length: 1 [places: 45 ; transitions: 78 ; edges: 162]
+     [java] PetriNet for path length: 2 [places: 45 ; transitions: 78 ; edges: 162]
+     [java] PetriNet for path length: 3 [places: 45 ; transitions: 78 ; edges: 162]
+     [java] PetriNet for path length: 4 [places: 45 ; transitions: 78 ; edges: 162]
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 23
+     [java] Recommend Api Number:9
+     [java] Sketch Generation Time: 22.66388
+     [java] Sketch Completion Time: 10.53275
+     [java] Compilation Time: 1370.595391
+     [java] Running Test cases Time: 3828.321273
+     [java] Synthesis Time: 3861.517903
+     [java] Total Time: 12784.352481000002
+     [java] Number of components: 3
+     [java] Number of holes: 5
+     [java] Number of completed programs: 1
+     [java] Number of sketches: 1
+     [java] Solution:
+     [java]  javax.swing.text.Element sypet_var3 = sypet_arg0.getDefaultRootElement();
+     [java]  javax.swing.text.Element sypet_var4 = sypet_var3.getElement(sypet_arg1);
+     [java]  int sypet_var5 = sypet_var4.getStartOffset();
+     [java]  return sypet_var5;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 13 seconds

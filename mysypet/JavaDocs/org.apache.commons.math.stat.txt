@@ -1,0 +1,777 @@
+UnknownDistributionChiSquareTest.chiSquareTestDataSetsComparison(long[],long[])	Returns the observed significance level or p value associated with a Chi Square two sample test comparing bin frequency counts in observed1 and observed2
+AbstractMultipleLinearRegression.AbstractMultipleLinearRegression()	Modify the distribution used to compute inference statistics
+SynchronizedSummaryStatistics.getMean()	Returns the mean of the values that have been added
+ChiSquareTestImpl.chiSquareTestDataSetsComparison(long[],long[])	Description copied from interface UnknownDistributionChiSquareTest
+TTestImpl.pairedTTest(double[],double[])	Returns the observed significance level or p value associated with a paired two sample two tailed t test based on the data in the input arrays
+GeometricMean.getN()	Returns the number of values that have been added
+DescriptiveStatistics.getMeanImpl()	Returns the currently configured mean implementation
+Kurtosis.copy()	Returns a copy of the statistic with the same internal state
+TTestImpl.TTestImpl(TDistribution)	Create a test instance using the given distribution for computing inference statistics
+Frequency.Frequency()	Default constructor
+TTest.homoscedasticTTest(double[],double[],double)	Performs a two sided t test evaluating the null hypothesis that sample1 and sample2 are drawn from populations with the same mean with significance level alpha assuming that the subpopulation variances are equal Use tTest double double double to perform the test without the assumption of equal variances
+StandardDeviation.StandardDeviation(SecondMoment)	Constructs a StandardDeviation from an external second moment
+TTestImpl.t(double[],double[])	Computes a 2 sample t statistic without the hypothesis of equal subpopulation variances To compute a t statistic assuming equal variances use homoscedasticT double double
+Variance.copy(Variance,Variance)	Copies source to dest
+SummaryStatistics.getMean()	Returns the mean of the values that have been added
+MultivariateSummaryStatistics.equals(Object)	Returns true iff object is a MultivariateSummaryStatistics instance and all statistics have the same values as this
+TTest.tTest(double[],double[])	Returns the observed significance level or p value associated with a two sample two tailed t test comparing the means of the input arrays
+Mean.evaluate(double[],double[])	Returns the weighted arithmetic mean of the entries in the input array
+Kurtosis.Kurtosis()	Construct a Kurtosis
+DescriptiveStatistics.getMean()	Returns the arithmetic mean of the available values Specified by getMean in interface StatisticalSummary Returns The mean or Double NaN if no values have been added
+Skewness.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+Max.Max()	Create a Max instance
+TTestImpl.tTest(double[],double[])	Returns the observed significance level or p value associated with a two sample two tailed t test comparing the means of the input arrays
+SumOfSquares.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+DescriptiveStatistics.getSumsq()	Returns the sum of the squares of the available values
+SpearmansCorrelation.SpearmansCorrelation(RealMatrix,RankingAlgorithm)	Create a SpearmansCorrelation with the given input data matrix and ranking algorithm
+GeometricMean.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+StatUtils.product(double[])	Returns the product of the entries in the input array or Double NaN if the array is empty
+SimpleRegression.getRegressionSumSquares()	Returns the sum of squared deviations of the predicted y values about their mean which equals the mean of y
+Variance.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+DescriptiveStatistics.setMinImpl(UnivariateStatistic)	Sets the implementation for the minimum
+Percentile.evaluate(double[],int,int,double)	Returns an estimate of the pth percentile of the values in the values array starting with the element in 0 based position begin in the array and including length values
+Product.Product(Product)	Copy constructor creates a new Product identical to the original Parameters original the Product instance to copy
+SynchronizedDescriptiveStatistics.apply(UnivariateStatistic)	Apply the given statistic to the data associated with this set of statistics
+StatisticalMultivariateSummary.getMin()	Returns an array whose ith entry is the minimum of the ith entries of the arrays that correspond to each multivariate sample Returns the array of component minima
+StatisticalSummary.getMin()	Returns the minimum of the available values Returns The min or Double NaN if no values have been added
+MultivariateSummaryStatistics.setMinImpl(StorelessUnivariateStatistic[])	Sets the implementation for the minimum
+SynchronizedSummaryStatistics.getSummary()	Return a StatisticalSummaryValues instance reporting current statistics
+StatisticalMultivariateSummary.getDimension()	Returns the dimension of the data Returns The dimension of the data
+SynchronizedDescriptiveStatistics.getN()	Returns the number of available values Specified by getN in interface StatisticalSummaryOverrides getN in class DescriptiveStatistics Returns The number of available values
+Frequency.getPct(Object)	Returns the percentage of values that are equal to v as a proportion between 0 and 1
+ChiSquareTest.chiSquareTest(double[],long[])	Returns the observed significance level or p value associated with a Chi square goodness of fit test comparing the observed frequency counts to those in the expected array
+SecondMoment.copy()	Returns a copy of the statistic with the same internal state
+TTest.tTest(double,double[])	Returns the observed significance level or p value associated with a one sample two tailed t test comparing the mean of the input array with the constant mu
+StatUtils.normalize(double[])	Normalize standardize the series so in the end it is having a mean of 0 and a standard deviation of 1
+SemiVariance.copy(SemiVariance,SemiVariance)	Copies source to dest
+SpearmansCorrelation.SpearmansCorrelation()	Create a SpearmansCorrelation without data
+PearsonsCorrelation.getCorrelationMatrix()	Returns the correlation matrix Returns correlation matrix
+SemiVariance.evaluate(double[],Direction)	This method calculates SemiVariance for the entire array against the mean using the current value of the biasCorrection instance property
+SimpleRegression.getRSquare()	Returns the coefficient of determination usually denoted r square
+Sum.copy(Sum,Sum)	Copies source to dest
+Min.copy()	Returns a copy of the statistic with the same internal state
+StatisticalSummaryValues.getVariance()	Description copied from interface StatisticalSummary
+RankingAlgorithm.rank(double[])	Performs a rank transformation on the input data returning an array of ranks
+StatUtils.sum(double[],int,int)	Returns the sum of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+Variance.evaluate(double[],double)	Returns the variance of the entries in the input array using the precomputed mean value Returns Double NaN if the array is empty
+Skewness.getResult()	Returns the value of the statistic based on the values that have been added
+MultivariateSummaryStatistics.setSumLogImpl(StorelessUnivariateStatistic[])	Sets the implementation for the sum of logs
+GeometricMean.evaluate(double[],int,int)	Returns the geometric mean of the entries in the specified portion of the input array
+OLSMultipleLinearRegression.newSampleData(double[],double[][])	Loads model x and y sample data overriding any previous sample
+SimpleRegression.SimpleRegression(int)	Create an empty SimpleRegression
+AbstractStorelessUnivariateStatistic.incrementAll(double[],int,int)	This default implementation just calls increment double in a loop over the specified portion of the input array
+SemiVariance.evaluate(double[],int,int)	Returns the SemiVariance of the designated values against the mean using instance properties varianceDirection and biasCorrection
+SynchronizedSummaryStatistics.getMeanImpl()	Returns the currently configured mean implementation Overrides getMeanImpl in class SummaryStatistics Returns the StorelessUnivariateStatistic implementing the mean
+DescriptiveStatistics.getMin()	Returns the minimum of the available values Specified by getMin in interface StatisticalSummary Returns The min or Double NaN if no values have been added
+StatUtils.variance(double[],double,int,int)	Returns the variance of the entries in the specified portion of the input array using the precomputed mean value Returns Double NaN if the designated subarray is empty
+SummaryStatistics.toString()	Generates a text report displaying summary statistics from values that have been added
+Frequency.getCumPct(char)	Returns the cumulative percentage of values less than or equal to v as a proportion between 0 and 1
+GeometricMean.getResult()	Returns the current value of the Statistic
+SummaryStatistics.setMinImpl(StorelessUnivariateStatistic)	Sets the implementation for the minimum
+Variance.getN()	Returns the number of values that have been added
+SynchronizedMultivariateSummaryStatistics.getMinImpl()	Returns the currently configured minimum implementation Overrides getMinImpl in class MultivariateSummaryStatistics Returns the StorelessUnivariateStatistic implementing the minimum
+MultivariateSummaryStatistics.getDimension()	Returns the dimension of the data Specified by getDimension in interface StatisticalMultivariateSummary Returns The dimension of the data
+Percentile.setData(double[],int,int)	Set the data array
+Frequency.Frequency(Comparator)	Constructor allowing values Comparator to be specified
+SecondMoment.copy(SecondMoment,SecondMoment)	Copies source to dest
+TTest.tTest(double,StatisticalSummary)	Returns the observed significance level or p value associated with a one sample two tailed t test comparing the mean of the dataset described by sampleStats with the constant mu
+FirstMoment.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+AbstractMultipleLinearRegression.estimateResiduals()	Estimates the residuals ie u y X b
+VectorialCovariance.clear()	Clears the internal state of the Statistic
+Product.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+SynchronizedDescriptiveStatistics.getStandardDeviation()	Returns the standard deviation of the available values
+SumOfLogs.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+ChiSquareTestImpl.chiSquareTest(double[],long[])	Returns the observed significance level or p value associated with a Chi square goodness of fit test comparing the observed frequency counts to those in the expected array
+AbstractStorelessUnivariateStatistic.evaluate(double[],int,int)	This default implementation calls clear then invokes increment double in a loop over the specified portion of the input array and then uses getResult to compute the return value
+EuclideanIntegerPoint.distanceFrom(EuclideanIntegerPoint)	Returns the distance from the given point
+SynchronizedDescriptiveStatistics.SynchronizedDescriptiveStatistics()	Construct an instance with infinite window
+Variance.evaluate(double[],double[],int,int)	Returns the weighted variance of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+Variance.setBiasCorrected(boolean)	
+TTestImpl.tTest(StatisticalSummary,StatisticalSummary)	Returns the observed significance level or p value associated with a two sample two tailed t test comparing the means of the datasets described by two StatisticalSummary instances
+SynchronizedSummaryStatistics.setMaxImpl(StorelessUnivariateStatistic)	Sets the implementation for the maximum
+SpearmansCorrelation.computeCorrelationMatrix(double[][])	Computes the Spearman s rank correlation matrix for the columns of the input rectangular array The columns of the array represent values of variables to be correlated
+SemiVariance.Direction.valueOf(String)	Returns the enum constant of this type with the specified name
+TestUtils.pairedT(double[],double[])	Throws IllegalArgumentException MathExceptionSee Also TTest pairedT double double
+StorelessUnivariateStatistic.incrementAll(double[])	Updates the internal state of the statistic to reflect addition of all values in the values array Does not clear the statistic first i e the values are added incrementally to the dataset
+SimpleRegression.getSlope()	Returns the slope of the estimated regression line
+SumOfSquares.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+Sum.evaluate(double[],double[])	The weighted sum of the entries in the the input array
+TestUtils.tTest(StatisticalSummary,StatisticalSummary,double)	Throws IllegalArgumentException MathExceptionSee Also TTest tTest org apache commons math stat descriptive StatisticalSummary org apache commons math stat descriptive StatisticalSummary double
+SimpleRegression.getIntercept()	Returns the intercept of the estimated regression line
+MultivariateSummaryStatistics.getSumsqImpl()	Returns the currently configured sum of squares implementation Returns the StorelessUnivariateStatistic implementing the sum of squares
+SummaryStatistics.getSumImpl()	Returns the currently configured Sum implementation Returns the StorelessUnivariateStatistic implementing the sumSince 1 2
+OneWayAnovaImpl.anovaPValue(Collection)	Computes the ANOVA P value for a collection of double arrays
+SimpleRegression.getSlopeConfidenceInterval()	Returns the half width of a 95 confidence interval for the slope estimate
+SynchronizedSummaryStatistics.getMinImpl()	Returns the currently configured minimum implementation Overrides getMinImpl in class SummaryStatistics Returns the StorelessUnivariateStatistic implementing the minimum
+Frequency.toString()	Return a string representation of this frequency distribution
+OneWayAnova.anovaTest(Collection,double)	Performs an ANOVA test evaluating the null hypothesis that there is no difference among the means of the data categories
+SimpleRegression.SimpleRegression()	Create an empty SimpleRegression instance
+Product.evaluate(double[],int,int)	Returns the product of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+SummaryStatistics.getSum()	Returns the sum of the values that have been added Specified by getSum in interface StatisticalSummary Returns The sum or Double NaN if no values have been added
+SimpleRegression.getSlopeStdErr()	Returns the standard error of the slope estimate usually denoted s b1
+AbstractStorelessUnivariateStatistic.equals(Object)	Returns true iff object is an AbstractStorelessUnivariateStatistic returning the same values as this for getResult and getN Overrides equals in class Object Parameters object object to test equality against
+ChiSquareTestImpl.ChiSquareTestImpl()	Construct a ChiSquareTestImpl
+VectorialMean.hashCode()	Overrides hashCode in class Object
+AbstractStorelessUnivariateStatistic.incrementAll(double[])	This default implementation just calls increment double in a loop over the input array
+NaNStrategy.values()	Returns an array containing the constants of this enum type in the order they are declared This method may be used to iterate over the constants as follows for NaNStrategy c NaNStrategy values System out println c Returns an array containing the constants of this enum type in the order they are declared
+ChiSquareTestImpl.chiSquareTest(long[][],double)	Description copied from interface ChiSquareTest
+SynchronizedSummaryStatistics.hashCode()	Returns hash code based on values of statistics Overrides hashCode in class SummaryStatistics Returns hash code
+SynchronizedSummaryStatistics.getN()	Returns the number of available values Specified by getN in interface StatisticalSummaryOverrides getN in class SummaryStatistics Returns The number of available values
+Min.Min(Min)	Copy constructor creates a new Min identical to the original Parameters original the Min instance to copy
+VectorialMean.VectorialMean(int)	Constructs a VectorialMean
+StatUtils.meanDifference(double[],double[])	Returns the mean of the signed differences between corresponding elements of the input arrays i e sum sample1 i sample2 i sample1 length
+AbstractUnivariateStatistic.evaluate(double[])	Returns the result of evaluating the statistic over the input array
+AggregateSummaryStatistics.getStandardDeviation()	Returns the standard deviation of the available values This version returns the standard deviation of all the aggregated data
+UnivariateStatistic.evaluate(double[])	Returns the result of evaluating the statistic over the input array
+TestUtils.chiSquareTestDataSetsComparison(long[],long[],double)	Throws IllegalArgumentException MathExceptionSince 1 2 See Also UnknownDistributionChiSquareTest chiSquareTestDataSetsComparison long long double
+MultivariateSummaryStatistics.setMeanImpl(StorelessUnivariateStatistic[])	Sets the implementation for the mean
+SummaryStatistics.setMaxImpl(StorelessUnivariateStatistic)	Sets the implementation for the maximum
+Min.evaluate(double[],int,int)	Returns the minimum of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+StatisticalSummaryValues.getSum()	Description copied from interface StatisticalSummary
+SummaryStatistics.setVarianceImpl(StorelessUnivariateStatistic)	Sets the implementation for the variance
+WeightedEvaluation.evaluate(double[],double[])	Returns the result of evaluating the statistic over the input array using the supplied weights
+DescriptiveStatistics.copy()	Returns a copy of this DescriptiveStatistics instance with the same internal state
+SecondMoment.SecondMoment(SecondMoment)	Copy constructor creates a new SecondMoment identical to the original Parameters original the SecondMoment instance to copy
+UnknownDistributionChiSquareTest.chiSquareDataSetsComparison(long[],long[])	Computes a Chi Square two sample test statistic comparing bin frequency counts in observed1 and observed2 The sums of frequency counts in the two samples are not required to be the same The formula used to compute the test statistic is K observed1 i observed2 i K 2 observed1 i observed2 i where K sqrt sum observed2 observed1 This statistic can be used to perform a Chi Square test evaluating the null hypothesis that both observed counts follow the same distribution
+DescriptiveStatistics.clear()	Resets all statistics and storage
+PearsonsCorrelation.covarianceToCorrelation(RealMatrix)	Derives a correlation matrix from a covariance matrix
+Product.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+SemiVariance.SemiVariance(boolean,Direction)	Constructs a SemiVariance with the specified isBiasCorrected property and the specified Direction property
+AbstractMultipleLinearRegression.estimateRegressionParametersVariance()	Estimates the variance of the regression parameters ie Var b
+SemiVariance.setVarianceDirection(Direction)	Sets the variance direction Parameters varianceDirection the direction of the semivariance
+Frequency.getUniqueCount()	Returns the number of values in the frequency table
+AbstractMultipleLinearRegression.estimateRegressandVariance()	Returns the variance of the regressand ie Var y
+Mean.getResult()	Returns the current value of the Statistic
+TestUtils.tTest(double,StatisticalSummary)	Throws IllegalArgumentException MathExceptionSee Also TTest tTest double org apache commons math stat descriptive StatisticalSummary
+TTest.homoscedasticT(double[],double[])	Computes a 2 sample t statistic under the hypothesis of equal subpopulation variances To compute a t statistic without the equal variances hypothesis use t double double
+Percentile.getQuantile()	Returns the value of the quantile field determines what percentile is computed when evaluate is called with no quantile argument
+SynchronizedSummaryStatistics.equals(Object)	Returns true iff object is a SummaryStatistics instance and all statistics have the same values as this
+Mean.copy(Mean,Mean)	Copies source to dest
+TestUtils.oneWayAnovaFValue(Collection)	Throws IllegalArgumentException MathExceptionSince 1 2 See Also OneWayAnova anovaFValue Collection
+Percentile.Percentile(double)	Constructs a Percentile with the specific quantile value
+Covariance.covariance(double[],double[],boolean)	Computes the covariance between the two arrays
+GLSMultipleLinearRegression.N(0,Omega)	Estimates the standard error of the regression
+MultivariateSummaryStatistics.setGeoMeanImpl(StorelessUnivariateStatistic[])	Sets the implementation for the geometric mean
+Variance.copy()	Returns a copy of the statistic with the same internal state
+StatisticalSummary.getMean()	Returns the arithmetic mean of the available values Returns The mean or Double NaN if no values have been added
+SumOfSquares.SumOfSquares(SumOfSquares)	Copy constructor creates a new SumOfSquares identical to the original Parameters original the SumOfSquares instance to copy
+FirstMoment.getResult()	Returns the current value of the Statistic
+EuclideanIntegerPoint.EuclideanIntegerPoint(int[])	Build an instance wrapping an integer array
+PearsonsCorrelation.getCorrelationPValues()	Returns a matrix of p values associated with the two sided null hypothesis that the corresponding correlation coefficient is zero
+GeometricMean.GeometricMean(GeometricMean)	Copy constructor creates a new GeometricMean identical to the original Parameters original the GeometricMean instance to copy
+TestUtils.getOneWayAnova()	Return a singleton OneWayAnova instance Does not create a new instance
+Max.copy(Max,Max)	Copies source to dest
+SynchronizedDescriptiveStatistics.copy(SynchronizedDescriptiveStatistics,SynchronizedDescriptiveStatistics)	Copies source to dest
+ChiSquareTest.chiSquare(long[][])	Computes the Chi Square statistic associated with a chi square test of independence based on the input counts array viewed as a two way table
+Frequency.getCumFreq(int)	Returns the cumulative frequency of values less than or equal to v
+VectorialCovariance.getN()	Get the number of vectors in the sample
+DescriptiveStatistics.getKurtosis()	Returns the Kurtosis of the available values Kurtosis is a measure of the peakedness of a distribution Returns The kurtosis Double NaN if no values have been added or 0 0 for a value set 3
+MultivariateSummaryStatistics.getSumImpl()	Returns the currently configured Sum implementation Returns the StorelessUnivariateStatistic implementing the sum
+MultivariateSummaryStatistics.getMean()	Returns an array whose ith entry is the mean of the ith entries of the arrays that have been added using addValue double Specified by getMean in interface StatisticalMultivariateSummary Returns the array of component means
+SynchronizedMultivariateSummaryStatistics.getDimension()	Returns the dimension of the data Specified by getDimension in interface StatisticalMultivariateSummaryOverrides getDimension in class MultivariateSummaryStatistics Returns The dimension of the data
+SimpleRegression.getTotalSumSquares()	Returns the sum of squared deviations of the y values about their mean
+MultivariateSummaryStatistics.MultivariateSummaryStatistics(int,boolean)	Construct a MultivariateSummaryStatistics instance Parameters k dimension of the dataisCovarianceBiasCorrected if true the unbiased sample covariance is computed otherwise the biased population covariance is computed
+SimpleRegression.getInterceptStdErr()	Returns the standard error of the intercept estimate usually denoted s b0
+StatUtils.sumDifference(double[],double[])	Returns the sum of the signed differences between corresponding elements of the input arrays i e sum sample1 i sample2 i
+SimpleRegression.removeData(double[][])	Removes observations represented by the elements in data
+DescriptiveStatistics.getSum()	Returns the sum of the values that have been added to Univariate
+SumOfLogs.copy()	Returns a copy of the statistic with the same internal state
+TiesStrategy.valueOf(String)	Returns the enum constant of this type with the specified name
+OLSMultipleLinearRegression.newSampleData(double[],int,int)	Loads model x and y sample data from a flat input array overriding any previous sample
+TTestImpl.homoscedasticTTest(double[],double[],double)	Performs a two sided t test evaluating the null hypothesis that sample1 and sample2 are drawn from populations with the same mean with significance level alpha assuming that the subpopulation variances are equal Use tTest double double double to perform the test without the assumption of equal variances
+DescriptiveStatistics.getGeometricMeanImpl()	Returns the currently configured geometric mean implementation
+MultivariateSummaryStatistics.getGeometricMean()	Returns an array whose ith entry is the geometric mean of the ith entries of the arrays that have been added using addValue double Specified by getGeometricMean in interface StatisticalMultivariateSummary Returns the array of component geometric means
+VectorialCovariance.getResult()	Get the covariance matrix
+VectorialCovariance.hashCode()	Overrides hashCode in class Object
+SynchronizedSummaryStatistics.getMax()	Returns the maximum of the values that have been added
+DescriptiveStatistics.copy(DescriptiveStatistics,DescriptiveStatistics)	Copies source to dest
+DescriptiveStatistics.getSkewness()	Returns the skewness of the available values Skewness is a measure of the asymmetry of a given distribution
+SecondMoment.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticOverrides clear in class FirstMoment
+Variance.Variance()	Constructs a Variance with default true isBiasCorrected property
+Frequency.getCumFreq(Comparable)	Returns the cumulative frequency of values less than or equal to v
+SumOfSquares.getN()	Returns the number of values that have been added
+AbstractUnivariateStatistic.setData(double[],int,int)	Set the data array
+StandardDeviation.StandardDeviation()	Constructs a StandardDeviation Sets the underlying Variance instance s isBiasCorrected property to true
+KMeansPlusPlusClusterer.EmptyClusterStrategy.values()	Returns an array containing the constants of this enum type in the order they are declared This method may be used to iterate over the constants as follows for KMeansPlusPlusClusterer EmptyClusterStrategy c KMeansPlusPlusClusterer EmptyClusterStrategy values System out println c Returns an array containing the constants of this enum type in the order they are declared
+MultivariateSummaryStatistics.getSum()	Returns an array whose ith entry is the sum of the ith entries of the arrays that have been added using addValue double Specified by getSum in interface StatisticalMultivariateSummary Returns the array of component sums
+StatUtils.variance(double[])	Returns the variance of the entries in the input array or Double NaN if the array is empty
+DescriptiveStatistics.getSortedValues()	Returns the current set of values in an array of double primitives sorted in ascending order The returned array is a fresh copy of the underlying data i e it is not a reference to the stored data
+StatisticalSummaryValues.equals(Object)	Returns true iff object is a StatisticalSummaryValues instance and all statistics have the same values as this
+AbstractMultipleLinearRegression.estimateRegressionParametersStandardErrors()	Returns the standard errors of the regression parameters
+StatUtils.min(double[])	Returns the minimum of the entries in the input array or Double NaN if the array is empty
+TestUtils.setChiSquareTest(ChiSquareTest)	Set the singleton ChiSquareTest instance
+TTest.tTest(StatisticalSummary,StatisticalSummary)	Returns the observed significance level or p value associated with a two sample two tailed t test comparing the means of the datasets described by two StatisticalSummary instances
+SynchronizedDescriptiveStatistics.getWindowSize()	Returns the maximum number of values that can be stored in the dataset or INFINITE WINDOW 1 if there is no limit
+Min.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+Mean.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+SpearmansCorrelation.getCorrelationMatrix()	Calculate the Spearman Rank Correlation Matrix
+StatUtils.min(double[],int,int)	Returns the minimum of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+SynchronizedMultivariateSummaryStatistics.clear()	Resets all statistics and storage Overrides clear in class MultivariateSummaryStatistics
+StatUtils.geometricMean(double[])	Returns the geometric mean of the entries in the input array or Double NaN if the array is empty
+SimpleRegression.getSlopeConfidenceInterval(double)	Returns the half width of a 100 100 alpha confidence interval for the slope estimate
+SynchronizedMultivariateSummaryStatistics.setMeanImpl(StorelessUnivariateStatistic[])	Sets the implementation for the mean
+SummaryStatistics.getMax()	Returns the maximum of the values that have been added
+MultivariateSummaryStatistics.getGeoMeanImpl()	Returns the currently configured geometric mean implementation Returns the StorelessUnivariateStatistic implementing the geometric mean
+SumOfSquares.evaluate(double[],int,int)	Returns the sum of the squares of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+TTestImpl.t(StatisticalSummary,StatisticalSummary)	Computes a 2 sample t statistic comparing the means of the datasets described by two StatisticalSummary instances without the assumption of equal subpopulation variances Use homoscedasticT StatisticalSummary StatisticalSummary to compute a t statistic under the equal variances assumption
+DescriptiveStatistics.DescriptiveStatistics(int)	Construct a DescriptiveStatistics instance with the specified window Parameters window the window size
+Percentile.evaluate(double[],double)	Returns an estimate of the pth percentile of the values in the values array
+Variance.evaluate(double[])	Returns the variance of the entries in the input array or Double NaN if the array is empty
+AggregateSummaryStatistics.AggregateSummaryStatistics(SummaryStatistics)	Initializes a new AggregateSummaryStatistics with the specified statistics object as a prototype for contributing statistics and for the internal aggregate statistics This provides for customized statistics implementations to be used by contributing and aggregate statistics
+TTest.pairedTTest(double[],double[],double)	Performs a paired t test evaluating the null hypothesis that the mean of the paired differences between sample1 and sample2 is 0 in favor of the two sided alternative that the mean paired difference is not equal to 0 with significance level alpha
+SummaryStatistics.getMin()	Returns the minimum of the values that have been added
+Variance.evaluate(double[],double[])	Returns the weighted variance of the entries in the the input array
+NaturalRanking.getTiesStrategy()	Return the TiesStrategy Returns the TiesStrategy
+StatisticalMultivariateSummary.getSum()	Returns an array whose ith entry is the sum of the ith entries of the arrays that correspond to each multivariate sample Returns the array of component sums
+DescriptiveStatistics.replaceMostRecentValue(double)	Replaces the most recently stored value with the given value
+Product.Product()	Create a Product instance
+MultivariateSummaryStatistics.getSumLogImpl()	Returns the currently configured sum of logs implementation Returns the StorelessUnivariateStatistic implementing the log sum
+Frequency.getPct(Comparable)	Returns the percentage of values that are equal to v as a proportion between 0 and 1
+TestUtils.tTest(double,double[])	Throws IllegalArgumentException MathExceptionSee Also TTest tTest double double
+MultivariateSummaryStatistics.clear()	Resets all statistics and storage
+NaturalRanking.rank(double[])	Rank data using the natural ordering on Doubles with NaN values handled according to nanStrategy and ties resolved using tiesStrategy
+NaNStrategy.valueOf(String)	Returns the enum constant of this type with the specified name
+TestUtils.tTest(double[],double[])	Throws IllegalArgumentException MathExceptionSee Also TTest tTest double double
+TTest.tTest(StatisticalSummary,StatisticalSummary,double)	Performs a two sided t test evaluating the null hypothesis that sampleStats1 and sampleStats2 describe datasets drawn from populations with the same mean with significance level alpha This test does not assume that the subpopulation variances are equal To perform the test under the equal variances assumption use homoscedasticTTest StatisticalSummary StatisticalSummary
+SynchronizedDescriptiveStatistics.SynchronizedDescriptiveStatistics(SynchronizedDescriptiveStatistics)	A copy constructor Creates a deep copy of the original
+DescriptiveStatistics.getElement(int)	Returns the element at the specified index Parameters index The Index of the element Returns return the element at the specified index
+StatisticalSummaryValues.getN()	Description copied from interface StatisticalSummary
+Kurtosis.evaluate(double[],int,int)	Returns the kurtosis of the entries in the specified portion of the input array
+SynchronizedSummaryStatistics.setSumLogImpl(StorelessUnivariateStatistic)	Sets the implementation for the sum of logs
+Cluster.Cluster(Clusterable)	Build a cluster centered at a specified point
+DescriptiveStatistics.getGeometricMean()	Returns the geometric mean of the available values Returns The geometricMean Double NaN if no values have been added or if the product of the available values is less than or equal to 0
+Covariance.Covariance(RealMatrix,boolean)	Create a covariance matrix from a matrix whose columns represent covariates
+SummaryStatistics.getVarianceImpl()	Returns the currently configured variance implementation Returns the StorelessUnivariateStatistic implementing the varianceSince 1 2
+TestUtils.t(double[],double[])	Throws IllegalArgumentExceptionSee Also TTest t double double
+Max.getResult()	Returns the current value of the Statistic
+SynchronizedSummaryStatistics.getGeoMeanImpl()	Returns the currently configured geometric mean implementation Overrides getGeoMeanImpl in class SummaryStatistics Returns the StorelessUnivariateStatistic implementing the geometric mean
+GeometricMean.setSumLogImpl(StorelessUnivariateStatistic)	Sets the implementation for the sum of logs
+DescriptiveStatistics.getSumImpl()	Returns the currently configured sum implementation
+AbstractUnivariateStatistic.copy()	Returns a copy of the statistic with the same internal state
+KMeansPlusPlusClusterer.KMeansPlusPlusClusterer(Random,EmptyClusterStrategy)	Build a clusterer
+NaturalRanking.NaturalRanking(NaNStrategy)	Create a NaturalRanking with the given NaNStrategy
+TTest.t(StatisticalSummary,StatisticalSummary)	Computes a 2 sample t statistic comparing the means of the datasets described by two StatisticalSummary instances without the assumption of equal subpopulation variances Use homoscedasticT StatisticalSummary StatisticalSummary to compute a t statistic under the equal variances assumption
+StandardDeviation.StandardDeviation(boolean)	Contructs a StandardDeviation with the specified value for the isBiasCorrected property If this property is set to true the Variance used in computing results will use the bias corrected or sample formula See Variance for details
+SynchronizedDescriptiveStatistics.clear()	Resets all statistics and storage Overrides clear in class DescriptiveStatistics
+SemiVariance.copy()	Returns a copy of the statistic with the same internal state
+StatUtils.sumSq(double[])	Returns the sum of the squares of the entries in the input array or Double NaN if the array is empty
+EuclideanIntegerPoint.centroidOf(Collection)	Returns the centroid of the given Collection of points
+SynchronizedMultivariateSummaryStatistics.setSumImpl(StorelessUnivariateStatistic[])	Sets the implementation for the Sum
+SemiVariance.isBiasCorrected()	Returns true iff biasCorrected property is set to true
+SynchronizedMultivariateSummaryStatistics.getMeanImpl()	Returns the currently configured mean implementation Overrides getMeanImpl in class MultivariateSummaryStatistics Returns the StorelessUnivariateStatistic implementing the mean
+ChiSquareTestImpl.chiSquareTestDataSetsComparison(long[],long[],double)	Description copied from interface UnknownDistributionChiSquareTest
+SynchronizedMultivariateSummaryStatistics.getMaxImpl()	Returns the currently configured maximum implementation Overrides getMaxImpl in class MultivariateSummaryStatistics Returns the StorelessUnivariateStatistic implementing the maximum
+StatUtils.geometricMean(double[],int,int)	Returns the geometric mean of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+StandardDeviation.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+AbstractMultipleLinearRegression.estimateErrorVariance()	Estimates the variance of the error
+TTest.t(double,double[])	Computes a t statistic given observed values and a comparison constant
+SynchronizedSummaryStatistics.getVarianceImpl()	Returns the currently configured variance implementation Overrides getVarianceImpl in class SummaryStatistics Returns the StorelessUnivariateStatistic implementing the variance
+SummaryStatistics.copy()	Returns a copy of this SummaryStatistics instance with the same internal state
+Variance.Variance(SecondMoment)	Constructs a Variance based on an external second moment
+Clusterable.distanceFrom(Clusterable)	Returns the distance from the given point
+DescriptiveStatistics.setMeanImpl(UnivariateStatistic)	Sets the implementation for the mean
+MultivariateSummaryStatistics.getSumSq()	Returns an array whose ith entry is the sum of squares of the ith entries of the arrays that have been added using addValue double Specified by getSumSq in interface StatisticalMultivariateSummary Returns the array of component sums of squares
+StatisticalSummaryValues.StatisticalSummaryValues(double,double,long,double,double,double)	Constructor Parameters mean the sample meanvariance the sample variancen the number of observations in the samplemax the maximum valuemin the minimum valuesum the sum of the values
+VectorialCovariance.VectorialCovariance(int,boolean)	Constructs a VectorialCovariance
+SynchronizedMultivariateSummaryStatistics.setMinImpl(StorelessUnivariateStatistic[])	Sets the implementation for the minimum
+SynchronizedMultivariateSummaryStatistics.getCovariance()	Returns the covariance matrix of the values that have been added
+SummaryStatistics.getSumLogImpl()	Returns the currently configured sum of logs implementation Returns the StorelessUnivariateStatistic implementing the log sumSince 1 2
+SpearmansCorrelation.computeCorrelationMatrix(RealMatrix)	Computes the Spearman s rank correlation matrix for the columns of the input matrix
+AbstractStorelessUnivariateStatistic.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatistic
+TTest.homoscedasticTTest(StatisticalSummary,StatisticalSummary)	Returns the observed significance level or p value associated with a two sample two tailed t test comparing the means of the datasets described by two StatisticalSummary instances under the hypothesis of equal subpopulation variances To perform a test without the equal variances assumption use tTest StatisticalSummary StatisticalSummary
+FirstMoment.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+TestUtils.setOneWayAnova(OneWayAnova)	Set the singleton OneWayAnova instance Parameters oneWayAnova the new instance to useSince 1 2
+TestUtils.chiSquare(long[][])	Throws IllegalArgumentExceptionSee Also ChiSquareTest chiSquare long
+SumOfSquares.copy()	Returns a copy of the statistic with the same internal state
+OneWayAnova.anovaFValue(Collection)	Computes the ANOVA F value for a collection of double arrays
+VectorialMean.getN()	Get the number of vectors in the sample
+GeometricMean.GeometricMean()	Create a GeometricMean instance
+StatisticalMultivariateSummary.getSumSq()	Returns an array whose ith entry is the sum of squares of the ith entries of the arrays that correspond to each multivariate sample Returns the array of component sums of squares
+StatUtils.variance(double[],int,int)	Returns the variance of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+Sum.Sum(Sum)	Copy constructor creates a new Sum identical to the original Parameters original the Sum instance to copy
+TTestImpl.t(double,StatisticalSummary)	Computes a t statistic to use in comparing the mean of the dataset described by sampleStats to mu
+FirstMoment.getN()	Returns the number of values that have been added
+VectorialMean.increment(double[])	Add a new vector to the sample
+FourthMoment.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticOverrides clear in class ThirdMoment
+Frequency.getSumFreq()	Returns the sum of all frequencies
+Sum.evaluate(double[],double[],int,int)	The weighted sum of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+MultipleLinearRegression.estimateRegressionParametersStandardErrors()	Returns the standard errors of the regression parameters
+AggregateSummaryStatistics.getGeometricMean()	Returns the geometric mean of all the aggregated data
+Kurtosis.getN()	Returns the number of values that have been added
+Min.getResult()	Returns the current value of the Statistic
+DescriptiveStatistics.setSumsqImpl(UnivariateStatistic)	Sets the implementation for the sum of squares
+TTestImpl.tTest(StatisticalSummary,StatisticalSummary,double)	Performs a two sided t test evaluating the null hypothesis that sampleStats1 and sampleStats2 describe datasets drawn from populations with the same mean with significance level alpha This test does not assume that the subpopulation variances are equal To perform the test under the equal variances assumption use homoscedasticTTest StatisticalSummary StatisticalSummary
+AggregateSummaryStatistics.aggregate(Collection)	Computes aggregate summary statistics This method can be used to combine statistics computed over partitions or subsamples i e the StatisticalSummaryValues returned should contain the same values that would have been obtained by computing a single StatisticalSummary over the combined dataset
+TTestImpl.pairedT(double[],double[])	Computes a paired 2 sample t statistic based on the data in the input arrays The t statistic returned is equivalent to what would be returned by computing the one sample t statistic t double double with mu 0 and the sample array consisting of the signed differences between corresponding entries in sample1 and sample2
+StatUtils.sumLog(double[])	Returns the sum of the natural logs of the entries in the input array or Double NaN if the array is empty
+SynchronizedMultivariateSummaryStatistics.getMin()	Returns an array whose ith entry is the minimum of the ith entries of the arrays that have been added using MultivariateSummaryStatistics addValue double Specified by getMin in interface StatisticalMultivariateSummaryOverrides getMin in class MultivariateSummaryStatistics Returns the array of component minima
+SummaryStatistics.getVariance()	Returns the variance of the values that have been added
+TestUtils.chiSquare(double[],long[])	Throws IllegalArgumentExceptionSee Also ChiSquareTest chiSquare double long
+Sum.copy()	Returns a copy of the statistic with the same internal state
+Mean.evaluate(double[],double[],int,int)	Returns the weighted arithmetic mean of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+GeometricMean.copy()	Returns a copy of the statistic with the same internal state
+VectorialMean.getResult()	Get the mean vector
+StandardDeviation.isBiasCorrected()	
+Variance.Variance(boolean,SecondMoment)	Constructs a Variance with the specified isBiasCorrected property and the supplied external second moment
+SynchronizedMultivariateSummaryStatistics.getN()	Returns the number of available values Specified by getN in interface StatisticalMultivariateSummaryOverrides getN in class MultivariateSummaryStatistics Returns The number of available values
+SynchronizedSummaryStatistics.setGeoMeanImpl(StorelessUnivariateStatistic)	Sets the implementation for the geometric mean
+PearsonsCorrelation.computeCorrelationMatrix(double[][])	Computes the correlation matrix for the columns of the input rectangular array The colums of the array represent values of variables to be correlated
+TestUtils.t(double,double[])	Throws IllegalArgumentExceptionSee Also TTest t double double
+TestUtils.pairedTTest(double[],double[])	Throws IllegalArgumentException MathExceptionSee Also TTest pairedTTest double double
+Covariance.getCovarianceMatrix()	Returns the covariance matrix Returns covariance matrix
+TestUtils.t(StatisticalSummary,StatisticalSummary)	Throws IllegalArgumentExceptionSee Also TTest t org apache commons math stat descriptive StatisticalSummary org apache commons math stat descriptive StatisticalSummary
+Sum.evaluate(double[],int,int)	The sum of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+Frequency.getPct(int)	Returns the percentage of values that are equal to v as a proportion between 0 and 1
+ChiSquareTestImpl.chiSquare(long[][])	Description copied from interface ChiSquareTest
+OneWayAnova.anovaPValue(Collection)	Computes the ANOVA P value for a collection of double arrays
+DescriptiveStatistics.apply(UnivariateStatistic)	Apply the given statistic to the data associated with this set of statistics
+AggregateSummaryStatistics.getSecondMoment()	Returns a statistic related to the Second Central Moment Specifically what is returned is the sum of squared deviations from the sample mean among the all of the aggregated data
+Frequency.addValue(Integer)	Adds 1 to the frequency count for v
+StatisticalSummaryValues.toString()	Generates a text report displaying values of statistics
+SimpleRegression.getSumSquaredErrors()	Returns the sum of squared errors SSE associated with the regression model
+Variance.evaluate(double[],double,int,int)	Returns the variance of the entries in the specified portion of the input array using the precomputed mean value Returns Double NaN if the designated subarray is empty
+SynchronizedDescriptiveStatistics.toString()	Generates a text report displaying univariate statistics from values that have been added Each statistic is displayed on a separate line
+SynchronizedSummaryStatistics.getStandardDeviation()	Returns the standard deviation of the values that have been added
+StatisticalSummary.getMax()	Returns the maximum of the available values Returns The max or Double NaN if no values have been added
+Frequency.hashCode()	Overrides hashCode in class Object
+Product.evaluate(double[],double[])	Returns the weighted product of the entries in the input array
+SummaryStatistics.getSummary()	Return a StatisticalSummaryValues instance reporting current statistics
+ChiSquareTest.chiSquareTest(long[][],double)	Performs a chi square test of independence evaluating the null hypothesis that the classifications represented by the counts in the columns of the input 2 way table are independent of the rows with significance level alpha Returns true iff the null hypothesis can be rejected with 100 1 alpha percent confidence
+StatUtils.mean(double[],int,int)	Returns the arithmetic mean of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+Frequency.getCumPct(Comparable)	Returns the cumulative percentage of values less than or equal to v as a proportion between 0 and 1
+Variance.evaluate(double[],int,int)	Returns the variance of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+Frequency.getCumPct(Object)	Returns the cumulative percentage of values less than or equal to v as a proportion between 0 and 1
+AbstractMultipleLinearRegression.setNoIntercept(boolean)	
+SynchronizedDescriptiveStatistics.getElement(int)	Returns the element at the specified index Overrides getElement in class DescriptiveStatistics Parameters index The Index of the element Returns return the element at the specified index
+NaturalRanking.NaturalRanking(NaNStrategy,TiesStrategy)	Create a NaturalRanking with the given NaNStrategy and TiesStrategy
+Mean.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+TestUtils.getTTest()	Return a singleton TTest instance Does not create a new instance
+PearsonsCorrelation.PearsonsCorrelation()	Create a PearsonsCorrelation instance without data
+TestUtils.chiSquareDataSetsComparison(long[],long[])	Throws IllegalArgumentExceptionSince 1 2 See Also UnknownDistributionChiSquareTest chiSquareDataSetsComparison long long
+SemiVariance.SemiVariance(boolean)	Constructs a SemiVariance with the specified biasCorrected property and default Downside varianceDirection property
+PearsonsCorrelation.correlation(double[],double[])	Computes the Pearson s product moment correlation coefficient between the two arrays
+SynchronizedMultivariateSummaryStatistics.getMean()	Returns an array whose ith entry is the mean of the ith entries of the arrays that have been added using MultivariateSummaryStatistics addValue double Specified by getMean in interface StatisticalMultivariateSummaryOverrides getMean in class MultivariateSummaryStatistics Returns the array of component means
+PearsonsCorrelation.getCorrelationStandardErrors()	Returns a matrix of standard errors associated with the estimates in the correlation matrix
+SumOfLogs.SumOfLogs()	Create a SumOfLogs instance
+Sum.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+Product.getResult()	Returns the current value of the Statistic
+TestUtils.tTest(double[],double[],double)	Throws IllegalArgumentException MathExceptionSee Also TTest tTest double double double
+Cluster.getPoints()	Get the points contained in the cluster
+SynchronizedSummaryStatistics.getMin()	Returns the minimum of the values that have been added
+OneWayAnovaImpl.anovaTest(Collection,double)	Performs an ANOVA test evaluating the null hypothesis that there is no difference among the means of the data categories
+Sum.getResult()	Returns the current value of the Statistic
+SpearmansCorrelation.SpearmansCorrelation(RealMatrix)	Create a SpearmansCorrelation from the given data matrix
+FourthMoment.FourthMoment()	Create a FourthMoment instance
+MultipleLinearRegression.estimateRegressionParametersVariance()	Estimates the variance of the regression parameters ie Var b
+TestUtils.chiSquareTest(long[][])	Throws IllegalArgumentException MathExceptionSee Also ChiSquareTest chiSquareTest long
+TTestImpl.homoscedasticT(StatisticalSummary,StatisticalSummary)	Computes a 2 sample t statistic comparing the means of the datasets described by two StatisticalSummary instances under the assumption of equal subpopulation variances To compute a t statistic without the equal variances assumption use t StatisticalSummary StatisticalSummary
+StandardDeviation.copy(StandardDeviation,StandardDeviation)	Copies source to dest
+ChiSquareTestImpl.chiSquareTest(double[],long[],double)	Performs a Chi square goodness of fit test evaluating the null hypothesis that the observed counts conform to the frequency distribution described by the expected counts with significance level alpha Returns true iff the null hypothesis can be rejected with 100 1 alpha percent confidence
+TestUtils.chiSquareTestDataSetsComparison(long[],long[])	Throws IllegalArgumentException MathExceptionSince 1 2 See Also UnknownDistributionChiSquareTest chiSquareTestDataSetsComparison long long
+Frequency.getCumPct(int)	Returns the cumulative percentage of values less than or equal to v as a proportion between 0 and 1
+SemiVariance.evaluate(double[])	This method calculates SemiVariance for the entire array against the mean using instance properties varianceDirection and biasCorrection
+SynchronizedMultivariateSummaryStatistics.equals(Object)	Returns true iff object is a MultivariateSummaryStatistics instance and all statistics have the same values as this
+Frequency.getCount(long)	Returns the number of values v
+AbstractStorelessUnivariateStatistic.AbstractStorelessUnivariateStatistic()	Copies source to dest
+AbstractStorelessUnivariateStatistic.getResult()	Returns the current value of the Statistic
+SynchronizedSummaryStatistics.getSum()	Returns the sum of the values that have been added Specified by getSum in interface StatisticalSummaryOverrides getSum in class SummaryStatistics Returns The sum or Double NaN if no values have been added
+SummaryStatistics.addValue(double)	Add a value to the data Parameters value the value to add
+Covariance.Covariance(RealMatrix)	Create a covariance matrix from a matrix whose columns represent covariates
+DescriptiveStatistics.getSkewnessImpl()	Returns the currently configured skewness implementation
+StatisticalSummary.getStandardDeviation()	Returns the standard deviation of the available values
+SynchronizedSummaryStatistics.copy(SynchronizedSummaryStatistics,SynchronizedSummaryStatistics)	Copies source to dest
+Frequency.addValue(Comparable)	Adds 1 to the frequency count for v
+TTestImpl.pairedTTest(double[],double[],double)	Performs a paired t test evaluating the null hypothesis that the mean of the paired differences between sample1 and sample2 is 0 in favor of the two sided alternative that the mean paired difference is not equal to 0 with significance level alpha
+SynchronizedSummaryStatistics.SynchronizedSummaryStatistics(SynchronizedSummaryStatistics)	A copy constructor Creates a deep copy of the original
+SynchronizedMultivariateSummaryStatistics.getSumLog()	Returns an array whose ith entry is the sum of logs of the ith entries of the arrays that have been added using MultivariateSummaryStatistics addValue double Specified by getSumLog in interface StatisticalMultivariateSummaryOverrides getSumLog in class MultivariateSummaryStatistics Returns the array of component log sums
+ChiSquareTestImpl.chiSquareTest(long[][])	Description copied from interface ChiSquareTest
+TTest.tTest(double,StatisticalSummary,double)	Performs a two sided t test evaluating the null hypothesis that the mean of the population from which the dataset described by stats is drawn equals mu
+MultivariateSummaryStatistics.hashCode()	Returns hash code based on values of statistics Overrides hashCode in class Object Returns hash code
+SynchronizedMultivariateSummaryStatistics.setGeoMeanImpl(StorelessUnivariateStatistic[])	Sets the implementation for the geometric mean
+TTestImpl.tTest(double,StatisticalSummary)	Returns the observed significance level or p value associated with a one sample two tailed t test comparing the mean of the dataset described by sampleStats with the constant mu
+OLSMultipleLinearRegression.calculateTotalSumOfSquares()	Returns the sum of squared deviations of Y from its mean
+StorelessUnivariateStatistic.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+SynchronizedSummaryStatistics.toString()	Generates a text report displaying summary statistics from values that have been added
+StatisticalMultivariateSummary.getGeometricMean()	Returns an array whose ith entry is the geometric mean of the ith entries of the arrays that correspond to each multivariate sample Returns the array of component geometric means
+EuclideanIntegerPoint.equals(Object)	Overrides equals in class Object
+SummaryStatistics.hashCode()	Returns hash code based on values of statistics Overrides hashCode in class Object Returns hash code
+SemiVariance.getVarianceDirection()	Returns the varianceDirection property
+SecondMoment.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+OLSMultipleLinearRegression.OLSMultipleLinearRegression()	Replace sample data overriding any previous sample
+TTestImpl.tTest(double,StatisticalSummary,double)	Performs a two sided t test evaluating the null hypothesis that the mean of the population from which the dataset described by stats is drawn equals mu
+PearsonsCorrelation.PearsonsCorrelation(RealMatrix,int)	Create a PearsonsCorrelation from a covariance matrix The correlation matrix is computed by scaling the covariance matrix
+TTestImpl.homoscedasticT(double[],double[])	Computes a 2 sample t statistic under the hypothesis of equal subpopulation variances To compute a t statistic without the equal variances hypothesis use t double double
+TTest.tTest(double,double[],double)	Performs a two sided t test evaluating the null hypothesis that the mean of the population from which sample is drawn equals mu
+StandardDeviation.StandardDeviation(StandardDeviation)	Copy constructor creates a new StandardDeviation identical to the original Parameters original the StandardDeviation instance to copy
+SynchronizedSummaryStatistics.setMinImpl(StorelessUnivariateStatistic)	Sets the implementation for the minimum
+Frequency.addValue(Object)	Adds 1 to the frequency count for v
+StorelessUnivariateStatistic.copy()	Returns a copy of the statistic with the same internal state
+MultivariateSummaryStatistics.getMeanImpl()	Returns the currently configured mean implementation Returns the StorelessUnivariateStatistic implementing the mean
+SumOfSquares.copy(SumOfSquares,SumOfSquares)	Copies source to dest
+SynchronizedMultivariateSummaryStatistics.getStandardDeviation()	Returns an array whose ith entry is the standard deviation of the ith entries of the arrays that have been added using MultivariateSummaryStatistics addValue double Specified by getStandardDeviation in interface StatisticalMultivariateSummaryOverrides getStandardDeviation in class MultivariateSummaryStatistics Returns the array of component standard deviations
+SynchronizedSummaryStatistics.SynchronizedSummaryStatistics()	Construct a SynchronizedSummaryStatistics instance
+FourthMoment.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+Percentile.copy()	Returns a copy of the statistic with the same internal state
+ChiSquareTestImpl.chiSquareDataSetsComparison(long[],long[])	Description copied from interface UnknownDistributionChiSquareTest
+Percentile.setData(double[])	Set the data array
+PearsonsCorrelation.computeCorrelationMatrix(RealMatrix)	Computes the correlation matrix for the columns of the input matrix
+SynchronizedMultivariateSummaryStatistics.getSumsqImpl()	Returns the currently configured sum of squares implementation Overrides getSumsqImpl in class MultivariateSummaryStatistics Returns the StorelessUnivariateStatistic implementing the sum of squares
+StandardDeviation.getResult()	Returns the current value of the Statistic
+DescriptiveStatistics.addValue(double)	Adds the value to the dataset If the dataset is at the maximum size i e the number of stored elements equals the currently configured windowSize the first oldest element in the dataset is discarded to make room for the new value
+Percentile.evaluate(double)	Returns the result of evaluating the statistic over the stored data
+Frequency.getCount(Object)	Returns the number of values v
+SynchronizedDescriptiveStatistics.SynchronizedDescriptiveStatistics(int)	Construct an instance with finite window Parameters window the finite window size
+StandardDeviation.StandardDeviation(boolean,SecondMoment)	Contructs a StandardDeviation with the specified value for the isBiasCorrected property and the supplied external moment
+ChiSquareTest.chiSquareTest(double[],long[],double)	Performs a Chi square goodness of fit test evaluating the null hypothesis that the observed counts conform to the frequency distribution described by the expected counts with significance level alpha Returns true iff the null hypothesis can be rejected with 100 1 alpha percent confidence
+SynchronizedSummaryStatistics.getVariance()	Returns the variance of the values that have been added
+Min.copy(Min,Min)	Copies source to dest
+MultivariateSummaryStatistics.getStandardDeviation()	Returns an array whose ith entry is the standard deviation of the ith entries of the arrays that have been added using addValue double Specified by getStandardDeviation in interface StatisticalMultivariateSummary Returns the array of component standard deviations
+SynchronizedSummaryStatistics.clear()	Resets all statistics and storage Overrides clear in class SummaryStatistics
+SummaryStatistics.clear()	Resets all statistics and storage
+SemiVariance.Direction.values()	Returns an array containing the constants of this enum type in the order they are declared This method may be used to iterate over the constants as follows for SemiVariance Direction c SemiVariance Direction values System out println c Returns an array containing the constants of this enum type in the order they are declared
+TestUtils.chiSquareTest(double[],long[],double)	Throws IllegalArgumentException MathExceptionSee Also ChiSquareTest chiSquareTest double long double
+SimpleRegression.predict(double)	Returns the predicted y value associated with the supplied x value based on the data that has been added to the model when this method is activated
+StatUtils.sumSq(double[],int,int)	Returns the sum of the squares of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+OLSMultipleLinearRegression.calculateRSquared()	Returns the R Squared statistic defined by the formula R2 1 SSR SSTO where SSR is the sum of squared residuals and SSTO is the total sum of squares Returns R square statisticSince 2 2
+AggregateSummaryStatistics.getN()	Returns the number of available values This version returns a count of all the aggregated data
+DescriptiveStatistics.toString()	Generates a text report displaying univariate statistics from values that have been added Each statistic is displayed on a separate line
+AbstractUnivariateStatistic.evaluate(double[],int,int)	Returns the result of evaluating the statistic over the specified entries in the input array
+SynchronizedSummaryStatistics.setSumsqImpl(StorelessUnivariateStatistic)	Sets the implementation for the sum of squares
+SummaryStatistics.getMinImpl()	Returns the currently configured minimum implementation Returns the StorelessUnivariateStatistic implementing the minimumSince 1 2
+Kurtosis.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+OLSMultipleLinearRegression.calculateHat()	Compute the hat matrix
+SummaryStatistics.setSumsqImpl(StorelessUnivariateStatistic)	Sets the implementation for the sum of squares
+StandardDeviation.evaluate(double[],double)	Returns the Standard Deviation of the entries in the input array using the precomputed mean value Returns Double NaN if the designated subarray is empty
+Mean.Mean()	Constructs a Mean
+SummaryStatistics.getGeometricMean()	Returns the geometric mean of the values that have been added
+DescriptiveStatistics.setKurtosisImpl(UnivariateStatistic)	Sets the implementation for the kurtosis
+Frequency.getCumFreq(long)	Returns the cumulative frequency of values less than or equal to v
+DescriptiveStatistics.setVarianceImpl(UnivariateStatistic)	Sets the implementation for the variance
+Covariance.Covariance(double[][],boolean)	Create a Covariance matrix from a rectangular array whose columns represent covariates
+PearsonsCorrelation.PearsonsCorrelation(double[][])	Create a PearsonsCorrelation from a rectangular array whose columns represent values of variables to be correlated
+ChiSquareTestImpl.chiSquare(double[],long[])	Computes the Chi Square statistic comparing observed and expected frequency counts
+Max.getN()	Returns the number of values that have been added
+SummaryStatistics.getMaxImpl()	Returns the currently configured maximum implementation Returns the StorelessUnivariateStatistic implementing the maximumSince 1 2
+StatisticalMultivariateSummary.getN()	Returns the number of available values Returns The number of available values
+TestUtils.getUnknownDistributionChiSquareTest()	Return a singleton UnknownDistributionChiSquareTest instance Does not create a new instance
+DescriptiveStatistics.removeMostRecentValue()	Removes the most recent value from the dataset
+AbstractStorelessUnivariateStatistic.copy()	Returns a copy of the statistic with the same internal state
+KMeansPlusPlusClusterer.EmptyClusterStrategy.valueOf(String)	Returns the enum constant of this type with the specified name
+AggregateSummaryStatistics.AggregateSummaryStatistics(SummaryStatistics,SummaryStatistics)	Initializes a new AggregateSummaryStatistics with the specified statistics object as a prototype for contributing statistics and for the internal aggregate statistics This provides for different statistics implementations to be used by contributing and aggregate statistics and for an initial state to be supplied for the aggregate statistics
+TTestImpl.homoscedasticTTest(double[],double[])	Returns the observed significance level or p value associated with a two sample two tailed t test comparing the means of the input arrays under the assumption that the two samples are drawn from subpopulations with equal variances
+Skewness.copy(Skewness,Skewness)	Copies source to dest
+AggregateSummaryStatistics.getVariance()	Returns the variance of the available values This version returns the variance of all the aggregated data
+Frequency.equals(Object)	Overrides equals in class Object
+SynchronizedMultivariateSummaryStatistics.setSumsqImpl(StorelessUnivariateStatistic[])	Sets the implementation for the sum of squares
+Percentile.Percentile(Percentile)	Copy constructor creates a new Percentile identical to the original Parameters original the Percentile instance to copy
+SumOfLogs.getN()	Returns the number of values that have been added
+Median.Median()	Default constructor
+SummaryStatistics.SummaryStatistics(SummaryStatistics)	A copy constructor Creates a deep copy of the original
+StandardDeviation.evaluate(double[],double,int,int)	Returns the Standard Deviation of the entries in the specified portion of the input array using the precomputed mean value Returns Double NaN if the designated subarray is empty
+SemiVariance.evaluate(double[],double)	Returns the SemiVariance of the designated values against the cutoff using instance properties variancDirection and biasCorrection
+StatUtils.max(double[])	Returns the maximum of the entries in the input array or Double NaN if the array is empty
+SummaryStatistics.setMeanImpl(StorelessUnivariateStatistic)	Sets the implementation for the mean
+Max.Max(Max)	Copy constructor creates a new Max identical to the original Parameters original the Max instance to copy
+SimpleRegression.getMeanSquareError()	Returns the sum of squared errors divided by the degrees of freedom usually abbreviated MSE
+ChiSquareTest.chiSquare(double[],long[])	Computes the Chi Square statistic comparing observed and expected frequency counts
+SummaryStatistics.getSecondMoment()	Returns a statistic related to the Second Central Moment Specifically what is returned is the sum of squared deviations from the sample mean among the values that have been added
+GLSMultipleLinearRegression.GLSMultipleLinearRegression()	Estimates the standard error of the regression
+SpearmansCorrelation.getRankCorrelation()	Returns a PearsonsCorrelation instance constructed from the ranked input data That is new SpearmansCorrelation matrix getRankCorrelation is equivalent to new PearsonsCorrelation rankTransform matrix where rankTransform matrix is the result of applying the configured RankingAlgorithm to each of the columns of matrix
+PearsonsCorrelation.PearsonsCorrelation(Covariance)	Create a PearsonsCorrelation from a Covariance The correlation matrix is computed by scaling the Covariance s covariance matrix
+AbstractStorelessUnivariateStatistic.evaluate(double[])	This default implementation calls clear then invokes increment double in a loop over the the input array and then uses getResult to compute the return value
+SummaryStatistics.getGeoMeanImpl()	Returns the currently configured geometric mean implementation Returns the StorelessUnivariateStatistic implementing the geometric meanSince 1 2
+StandardDeviation.getN()	Returns the number of values that have been added
+GLSMultipleLinearRegression.newSampleData(double[],double[][],double[][])	Replace sample data overriding any previous sample
+SemiVariance.SemiVariance()	Constructs a SemiVariance with default true biasCorrected property and default Downside varianceDirection property
+DescriptiveStatistics.DescriptiveStatistics(DescriptiveStatistics)	Copy constructor Construct a new DescriptiveStatistics instance that is a copy of original
+StatisticalSummary.getVariance()	Returns the variance of the available values
+StandardDeviation.evaluate(double[],int,int)	Returns the Standard Deviation of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+AggregateSummaryStatistics.getSumsq()	Returns the sum of the squares of all the aggregated data
+Kurtosis.Kurtosis(FourthMoment)	Construct a Kurtosis from an external moment Parameters m4 external Moment
+MultipleLinearRegression.estimateRegressandVariance()	Returns the variance of the regressand ie Var y
+SynchronizedSummaryStatistics.getMaxImpl()	Returns the currently configured maximum implementation Overrides getMaxImpl in class SummaryStatistics Returns the StorelessUnivariateStatistic implementing the maximum
+SynchronizedMultivariateSummaryStatistics.addValue(double[])	Add an n tuple to the data Overrides addValue in class MultivariateSummaryStatistics Parameters value the n tuple to add Throws DimensionMismatchException if the length of the array does not match the one used at construction
+DescriptiveStatistics.setMaxImpl(UnivariateStatistic)	Sets the implementation for the maximum
+StorelessUnivariateStatistic.clear()	Clears the internal state of the Statistic
+Frequency.getCount(Comparable)	Returns the number of values v
+SummaryStatistics.SummaryStatistics()	Construct a SummaryStatistics instance
+StandardDeviation.evaluate(double[])	Returns the Standard Deviation of the entries in the input array or Double NaN if the array is empty
+MultivariateSummaryStatistics.setMaxImpl(StorelessUnivariateStatistic[])	Sets the implementation for the maximum
+TTestImpl.homoscedasticTTest(StatisticalSummary,StatisticalSummary)	Returns the observed significance level or p value associated with a two sample two tailed t test comparing the means of the datasets described by two StatisticalSummary instances under the hypothesis of equal subpopulation variances To perform a test without the equal variances assumption use tTest StatisticalSummary StatisticalSummary
+NaturalRanking.NaturalRanking(TiesStrategy)	Create a NaturalRanking with the given TiesStrategy
+TestUtils.setUnknownDistributionChiSquareTest(UnknownDistributionChiSquareTest)	Set the singleton UnknownDistributionChiSquareTest instance
+StatUtils.percentile(double[],int,int,double)	Returns an estimate of the pth percentile of the values in the values array starting with the element in 0 based position begin in the array and including length values
+Kurtosis.getResult()	Returns the current value of the Statistic
+Kurtosis.copy(Kurtosis,Kurtosis)	Copies source to dest
+SynchronizedSummaryStatistics.setSumImpl(StorelessUnivariateStatistic)	Sets the implementation for the Sum
+SimpleRegression.getN()	Returns the number of observations that have been added to the model
+ThirdMoment.ThirdMoment()	Create a FourthMoment instance
+GeometricMean.GeometricMean(SumOfLogs)	Create a GeometricMean instance using the given SumOfLogs instance Parameters sumOfLogs sum of logs instance to use for computation
+FirstMoment.FirstMoment(FirstMoment)	Copy constructor creates a new FirstMoment identical to the original Parameters original the FirstMoment instance to copy
+StatUtils.percentile(double[],double)	Returns an estimate of the pth percentile of the values in the values array
+MultipleLinearRegression.estimateResiduals()	Estimates the residuals ie u y X b
+DescriptiveStatistics.setGeometricMeanImpl(UnivariateStatistic)	Sets the implementation for the gemoetric mean
+Mean.getN()	Returns the number of values that have been added
+SynchronizedMultivariateSummaryStatistics.getSum()	Returns an array whose ith entry is the sum of the ith entries of the arrays that have been added using MultivariateSummaryStatistics addValue double Specified by getSum in interface StatisticalMultivariateSummaryOverrides getSum in class MultivariateSummaryStatistics Returns the array of component sums
+MultivariateSummaryStatistics.getMax()	Returns an array whose ith entry is the maximum of the ith entries of the arrays that have been added using addValue double Specified by getMax in interface StatisticalMultivariateSummary Returns the array of component maxima
+SynchronizedMultivariateSummaryStatistics.setMaxImpl(StorelessUnivariateStatistic[])	Sets the implementation for the maximum
+DescriptiveStatistics.getPercentile(double)	Returns an estimate for the pth percentile of the stored values
+TTestImpl.tTest(double,double[],double)	Performs a two sided t test evaluating the null hypothesis that the mean of the population from which sample is drawn equals mu
+AggregateSummaryStatistics.getMean()	Returns the arithmetic mean of the available values This version returns the mean of all the aggregated data
+StatisticalMultivariateSummary.getMax()	Returns an array whose ith entry is the maximum of the ith entries of the arrays that correspond to each multivariate sample Returns the array of component maxima
+SynchronizedSummaryStatistics.getSumsq()	Returns the sum of the squares of the values that have been added
+SimpleRegression.removeData(double,double)	Removes the observation x y from the regression data set
+Percentile.copy(Percentile,Percentile)	Copies source to dest
+OLSMultipleLinearRegression.calculateResidualSumOfSquares()	Returns the sum of squared residuals
+MultivariateSummaryStatistics.setSumsqImpl(StorelessUnivariateStatistic[])	Sets the implementation for the sum of squares
+MultivariateSummaryStatistics.setSumImpl(StorelessUnivariateStatistic[])	Sets the implementation for the Sum
+Covariance.covariance(double[],double[])	Computes the covariance between the two arrays using the bias corrected formula
+UnknownDistributionChiSquareTest.chiSquareTestDataSetsComparison(long[],long[],double)	Performs a Chi Square two sample test comparing two binned data sets The test evaluates the null hypothesis that the two lists of observed counts conform to the same frequency distribution with significance level alpha Returns true iff the null hypothesis can be rejected with 100 1 alpha percent confidence
+MultivariateSummaryStatistics.getCovariance()	Returns the covariance matrix of the values that have been added
+Variance.evaluate(double[],double[],double)	Returns the weighted variance of the values in the input array using the precomputed weighted mean value
+DescriptiveStatistics.setWindowSize(int)	WindowSize controls the number of values which contribute to the reported statistics For example if windowSize is set to 3 and the values 1 2 3 4 5 have been added in that order then the available values are 3 4 5 and all reported statistics will be based on these values Parameters windowSize sets the size of the window
+Frequency.addValue(char)	Adds 1 to the frequency count for v
+DescriptiveStatistics.getMax()	Returns the maximum of the available values Specified by getMax in interface StatisticalSummary Returns The max or Double NaN if no values have been added
+ThirdMoment.copy(ThirdMoment,ThirdMoment)	Copies source to dest
+Frequency.addValue(long)	Adds 1 to the frequency count for v
+DescriptiveStatistics.getVariance()	Returns the variance of the available values
+SummaryStatistics.getSumsq()	Returns the sum of the squares of the values that have been added
+StatUtils.mean(double[])	Returns the arithmetic mean of the entries in the input array or Double NaN if the array is empty
+SummaryStatistics.setGeoMeanImpl(StorelessUnivariateStatistic)	Sets the implementation for the geometric mean
+StandardDeviation.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+StatisticalMultivariateSummary.getStandardDeviation()	Returns an array whose ith entry is the standard deviation of the ith entries of the arrays that correspond to each multivariate sample Returns the array of component standard deviations
+TestUtils.setChiSquareTest(TTest)	Set the singleton TTest instance
+SynchronizedMultivariateSummaryStatistics.setSumLogImpl(StorelessUnivariateStatistic[])	Sets the implementation for the sum of logs
+SummaryStatistics.getN()	Returns the number of available values Specified by getN in interface StatisticalSummary Returns The number of available values
+Frequency.getPct(long)	Returns the percentage of values that are equal to v as a proportion between 0 and 1
+Frequency.getCumPct(long)	Returns the cumulative percentage of values less than or equal to v as a proportion between 0 and 1
+ThirdMoment.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+Frequency.getPct(char)	Returns the percentage of values that are equal to v as a proportion between 0 and 1
+PearsonsCorrelation.PearsonsCorrelation(RealMatrix)	Create a PearsonsCorrelation from a RealMatrix whose columns represent variables to be correlated
+ThirdMoment.copy()	Returns a copy of the statistic with the same internal state
+DescriptiveStatistics.getMinImpl()	Returns the currently configured minimum implementation
+UnivariateStatistic.evaluate(double[],int,int)	Returns the result of evaluating the statistic over the specified entries in the input array
+SemiVariance.SemiVariance(SemiVariance)	Copy constructor creates a new SemiVariance identical to the original Parameters original the SemiVariance instance to copy
+StorelessUnivariateStatistic.getResult()	Returns the current value of the Statistic
+SynchronizedMultivariateSummaryStatistics.getSumImpl()	Returns the currently configured Sum implementation Overrides getSumImpl in class MultivariateSummaryStatistics Returns the StorelessUnivariateStatistic implementing the sum
+DescriptiveStatistics.getPercentileImpl()	Returns the currently configured percentile implementation
+Max.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+Frequency.valuesIterator()	Returns an Iterator over the set of values that have been added
+SumOfLogs.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+Clusterable.centroidOf(Collection)	Returns the centroid of the given Collection of points
+AbstractMultipleLinearRegression.estimateRegressionStandardError()	Estimates the standard error of the regression
+Variance.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticSpecified by clear in class AbstractStorelessUnivariateStatistic
+Frequency.addValue(int)	Adds 1 to the frequency count for v
+TestUtils.chiSquareTest(double[],long[])	Throws IllegalArgumentException MathExceptionSee Also ChiSquareTest chiSquareTest double long
+Variance.Variance(boolean)	Constructs a Variance with the specified isBiasCorrected property Parameters isBiasCorrected setting for bias correction true means bias will be corrected and is equivalent to using the argumentless constructor
+NaturalRanking.NaturalRanking(NaNStrategy,RandomGenerator)	Create a NaturalRanking with the given NaNStrategy TiesStrategy RANDOM and the given source of random data
+SimpleRegression.addData(double,double)	Adds the observation x y to the regression data set
+VectorialCovariance.increment(double[])	Add a new vector to the sample
+Mean.evaluate(double[],int,int)	Returns the arithmetic mean of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+SynchronizedDescriptiveStatistics.copy()	Returns a copy of this SynchronizedDescriptiveStatistics instance with the same internal state
+Frequency.getCumFreq(char)	Returns the cumulative frequency of values less than or equal to v
+DescriptiveStatistics.getSumsqImpl()	Returns the currently configured sum of squares implementation
+SimpleRegression.addData(double[][])	Adds the observations represented by the elements in data
+SummaryStatistics.equals(Object)	Returns true iff object is a SummaryStatistics instance and all statistics have the same values as this
+DescriptiveStatistics.getWindowSize()	Returns the maximum number of values that can be stored in the dataset or INFINITE WINDOW 1 if there is no limit
+OneWayAnovaImpl.OneWayAnovaImpl()	Default constructor
+SummaryStatistics.getSumOfLogs()	Returns the sum of the logs of the values that have been added
+Variance.Variance(Variance)	Copy constructor creates a new Variance identical to the original Parameters original the Variance instance to copy
+AbstractStorelessUnivariateStatistic.hashCode()	Returns hash code based on getResult and getN Overrides hashCode in class Object Returns hash code
+EuclideanIntegerPoint.getPoint()	Get the n dimensional point in integer space
+MultivariateSummaryStatistics.getN()	Returns the number of available values Specified by getN in interface StatisticalMultivariateSummary Returns The number of available values
+Cluster.getCenter()	Get the point chosen to be the center of this cluster
+Skewness.Skewness(Skewness)	Copy constructor creates a new Skewness identical to the original Parameters original the Skewness instance to copy
+FirstMoment.copy(FirstMoment,FirstMoment)	Copies source to dest
+DescriptiveStatistics.DescriptiveStatistics()	Construct a DescriptiveStatistics instance with an infinite window
+SynchronizedSummaryStatistics.getSumImpl()	Returns the currently configured Sum implementation Overrides getSumImpl in class SummaryStatistics Returns the StorelessUnivariateStatistic implementing the sum
+Cluster.addPoint(Clusterable)	Add a point to this cluster
+FirstMoment.FirstMoment()	Create a FirstMoment instance
+DescriptiveStatistics.getValues()	Returns the current set of values in an array of double primitives
+Sum.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+SumOfLogs.getResult()	Returns the current value of the Statistic
+DescriptiveStatistics.getMaxImpl()	Returns the currently configured maximum implementation
+AggregateSummaryStatistics.getSummary()	Return a StatisticalSummaryValues instance reporting current aggregate statistics
+FourthMoment.copy()	Returns a copy of the statistic with the same internal state
+StatUtils.sumLog(double[],int,int)	Returns the sum of the natural logs of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+SummaryStatistics.getSumsqImpl()	Returns the currently configured sum of squares implementation Returns the StorelessUnivariateStatistic implementing the sum of squaresSince 1 2
+Frequency.clear()	Clears the frequency table
+StandardDeviation.copy()	Returns a copy of the statistic with the same internal state
+SimpleRegression.clear()	Clears all data from the model
+KMeansPlusPlusClusterer.KMeansPlusPlusClusterer(Random)	Build a clusterer
+FourthMoment.FourthMoment(FourthMoment)	Copy constructor creates a new FourthMoment identical to the original Parameters original the FourthMoment instance to copy
+MultivariateSummaryStatistics.getSumLog()	Returns an array whose ith entry is the sum of logs of the ith entries of the arrays that have been added using addValue double Specified by getSumLog in interface StatisticalMultivariateSummary Returns the array of component log sums
+SimpleRegression.getSignificance()	Returns the significance level of the slope equiv correlation
+StatUtils.variance(double[],double)	Returns the variance of the entries in the input array using the precomputed mean value Returns Double NaN if the array is empty
+SecondMoment.getResult()	Returns the current value of the Statistic
+Min.Min()	Create a Min instance
+SynchronizedSummaryStatistics.setVarianceImpl(StorelessUnivariateStatistic)	Sets the implementation for the variance
+OLSMultipleLinearRegression.calculateAdjustedRSquared()	Returns the adjusted R squared statistic defined by the formula R2adj 1 SSR n 1 SSTO n p where SSR is the sum of squared residuals SSTO is the total sum of squares n is the number of observations and p is the number of parameters estimated including the intercept
+SemiVariance.evaluate(double[],double,Direction,boolean,int,int)	Returns the SemiVariance of the designated values against the cutoff in the given direction with the provided bias correction
+MultipleLinearRegression.estimateRegressionParameters()	Estimates the regression parameters b
+SynchronizedMultivariateSummaryStatistics.hashCode()	Returns hash code based on values of statistics Overrides hashCode in class MultivariateSummaryStatistics Returns hash code
+AbstractUnivariateStatistic.AbstractUnivariateStatistic()	Copies source to dest
+SynchronizedDescriptiveStatistics.addValue(double)	Adds the value to the dataset If the dataset is at the maximum size i e the number of stored elements equals the currently configured windowSize the first oldest element in the dataset is discarded to make room for the new value
+SumOfSquares.SumOfSquares()	Create a SumOfSquares instance
+StatUtils.varianceDifference(double[],double[],double)	Returns the variance of the signed differences between corresponding elements of the input arrays i e var sample1 i sample2 i
+SynchronizedSummaryStatistics.getSumLogImpl()	Returns the currently configured sum of logs implementation Overrides getSumLogImpl in class SummaryStatistics Returns the StorelessUnivariateStatistic implementing the log sum
+Variance.evaluate(double[],double[],double,int,int)	Returns the weighted variance of the entries in the specified portion of the input array using the precomputed weighted mean value Returns Double NaN if the designated subarray is empty
+MultivariateSummaryStatistics.getMinImpl()	Returns the currently configured minimum implementation Returns the StorelessUnivariateStatistic implementing the minimum
+TestUtils.oneWayAnovaTest(Collection,double)	Throws IllegalArgumentException MathExceptionSince 1 2 See Also OneWayAnova anovaTest Collection double
+Percentile.evaluate(double[],int,int)	Returns an estimate of the quantileth percentile of the designated values in the values array The quantile estimated is determined by the quantile property
+SimpleRegression.SimpleRegression(TDistribution)	Create an empty SimpleRegression using the given distribution object to compute inference statistics
+OneWayAnovaImpl.anovaFValue(Collection)	Computes the ANOVA F value for a collection of double arrays
+SynchronizedMultivariateSummaryStatistics.getSumSq()	Returns an array whose ith entry is the sum of squares of the ith entries of the arrays that have been added using MultivariateSummaryStatistics addValue double Specified by getSumSq in interface StatisticalMultivariateSummaryOverrides getSumSq in class MultivariateSummaryStatistics Returns the array of component sums of squares
+Variance.isBiasCorrected()	
+Product.copy(Product,Product)	Copies source to dest
+DescriptiveStatistics.DescriptiveStatistics(double[])	Construct a DescriptiveStatistics instance with an infinite window and the initial data values in double initialDoubleArray
+TTest.homoscedasticT(StatisticalSummary,StatisticalSummary)	Computes a 2 sample t statistic comparing the means of the datasets described by two StatisticalSummary instances under the assumption of equal subpopulation variances To compute a t statistic without the equal variances assumption use t StatisticalSummary StatisticalSummary
+SemiVariance.evaluate(double[],double,Direction)	Returns the SemiVariance of the designated values against the cutoff in the given direction using the current value of the biasCorrection instance property
+Max.evaluate(double[],int,int)	Returns the maximum of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+SynchronizedSummaryStatistics.addValue(double)	Add a value to the data Overrides addValue in class SummaryStatistics Parameters value the value to add
+FirstMoment.copy()	Returns a copy of the statistic with the same internal state
+Product.evaluate(double[],double[],int,int)	Returns the weighted product of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+SummaryStatistics.setSumLogImpl(StorelessUnivariateStatistic)	Sets the implementation for the sum of logs
+SynchronizedSummaryStatistics.getGeometricMean()	Returns the geometric mean of the values that have been added
+ChiSquareTestImpl.ChiSquareTestImpl(ChiSquaredDistribution)	Create a test instance using the given distribution for computing inference statistics
+FourthMoment.copy(FourthMoment,FourthMoment)	Copies source to dest
+AggregateSummaryStatistics.getSumOfLogs()	Returns the sum of the logs of all the aggregated data
+SimpleRegression.getSumOfCrossProducts()	Returns the sum of crossproducts xi yi
+SimpleRegression.setDistribution(TDistribution)	Modify the distribution used to compute inference statistics
+EuclideanIntegerPoint.toString()	Overrides toString in class Object Since 2 1
+TestUtils.pairedTTest(double[],double[],double)	Throws IllegalArgumentException MathExceptionSee Also TTest pairedTTest double double double
+TestUtils.getChiSquareTest()	Return a singleton ChiSquareTest instance Does not create a new instance
+Median.Median(Median)	Copy constructor creates a new Median identical to the original Parameters original the Median instance to copy
+AggregateSummaryStatistics.createContributingStatistics()	Creates and returns a SummaryStatistics whose data will be aggregated with those of this AggregateSummaryStatistics
+Covariance.Covariance(double[][])	Create a Covariance matrix from a rectangular array whose columns represent covariates
+Min.getN()	Returns the number of values that have been added
+GeometricMean.getSumLogImpl()	Returns the currently configured sum of logs implementation Returns the StorelessUnivariateStatistic implementing the log sum
+Sum.getN()	Returns the number of values that have been added
+SynchronizedMultivariateSummaryStatistics.toString()	Generates a text report displaying summary statistics from values that have been added
+TTestImpl.TTestImpl()	Default constructor
+KMeansPlusPlusClusterer.cluster(Collection,int,int)	Runs the K means clustering algorithm
+TTestImpl.tTest(double,double[])	Returns the observed significance level or p value associated with a one sample two tailed t test comparing the mean of the input array with the constant mu
+DescriptiveStatistics.setSumImpl(UnivariateStatistic)	Sets the implementation for the sum
+TTest.pairedT(double[],double[])	Computes a paired 2 sample t statistic based on the data in the input arrays The t statistic returned is equivalent to what would be returned by computing the one sample t statistic t double double with mu 0 and the sample array consisting of the signed differences between corresponding entries in sample1 and sample2
+UnivariateStatistic.copy()	Returns a copy of the statistic with the same internal state
+Percentile.setQuantile(double)	Sets the value of the quantile field determines what percentile is computed when evaluate is called with no quantile argument
+NaturalRanking.NaturalRanking(RandomGenerator)	Create a NaturalRanking with TiesStrategy RANDOM and the given RandomGenerator as the source of random data
+DescriptiveStatistics.getN()	Returns the number of available values Specified by getN in interface StatisticalSummary Returns The number of available values
+Skewness.evaluate(double[],int,int)	Returns the Skewness of the entries in the specifed portion of the input array
+Percentile.Percentile()	Constructs a Percentile with a default quantile value of 50 0
+AggregateSummaryStatistics.getSum()	Returns the sum of the values that have been added to Univariate This version returns a sum of all the aggregated data
+StatisticalMultivariateSummary.getMean()	Returns an array whose ith entry is the mean of the ith entries of the arrays that correspond to each multivariate sample Returns the array of component means
+SimpleRegression.getR()	Returns Pearson s product moment correlation coefficient usually denoted r
+StorelessUnivariateStatistic.incrementAll(double[],int,int)	Updates the internal state of the statistic to reflect addition of the values in the designated portion of the values array Does not clear the statistic first i e the values are added incrementally to the dataset
+Kurtosis.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+StatisticalMultivariateSummary.getSumLog()	Returns an array whose ith entry is the sum of logs of the ith entries of the arrays that correspond to each multivariate sample Returns the array of component log sums
+StatisticalSummaryValues.getStandardDeviation()	Description copied from interface StatisticalSummary
+ThirdMoment.clear()	Clears the internal state of the Statistic Specified by clear in interface StorelessUnivariateStatisticOverrides clear in class SecondMoment
+GeometricMean.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+Frequency.getCount(int)	Returns the number of values v
+DescriptiveStatistics.getKurtosisImpl()	Returns the currently configured kurtosis implementation
+StatisticalSummary.getN()	Returns the number of available values Returns The number of available values
+DescriptiveStatistics.setPercentileImpl(UnivariateStatistic)	Sets the implementation to be used by getPercentile double
+Variance.getResult()	Returns the current value of the Statistic
+StatisticalMultivariateSummary.getCovariance()	Returns the covariance of the available values
+VectorialCovariance.equals(Object)	Overrides equals in class Object
+TTestImpl.tTest(double[],double[],double)	Performs a two sided t test evaluating the null hypothesis that sample1 and sample2 are drawn from populations with the same mean with significance level alpha This test does not assume that the subpopulation variances are equal To perform the test assuming equal variances use homoscedasticTTest double double double
+MultivariateSummaryStatistics.addValue(double[])	Add an n tuple to the data Parameters value the n tuple to add Throws DimensionMismatchException if the length of the array does not match the one used at construction
+AggregateSummaryStatistics.AggregateSummaryStatistics()	Initializes a new AggregateSummaryStatistics with default statistics implementations
+TTest.pairedTTest(double[],double[])	Returns the observed significance level or p value associated with a paired two sample two tailed t test based on the data in the input arrays
+SynchronizedSummaryStatistics.copy()	Returns a copy of this SynchronizedSummaryStatistics instance with the same internal state
+TTest.t(double,StatisticalSummary)	Computes a t statistic to use in comparing the mean of the dataset described by sampleStats to mu
+NaturalRanking.getNanStrategy()	Return the NaNStrategy Returns returns the NaNStrategy
+AbstractUnivariateStatistic.evaluate()	Returns the result of evaluating the statistic over the stored data
+SynchronizedMultivariateSummaryStatistics.getMax()	Returns an array whose ith entry is the maximum of the ith entries of the arrays that have been added using MultivariateSummaryStatistics addValue double Specified by getMax in interface StatisticalMultivariateSummaryOverrides getMax in class MultivariateSummaryStatistics Returns the array of component maxima
+SecondMoment.SecondMoment()	Create a SecondMoment instance
+StatisticalSummaryValues.getMean()	Description copied from interface StatisticalSummary
+Mean.copy()	Returns a copy of the statistic with the same internal state
+VectorialMean.equals(Object)	Overrides equals in class Object
+SemiVariance.SemiVariance(Direction)	Constructs a SemiVariance with the specified Direction property and default true biasCorrected property Parameters direction setting for the direction of the SemiVariance to calculate
+Frequency.getCumFreq(Object)	Returns the cumulative frequency of values less than or equal to v
+TestUtils.homoscedasticTTest(StatisticalSummary,StatisticalSummary)	Throws IllegalArgumentException MathExceptionSee Also TTest homoscedasticTTest org apache commons math stat descriptive StatisticalSummary org apache commons math stat descriptive StatisticalSummary
+Product.copy()	Returns a copy of the statistic with the same internal state
+TiesStrategy.values()	Returns an array containing the constants of this enum type in the order they are declared This method may be used to iterate over the constants as follows for TiesStrategy c TiesStrategy values System out println c Returns an array containing the constants of this enum type in the order they are declared
+SynchronizedMultivariateSummaryStatistics.getGeoMeanImpl()	Returns the currently configured geometric mean implementation Overrides getGeoMeanImpl in class MultivariateSummaryStatistics Returns the StorelessUnivariateStatistic implementing the geometric mean
+ChiSquareTest.chiSquareTest(long[][])	Returns the observed significance level or p value associated with a chi square test of independence based on the input counts array viewed as a two way table
+AggregateSummaryStatistics.getMin()	Returns the minimum of the available values This version returns the minimum over all the aggregated data
+StatisticalSummaryValues.getMin()	Description copied from interface StatisticalSummary
+StatisticalSummary.getSum()	Returns the sum of the values that have been added to Univariate
+Mean.Mean(FirstMoment)	Constructs a Mean with an External Moment
+StatisticalSummaryValues.getMax()	Description copied from interface StatisticalSummary
+SynchronizedMultivariateSummaryStatistics.getGeometricMean()	Returns an array whose ith entry is the geometric mean of the ith entries of the arrays that have been added using MultivariateSummaryStatistics addValue double Specified by getGeometricMean in interface StatisticalMultivariateSummaryOverrides getGeometricMean in class MultivariateSummaryStatistics Returns the array of component geometric means
+SummaryStatistics.setSumImpl(StorelessUnivariateStatistic)	Sets the implementation for the Sum
+SumOfLogs.SumOfLogs(SumOfLogs)	Copy constructor creates a new SumOfLogs identical to the original Parameters original the SumOfLogs instance to copy
+AggregateSummaryStatistics.getMax()	Returns the maximum of the available values This version returns the maximum over all the aggregated data
+TestUtils.homoscedasticT(double[],double[])	Throws IllegalArgumentExceptionSee Also TTest homoscedasticT double double
+SummaryStatistics.getMeanImpl()	Returns the currently configured mean implementation Returns the StorelessUnivariateStatistic implementing the meanSince 1 2
+TTestImpl.setDistribution(TDistribution)	Modify the distribution used to compute inference statistics
+SynchronizedDescriptiveStatistics.getValues()	Returns the current set of values in an array of double primitives
+MultivariateSummaryStatistics.getMaxImpl()	Returns the currently configured maximum implementation Returns the StorelessUnivariateStatistic implementing the maximum
+MultivariateSummaryStatistics.toString()	Generates a text report displaying summary statistics from values that have been added
+NaturalRanking.NaturalRanking()	Create a NaturalRanking with default strategies for handling ties and NaNs
+SynchronizedSummaryStatistics.getSumsqImpl()	Returns the currently configured sum of squares implementation Overrides getSumsqImpl in class SummaryStatistics Returns the StorelessUnivariateStatistic implementing the sum of squares
+StandardDeviation.setBiasCorrected(boolean)	
+SynchronizedMultivariateSummaryStatistics.SynchronizedMultivariateSummaryStatistics(int,boolean)	Construct a SynchronizedMultivariateSummaryStatistics instance Parameters k dimension of the dataisCovarianceBiasCorrected if true the unbiased sample covariance is computed otherwise the biased population covariance is computed
+TestUtils.homoscedasticTTest(double[],double[])	Throws IllegalArgumentException MathExceptionSee Also TTest homoscedasticTTest double double
+Max.copy()	Returns a copy of the statistic with the same internal state
+StorelessUnivariateStatistic.getN()	Returns the number of values that have been added
+SynchronizedMultivariateSummaryStatistics.getSumLogImpl()	Returns the currently configured sum of logs implementation Overrides getSumLogImpl in class MultivariateSummaryStatistics Returns the StorelessUnivariateStatistic implementing the log sum
+AbstractMultipleLinearRegression.estimateRegressionParameters()	Estimates the regression parameters b
+Mean.Mean(Mean)	Copy constructor creates a new Mean identical to the original Parameters original the Mean instance to copy
+TestUtils.homoscedasticTTest(double[],double[],double)	Throws IllegalArgumentException MathExceptionSee Also TTest homoscedasticTTest double double double
+SynchronizedDescriptiveStatistics.setWindowSize(int)	WindowSize controls the number of values which contribute to the reported statistics For example if windowSize is set to 3 and the values 1 2 3 4 5 have been added in that order then the available values are 3 4 5 and all reported statistics will be based on these values Overrides setWindowSize in class DescriptiveStatistics Parameters windowSize sets the size of the window
+StatUtils.max(double[],int,int)	Returns the maximum of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+AbstractMultipleLinearRegression.isNoIntercept()	
+ThirdMoment.getResult()	Returns the current value of the Statistic
+SemiVariance.setBiasCorrected(boolean)	Sets the biasCorrected property
+TTestImpl.t(double,double[])	Computes a t statistic given observed values and a comparison constant
+TestUtils.chiSquareTest(long[][],double)	Throws IllegalArgumentException MathExceptionSee Also ChiSquareTest chiSquareTest long double
+TestUtils.t(double,StatisticalSummary)	Throws IllegalArgumentExceptionSee Also TTest t double org apache commons math stat descriptive StatisticalSummary
+TestUtils.homoscedasticT(StatisticalSummary,StatisticalSummary)	Throws IllegalArgumentExceptionSee Also TTest homoscedasticT org apache commons math stat descriptive StatisticalSummary org apache commons math stat descriptive StatisticalSummary
+Skewness.copy()	Returns a copy of the statistic with the same internal state
+TestUtils.oneWayAnovaPValue(Collection)	Throws IllegalArgumentException MathExceptionSince 1 2 See Also OneWayAnova anovaPValue Collection
+TestUtils.tTest(StatisticalSummary,StatisticalSummary)	Throws IllegalArgumentException MathExceptionSee Also TTest tTest org apache commons math stat descriptive StatisticalSummary org apache commons math stat descriptive StatisticalSummary
+TTest.tTest(double[],double[],double)	Performs a two sided t test evaluating the null hypothesis that sample1 and sample2 are drawn from populations with the same mean with significance level alpha This test does not assume that the subpopulation variances are equal To perform the test assuming equal variances use homoscedasticTTest double double double
+Skewness.getN()	Returns the number of values that have been added
+SummaryStatistics.copy(SummaryStatistics,SummaryStatistics)	Copies source to dest
+Kurtosis.Kurtosis(Kurtosis)	Copy constructor creates a new Kurtosis identical to the original Parameters original the Kurtosis instance to copy
+AbstractStorelessUnivariateStatistic.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+SimpleRegression.getXSumSquares()	Returns the sum of squared deviations of the x values about their mean
+SumOfLogs.evaluate(double[],int,int)	Returns the sum of the natural logs of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+Max.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+GeometricMean.copy(GeometricMean,GeometricMean)	Copies source to dest
+AbstractUnivariateStatistic.getData()	Get a copy of the stored data array
+DescriptiveStatistics.getStandardDeviation()	Returns the standard deviation of the available values
+TTest.t(double[],double[])	Computes a 2 sample t statistic without the hypothesis of equal subpopulation variances To compute a t statistic assuming equal variances use homoscedasticT double double
+StatUtils.sum(double[])	Returns the sum of the values in the input array or Double NaN if the array is empty
+SpearmansCorrelation.correlation(double[],double[])	Computes the Spearman s rank correlation coefficient between the two arrays
+Product.getN()	Returns the number of values that have been added
+Skewness.Skewness(ThirdMoment)	Constructs a Skewness with an external moment Parameters m3 external moment
+WeightedEvaluation.evaluate(double[],double[],int,int)	Returns the result of evaluating the statistic over the specified entries in the input array using corresponding entries in the supplied weights array
+AbstractMultipleLinearRegression.newSampleData(double[],int,int)	Loads model x and y sample data from a flat input array overriding any previous sample
+AbstractUnivariateStatistic.setData(double[])	Set the data array
+TTest.homoscedasticTTest(double[],double[])	Returns the observed significance level or p value associated with a two sample two tailed t test comparing the means of the input arrays under the assumption that the two samples are drawn from subpopulations with equal variances
+SynchronizedSummaryStatistics.setMeanImpl(StorelessUnivariateStatistic)	Sets the implementation for the mean
+StatUtils.product(double[],int,int)	Returns the product of the entries in the specified portion of the input array or Double NaN if the designated subarray is empty
+SummaryStatistics.getStandardDeviation()	Returns the standard deviation of the values that have been added
+ChiSquareTestImpl.setDistribution(ChiSquaredDistribution)	Modify the distribution used to compute inference statistics
+Frequency.getCount(char)	Returns the number of values v
+Min.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+SumOfLogs.copy(SumOfLogs,SumOfLogs)	Copies source to dest
+DescriptiveStatistics.setSkewnessImpl(UnivariateStatistic)	Sets the implementation for the skewness
+DescriptiveStatistics.getVarianceImpl()	Returns the currently configured variance implementation
+Skewness.Skewness()	Constructs a Skewness
+Skewness.increment(double)	Updates the internal state of the statistic to reflect the addition of the new value
+Covariance.Covariance()	Create a Covariance with no data
+MultivariateSummaryStatistics.getMin()	Returns an array whose ith entry is the minimum of the ith entries of the arrays that have been added using addValue double Specified by getMin in interface StatisticalMultivariateSummary Returns the array of component minima
+TestUtils.tTest(double,double[],double)	Throws IllegalArgumentException MathExceptionSee Also TTest tTest double double double
+TestUtils.tTest(double,StatisticalSummary,double)	Throws IllegalArgumentException MathExceptionSee Also TTest tTest double org apache commons math stat descriptive StatisticalSummary double
+ThirdMoment.ThirdMoment(ThirdMoment)	Copy constructor creates a new ThirdMoment identical to the original Parameters original the ThirdMoment instance to copy
+StatisticalSummaryValues.hashCode()	Returns hash code based on values of statistics Overrides hashCode in class Object Returns hash code
+Covariance.getN()	Returns the number of observations length of covariate vectors Returns number of observations
+Sum.Sum()	Create a Sum instance
+FourthMoment.getResult()	Returns the current value of the Statistic
+EuclideanIntegerPoint.hashCode()	Overrides hashCode in class Object
+SumOfSquares.getResult()	Returns the current value of the Statistic

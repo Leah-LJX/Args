@@ -1,0 +1,20 @@
+{
+  "id": 43,
+  "description": "Read an integer from a file java.util.Scanner java.io.File",
+  "methodName": "readInteger",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.lang.String"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "java.util.Scanner",
+    "java.io.File"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/word2api/43/TestSource.java"
+}

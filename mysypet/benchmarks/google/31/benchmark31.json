@@ -1,0 +1,21 @@
+{
+  "id": 31,
+  "description": "Load an org.w3c.dom.Document from XML in a string",
+  "methodName": "loadXMLFromString",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.lang.String"
+  ],
+  "tgtType": "org.w3c.dom.Document",
+  "packages": [
+    "javax.xml.parsers",
+    "java.lang.String",
+    "java.io.ByteArrayInputStream"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/test/31/TestSource.java"
+}

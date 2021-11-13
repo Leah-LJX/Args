@@ -1,0 +1,159 @@
+Source.getSystemId()	Get the system identifier that was set with setSystemId
+TransformerHandler.setSystemId(String)	Set the base ID URI or system ID from where relative URLs will be resolved
+SAXResult.setSystemId(String)	Method setSystemId Set the systemID that may be used in association with the ContentHandler
+TransformerConfigurationException.TransformerConfigurationException()	Create a new TransformerConfigurationException with no detail mesage
+Transformer.setParameter(String,Object)	Add a parameter for the transformation
+Transformer.clearParameters()	Clear all parameters set with setParameter
+Transformer.setURIResolver(URIResolver)	Set an object that will be used to resolve URIs used in document
+DOMResult.setNode(Node)	Set the node that will contain the result DOM tree
+StreamSource.setSystemId(String)	Set the system identifier for this Source
+TransformerFactoryConfigurationError.getCause()	use the exception chaining mechanism of JDK1 4
+StreamSource.setPublicId(String)	Set the public identifier for this Source
+StreamSource.setInputStream(InputStream)	Set the byte stream to be used as input Normally a stream should be used rather than a reader so that the XML parser can resolve character encoding specified by the XML declaration
+Transformer.setOutputProperty(String,String)	Set an output property that will be in effect for the transformation
+TransformerFactoryConfigurationError.TransformerFactoryConfigurationError(Exception)	Create a new TransformerFactoryConfigurationError with a given Exception base cause of the error
+SAXTransformerFactory.newXMLFilter(Templates)	Create an XMLFilter based on the Templates argument
+ErrorListener.warning(TransformerException)	Receive notification of a warning
+StAXSource.setSystemId(String)	In the context of a StAXSource it is not appropriate to explicitly set the system identifier
+StreamSource.setReader(Reader)	Set the input to be a character reader Normally a stream should be used rather than a reader so that the XML parser can resolve character encoding specified by the XML declaration However in many cases the encoding of the input stream is already resolved as in the case of reading XML from a StringReader
+Templates.newTransformer()	Create a new transformation context for this Templates object
+SAXSource.SAXSource(InputSource)	Create a SAXSource using a SAX InputSource
+TransformerFactory.newInstance()	Obtain a new instance of a TransformerFactory
+DOMResult.DOMResult(Node,Node,String)	Use a DOM node to create a new output target specifying the child node where the result nodes should be inserted before and the specified System ID
+SAXSource.SAXSource(XMLReader,InputSource)	Create a SAXSource using an XMLReader and a SAX InputSource The Transformer or SAXTransformerFactory will set itself to be the reader s ContentHandler and then will call reader parse inputSource
+TemplatesHandler.setSystemId(String)	Set the base ID URI or system ID for the Templates object created by this builder This must be set in order to resolve relative URIs in the stylesheet This must be called before the startDocument event
+StAXSource.StAXSource(XMLStreamReader)	Creates a new instance of a StAXSource by supplying an XMLStreamReader
+TransformerException.getException()	This method retrieves an exception that this exception wraps
+StAXResult.StAXResult(XMLEventWriter)	Creates a new instance of a StAXResult by supplying an XMLEventWriter
+StAXSource.getSystemId()	Get the system identifier used by this StAXSource
+TransformerException.TransformerException(Throwable)	Create a new TransformerException wrapping an existing exception
+DOMResult.getSystemId()	Get the System Identifier
+StAXSource.getXMLEventReader()	Get the XMLEventReader used by this StAXSource
+TransformerException.printStackTrace()	Print the the trace of methods from where the error originated This will trace all nested exception objects as well as this object
+StreamResult.getSystemId()	Get the system identifier that was set with setSystemId
+TransformerException.printStackTrace(PrintWriter)	Print the the trace of methods from where the error originated This will trace all nested exception objects as well as this object
+DOMResult.DOMResult(Node,String)	Use a DOM node to create a new output target with the specified System ID
+TransformerConfigurationException.TransformerConfigurationException(String,Throwable)	Create a new TransformerConfigurationException with the given Exception base cause and detail message
+SAXResult.setHandler(ContentHandler)	Set the target to be a SAX2 ContentHandler
+TemplatesHandler.getSystemId()	Get the base ID URI or system ID from where relative URLs will be resolved
+SAXSource.sourceToInputSource(Source)	Attempt to obtain a SAX InputSource object from a Source object
+DOMResult.setNextSibling(Node)	Set the child node before which the result nodes will be inserted
+StreamSource.StreamSource(String)	Construct a StreamSource from a URL
+StreamResult.StreamResult(File)	Construct a StreamResult from a File
+TransformerConfigurationException.TransformerConfigurationException(String)	Create a new TransformerConfigurationException with the String specified as an error message
+SAXTransformerFactory.newTransformerHandler(Source)	Get a TransformerHandler object that can process SAX ContentHandler events into a Result based on the transformation instructions specified by the argument
+StreamSource.StreamSource()	Zero argument default constructor If this constructor is used and no Stream source is set using setInputStream java io InputStream inputStream or setReader java io Reader reader then the Transformer will create an empty source InputStream using new InputStream
+StAXResult.getSystemId()	The returned system identifier is always null
+ErrorListener.fatalError(TransformerException)	Receive notification of a non recoverable error
+StreamResult.setSystemId(File)	Set the system ID from a File reference
+DOMResult.DOMResult(Node)	Use a DOM node to create a new output target
+StreamResult.getWriter()	Get the character stream that was set with setWriter
+TransformerFactory.getAssociatedStylesheet(Source,String,String,String)	Get the stylesheet specification s associated with the XML Source document via the xml stylesheet processing instruction that match the given criteria
+TransformerFactoryConfigurationError.TransformerFactoryConfigurationError()	Create a new TransformerFactoryConfigurationError with no detail mesage
+SAXSource.getXMLReader()	Get the XMLReader to be used for the Source
+TransformerException.getLocationAsString()	Get the location information as a string
+SAXTransformerFactory.newTransformerHandler(Templates)	Get a TransformerHandler object that can process SAX ContentHandler events into a Result based on the Templates argument
+StreamSource.getReader()	Get the character stream that was set with setReader
+TransformerFactoryConfigurationError.getException()	Return the actual exception if any that caused this exception to be raised
+StAXResult.setSystemId(String)	In the context of a StAXResult it is not appropriate to explicitly set the system identifier
+DOMSource.setNode(Node)	Set the node that will represents a Source DOM tree
+StAXResult.getXMLEventWriter()	Get the XMLEventWriter used by this StAXResult
+StAXSource.StAXSource(XMLEventReader)	Creates a new instance of a StAXSource by supplying an XMLEventReader
+DOMSource.DOMSource(Node)	Create a new input source with a DOM node The operation will be applied to the subtree rooted at this node In XSLT a pattern still means the root of the tree not the subtree and the evaluation of global variables and parameters is done from the root node also
+StreamResult.StreamResult(OutputStream)	Construct a StreamResult from a byte stream Normally a stream should be used rather than a reader so that the transformer may use instructions contained in the transformation instructions to control the encoding
+Result.getSystemId()	Get the system identifier that was set with setSystemId
+TransformerFactory.getAttribute(String)	Allows the user to retrieve specific attributes on the underlying implementation
+StAXSource.getXMLStreamReader()	Get the XMLStreamReader used by this StAXSource
+TransformerHandler.getSystemId()	Get the base ID URI or system ID from where relative URLs will be resolved
+StAXResult.StAXResult(XMLStreamWriter)	Creates a new instance of a StAXResult by supplying an XMLStreamWriter
+StreamSource.setSystemId(File)	Set the system ID from a File reference
+SourceLocator.getColumnNumber()	Return the character position where the current document event ends
+SAXResult.getHandler()	Get the ContentHandler that is the Result
+TransformerException.initCause(Throwable)	Initializes the cause of this throwable to the specified value
+StreamResult.StreamResult(Writer)	Construct a StreamResult from a character stream Normally a stream should be used rather than a reader so that the transformer may use instructions contained in the transformation instructions to control the encoding However there are times when it is useful to write to a character stream such as when using a StringWriter
+DOMResult.DOMResult(Node,Node)	Use a DOM node to create a new output target specifying the child node where the result nodes should be inserted before
+Transformer.reset()	Reset this Transformer to its original configuration
+StreamSource.StreamSource(InputStream,String)	Construct a StreamSource from a byte stream Normally a stream should be used rather than a reader so that the XML parser can resolve character encoding specified by the XML declaration
+TransformerException.printStackTrace(PrintStream)	Print the the trace of methods from where the error originated This will trace all nested exception objects as well as this object
+DOMResult.DOMResult()	Zero argument default constructor
+TransformerFactory.newTransformer(Source)	Process the Source into a Transformer Object The Source is an XSLT document that conforms to XSL Transformations XSLT Version 1 0 Care must be taken not to use this Transformer in multiple Threads running concurrently
+StreamSource.getPublicId()	Get the public identifier that was set with setPublicId
+DOMResult.getNextSibling()	Get the child node before which the result nodes will be inserted
+StreamSource.StreamSource(Reader,String)	Construct a StreamSource from a character reader Normally a stream should be used rather than a reader so that the XML parser may resolve character encoding specified by the XML declaration However in many cases the encoding of the input stream is already resolved as in the case of reading XML from a StringReader
+TransformerFactory.setErrorListener(ErrorListener)	Set the error event listener for the TransformerFactory which is used for the processing of transformation instructions and not for the transformation itself
+TransformerFactory.setURIResolver(URIResolver)	Set an object that is used by default during the transformation to resolve URIs used in document xsl import or xsl include
+ErrorListener.error(TransformerException)	Receive notification of a recoverable error
+StreamResult.setWriter(Writer)	Set the writer that is to receive the result Normally a stream should be used rather than a writer so that the transformer may use instructions contained in the transformation instructions to control the encoding However there are times when it is useful to write to a writer such as when using a StringWriter
+TransformerFactory.newTemplates(Source)	Process the Source into a Templates object which is a a compiled representation of the source This Templates object may then be used concurrently across multiple threads Creating a Templates object allows the TransformerFactory to do detailed performance optimization of transformation instructions without penalizing runtime transformation
+Result.setSystemId(String)	Set the system identifier for this Result
+TransformerHandler.setResult(Result)	Set the Result associated with this TransformerHandler to be used for the transformation
+TransformerException.setLocator(SourceLocator)	Method setLocator sets an instance of a SourceLocator object that specifies where an error occurred
+Templates.getOutputProperties()	Get the properties corresponding to the effective xsl output element
+Transformer.transform(Source,Result)	Transform the XML Source to a Result
+StreamSource.StreamSource(File)	Construct a StreamSource from a File
+TransformerConfigurationException.TransformerConfigurationException(Throwable)	Create a new TransformerConfigurationException with a given Exception base cause of the error
+SAXTransformerFactory.newXMLFilter(Source)	Create an XMLFilter that uses the given Source as the transformation instructions
+StreamSource.getSystemId()	Get the system identifier that was set with setSystemId
+SourceLocator.getPublicId()	Return the public identifier for the current document event
+TransformerFactory.getFeature(String)	Look up the value of a feature
+Source.setSystemId(String)	Set the system identifier for this Source
+Transformer.setOutputProperties(Properties)	Set the output properties for the transformation These properties will override properties set in the Templates with xsl output
+SAXSource.getInputSource()	Get the SAX InputSource to be used for the Source
+DOMResult.setSystemId(String)	Set the systemId that may be used in association with the node
+SAXSource.setXMLReader(XMLReader)	Set the XMLReader to be used for the Source
+Transformer.getParameter(String)	Get a parameter that was explicitly set with setParameter
+SAXTransformerFactory.newTransformerHandler()	Get a TransformerHandler object that can process SAX ContentHandler events into a Result The transformation is defined as an identity or copy transformation for example to copy a series of SAX parse events into a DOM tree
+StreamSource.StreamSource(Reader)	Construct a StreamSource from a character reader Normally a stream should be used rather than a reader so that the XML parser can resolve character encoding specified by the XML declaration However in many cases the encoding of the input stream is already resolved as in the case of reading XML from a StringReader
+TransformerFactory.setAttribute(String,Object)	Allows the user to set specific attributes on the underlying implementation An attribute in this context is defined to be an option that the implementation provides
+TransformerFactory.getURIResolver()	Get the object that is used by default during the transformation to resolve URIs used in document xsl import or xsl include
+TransformerConfigurationException.TransformerConfigurationException(String,SourceLocator,Throwable)	Wrap an existing exception in a TransformerConfigurationException
+TransformerFactory.newInstance(String,ClassLoader)	Obtain a new instance of a TransformerFactory from factory class name
+TransformerException.TransformerException(String)	Create a new TransformerException
+StreamResult.setOutputStream(OutputStream)	Set the ByteStream that is to be written to Normally a stream should be used rather than a reader so that the transformer may use instructions contained in the transformation instructions to control the encoding
+DOMSource.getNode()	Get the node that represents a Source DOM tree
+TransformerFactoryConfigurationError.getMessage()	Return the message if any for this error If there is no message for the exception and there is an encapsulated exception then the message of that exception will be returned
+DOMSource.DOMSource(Node,String)	Create a new input source with a DOM node and with the system ID also passed in as the base URI
+SAXSource.SAXSource()	Zero argument default constructor If this constructor is used and no SAX source is set using setInputSource InputSource inputSource then the Transformer will create an empty source InputSource using new InputSource
+SAXResult.SAXResult()	Zero argument default constructor
+SAXTransformerFactory.newTemplatesHandler()	Get a TemplatesHandler object that can process SAX ContentHandler events into a Templates object
+TransformerException.getCause()	Returns the cause of this throwable or null if the cause is nonexistent or unknown The cause is the throwable that caused this throwable to get thrown
+DOMResult.getNode()	Get the node that will contain the result DOM tree
+StreamResult.StreamResult(String)	Construct a StreamResult from a URL
+TransformerException.TransformerException(String,SourceLocator,Throwable)	Wrap an existing exception in a TransformerException
+Transformer.getOutputProperties()	Get a copy of the output properties for the transformation
+SAXSource.setSystemId(String)	Set the system identifier for this Source If an input source has already been set it will set the system ID or that input source otherwise it will create a new input source
+SAXSource.getSystemId()	Get the base ID URI or system ID from where URIs will be resolved
+StreamResult.StreamResult()	Zero argument default constructor
+SourceLocator.getLineNumber()	Return the line number where the current document event ends
+TransformerFactory.setFeature(String,boolean)	Set a feature for this TransformerFactory and Transformers or Templates created by this factory
+TransformerFactory.getErrorListener()	Get the error event handler for the TransformerFactory
+Transformer.getOutputProperty(String)	Get an output property that is in effect for the transformer
+TransformerException.getLocator()	Method getLocator retrieves an instance of a SourceLocator object that specifies where an error occurred
+TransformerException.getMessageAndLocation()	Get the error message with location information appended
+SAXResult.getSystemId()	Get the system identifier that was set with setSystemId
+TransformerConfigurationException.TransformerConfigurationException(String,SourceLocator)	Create a new TransformerConfigurationException from a message and a Locator
+TransformerException.TransformerException(String,Throwable)	Wrap an existing exception in a TransformerException
+Transformer.getErrorListener()	Get the error event handler in effect for the transformation
+Transformer.setErrorListener(ErrorListener)	Set the error event listener in effect for the transformation
+StreamResult.setSystemId(String)	Set the systemID that may be used in association with the byte or character stream or if neither is set use this value as a writeable URI probably a file name
+TransformerHandler.getTransformer()	Get the Transformer associated with this handler which is needed in order to set parameters and output properties
+StreamResult.getOutputStream()	Get the byte stream that was set with setOutputStream
+TransformerFactoryConfigurationError.TransformerFactoryConfigurationError(String)	Create a new TransformerFactoryConfigurationError with the String specified as an error message
+SAXResult.getLexicalHandler()	Get a SAX2 LexicalHandler for the output
+StAXResult.getXMLStreamWriter()	Get the XMLStreamWriter used by this StAXResult
+TransformerException.TransformerException(String,SourceLocator)	Create a new TransformerException from a message and a Locator
+DOMSource.getSystemId()	Get the base ID URL or system ID from where URLs will be resolved
+TemplatesHandler.getTemplates()	When a TemplatesHandler object is used as a ContentHandler for the parsing of transformation instructions it creates a Templates object which the caller can get once the SAX events have been completed
+StreamSource.getInputStream()	Get the byte stream that was set with setByteStream
+TransformerFactory.newTransformer()	Create a new Transformer that performs a copy of the Source to the Result
+URIResolver.resolve(String,String)	Called by the processor when it encounters an xsl include xsl import or document function
+SAXSource.setInputSource(InputSource)	Set the SAX InputSource to be used for the Source
+DOMSource.DOMSource()	Zero argument default constructor If this constructor is used and no DOM source is set using setNode Node node then the Transformer will create an empty source Document using DocumentBuilder newDocument
+StreamSource.StreamSource(InputStream)	Construct a StreamSource from a byte stream Normally a stream should be used rather than a reader so the XML parser can resolve character encoding specified by the XML declaration
+SourceLocator.getSystemId()	Return the system identifier for the current document event
+DOMLocator.getOriginatingNode()	Return the node where the event occurred
+SAXResult.setLexicalHandler(LexicalHandler)	Set the SAX2 LexicalHandler for the output
+Transformer.getURIResolver()	Get an object that will be used to resolve URIs used in document
+DOMSource.setSystemId(String)	Set the base ID URL or system ID from where URLs will be resolved
+SAXResult.SAXResult(ContentHandler)	Create a SAXResult that targets a SAX2 ContentHandler
+TransformerFactoryConfigurationError.TransformerFactoryConfigurationError(Exception,String)	Create a new TransformerFactoryConfigurationError with the given Exception base cause and detail message

@@ -1,0 +1,22 @@
+{
+  "id": 42,
+  "description": "Load XML from string",
+  "methodName": "loadXMLFromString",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.lang.String"
+  ],
+  "tgtType": "org.w3c.dom.Document",
+  "packages": [
+    "javax.xml.parsers",
+    "org.w3c.dom",
+    "org.xml.sax",
+    "java.io.StringReader"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/test/42/TestSource.java"
+}

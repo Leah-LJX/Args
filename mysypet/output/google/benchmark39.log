@@ -1,0 +1,226 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/39/benchmark39.json
+     [java] Benchmark Id: 39
+     [java] Method name: changeDateFormat
+     [java] Packages: [java.text.SimpleDateFormat, java.text.DateFormat]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String, java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 39
+     [java] =========cnt:=========23
+     [java] #Classes: 7
+     [java] #Methods: 134
+     [java] Soot Time: 4679.402711
+     [java] PetriNet for path length: 1 [places: 47 ; transitions: 94 ; edges: 211]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 47 ; transitions: 94 ; edges: 211]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 47 ; transitions: 94 ; edges: 211]
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] #Program: 7
+     [java] PetriNet for path length: 4 [places: 47 ; transitions: 94 ; edges: 211]
+     [java] =========sketch========
+     [java] #Program: 7
+     [java] PetriNet for path length: 5 [places: 47 ; transitions: 94 ; edges: 211]
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 7
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] sypet_clone_java.text.SimpleDateFormat
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 14
+     [java] =========sketch========
+     [java] #Program: 21
+     [java] PetriNet for path length: 6 [places: 47 ; transitions: 94 ; edges: 211]
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 21
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 58
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 131
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 204
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] sypet_clone_void
+     [java] #Program: 277
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 284
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 321
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 394
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 467
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 480
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 517
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 554
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 591
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void <init>()>
+     [java] <java.text.SimpleDateFormat: void applyPattern(java.lang.String)>
+     [java] #Program: 598
+     [java] =========sketch========
+     [java] #Program: 605
+     [java] PetriNet for path length: 7 [places: 47 ; transitions: 94 ; edges: 211]
+     [java] =========sketch========
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] <java.text.SimpleDateFormat: void <init>(java.lang.String)>
+     [java] _upper19
+     [java] _upper19
+     [java] <java.text.DateFormat: java.util.Date parse(java.lang.String)>
+     [java] <java.text.DateFormat: java.lang.String format(java.util.Date)>
+     [java] #Program: 605
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 39
+     [java] Recommend Api Number:23
+     [java] Sketch Generation Time: 136.458746
+     [java] Sketch Completion Time: 507.6768930000005
+     [java] Compilation Time: 4382.034492999997
+     [java] Running Test cases Time: 117.455029
+     [java] Synthesis Time: 761.5906680000005
+     [java] Total Time: 9823.027871999999
+     [java] Number of components: 6
+     [java] Number of holes: 9
+     [java] Number of completed programs: 607
+     [java] Number of sketches: 18
+     [java] Solution:
+     [java]  java.text.SimpleDateFormat sypet_var120 = new java.text.SimpleDateFormat(sypet_arg1);
+     [java]  java.text.SimpleDateFormat sypet_var121 = new java.text.SimpleDateFormat(sypet_arg2);
+     [java]  java.text.DateFormat sypet_var122 = sypet_var121;
+     [java]  java.text.DateFormat sypet_var123 = sypet_var120;
+     [java]  java.util.Date sypet_var124 = sypet_var123.parse(sypet_arg0);
+     [java]  java.lang.String sypet_var125 = sypet_var122.format(sypet_var124);
+     [java]  return sypet_var125;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 10 seconds

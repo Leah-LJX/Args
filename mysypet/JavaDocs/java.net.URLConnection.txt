@@ -1,0 +1,51 @@
+URLConnection.getDefaultAllowUserInteraction()	Returns the default value of the allowUserInteraction field
+URLConnection.getContentType()	Returns the value of the content type header field
+URLConnection.guessContentTypeFromStream(InputStream)	Tries to determine the type of an input stream based on the characters at the beginning of the input stream This method can be used by subclasses that override the getContentType method
+URLConnection.setDefaultRequestProperty(String,String)	Sets the default value of a general request property When a URLConnection is created it is initialized with these properties
+URLConnection.getPermission()	Returns a permission object representing the permission necessary to make the connection represented by this object This method returns null if no permission is required to make the connection By default this method returns java security AllPermission Subclasses should override this method and return the permission that best represents the permission required to make a a connection to the URL For example a URLConnection representing a file URL would return a java io FilePermission object
+URLConnection.getOutputStream()	Returns an output stream that writes to this connection
+URLConnection.getRequestProperties()	Returns an unmodifiable Map of general request properties for this connection The Map keys are Strings that represent the request header field names Each Map value is a unmodifiable List of Strings that represents the corresponding field values
+URLConnection.getContent(Class[])	Retrieves the contents of this URL connection
+URLConnection.getHeaderField(String)	Returns the value of the named header field
+URLConnection.getContentEncoding()	Returns the value of the content encoding header field
+URLConnection.getRequestProperty(String)	Returns the value of the named general request property for this connection
+URLConnection.toString()	Returns a String representation of this URL connection
+URLConnection.getHeaderFields()	Returns an unmodifiable Map of the header fields
+URLConnection.getContentLengthLong()	Returns the value of the content length header field as a long
+URLConnection.getContentLength()	Returns the value of the content length header field
+URLConnection.getURL()	Returns the value of this URLConnection s URL field
+URLConnection.setContentHandlerFactory(ContentHandlerFactory)	Sets the ContentHandlerFactory of an application It can be called at most once by an application
+URLConnection.getLastModified()	Returns the value of the last modified header field
+URLConnection.setRequestProperty(String,String)	Sets the general request property If a property with the key already exists overwrite its value with the new value
+URLConnection.getHeaderFieldLong(String,long)	Returns the value of the named field parsed as a number
+URLConnection.getContent()	Retrieves the contents of this URL connection
+URLConnection.setDefaultUseCaches(boolean)	Sets the default value of the useCaches field to the specified value
+URLConnection.getDoInput()	Returns the value of this URLConnection s doInput flag
+URLConnection.getIfModifiedSince()	Returns the value of this object s ifModifiedSince field
+URLConnection.getDoOutput()	Returns the value of this URLConnection s doOutput flag
+URLConnection.getDefaultRequestProperty(String)	Returns the value of the default request property Default request properties are set for every connection
+URLConnection.setUseCaches(boolean)	Sets the value of the useCaches field of this URLConnection to the specified value
+URLConnection.getDefaultUseCaches()	Returns the default value of a URLConnection s useCaches flag
+URLConnection.setDefaultAllowUserInteraction(boolean)	Sets the default value of the allowUserInteraction field for all future URLConnection objects to the specified value
+URLConnection.getAllowUserInteraction()	Returns the value of the allowUserInteraction field for this object
+URLConnection.getHeaderFieldKey(int)	Returns the key for the nth header field
+URLConnection.getExpiration()	Returns the value of the expires header field
+URLConnection.getInputStream()	Returns an input stream that reads from this open connection
+URLConnection.connect()	Opens a communications link to the resource referenced by this URL if such a connection has not already been established
+URLConnection.setDoInput(boolean)	Sets the value of the doInput field for this URLConnection to the specified value
+URLConnection.getHeaderField(int)	Returns the value for the nth header field
+URLConnection.guessContentTypeFromName(String)	Tries to determine the content type of an object based on the specified file component of a URL
+URLConnection.setConnectTimeout(int)	Sets a specified timeout value in milliseconds to be used when opening a communications link to the resource referenced by this URLConnection If the timeout expires before the connection can be established a java net SocketTimeoutException is raised A timeout of zero is interpreted as an infinite timeout
+URLConnection.setDoOutput(boolean)	Sets the value of the doOutput field for this URLConnection to the specified value
+URLConnection.getDate()	Returns the value of the date header field
+URLConnection.getUseCaches()	Returns the value of this URLConnection s useCaches field
+URLConnection.getConnectTimeout()	Returns setting for connect timeout
+URLConnection.setAllowUserInteraction(boolean)	Set the value of the allowUserInteraction field of this URLConnection
+URLConnection.addRequestProperty(String,String)	Adds a general request property specified by a key value pair This method will not overwrite existing values associated with the same key
+URLConnection.setReadTimeout(int)	Sets the read timeout to a specified timeout in milliseconds A non zero value specifies the timeout when reading from Input stream when a connection is established to a resource If the timeout expires before there is data available for read a java net SocketTimeoutException is raised A timeout of zero is interpreted as an infinite timeout
+URLConnection.getHeaderFieldDate(String,long)	Returns the value of the named field parsed as date
+URLConnection.setFileNameMap(FileNameMap)	Sets the FileNameMap
+URLConnection.getHeaderFieldInt(String,int)	Returns the value of the named field parsed as a number
+URLConnection.setIfModifiedSince(long)	Sets the value of the ifModifiedSince field of this URLConnection to the specified value
+URLConnection.getReadTimeout()	Returns setting for read timeout 0 return implies that the option is disabled i e timeout of infinity
+URLConnection.getFileNameMap()	Loads filename map a mimetable from a data file It will first try to load the user specific table defined by content types user table property If that fails it tries to load the default built in table at lib content types properties under java home

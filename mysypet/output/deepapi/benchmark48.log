@@ -1,0 +1,18 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/deepapi/48/benchmark48.json
+     [java] Benchmark Id: 48
+     [java] Method name: match
+     [java] Packages: [java.util.regex]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------

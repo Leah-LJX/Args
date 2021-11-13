@@ -1,0 +1,197 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/20/benchmark20.json
+     [java] Benchmark Id: 20
+     [java] Method name: daysOfMonth
+     [java] Packages: [org.joda.time]
+     [java] Libraries: [./lib/joda-time-2.8.2.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String]
+     [java] Target type: int
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: org.joda.convert.ToString is a phantom class!
+     [java] Warning: org.joda.convert.FromString is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 20
+     [java] =========cnt:=========137
+     [java] #Classes: 246
+     [java] #Methods: 4425
+     [java] Soot Time: 2580.942818
+     [java] PetriNet for path length: 1 [places: 60 ; transitions: 215 ; edges: 492]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 60 ; transitions: 215 ; edges: 492]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 60 ; transitions: 215 ; edges: 492]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 60 ; transitions: 215 ; edges: 492]
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String,org.joda.time.format.DateTimeFormatter)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] #Program: 3
+     [java] PetriNet for path length: 5 [places: 60 ; transitions: 215 ; edges: 492]
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 3
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getYear()>
+     [java] #Program: 6
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfMonth()>
+     [java] #Program: 9
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] #Program: 12
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getMonthOfYear()>
+     [java] #Program: 15
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String,org.joda.time.format.DateTimeFormatter)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] sypet_clone_void
+     [java] #Program: 18
+     [java] =========sketch========
+     [java] #Program: 21
+     [java] PetriNet for path length: 6 [places: 60 ; transitions: 215 ; edges: 492]
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate minusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 21
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 24
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 27
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 32
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate minusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 35
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate minusYears(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 38
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 41
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate minusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 46
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate minusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 51
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate minusYears(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 56
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 61
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: int getMaximumValue()>
+     [java] #Program: 64
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 20
+     [java] Recommend Api Number:137
+     [java] Sketch Generation Time: 275.40351100000004
+     [java] Sketch Completion Time: 46.90995900000001
+     [java] Compilation Time: 800.3870719999999
+     [java] Running Test cases Time: 59.50422400000001
+     [java] Synthesis Time: 381.8176940000001
+     [java] Total Time: 3763.147584
+     [java] Number of components: 5
+     [java] Number of holes: 7
+     [java] Number of completed programs: 65
+     [java] Number of sketches: 19
+     [java] Solution:
+     [java]  org.joda.time.format.DateTimeFormatter sypet_var120 = org.joda.time.format.DateTimeFormat.forPattern(sypet_arg1);
+     [java]  org.joda.time.DateTime sypet_var121 = sypet_var120.parseDateTime(sypet_arg0);
+     [java]  org.joda.time.DateTime.Property sypet_var122 = sypet_var121.dayOfMonth();
+     [java]  org.joda.time.field.AbstractReadableInstantFieldProperty sypet_var123 = sypet_var122;
+     [java]  int sypet_var124 = sypet_var123.getMaximumValue();
+     [java]  return sypet_var124;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 4 seconds

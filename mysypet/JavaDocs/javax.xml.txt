@@ -1,0 +1,1592 @@
+DocumentBuilderFactory.setFeature(String,boolean)	Set a feature for this DocumentBuilderFactory and DocumentBuilders created by this factory
+DocumentBuilderFactory.setValidating(boolean)	Specifies that the parser produced by this code will validate documents as they are parsed By default the value of this is set to false
+SOAPElement.getEncodingStyle()	Returns the encoding style for this SOAPElement object
+ValidatorHandler.setProperty(String,Object)	Set the value of a property
+TransformerFactory.newInstance()	Obtain a new instance of a TransformerFactory
+XMLGregorianCalendar.clone()	Creates and returns a copy of this object
+SAXSource.SAXSource(XMLReader,InputSource)	Create a SAXSource using an XMLReader and a SAX InputSource The Transformer or SAXTransformerFactory will set itself to be the reader s ContentHandler and then will call reader parse inputSource
+XMLStreamWriter.writeCData(String)	Writes a CData section
+MessageFactory.createMessage(MimeHeaders,InputStream)	Internalizes the contents of the given InputStream object into a new SOAPMessage object and returns the SOAPMessage object
+XMLEventFactory.createProcessingInstruction(String,String)	Create a processing instruction
+HexBinaryAdapter.HexBinaryAdapter()	
+Marshaller.setProperty(String,Object)	Set the particular property in the underlying implementation of Marshaller This method can only be used to set one of the standard JAXB defined properties above or a provider specific property Attempting to set an undefined property will result in a PropertyException being thrown See Supported Properties
+SOAPPart.setContentLocation(String)	Sets the value of the MIME header Content Location to the given String
+Service.getPorts()	Returns an Iterator for the list of QNames of service endpoints grouped by this service
+XMLInputFactory.createXMLEventReader(Reader)	Create a new XMLEventReader from a reader
+AttachmentPart.getBase64Content()	Returns an InputStream which can be used to obtain the content of AttachmentPart as Base64 encoded character data this method would base64 encode the raw bytes of the attachment and return
+ErrorListener.fatalError(TransformerException)	Receive notification of a non recoverable error
+TransformerFactoryConfigurationError.TransformerFactoryConfigurationError()	Create a new TransformerFactoryConfigurationError with no detail mesage
+Provider.createEndpoint(String,Object)	Creates an endpoint object with the provided binding and implementation object
+XMLEventFactory.newInstance(String,ClassLoader)	Create a new instance of the factory
+XMLGregorianCalendar.getDay()	Return day in month or DatatypeConstants FIELD UNDEFINED
+TypeConstraintException.getLinkedException()	Get the linked exception
+FactoryConfigurationError.getCause()	use the exception chaining mechanism of JDK1 4
+XMLStreamReader.next()	Get next parsing event a processor may return all contiguous character data in a single chunk or it may split it into several chunks
+W3CEndpointReferenceBuilder.W3CEndpointReferenceBuilder()	Creates a new W3CEndpointReferenceBuilder instance
+Duration.normalizeWith(Calendar)	Converts the years and months fields into the days field by using a specific time instant as the reference point
+JAXBElement.setNil(boolean)	Set whether this element has nil content
+XMLEventConsumer.add(XMLEvent)	This method adds an event to the consumer Calling this method invalidates the event parameter The client application should discard all references to this event upon calling add
+SourceLocator.getColumnNumber()	Return the character position where the current document event ends
+StartDocument.isStandalone()	Returns if this XML is standalone
+SAXParserFactory.setValidating(boolean)	Specifies that the parser produced by this code will validate documents as they are parsed By default the value of this is set to false
+Service.getServiceName()	Gets the name of this service
+XMLGregorianCalendar.setHour(int)	Set hours
+XMLEventFactory.createEndElement(String,String,String,Iterator)	Create a new EndElement
+DatatypeConverterInterface.parseInteger(String)	Convert the string argument into a BigInteger value
+XMLInputFactory.setEventAllocator(XMLEventAllocator)	Set a user defined event allocator for events
+AbstractUnmarshallerImpl.setAdapter(Class,A)	Description copied from interface Unmarshaller
+XMLOutputFactory.createXMLStreamWriter(OutputStream)	Create a new XMLStreamWriter that writes to a stream
+DOMResult.getNextSibling()	Get the child node before which the result nodes will be inserted
+AddressingFeature.AddressingFeature(boolean,boolean)	Creates and configures an AddressingFeature with the use of addressing requirements If enabled and required are true it enables ws addressing and requires its use It also configures to accept all the response types
+XMLStreamWriter.writeComment(String)	Writes an xml comment with the data enclosed
+WebServiceFeature.getID()	Get the unique identifier for this WebServiceFeature
+XMLInputFactory.setXMLReporter(XMLReporter)	The reporter that will be set on any XMLStreamReader or XMLEventReader created by this factory instance
+SOAPHeaderElement.getRelay()	Returns the boolean value of the relay attribute for this SOAPHeaderElement
+KeySelector.singletonKeySelector(Key)	Returns a KeySelector that always selects the specified key regardless of the KeyInfo passed to it
+ValidationEventLocatorImpl.setLineNumber(int)	Set the lineNumber field on this event locator
+DatatypeConverterInterface.printDate(Calendar)	Converts a Calendar value into a string
+JAXBElement.getValue()	Return the content model and attribute values for this element
+AttachmentPart.setBase64Content(InputStream,String)	Sets the content of this attachment part from the Base64 source InputStream and sets the value of the Content Type header to the value contained in contentType This method would first decode the base64 input and write the resulting raw bytes to the attachment
+SOAPElement.addChildElement(Name)	Creates a new SOAPElement object initialized with the given Name object and adds the new element to this SOAPElement object
+SOAPBinding.setMTOMEnabled(boolean)	Enables or disables use of MTOM
+Source.setSystemId(String)	Set the system identifier for this Source
+SAXSource.setXMLReader(XMLReader)	Set the XMLReader to be used for the Source
+Transformer.getParameter(String)	Get a parameter that was explicitly set with setParameter
+XPathExpression.evaluate(InputSource,QName)	Evaluate the compiled XPath expression in the context of the specified InputSource and return the result as the specified type
+URIReferenceException.printStackTrace()	Prints this URIReferenceException its backtrace and the cause s backtrace to the standard error stream
+SOAPElement.addChildElement(String,String,String)	Creates a new SOAPElement object initialized with the specified local name prefix and URI and adds the new element to this SOAPElement object
+WebServiceFeature.isEnabled()	Returns true if this feature is enabled
+DatatypeConverter.printByte(byte)	Converts a byte value into a string
+Provider.createEndpoint(String,Object,)	Creates an endpoint object with the provided binding implementation object and web service features Provider implementations must override the default implementation
+DocumentBuilderFactory.setCoalescing(boolean)	Specifies that the parser produced by this code will convert CDATA nodes to Text nodes and append it to the adjacent if any text node By default the value of this is set to false
+Unmarshaller.setEventHandler(ValidationEventHandler)	Allow an application to register a ValidationEventHandler
+Endpoint.create(Object)	Creates an endpoint with the specified implementor object If there is a binding specified via a BindingType annotation then it MUST be used else a default of SOAP 1 1 HTTP binding MUST be used
+PrintConversionEventImpl.PrintConversionEventImpl(int,String,ValidationEventLocator)	Create a new PrintConversionEventImpl
+Marshaller.marshal(Object,XMLStreamWriter)	Marshal the content tree rooted at jaxbElement into a XMLStreamWriter
+SOAPPart.removeMimeHeader(String)	Removes all MIME headers that match the given name
+HttpExchange.addResponseHeader(String,String)	Adds a response header with the given name and value This method allows a response header to have multiple values This is a convenience method to add a response header instead of using the getResponseHeaders
+Unmarshaller.unmarshal(InputStream)	Unmarshal XML data from the specified InputStream and return the resulting content tree Validation event location information may be incomplete when using this form of the unmarshal API
+XMLEventFactory.createAttribute(QName,String)	Create a new Attribute
+ValidationEventImpl.setLocator(ValidationEventLocator)	Set the locator object for this event
+Endpoint.getMetadata()	Returns a list of metadata documents for the service
+SOAPPart.getContent()	Returns the content of the SOAPEnvelope as a JAXP Source object
+TransformerHandler.getTransformer()	Get the Transformer associated with this handler which is needed in order to set parameters and output properties
+XMLStreamWriter.writeDefaultNamespace(String)	Writes the default namespace to the stream
+SchemaFactory.getResourceResolver()	Gets the current LSResourceResolver set to this SchemaFactory
+AttachmentPart.setRawContent(InputStream,String)	Sets the content of this attachment part to that contained by the InputStream content and sets the value of the Content Type header to the value contained in contentType
+Unmarshaller.unmarshal(XMLEventReader,Class)	Unmarshal root element to JAXB mapped declaredType and return the resulting content tree
+AttachmentPart.setContent(Object,String)	Sets the content of this attachment part to that of the given Object and sets the value of the Content Type header to the given type The type of the Object should correspond to the value given for the Content Type This depends on the particular set of DataContentHandler objects in use
+JAXBException.getCause()	Description copied from class Throwable
+SOAPMessageContext.setMessage(SOAPMessage)	Sets the SOAPMessage in this message context
+NoSuchMechanismException.printStackTrace()	Prints this NoSuchMechanismException its backtrace and the cause s backtrace to the standard error stream
+TransformerFactory.newTransformer()	Create a new Transformer that performs a copy of the Source to the Result
+XMLInputFactory.newInstance(String,ClassLoader)	Create a new instance of the factory
+StartDocument.standaloneSet()	Returns true if the standalone attribute was set in the encoding declaration of the document
+UnmarshalException.UnmarshalException(Throwable)	Construct an UnmarshalException with a linkedException The detail message and vendor specific errorCode will default to null
+KeySelectorException.printStackTrace()	Prints this KeySelectorException its backtrace and the cause s backtrace to the standard error stream
+SOAPMessage.writeTo(OutputStream)	Writes this SOAPMessage object to the given output stream The externalization format is as defined by the SOAP 1 1 with Attachments specification
+Transform.getParameterSpec()	Returns the algorithm specific input parameters associated with this Transform
+DatatypeConverter.printQName(QName,NamespaceContext)	Converts a QName instance into a string
+SOAPPart.getMatchingMimeHeaders(String[])	Retrieves all MimeHeader objects that match a name in the given array
+DatatypeConverterInterface.parseFloat(String)	Converts the string argument into a float value
+JAXBContext.createJAXBIntrospector()	Creates a JAXBIntrospector object that can be used to introspect JAXB objects
+SOAPFault.getFaultReasonTexts()	Returns an Iterator over a sequence of String objects containing all of the Reason Text items for this SOAPFault
+XMLEventReader.getProperty(String)	Get the value of a feature property from the underlying implementation
+JAXBException.JAXBException(String,String,Throwable)	Construct a JAXBException with the specified detail message vendor specific errorCode and linkedException
+Transform.transform(Data,XMLCryptoContext)	Transforms the specified data using the underlying transform algorithm
+PropertyException.PropertyException(String,String)	Construct a PropertyException with the specified detail message and vendor specific errorCode The linkedException will default to null
+XMLEventReader.hasNext()	Check if there are more events
+TypeConstraintException.TypeConstraintException(String,String,Throwable)	Construct a TypeConstraintException with the specified detail message vendor specific errorCode and linkedException
+WebServiceContext.getEndpointReference()	Returns the EndpointReference for this endpoint
+SOAPBody.hasFault()	Indicates whether a SOAPFault object exists in this SOAPBody object
+SOAPMessage.saveChanges()	Updates this SOAPMessage object with all the changes that have been made to it This method is called automatically when writeTo OutputStream is called However if changes are made to a message that was received or to one that has already been sent the method saveChanges needs to be called explicitly in order to save the changes The method saveChanges also generates any changes that can be read back for example a MessageId in profiles that support a message id All MIME headers in a message that is created for sending purposes are guaranteed to have valid values only after saveChanges has been called
+JAXBElement.isTypeSubstituted()	Returns true iff this xml element instance s value has a different type than xml element declaration s declared type
+XMLEventFactory.newInstance()	Creates a new instance of the factory in exactly the same manner as the newFactory method
+Duration.isLongerThan(Duration)	Checks if this duration object is strictly longer than another Duration object
+ValidationEventLocatorImpl.setOffset(int)	Set the offset field on this event locator
+DocumentBuilder.isNamespaceAware()	Indicates whether or not this parser is configured to understand namespaces
+DatatypeConverter.parseBase64Binary(String)	Converts the string argument into an array of bytes
+Service.create(QName)	Creates a Service instance
+XMLEventFactory.createIgnorableSpace(String)	Create an ignorable space
+DocumentBuilderFactory.getSchema()	Gets the Schema object specified through the setSchema Schema schema method
+XMLGregorianCalendar.getMonth()	Return number of month or DatatypeConstants FIELD UNDEFINED
+EndpointContext.EndpointContext()	
+Endpoint.getProperties()	Returns the property bag for this Endpoint instance
+BindingProvider.getRequestContext()	Get the context that is used to initialize the message context for request messages
+Endpoint.publish(HttpContext)	Publishes this endpoint at the provided server context
+Provider.createEndpoint(String,Class,Invoker,)	Creates an endpoint object with the provided binding implementation class invoker and web service features Containers typically use this to create Endpoint objects Provider implementations must override the default implementation
+StreamReaderDelegate.getParent()	Get the parent of this instance
+Marshaller.setListener(Listener)	Register marshal event callback Marshaller Listener with this Marshaller
+XMLStreamReader.getPITarget()	Get the target of a processing instruction
+SAXParser.isValidating()	Indicates whether or not this parser is configured to validate XML documents
+XMLInputFactory.createXMLEventReader(Source)	Create a new XMLEventReader from a JAXP source
+W3CEndpointReference.writeTo(Result)	write this EndpointReference to the specified infoset format
+SAXTransformerFactory.newTransformerHandler(Templates)	Get a TransformerHandler object that can process SAX ContentHandler events into a Result based on the Templates argument
+ValidationEvent.getLocator()	Retrieve the locator for this warning error
+XMLEventWriter.setPrefix(String,String)	Sets the prefix the uri is bound to This prefix is bound in the scope of the current START ELEMENT END ELEMENT pair
+StreamReaderDelegate.isAttributeSpecified(int)	Description copied from interface XMLStreamReader
+SourceLocator.getSystemId()	Return the system identifier for the current document event
+XMLEventWriter.setNamespaceContext(NamespaceContext)	Sets the current namespace context for prefix and uri bindings
+AttachmentMarshaller.addMtomAttachment(DataHandler,String,String)	Consider MIME content data for optimized binary storage as an attachment
+Characters.isWhiteSpace()	Returns true if this set of Characters is all whitespace Whitespace inside a document is reported as CHARACTERS This method allows checking of CHARACTERS events to see if they are composed of only whitespace characters
+Handler.handleMessage(C)	The handleMessage method is invoked for normal processing of inbound and outbound messages Refer to the description of the handler framework in the JAX WS specification for full details
+XMLStreamReader.getPrefix()	Returns the prefix of the current event or null if the event does not have a prefix
+SOAPFactory.createElement(Element)	Creates a SOAPElement object from an existing DOM Element If the DOM Element that is passed in as an argument is already a SOAPElement then this method must return it unmodified without any further work Otherwise a new SOAPElement is created and a deep copy is made of the domElement argument The concrete type of the return value will depend on the name of the domElement argument If any part of the tree rooted in domElement violates SOAP rules a SOAPException will be thrown
+AttachmentMarshaller.AttachmentMarshaller()	
+WebServicePermission.WebServicePermission(String)	Creates a new permission with the specified name
+ValidationEventLocatorImpl.ValidationEventLocatorImpl()	Creates an object with all fields unavailable
+URIReferenceException.getCause()	Returns the cause of this URIReferenceException or null if the cause is nonexistent or unknown The cause is the throwable that caused this URIReferenceException to get thrown
+Duration.addTo(Calendar)	Adds this duration to a Calendar object
+StreamSource.getPublicId()	Get the public identifier that was set with setPublicId
+XMLStreamReader.getTextLength()	Returns the length of the sequence of characters for this Text event within the text character array
+DatatypeConverter.setDatatypeConverter(DatatypeConverterInterface)	This method is for JAXB provider use only
+PortInfo.getBindingID()	Gets the URI identifying the binding used by the port being accessed
+XMLStreamWriter.writeEmptyElement(String)	Writes an empty element tag to the output
+AttachmentPart.removeMimeHeader(String)	Removes all MIME headers that match the given name
+JAXBException.printStackTrace(PrintWriter)	Prints this JAXBException and its stack trace including the stack trace of the linkedException if it is non null to the PrintWriter
+QName.QName(String,String)	QName constructor specifying the Namespace URI and local part
+JAXBElement.setValue(T)	Set the content model and attributes of this xml element
+TransformerHandler.setResult(Result)	Set the Result associated with this TransformerHandler to be used for the transformation
+AlgorithmMethod.getParameterSpec()	Returns the algorithm parameters of this AlgorithmMethod
+Node.getParentElement()	Returns the parent element of this Node object
+KeySelector.Purpose.toString()	Returns a string representation of this purpose sign verify encrypt or decrypt
+XMLOutputFactory.createXMLEventWriter(OutputStream,String)	Create a new XMLEventWriter that writes to a stream
+TransformerException.getMessageAndLocation()	Get the error message with location information appended
+SAXSource.getInputSource()	Get the SAX InputSource to be used for the Source
+MarshalException.MarshalException(String,Throwable)	Construct a MarshalException with the specified detail message and linkedException The errorCode will default to null
+ServiceDelegate.getPort(EndpointReference,Class,)	The getPort method returns a proxy
+SAXTransformerFactory.newTransformerHandler()	Get a TransformerHandler object that can process SAX ContentHandler events into a Result The transformation is defined as an identity or copy transformation for example to copy a series of SAX parse events into a DOM tree
+URIReference.getType()	Returns the type of data referenced by this URI
+SAXParser.parse(File,HandlerBase)	Parse the content of the file specified as XML using the specified HandlerBase
+EventReaderDelegate.next()	Description copied from interface Iterator
+DocumentBuilderFactory.isIgnoringComments()	Indicates whether or not the factory is configured to produce parsers which ignores comments
+BindingProvider.getBinding()	Get the Binding for this binding provider
+AbstractUnmarshallerImpl.unmarshal(XMLEventReader)	Description copied from interface Unmarshaller
+XMLCryptoContext.getKeySelector()	Returns the key selector for finding a key
+EventReaderDelegate.getParent()	Get the parent of this instance
+SOAPElement.getChildElements()	Returns an Iterator over all the immediate child Nodes of this element This includes javax xml soap Text objects as well as SOAPElement objects
+StreamReaderDelegate.getNamespaceURI()	Description copied from interface XMLStreamReader
+ValidationEventLocatorImpl.getLineNumber()	Description copied from interface ValidationEventLocator
+SAXTransformerFactory.newTemplatesHandler()	Get a TemplatesHandler object that can process SAX ContentHandler events into a Templates object
+NamespaceContext.getPrefixes(String)	Get all prefixes bound to a Namespace URI in the current scope
+Validator.validateRoot(Object)	Validate the Java content tree rooted at rootObj
+SAXSource.getSystemId()	Get the base ID URI or system ID from where URIs will be resolved
+StreamResult.StreamResult()	Zero argument default constructor
+MessageFactory.newInstance()	Creates a new MessageFactory object that is an instance of the default implementation SOAP 1 1 This method uses the following ordered lookup procedure to determine the MessageFactory implementation class to load Use the javax xml soap MessageFactory system property
+AbstractUnmarshallerImpl.unmarshal(File)	Description copied from interface Unmarshaller
+KeySelector.select(KeyInfo,Purpose,AlgorithmMethod,XMLCryptoContext)	Attempts to find a key that satisfies the specified constraints
+Provider.invoke(T)	Invokes an operation occording to the contents of the request message
+SOAPEnvelope.getBody()	Returns the SOAPBody object associated with this SOAPEnvelope object
+DomHandler.getElement(ResultT)	Once the portion is sent to the Result This method is called by a JAXB provider to obtain the unmarshalled element representation
+Provider.readEndpointReference(Source)	read an EndpointReference from the infoset contained in eprInfoset
+NormalizedStringAdapter.NormalizedStringAdapter()	
+XMLStreamWriter.setDefaultNamespace(String)	Binds a URI to the default namespace This URI is bound in the scope of the current START ELEMENT END ELEMENT pair
+ValidationEventCollector.handleEvent(ValidationEvent)	Description copied from interface ValidationEventHandler
+JAXBException.JAXBException(String,String)	Construct a JAXBException with the specified detail message and vendor specific errorCode The linkedException will default to null
+StreamReaderDelegate.next()	Description copied from interface XMLStreamReader
+XMLEventFactory.newFactory(String,ClassLoader)	Create a new instance of the factory
+Endpoint.setExecutor(Executor)	Sets the executor for this Endpoint instance
+DatatypeConverterInterface.parseLong(String)	Converts the string argument into a long value
+SAXSource.setInputSource(InputSource)	Set the SAX InputSource to be used for the Source
+XMLEventFactory.createAttribute(String,String)	Create a new Attribute
+Duration.hashCode()	Returns a hash code consistent with the definition of the equals method
+Source.getSystemId()	Get the system identifier that was set with setSystemId
+SOAPMessage.removeAllAttachments()	Removes all AttachmentPart objects that have been added to this SOAPMessage object
+SAXResult.setSystemId(String)	Method setSystemId Set the systemID that may be used in association with the ContentHandler
+Duration.getMinutes()	Obtains the value of the MINUTES field as an integer value or 0 if not present
+AbstractUnmarshallerImpl.getSchema()	Description copied from interface Unmarshaller
+SOAPElement.addAttribute(Name,String)	Adds an attribute with the specified name and value to this SOAPElement object
+SOAPPart.getContentId()	Retrieves the value of the MIME header whose name is Content Id
+XMLEvent.isProcessingInstruction()	A utility function to check if this event is a ProcessingInstruction
+AbstractMarshallerImpl.getAttachmentMarshaller()	
+DatatypeConverter.parseTime(String)	Converts the string argument into a Calendar value
+XPathFactory.setFeature(String,boolean)	Set a feature for this XPathFactory and XPaths created by this factory
+XMLEventFactory.createStartDocument(String,String,boolean)	Creates a new instance of a StartDocument event
+DocumentBuilderFactory.newInstance(String,ClassLoader)	Obtain a new instance of a DocumentBuilderFactory from class name
+SchemaFactoryLoader.newFactory(String)	Creates a new SchemaFactory object for the specified schema language
+ErrorListener.warning(TransformerException)	Receive notification of a warning
+XMLStreamReader.getLocalName()	Returns the local name of the current event
+SOAPPart.getMimeHeader(String)	Gets all the values of the MimeHeader object in this SOAPPart object that is identified by the given String
+Holder.Holder(T)	Create a new holder with the specified value
+DOMResult.DOMResult(Node,String)	Use a DOM node to create a new output target with the specified System ID
+XMLGregorianCalendar.getHour()	Return hours or DatatypeConstants FIELD UNDEFINED
+SchemaFactory.newSchema(File)	Parses the specified File as a schema and returns it as a Schema
+NormalizedStringAdapter.unmarshal(String)	Replace any tab CR and LF by a whitespace character as specified in the whitespace facet replace
+SOAPElement.removeAttribute(Name)	Removes the attribute with the specified name
+ValidationEventLocatorImpl.getURL()	Description copied from interface ValidationEventLocator
+SAXParserFactory.newSAXParser()	Creates a new instance of a SAXParser using the currently configured factory parameters
+AttachmentPart.getRawContentBytes()	Gets the content of this AttachmentPart object as a byte array as if a call had been made to getContent and no DataContentHandler had been registered for the content type of this AttachmentPart
+Marshaller.Listener.beforeMarshal(Object)	Callback method invoked before marshalling from source to XML
+SAXSource.getXMLReader()	Get the XMLReader to be used for the Source
+ValidationEventImpl.setSeverity(int)	Set the severity field of this event
+SchemaFactory.getErrorHandler()	Gets the current ErrorHandler set to this SchemaFactory
+TransformerFactoryConfigurationError.getException()	Return the actual exception if any that caused this exception to be raised
+AbstractMarshallerImpl.setEventHandler(ValidationEventHandler)	Description copied from interface Marshaller
+DocumentBuilder.parse(String)	Parse the content of the given URI as an XML document and return a new DOM Document object
+XMLEventFactory.createNamespace(String)	Create a new default Namespace
+StreamReaderDelegate.getPrefix()	Description copied from interface XMLStreamReader
+StreamReaderDelegate.getNamespaceURI(int)	Description copied from interface XMLStreamReader
+W3CEndpointReference.W3CEndpointReference(Source)	Creates an EPR from infoset representation
+MarshalException.printStackTrace(PrintStream)	Prints this MarshalException its backtrace and the cause s backtrace to the specified print stream
+MimeHeaders.addHeader(String,String)	Adds a MimeHeader object with the specified name and value to this MimeHeaders object s list of headers
+Detail.addDetailEntry(Name)	Creates a new DetailEntry object with the given name and adds it to this Detail object
+ValidationEventLocator.getNode()	Return a reference to the DOM Node if available
+MimeHeader.getValue()	Returns the value of this MimeHeader object
+HttpExchange.getUserPrincipal()	Returns the Principal that represents the authenticated user for this HttpExchange
+MarshalException.printStackTrace(PrintWriter)	Prints this MarshalException its backtrace and the cause s backtrace to the specified print writer
+SOAPFactory.createName(String)	Creates a new Name object initialized with the given local name
+Provider.createAndPublishEndpoint(String,Object)	Creates and publishes an endpoint object with the specified address and implementation object
+XMLInputFactory.getXMLResolver()	The resolver that will be set on any XMLStreamReader or XMLEventReader created by this factory instance
+TransformerException.setLocator(SourceLocator)	Method setLocator sets an instance of a SourceLocator object that specifies where an error occurred
+SOAPEnvelope.getHeader()	Returns the SOAPHeader object for this SOAPEnvelope object
+Provider.createW3CEndpointReference(String,QName,QName,List,String,List)	Factory method to create a W3CEndpointReference
+AbstractMarshallerImpl.setAttachmentMarshaller(AttachmentMarshaller)	Description copied from interface Marshaller
+URIReferenceException.URIReferenceException(String,Throwable,URIReference)	Constructs a new URIReferenceException with the specified detail message cause and URIReference
+JAXBIntrospector.JAXBIntrospector()	
+SchemaFactory.setProperty(String,Object)	Set the value of a property
+AbstractMarshallerImpl.setListener(Listener)	Description copied from interface Marshaller
+XMLStreamWriter.writeAttribute(String,String,String)	Writes an attribute to the output stream
+JAXBContext.newInstance(String)	Obtain a new instance of a JAXBContext class
+TransformerFactory.getFeature(String)	Look up the value of a feature
+Comment.getText()	Return the string data of the comment returns empty string if it does not exist
+DOMResult.setSystemId(String)	Set the systemId that may be used in association with the node
+PropertyException.PropertyException(String,Throwable)	Construct a PropertyException with the specified detail message and linkedException The errorCode will default to null
+SOAPHeaderElement.setActor(String)	Sets the actor associated with this SOAPHeaderElement object to the specified actor The default value of an actor is SOAPConstants URI SOAP ACTOR NEXT If this SOAPHeaderElement supports SOAP 1 2 then this call is equivalent to setRole String
+MimeHeaders.getMatchingHeaders(String[])	Returns all the MimeHeader objects whose name matches a name in the given array of names
+JAXBContext.createBinder()	Creates a Binder for W3C DOM
+TransformerException.TransformerException(String)	Create a new TransformerException
+XMLStreamReader.isStartElement()	Returns true if the cursor points to a start tag otherwise false
+JAXBPermission.JAXBPermission(String)	Creates a new JAXBPermission with the specified name
+StreamReaderDelegate.getTextStart()	Description copied from interface XMLStreamReader
+SAXParserFactory.newInstance()	Obtain a new instance of a SAXParserFactory This static method creates a new factory instance This method uses the following ordered lookup procedure to determine the SAXParserFactory implementation class to load Use the javax xml parsers SAXParserFactory system property
+AbstractMarshallerImpl.marshal(Object,File)	Description copied from interface Marshaller
+DefaultValidationEventHandler.handleEvent(ValidationEvent)	Description copied from interface ValidationEventHandler
+SOAPFaultException.getFault()	Gets the embedded SOAPFault instance
+JAXBException.getLinkedException()	Get the linked exception
+W3CEndpointReferenceBuilder.build()	Builds a W3CEndpointReference from the accumulated properties set on this W3CEndpointReferenceBuilder instance
+Validator.getResourceResolver()	Gets the current LSResourceResolver set to this Validator
+Duration.isShorterThan(Duration)	Checks if this duration object is strictly shorter than another Duration object
+XMLCryptoContext.getNamespacePrefix(String,String)	Returns the namespace prefix that the specified namespace URI is associated with Returns the specified default prefix if the specified namespace URI has not been bound to a prefix To bind a namespace URI to a prefix call the putNamespacePrefix method
+Marshaller.marshal(Object,Result)	Marshal the content tree rooted at jaxbElement into the specified javax xml transform Result
+XMLStreamWriter.writeStartElement(String,String)	Writes a start tag to the output
+SOAPPart.setContentId(String)	Sets the value of the MIME header named Content Id to the given String
+XMLInputFactory.createXMLStreamReader(InputStream)	Create a new XMLStreamReader from a java io InputStream
+XMLEvent.isStartDocument()	A utility function to check if this event is a StartDocument
+TransformerException.TransformerException(String,SourceLocator)	Create a new TransformerException from a message and a Locator
+SOAPMessage.getContentDescription()	Retrieves a description of this SOAPMessage object s content
+Marshaller.setAdapter(Class,A)	Associates a configured instance of XmlAdapter with this marshaller
+StreamReaderDelegate.getAttributeValue(int)	Description copied from interface XMLStreamReader
+Duration.getMonths()	Obtains the value of the MONTHS field as an integer value or 0 if not present
+NamespaceContext.getNamespaceURI(String)	Get Namespace URI bound to a prefix in the current scope
+SOAPElement.getAllAttributes()	Returns an Iterator over all of the attribute Name objects in this SOAPElement object The iterator can be used to get the attribute names which can then be passed to the method getAttributeValue to retrieve the value of each attribute
+Unmarshaller.setListener(Listener)	Register unmarshal event callback Unmarshaller Listener with this Unmarshaller
+XMLGregorianCalendar.isValid()	Validate instance by getXMLSchemaType constraints
+Dispatch.invoke(T)	Invoke a service operation synchronously
+ParserConfigurationException.ParserConfigurationException()	Create a new ParserConfigurationException with no detail mesage
+KeyInfo.getContent()	Returns an unmodifiable list containing the key information Each entry of the list is an XMLStructure
+StreamReaderDelegate.hasName()	Description copied from interface XMLStreamReader
+DatatypeConverter.printTime(Calendar)	Converts a Calendar value into a string
+ValidationEventLocator.getURL()	Return the name of the XML source as a URL if available
+Endpoint.stop()	Stops publishing this endpoint
+SAXResult.SAXResult(ContentHandler)	Create a SAXResult that targets a SAX2 ContentHandler
+HttpHandler.handle(HttpExchange)	Handles a given request and generates an appropriate response
+AbstractMarshallerImpl.getSchema()	Description copied from interface Marshaller
+XMLStreamReader.getTextCharacters(int,char[],int,int)	Gets the the text associated with a CHARACTERS SPACE or CDATA event
+SchemaFactory.setErrorHandler(ErrorHandler)	Sets the ErrorHandler to receive errors encountered during the newSchema method invocation
+ServiceDelegate.createDispatch(QName,Class,Mode,)	Creates a Dispatch instance for use with objects of the user s choosing
+StreamReaderDelegate.getVersion()	Description copied from interface XMLStreamReader
+DocumentBuilderFactory.isIgnoringElementContentWhitespace()	Indicates whether or not the factory is configured to produce parsers which ignore ignorable whitespace in element content
+ValidatorHandler.setContentHandler(ContentHandler)	Sets the ContentHandler which receives the augmented validation result
+PropertyException.PropertyException(String,Object)	Construct a PropertyException whose message field is set based on the name of the property and value toString
+XMLEventFactory.createCData(String)	Create a Characters event with the CData flag set to true
+Validator.setResourceResolver(LSResourceResolver)	Sets the LSResourceResolver to customize resource resolution while in a validation episode
+AbstractMarshallerImpl.AbstractMarshallerImpl()	
+SOAPFault.setFaultString(String)	Sets the fault string for this SOAPFault object to the given string
+SOAPFactory.SOAPFactory()	
+SOAPFault.getFaultStringLocale()	Gets the locale of the fault string for this SOAPFault object
+StAXSource.getXMLEventReader()	Get the XMLEventReader used by this StAXSource
+EventReaderDelegate.peek()	Description copied from interface XMLEventReader
+Duration.compare(Duration)	Partial order relation comparison with this Duration instance
+SAXParser.parse(File,DefaultHandler)	Parse the content of the file specified as XML using the specified DefaultHandler
+SOAPElement.removeNamespaceDeclaration(String)	Removes the namespace declaration corresponding to the given prefix
+XMLStreamReader.getLocation()	Return the current location of the processor
+ValidationEventImpl.setMessage(String)	Set the message field of this event
+AbstractUnmarshallerImpl.unmarshal(InputStream)	Description copied from interface Unmarshaller
+Binder.getJAXBNode(XmlNode)	Gets the JAXB object associated with the given XML element
+StreamReaderDelegate.hasText()	Description copied from interface XMLStreamReader
+EventReaderDelegate.setParent(XMLEventReader)	Set the parent of this instance
+AbstractUnmarshallerImpl.unmarshal(Source)	Description copied from interface Unmarshaller
+StreamResult.setSystemId(File)	Set the system ID from a File reference
+DatatypeConverter.printBase64Binary(byte[])	Converts an array of bytes into a string
+StreamReaderDelegate.getEncoding()	Description copied from interface XMLStreamReader
+NoSuchMechanismException.NoSuchMechanismException()	Constructs a new NoSuchMechanismException with null as its detail message
+XMLEventWriter.getPrefix(String)	Gets the prefix the uri is bound to
+ServiceDelegate.getServiceName()	Gets the name of this service
+DatatypeConverter.printAnySimpleType(String)	Converts a string value into a string
+DTD.getDocumentTypeDeclaration()	Returns the entire Document Type Declaration as a string including the internal DTD subset
+DatatypeConverter.parseLong(String)	Converts the string argument into a long value
+AttachmentPart.setDataHandler(DataHandler)	Sets the given DataHandler object as the data handler for this AttachmentPart object Typically on an incoming message the data handler is automatically set When a message is being created and populated with content the setDataHandler method can be used to get data from various data sources into the message
+XMLEvent.isEndDocument()	A utility function to check if this event is an EndDocument
+XMLGregorianCalendar.reset()	Reset this XMLGregorianCalendar to its original values
+OctetStreamData.OctetStreamData(InputStream,String,String)	Creates a new OctetStreamData
+DatatypeConverterInterface.printQName(QName,NamespaceContext)	Converts a QName instance into a string
+NoSuchMechanismException.NoSuchMechanismException(Throwable)	Constructs a new NoSuchMechanismException with the specified cause and a detail message of cause null null cause toString which typically contains the class and detail message of cause
+SOAPHeaderElement.getRole()	Returns the value of the Role attribute of this SOAPHeaderElement
+Marshaller.marshal(Object,ContentHandler)	Marshal the content tree rooted at jaxbElement into SAX2 events
+HttpExchange.getAttributeNames()	Gives all the attribute names that are associated with this HttpExchange
+XMLEvent.asEndElement()	Returns this event as an end element event may result in a class cast exception if this event is not a end element
+MimeHeader.getName()	Returns the name of this MimeHeader object
+Unmarshaller.getAttachmentUnmarshaller()	
+DOMResult.DOMResult()	Zero argument default constructor
+AttachmentMarshaller.addSwaRefAttachment(DataHandler)	Add MIME data as an attachment and return attachment s content id cid
+DatatypeConverter.parseDateTime(String)	Converts the string argument into a Calendar value
+AddressingFeature.getResponses()	If addressing is enabled this property determines whether endpoint requires the use of anonymous responses or non anonymous responses or all responses
+NoSuchMechanismException.printStackTrace(PrintStream)	Prints this NoSuchMechanismException its backtrace and the cause s backtrace to the specified print stream
+XmlAdapter.marshal(BoundType)	Convert a bound type to a value type
+SOAPElement.getChildElements(QName)	Returns an Iterator over all the immediate child Nodes of this element with the specified qname All of these children will be SOAPElement nodes
+DocumentBuilderFactory.getFeature(String)	Get the state of the named feature
+XMLCryptoContext.getProperty(String)	Returns the value of the specified property
+SOAPHeader.addUpgradeHeaderElement(String)	Creates a new Upgrade SOAPHeaderElement object initialized with the specified supported SOAP URI and adds it to this SOAPHeader object
+PortInfo.getServiceName()	Gets the qualified name of the WSDL service name containing the port being accessed
+XMLInputFactory.createXMLEventReader(XMLStreamReader)	Create a new XMLEventReader from an XMLStreamReader After being used to construct the XMLEventReader instance returned from this method the XMLStreamReader must not be used
+AddressingFeature.isRequired()	If addressing is enabled this property determines whether the endpoint requires WS Addressing If required is true WS Addressing headers MUST be present on incoming and outgoing messages
+Binder.updateJAXB(XmlNode)	Takes an XML node and updates its associated JAXB object and its descendants
+SOAPBody.addDocument(Document)	Adds the root node of the DOM Document to this SOAPBody object
+XMLStreamWriter.writeAttribute(String,String)	Writes an attribute to the output stream without a prefix
+Service.getExecutor()	Returns the executor for this Serviceinstance
+AbstractMarshallerImpl.marshal(Object,OutputStream)	Description copied from interface Marshaller
+TransformerFactory.getURIResolver()	Get the object that is used by default during the transformation to resolve URIs used in document xsl import or xsl include
+AttachmentUnmarshaller.getAttachmentAsByteArray(String)	Retrieve the attachment identified by content id cid as a byte
+Binder.setProperty(String,Object)	Set the particular property in the underlying implementation of Binder This method can only be used to set one of the standard JAXB defined unmarshal marshal properties or a provider specific property for binder unmarshal or marshal
+MTOMFeature.MTOMFeature(boolean)	Creates an MTOMFeature
+XMLEventFactory.createEntityReference(String,EntityDeclaration)	Creates a new instance of a EntityReference event
+XMLStreamReader.getAttributeCount()	Returns the count of attributes on this START ELEMENT this method is only valid on a START ELEMENT or ATTRIBUTE This count excludes namespace definitions Attribute indices are zero based
+DatatypeConverterInterface.parseDecimal(String)	Converts the string argument into a BigDecimal value
+AbstractUnmarshallerImpl.unmarshal(XMLStreamReader,Class)	Description copied from interface Unmarshaller
+Transformer.getOutputProperties()	Get a copy of the output properties for the transformation
+SOAPMessage.getProperty(String)	Retrieves value of the specified property
+MimeHeaders.removeAllHeaders()	Removes all the header entries from this MimeHeaders object
+TransformerFactory.setFeature(String,boolean)	Set a feature for this TransformerFactory and Transformers or Templates created by this factory
+XMLGregorianCalendar.getTimezone()	Return timezone offset in minutes or DatatypeConstants FIELD UNDEFINED if this optional field is not defined
+DatatypeConverter.parseShort(String)	Converts the string argument into a short value
+SOAPHeader.examineHeaderElements(String)	Returns an Iterator over all the SOAPHeaderElement objects in this SOAPHeader object that have the specified actor
+SOAPPart.setMimeHeader(String,String)	Changes the first header entry that matches the given header name so that its value is the given value adding a new header with the given name and value if no existing header is a match If there is a match this method clears all existing values for the first header that matches and sets the given value instead If more than one header has the given name this method removes all of the matching headers after the first one
+ValidationEventLocatorImpl.setURL(URL)	Set the URL field on this event locator Null values are allowed
+OctetStreamData.getMimeType()	Returns the MIME type associated with the data object represented by this OctetStreamData
+SOAPMessage.setProperty(String,Object)	Associates the specified value with the specified property If there was already a value associated with this property the old value is replaced
+XMLEventWriter.setDefaultNamespace(String)	Binds a URI to the default namespace This URI is bound in the scope of the current START ELEMENT END ELEMENT pair
+EventReaderDelegate.hasNext()	Description copied from interface XMLEventReader
+XMLCryptoContext.getBaseURI()	Returns the base URI
+JAXBResult.JAXBResult(Unmarshaller)	Creates a new instance that uses the specified Unmarshaller to unmarshal an object
+EventFilter.accept(XMLEvent)	Tests whether this event is part of this stream This method will return true if this filter accepts this event and false otherwise
+XPath.compile(String)	Compile an XPath expression for later evaluation
+JAXBException.printStackTrace(PrintStream)	Prints this JAXBException and its stack trace including the stack trace of the linkedException if it is non null to the PrintStream
+XMLStreamWriter.close()	Close this writer and free any resources associated with the writer This must not close the underlying output stream
+Binding.getHandlerChain()	Gets a copy of the handler chain for a protocol binding instance
+DatatypeConverter.printUnsignedInt(long)	Converts a long value into a string
+ValidationEventLocatorImpl.ValidationEventLocatorImpl(Node)	Constructs an object that points to a DOM Node
+StreamSource.StreamSource(File)	Construct a StreamSource from a File
+ValidationEventLocatorImpl.setObject(Object)	Set the Object field on this event locator Null values are allowed
+SOAPFault.getFaultReasonLocales()	Returns an Iterator over a distinct sequence of Locales for which there are associated Reason Text items
+Service.getPort(Class)	The getPort method returns a proxy The parameter serviceEndpointInterface specifies the service endpoint interface that is supported by the returned proxy
+StreamReaderDelegate.StreamReaderDelegate()	Construct an empty filter with no parent
+ValidatorHandler.getResourceResolver()	Gets the current LSResourceResolver set to this ValidatorHandler
+StAXSource.setSystemId(String)	In the context of a StAXSource it is not appropriate to explicitly set the system identifier
+KeyInfo.getId()	Return the optional Id attribute of this KeyInfo which may be useful for referencing this KeyInfo from other XML structures
+StreamReaderDelegate.getAttributeLocalName(int)	Description copied from interface XMLStreamReader
+AbstractUnmarshallerImpl.getEventHandler()	Return the current event handler or the default event handler if one hasn t been set
+KeySelectorException.printStackTrace(PrintWriter)	Prints this KeySelectorException its backtrace and the cause s backtrace to the specified print writer
+HttpExchange.getPathInfo()	Returns the extra path information that follows the web service path but precedes the query string in the request URI and will start with a character
+AttachmentPart.setContentType(String)	Sets the MIME header whose name is Content Type with the given value
+Schema.newValidatorHandler()	Creates a new ValidatorHandler for this Schema
+URIReferenceException.URIReferenceException(Throwable)	Constructs a new URIReferenceException with the specified cause and a detail message of cause null null cause toString which typically contains the class and detail message of cause
+SOAPHeader.examineMustUnderstandHeaderElements(String)	Returns an Iterator over all the SOAPHeaderElement objects in this SOAPHeader object that have the specified actor and that have a MustUnderstand attribute whose value is equivalent to true
+SOAPElement.addChildElement(QName)	Creates a new SOAPElement object initialized with the given QName object and adds the new element to this SOAPElement object The namespace localname and prefix of the new SOAPElement are all taken from the qname argument
+TransformerConfigurationException.TransformerConfigurationException(String,Throwable)	Create a new TransformerConfigurationException with the given Exception base cause and detail message
+AbstractMarshallerImpl.getAdapter(Class)	Description copied from interface Marshaller
+DatatypeConverterInterface.parseUnsignedInt(String)	Converts the string argument into a long value
+StreamSource.StreamSource(String)	Construct a StreamSource from a URL
+XMLEventReader.nextEvent()	Get the next XMLEvent
+XPath.setXPathVariableResolver(XPathVariableResolver)	Establish a variable resolver
+DOMResult.DOMResult(Node)	Use a DOM node to create a new output target
+XMLEventWriter.getNamespaceContext()	Returns the current namespace context
+AbstractMarshallerImpl.getEventHandler()	Description copied from interface Marshaller
+XMLInputFactory.isPropertySupported(String)	Query the set of properties that this factory supports
+DocumentBuilder.isValidating()	Indicates whether or not this parser is configured to validate XML documents
+StreamSource.getReader()	Get the character stream that was set with setReader
+EntityDeclaration.getPublicId()	The entity s public identifier or null if none was given
+DatatypeConverter.parseUnsignedShort(String)	Converts the string argument into an int value
+XPath.evaluate(String,InputSource,QName)	Evaluate an XPath expression in the context of the specified InputSource and return the result as the specified type
+XMLCryptoContext.setDefaultNamespacePrefix(String)	Sets the default namespace prefix This sets the namespace prefix for all namespace URIs not explicitly set by the putNamespacePrefix method
+Endpoint.getExecutor()	Returns the executor for this Endpointinstance
+SAXParser.parse(InputStream,DefaultHandler,String)	Parse the content of the given InputStream instance as XML using the specified DefaultHandler
+StreamSource.setSystemId(File)	Set the system ID from a File reference
+Validator.setErrorHandler(ErrorHandler)	Sets the ErrorHandler to receive errors encountered during the validate method invocation
+XMLGregorianCalendar.setTime(int,int,int)	Set time as one unit
+ServiceDelegate.getPort(QName,Class)	The getPort method returns a proxy A service client uses this proxy to invoke operations on the target service endpoint The serviceEndpointInterface specifies the service endpoint interface that is supported by the created dynamic proxy instance
+SOAPFault.setFaultActor(String)	Sets this SOAPFault object with the given fault actor
+XMLStreamReader.hasText()	Return true if the current event has text false otherwise The following events have text CHARACTERS DTD ENTITY REFERENCE COMMENT SPACE
+StartDocument.getCharacterEncodingScheme()	Returns the encoding style of the XML data
+StreamReaderDelegate.hasNext()	Description copied from interface XMLStreamReader
+Service.createDispatch(QName,JAXBContext,Mode,)	Creates a Dispatch instance for use with JAXB generated objects
+XMLEvent.isStartElement()	A utility function to check if this event is a StartElement
+JAXBContext.createMarshaller()	Create a Marshaller object that can be used to convert a java content tree into XML data
+Unmarshaller.unmarshal(Node,Class)	Unmarshal XML data by JAXB mapped declaredType and return the resulting content tree
+AbstractMarshallerImpl.marshal(Object,XMLStreamWriter)	Description copied from interface Marshaller
+Service.create(URL,QName,)	Creates a Service instance The created instance is configured with the web service features
+WebServiceException.WebServiceException()	Constructs a new exception with null as its detail message The cause is not initialized
+MimeHeaders.getNonMatchingHeaders(String[])	Returns all of the MimeHeader objects whose name does not match a name in the given array of names
+TransformerException.getCause()	Returns the cause of this throwable or null if the cause is nonexistent or unknown The cause is the throwable that caused this throwable to get thrown
+NotIdentifiableEventImpl.NotIdentifiableEventImpl(int,String,ValidationEventLocator,Throwable)	Create a new NotIdentifiableEventImpl
+XMLStreamReader.isAttributeSpecified(int)	Returns a boolean which indicates if this attribute was created by default
+AttachmentPart.getContent()	Gets the content of this AttachmentPart object as a Java object The type of the returned Java object depends on 1 the DataContentHandler object that is used to interpret the bytes and 2 the Content Type given in the header
+XMLGregorianCalendar.setTime(int,int,int,BigDecimal)	Set time as one unit including the optional infinite precision fractional seconds
+AddressingFeature.AddressingFeature(boolean)	Creates and configures an AddressingFeature with the use of addressing requirements If enabled is true it enables ws addressing i e supports ws addressing but doesn t require its use It also configures to accept all the response types
+SOAPFault.setFaultRole(String)	Creates or replaces any existing Role element value for this SOAPFault object The Role element is optional in SOAP 1 2
+KeySelectorException.getCause()	Returns the cause of this KeySelectorException or null if the cause is nonexistent or unknown The cause is the throwable that caused this KeySelectorException to get thrown
+DocumentBuilder.getSchema()	Get a reference to the the Schema being used by the XML processor
+NoSuchMechanismException.printStackTrace(PrintWriter)	Prints this NoSuchMechanismException its backtrace and the cause s backtrace to the specified print writer
+Provider.createW3CEndpointReference(String,QName,QName,QName,List,String,List,List,Map)	Factory method to create a W3CEndpointReference
+Duration.isSet(Field)	Checks if a field is set
+StreamReaderDelegate.getNamespaceContext()	Description copied from interface XMLStreamReader
+SOAPHandler.getHeaders()	Gets the header blocks that can be processed by this Handler instance
+XPath.getNamespaceContext()	Return the current namespace context
+SOAPEnvelope.addHeader()	Creates a SOAPHeader object and sets it as the SOAPHeader object for this SOAPEnvelope object
+XMLInputFactory.createFilteredReader(XMLEventReader,EventFilter)	Create a filtered event reader that wraps the filter around the event reader
+XMLStreamReader.getNamespaceURI(String)	Return the uri for the given prefix
+StreamReaderDelegate.setParent(XMLStreamReader)	Set the parent of this instance
+DatatypeConverterInterface.parseBoolean(String)	Converts the string argument into a boolean value
+Binding.getBindingID()	Get the URI for this binding instance
+Unmarshaller.unmarshal(Reader)	Unmarshal XML data from the specified Reader and return the resulting content tree Validation event location information may be incomplete when using this form of the unmarshal API because a Reader does not provide the system ID
+Unmarshaller.unmarshal(XMLStreamReader)	Unmarshal XML data from the specified pull parser and return the resulting content tree
+Duration.subtract(Duration)	Computes a new duration whose value is this rhs
+Attribute.getValue()	Gets the normalized value of this attribute
+XMLOutputFactory.createXMLEventWriter(OutputStream)	Create a new XMLEventWriter that writes to a stream
+Marshaller.Listener.Listener()	
+MarshalException.MarshalException(Throwable)	Construct a MarshalException with a linkedException The detail message and vendor specific errorCode will default to null
+XMLOutputFactory.newInstance()	Creates a new instance of the factory in exactly the same manner as the newFactory method
+StAXSource.getSystemId()	Get the system identifier used by this StAXSource
+StreamSource.getInputStream()	Get the byte stream that was set with setByteStream
+UnmarshalException.UnmarshalException(String,String,Throwable)	Construct an UnmarshalException with the specified detail message vendor specific errorCode and linkedException
+Service.getPort(QName,Class)	The getPort method returns a proxy A service client uses this proxy to invoke operations on the target service endpoint The serviceEndpointInterface specifies the service endpoint interface that is supported by the created dynamic proxy instance
+XmlElementDecl.GLOBAL.GLOBAL()	
+DatatypeConverter.printLong(long)	Converts A long value into a string
+XMLStreamException.getNestedException()	Gets the nested exception
+DocumentBuilderFactory.isXIncludeAware()	Get state of XInclude processing
+XMLInputFactory.newFactory()	Create a new instance of the factory
+SAXParser.getXMLReader()	Returns the XMLReader that is encapsulated by the implementation of this class
+Service.createDispatch(EndpointReference,Class,Mode,)	Creates a Dispatch instance for use with objects of the client s choosing If there are any reference parameters in the endpointReference then those reference parameters MUST appear as SOAP headers indicating them to be reference parameters on all messages sent to the endpoint
+StreamReaderDelegate.isCharacters()	Description copied from interface XMLStreamReader
+JAXBSource.JAXBSource(Marshaller,Object)	Creates a new Source for the given content object
+SOAPException.initCause(Throwable)	Initializes the cause field of this SOAPException object with the given Throwable object
+ServiceDelegate.getHandlerResolver()	Returns the configured handler resolver
+XPath.setXPathFunctionResolver(XPathFunctionResolver)	Establish a function resolver
+Transformer.setOutputProperty(String,String)	Set an output property that will be in effect for the transformation
+JAXB.unmarshal(InputStream,Class)	Reads in a Java object tree from the given XML input
+SOAPHeader.addNotUnderstoodHeaderElement(QName)	Creates a new NotUnderstood SOAPHeaderElement object initialized with the specified name and adds it to this SOAPHeader object
+AttachmentPart.getMatchingMimeHeaders(String[])	Retrieves all MimeHeader objects that match a name in the given array
+StAXSource.StAXSource(XMLStreamReader)	Creates a new instance of a StAXSource by supplying an XMLStreamReader
+SOAPHeaderElement.setRole(String)	Sets the Role associated with this SOAPHeaderElement object to the specified Role
+SAXParserFactory.isValidating()	Indicates whether or not the factory is configured to produce parsers which validate the XML content during parse
+StreamReaderDelegate.getAttributeValue(String,String)	Description copied from interface XMLStreamReader
+SOAPBinding.getSOAPFactory()	Gets the SAAJ SOAPFactory instance used by this SOAP binding
+XMLEventWriter.add(XMLEventReader)	Adds an entire stream to an output stream calls next on the inputStream argument until hasNext returns false This should be treated as a convenience method that will perform the following loop over all the events in an event reader and call add on each event
+Service.getHandlerResolver()	Returns the configured handler resolver
+DatatypeConverterInterface.printLong(long)	Converts a long value into a string
+XMLInputFactory.newFactory(String,ClassLoader)	Create a new instance of the factory
+SchemaFactory.setResourceResolver(LSResourceResolver)	Sets the LSResourceResolver to customize resource resolution when parsing schemas
+TypeInfoProvider.isSpecified(int)	Returns false if the attribute was added by the validator
+FactoryConfigurationError.FactoryConfigurationError()	Default constructor
+SOAPHeader.extractAllHeaderElements()	Returns an Iterator over all the SOAPHeaderElement objects in this SOAPHeader object and detaches them from this SOAPHeader object
+LogicalMessage.setPayload(Source)	Sets the message payload
+SOAPElement.getAllAttributesAsQNames()	Returns an Iterator over all of the attributes in this SOAPElement as QName objects
+TypeInfoProvider.getAttributeTypeInfo(int)	Returns the immutable TypeInfo object for the specified attribute of the current element
+LogicalMessageContext.getMessage()	Gets the message from this message context
+XMLEventWriter.add(XMLEvent)	Add an event to the output stream Adding a START ELEMENT will open a new namespace scope that will be closed when the corresponding END ELEMENT is written
+BindingProvider.getEndpointReference(Class)	Returns the EndpointReference associated with this BindingProvider instance The instance returned will be of type clazz
+XMLEvent.writeAsEncodedUnicode(Writer)	This method will write the XMLEvent as per the XML 1 0 specification as Unicode characters
+Unmarshaller.getEventHandler()	Return the current event handler or the default event handler if one hasn t been set
+TransformerFactory.getAttribute(String)	Allows the user to retrieve specific attributes on the underlying implementation
+JAXB.unmarshal(File,Class)	Reads in a Java object tree from the given XML input
+XMLStreamWriter.writeProcessingInstruction(String,String)	Writes a processing instruction
+EndElement.getNamespaces()	Returns an Iterator of namespaces that have gone out of scope Returns an empty iterator if no namespaces have gone out of scope
+W3CEndpointReferenceBuilder.referenceParameter(Element)	Adds the referenceParameter to the W3CEndpointReference instance wsa ReferenceParameters element
+EndpointContext.getEndpoints()	This gives list of endpoints in an application For e g in servlet container a war file may contain multiple endpoints
+TransformerFactory.setURIResolver(URIResolver)	Set an object that is used by default during the transformation to resolve URIs used in document xsl import or xsl include
+XMLOutputFactory.createXMLStreamWriter(Result)	Create a new XMLStreamWriter that writes to a JAXP result This method is optional
+AbstractMarshallerImpl.getNode(Object)	By default the getNode method is unsupported and throw an UnsupportedOperationException
+MessageContext.getScope(String)	Gets the scope of a property
+XMLGregorianCalendar.setFractionalSecond(BigDecimal)	Set fractional seconds
+DatatypeConverter.printDateTime(Calendar)	Converts a Calendar value into a string
+SAXParser.reset()	Reset this SAXParser to its original configuration
+AbstractUnmarshallerImpl.getAttachmentUnmarshaller()	
+TemplatesHandler.getTemplates()	When a TemplatesHandler object is used as a ContentHandler for the parsing of transformation instructions it creates a Templates object which the caller can get once the SAX events have been completed
+ValidationEventLocatorImpl.ValidationEventLocatorImpl(Object)	Constructs an object that points to a JAXB content object
+StreamReaderDelegate.getPIData()	Description copied from interface XMLStreamReader
+EndElement.getName()	Get the name of this event
+URIReferenceException.URIReferenceException(String)	Constructs a new URIReferenceException with the specified detail message
+SAXParserFactory.setFeature(String,boolean)	Sets the particular feature in the underlying implementation of org xml sax XMLReader
+StreamReaderDelegate.StreamReaderDelegate(XMLStreamReader)	Construct an filter with the specified parent
+DatatypeConverterInterface.parseUnsignedShort(String)	Converts the string argument into an int value
+DocumentBuilder.newDocument()	Obtain a new instance of a DOM Document object to build a DOM tree with
+AttachmentPart.getSize()	Returns the number of bytes in this AttachmentPart object
+Unmarshaller.getUnmarshallerHandler()	Get an unmarshaller handler object that can be used as a component in an XML pipeline
+DatatypeConverterInterface.printString(String)	Converts the string argument into a string
+XMLStreamReader.isEndElement()	Returns true if the cursor points to an end tag otherwise false
+Dispatch.invokeAsync(T)	Invoke a service operation asynchronously The method returns without waiting for the response to the operation invocation the results of the operation are obtained by polling the returned Response
+XMLStreamReader.getAttributePrefix(int)	Returns the prefix of this attribute at the provided index
+HttpContext.getAttributeNames()	Returns all attribute names for container s configuration and other data that can be used by jax ws runtime
+Endpoint.publish(Object)	Publishes this endpoint at the provided server context
+WebServiceContext.getEndpointReference(Class,)	Returns the EndpointReference associated with this endpoint
+Transformer.setOutputProperties(Properties)	Set the output properties for the transformation These properties will override properties set in the Templates with xsl output
+JAXBContext.generateSchema(SchemaOutputResolver)	Generates the schema documents for this context
+SAXParserFactory.getSchema()	Gets the Schema object specified through the setSchema Schema schema method
+AbstractUnmarshallerImpl.unmarshal(Reader)	Description copied from interface Unmarshaller
+JAXBException.printStackTrace()	Prints this JAXBException and its stack trace including the stack trace of the linkedException if it is non null to System err
+XPathFactory.newXPath()	Return a new XPath using the underlying object model determined when the XPathFactory was instantiated
+StreamReaderDelegate.getLocation()	Description copied from interface XMLStreamReader
+Marshaller.getProperty(String)	Get the particular property in the underlying implementation of Marshaller This method can only be used to get one of the standard JAXB defined properties above or a provider specific property Attempting to get an undefined property will result in a PropertyException being thrown See Supported Properties
+DTD.getEntities()	Return a List containing the general entities both external and internal declared in the DTD
+SAXParser.parse(String,DefaultHandler)	Parse the content described by the giving Uniform Resource Identifier URI as XML using the specified DefaultHandler
+SOAPElement.addTextNode(String)	Creates a new Text object initialized with the given String and adds it to this SOAPElement object
+Unmarshaller.Listener.Listener()	
+XPathFunction.evaluate(List)	Evaluate the function with the specified arguments
+SAXParserFactory.getFeature(String)	Returns the particular property requested for in the underlying implementation of org xml sax XMLReader
+Schema.newValidator()	Creates a new Validator for this Schema
+SAXParser.isXIncludeAware()	Get the XInclude processing mode for this parser
+SAXParserFactory.isNamespaceAware()	Indicates whether or not the factory is configured to produce parsers which are namespace aware
+JAXB.unmarshal(URI,Class)	Reads in a Java object tree from the given XML input
+TypeConstraintException.printStackTrace()	Prints this TypeConstraintException and its stack trace including the stack trace of the linkedException if it is non null to System err
+SAXSource.setSystemId(String)	Set the system identifier for this Source If an input source has already been set it will set the system ID or that input source otherwise it will create a new input source
+Binder.getEventHandler()	Return the current event handler or the default event handler if one hasn t been set
+SOAPPart.getAllMimeHeaders()	Retrieves all the headers for this SOAPPart object as an iterator over the MimeHeader objects
+DocumentBuilder.parse(InputStream)	Parse the content of the given InputStream as an XML document and return a new DOM Document object
+ValidationEventLocatorImpl.getOffset()	Description copied from interface ValidationEventLocator
+AttachmentPart.setRawContentBytes(byte[],int,int,String)	Sets the content of this attachment part to that contained by the byte array content and sets the value of the Content Type header to the value contained in contentType
+JAXBContext.newInstance(String,ClassLoader,Map)	Obtain a new instance of a JAXBContext class
+ValidationEventCollector.getEvents()	Return an array of ValidationEvent objects containing a copy of each of the collected errors and warnings
+DocumentBuilderFactory.setNamespaceAware(boolean)	Specifies that the parser produced by this code will provide support for XML namespaces By default the value of this is set to false
+W3CEndpointReferenceBuilder.wsdlDocumentLocation(String)	Sets the wsdlDocumentLocation that will be referenced as wsa Metadata wsdli wsdlLocation The namespace name for the wsdli wsdlLocation s value can be taken from the WSDL itself
+JAXBElement.JAXBElement(QName,Class,T)	Construct an xml element instance
+DatatypeConverter.printHexBinary(byte[])	Converts an array of bytes into a string
+XMLGregorianCalendar.setYear(BigInteger)	Set low and high order component of XSD dateTime year field
+Duration.getField(Field)	Gets the value of a field
+JAXBElement.GlobalScope.GlobalScope()	
+XMLEventFactory.createSpace(String)	Create a Characters event with the isSpace flag set to true
+SOAPMessage.getAttachments()	Retrieves all the AttachmentPart objects that are part of this SOAPMessage object
+Duration.negate()	Returns a new Duration object whose value is this
+StreamReaderDelegate.getNamespaceURI(String)	Description copied from interface XMLStreamReader
+TransformerHandler.setSystemId(String)	Set the base ID URI or system ID from where relative URLs will be resolved
+XMLStreamWriter.writeDTD(String)	Write a DTD section This string represents the entire doctypedecl production from the XML 1 0 specification
+ValidationEventCollector.hasEvents()	Returns true if this event collector contains at least one ValidationEvent
+SchemaOutputResolver.createOutput(String,String)	Decides where the schema file of the given namespace URI will be written and return it as a Result object
+Endpoint.getBinding()	Returns the binding for this endpoint
+XMLStreamReader.getAttributeType(int)	Returns the XML type of the attribute at the provided index
+RespectBindingFeature.RespectBindingFeature()	Creates an RespectBindingFeature
+PortInfo.getPortName()	Gets the qualified name of the WSDL port being accessed
+XMLStreamException.XMLStreamException()	Default constructor
+SOAPElement.getElementName()	Returns the name of this SOAPElement object
+Text.isComment()	Retrieves whether this Text object represents a comment
+SchemaFactory.isSchemaLanguageSupported(String)	Is specified schema supported by this SchemaFactory
+JAXBException.JAXBException(String)	Construct a JAXBException with the specified detail message The errorCode and linkedException will default to null
+SAXSource.SAXSource(InputSource)	Create a SAXSource using a SAX InputSource
+Location.getColumnNumber()	Return the column number where the current event ends returns 1 if none is available
+TransformerException.getException()	This method retrieves an exception that this exception wraps
+SchemaFactory.setFeature(String,boolean)	Set a feature for this SchemaFactory Schemas created by this factory and by extension Validators and ValidatorHandlers created by those Schemas
+SOAPMessage.removeAttachments(MimeHeaders)	Removes all the AttachmentPart objects that have header entries that match the specified headers Note that the removed attachment could have headers in addition to those specified
+XMLStreamReader.getCharacterEncodingScheme()	Returns the character encoding declared on the xml declaration Returns null if none was declared
+Name.getPrefix()	Returns the prefix that was specified when this Name object was initialized This prefix is associated with the namespace for the XML name that this Name object represents
+HttpExchange.getRequestHeader(String)	Returns the value of the specified request header If the request did not include a header of the specified name this method returns null If there are multiple headers with the same name this method returns the first header in the request The header name is case insensitive This is a convienence method to get a header instead of using the getRequestHeaders
+XMLStreamWriter.getNamespaceContext()	Returns the current namespace context
+JAXBIntrospector.getValue(Object)	Get the element value of a JAXB element
+Validator.getEventHandler()	Return the current event handler or the default event handler if one hasn t been set
+Endpoint.setEndpointContext(EndpointContext)	By settng a EndpointContext JAX WS runtime knows about addresses of other endpoints in an application If multiple endpoints share different ports of a WSDL then the multiple port addresses are patched when the WSDL is accessed
+Endpoint.create(String,Object)	Creates an endpoint with the specified binding type and implementor object
+StAXResult.getSystemId()	The returned system identifier is always null
+XMLGregorianCalendar.getMillisecond()	Return millisecond precision of getFractionalSecond
+AttachmentPart.getNonMatchingMimeHeaders(String[])	Retrieves all MimeHeader objects whose name does not match a name in the given array
+SOAPMessage.getMimeHeaders()	Returns all the transport specific MIME headers for this SOAPMessage object in a transport independent fashion
+XMLEvent.getSchemaType()	This method is provided for implementations to provide optional type information about the associated event
+DatatypeConverter.parseDate(String)	Converts the string argument into a Calendar value
+Binder.getProperty(String)	Get the particular property in the underlying implementation of Binder This method can only be used to get one of the standard JAXB defined unmarshal marshal properties or a provider specific property for binder unmarshal or marshal
+XMLOutputFactory.isPropertySupported(String)	Query the set of properties that this factory supports
+TransformerException.TransformerException(String,Throwable)	Wrap an existing exception in a TransformerException
+SAXTransformerFactory.newXMLFilter(Source)	Create an XMLFilter that uses the given Source as the transformation instructions
+ValidatorHandler.getContentHandler()	Gets the ContentHandler which receives the augmented validation result
+EndpointReference.getPort(Class,)	The getPort method returns a proxy If there are any reference parameters in the EndpointReference instance then those reference parameters MUST appear as SOAP headers indicating them to be reference parameters on all messages sent to the endpoint
+DocumentBuilder.setEntityResolver(EntityResolver)	Specify the EntityResolver to be used to resolve entities present in the XML document to be parsed Setting this to null will result in the underlying implementation using it s own default implementation and behavior
+SOAPMessage.createAttachmentPart(Object,String)	Creates an AttachmentPart object and populates it with the specified data of the specified content type The type of the Object should correspond to the value given for the Content Type
+Unmarshaller.Listener.beforeUnmarshal(Object,Object)	Callback method invoked before unmarshalling into target
+ValidationException.ValidationException(String,String)	Construct an ValidationException with the specified detail message and vendor specific errorCode The linkedException will default to null
+XMLStreamWriter.writeStartElement(String,String,String)	Writes a start tag to the output
+DatatypeConverter.parseInteger(String)	Convert the string argument into a BigInteger value
+EntityDeclaration.getReplacementText()	The replacement text of the entity
+RespectBindingFeature.RespectBindingFeature(boolean)	Creates an RespectBindingFeature
+AttachmentPart.clearContent()	Clears out the content of this AttachmentPart object
+XMLInputFactory.newInstance()	Creates a new instance of the factory in exactly the same manner as the newFactory method
+KeyInfo.marshal(XMLStructure,XMLCryptoContext)	Marshals the key info to XML
+JAXB.unmarshal(Source,Class)	Reads in a Java object tree from the given XML input
+AsyncHandler.handleResponse(Response)	Called when the response to an asynchronous operation is available
+XMLStreamReader.getNamespaceURI(int)	Returns the uri for the namespace declared at the index
+StreamSource.StreamSource(Reader,String)	Construct a StreamSource from a character reader Normally a stream should be used rather than a reader so that the XML parser may resolve character encoding specified by the XML declaration However in many cases the encoding of the input stream is already resolved as in the case of reading XML from a StringReader
+Binder.unmarshal(XmlNode)	Unmarshal XML infoset view to a JAXB object tree
+SOAPConnectionFactory.SOAPConnectionFactory()	
+AbstractMarshallerImpl.setProperty(String,Object)	Default implementation of the setProperty method handles the four defined properties in Marshaller If a provider needs to handle additional properties it should override this method in a derived class
+Duration.getXMLSchemaType()	Return the name of the XML Schema date time type that this instance maps to Type is computed based on fields that are set i e isSet DatatypeConstants Field field true
+SOAPHeaderElement.setRelay(boolean)	Sets the relay attribute for this SOAPHeaderElement to be either true or false
+DTD.getProcessedDTD()	Returns an implementation defined representation of the DTD
+Duration.multiply(int)	Computes a new duration whose value is factor times longer than the value of this duration
+AttachmentPart.getMimeHeader(String)	Gets all the values of the header identified by the given String
+EventReaderDelegate.remove()	Description copied from interface Iterator
+StreamReaderDelegate.getText()	Description copied from interface XMLStreamReader
+Transformer.transform(Source,Result)	Transform the XML Source to a Result
+URIReferenceException.printStackTrace(PrintWriter)	Prints this URIReferenceException its backtrace and the cause s backtrace to the specified print writer
+MessageFactory.MessageFactory()	
+AttachmentPart.getContentType()	Gets the value of the MIME header whose name is Content Type
+JAXB.marshal(Object,OutputStream)	Writes a Java object tree to XML and store it to the specified location
+StreamReaderDelegate.getName()	Description copied from interface XMLStreamReader
+ValidationEventLocator.getLineNumber()	Return the line number if available
+SAXParser.isNamespaceAware()	Indicates whether or not this parser is configured to understand namespaces
+JAXB.unmarshal(URL,Class)	Reads in a Java object tree from the given XML input
+XMLStreamException.getLocation()	Gets the location of the exception
+AttachmentPart.getContentLocation()	Gets the value of the MIME header whose name is Content Location
+QName.equals(Object)	Test this QName for equality with another Object
+NotationDeclaration.getSystemId()	The notation s system identifier or null if none was given
+XPathFactory.newInstance(String)	Get a new XPathFactory instance using the specified object model
+StreamResult.setOutputStream(OutputStream)	Set the ByteStream that is to be written to Normally a stream should be used rather than a reader so that the transformer may use instructions contained in the transformation instructions to control the encoding
+Duration.addTo(Date)	Adds this duration to a Date object
+SchemaFactory.newSchema(Source[])	Parses the specified source s as a schema and returns it as a schema
+SAXResult.SAXResult()	Zero argument default constructor
+SAXParser.parse(InputSource,DefaultHandler)	Parse the content given InputSource as XML using the specified DefaultHandler
+XMLGregorianCalendar.toGregorianCalendar()	Convert this XMLGregorianCalendar to a GregorianCalendar
+XMLInputFactory.createXMLEventReader(InputStream)	Create a new XMLEventReader from a java io InputStream
+DatatypeConverter.printInt(int)	Converts an int value into a string
+DOMResult.getNode()	Get the node that will contain the result DOM tree
+DatatypeConverter.parseByte(String)	Converts the string argument into a byte value
+ValidatorHandler.getFeature(String)	Look up the value of a feature flag
+HttpContext.setHandler(HttpHandler)	JAX WS runtime sets its handler during Endpoint publish HttpContext to handle HTTP requests for this context Container or its extensions use this handler to process the requests
+DatatypeConverterInterface.printInteger(BigInteger)	Converts a BigInteger value into a string
+XMLOutputFactory.getProperty(String)	Get a feature property on the underlying implementation
+Transformer.getOutputProperty(String)	Get an output property that is in effect for the transformer
+TransformerFactory.getErrorListener()	Get the error event handler for the TransformerFactory
+ValidationEventLocatorImpl.ValidationEventLocatorImpl(Locator)	Constructs an object from an org xml sax Locator
+XMLStreamReader.getTextStart()	Returns the offset into the text character array where the first character of this text event is stored
+SOAPMessage.countAttachments()	Gets a count of the number of attachments in this message This count does not include the SOAP part
+SOAPElement.getAttributeValue(Name)	Returns the value of the attribute with the specified name
+XMLStreamReader.getAttributeValue(String,String)	Returns the normalized attribute value of the attribute with the namespace and localName If the namespaceURI is null the namespace is not checked for equality
+Provider.createAndPublishEndpoint(String,Object,)	Creates and publishes an endpoint object with the specified address implementation object and web service features
+XMLOutputFactory.createXMLEventWriter(Writer)	Create a new XMLEventWriter that writes to a writer
+XMLGregorianCalendar.setTime(int,int,int,int)	Set time as one unit including optional milliseconds
+ValidationException.ValidationException(String)	Construct an ValidationException with the specified detail message The errorCode and linkedException will default to null
+TransformerFactory.setErrorListener(ErrorListener)	Set the error event listener for the TransformerFactory which is used for the processing of transformation instructions and not for the transformation itself
+Binding.setHandlerChain(List)	Sets the handler chain for the protocol binding instance
+ErrorListener.error(TransformerException)	Receive notification of a recoverable error
+HttpExchange.getQueryString()	Returns the query string that is contained in the request URI after the path
+DomHandler.createUnmarshaller(ValidationEventHandler)	When a JAXB provider needs to unmarshal a part of a document into an infoset representation it first calls this method to create a Result object
+JAXBException.setLinkedException(Throwable)	Add a linked Exception
+DatatypeConverterInterface.printFloat(float)	Converts a float value into a string
+XMLStreamWriter.writeEndDocument()	Closes any start tags and writes corresponding end tags
+XMLStreamWriter.writeCharacters(char[],int,int)	Write text to the output
+DatatypeConverter.parseHexBinary(String)	Converts the string argument into an array of bytes
+Transform.transform(Data,XMLCryptoContext,OutputStream)	Transforms the specified data using the underlying transform algorithm
+DatatypeConverterInterface.parseDateTime(String)	Converts the string argument into a Calendar value
+XMLEventWriter.flush()	Writes any cached events to the underlying output mechanism
+Service.createDispatch(QName,JAXBContext,Mode)	Creates a Dispatch instance for use with JAXB generated objects
+KeySelectorException.KeySelectorException(String,Throwable)	Constructs a new KeySelectorException with the specified detail message and cause
+XPathExpression.evaluate(Object,QName)	Evaluate the compiled XPath expression in the specified context and return the result as the specified type
+AbstractUnmarshallerImpl.unmarshal(XMLEventReader,Class)	Description copied from interface Unmarshaller
+KeySelectorResult.getKey()	Returns the selected key
+SAXParserFactory.newInstance(String,ClassLoader)	Obtain a new instance of a SAXParserFactory from class name
+KeySelectorException.KeySelectorException()	Constructs a new KeySelectorException with null as its detail message
+UnmarshalException.UnmarshalException(String,String)	Construct an UnmarshalException with the specified detail message and vendor specific errorCode The linkedException will default to null
+Transformer.setErrorListener(ErrorListener)	Set the error event listener in effect for the transformation
+KeySelectorException.printStackTrace(PrintStream)	Prints this KeySelectorException its backtrace and the cause s backtrace to the specified print stream
+XMLEventFactory.createEndElement(String,String,String)	Create a new EndElement
+SOAPHeader.extractHeaderElements(String)	Returns an Iterator over all the SOAPHeaderElement objects in this SOAPHeader object that have the specified actor and detaches them from this SOAPHeader object
+Validator.setEventHandler(ValidationEventHandler)	Allow an application to register a validation event handler
+SOAPFault.setFaultCode(Name)	Sets this SOAPFault object with the given fault code
+TransformerException.TransformerException(Throwable)	Create a new TransformerException wrapping an existing exception
+ValidatorHandler.getErrorHandler()	Gets the current ErrorHandler set to this ValidatorHandler
+Marshaller.marshal(Object,Writer)	Marshal the content tree rooted at jaxbElement into a Writer
+SchemaFactory.newSchema()	Creates a special Schema object
+Service.createDispatch(QName,Class,Mode)	Creates a Dispatch instance for use with objects of the client s choosing
+SAXSource.sourceToInputSource(Source)	Attempt to obtain a SAX InputSource object from a Source object
+DatatypeConverter.printFloat(float)	Converts a float value into a string
+DOMResult.setNextSibling(Node)	Set the child node before which the result nodes will be inserted
+ServiceDelegate.createDispatch(QName,JAXBContext,Mode,)	Creates a Dispatch instance for use with JAXB generated objects
+SOAPBody.addFault(QName,String,Locale)	Creates a new SOAPFault object and adds it to this SOAPBody object The type of the SOAPFault will be a SOAP 1 1 or a SOAP 1 2 SOAPFault depending on the protocol specified while creating the MessageFactory instance
+Namespace.isDefaultNamespaceDeclaration()	returns true if this attribute declares the default namespace
+SOAPMessage.getSOAPHeader()	Gets the SOAP Header contained in this SOAPMessage object
+StreamSource.StreamSource()	Zero argument default constructor If this constructor is used and no Stream source is set using setInputStream java io InputStream inputStream or setReader java io Reader reader then the Transformer will create an empty source InputStream using new InputStream
+Characters.isIgnorableWhiteSpace()	Return true if this is ignorableWhiteSpace If this event is ignorableWhiteSpace its event type will be SPACE
+SOAPElement.getAttributeValue(QName)	Returns the value of the attribute with the specified qname
+ValidationEvent.getLinkedException()	Retrieve the linked exception for this warning error
+Binder.updateXML(Object,XmlNode)	Changes in JAXB object tree are updated in its associated XML parse tree
+Unmarshaller.unmarshal(Node)	Unmarshal global XML data from the specified DOM tree and return the resulting content tree
+Namespace.getPrefix()	Gets the prefix returns if this is a default namespace declaration
+SOAPElement.addChildElement(SOAPElement)	Add a SOAPElement as a child of this SOAPElement instance The SOAPElement is expected to be created by a SOAPFactory Callers should not rely on the element instance being added as is into the XML tree Implementations could end up copying the content of the SOAPElement passed into an instance of a different SOAPElement implementation For instance if addChildElement is called on a SOAPHeader element will be copied into an instance of a SOAPHeaderElement
+QName.hashCode()	Generate the hash code for this QName
+CollapsedStringAdapter.marshal(String)	No op
+DatatypeConverter.printUnsignedShort(int)	Converts an int value into a string
+XMLStreamReader.getPIData()	Get the data section of a processing instruction
+XMLEventReader.getElementText()	Reads the content of a text only element Precondition the current event is START ELEMENT Postcondition The current event is the corresponding END ELEMENT
+AbstractUnmarshallerImpl.getListener()	Description copied from interface Unmarshaller
+XMLGregorianCalendar.setDay(int)	Set days in month
+PropertyException.PropertyException(String,String,Throwable)	Construct a PropertyException with the specified detail message vendor specific errorCode and linkedException
+SchemaFactoryConfigurationError.SchemaFactoryConfigurationError()	Create a new SchemaFactoryConfigurationError with no detail message
+JAXBContext.newInstance(String,ClassLoader)	Obtain a new instance of a JAXBContext class
+StreamReaderDelegate.getCharacterEncodingScheme()	Description copied from interface XMLStreamReader
+HTTPException.HTTPException(int)	Constructor for the HTTPException
+XMLStreamException.XMLStreamException(String,Location,Throwable)	Construct an exception with the assocated message exception and location
+ServiceDelegate.addPort(QName,String,String)	Creates a new port for the service Ports created in this way contain no WSDL port type information and can only be used for creating Dispatchinstances
+Attribute.isSpecified()	A flag indicating whether this attribute was actually specified in the start tag of its element or was defaulted from the schema
+SchemaFactory.newSchema(Source)	Parses the specified source as a schema and returns it as a schema
+AddressingFeature.AddressingFeature(boolean,boolean,Responses)	Creates and configures an AddressingFeature with the use of addressing requirements If enabled and required are true it enables ws addressing and requires its use Also the response types can be configured using responses parameter
+Endpoint.create(Object,)	Creates an endpoint with the specified implementor object and web service features If there is a binding specified via a BindingType annotation then it MUST be used else a default of SOAP 1 1 HTTP binding MUST be used
+MarshalException.printStackTrace()	Prints this MarshalException its backtrace and the cause s backtrace to the standard error stream
+XMLGregorianCalendar.toGregorianCalendar(TimeZone,Locale,XMLGregorianCalendar)	Convert this XMLGregorianCalendar along with provided parameters to a GregorianCalendar instance
+URIReference.getURI()	Returns the URI of the referenced data object
+XMLStreamWriter.writeStartElement(String)	Writes a start tag to the output All writeStartElement methods open a new scope in the internal namespace context Writing the corresponding EndElement causes the scope to be closed
+StreamReaderDelegate.isEndElement()	Description copied from interface XMLStreamReader
+EventReaderDelegate.nextTag()	Description copied from interface XMLEventReader
+JAXBIntrospector.isElement(Object)	Return true if object represents a JAXB element
+SAAJResult.SAAJResult(SOAPMessage)	Creates a SAAJResult that will write the results into the SOAPPart of the supplied SOAPMessage
+XmlElement.DEFAULT.DEFAULT()	
+XPath.reset()	Reset this XPath to its original configuration
+NormalizedStringAdapter.marshal(String)	No op
+SOAPFault.addFaultReasonText(String,Locale)	Appends or replaces a Reason Text item containing the specified text message and an xml lang derived from locale If a Reason Text item with this xml lang already exists its text value will be replaced with text
+SOAPFault.getFaultNode()	Returns the optional Node element value for this SOAPFault object The Node element is optional in SOAP 1 2
+SOAPBody.getFault()	Returns the SOAPFault object in this SOAPBody object
+XMLGregorianCalendar.getMinute()	Return minutes or DatatypeConstants FIELD UNDEFINED
+Marshaller.Listener.afterMarshal(Object)	Callback method invoked after marshalling source to XML
+JAXB.marshal(Object,String)	Writes a Java object tree to XML and store it to the specified location
+SOAPFault.setFaultString(String,Locale)	Sets the fault string for this SOAPFault object to the given string and localized to the given locale
+XMLInputFactory.createFilteredReader(XMLStreamReader,StreamFilter)	Create a filtered reader that wraps the filter around the reader
+XMLInputFactory.getEventAllocator()	Gets the allocator used by streams created with this factory
+DocumentBuilder.parse(InputSource)	Parse the content of the given input source as an XML document and return a new DOM Document object
+DatatypeConverter.parseQName(String,NamespaceContext)	Converts the string argument into a byte value
+XPath.evaluate(String,Object)	Evaluate an XPath expression in the specified context and return the result as a String
+NoSuchMechanismException.getCause()	Returns the cause of this NoSuchMechanismException or null if the cause is nonexistent or unknown The cause is the throwable that caused this NoSuchMechanismException to get thrown
+DocumentBuilderFactory.setAttribute(String,Object)	Allows the user to set specific attributes on the underlying implementation
+AttachmentUnmarshaller.AttachmentUnmarshaller()	
+SOAPFault.addDetail()	Creates an optional Detail object and sets it as the Detail object for this SOAPFault object
+SOAPFault.getFaultRole()	Returns the optional Role element value for this SOAPFault object The Role element is optional in SOAP 1 2
+UnmarshallerHandler.getResult()	Obtains the unmarshalled result
+Marshaller.getSchema()	Get the JAXP 1 3 Schema object being used to perform marshal time validation If there is no Schema set on the marshaller then this method will return null indicating that marshal time validation will not be performed
+DatatypeConverter.printInteger(BigInteger)	Converts a BigInteger value into a string
+EntityDeclaration.getName()	The entity s name
+XMLEventFactory.newFactory()	Create a new instance of the factory
+SAAJResult.getResult()	the resulting Tree that was created under the specified root Node
+Unmarshaller.setValidating(boolean)	Specifies whether or not the default validation mechanism of the Unmarshaller should validate during unmarshal operations
+HttpExchange.getRequestBody()	Returns a stream from which the request body can be read
+JAXB.marshal(Object,Result)	Writes a Java object tree to XML and store it to the specified location
+SourceLocator.getLineNumber()	Return the line number where the current document event ends
+TransformerException.TransformerException(String,SourceLocator,Throwable)	Wrap an existing exception in a TransformerException
+TypeInfoProvider.isIdAttribute(int)	Returns true if the specified attribute is determined to be ID
+Service.create(QName,)	Creates a Service instance The created instance is configured with the web service features
+FactoryConfigurationError.FactoryConfigurationError(String)	Construct an exception with associated message
+HttpExchange.HttpExchange()	
+SAXResult.getSystemId()	Get the system identifier that was set with setSystemId
+XMLStreamReader.hasNext()	Returns true if there are more parsing events and false if there are no more events This method will return false if the current state of the XMLStreamReader is END DOCUMENT
+JAXBElement.isNil()	Returns true iff this element instance content model is nil
+HttpExchange.getRemoteAddress()	Returns the unresolved address of the remote entity invoking this request
+Node.setParentElement(SOAPElement)	Sets the parent of this Node object to the given SOAPElement object
+TransformerException.printStackTrace(PrintWriter)	Print the the trace of methods from where the error originated This will trace all nested exception objects as well as this object
+Provider.createServiceDelegate(URL,QName,Class)	Creates a service delegate object
+StreamReaderDelegate.close()	Description copied from interface XMLStreamReader
+SOAPBinding.getRoles()	Gets the roles played by the SOAP binding instance
+MimeHeaders.removeHeader(String)	Remove all MimeHeader objects whose name matches the given name
+MTOMFeature.MTOMFeature(int)	Creates an MTOMFeature
+XMLCryptoContext.getURIDereferencer()	Returns a URIDereferencer that is used to dereference URIReferences
+Provider.createServiceDelegate(URL,QName,Class,)	Creates a service delegate object
+JAXBException.JAXBException(Throwable)	Construct a JAXBException with a linkedException The detail message and vendor specific errorCode will default to null
+ServiceDelegate.createDispatch(QName,Class,Mode)	Creates a Dispatch instance for use with objects of the user s choosing
+HttpExchange.getScheme()	Returns the name of the scheme used to make this request for example http or https
+SOAPElement.removeAttribute(QName)	Removes the attribute with the specified qname
+XMLGregorianCalendar.setMillisecond(int)	Set milliseconds
+Unmarshaller.setProperty(String,Object)	Set the particular property in the underlying implementation of Unmarshaller This method can only be used to set one of the standard JAXB defined properties above or a provider specific property Attempting to set an undefined property will result in a PropertyException being thrown See Supported Properties
+SOAPMessage.addAttachmentPart(AttachmentPart)	Adds the given AttachmentPart object to this SOAPMessage object An AttachmentPart object must be created before it can be added to a message
+XPathFactory.setXPathVariableResolver(XPathVariableResolver)	Establish a default variable resolver
+SOAPFault.getDetail()	Returns the optional detail element for this SOAPFault object
+Unmarshaller.getProperty(String)	Get the particular property in the underlying implementation of Unmarshaller This method can only be used to get one of the standard JAXB defined properties above or a provider specific property Attempting to get an undefined property will result in a PropertyException being thrown See Supported Properties
+DefaultValidationEventHandler.DefaultValidationEventHandler()	
+MimeHeaders.getHeader(String)	Returns all of the values for the specified header as an array of String objects
+W3CDomHandler.createUnmarshaller(ValidationEventHandler)	Description copied from interface DomHandler
+XMLStreamWriter.writeProcessingInstruction(String)	Writes a processing instruction
+DOMResult.getSystemId()	Get the System Identifier
+ValidationEventLocatorImpl.toString()	Returns a string representation of this object in a format helpful to debugging
+QName.valueOf(String)	QName derived from parsing the formatted String
+Service.getPort(QName,Class,)	The getPort method returns a proxy A service client uses this proxy to invoke operations on the target service endpoint The serviceEndpointInterface specifies the service endpoint interface that is supported by the created dynamic proxy instance
+ValidationEventLocatorImpl.setColumnNumber(int)	Set the columnNumber field on this event locator
+XMLStreamReader.getAttributeNamespace(int)	Returns the namespace of the attribute at the provided index
+SAXParser.getProperty(String)	Returns the particular property requested for in the underlying implementation of XMLReader
+Endpoint.publish(String,Object)	Creates and publishes an endpoint for the specified implementor object at the given address
+TypeInfoProvider.getElementTypeInfo()	Returns the immutable TypeInfo object for the current element
+XMLStreamReader.getAttributeLocalName(int)	Returns the localName of the attribute at the provided index
+AttachmentPart.getRawContent()	Gets the content of this AttachmentPart object as an InputStream as if a call had been made to getContent and no DataContentHandler had been registered for the content type of this AttachmentPart
+ValidationEventCollector.reset()	Clear all collected errors and warnings
+XMLInputFactory.createXMLStreamReader(String,InputStream)	Create a new XMLStreamReader from a java io InputStream
+KeySelectorException.KeySelectorException(Throwable)	Constructs a new KeySelectorException with the specified cause and a detail message of cause null null cause toString which typically contains the class and detail message of cause
+SOAPFactory.createElement(String)	Creates a SOAPElement object initialized with the given local name
+XMLInputFactory.createXMLStreamReader(InputStream,String)	Create a new XMLStreamReader from a java io InputStream
+XMLInputFactory.getXMLReporter()	The reporter that will be set on any XMLStreamReader or XMLEventReader created by this factory instance
+Attribute.getName()	Returns the QName for this attribute
+SOAPFaultException.SOAPFaultException(SOAPFault)	Constructor for SOAPFaultException
+XMLStreamWriter.flush()	Write any cached data to the underlying output mechanism
+XMLGregorianCalendar.equals(Object)	Compares this calendar to the specified object The result is true if and only if the argument is not null and is an XMLGregorianCalendar object that represents the same instant in time as this object
+SchemaFactory.newInstance(String,String,ClassLoader)	Obtain a new instance of a SchemaFactory from class name SchemaFactory is returned if specified factory class name supports the specified schema language
+Duration.add(Duration)	Computes a new duration whose value is this rhs
+Marshaller.setAttachmentMarshaller(AttachmentMarshaller)	Associate a context that enables binary data within an XML document to be transmitted as XML binary optimized attachment
+StAXResult.StAXResult(XMLStreamWriter)	Creates a new instance of a StAXResult by supplying an XMLStreamWriter
+XMLGregorianCalendar.getEon()	Return high order component for XML Schema 1 0 dateTime datatype field for year
+EndpointReference.readFrom(Source)	Factory method to read an EndpointReference from the infoset contained in eprInfoset This method delegates to the vendor specific implementation of the Provider readEndpointReference javax xml transform Source method
+Marshaller.marshal(Object,XMLEventWriter)	Marshal the content tree rooted at jaxbElement into a XMLEventWriter
+W3CDomHandler.W3CDomHandler()	Default constructor
+CollapsedStringAdapter.unmarshal(String)	Removes leading and trailing whitespaces of the string given as the parameter then truncate any sequnce of tab CR LF and SP by a single whitespace character
+XMLEventReader.nextTag()	Skips any insignificant space events until a START ELEMENT or END ELEMENT is reached If anything other than space characters are encountered an exception is thrown This method should be used when processing element only content because the parser is not able to recognize ignorable whitespace if the DTD is missing or not interpreted
+SchemaFactoryConfigurationError.SchemaFactoryConfigurationError(String)	Create a new SchemaFactoryConfigurationError with the String specified as an error message
+SOAPHeader.addHeaderElement(QName)	Creates a new SOAPHeaderElement object initialized with the specified qname and adds it to this SOAPHeader object
+MTOMFeature.getID()	Get the unique identifier for this WebServiceFeature
+TransformerFactory.newTransformer(Source)	Process the Source into a Transformer Object The Source is an XSLT document that conforms to XSL Transformations XSLT Version 1 0 Care must be taken not to use this Transformer in multiple Threads running concurrently
+StreamReaderDelegate.getEventType()	Description copied from interface XMLStreamReader
+TransformerConfigurationException.TransformerConfigurationException(String,SourceLocator)	Create a new TransformerConfigurationException from a message and a Locator
+ServiceDelegate.createDispatch(EndpointReference,JAXBContext,Mode,)	Creates a Dispatch instance for use with JAXB generated objects If there are any reference parameters in the endpointReference then those reference parameters MUST appear as SOAP headers indicating them to be reference parameters on all messages sent to the endpoint
+Binder.marshal(Object,XmlNode)	Marshal a JAXB object tree to a new XML document
+DataBindingException.DataBindingException(Throwable)	
+Namespace.getNamespaceURI()	Gets the uri bound to the prefix of this namespace
+SOAPMessageContext.getRoles()	Gets the SOAP actor roles associated with an execution of the handler chain
+XMLGregorianCalendar.hashCode()	Returns a hash code consistent with the definition of the equals method
+AbstractUnmarshallerImpl.unmarshal(Node,Class)	Description copied from interface Unmarshaller
+SOAPFactory.newInstance(String)	Creates a new SOAPFactory object that is an instance of the specified implementation this method uses the SAAJMetaFactory to locate the implementation class and create the SOAPFactory instance
+XMLEventFactory.createStartDocument()	Creates a new instance of a StartDocument event
+DatatypeConverterInterface.printInt(int)	Converts an int value into a string
+SAAJResult.SAAJResult()	Creates a SAAJResult that will present results in the form of a SAAJ tree that supports the default SOAP 1 1 protocol
+SOAPMessageContext.getMessage()	Gets the SOAPMessage from this message context Modifications to the returned SOAPMessage change the message in place there is no need to subsequently call setMessage
+SOAPFactory.createElement(Name)	Creates a SOAPElement object initialized with the given Name object The concrete type of the return value will depend on the name given to the new SOAPElement For instance a new SOAPElement with the name http www w3 org 2003 05 soap envelope Envelope would cause a SOAPEnvelope that supports SOAP 1 2 behavior to be created
+JAXBElement.JAXBElement(QName,Class,Class,T)	Construct an xml element instance
+SOAPFault.removeAllFaultSubcodes()	Removes any Subcodes that may be contained by this SOAPFault Subsequent calls to getFaultSubcodes will return an empty iterator until a call to appendFaultSubcode is made
+SOAPBinding.getMessageFactory()	Gets the SAAJ MessageFactory instance used by this SOAP binding
+XPath.getXPathFunctionResolver()	Return the current function resolver
+XMLGregorianCalendar.setMinute(int)	Set minutes
+TemplatesHandler.setSystemId(String)	Set the base ID URI or system ID for the Templates object created by this builder This must be set in order to resolve relative URIs in the stylesheet This must be called before the startDocument event
+JAXB.marshal(Object,URL)	Writes a Java object tree to XML and store it to the specified location
+TransformerFactory.newInstance(String,ClassLoader)	Obtain a new instance of a TransformerFactory from factory class name
+DocumentBuilderFactory.isCoalescing()	Indicates whether or not the factory is configured to produce parsers which converts CDATA nodes to Text nodes and appends it to the adjacent if any Text node
+AttachmentPart.AttachmentPart()	
+AbstractUnmarshallerImpl.setAdapter(XmlAdapter)	Description copied from interface Unmarshaller
+XMLStreamWriter.getProperty(String)	Get the value of a feature property from the underlying implementation
+SourceLocator.getPublicId()	Return the public identifier for the current document event
+StreamReaderDelegate.getNamespaceCount()	Description copied from interface XMLStreamReader
+Location.getCharacterOffset()	Return the byte or character offset into the input source this location is pointing to If the input source is a file or a byte stream then this is the byte offset into that stream but if the input source is a character media then the offset is the character offset
+AbstractMarshallerImpl.marshal(Object,ContentHandler)	Description copied from interface Marshaller
+XMLStreamReader.standaloneSet()	Checks if standalone was set in the document
+SOAPHeader.addHeaderElement(Name)	Creates a new SOAPHeaderElement object initialized with the specified name and adds it to this SOAPHeader object
+Binder.getXMLNode(Object)	Gets the XML element associated with the given JAXB object
+DatatypeConverterInterface.printBase64Binary(byte[])	Converts an array of bytes into a string
+Transformer.getErrorListener()	Get the error event handler in effect for the transformation
+SOAPFault.getFaultCode()	Gets the fault code for this SOAPFault object
+DatatypeConverterInterface.printBoolean(boolean)	Converts a boolean value into a string
+StAXResult.getXMLStreamWriter()	Get the XMLStreamWriter used by this StAXResult
+Validator.reset()	Reset this Validator to its original configuration
+SOAPFault.hasDetail()	Returns true if this SOAPFault has a Detail subelement and false otherwise Equivalent to getDetail null
+XMLInputFactory.createXMLStreamReader(Source)	Create a new XMLStreamReader from a JAXP source This method is optional
+HttpExchange.getRequestURI()	Returns the part of the request s URI from the protocol name up to the query string in the first line of the HTTP request
+StreamReaderDelegate.getAttributeName(int)	Description copied from interface XMLStreamReader
+XMLEventFactory.createNamespace(String,String)	Create a new Namespace
+DatatypeConverter.parseDouble(String)	Converts the string argument into a double value
+Marshaller.marshal(Object,Node)	Marshal the content tree rooted at jaxbElement into a DOM tree
+SOAPFactory.createDetail()	Creates a new Detail object which serves as a container for DetailEntry objects
+ValidationEventCollector.ValidationEventCollector()	
+HttpExchange.getProtocol()	Returns the protocol string from the request in the form protocol majorVersion minorVersion For example HTTP 1 1
+SAXResult.setLexicalHandler(LexicalHandler)	Set the SAX2 LexicalHandler for the output
+XMLCryptoContext.putNamespacePrefix(String,String)	Maps the specified namespace URI to the specified prefix If there is already a prefix associated with the specified namespace URI the old prefix is replaced by the specified prefix
+TransformerFactoryConfigurationError.TransformerFactoryConfigurationError(Exception,String)	Create a new TransformerFactoryConfigurationError with the given Exception base cause and detail message
+Service.setHandlerResolver(HandlerResolver)	Sets the HandlerResolver for this Service instance
+XMLEventAllocator.allocate(XMLStreamReader,XMLEventConsumer)	This method allocates an event or set of events given the current state of the XMLStreamReader and adds the event or set of events to the consumer that was passed in This method can be used to expand or contract reader states into event states
+DatatypeConverterInterface.parseQName(String,NamespaceContext)	Converts the string argument into a QName value
+XmlAdapter.unmarshal(ValueType)	Convert a value type to a bound type
+SAAJResult.SAAJResult(String)	Creates a SAAJResult that will present results in the form of a SAAJ tree that supports the specified protocol The DYNAMIC SOAP PROTOCOL is ambiguous in this context and will cause this constructor to throw an UnsupportedOperationException
+ServiceDelegate.getWSDLDocumentLocation()	Gets the location of the WSDL document for this Service
+XMLStreamReader.getElementText()	Reads the content of a text only element an exception is thrown if this is not a text only element
+XMLEventAllocator.allocate(XMLStreamReader)	This method allocates an event given the current state of the XMLStreamReader If this XMLEventAllocator does not have a one to one mapping between reader states and events this method will return null This method must not modify the state of the XMLStreamReader
+DatatypeConverter.printString(String)	Converts the string argument into a string
+Unmarshaller.unmarshal(URL)	Unmarshal XML data from the specified URL and return the resulting content tree
+DOMResult.setNode(Node)	Set the node that will contain the result DOM tree
+StreamSource.setPublicId(String)	Set the public identifier for this Source
+XMLEventFactory.createDTD(String)	Create a document type definition event This string contains the entire document type declaration that matches the doctypedecl in the XML 1 0 specification
+XMLCryptoContext.setURIDereferencer(URIDereferencer)	Sets a URIDereferencer that is used to dereference URIReferences The specified URIDereferencer is used in place of an implementation s default URIDereferencer
+AttachmentPart.getDataHandler()	Gets the DataHandler object for this AttachmentPart object
+DatatypeConverter.parseString(String)	Convert the lexical XSD string argument into a String value
+XMLGregorianCalendar.getEonAndYear()	Return XML Schema 1 0 dateTime datatype field for year
+ParserConfigurationException.ParserConfigurationException(String)	Create a new ParserConfigurationException with the String specified as an error message
+HexBinaryAdapter.marshal(byte[])	Description copied from class XmlAdapter
+Unmarshaller.getAdapter(Class)	Gets the adapter associated with the specified type
+DatatypeConverter.parseUnsignedInt(String)	Converts the string argument into a long value
+XMLStreamReader.getNamespaceURI()	If the current event is a START ELEMENT or END ELEMENT this method returns the URI of the prefix or the default namespace
+SOAPElement.createQName(String,String)	Creates a QName whose namespace URI is the one associated with the parameter prefix in the context of this SOAPElement The remaining elements of the new QName are taken directly from the parameters localName and prefix
+XMLEvent.getEventType()	Returns an integer code for this event
+DocumentBuilderFactory.setXIncludeAware(boolean)	Set state of XInclude processing
+SchemaOutputResolver.SchemaOutputResolver()	
+StreamResult.getWriter()	Get the character stream that was set with setWriter
+XMLStreamWriter.setPrefix(String,String)	Sets the prefix the uri is bound to This prefix is bound in the scope of the current START ELEMENT END ELEMENT pair
+StartElement.getNamespaceContext()	Gets a read only namespace context If no context is available this method will return an empty namespace context
+SOAPException.SOAPException(Throwable)	Constructs a SOAPException object initialized with the given Throwable object
+SAXParserFactory.setNamespaceAware(boolean)	Specifies that the parser produced by this code will provide support for XML namespaces By default the value of this is set to false
+XMLStreamReader.isStandalone()	Get the standalone declaration from the xml declaration
+DOMSource.setNode(Node)	Set the node that will represents a Source DOM tree
+QName.getNamespaceURI()	Get the Namespace URI of this QName
+SOAPBody.extractContentAsDocument()	Creates a new DOM Document and sets the first child of this SOAPBody as it s document element The child SOAPElement is removed as part of the process
+TypeConstraintException.TypeConstraintException(String,String)	Construct a TypeConstraintException with the specified detail message and vendor specific errorCode The linkedException will default to null
+Result.getSystemId()	Get the system identifier that was set with setSystemId
+SOAPBody.addFault(QName,String)	Creates a new SOAPFault object and adds it to this SOAPBody object The type of the SOAPFault will be a SOAP 1 1 or a SOAP 1 2 SOAPFault depending on the protocol specified while creating the MessageFactory instance
+SOAPConnection.call(SOAPMessage,Object)	Sends the given message to the specified endpoint and blocks until it has returned the response
+Unmarshaller.setAdapter(Class,A)	Associates a configured instance of XmlAdapter with this unmarshaller
+ValidationEventImpl.ValidationEventImpl(int,String,ValidationEventLocator)	Create a new ValidationEventImpl
+XMLCryptoContext.setBaseURI(String)	Sets the base URI
+FactoryConfigurationError.FactoryConfigurationError(Exception,String)	Construct an exception with a nested inner exception and a message
+TypeConstraintException.printStackTrace(PrintStream)	Prints this TypeConstraintException and its stack trace including the stack trace of the linkedException if it is non null to the PrintStream
+DocumentBuilderFactory.setIgnoringComments(boolean)	Specifies that the parser produced by this code will ignore comments By default the value of this is set to false
+Unmarshaller.getListener()	Return Unmarshaller Listener registered with this Unmarshaller
+QName.toString()	String representation of this QName
+ValidationEvent.getSeverity()	Retrieve the severity code for this warning error
+XPathExpression.evaluate(InputSource)	Evaluate the compiled XPath expression in the context of the specified InputSource and return the result as a String
+DomHandler.marshal(ElementT,ValidationEventHandler)	This method is called when a JAXB provider needs to marshal an element to XML
+XMLStreamReader.hasName()	returns true if the current event has a name is a START ELEMENT or END ELEMENT returns false otherwise
+MimeHeader.MimeHeader(String,String)	Constructs a MimeHeader object initialized with the given name and value
+SOAPConnectionFactory.createConnection()	Create a new SOAPConnection
+OctetStreamData.OctetStreamData(InputStream)	Creates a new OctetStreamData
+MessageContext.setScope(String,Scope)	Sets the scope of a property
+XMLCryptoContext.put(Object,Object)	Associates the specified value with the specified key in this context
+StreamSource.getSystemId()	Get the system identifier that was set with setSystemId
+XmlType.DEFAULT.DEFAULT()	
+ValidationEventLocator.getColumnNumber()	Return the column number if available
+XMLEventFactory.createAttribute(String,String,String,String)	Create a new Attribute
+SOAPConnectionFactory.newInstance()	Creates an instance of the default SOAPConnectionFactory object
+ValidationEventImpl.getMessage()	Description copied from interface ValidationEvent
+Service.createDispatch(EndpointReference,JAXBContext,Mode,)	Creates a Dispatch instance for use with JAXB generated objects If there are any reference parameters in the endpointReference then those reference parameters MUST appear as SOAP headers indicating them to be reference parameters on all messages sent to the endpoint
+URIResolver.resolve(String,String)	Called by the processor when it encounters an xsl include xsl import or document function
+XPathFunctionResolver.resolveFunction(QName,int)	Find a function in the set of available functions
+JAXBElement.getName()	Returns the xml element tag name
+Duration.getDays()	Obtains the value of the DAYS field as an integer value or 0 if not present
+HttpExchange.close()	This must be called to end an exchange Container takes care of closing request and response streams This must be called so that the container can free or reuse underlying resources
+TransformerConfigurationException.TransformerConfigurationException(String,SourceLocator,Throwable)	Wrap an existing exception in a TransformerConfigurationException
+StartDocument.getSystemId()	Returns the system ID of the XML data
+SOAPMessage.SOAPMessage()	
+JAXBException.JAXBException(String,Throwable)	Construct a JAXBException with the specified detail message and linkedException The errorCode will default to null
+SOAPFactory.createElement(QName)	Creates a SOAPElement object initialized with the given QName object The concrete type of the return value will depend on the name given to the new SOAPElement For instance a new SOAPElement with the name http www w3 org 2003 05 soap envelope Envelope would cause a SOAPEnvelope that supports SOAP 1 2 behavior to be created
+StreamReaderDelegate.nextTag()	Description copied from interface XMLStreamReader
+SOAPBody.addFault(Name,String)	Creates a new SOAPFault object and adds it to this SOAPBody object The type of the SOAPFault will be a SOAP 1 1 or a SOAP 1 2 SOAPFault depending on the protocol specified while creating the MessageFactory instance
+StartElement.getNamespaces()	Returns an Iterator of namespaces declared on this element
+XMLOutputFactory.newFactory(String,ClassLoader)	Create a new instance of the factory
+SOAPFault.getFaultString()	Gets the fault string for this SOAPFault object
+AbstractUnmarshallerImpl.setProperty(String,Object)	Default implementation of the setProperty method always throws PropertyException since there are no required properties If a provider needs to handle additional properties it should override this method in a derived class
+StreamResult.StreamResult(String)	Construct a StreamResult from a URL
+SOAPMessage.saveRequired()	Indicates whether this SOAPMessage object needs to have the method saveChanges called on it
+XMLEvent.isAttribute()	A utility function to check if this event is an Attribute
+XMLInputFactory.getProperty(String)	Get the value of a feature property from the underlying implementation
+XMLGregorianCalendar.getTimeZone(int)	Returns a java util TimeZone for this class
+MarshalException.getCause()	Returns the cause of this MarshalException or null if the cause is nonexistent or unknown The cause is the throwable that caused this MarshalException to get thrown
+DatatypeConverterInterface.printUnsignedShort(int)	Converts an int value into a string
+Validator.validate(Source)	Validates the specified input
+SOAPFault.setFaultNode(String)	Creates or replaces any existing Node element value for this SOAPFault object The Node element is optional in SOAP 1 2
+ProtocolException.ProtocolException(String,Throwable)	Constructs a new runtime exception with the specified detail message and cause
+StreamReaderDelegate.getProperty(String)	Description copied from interface XMLStreamReader
+XMLEventReader.peek()	Check the next XMLEvent without reading it from the stream
+XMLStreamException.XMLStreamException(String,Throwable)	Construct an exception with the assocated message and exception
+DocumentBuilderFactory.isNamespaceAware()	Indicates whether or not the factory is configured to produce parsers which are namespace aware
+DocumentBuilderFactory.getAttribute(String)	Allows the user to retrieve specific attributes on the underlying implementation
+EventReaderDelegate.close()	Description copied from interface XMLEventReader
+Name.getLocalName()	Gets the local name part of the XML name that this Name object represents
+XMLEventFactory.createStartDocument(String,String)	Creates a new instance of a StartDocument event
+AbstractUnmarshallerImpl.setAttachmentUnmarshaller(AttachmentUnmarshaller)	Description copied from interface Unmarshaller
+DocumentBuilderFactory.newInstance()	Obtain a new instance of a DocumentBuilderFactory This static method creates a new factory instance
+SOAPElementFactory.newInstance()	Creates a new instance of SOAPElementFactory
+Handler.close(MessageContext)	Called at the conclusion of a message exchange pattern just prior to the JAX WS runtime dispatching a message fault or exception Refer to the description of the handler framework in the JAX WS specification for full details
+StAXResult.getXMLEventWriter()	Get the XMLEventWriter used by this StAXResult
+Transformer.getURIResolver()	Get an object that will be used to resolve URIs used in document
+SOAPPart.getNonMatchingMimeHeaders(String[])	Retrieves all MimeHeader objects whose name does not match a name in the given array
+Transformer.clearParameters()	Clear all parameters set with setParameter
+MarshalException.MarshalException(String)	Construct a MarshalException with the specified detail message The errorCode and linkedException will default to null
+SOAPException.getCause()	Returns the Throwable object embedded in this SOAPException if there is one Otherwise this method returns null
+TransformerFactoryConfigurationError.getCause()	use the exception chaining mechanism of JDK1 4
+StreamSource.setInputStream(InputStream)	Set the byte stream to be used as input Normally a stream should be used rather than a reader so that the XML parser can resolve character encoding specified by the XML declaration
+StreamSource.setReader(Reader)	Set the input to be a character reader Normally a stream should be used rather than a reader so that the XML parser can resolve character encoding specified by the XML declaration However in many cases the encoding of the input stream is already resolved as in the case of reading XML from a StringReader
+Templates.newTransformer()	Create a new transformation context for this Templates object
+SOAPMessage.getAttachment(SOAPElement)	Returns an AttachmentPart object that is associated with an attachment that is referenced by this SOAPElement or null if no such attachment exists References can be made via an href attribute as described in SOAP Messages with Attachments or via a single Text child node containing a URI as described in the WS I Attachments Profile 1 0 for elements of schema type ref swaRef These two mechanisms must be supported
+ServiceDelegate.getPort(QName,Class,)	The getPort method returns a proxy A service client uses this proxy to invoke operations on the target service endpoint The serviceEndpointInterface specifies the service endpoint interface that is supported by the created dynamic proxy instance
+OctetStreamData.getURI()	Returns the URI String identifying the data object represented by this OctetStreamData
+MimeHeaders.MimeHeaders()	Constructs a default MimeHeaders object initialized with an empty Vector object
+StartDocument.getVersion()	Returns the version of XML of this XML stream
+HttpExchange.getLocalAddress()	Returns the unresolved local address on which the request was received
+TypeConstraintException.TypeConstraintException(String,Throwable)	Construct a TypeConstraintException with the specified detail message and linkedException The errorCode will default to null
+SOAPFault.getFaultReasonText(Locale)	Returns the Reason Text associated with the given Locale
+MessageFactory.newInstance(String)	Creates a new MessageFactory object that is an instance of the specified implementation May be a dynamic message factory a SOAP 1 1 message factory or a SOAP 1 2 message factory A dynamic message factory creates messages based on the MIME headers specified as arguments to the createMessage method
+SOAPHeader.examineAllHeaderElements()	Returns an Iterator over all the SOAPHeaderElement objects in this SOAPHeader object
+SchemaFactoryConfigurationError.SchemaFactoryConfigurationError(Throwable)	Create a new SchemaFactoryConfigurationError with the given Throwable base cause
+DatatypeConverterInterface.parseInt(String)	Convert the string argument into an int value
+AttachmentUnmarshaller.isXOPPackage()	Read only property that returns true if JAXB unmarshaller needs to perform XOP processing
+HttpExchange.getRequestHeaders()	Returns an immutable Map containing the HTTP headers that were included with this request The keys in this Map will be the header names while the values will be a List of Strings containing each value that was included either for a header that was listed several times or one that accepts a comma delimited list of values on a single line
+SOAPFault.getFaultCodeAsQName()	Gets the fault code for this SOAPFault object as a QName object
+W3CDomHandler.W3CDomHandler(DocumentBuilder)	Constructor that allows applications to specify which DOM implementation to be used
+JAXBIntrospector.getElementName(Object)	Get xml element qname for jaxbElement
+WebServiceContext.isUserInRole(String)	Returns a boolean indicating whether the authenticated user is included in the specified logical role If the user has not been authenticated the method returns false
+SAXParser.setProperty(String,Object)	Sets the particular property in the underlying implementation of XMLReader
+StreamResult.StreamResult(OutputStream)	Construct a StreamResult from a byte stream Normally a stream should be used rather than a reader so that the transformer may use instructions contained in the transformation instructions to control the encoding
+Unmarshaller.unmarshal(Source)	Unmarshal XML data from the specified XML Source and return the resulting content tree
+DatatypeConverterInterface.parseHexBinary(String)	Converts the string argument into an array of bytes
+SOAPMessage.createAttachmentPart()	Creates a new empty AttachmentPart object Note that the method addAttachmentPart must be called with this new AttachmentPart object as the parameter in order for it to become an attachment to this SOAPMessage object
+Invoker.inject(WebServiceContext)	JAX WS runtimes calls this method to ask container to inject WebServiceContext on the endpoint instance The WebServiceContext object uses thread local information to return the correct information during the actual endpoint invocation regardless of how many threads are concurrently being used to serve requests
+XMLGregorianCalendar.setYear(int)	Set year of XSD dateTime year field
+DocumentBuilderFactory.setExpandEntityReferences(boolean)	Specifies that the parser produced by this code will expand entity reference nodes By default the value of this is set to true
+W3CDomHandler.setBuilder(DocumentBuilder)	
+SOAPElement.getNamespaceURI(String)	Returns the URI of the namespace that has the given prefix
+StartElement.getAttributeByName(QName)	Returns the attribute referred to by this name
+ValidationException.ValidationException(String,Throwable)	Construct an ValidationException with the specified detail message and linkedException The errorCode will default to null
+XPath.getXPathVariableResolver()	Return the current variable resolver
+Validator.getErrorHandler()	Gets the current ErrorHandler set to this Validator
+ValidationEventLocator.getOffset()	Return the byte offset if available
+XMLGregorianCalendar.setTimezone(int)	Set the number of minutes in the timezone offset
+QName.QName(String,String,String)	QName constructor specifying the Namespace URI local part and prefix
+SOAPPart.removeAllMimeHeaders()	Removes all the MimeHeader objects for this SOAPEnvelope object
+AbstractUnmarshallerImpl.AbstractUnmarshallerImpl()	
+QName.getPrefix()	Get the prefix of this QName
+XPathFactory.isObjectModelSupported(String)	Is specified object model supported by this XPathFactory
+SOAPElement.setElementQName(QName)	Changes the name of this Element to newName if possible SOAP Defined elements such as SOAPEnvelope SOAPHeader SOAPBody etc cannot have their names changed using this method Any attempt to do so will result in a SOAPException being thrown
+HttpContext.HttpContext()	
+XMLInputFactory.setProperty(String,Object)	Allows the user to set specific feature property on the underlying implementation The underlying implementation is not required to support every setting of every property in the specification and may use IllegalArgumentException to signal that an unsupported property may not be set with the specified value
+Response.getContext()	Gets the contained response context
+XMLEventFactory.createStartElement(String,String,String)	Create a new StartElement This defaults the NamespaceContext to an empty NamespaceContext Querying this event for its namespaces or attributes will result in an empty iterator being returned
+SOAPPart.SOAPPart()	
+ProtocolException.ProtocolException(Throwable)	Constructs a new runtime exception with the specified cause and a detail message of cause null null cause toString which typically contains the class and detail message of cause This constructor is useful for runtime exceptions that are little more than wrappers for other throwables
+ValidationException.ValidationException(Throwable)	Construct an ValidationException with a linkedException The detail message and vendor specific errorCode will default to null
+Duration.equals(Object)	Checks if this duration object has the same duration as another Duration object
+StreamReaderDelegate.isStartElement()	Description copied from interface XMLStreamReader
+XMLGregorianCalendar.getFractionalSecond()	Return fractional seconds
+AbstractMarshallerImpl.marshal(Object,XMLEventWriter)	Description copied from interface Marshaller
+ValidationEventLocatorImpl.getObject()	Description copied from interface ValidationEventLocator
+TransformerFactory.setAttribute(String,Object)	Allows the user to set specific attributes on the underlying implementation An attribute in this context is defined to be an option that the implementation provides
+DatatypeConverterInterface.parseDouble(String)	Converts the string argument into a double value
+Dispatch.invokeAsync(T,AsyncHandler)	Invoke a service operation asynchronously The method returns without waiting for the response to the operation invocation the results of the operation are communicated to the client via the passed in handler
+FactoryConfigurationError.getMessage()	Report the message associated with this error
+Name.getURI()	Returns the URI of the namespace for the XML name that this Name object represents
+XMLStreamException.XMLStreamException(String,Location)	Construct an exception with the assocated message exception and location
+JAXBResult.JAXBResult(JAXBContext)	Creates a new instance that uses the specified JAXBContext to unmarshal
+Service.create(URL,QName)	Creates a Service instance
+HttpContext.getAttribute(String)	Returns an attribute value for container s configuration and other data that can be used by jax ws runtime
+WebServiceException.WebServiceException(Throwable)	Constructs a new WebServiceException with the specified cause and a detail message of cause null null cause toString which typically contains the class and detail message of cause
+AttachmentPart.getAllMimeHeaders()	Retrieves all the headers for this AttachmentPart object as an iterator over the MimeHeader objects
+SAXParserFactory.isXIncludeAware()	Get state of XInclude processing
+SOAPHeader.addUpgradeHeaderElement(Iterator)	Creates a new Upgrade SOAPHeaderElement object initialized with the specified List of supported SOAP URIs and adds it to this SOAPHeader object
+ValidationException.ValidationException(String,String,Throwable)	Construct an ValidationException with the specified detail message vendor specific errorCode and linkedException
+XMLOutputFactory.createXMLStreamWriter(Writer)	Create a new XMLStreamWriter that writes to a writer
+W3CEndpointReferenceBuilder.element(Element)	Adds an extension element to the W3CEndpointReference instance s wsa EndpointReference element
+SchemaFactoryConfigurationError.SchemaFactoryConfigurationError(String,Throwable)	Create a new SchemaFactoryConfigurationError with the given Throwable base cause and detail message
+Service.createDispatch(QName,Class,Mode,)	Creates a Dispatch instance for use with objects of the client s choosing
+SAXParser.getParser()	Returns the SAX parser that is encapsultated by the implementation of this class
+XMLEventReader.close()	Frees any resources associated with this Reader This method does not close the underlying input source
+Endpoint.setMetadata(List)	Sets the metadata for this endpoint
+XMLStreamReader.getAttributeValue(int)	Returns the value of the attribute at the index
+XMLStreamWriter.writeAttribute(String,String,String,String)	Writes an attribute to the output stream
+JAXBElement.getScope()	Returns scope of xml element declaration
+ValidationEventImpl.setLinkedException(Throwable)	Set the linked exception field of this event
+SAXParser.parse(InputStream,HandlerBase)	Parse the content of the given InputStream instance as XML using the specified HandlerBase
+Characters.isCData()	Returns true if this is a CData section If this event is CData its event type will be CDATA If javax xml stream isCoalescing is set to true CDATA Sections that are surrounded by non CDATA characters will be reported as a single Characters event This method will return false in this case
+WebServiceContext.getUserPrincipal()	Returns the Principal that identifies the sender of the request currently being serviced If the sender has not been authenticated the method returns null
+Holder.Holder()	Creates a new holder with a null value
+ValidationEventLocatorImpl.ValidationEventLocatorImpl(SAXParseException)	Constructs an object from the location information of a SAXParseException
+SOAPException.SOAPException(String,Throwable)	Constructs a SOAPException object with the given String as the reason for the exception being thrown and the given Throwable object as an embedded exception
+SAXParser.parse(String,HandlerBase)	Parse the content described by the giving Uniform Resource Identifier URI as XML using the specified HandlerBase
+KeySelectorException.KeySelectorException(String)	Constructs a new KeySelectorException with the specified detail message
+XMLStreamReader.getProperty(String)	Get the value of a feature property from the underlying implementation
+SOAPElement.removeContents()	Detaches all children of this SOAPElement
+SOAPBody.addBodyElement(Name)	Creates a new SOAPBodyElement object with the specified name and adds it to this SOAPBody object
+Validator.validate(Object)	Validate the Java content tree starting at subrootObj
+EntityDeclaration.getSystemId()	The entity s system identifier
+SAXTransformerFactory.newTransformerHandler(Source)	Get a TransformerHandler object that can process SAX ContentHandler events into a Result based on the transformation instructions specified by the argument
+QName.QName(String)	QName constructor specifying the local part
+W3CEndpointReferenceBuilder.address(String)	Sets the address to the W3CEndpointReference instance s wsa Address
+Unmarshaller.setSchema(Schema)	Specify the JAXP 1 3 Schema object that should be used to validate subsequent unmarshal operations against Passing null into this method will disable validation
+StreamReaderDelegate.isWhiteSpace()	Description copied from interface XMLStreamReader
+AttachmentUnmarshaller.getAttachmentAsDataHandler(String)	Lookup MIME content by content id cid and return as a DataHandler
+XMLInputFactory.createXMLStreamReader(Reader)	Create a new XMLStreamReader from a reader
+StAXSource.StAXSource(XMLEventReader)	Creates a new instance of a StAXSource by supplying an XMLEventReader
+ProcessingInstruction.getData()	The data section of the processing instruction
+DatatypeConverter.parseInt(String)	Convert the string argument into an int value
+DatatypeConverterInterface.printShort(short)	Converts a short value into a string
+SOAPElementFactory.create(String)	Create a SOAPElement object initialized with the given local name
+SAXParser.parse(InputStream,HandlerBase,String)	Parse the content of the given InputStream instance as XML using the specified HandlerBase
+DatatypeConverterInterface.printUnsignedInt(long)	Converts a long value into a string
+NodeSetData.iterator()	Returns a read only iterator over the nodes contained in this NodeSetData in document order Attempts to modify the returned iterator via the remove method throw UnsupportedOperationException
+DatatypeConverter.printBoolean(boolean)	Converts a boolean value into a string
+SOAPConnection.SOAPConnection()	
+XMLInputFactory.setXMLResolver(XMLResolver)	The resolver that will be set on any XMLStreamReader or XMLEventReader created by this factory instance
+XMLStreamException.XMLStreamException(String)	Construct an exception with the assocated message
+XMLCryptoContext.setKeySelector(KeySelector)	Sets the key selector for finding a key
+Unmarshaller.unmarshal(InputSource)	Unmarshal XML data from the specified SAX InputSource and return the resulting content tree
+JAXBElement.isGlobalScope()	Returns true iff this xml element declaration is global
+W3CEndpointReferenceBuilder.interfaceName(QName)	Sets the interfaceName as the wsam InterfaceName element in the wsa Metadata element
+WebServicePermission.WebServicePermission(String,String)	Creates a new permission with the specified name and actions
+XMLGregorianCalendar.XMLGregorianCalendar()	Default no arg constructor
+XMLStreamWriter.writeStartDocument(String)	Write the XML Declaration Defaults the XML version to 1 0
+ValidationEventLocatorImpl.getColumnNumber()	Description copied from interface ValidationEventLocator
+SOAPElement.getChildElements(Name)	Returns an Iterator over all the immediate child Nodes of this element with the specified name All of these children will be SOAPElement nodes
+DocumentBuilder.getDOMImplementation()	Obtain an instance of a DOMImplementation object
+XMLEventAllocator.newInstance()	This method creates an instance of the XMLEventAllocator This allows the XMLInputFactory to allocate a new instance per reader
+URIReferenceException.getURIReference()	Returns the URIReference that was being dereferenced when the exception was thrown
+W3CDomHandler.getBuilder()	
+Location.getSystemId()	Returns the system ID of the XML
+NotIdentifiableEventImpl.NotIdentifiableEventImpl(int,String,ValidationEventLocator)	Create a new NotIdentifiableEventImpl
+XPathFactory.setXPathFunctionResolver(XPathFunctionResolver)	Establish a default function resolver
+QName.getLocalPart()	Get the local part of this QName
+Marshaller.getAttachmentMarshaller()	
+TransformerConfigurationException.TransformerConfigurationException()	Create a new TransformerConfigurationException with no detail mesage
+Duration.getTimeInMillis(Calendar)	Returns the length of the duration in milli seconds
+XMLStreamWriter.writeNamespace(String,String)	Writes a namespace to the output stream If the prefix argument to this method is the empty string xmlns or null this method will delegate to writeDefaultNamespace
+Endpoint.setProperties(Map)	Sets the property bag for this Endpoint instance
+XMLEventFactory.createStartDocument(String)	Creates a new instance of a StartDocument event
+XmlElementRef.DEFAULT.DEFAULT()	
+JAXBContext.createUnmarshaller()	Create an Unmarshaller object that can be used to convert XML data into a java content tree
+XMLEvent.isNamespace()	A utility function to check if this event is a Namespace
+Duration.multiply(BigDecimal)	Computes a new duration whose value is factor times longer than the value of this duration
+Endpoint.publish(String,Object,)	Creates and publishes an endpoint for the specified implementor object at the given address The created endpoint is configured with the web service features
+XMLStreamReader.getNamespaceContext()	Returns a read only namespace context for the current position The context is transient and only valid until a call to next changes the state of the reader
+LogicalMessage.getPayload()	Gets the message payload as an XML source may be called multiple times on the same LogicalMessage instance always returns a new Source that may be used to retrieve the entire message payload
+SOAPFactory.createFault()	Creates a new default SOAPFault object
+AbstractMarshallerImpl.setAdapter(XmlAdapter)	Description copied from interface Marshaller
+ServiceDelegate.getPort(Class,)	The getPort method returns a proxy The parameter serviceEndpointInterface specifies the service endpoint interface that is supported by the returned proxy
+DocumentBuilderFactory.isValidating()	Indicates whether or not the factory is configured to produce parsers which validate the XML content during parse
+Binder.Binder()	
+EventReaderDelegate.getProperty(String)	Description copied from interface XMLEventReader
+FactoryConfigurationError.getException()	Return the nested exception if any
+WebServiceException.WebServiceException(String)	Constructs a new exception with the specified detail message The cause is not initialized
+AbstractUnmarshallerImpl.getAdapter(Class)	Description copied from interface Unmarshaller
+XPathFactory.newInstance(String,String,ClassLoader)	Obtain a new instance of a XPathFactory from a factory class name XPathFactory is returned if specified factory class supports the specified object model
+DatatypeConverterInterface.printByte(byte)	Converts a byte value into a string
+SOAPBinding.isMTOMEnabled()	Returns true if the use of MTOM is enabled
+SOAPFault.appendFaultSubcode(QName)	Adds a Subcode to the end of the sequence of Subcodes contained by this SOAPFault Subcodes which were introduced in SOAP 1 2 are represented by a recursive sequence of subelements rooted in the mandatory Code subelement of a SOAP Fault
+RespectBindingFeature.getID()	Get the unique identifier for this WebServiceFeature
+XMLInputFactory.createXMLEventReader(InputStream,String)	Create a new XMLEventReader from a java io InputStream
+SAXParserFactory.setXIncludeAware(boolean)	Set state of XInclude processing
+EntityReference.getName()	The name of the entity
+XMLEventFactory.createCharacters(String)	Create a Characters event this method does not check if the content is all whitespace To create a space event use createSpace String
+HttpExchange.getAttribute(String)	Returns an attribute that is associated with this HttpExchange JAX WS handlers and endpoints may then access the attribute via MessageContext
+AttachmentPart.addMimeHeader(String,String)	Adds a MIME header with the specified name and value to this AttachmentPart object
+SchemaFactory.newSchema(URL)	Parses the specified URL as a schema and returns it as a Schema
+AttachmentPart.setMimeHeader(String,String)	Changes the first header entry that matches the given name to the given value adding a new header if no existing header matches This method also removes all matching headers but the first Note that RFC822 headers can only contain US ASCII characters
+Marshaller.getAdapter(Class)	Gets the adapter associated with the specified type
+AbstractMarshallerImpl.setAdapter(Class,A)	Description copied from interface Marshaller
+DocumentBuilderFactory.newDocumentBuilder()	Creates a new instance of a DocumentBuilder using the currently configured parameters
+ServiceDelegate.createDispatch(QName,JAXBContext,Mode)	Creates a Dispatch instance for use with JAXB generated objects
+NoSuchMechanismException.NoSuchMechanismException(String)	Constructs a new NoSuchMechanismException with the specified detail message
+SOAPFactory.createName(String,String,String)	Creates a new Name object initialized with the given local name namespace prefix and namespace URI
+XMLEventFactory.createEndDocument()	Creates a new instance of an EndDocument event
+JAXB.marshal(Object,URI)	Writes a Java object tree to XML and store it to the specified location
+DocumentBuilder.setErrorHandler(ErrorHandler)	Specify the ErrorHandler to be used by the parser
+EventReaderDelegate.getElementText()	Description copied from interface XMLEventReader
+TransformerConfigurationException.TransformerConfigurationException(Throwable)	Create a new TransformerConfigurationException with a given Exception base cause of the error
+DatatypeConverter.parseBoolean(String)	Converts the string argument into a boolean value
+XMLGregorianCalendar.setSecond(int)	Set seconds
+XMLStreamReader.getText()	Returns the current value of the parse event as a string this returns the string value of a CHARACTERS event returns the value of a COMMENT the replacement value for an ENTITY REFERENCE the string value of a CDATA section the string value for a SPACE event or the String value of the internal subset of the DTD
+StreamResult.setSystemId(String)	Set the systemID that may be used in association with the byte or character stream or if neither is set use this value as a writeable URI probably a file name
+AbstractUnmarshallerImpl.setSchema(Schema)	Description copied from interface Unmarshaller
+TransformerException.printStackTrace(PrintStream)	Print the the trace of methods from where the error originated This will trace all nested exception objects as well as this object
+Duration.Duration()	Default no arg constructor
+XMLEvent.asStartElement()	Returns this event as a start element event may result in a class cast exception if this event is not a start element
+XMLStreamWriter.getPrefix(String)	Gets the prefix the uri is bound to
+MTOMFeature.MTOMFeature()	Create an MTOMFeature
+XMLStreamReader.getEncoding()	Return input encoding if known or null if unknown
+ValidatorHandler.setErrorHandler(ErrorHandler)	Sets the ErrorHandler to receive errors encountered during the validation
+XMLStreamReader.getName()	Returns a QName for the current START ELEMENT or END ELEMENT event
+Unmarshaller.unmarshal(File)	Unmarshal XML data from the specified file and return the resulting content tree
+DocumentBuilder.isXIncludeAware()	Get the XInclude processing mode for this parser
+TypeConstraintException.TypeConstraintException(String)	Construct a TypeConstraintException with the specified detail message The errorCode and linkedException will default to null
+Binder.updateXML(Object)	Takes an JAXB object and updates its associated XML node and its descendants
+SOAPException.SOAPException()	Constructs a SOAPException object with no reason or embedded Throwable object
+SOAPElement.setEncodingStyle(String)	Sets the encoding style for this SOAPElement object to one specified
+XMLEvent.isCharacters()	A utility function to check if this event is Characters
+W3CDomHandler.getElement(DOMResult)	Description copied from interface DomHandler
+XMLEventWriter.close()	Frees any resources associated with this stream
+Validator.getFeature(String)	Look up the value of a feature flag
+JAXBContext.newInstance()	Obtain a new instance of a JAXBContext class
+PrintConversionEventImpl.PrintConversionEventImpl(int,String,ValidationEventLocator,Throwable)	Create a new PrintConversionEventImpl
+ProtocolException.ProtocolException()	Constructs a new protocol exception with null as its detail message The cause is not initialized and may subsequently be initialized by a call to Throwable initCause java lang Throwable
+Endpoint.publish(String)	Publishes this endpoint at the given address
+XMLStreamReader.getVersion()	Get the xml version declared on the xml declaration Returns null if none was declared
+DatatypeConverterInterface.parseAnySimpleType(String)	Return a string containing the lexical representation of the simple type
+JAXB.marshal(Object,File)	Writes a Java object tree to XML and store it to the specified location
+Binder.unmarshal(XmlNode,Class)	Unmarshal XML root element by provided declaredType to a JAXB object tree
+URIDereferencer.dereference(URIReference,XMLCryptoContext)	Dereferences the specified URIReference and returns the dereferenced data
+SOAPEnvelope.createName(String,String,String)	Creates a new Name object initialized with the given local name namespace prefix and namespace URI
+XMLStreamWriter.writeEmptyElement(String,String)	Writes an empty element tag to the output
+Result.setSystemId(String)	Set the system identifier for this Result
+Duration.getTimeInMillis(Date)	Returns the length of the duration in milli seconds
+XMLGregorianCalendar.add(Duration)	Add duration to this instance
+Binder.getSchema()	Gets the last Schema object including null set by the setSchema Schema method
+SOAPConnection.close()	Closes this SOAPConnection object
+SOAPHeaderElement.getMustUnderstand()	Returns the boolean value of the mustUnderstand attribute for this SOAPHeaderElement
+AbstractUnmarshallerImpl.isValidating()	Indicates whether or not the Unmarshaller is configured to validate during unmarshal operations
+AttachmentPart.getContentId()	Gets the value of the MIME header whose name is Content ID
+StreamFilter.accept(XMLStreamReader)	Tests whether the current state is part of this stream This method will return true if this filter accepts this event and false otherwise
+Binder.setSchema(Schema)	Specifies whether marshal unmarshal and update methods performs validation on their XML content
+SOAPBody.addFault(Name,String,Locale)	Creates a new SOAPFault object and adds it to this SOAPBody object The type of the SOAPFault will be a SOAP 1 1 or a SOAP 1 2 SOAPFault depending on the protocol specified while creating the MessageFactory instance
+XMLEvent.getLocation()	Return the location of this event The Location returned from this method is non volatile and will retain its information
+SchemaFactory.getProperty(String)	Look up the value of a property
+DatatypeConverterInterface.printDouble(double)	Converts a double value into a string
+DocumentBuilderFactory.isExpandEntityReferences()	Indicates whether or not the factory is configured to produce parsers which expand entity reference nodes
+XMLGregorianCalendar.toString()	Returns a String representation of this XMLGregorianCalendar Object
+Unmarshaller.setAdapter(XmlAdapter)	Associates a configured instance of XmlAdapter with this unmarshaller
+Unmarshaller.Listener.afterUnmarshal(Object,Object)	Callback method invoked after unmarshalling XML data into target
+StartElement.getNamespaceURI(String)	Gets the value that the prefix is bound to in the context of this element Returns null if the prefix is not bound in this context
+DatatypeConverter.parseDecimal(String)	Converts the string argument into a BigDecimal value
+SOAPElement.addAttribute(QName,String)	Adds an attribute with the specified name and value to this SOAPElement object
+TransformerFactoryConfigurationError.getMessage()	Return the message if any for this error If there is no message for the exception and there is an encapsulated exception then the message of that exception will be returned
+SAXSource.SAXSource()	Zero argument default constructor If this constructor is used and no SAX source is set using setInputSource InputSource inputSource then the Transformer will create an empty source InputSource using new InputSource
+StreamReaderDelegate.isStandalone()	Description copied from interface XMLStreamReader
+NotationDeclaration.getPublicId()	The notation s public identifier or null if none was given
+HttpExchange.getHttpContext()	Returns a HttpContext for this exchange
+StreamReaderDelegate.getElementText()	Description copied from interface XMLStreamReader
+DatatypeConverterInterface.printDecimal(BigDecimal)	Converts a BigDecimal value into a string
+SAXParser.getSchema()	Get a reference to the the Schema being used by the XML processor
+EntityDeclaration.getBaseURI()	Get the base URI for this reference or null if this information is not available
+SOAPException.getMessage()	Returns the detail message for this SOAPException object
+StreamReaderDelegate.getPITarget()	Description copied from interface XMLStreamReader
+Marshaller.marshal(Object,OutputStream)	Marshal the content tree rooted at jaxbElement into an output stream
+SAXParser.parse(InputStream,DefaultHandler)	Parse the content of the given InputStream instance as XML using the specified DefaultHandler
+SOAPElement.getNamespacePrefixes()	Returns an Iterator over the namespace prefix Strings declared by this element The prefixes returned by this iterator can be passed to the method getNamespaceURI to retrieve the URI of each namespace
+TransformerException.printStackTrace()	Print the the trace of methods from where the error originated This will trace all nested exception objects as well as this object
+ProtocolException.ProtocolException(String)	Constructs a new protocol exception with the specified detail message
+AbstractMarshallerImpl.marshal(Object,Writer)	Description copied from interface Marshaller
+XPath.setNamespaceContext(NamespaceContext)	Establish a namespace context
+SOAPBody.addFault()	Creates a new SOAPFault object and adds it to this SOAPBody object The new SOAPFault will have default values set for the mandatory child elements The type of the SOAPFault will be a SOAP 1 1 or a SOAP 1 2 SOAPFault depending on the protocol specified while creating the MessageFactory instance
+SOAPBinding.setRoles(Set)	Sets the roles played by the SOAP binding instance
+ValidationEventLocatorImpl.getNode()	Description copied from interface ValidationEventLocator
+HttpExchange.getContextPath()	Returns the context path of all the endpoints in an application
+StreamReaderDelegate.getTextCharacters()	Description copied from interface XMLStreamReader
+XMLStreamWriter.writeEndElement()	Writes an end tag to the output relying on the internal state of the writer to determine the prefix and local name of the event
+Dispatch.invokeOneWay(T)	Invokes a service operation using the one way interaction mode The operation invocation is logically non blocking subject to the capabilities of the underlying protocol no results are returned When the protocol in use is SOAP HTTP this method MUST block until an HTTP response code has been received or an error occurs
+DOMSource.getSystemId()	Get the base ID URL or system ID from where URLs will be resolved
+DataBindingException.DataBindingException(String,Throwable)	
+ValidationEventImpl.toString()	Returns a string representation of this object in a format helpful to debugging
+AttachmentPart.setContentLocation(String)	Sets the MIME header whose name is Content Location with the given value
+XMLStreamException.XMLStreamException(Throwable)	Construct an exception with the assocated exception
+Transformer.setURIResolver(URIResolver)	Set an object that will be used to resolve URIs used in document
+Handler.handleFault(C)	The handleFault method is invoked for fault message processing Refer to the description of the handler framework in the JAX WS specification for full details
+StreamSource.setSystemId(String)	Set the system identifier for this Source
+XMLInputFactory.createXMLStreamReader(String,Reader)	Create a new XMLStreamReader from a java io InputStream
+TransformerFactoryConfigurationError.TransformerFactoryConfigurationError(Exception)	Create a new TransformerFactoryConfigurationError with a given Exception base cause of the error
+PropertyException.PropertyException(String)	Construct a PropertyException with the specified detail message The errorCode and linkedException will default to null
+Characters.getData()	Get the character data of this event
+SOAPEnvelope.createName(String)	Creates a new Name object initialized with the given local name
+TransformerFactory.getAssociatedStylesheet(Source,String,String,String)	Get the stylesheet specification s associated with the XML Source document via the xml stylesheet processing instruction that match the given criteria
+StreamReaderDelegate.getAttributeNamespace(int)	Description copied from interface XMLStreamReader
+XMLEvent.asCharacters()	Returns this event as Characters may result in a class cast exception if this event is not Characters
+XMLStreamReader.require(int,String,String)	Test if the current event is of the given type and if the namespace and name match the current namespace and name of the current event If the namespaceURI is null it is not checked for equality if the localName is null it is not checked for equality
+W3CEndpointReferenceBuilder.metadata(Element)	Adds the metadataElement to the W3CEndpointReference instance s wsa Metadata element
+ServiceDelegate.createDispatch(EndpointReference,Class,Mode,)	Creates a Dispatch instance for use with objects of the user s choosing If there are any reference parameters in the endpointReference then those reference parameters MUST appear as SOAP headers indicating them to be reference parameters on all messages sent to the endpoint
+StartElement.getName()	Get the name of this event
+XMLEventFactory.createStartElement(String,String,String,Iterator,Iterator)	Create a new StartElement Namespaces can be added to this StartElement by passing in an Iterator that walks over a set of Namespace interfaces
+DatatypeConverterInterface.printAnySimpleType(String)	Converts a string value into a string
+Validator.validate(Source,Result)	Validates the specified input and send the augmented validation result to the specified output
+W3CEndpointReferenceBuilder.endpointName(QName)	Sets the endpointName as wsam ServiceName EndpointName in the wsa Metadata element This method can only be called after the serviceName method has been called
+DocumentBuilder.reset()	Reset this DocumentBuilder to its original configuration
+TemplatesHandler.getSystemId()	Get the base ID URI or system ID from where relative URLs will be resolved
+XMLGregorianCalendar.getXMLSchemaType()	Return the name of the XML Schema date time type that this instance maps to Type is computed based on fields that are set
+TransformerConfigurationException.TransformerConfigurationException(String)	Create a new TransformerConfigurationException with the String specified as an error message
+SOAPFault.setFaultCode(QName)	Sets this SOAPFault object with the given fault code
+SOAPConnection.get(Object)	Gets a message from a specific endpoint and blocks until it receives
+StreamResult.getOutputStream()	Get the byte stream that was set with setOutputStream
+MessageFactory.createMessage()	Creates a new SOAPMessage object with the default SOAPPart SOAPEnvelope SOAPBody and SOAPHeader objects Profile specific message factories can choose to prepopulate the SOAPMessage object with profile specific headers
+JAXBException.getErrorCode()	Get the vendor specific error code
+Unmarshaller.unmarshal(XMLEventReader)	Unmarshal XML data from the specified pull parser and return the resulting content tree
+SOAPElementFactory.create(Name)	Create a SOAPElement object initialized with the given Name object
+UnmarshalException.UnmarshalException(String,Throwable)	Construct an UnmarshalException with the specified detail message and linkedException The errorCode will default to null
+SOAPPart.getContentLocation()	Retrieves the value of the MIME header whose name is Content Location
+DatatypeConverter.printDouble(double)	Converts a double value into a string
+DOMSource.DOMSource(Node)	Create a new input source with a DOM node The operation will be applied to the subtree rooted at this node In XSLT a pattern still means the root of the tree not the subtree and the evaluation of global variables and parameters is done from the root node also
+Endpoint.create(String,Object,)	Creates an endpoint with the specified binding type implementor object and web service features
+AbstractMarshallerImpl.getListener()	Description copied from interface Marshaller
+XMLGregorianCalendar.normalize()	Normalize this instance to UTC
+SOAPFault.setFaultCode(String)	Sets this SOAPFault object with the give fault code
+Marshaller.getNode(Object)	Get a DOM tree view of the content tree Optional
+XMLGregorianCalendar.getSecond()	Return seconds or DatatypeConstants FIELD UNDEFINED
+DocumentBuilder.parse(File)	Parse the content of the given file as an XML document and return a new DOM Document object
+Invoker.Invoker()	
+SAXTransformerFactory.newXMLFilter(Templates)	Create an XMLFilter based on the Templates argument
+SOAPFault.getFaultActor()	Gets the fault actor for this SOAPFault object
+XMLCryptoContext.get(Object)	Returns the value to which this context maps the specified key
+AbstractUnmarshallerImpl.unmarshal(XMLStreamReader)	Description copied from interface Unmarshaller
+SAXResult.getHandler()	Get the ContentHandler that is the Result
+XMLStreamWriter.writeStartDocument(String,String)	Write the XML Declaration Note that the encoding parameter does not set the actual encoding of the underlying output That must be set when the instance of the XMLStreamWriter is created using the XMLOutputFactory
+StreamResult.StreamResult(Writer)	Construct a StreamResult from a character stream Normally a stream should be used rather than a reader so that the transformer may use instructions contained in the transformation instructions to control the encoding However there are times when it is useful to write to a character stream such as when using a StringWriter
+XMLStreamWriter.writeEntityRef(String)	Writes an entity reference
+W3CEndpointReferenceBuilder.serviceName(QName)	Sets the serviceName as the wsam ServiceName element in the wsa Metadata element
+Binder.setEventHandler(ValidationEventHandler)	Allow an application to register a ValidationEventHandler
+UnmarshalException.UnmarshalException(String)	Construct an UnmarshalException with the specified detail message The errorCode and linkedException will default to null
+MarshalException.MarshalException()	Constructs a new MarshalException with null as its detail message
+ValidationEventImpl.ValidationEventImpl(int,String,ValidationEventLocator,Throwable)	Create a new ValidationEventImpl
+XMLStreamReader.getNamespacePrefix(int)	Returns the prefix for the namespace declared at the index Returns null if this is the default namespace declaration
+EventReaderDelegate.nextEvent()	Description copied from interface XMLEventReader
+JAXBContext.newInstance(Class[],Map)	Obtain a new instance of a JAXBContext class
+Unmarshaller.unmarshal(XMLStreamReader,Class)	Unmarshal root element to JAXB mapped declaredType and return the resulting content tree
+NamespaceContext.getPrefix(String)	Get prefix bound to Namespace URI in the current scope
+DatatypeConverterInterface.parseBase64Binary(String)	Converts the string argument into an array of bytes
+SOAPPart.getEnvelope()	Gets the SOAPEnvelope object associated with this SOAPPart object Once the SOAP envelope is obtained it can be used to get its contents
+ParseConversionEventImpl.ParseConversionEventImpl(int,String,ValidationEventLocator,Throwable)	Create a new ParseConversionEventImpl
+XMLCryptoContext.getDefaultNamespacePrefix()	Returns the default namespace prefix The default namespace prefix is the prefix for all namespace URIs not explicitly set by the putNamespacePrefix method
+Marshaller.setEventHandler(ValidationEventHandler)	Allow an application to register a validation event handler
+Duration.toString()	Returns a String representation of this Duration Object
+StreamReaderDelegate.getNamespacePrefix(int)	Description copied from interface XMLStreamReader
+LogicalMessage.setPayload(Object,JAXBContext)	Sets the message payload
+XmlJavaTypeAdapter.DEFAULT.DEFAULT()	
+URIReferenceException.URIReferenceException()	Constructs a new URIReferenceException with null as its detail message
+DatatypeConverter.printDate(Calendar)	Converts a Calendar value into a string
+AbstractUnmarshallerImpl.setValidating(boolean)	Specifies whether or not the Unmarshaller should validate during unmarshal operations By default the Unmarshaller does not validate
+TypeConstraintException.setLinkedException(Throwable)	Add a linked Exception
+Endpoint.getEndpointReference()	Returns the EndpointReference associated with this Endpoint instance
+ValidationEventImpl.getLinkedException()	Description copied from interface ValidationEvent
+PropertyException.PropertyException(Throwable)	Construct a PropertyException with a linkedException The detail message and vendor specific errorCode will default to null
+W3CDomHandler.marshal(Element,ValidationEventHandler)	Description copied from interface DomHandler
+OctetStreamData.getOctetStream()	Returns the input stream of this OctetStreamData
+FactoryConfigurationError.FactoryConfigurationError(String,Exception)	Construct an exception with a nested inner exception and a message
+SchemaFactory.getFeature(String)	Look up the value of a feature flag
+JAXBResult.getResult()	Gets the unmarshalled object created by the transformation
+ServiceDelegate.getExecutor()	Returns the executor for this Serviceinstance
+TransformerException.getLocator()	Method getLocator retrieves an instance of a SourceLocator object that specifies where an error occurred
+AddressingFeature.getID()	Get the unique identifier for this WebServiceFeature
+URIReferenceException.printStackTrace(PrintStream)	Prints this URIReferenceException its backtrace and the cause s backtrace to the specified print stream
+Endpoint.getEndpointReference(Class,)	Returns the EndpointReference associated with this Endpoint instance
+NoSuchMechanismException.NoSuchMechanismException(String,Throwable)	Constructs a new NoSuchMechanismException with the specified detail message and cause
+DocumentBuilderFactory.setIgnoringElementContentWhitespace(boolean)	Specifies that the parsers created by this factory must eliminate whitespace in element content sometimes known loosely as ignorable whitespace when parsing XML documents see XML Rec 2 10 Note that only whitespace which is directly contained within element content that has an element only content model see XML Rec 3 2 1 will be eliminated Due to reliance on the content model this setting requires the parser to be in validating mode By default the value of this is set to false
+DocumentBuilder.parse(InputStream,String)	Parse the content of the given InputStream as an XML document and return a new DOM Document object
+SOAPFault.getFaultSubcodes()	Gets the Subcodes for this SOAPFault as an iterator over QNames
+SAXResult.getLexicalHandler()	Get a SAX2 LexicalHandler for the output
+AbstractMarshallerImpl.marshal(Object,Node)	Description copied from interface Marshaller
+JAXB.marshal(Object,Writer)	Writes a Java object tree to XML and store it to the specified location
+XMLStreamWriter.writeEmptyElement(String,String,String)	Writes an empty element tag to the output
+StreamReaderDelegate.getTextLength()	Description copied from interface XMLStreamReader
+AttachmentPart.removeAllMimeHeaders()	Removes all the MIME header entries
+EventReaderDelegate.EventReaderDelegate(XMLEventReader)	Construct an filter with the specified parent
+AttachmentPart.setContentId(String)	Sets the MIME header whose name is Content ID with the given value
+Duration.getSeconds()	Obtains the value of the SECONDS field as an integer value or 0 if not present
+AddressingFeature.AddressingFeature()	Creates and configures an AddressingFeature with the use of addressing requirements The created feature enables ws addressing i e supports ws addressing but doesn t require its use It is also configured to accept all the response types
+StreamSource.StreamSource(InputStream)	Construct a StreamSource from a byte stream Normally a stream should be used rather than a reader so the XML parser can resolve character encoding specified by the XML declaration
+SOAPMessage.createAttachmentPart(DataHandler)	Creates an AttachmentPart object and populates it using the given DataHandler object
+Unmarshaller.isValidating()	Indicates whether or not the Unmarshaller is configured to validate during unmarshal operations
+XMLEventFactory.createEndElement(QName,Iterator)	Create a new EndElement
+DOMLocator.getOriginatingNode()	Return the node where the event occurred
+EntityDeclaration.getNotationName()	The name of the associated notation
+JAXB.unmarshal(String,Class)	Reads in a Java object tree from the given XML input
+Transformer.setParameter(String,Object)	Add a parameter for the transformation
+HTTPException.getStatusCode()	Gets the HTTP status code
+MTOMFeature.getThreshold()	Gets the threshold value used to determine when binary data should be sent as an attachment
+LogicalMessage.getPayload(JAXBContext)	Gets the message payload as a JAXB object Note that there is no connection between the returned object and the message payload changes to the payload require calling setPayload
+Provider.getPort(EndpointReference,Class,)	The getPort method returns a proxy If there are any reference parameters in the endpointReference then those reference parameters MUST appear as SOAP headers indicating them to be reference parameters on all messages sent to the endpoint
+SOAPHeaderElement.getActor()	Returns the uri of the actor attribute of this SOAPHeaderElement
+Service.setExecutor(Executor)	Sets the executor for this Service instance
+XPathVariableResolver.resolveVariable(QName)	Find a variable in the set of available variables
+StreamResult.getSystemId()	Get the system identifier that was set with setSystemId
+AttachmentMarshaller.isXOPPackage()	Read only property that returns true if JAXB marshaller should enable XOP creation
+SAXParser.parse(InputSource,HandlerBase)	Parse the content given InputSource as XML using the specified HandlerBase
+SOAPHeader.addUpgradeHeaderElement(String[])	Creates a new Upgrade SOAPHeaderElement object initialized with the specified array of supported SOAP URIs and adds it to this SOAPHeader object
+XMLStructure.isFeatureSupported(String)	Indicates whether a specified feature is supported
+ServiceDelegate.setHandlerResolver(HandlerResolver)	Sets the HandlerResolver for this Service instance
+ValidatorHandler.getTypeInfoProvider()	Obtains the TypeInfoProvider implementation of this ValidatorHandler
+XPath.evaluate(String,InputSource)	Evaluate an XPath expression in the context of the specified InputSource and return the result as a String
+Node.setValue(String)	If this is a Text node then this method will set its value otherwise it sets the value of the immediate Text child of this node
+StreamReaderDelegate.getAttributeCount()	Description copied from interface XMLStreamReader
+Unmarshaller.unmarshal(Source,Class)	Unmarshal XML data from the specified XML Source by declaredType and return the resulting content tree
+AbstractUnmarshallerImpl.setListener(Listener)	Description copied from interface Unmarshaller
+Duration.getSign()	Returns the sign of this duration in 1 0 or 1
+MarshalException.MarshalException(String,String)	Construct a MarshalException with the specified detail message and vendor specific errorCode The linkedException will default to null
+HandlerResolver.getHandlerChain(PortInfo)	Gets the handler chain for the specified port
+Provider.provider()	Creates a new provider object
+StAXResult.setSystemId(String)	In the context of a StAXResult it is not appropriate to explicitly set the system identifier
+AlgorithmMethod.getAlgorithm()	Returns the algorithm URI of this AlgorithmMethod
+Marshaller.getListener()	Return Marshaller Listener registered with this Marshaller
+DocumentBuilderFactory.setSchema(Schema)	Set the Schema to be used by parsers created from this factory
+Service.getPort(Class,)	The getPort method returns a proxy The parameter serviceEndpointInterface specifies the service endpoint interface that is supported by the returned proxy
+StAXSource.getXMLStreamReader()	Get the XMLStreamReader used by this StAXSource
+ValidationEventImpl.getLocator()	Description copied from interface ValidationEvent
+Endpoint.isPublished()	Returns true if the endpoint is in the published state
+XMLCryptoContext.setProperty(String,Object)	Sets the specified property
+Name.getQualifiedName()	Gets the namespace qualified name of the XML name that this Name object represents
+XMLStreamReader.getEventType()	Returns an integer code that indicates the type of the event the cursor is pointing to
+XMLInputFactory.createXMLEventReader(String,InputStream)	Create a new XMLEventReader from a java io InputStream
+EntityReference.getDeclaration()	Return the declaration of this entity
+HexBinaryAdapter.unmarshal(String)	Description copied from class XmlAdapter
+Marshaller.setSchema(Schema)	Specify the JAXP 1 3 Schema object that should be used to validate subsequent marshal operations against Passing null into this method will disable validation
+MimeHeaders.getAllHeaders()	Returns all the MimeHeaders in this MimeHeaders object
+DOMResult.DOMResult(Node,Node)	Use a DOM node to create a new output target specifying the child node where the result nodes should be inserted before
+XMLStreamWriter.writeCharacters(String)	Write text to the output
+XMLEventFactory.createComment(String)	Create a comment
+HttpExchange.setStatus(int)	Sets the HTTP status code for the response
+XMLOutputFactory.newInstance(String,ClassLoader)	Create a new instance of the factory
+SOAPEnvelope.addBody()	Creates a SOAPBody object and sets it as the SOAPBody object for this SOAPEnvelope object
+AbstractMarshallerImpl.getProperty(String)	Default implementation of the getProperty method handles the four defined properties in Marshaller If a provider needs to support additional provider specific properties it should override this method in a derived class
+XMLGregorianCalendar.compare(XMLGregorianCalendar)	Compare two instances of W3C XML Schema 1 0 date time datatypes according to partial order relation defined in W3C XML Schema 1 0 Part 2 Section 3 2 7 3 Order relation on dateTime
+SAXParserFactory.setSchema(Schema)	Set the Schema to be used by parsers created from this factory
+Duration.getYears()	Get the years value of this Duration as an int or 0 if not present
+TransformerFactory.newTemplates(Source)	Process the Source into a Templates object which is a a compiled representation of the source This Templates object may then be used concurrently across multiple threads Creating a Templates object allows the TransformerFactory to do detailed performance optimization of transformation instructions without penalizing runtime transformation
+DatatypeConverterInterface.parseTime(String)	Converts the string argument into a Calendar value
+SOAPMessageContext.getHeaders(QName,JAXBContext,boolean)	Gets headers that have a particular qualified name from the message in the message context Note that a SOAP message can contain multiple headers with the same qualified name
+HttpHandler.HttpHandler()	
+ValidationEventImpl.getSeverity()	Description copied from interface ValidationEvent
+Marshaller.setAdapter(XmlAdapter)	Associates a configured instance of XmlAdapter with this marshaller
+CollapsedStringAdapter.CollapsedStringAdapter()	
+SOAPMessage.setContentDescription(String)	Sets the description of this SOAPMessage object s content with the given description
+JAXBSource.JAXBSource(JAXBContext,Object)	Creates a new Source for the given content object
+AbstractUnmarshallerImpl.unmarshal(URL)	Description copied from interface Unmarshaller
+Templates.getOutputProperties()	Get the properties corresponding to the effective xsl output element
+StreamSource.StreamSource(Reader)	Construct a StreamSource from a character reader Normally a stream should be used rather than a reader so that the XML parser can resolve character encoding specified by the XML declaration However in many cases the encoding of the input stream is already resolved as in the case of reading XML from a StringReader
+AbstractUnmarshallerImpl.setEventHandler(ValidationEventHandler)	Allow an application to register a validation event handler
+XMLEventFactory.setLocation(Location)	This method allows setting of the Location on each event that is created by this factory The values are copied by value into the events created by this factory To reset the location information set the location to null
+Validator.setFeature(String,boolean)	Set the value of a feature flag
+XMLInputFactory.createXMLEventReader(String,Reader)	Create a new XMLEventReader from a reader
+BindingProvider.getResponseContext()	Get the context that resulted from processing a response message
+DatatypeConverterInterface.parseDate(String)	Converts the string argument into a Calendar value
+XPathExpression.evaluate(Object)	Evaluate the compiled XPath expression in the specified context and return the result as a String
+XMLStreamReader.close()	Frees any resources associated with this Reader This method does not close the underlying input source
+AbstractUnmarshallerImpl.getProperty(String)	Default implementation of the getProperty method always throws PropertyException since there are no required properties If a provider needs to handle additional properties it should override this method in a derived class
+XMLStreamReader.getNamespaceCount()	Returns the count of namespaces declared on this START ELEMENT or END ELEMENT this method is only valid on a START ELEMENT END ELEMENT or NAMESPACE On an END ELEMENT the count is of the namespaces that are about to go out of scope This is the equivalent of the information reported by SAX callback for an end element event
+DatatypeConverterInterface.parseByte(String)	Converts the string argument into a byte value
+XPath.evaluate(String,Object,QName)	Evaluate an XPath expression in the specified context and return the result as the specified type
+HttpExchange.isUserInRole(String)	Indicates whether an authenticated user is included in the specified logical role
+StreamReaderDelegate.getAttributeType(int)	Description copied from interface XMLStreamReader
+SOAPElement.getElementQName()	Returns the qname of this SOAPElement object
+Invoker.invoke(Method,)	JAX WS runtime calls this method to do the actual web service invocation on endpoint instance The injected WebServiceContext getMessageContext gives the correct information for this invocation
+SAAJResult.SAAJResult(SOAPElement)	Creates a SAAJResult that will write the results as a child node of the SOAPElement specified In the normal case these results will be written using DOM APIs and as a result may invalidate the structure of the SAAJ tree This kind of SAAJResult should only be used when the validity of the incoming data can be guaranteed by means outside of the SAAJ specification
+XMLEvent.isEntityReference()	A utility function to check if this event is an EntityReference
+Endpoint.getImplementor()	Returns the implementation object for this endpoint
+DatatypeConverterInterface.parseShort(String)	Converts the string argument into a short value
+XMLEvent.isEndElement()	A utility function to check if this event is a EndElement
+ValidationEvent.getMessage()	Retrieve the text message for this warning error
+JAXBElement.getDeclaredType()	Returns the Java binding of the xml element declaration s type attribute
+XMLStreamReader.isWhiteSpace()	Returns true if the cursor points to a character data event that consists of all whitespace
+Service.getWSDLDocumentLocation()	Gets the location of the WSDL document for this Service
+ServiceDelegate.setExecutor(Executor)	Sets the executor for this Service instance
+HttpExchange.getResponseBody()	Returns a stream to which the response body must be written setStatus int must be called prior to calling this method Multiple calls to this method for the same exchange will return the same stream
+SOAPMessage.getSOAPPart()	Gets the SOAP part of this SOAPMessage object
+StreamReaderDelegate.standaloneSet()	Description copied from interface XMLStreamReader
+SOAPMessage.getAttachments(MimeHeaders)	Retrieves all the AttachmentPart objects that have header entries that match the specified headers Note that a returned attachment could have headers in addition to those specified
+WebServiceContext.getMessageContext()	Returns the MessageContext for the request being served at the time this method is called Only properties with APPLICATION scope will be visible to the application
+XMLGregorianCalendar.setMonth(int)	Set month
+SOAPFactory.createFault(String,QName)	Creates a new SOAPFault object initialized with the given reasonText and faultCode
+ValidatorHandler.setResourceResolver(LSResourceResolver)	Sets the LSResourceResolver to customize resource resolution while in a validation episode
+SOAPElement.getVisibleNamespacePrefixes()	Returns an Iterator over the namespace prefix Strings visible to this element The prefixes returned by this iterator can be passed to the method getNamespaceURI to retrieve the URI of each namespace
+SOAPElement.addNamespaceDeclaration(String,String)	Adds a namespace declaration with the specified prefix and URI to this SOAPElement object
+SOAPElement.addChildElement(String,String)	Creates a new SOAPElement object initialized with the specified local name and prefix and adds the new element to this SOAPElement object
+ValidatorHandler.setFeature(String,boolean)	Set a feature for this ValidatorHandler
+StreamResult.StreamResult(File)	Construct a StreamResult from a File
+XMLResolver.resolveEntity(String,String,String,String)	Retrieves a resource This resource can be of the following three return types 1 java io InputStream 2 javax xml stream XMLStreamReader 3 java xml stream XMLEventReader
+Validator.getProperty(String)	Look up the value of a property
+BindingProvider.getEndpointReference()	Returns the EndpointReference associated with this BindingProvider instance
+DTD.getNotations()	Return a List containing the notations declared in the DTD
+XMLOutputFactory.createXMLEventWriter(Result)	Create a new XMLEventWriter that writes to a JAXP result This method is optional
+DatatypeConverter.parseAnySimpleType(String)	Return a string containing the lexical representation of the simple type
+DatatypeConverterInterface.printDateTime(Calendar)	Converts a Calendar value into a string
+HttpExchange.getResponseHeaders()	Returns a mutable Map into which the HTTP response headers can be stored and which will be transmitted as part of this response The keys in the Map will be the header names while the values must be a List of Strings containing each value that should be included multiple times in the order that they should be included
+ValidatorHandler.getProperty(String)	Look up the value of a property
+Unmarshaller.getSchema()	Get the JAXP 1 3 Schema object being used to perform unmarshal time validation If there is no Schema set on the unmarshaller then this method will return null indicating that unmarshal time validation will not be performed
+SchemaFactory.newInstance(String)	Lookup an implementation of the SchemaFactory that supports the specified schema language and return it
+SOAPHeaderElement.setMustUnderstand(boolean)	Sets the mustUnderstand attribute for this SOAPHeaderElement object to be either true or false
+WebServiceException.WebServiceException(String,Throwable)	Constructs a new exception with the specified detail message and cause
+StAXResult.StAXResult(XMLEventWriter)	Creates a new instance of a StAXResult by supplying an XMLEventWriter
+NotationDeclaration.getName()	The notation name
+Node.getValue()	Returns the value of this node if this is a Text node or the value of the immediate child of this node otherwise
+TypeConstraintException.TypeConstraintException(Throwable)	Construct a TypeConstraintException with a linkedException The detail message and vendor specific errorCode will default to null
+DatatypeConverterInterface.printHexBinary(byte[])	Converts an array of bytes into a string
+XMLStreamWriter.writeStartDocument()	Write the XML Declaration Defaults the XML version to 1 0 and the encoding to utf 8
+SOAPElementFactory.create(String,String,String)	Create a new SOAPElement object with the given local name prefix and uri
+DOMResult.DOMResult(Node,Node,String)	Use a DOM node to create a new output target specifying the child node where the result nodes should be inserted before and the specified System ID
+SAXResult.setHandler(ContentHandler)	Set the target to be a SAX2 ContentHandler
+JAXBContext.createBinder(Class)	Creates a Binder object that can be used for associative in place unmarshalling marshalling
+DatatypeConverterInterface.parseString(String)	Convert the string argument into a string
+XMLEventFactory.createStartElement(QName,Iterator,Iterator)	Create a new StartElement Namespaces can be added to this StartElement by passing in an Iterator that walks over a set of Namespace interfaces
+EventReaderDelegate.EventReaderDelegate()	Construct an empty filter with no parent
+TransformerException.getLocationAsString()	Get the location information as a string
+SOAPBody.addBodyElement(QName)	Creates a new SOAPBodyElement object with the specified QName and adds it to this SOAPBody object
+XMLGregorianCalendar.getYear()	Return low order component for XML Schema 1 0 dateTime datatype field for year or DatatypeConstants FIELD UNDEFINED
+XMLStreamReader.nextTag()	Skips any white space isWhiteSpace returns true COMMENT or PROCESSING INSTRUCTION until a START ELEMENT or END ELEMENT is reached
+XMLReporter.report(String,String,Object,Location)	Report the desired message in an application specific format
+Service.getPort(EndpointReference,Class,)	The getPort method returns a proxy
+AbstractUnmarshallerImpl.unmarshal(InputSource)	Description copied from interface Unmarshaller
+AbstractMarshallerImpl.setSchema(Schema)	Description copied from interface Marshaller
+TransformerHandler.getSystemId()	Get the base ID URI or system ID from where relative URLs will be resolved
+XMLStreamReader.getTextCharacters()	Returns an array which contains the characters from this event
+XPathFactory.getFeature(String)	Get the state of the named feature
+HttpExchange.getRequestMethod()	Get the HTTP request method
+XMLOutputFactory.newFactory()	Create a new instance of the factory
+StartDocument.encodingSet()	Returns true if CharacterEncodingScheme was set in the encoding declaration of the document
+URIReferenceException.URIReferenceException(String,Throwable)	Constructs a new URIReferenceException with the specified detail message and cause
+XMLGregorianCalendar.toXMLFormat()	Return the lexical representation of this instance
+ValidationEventLocator.getObject()	Return a reference to the object in the Java content tree if available
+XmlSchemaType.DEFAULT.DEFAULT()	
+ServiceDelegate.getPort(Class)	The getPort method returns a proxy The parameter serviceEndpointInterface specifies the service endpoint interface that is supported by the returned proxy
+DatatypeConverter.printShort(short)	Converts a short value into a string
+Transformer.reset()	Reset this Transformer to its original configuration
+StreamSource.StreamSource(InputStream,String)	Construct a StreamSource from a byte stream Normally a stream should be used rather than a reader so that the XML parser can resolve character encoding specified by the XML declaration
+Location.getLineNumber()	Return the line number where the current event ends returns 1 if none is available
+SOAPPart.addMimeHeader(String,String)	Creates a MimeHeader object with the specified name and value and adds it to this SOAPPart object
+FactoryConfigurationError.FactoryConfigurationError(Exception)	Construct an exception with a nested inner exception
+StreamResult.setWriter(Writer)	Set the writer that is to receive the result Normally a stream should be used rather than a writer so that the transformer may use instructions contained in the transformation instructions to control the encoding However there are times when it is useful to write to a writer such as when using a StringWriter
+XPathFactory.newInstance()	Get a new XPathFactory instance using the default object model DEFAULT OBJECT MODEL URI the W3C DOM
+MimeHeaders.setHeader(String,String)	Replaces the current value of the first header entry whose name matches the given name with the given value adding a new header if no existing header name matches This method also removes all matching headers after the first one
+TypeConstraintException.toString()	Returns a short description of this TypeConstraintException
+Unmarshaller.setAttachmentUnmarshaller(AttachmentUnmarshaller)	Associate a context that resolves cid s content id URIs to binary data passed as attachments
+Node.recycleNode()	Notifies the implementation that this Node object is no longer being used by the application and that the implementation is free to reuse this object for nodes that may be created later
+StreamReaderDelegate.getAttributePrefix(int)	Description copied from interface XMLStreamReader
+W3CEndpointReferenceBuilder.attribute(QName,String)	Adds an extension attribute to the W3CEndpointReference instance s wsa EndpointReference element
+Marshaller.getEventHandler()	Return the current event handler or the default event handler if one hasn t been set
+ProcessingInstruction.getTarget()	The target section of the processing instruction
+Location.getPublicId()	Returns the public ID of the XML
+MTOMFeature.MTOMFeature(boolean,int)	Creates an MTOMFeature
+StreamReaderDelegate.require(int,String,String)	Description copied from interface XMLStreamReader
+DatatypeConverter.parseFloat(String)	Converts the string argument into a float value
+ServiceDelegate.getPorts()	Returns an Iterator for the list of QNames of service endpoints grouped by this service
+SOAPFactory.newInstance()	Creates a new SOAPFactory object that is an instance of the default implementation SOAP 1 1 This method uses the following ordered lookup procedure to determine the SOAPFactory implementation class to load Use the javax xml soap SOAPFactory system property
+Detail.addDetailEntry(QName)	Creates a new DetailEntry object with the given QName and adds it to this Detail object This method is the preferred over the one using Name
+MarshalException.MarshalException(String,String,Throwable)	Construct a MarshalException with the specified detail message vendor specific errorCode and linkedException
+StartElement.getAttributes()	Returns an Iterator of non namespace declared attributes declared on this START ELEMENT returns an empty iterator if there are no attributes The iterator must contain only implementations of the javax xml stream Attribute interface Attributes are fundamentally unordered and may not be reported in any order
+TransformerException.initCause(Throwable)	Initializes the cause of this throwable to the specified value
+XMLGregorianCalendar.clear()	Unset all fields to undefined
+SOAPMessage.getSOAPBody()	Gets the SOAP Body contained in this SOAPMessage object
+DOMSource.setSystemId(String)	Set the base ID URL or system ID from where URLs will be resolved
+XMLOutputFactory.createXMLStreamWriter(OutputStream,String)	Create a new XMLStreamWriter that writes to a stream
+JAXBException.toString()	Returns a short description of this JAXBException
+Service.addPort(QName,String,String)	Creates a new port for the service Ports created in this way contain no WSDL port type information and can only be used for creating Dispatchinstances
+ValidationEventHandler.handleEvent(ValidationEvent)	Receive notification of a validation warning or error
+XMLStreamReader.isCharacters()	Returns true if the cursor points to a character data event
+StreamReaderDelegate.getLocalName()	Description copied from interface XMLStreamReader
+AbstractUnmarshallerImpl.unmarshal(Source,Class)	Description copied from interface Unmarshaller
+DOMSource.DOMSource(Node,String)	Create a new input source with a DOM node and with the system ID also passed in as the base URI
+TypeConstraintException.getErrorCode()	Get the vendor specific error code
+HttpContext.getPath()	Returns the path for this context This path uniquely identifies an endpoint inside an application and the path is relative to application s context path Container should give this path based on how it matches request URIs to this HttpContext object
+JAXBContext.createValidator()	Validator has been made optional and deprecated in JAXB 2 0 Please refer to the javadoc for Validator for more detail
+Validator.setProperty(String,Object)	Set the value of a property
+SOAPElement.addChildElement(String)	Creates a new SOAPElement object initialized with the specified local name and adds the new element to this SOAPElement object
+AttachmentMarshaller.addMtomAttachment(byte[],int,int,String,String,String)	Consider binary data for optimized binary storage as an attachment
+DatatypeConverter.printDecimal(BigDecimal)	Converts a BigDecimal value into a string
+XMLStreamWriter.setNamespaceContext(NamespaceContext)	Sets the current namespace context for prefix and uri bindings
+Attribute.getDTDType()	Gets the type of this attribute default is the String CDATA
+Endpoint.Endpoint()	
+ParseConversionEventImpl.ParseConversionEventImpl(int,String,ValidationEventLocator)	Create a new ParseConversionEventImpl
+SOAPException.SOAPException(String)	Constructs a SOAPException object with the given String as the reason for the exception being thrown
+XMLEventFactory.createStartElement(String,String,String,Iterator,Iterator,NamespaceContext)	Create a new StartElement Namespaces can be added to this StartElement by passing in an Iterator that walks over a set of Namespace interfaces
+EndpointReference.writeTo(Result)	write this EndpointReference to the specified infoset format
+TransformerFactoryConfigurationError.TransformerFactoryConfigurationError(String)	Create a new TransformerFactoryConfigurationError with the String specified as an error message
+XMLOutputFactory.setProperty(String,Object)	Allows the user to set specific features properties on the underlying implementation
+ValidationEventLocatorImpl.setNode(Node)	Set the Node field on this event locator Null values are allowed
+SOAPPart.setContent(Source)	Sets the content of the SOAPEnvelope object with the data from the given Source object This Source must contain a valid SOAP document
+SOAPFault.getFaultCodeAsName()	Gets the mandatory SOAP 1 1 fault code for this SOAPFault object as a SAAJ Name object
+Duration.getHours()	Obtains the value of the HOURS field as an integer value or 0 if not present
+EndpointReference.toString()	Displays EPR infoset for debugging convenience
+DatatypeConverterInterface.printTime(Calendar)	Converts a Calendar value into a string
+JAXB.unmarshal(Reader,Class)	Reads in a Java object tree from the given XML input
+DOMSource.DOMSource()	Zero argument default constructor If this constructor is used and no DOM source is set using setNode Node node then the Transformer will create an empty source Document using DocumentBuilder newDocument
+Detail.getDetailEntries()	Gets an Iterator over all of the DetailEntrys in this Detail object
+StreamReaderDelegate.getTextCharacters(int,char[],int,int)	Description copied from interface XMLStreamReader
+XMLStreamReader.getAttributeName(int)	Returns the qname of the attribute at the provided index
+DOMSource.getNode()	Get the node that represents a Source DOM tree
+Marshaller.marshal(Object,File)	Marshal the content tree rooted at jaxbElement into a file
+SOAPFactory.createElement(String,String,String)	Creates a new SOAPElement object with the given local name prefix and uri The concrete type of the return value will depend on the name given to the new SOAPElement For instance a new SOAPElement with the name http www w3 org 2003 05 soap envelope Envelope would cause a SOAPEnvelope that supports SOAP 1 2 behavior to be created
+Node.detachNode()	Removes this Node object from the tree

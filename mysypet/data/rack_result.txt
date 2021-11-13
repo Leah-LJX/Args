@@ -1,0 +1,8 @@
+10#AffineTransform	Graphics	Rectangle	Shape	JPanel	Font	Dimension	Image	FontMetrics	BufferedImage	
+14#Shape	HibernateExceptionTranslator	AffineTransform	LocalSessionFactoryBean	Object	ArrayList	Dimension	Arrays	Pattern	Pane	
+32#Pattern	Matcher	ArrayList	Arrays	HashMap	Test	Object	Map	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz	Match	
+35#Calendar	DateTime	SimpleDateFormat	Locale	ArrayList	LocalDate	Days	GregorianCalendar	Apr	DateFormat	
+43#File	BufferedReader	Scanner	IOException	FileReader	ArrayList	InputStream	FileInputStream	Object	InputStreamReader	
+48#Pattern	Matcher	ArrayList	Test	Arrays	Map	Object	HashSet	HashMap	Class	
+38#BufferedReader	File	IOException	Scanner	FileReader	FileInputStream	InputStream	InputStreamReader	ArrayList	Graphics	
+18#August	Gregorian	IsLeapYear	Julian	Calendar	Monday	GregorianCalendar	Class	Object	SimpleDateFormat	

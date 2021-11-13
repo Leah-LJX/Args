@@ -1,0 +1,20 @@
+{
+  "id": 43,
+  "description": "Read an integer from a file",
+  "methodName": "readInteger",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.lang.String"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "java.util.Scanner",
+    "java.io.File"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/test/43/TestSource.java"
+}

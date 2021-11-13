@@ -1,0 +1,21 @@
+{
+  "id": 17,
+  "description": "Compute the number of days between two dates considering timezone",
+  "methodName": "daysBetween",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "org.joda.time.DateTime",
+    "org.joda.time.DateTime"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "org.joda.time"
+  ],
+  "libs": [
+    "./lib/joda-time-2.8.2.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/17/TestSource.java"
+}

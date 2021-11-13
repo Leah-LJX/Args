@@ -1,0 +1,693 @@
+PrintStream.append(char)	Appends the specified character to this output stream
+SequenceInputStream.available()	Returns an estimate of the number of bytes that can be read or skipped over from the current underlying input stream without blocking by the next invocation of a method for the current underlying input stream The next invocation might be the same thread or another thread A single read or skip of this many bytes will not block but may read or skip fewer bytes
+ObjectInputStream.close()	Closes the input stream Must be called to release any resources associated with the stream
+ObjectStreamClass.lookupAny(Class)	Returns the descriptor for any class regardless of whether it implements Serializable
+ObjectOutputStream.writeShort(int)	Writes a 16 bit short
+OutputStream.write(byte[],int,int)	Writes len bytes from the specified byte array starting at offset off to this output stream
+ObjectOutputStream.write(int)	Writes a byte This method will block until the byte is actually written
+File.canRead()	Tests whether the application can read the file denoted by this abstract pathname
+ObjectInput.read(byte[],int,int)	Reads into an array of bytes This method will block until some input is available
+RandomAccessFile.length()	Returns the length of this file
+Writer.append(CharSequence)	Appends the specified character sequence to this writer
+ObjectInput.read(byte[])	Reads into an array of bytes This method will block until some input is available
+FilterReader.read(char[],int,int)	Reads characters into a portion of an array
+CharArrayReader.close()	Closes the stream and releases any system resources associated with it Once the stream has been closed further read ready mark reset or skip invocations will throw an IOException
+CharArrayReader.reset()	Resets the stream to the most recent mark or to the beginning if it has never been marked
+CharArrayReader.mark(int)	Marks the present position in the stream Subsequent calls to reset will reposition the stream to this point
+StreamTokenizer.pushBack()	Causes the next call to the nextToken method of this tokenizer to return the current value in the ttype field and not to modify the value in the nval or sval field
+ByteArrayOutputStream.toString(String)	Converts the buffer s contents into a string by decoding the bytes using the specified charsetName The length of the new String is a function of the charset and hence may not be equal to the length of the byte array
+ObjectStreamField.getTypeString()	Return the JVM type signature
+BufferedReader.mark(int)	Marks the present position in the stream Subsequent calls to reset will attempt to reposition the stream to this point
+BufferedReader.ready()	Tells whether this stream is ready to be read A buffered character stream is ready if the buffer is not empty or if the underlying character stream is ready
+StringBufferInputStream.reset()	Resets the input stream to begin reading from the first character of this input stream s underlying buffer
+BufferedWriter.BufferedWriter(Writer,int)	Creates a new buffered character output stream that uses an output buffer of the given size
+BufferedWriter.BufferedWriter(Writer)	Creates a buffered character output stream that uses a default sized output buffer
+CharArrayReader.CharArrayReader(char[])	Creates a CharArrayReader from the specified array of chars
+RandomAccessFile.readShort()	Reads a signed 16 bit number from this file The method reads two bytes from this file starting at the current file pointer
+RandomAccessFile.RandomAccessFile(String,String)	Creates a random access file stream to read from and optionally to write to a file with the specified name A new FileDescriptor object is created to represent the connection to the file
+ObjectOutputStream.writeChars(String)	Writes a String as a sequence of chars
+ObjectInputStream.readUnsignedShort()	Reads an unsigned 16 bit short
+PrintWriter.print(double)	Prints a double precision floating point number The string produced by String valueOf double is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+File.setLastModified(long)	Sets the last modified time of the file or directory named by this abstract pathname
+ByteArrayOutputStream.write(int)	Writes the specified byte to this byte array output stream
+ObjectOutputStream.putFields()	Retrieve the object used to buffer persistent fields to be written to the stream The fields will be written to the stream when writeFields method is called
+BufferedOutputStream.BufferedOutputStream(OutputStream)	Creates a new buffered output stream to write data to the specified underlying output stream
+CharArrayWriter.write(char[],int,int)	Writes characters to the buffer
+StringReader.mark(int)	Marks the present position in the stream Subsequent calls to reset will reposition the stream to this point
+PrintWriter.print(String)	Prints a string If the argument is null then the string null is printed Otherwise the string s characters are converted into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+InputStream.markSupported()	Tests if this input stream supports the mark and reset methods Whether or not mark and reset are supported is an invariant property of a particular input stream instance The markSupported method of InputStream returns false
+FilePermission.getActions()	Returns the canonical string representation of the actions
+PipedInputStream.PipedInputStream()	Creates a PipedInputStream so that it is not yet connected
+PushbackReader.read(char[],int,int)	Reads characters into a portion of an array
+DataInput.readFully(byte[])	Reads some bytes from an input stream and stores them into the buffer array b The number of bytes read is equal to the length of b
+FilterInputStream.markSupported()	Tests if this input stream supports the mark and reset methods
+RandomAccessFile.readUnsignedShort()	Reads an unsigned 16 bit number from this file This method reads two bytes from the file starting at the current file pointer
+FilenameFilter.accept(File,String)	Tests if a specified file should be included in a file list
+FileOutputStream.FileOutputStream(String)	Creates a file output stream to write to the file with the specified name A new FileDescriptor object is created to represent this file connection
+FilterWriter.write(int)	Writes a single character
+ObjectStreamClass.getField(String)	Get the field of this class by name
+RandomAccessFile.close()	Closes this random access file stream and releases any system resources associated with the stream A closed random access file cannot perform input or output operations and cannot be reopened
+ByteArrayInputStream.read(byte[],int,int)	Reads up to len bytes of data into an array of bytes from this input stream
+CharArrayWriter.flush()	Flush the stream
+DataInput.readDouble()	Reads eight input bytes and returns a double value It does this by first constructing a long value in exactly the manner of the readlong method then converting this long value to a double in exactly the manner of the method Double longBitsToDouble
+ObjectInputStream.readChar()	Reads a 16 bit char
+InputStreamReader.InputStreamReader(InputStream,Charset)	Creates an InputStreamReader that uses the given charset
+LineNumberReader.read()	Read a single character Line terminators are compressed into single newline n characters Whenever a line terminator is read the current line number is incremented
+FileWriter.FileWriter(String)	Constructs a FileWriter object given a file name
+PipedInputStream.PipedInputStream(PipedOutputStream,int)	Creates a PipedInputStream so that it is connected to the piped output stream src and uses the specified pipe size for the pipe s buffer
+PrintWriter.println(char[])	Prints an array of characters and then terminates the line This method behaves as though it invokes print char and then println
+ObjectInputStream.readUnshared()	Reads an unshared object from the ObjectInputStream This method is identical to readObject except that it prevents subsequent calls to readObject and readUnshared from returning additional references to the deserialized instance obtained via this call Specifically If readUnshared is called to deserialize a back reference the stream representation of an object which has been written previously to the stream an ObjectStreamException will be thrown
+File.getTotalSpace()	Returns the size of the partition named by this abstract pathname
+PrintStream.PrintStream(File)	Creates a new print stream without automatic line flushing with the specified file This convenience constructor creates the necessary intermediate OutputStreamWriter which will encode characters using the default charset for this instance of the Java virtual machine
+FilterReader.markSupported()	Tells whether this stream supports the mark operation
+DataInputStream.readDouble()	See the general contract of the readDouble method of DataInput
+StringWriter.write(int)	Write a single character
+ObjectOutput.write(byte[],int,int)	Writes a sub array of bytes
+LineNumberReader.readLine()	Read a line of text Whenever a line terminator is read the current line number is incremented
+PushbackInputStream.unread(int)	Pushes back a byte by copying it to the front of the pushback buffer
+File.getAbsolutePath()	Returns the absolute pathname string of this abstract pathname
+ByteArrayOutputStream.toString(int)	Creates a newly allocated string Its size is the current size of the output stream and the valid contents of the buffer have been copied into it Each character c in the resulting string is constructed from the corresponding element b in the byte array such that c char hibyte 0xff 8 b 0xff
+RandomAccessFile.readFloat()	Reads a float from this file This method reads an int value starting at the current file pointer as if by the readInt method and then converts that int to a float using the intBitsToFloat method in class Float
+DataInputStream.DataInputStream(InputStream)	Creates a DataInputStream that uses the specified underlying InputStream
+InputStream.reset()	Repositions this stream to the position at the time the mark method was last called on this input stream
+FileDescriptor.FileDescriptor()	Constructs an invalid FileDescriptor object
+FilterOutputStream.write(int)	Writes the specified byte to this output stream
+File.listFiles()	Returns an array of abstract pathnames denoting the files in the directory denoted by this abstract pathname
+StreamTokenizer.ordinaryChar(int)	Specifies that the character argument is ordinary in this tokenizer It removes any special significance the character has as a comment character word component string delimiter white space or number character When such a character is encountered by the parser the parser treats it as a single character token and sets ttype field to the character value
+File.createTempFile(String,String)	Creates an empty file in the default temporary file directory using the given prefix and suffix to generate its name Invoking this method is equivalent to invoking createTempFile prefix suffix null
+PushbackReader.reset()	Resets the stream The reset method of PushbackReader always throws an exception
+OutputStreamWriter.close()	Description copied from class Writer
+InputStream.close()	Closes this input stream and releases any system resources associated with the stream
+ByteArrayOutputStream.size()	Returns the current size of the buffer
+PipedWriter.flush()	Flushes this output stream and forces any buffered output characters to be written out
+RandomAccessFile.writeUTF(String)	Writes a string to the file using modified UTF 8 encoding in a machine independent manner
+DataInput.readShort()	Reads two input bytes and returns a short value Let a be the first byte read and b be the second byte The value returned is short a 8 b 0xff This method is suitable for reading the bytes written by the writeShort method of interface DataOutput
+PrintWriter.print(Object)	Prints an object The string produced by the String valueOf Object method is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+ObjectStreamClass.getFields()	Return an array of the fields of this serializable class
+PipedOutputStream.connect(PipedInputStream)	Connects this piped output stream to a receiver If this object is already connected to some other piped input stream an IOException is thrown
+InputStream.read(byte[])	Reads some number of bytes from the input stream and stores them into the buffer array b The number of bytes actually read is returned as an integer This method blocks until input data is available end of file is detected or an exception is thrown
+DataInputStream.readLine()	See the general contract of the readLine method of DataInput
+RandomAccessFile.readByte()	Reads a signed eight bit value from this file This method reads a byte from the file starting from the current file pointer
+PrintWriter.PrintWriter(File)	Creates a new PrintWriter without automatic line flushing with the specified file This convenience constructor creates the necessary intermediate OutputStreamWriter which will encode characters using the default charset for this instance of the Java virtual machine
+Console.readLine()	Reads a single line of text from the console
+CharArrayWriter.toString()	Converts input data to a string
+OutputStreamWriter.write(String,int,int)	Writes a portion of a string
+PipedReader.PipedReader()	Creates a PipedReader so that it is not yet connected It must be connected to a PipedWriter before being used
+File.toURL()	Converts this abstract pathname into a file URL The exact form of the URL is system dependent If it can be determined that the file denoted by this abstract pathname is a directory then the resulting URL will end with a slash
+DataInputStream.readUTF(DataInput)	Reads from the stream in a representation of a Unicode character string encoded in modified UTF 8 format this string of characters is then returned as a String
+Reader.reset()	Resets the stream If the stream has been marked then attempt to reposition it at the mark If the stream has not been marked then attempt to reset it in some way appropriate to the particular stream for example by repositioning it to its starting point Not all character input streams support the reset operation and some support reset without supporting mark
+FileOutputStream.close()	Closes this file output stream and releases any system resources associated with this stream This file output stream may no longer be used for writing bytes
+Console.reader()	Retrieves the unique Reader object associated with this console
+InputStream.skip(long)	Skips over and discards n bytes of data from this input stream The skip method may for a variety of reasons end up skipping over some smaller number of bytes possibly 0
+PrintWriter.printf(String,)	A convenience method to write a formatted string to this writer using the specified format string and arguments If automatic flushing is enabled calls to this method will flush the output buffer
+PushbackReader.PushbackReader(Reader)	Creates a new pushback reader with a one character pushback buffer
+RandomAccessFile.readLong()	Reads a signed 64 bit integer from this file This method reads eight bytes from the file starting at the current file pointer
+ByteArrayOutputStream.ByteArrayOutputStream()	Creates a new byte array output stream The buffer capacity is initially 32 bytes though its size increases if necessary
+ObjectInputStream.read()	Reads a byte of data This method will block if no input is available
+DataOutput.writeByte(int)	Writes to the output stream the eight low order bits of the argument v
+DataOutput.writeChar(int)	Writes a char value which is comprised of two bytes to the output stream
+PrintStream.println(Object)	Prints an Object and then terminate the line This method calls at first String valueOf x to get the printed object s string value then behaves as though it invokes print String and then println
+DataOutputStream.writeUTF(String)	Writes a string to the underlying output stream using modified UTF 8 encoding in a machine independent manner
+FileOutputStream.write(byte[])	Writes b length bytes from the specified byte array to this file output stream
+PrintStream.print(Object)	Prints an object The string produced by the String valueOf Object method is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+ObjectOutputStream.writeBoolean(boolean)	Writes a boolean
+CharArrayWriter.append(CharSequence)	Appends the specified character sequence to this writer
+InputStreamReader.InputStreamReader(InputStream,String)	Creates an InputStreamReader that uses the named charset
+FileInputStream.skip(long)	Skips over and discards n bytes of data from the input stream
+FileDescriptor.valid()	Tests if this file descriptor object is valid
+PrintStream.PrintStream(String)	Creates a new print stream without automatic line flushing with the specified file name This convenience constructor creates the necessary intermediate OutputStreamWriter which will encode characters using the default charset for this instance of the Java virtual machine
+DataInput.readBoolean()	Reads one input byte and returns true if that byte is nonzero false if that byte is zero
+ObjectInputStream.readByte()	Reads an 8 bit byte
+ObjectInputStream.GetField.get(String,double)	Get the value of the named double field from the persistent field
+ByteArrayOutputStream.write(byte[],int,int)	Writes len bytes from the specified byte array starting at offset off to this byte array output stream
+LineNumberReader.reset()	Reset the stream to the most recent mark
+StringWriter.write(String,int,int)	Write a portion of a string
+Reader.skip(long)	Skips characters This method will block until some characters are available an I O error occurs or the end of the stream is reached
+ObjectInputValidation.validateObject()	Validates the object
+PipedReader.PipedReader(int)	Creates a PipedReader so that it is not yet connected and uses the specified pipe size for the pipe s buffer
+PrintWriter.print(int)	Prints an integer The string produced by String valueOf int is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+OutputStream.OutputStream()	
+FilePermission.FilePermission(String,String)	Creates a new FilePermission object with the specified actions
+BufferedReader.skip(long)	Skips characters
+StringWriter.append(CharSequence,int,int)	Appends a subsequence of the specified character sequence to this writer
+DataInputStream.readChar()	See the general contract of the readChar method of DataInput
+ObjectOutputStream.writeInt(int)	Writes a 32 bit int
+File.getUsableSpace()	Returns the number of bytes available to this virtual machine on the partition named by this abstract pathname When possible this method checks for write permissions and other operating system restrictions and will therefore usually provide a more accurate estimate of how much new data can actually be written than getFreeSpace
+Reader.close()	Closes the stream and releases any system resources associated with it Once the stream has been closed further read ready mark reset or skip invocations will throw an IOException
+ObjectOutputStream.close()	Closes the stream This method must be called to release any resources associated with the stream
+PrintStream.PrintStream(OutputStream,boolean,String)	Creates a new print stream
+StreamTokenizer.lowerCaseMode(boolean)	Determines whether or not word token are automatically lowercased
+FilterInputStream.read(byte[])	Reads up to byte length bytes of data from this input stream into an array of bytes This method blocks until some input is available
+ObjectOutputStream.useProtocolVersion(int)	Specify stream protocol version to use when writing the stream
+RandomAccessFile.seek(long)	Sets the file pointer offset measured from the beginning of this file at which the next read or write occurs The offset may be set beyond the end of the file Setting the offset beyond the end of the file does not change the file length The file length will change only by writing after the offset has been set beyond the end of the file
+ObjectInputStream.GetField.get(String,byte)	Get the value of the named byte field from the persistent field
+DataOutput.writeChars(String)	Writes every character in the string s to the output stream in order two bytes per character If s is null a NullPointerException is thrown If s length is zero then no characters are written
+ObjectOutputStream.reset()	Reset will disregard the state of any objects already written to the stream The state is reset to be the same as a new ObjectOutputStream
+PipedInputStream.PipedInputStream(int)	Creates a PipedInputStream so that it is not yet connected and uses the specified pipe size for the pipe s buffer
+ObjectOutputStream.writeObject(Object)	Write the specified object to the ObjectOutputStream The class of the object the signature of the class and the values of the non transient and non static fields of the class and all of its supertypes are written Default serialization for a class can be overridden using the writeObject and the readObject methods Objects referenced by this object are written transitively so that a complete equivalent graph of objects can be reconstructed by an ObjectInputStream
+FilterReader.read()	Reads a single character
+PrintWriter.println(String)	Prints a String and then terminates the line This method behaves as though it invokes print String and then println
+StreamTokenizer.slashStarComments(boolean)	Determines whether or not the tokenizer recognizes C style comments
+PrintStream.println(int)	Prints an integer and then terminate the line This method behaves as though it invokes print int and then println
+PushbackReader.markSupported()	Tells whether this stream supports the mark operation which it does not
+ObjectOutputStream.writeChar(int)	Writes a 16 bit char
+ObjectOutput.writeObject(Object)	Write an object to the underlying storage or stream The class that implements this interface defines how the object is written
+DataOutputStream.writeDouble(double)	Converts the double argument to a long using the doubleToLongBits method in class Double and then writes that long value to the underlying output stream as an 8 byte quantity high byte first If no exception is thrown the counter written is incremented by 8
+StreamTokenizer.quoteChar(int)	Specifies that matching pairs of this character delimit string constants in this tokenizer
+ObjectInputStream.readInt()	Reads a 32 bit int
+ObjectInput.read()	Reads a byte of data This method will block if no input is available
+FilterInputStream.skip(long)	Skips over and discards n bytes of data from the input stream The skip method may for a variety of reasons end up skipping over some smaller number of bytes possibly 0 The actual number of bytes skipped is returned
+PushbackInputStream.PushbackInputStream(InputStream)	Creates a PushbackInputStream and saves its argument the input stream in for later use Initially there is no pushed back byte the field pushBack is initialized to 1
+PrintStream.print(int)	Prints an integer The string produced by String valueOf int is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+PushbackInputStream.available()	Returns an estimate of the number of bytes that can be read or skipped over from this input stream without blocking by the next invocation of a method for this input stream The next invocation might be the same thread or another thread A single read or skip of this many bytes will not block but may read or skip fewer bytes
+RandomAccessFile.writeInt(int)	Writes an int to the file as four bytes high byte first
+BufferedWriter.flush()	Flushes the stream
+DataOutputStream.writeInt(int)	Writes an int to the underlying output stream as four bytes high byte first If no exception is thrown the counter written is incremented by 4
+DataInputStream.readInt()	See the general contract of the readInt method of DataInput
+FilterReader.ready()	Tells whether this stream is ready to be read
+PrintWriter.close()	Closes the stream and releases any system resources associated with it Closing a previously closed stream has no effect
+OutputStreamWriter.OutputStreamWriter(OutputStream,CharsetEncoder)	Creates an OutputStreamWriter that uses the given charset encoder
+ObjectStreamField.isUnshared()	Returns boolean value indicating whether or not the serializable field represented by this ObjectStreamField instance is unshared
+PrintWriter.append(char)	Appends the specified character to this writer
+CharArrayWriter.write(String,int,int)	Write a portion of a string to the buffer
+DataOutputStream.flush()	Flushes this data output stream This forces any buffered output bytes to be written out to the stream
+ObjectOutput.write(int)	Writes a byte This method will block until the byte is actually written
+Flushable.flush()	Flushes this stream by writing any buffered output to the underlying stream
+DataOutput.writeUTF(String)	Writes two bytes of length information to the output stream followed by the modified UTF 8 representation of every character in the string s
+RandomAccessFile.writeLong(long)	Writes a long to the file as eight bytes high byte first
+SequenceInputStream.SequenceInputStream(Enumeration)	Initializes a newly created SequenceInputStream by remembering the argument which must be an Enumeration that produces objects whose run time type is InputStream
+DataInputStream.readUnsignedShort()	See the general contract of the readUnsignedShort method of DataInput
+LineNumberReader.setLineNumber(int)	Set the current line number
+PushbackReader.unread(char[],int,int)	Pushes back a portion of an array of characters by copying it to the front of the pushback buffer After this method returns the next character to be read will have the value cbuf off the character after that will have the value cbuf off 1 and so forth
+ObjectOutputStream.writeUnshared(Object)	Writes an unshared object to the ObjectOutputStream This method is identical to writeObject except that it always writes the given object as a new unique object in the stream as opposed to a back reference pointing to a previously serialized instance Specifically An object written via writeUnshared is always serialized in the same manner as a newly appearing object an object that has not been written to the stream yet regardless of whether or not the object has been written previously
+PushbackInputStream.unread(byte[],int,int)	Pushes back a portion of an array of bytes by copying it to the front of the pushback buffer After this method returns the next byte to be read will have the value b off the byte after that will have the value b off 1 and so forth
+FileOutputStream.getFD()	Returns the file descriptor associated with this stream
+LineNumberInputStream.read(byte[],int,int)	Reads up to len bytes of data from this input stream into an array of bytes This method blocks until some input is available
+InputStreamReader.close()	Description copied from class Reader
+BufferedOutputStream.BufferedOutputStream(OutputStream,int)	Creates a new buffered output stream to write data to the specified underlying output stream with the specified buffer size
+PrintWriter.println(char)	Prints a character and then terminates the line This method behaves as though it invokes print char and then println
+RandomAccessFile.getFD()	Returns the opaque file descriptor object associated with this stream
+ObjectInputStream.readUTF()	Reads a String in modified UTF 8 format
+PipedOutputStream.write(int)	Writes the specified byte to the piped output stream
+PushbackInputStream.PushbackInputStream(InputStream,int)	Creates a PushbackInputStream with a pushback buffer of the specified size and saves its argument the input stream in for later use Initially there is no pushed back byte the field pushBack is initialized to 1
+StringReader.ready()	Tells whether this stream is ready to be read
+StringWriter.close()	Closing a StringWriter has no effect The methods in this class can be called after the stream has been closed without generating an IOException
+RandomAccessFile.read()	Reads a byte of data from this file The byte is returned as an integer in the range 0 to 255 0x00 0x0ff This method blocks if no input is yet available
+RandomAccessFile.writeBoolean(boolean)	Writes a boolean to the file as a one byte value The value true is written out as the value byte 1 the value false is written out as the value byte 0 The write starts at the current position of the file pointer
+Console.format(String,)	Writes a formatted string to this console s output stream using the specified format string and arguments
+ObjectOutputStream.PutField.write(ObjectOutput)	Write the data and fields to the specified ObjectOutput stream which must be the same stream that produced this PutField object
+DataInputStream.readByte()	See the general contract of the readByte method of DataInput
+FileInputStream.read(byte[],int,int)	Reads up to len bytes of data from this input stream into an array of bytes If len is not zero the method blocks until some input is available otherwise no bytes are read and 0 is returned
+ObjectStreamClass.forClass()	Return the class in the local VM that this version is mapped to Null is returned if there is no corresponding local class
+DataOutputStream.writeChars(String)	Writes a string to the underlying output stream as a sequence of characters Each character is written to the data output stream as if by the writeChar method If no exception is thrown the counter written is incremented by twice the length of s
+ObjectOutputStream.PutField.put(String,char)	Put the value of the named char field into the persistent field
+File.canExecute()	Tests whether the application can execute the file denoted by this abstract pathname
+CharArrayReader.CharArrayReader(char[],int,int)	Creates a CharArrayReader from the specified array of chars
+PrintWriter.append(CharSequence,int,int)	Appends a subsequence of the specified character sequence to this writer
+RandomAccessFile.readDouble()	Reads a double from this file This method reads a long value starting at the current file pointer as if by the readLong method and then converts that long to a double using the longBitsToDouble method in class Double
+BufferedInputStream.mark(int)	See the general contract of the mark method of InputStream
+StreamTokenizer.resetSyntax()	Resets this tokenizer s syntax table so that all characters are ordinary See the ordinaryChar method for more information on a character being ordinary
+RandomAccessFile.getFilePointer()	Returns the current offset in this file
+ObjectInputStream.readFully(byte[])	Reads bytes blocking until all bytes are read
+FilterInputStream.mark(int)	Marks the current position in this input stream A subsequent call to the reset method repositions this stream at the last marked position so that subsequent reads re read the same bytes
+FilterOutputStream.FilterOutputStream(OutputStream)	Creates an output stream filter built on top of the specified underlying output stream
+ObjectInput.available()	Returns the number of bytes that can be read without blocking
+DataInput.skipBytes(int)	Makes an attempt to skip over n bytes of data from the input stream discarding the skipped bytes However it may skip over some smaller number of bytes possibly zero This may result from any of a number of conditions reaching end of file before n bytes have been skipped is only one possibility
+ObjectStreamField.compareTo(Object)	Compare this field with another ObjectStreamField Return 1 if this is smaller 0 if equal 1 if greater Types that are primitives are smaller than object types If equal the field names are compared
+FilterWriter.write(char[],int,int)	Writes a portion of an array of characters
+RandomAccessFile.readUnsignedByte()	Reads an unsigned eight bit number from this file This method reads a byte from this file starting at the current file pointer and returns that byte
+FilterInputStream.read(byte[],int,int)	Reads up to len bytes of data from this input stream into an array of bytes If len is not zero the method blocks until some input is available otherwise no bytes are read and 0 is returned
+InputStream.InputStream()	
+Console.readPassword()	Reads a password or passphrase from the console with echoing disabled
+DataOutput.writeFloat(float)	Writes a float value which is comprised of four bytes to the output stream
+StreamTokenizer.commentChar(int)	Specified that the character argument starts a single line comment All characters from the comment character to the end of the line are ignored by this stream tokenizer
+PipedOutputStream.PipedOutputStream()	Creates a piped output stream that is not yet connected to a piped input stream It must be connected to a piped input stream either by the receiver or the sender before being used
+StringBufferInputStream.read(byte[],int,int)	Reads up to len bytes of data from this input stream into an array of bytes
+Writer.append(char)	Appends the specified character to this writer
+BufferedWriter.write(int)	Writes a single character
+PrintStream.PrintStream(OutputStream,boolean)	Creates a new print stream
+ObjectInputStream.skipBytes(int)	Skips bytes
+File.toPath()	Returns a java nio file Path object constructed from the this abstract path The resulting Path is associated with the default filesystem
+RandomAccessFile.read(byte[],int,int)	Reads up to len bytes of data from this file into an array of bytes This method blocks until at least one byte of input is available
+ObjectOutputStream.PutField.ObjectOutputStream.PutField()	
+ObjectInputStream.readLine()	Reads in a line that has been terminated by a n r r n or EOF
+StringWriter.append(char)	Appends the specified character to this writer
+PrintWriter.print(char[])	Prints an array of characters The characters are converted into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+BufferedInputStream.reset()	See the general contract of the reset method of InputStream
+ObjectOutput.close()	Closes the stream This method must be called to release any resources associated with the stream
+PipedInputStream.close()	Closes this piped input stream and releases any system resources associated with the stream
+DataInput.readLine()	Reads the next line of text from the input stream
+StreamTokenizer.wordChars(int,int)	Specifies that all characters c in the range low c high are word constituents A word token consists of a word constituent followed by zero or more word constituents or number constituents
+FileWriter.FileWriter(FileDescriptor)	Constructs a FileWriter object associated with a file descriptor
+ObjectOutputStream.writeUTF(String)	Primitive data write of this String in modified UTF 8 format Note that there is a significant difference between writing a String into the stream as primitive data or as an Object A String instance written by writeObject is written into the stream as a String initially Future writeObject calls write references to the string into the stream
+ByteArrayOutputStream.close()	Closing a ByteArrayOutputStream has no effect The methods in this class can be called after the stream has been closed without generating an IOException
+BufferedReader.markSupported()	Tells whether this stream supports the mark operation which it does
+PrintStream.write(byte[],int,int)	Writes len bytes from the specified byte array starting at offset off to this stream If automatic flushing is enabled then the flush method will be invoked
+PrintWriter.format(Locale,String,)	Writes a formatted string to this writer using the specified format string and arguments If automatic flushing is enabled calls to this method will flush the output buffer
+Writer.write(char[],int,int)	Writes a portion of an array of characters
+ObjectInputStream.ObjectInputStream(InputStream)	Creates an ObjectInputStream that reads from the specified InputStream
+File.File(String)	Creates a new File instance by converting the given pathname string into an abstract pathname If the given string is the empty string then the result is the empty abstract pathname
+StringBufferInputStream.read()	Reads the next byte of data from this input stream The value byte is returned as an int in the range 0 to 255 If no byte is available because the end of the stream has been reached the value 1 is returned
+File.delete()	Deletes the file or directory denoted by this abstract pathname If this pathname denotes a directory then the directory must be empty in order to be deleted
+ByteArrayInputStream.skip(long)	Skips n bytes of input from this input stream Fewer bytes might be skipped if the end of the input stream is reached
+RandomAccessFile.writeBytes(String)	Writes the string to the file as a sequence of bytes Each character in the string is written out in sequence by discarding its high eight bits The write starts at the current position of the file pointer
+CharArrayReader.read(char[],int,int)	Reads characters into a portion of an array
+ObjectStreamField.ObjectStreamField(String,Class,boolean)	Creates an ObjectStreamField representing a serializable field with the given name and type If unshared is false values of the represented field are serialized and deserialized in the default manner if the field is non primitive object values are serialized and deserialized as if they had been written and read by calls to writeObject and readObject If unshared is true values of the represented field are serialized and deserialized as if they had been written and read by calls to writeUnshared and readUnshared
+File.getFreeSpace()	Returns the number of unallocated bytes in the partition named by this abstract path name
+ByteArrayOutputStream.toByteArray()	Creates a newly allocated byte array Its size is the current size of this output stream and the valid contents of the buffer have been copied into it
+PrintWriter.PrintWriter(OutputStream)	Creates a new PrintWriter without automatic line flushing from an existing OutputStream This convenience constructor creates the necessary intermediate OutputStreamWriter which will convert characters into bytes using the default character encoding
+DataInput.readByte()	Reads and returns one input byte
+RandomAccessFile.write(byte[],int,int)	Writes len bytes from the specified byte array starting at offset off to this file
+StringBufferInputStream.available()	Returns the number of bytes that can be read from the input stream without blocking
+PrintWriter.print(long)	Prints a long integer The string produced by String valueOf long is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+ObjectInputStream.GetField.defaulted(String)	Return true if the named field is defaulted and has no value in this stream
+DataInput.readUTF()	Reads in a string that has been encoded using a modified UTF 8 format
+BufferedReader.BufferedReader(Reader)	Creates a buffering character input stream that uses a default sized input buffer
+DataOutputStream.writeShort(int)	Writes a short to the underlying output stream as two bytes high byte first If no exception is thrown the counter written is incremented by 2
+Reader.markSupported()	Tells whether this stream supports the mark operation The default implementation always returns false Subclasses should override this method
+ObjectStreamClass.getSerialVersionUID()	Return the serialVersionUID for this class The serialVersionUID defines a set of classes all with the same name that have evolved from a common root class and agree to be serialized and deserialized using a common format NonSerializable classes have a serialVersionUID of 0L
+PushbackReader.unread(char[])	Pushes back an array of characters by copying it to the front of the pushback buffer After this method returns the next character to be read will have the value cbuf 0 the character after that will have the value cbuf 1 and so forth
+RandomAccessFile.getChannel()	Returns the unique FileChannel object associated with this file
+Writer.write(String)	Writes a string
+CharArrayWriter.close()	Close the stream This method does not release the buffer since its contents might still be required Note Invoking this method in this class will have no effect
+StreamTokenizer.ordinaryChars(int,int)	Specifies that all characters c in the range low c high are ordinary in this tokenizer See the ordinaryChar method for more information on a character being ordinary
+Writer.close()	Closes the stream flushing it first Once the stream has been closed further write or flush invocations will cause an IOException to be thrown Closing a previously closed stream has no effect
+StreamTokenizer.whitespaceChars(int,int)	Specifies that all characters c in the range low c high are white space characters White space characters serve only to separate tokens in the input stream
+FileOutputStream.write(int)	Writes the specified byte to this file output stream Implements the write method of OutputStream
+PrintStream.println()	Terminates the current line by writing the line separator string The line separator string is defined by the system property line separator and is not necessarily a single newline character n
+File.mkdirs()	Creates the directory named by this abstract pathname including any necessary but nonexistent parent directories Note that if this operation fails it may have succeeded in creating some of the necessary parent directories
+LineNumberInputStream.read()	Reads the next byte of data from this input stream The value byte is returned as an int in the range 0 to 255 If no byte is available because the end of the stream has been reached the value 1 is returned This method blocks until input data is available the end of the stream is detected or an exception is thrown
+PipedOutputStream.close()	Closes this piped output stream and releases any system resources associated with this stream This stream may no longer be used for writing bytes
+FileOutputStream.getChannel()	Returns the unique FileChannel object associated with this file output stream The initial position of the returned channel will be equal to the number of bytes written to the file so far unless this stream is in append mode in which case it will be equal to the size of the file
+RandomAccessFile.readLine()	Reads the next line of text from this file This method successively reads bytes from the file starting at the current file pointer until it reaches a line terminator or the end of the file Each byte is converted into a character by taking the byte s value for the lower eight bits of the character and setting the high eight bits of the character to zero This method does not therefore support the full Unicode character set
+PushbackInputStream.skip(long)	Skips over and discards n bytes of data from this input stream The skip method may for a variety of reasons end up skipping over some smaller number of bytes possibly zero If n is negative no bytes are skipped
+Reader.mark(int)	Marks the present position in the stream Subsequent calls to reset will attempt to reposition the stream to this point Not all character input streams support the mark operation
+ObjectOutputStream.PutField.put(String,int)	Put the value of the named int field into the persistent field
+PipedReader.read(char[],int,int)	Reads up to len characters of data from this piped stream into an array of characters Less than len characters will be read if the end of the data stream is reached or if len exceeds the pipe s buffer size This method blocks until at least one character of input is available
+ObjectInputStream.readUnsignedByte()	Reads an unsigned 8 bit byte
+DataInput.readFully(byte[],int,int)	Reads len bytes from an input stream
+PushbackInputStream.close()	Closes this input stream and releases any system resources associated with the stream
+PrintWriter.format(String,)	Writes a formatted string to this writer using the specified format string and arguments If automatic flushing is enabled calls to this method will flush the output buffer
+ByteArrayInputStream.markSupported()	Tests if this InputStream supports mark reset The markSupported method of ByteArrayInputStream always returns true
+BufferedInputStream.read()	See the general contract of the read method of InputStream
+BufferedWriter.newLine()	Writes a line separator The line separator string is defined by the system property line separator and is not necessarily a single newline n character
+SequenceInputStream.read(byte[],int,int)	Reads up to len bytes of data from this input stream into an array of bytes If len is not zero the method blocks until at least 1 byte of input is available otherwise no bytes are read and 0 is returned
+RandomAccessFile.readChar()	Reads a character from this file This method reads two bytes from the file starting at the current file pointer
+ObjectInputStream.GetField.get(String,long)	Get the value of the named long field from the persistent field
+RandomAccessFile.writeDouble(double)	Converts the double argument to a long using the doubleToLongBits method in class Double and then writes that long value to the file as an eight byte quantity high byte first The write starts at the current position of the file pointer
+PrintStream.print(boolean)	Prints a boolean value The string produced by String valueOf boolean is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+PrintStream.println(long)	Prints a long and then terminate the line This method behaves as though it invokes print long and then println
+OutputStream.flush()	Flushes this output stream and forces any buffered output bytes to be written out The general contract of flush is that calling it is an indication that if any bytes previously written have been buffered by the implementation of the output stream such bytes should immediately be written to their intended destination
+StringBufferInputStream.StringBufferInputStream(String)	Creates a string input stream to read data from the specified string
+ObjectInputStream.readDouble()	Reads a 64 bit double
+RandomAccessFile.writeShort(int)	Writes a short to the file as two bytes high byte first
+OutputStream.write(int)	Writes the specified byte to this output stream The general contract for write is that one byte is written to the output stream The byte to be written is the eight low order bits of the argument b The 24 high order bits of b are ignored
+FileReader.FileReader(File)	Creates a new FileReader given the File to read from
+RandomAccessFile.writeChar(int)	Writes a char to the file as a two byte value high byte first The write starts at the current position of the file pointer
+DataInputStream.readFully(byte[])	See the general contract of the readFully method of DataInput
+InputStreamReader.InputStreamReader(InputStream)	Creates an InputStreamReader that uses the default charset
+PrintWriter.write(char[])	Writes an array of characters This method cannot be inherited from the Writer class because it must suppress I O exceptions
+BufferedInputStream.close()	Closes this input stream and releases any system resources associated with the stream
+DataOutputStream.size()	Returns the current value of the counter written the number of bytes written to this data output stream so far
+FileOutputStream.FileOutputStream(File)	Creates a file output stream to write to the file represented by the specified File object A new FileDescriptor object is created to represent this file connection
+PrintWriter.print(float)	Prints a floating point number The string produced by String valueOf float is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+DataOutput.writeDouble(double)	Writes a double value which is comprised of eight bytes to the output stream
+ObjectInput.close()	Closes the input stream Must be called to release any resources associated with the stream
+ObjectOutputStream.writeDouble(double)	Writes a 64 bit double
+RandomAccessFile.readFully(byte[])	Reads b length bytes from this file into the byte array starting at the current file pointer This method reads repeatedly from the file until the requested number of bytes are read This method blocks until the requested number of bytes are read the end of the stream is detected or an exception is thrown
+DataOutput.writeLong(long)	Writes a long value which is comprised of eight bytes to the output stream
+DataOutput.writeInt(int)	Writes an int value which is comprised of four bytes to the output stream
+PrintWriter.checkError()	Flushes the stream if it s not closed and checks its error state
+FilePermission.newPermissionCollection()	Returns a new PermissionCollection object for storing FilePermission objects
+ObjectInputStream.readFields()	Reads the persistent fields from the stream and makes them available by name
+BufferedWriter.write(String,int,int)	Writes a portion of a String
+DataOutputStream.writeLong(long)	Writes a long to the underlying output stream as eight bytes high byte first In no exception is thrown the counter written is incremented by 8
+LineNumberReader.skip(long)	Skip characters
+InputStreamReader.read()	Reads a single character
+LineNumberReader.LineNumberReader(Reader)	Create a new line numbering reader using the default input buffer size
+PrintStream.PrintStream(File,String)	Creates a new print stream without automatic line flushing with the specified file and charset This convenience constructor creates the necessary intermediate OutputStreamWriter which will encode characters using the provided charset
+File.canWrite()	Tests whether the application can modify the file denoted by this abstract pathname
+CharArrayWriter.size()	Returns the current size of the buffer
+ObjectInputStream.GetField.get(String,char)	Get the value of the named char field from the persistent field
+ObjectInputStream.GetField.getObjectStreamClass()	Get the ObjectStreamClass that describes the fields in the stream
+ObjectInputStream.GetField.get(String,int)	Get the value of the named int field from the persistent field
+DataInput.readInt()	Reads four input bytes and returns an int value Let a d be the first through fourth bytes read The value returned is a 0xff 24 b 0xff 16 c 0xff 8 d 0xff This method is suitable for reading bytes written by the writeInt method of interface DataOutput
+ByteArrayOutputStream.toString()	Converts the buffer s contents into a string decoding bytes using the platform s default character set The length of the new String is a function of the character set and hence may not be equal to the size of the buffer
+ByteArrayOutputStream.reset()	Resets the count field of this byte array output stream to zero so that all currently accumulated output in the output stream is discarded The output stream can be used again reusing the already allocated buffer space
+PushbackInputStream.read(byte[],int,int)	Reads up to len bytes of data from this input stream into an array of bytes This method first reads any pushed back bytes after that if fewer than len bytes have been read then it reads from the underlying input stream If len is not zero the method blocks until at least 1 byte of input is available otherwise no bytes are read and 0 is returned
+DataInputStream.read(byte[],int,int)	Reads up to len bytes of data from the contained input stream into an array of bytes An attempt is made to read as many as len bytes but a smaller number may be read possibly zero The number of bytes actually read is returned as an integer
+InputStreamReader.getEncoding()	Returns the name of the character encoding being used by this stream
+FileInputStream.read()	Reads a byte of data from this input stream This method blocks if no input is yet available
+InputStreamReader.InputStreamReader(InputStream,CharsetDecoder)	Creates an InputStreamReader that uses the given charset decoder
+Writer.write(char[])	Writes an array of characters
+PushbackReader.ready()	Tells whether this stream is ready to be read
+PipedReader.PipedReader(PipedWriter,int)	Creates a PipedReader so that it is connected to the piped writer src and uses the specified pipe size for the pipe s buffer Data written to src will then be available as input from this stream
+PipedReader.read()	Reads the next character of data from this piped stream
+ByteArrayInputStream.reset()	Resets the buffer to the marked position The marked position is 0 unless another position was marked or an offset was specified in the constructor
+Reader.read(char[])	Reads characters into an array This method will block until some input is available an I O error occurs or the end of the stream is reached
+FilterOutputStream.write(byte[])	Writes b length bytes to this output stream
+DataInputStream.readFully(byte[],int,int)	See the general contract of the readFully method of DataInput
+PipedReader.connect(PipedWriter)	Causes this piped reader to be connected to the piped writer src
+File.listFiles(FileFilter)	Returns an array of abstract pathnames denoting the files and directories in the directory denoted by this abstract pathname that satisfy the specified filter The behavior of this method is the same as that of the listFiles method except that the pathnames in the returned array must satisfy the filter If the given filter is null then all pathnames are accepted Otherwise a pathname satisfies the filter if and only if the value true results when the FileFilter accept File method of the filter is invoked on the pathname
+ObjectInputStream.readFully(byte[],int,int)	Reads bytes blocking until all bytes are read
+RandomAccessFile.write(int)	Writes the specified byte to this file The write starts at the current file pointer
+File.getPath()	Converts this abstract pathname into a pathname string The resulting string uses the default name separator character to separate the names in the name sequence
+LineNumberInputStream.reset()	Repositions this stream to the position at the time the mark method was last called on this input stream
+PrintWriter.write(char[],int,int)	Writes A Portion of an array of characters
+PrintStream.append(CharSequence,int,int)	Appends a subsequence of the specified character sequence to this output stream
+PipedReader.ready()	Tell whether this stream is ready to be read A piped character stream is ready if the circular buffer is not empty
+ObjectInputStream.GetField.get(String,boolean)	Get the value of the named boolean field from the persistent field
+ObjectOutputStream.PutField.put(String,float)	Put the value of the named float field into the persistent field
+BufferedInputStream.markSupported()	Tests if this input stream supports the mark and reset methods The markSupported method of BufferedInputStream returns true
+InputStream.read()	Reads the next byte of data from the input stream The value byte is returned as an int in the range 0 to 255 If no byte is available because the end of the stream has been reached the value 1 is returned This method blocks until input data is available the end of the stream is detected or an exception is thrown
+File.setWritable(boolean,boolean)	Sets the owner s or everybody s write permission for this abstract pathname
+DataOutput.write(int)	Writes to the output stream the eight low order bits of the argument b
+ByteArrayInputStream.ByteArrayInputStream(byte[],int,int)	Creates ByteArrayInputStream that uses buf as its buffer array The initial value of pos is offset and the initial value of count is the minimum of offset length and buf length
+StreamTokenizer.toString()	Returns the string representation of the current stream token and the line number it occurs on
+CharArrayWriter.CharArrayWriter(int)	Creates a new CharArrayWriter with the specified initial size
+File.lastModified()	Returns the time that the file denoted by this abstract pathname was last modified
+PrintStream.PrintStream(String,String)	Creates a new print stream without automatic line flushing with the specified file name and charset This convenience constructor creates the necessary intermediate OutputStreamWriter which will encode characters using the provided charset
+RandomAccessFile.RandomAccessFile(File,String)	Creates a random access file stream to read from and optionally to write to the file specified by the File argument A new FileDescriptor object is created to represent this file connection
+FileOutputStream.FileOutputStream(FileDescriptor)	Creates a file output stream to write to the specified file descriptor which represents an existing connection to an actual file in the file system
+ObjectStreamClass.toString()	Return a string describing this ObjectStreamClass
+ObjectOutputStream.PutField.put(String,short)	Put the value of the named short field into the persistent field
+StringWriter.append(CharSequence)	Appends the specified character sequence to this writer
+FilterWriter.write(String,int,int)	Writes a portion of a string
+PrintWriter.println(float)	Prints a floating point number and then terminates the line This method behaves as though it invokes print float and then println
+Reader.read(char[],int,int)	Reads characters into a portion of an array This method will block until some input is available an I O error occurs or the end of the stream is reached
+StringWriter.write(char[],int,int)	Write a portion of an array of characters
+ObjectOutput.flush()	Flushes the stream This will write any buffered output bytes
+PrintStream.print(String)	Prints a string If the argument is null then the string null is printed Otherwise the string s characters are converted into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+CharArrayWriter.toCharArray()	Returns a copy of the input data
+DataOutput.write(byte[],int,int)	Writes len bytes from array b in order to the output stream If b is null a NullPointerException is thrown If off is negative or len is negative or off len is greater than the length of the array b then an IndexOutOfBoundsException is thrown If len is zero then no bytes are written Otherwise the byte b off is written first then b off 1 and so on the last byte written is b off len 1
+InputStream.mark(int)	Marks the current position in this input stream A subsequent call to the reset method repositions this stream at the last marked position so that subsequent reads re read the same bytes
+DataOutputStream.writeChar(int)	Writes a char to the underlying output stream as a 2 byte value high byte first If no exception is thrown the counter written is incremented by 2
+FilterOutputStream.write(byte[],int,int)	Writes len bytes from the specified byte array starting at offset off to this output stream
+File.File(File,String)	Creates a new File instance from a parent abstract pathname and a child pathname string
+PrintWriter.println(double)	Prints a double precision floating point number and then terminates the line This method behaves as though it invokes print double and then println
+File.getAbsoluteFile()	Returns the absolute form of this abstract pathname Equivalent to new File this getAbsolutePath
+PrintWriter.PrintWriter(String,String)	Creates a new PrintWriter without automatic line flushing with the specified file name and charset This convenience constructor creates the necessary intermediate OutputStreamWriter which will encode characters using the provided charset
+PipedOutputStream.PipedOutputStream(PipedInputStream)	Creates a piped output stream connected to the specified piped input stream Data bytes written to this stream will then be available as input from snk
+ObjectStreamField.ObjectStreamField(String,Class)	Create a Serializable field with the specified type This field should be documented with a serialField tag
+File.setReadOnly()	Marks the file or directory named by this abstract pathname so that only read operations are allowed After invoking this method the file or directory is guaranteed not to change until it is either deleted or marked to allow write access Whether or not a read only file or directory may be deleted depends upon the underlying system
+PrintStream.print(char)	Prints a character The character is translated into one or more bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+FilterWriter.flush()	Flushes the stream
+ObjectInputStream.readShort()	Reads a 16 bit short
+BufferedWriter.close()	Description copied from class Writer
+StringReader.reset()	Resets the stream to the most recent mark or to the beginning of the string if it has never been marked
+DataInput.readLong()	Reads eight input bytes and returns a long value Let a h be the first through eighth bytes read
+File.list(FilenameFilter)	Returns an array of strings naming the files and directories in the directory denoted by this abstract pathname that satisfy the specified filter The behavior of this method is the same as that of the list method except that the strings in the returned array must satisfy the filter If the given filter is null then all names are accepted Otherwise a name satisfies the filter if and only if the value true results when the FilenameFilter accept File String method of the filter is invoked on this abstract pathname and the name of a file or directory in the directory that it denotes
+PrintStream.close()	Closes the stream This is done by flushing the stream and then closing the underlying output stream
+File.equals(Object)	Tests this abstract pathname for equality with the given object
+File.compareTo(File)	Compares two abstract pathnames lexicographically The ordering defined by this method depends upon the underlying system On UNIX systems alphabetic case is significant in comparing pathnames on Microsoft Windows systems it is not
+BufferedInputStream.skip(long)	See the general contract of the skip method of InputStream
+Externalizable.writeExternal(ObjectOutput)	The object implements the writeExternal method to save its contents by calling the methods of DataOutput for its primitive values or calling the writeObject method of ObjectOutput for objects strings and arrays
+FilterReader.reset()	Resets the stream
+ObjectInputStream.GetField.get(String,Object)	Get the value of the named Object field from the persistent field
+ObjectOutputStream.PutField.put(String,long)	Put the value of the named long field into the persistent field
+FileInputStream.getChannel()	Returns the unique FileChannel object associated with this file input stream
+PrintWriter.write(int)	Writes a single character
+PipedWriter.PipedWriter(PipedReader)	Creates a piped writer connected to the specified piped reader Data characters written to this stream will then be available as input from snk
+File.getCanonicalFile()	Returns the canonical form of this abstract pathname Equivalent to new File this getCanonicalPath
+PrintStream.format(String,)	Writes a formatted string to this output stream using the specified format string and arguments
+FilterReader.skip(long)	Skips characters
+Console.printf(String,)	A convenience method to write a formatted string to this console s output stream using the specified format string and arguments
+PrintWriter.print(char)	Prints a character The character is translated into one or more bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+PipedWriter.write(char[],int,int)	Writes len characters from the specified character array starting at offset off to this piped output stream
+FileReader.FileReader(FileDescriptor)	Creates a new FileReader given the FileDescriptor to read from
+PrintStream.println(char[])	Prints an array of characters and then terminate the line This method behaves as though it invokes print char and then println
+StringWriter.StringWriter(int)	Create a new string writer using the specified initial string buffer size
+ObjectStreamField.isPrimitive()	Return true if this field has a primitive type
+StreamTokenizer.eolIsSignificant(boolean)	Determines whether or not ends of line are treated as tokens
+OutputStreamWriter.OutputStreamWriter(OutputStream)	Creates an OutputStreamWriter that uses the default character encoding
+OutputStreamWriter.write(char[],int,int)	Writes a portion of an array of characters
+LineNumberReader.getLineNumber()	Get the current line number
+RandomAccessFile.skipBytes(int)	Attempts to skip over n bytes of input discarding the skipped bytes
+PrintWriter.write(String)	Writes a string This method cannot be inherited from the Writer class because it must suppress I O exceptions
+PipedInputStream.read()	Reads the next byte of data from this piped input stream The value byte is returned as an int in the range 0 to 255
+ObjectInputStream.defaultReadObject()	Read the non static and non transient fields of the current class from this stream This may only be called from the readObject method of the class being deserialized It will throw the NotActiveException if it is called otherwise
+File.hashCode()	Computes a hash code for this abstract pathname Because equality of abstract pathnames is inherently system dependent so is the computation of their hash codes On UNIX systems the hash code of an abstract pathname is equal to the exclusive or of the hash code of its pathname string and the decimal value 1234321 On Microsoft Windows systems the hash code is equal to the exclusive or of the hash code of its pathname string converted to lower case and the decimal value 1234321 Locale is not taken into account on lowercasing the pathname string
+PrintStream.print(float)	Prints a floating point number The string produced by String valueOf float is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+File.deleteOnExit()	Requests that the file or directory denoted by this abstract pathname be deleted when the virtual machine terminates
+FilterOutputStream.close()	Closes this output stream and releases any system resources associated with the stream
+OutputStreamWriter.write(int)	Writes a single character
+LineNumberInputStream.setLineNumber(int)	Sets the line number to the specified argument
+BufferedReader.reset()	Resets the stream to the most recent mark
+ObjectInputStream.registerValidation(ObjectInputValidation,int)	Register an object to be validated before the graph is returned While similar to resolveObject these validations are called after the entire graph has been reconstituted Typically a readObject method will register the object with the stream so that when all of the objects are restored a final set of validations can be performed
+PrintStream.print(double)	Prints a double precision floating point number The string produced by String valueOf double is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+FilterOutputStream.flush()	Flushes this output stream and forces any buffered output bytes to be written out to the stream
+PushbackReader.mark(int)	Marks the present position in the stream The mark for class PushbackReader always throws an exception
+PipedInputStream.connect(PipedOutputStream)	Causes this piped input stream to be connected to the piped output stream src
+StringReader.close()	Closes the stream and releases any system resources associated with it Once the stream has been closed further read ready mark or reset invocations will throw an IOException
+PrintStream.println(char)	Prints a character and then terminate the line This method behaves as though it invokes print char and then println
+PrintWriter.PrintWriter(Writer,boolean)	Creates a new PrintWriter
+FileInputStream.FileInputStream(String)	Creates a FileInputStream by opening a connection to an actual file the file named by the path name name in the file system A new FileDescriptor object is created to represent this file connection
+StringWriter.flush()	Flush the stream
+BufferedInputStream.read(byte[],int,int)	Reads bytes from this byte input stream into the specified byte array starting at the given offset
+Writer.write(int)	Writes a single character The character to be written is contained in the 16 low order bits of the given integer value the 16 high order bits are ignored
+Closeable.close()	Closes this stream and releases any system resources associated with it If the stream is already closed then invoking this method has no effect
+File.toString()	Returns the pathname string of this abstract pathname This is just the string returned by the getPath method
+FilePermission.implies(Permission)	Checks if this FilePermission object implies the specified permission
+ObjectInputStream.readBoolean()	Reads in a boolean
+CharArrayReader.markSupported()	Tells whether this stream supports the mark operation which it does
+ObjectOutputStream.PutField.put(String,Object)	Put the value of the named Object field into the persistent field
+PipedWriter.write(int)	Writes the specified char to the piped output stream
+OutputStreamWriter.OutputStreamWriter(OutputStream,Charset)	Creates an OutputStreamWriter that uses the given charset
+CharArrayReader.ready()	Tells whether this stream is ready to be read Character array readers are always ready to be read
+PushbackInputStream.unread(byte[])	Pushes back an array of bytes by copying it to the front of the pushback buffer After this method returns the next byte to be read will have the value b 0 the byte after that will have the value b 1 and so forth
+ObjectInputStream.readLong()	Reads a 64 bit long
+PipedWriter.PipedWriter()	Creates a piped writer that is not yet connected to a piped reader It must be connected to a piped reader either by the receiver or the sender before being used
+File.setReadable(boolean,boolean)	Sets the owner s or everybody s read permission for this abstract pathname
+FileInputStream.FileInputStream(FileDescriptor)	Creates a FileInputStream by using the file descriptor fdObj which represents an existing connection to an actual file in the file system
+File.getName()	Returns the name of the file or directory denoted by this abstract pathname This is just the last name in the pathname s name sequence If the pathname s name sequence is empty then the empty string is returned
+OutputStreamWriter.flush()	Flushes the stream
+File.setExecutable(boolean)	A convenience method to set the owner s execute permission for this abstract pathname
+StreamTokenizer.slashSlashComments(boolean)	Determines whether or not the tokenizer recognizes C style comments
+File.getCanonicalPath()	Returns the canonical pathname string of this abstract pathname
+LineNumberReader.read(char[],int,int)	Read characters into a portion of an array Whenever a line terminator is read the current line number is incremented
+StringReader.markSupported()	Tells whether this stream supports the mark operation which it does
+PushbackInputStream.mark(int)	Marks the current position in this input stream
+StringReader.StringReader(String)	Creates a new string reader
+File.exists()	Tests whether the file or directory denoted by this abstract pathname exists
+ObjectOutputStream.flush()	Flushes the stream This will write any buffered output bytes and flush through to the underlying stream
+Reader.read(CharBuffer)	Attempts to read characters into the specified character buffer
+FilterReader.mark(int)	Marks the present position in the stream
+RandomAccessFile.read(byte[])	Reads up to b length bytes of data from this file into an array of bytes This method blocks until at least one byte of input is available
+ByteArrayOutputStream.ByteArrayOutputStream(int)	Creates a new byte array output stream with a buffer capacity of the specified size in bytes
+File.isFile()	Tests whether the file denoted by this abstract pathname is a normal file A file is normal if it is not a directory and in addition satisfies other system dependent criteria Any non directory file created by a Java application is guaranteed to be a normal file
+ObjectStreamField.toString()	Return a string that describes this field
+FilePermission.equals(Object)	Checks two FilePermission objects for equality Checks that obj is a FilePermission and has the same pathname and actions as this object
+PrintWriter.println(Object)	Prints an Object and then terminates the line This method calls at first String valueOf x to get the printed object s string value then behaves as though it invokes print String and then println
+File.isDirectory()	Tests whether the file denoted by this abstract pathname is a directory
+CharArrayWriter.writeTo(Writer)	Writes the contents of the buffer to another character stream
+DataInputStream.readFloat()	See the general contract of the readFloat method of DataInput
+DataInput.readChar()	Reads two input bytes and returns a char value
+PrintStream.println(boolean)	Prints a boolean and then terminate the line This method behaves as though it invokes print boolean and then println
+ObjectStreamClass.getName()	Returns the name of the class described by this descriptor
+PushbackReader.PushbackReader(Reader,int)	Creates a new pushback reader with a pushback buffer of the given size
+File.getParentFile()	Returns the abstract pathname of this abstract pathname s parent or null if this pathname does not name a parent directory
+ObjectOutputStream.PutField.put(String,double)	Put the value of the named double field into the persistent field
+InputStream.available()	Returns an estimate of the number of bytes that can be read or skipped over from this input stream without blocking by the next invocation of a method for this input stream The next invocation might be the same thread or another thread A single read or skip of this many bytes will not block but may read or skip fewer bytes
+ObjectInputStream.readObject()	Read an object from the ObjectInputStream The class of the object the signature of the class and the values of the non transient and non static fields of the class and all of its supertypes are read
+PipedInputStream.available()	Returns the number of bytes that can be read from this input stream without blocking
+BufferedReader.close()	Description copied from class Reader
+DataOutputStream.writeFloat(float)	Converts the float argument to an int using the floatToIntBits method in class Float and then writes that int value to the underlying output stream as a 4 byte quantity high byte first If no exception is thrown the counter written is incremented by 4
+File.isHidden()	Tests whether the file named by this abstract pathname is a hidden file The exact definition of hidden is system dependent On UNIX systems a file is considered to be hidden if its name begins with a period character On Microsoft Windows systems a file is considered to be hidden if it has been marked as such in the filesystem
+StreamTokenizer.StreamTokenizer(Reader)	Create a tokenizer that parses the given character stream
+File.toURI()	Constructs a file URI that represents this abstract pathname
+LineNumberReader.mark(int)	Mark the present position in the stream Subsequent calls to reset will attempt to reposition the stream to this point and will also reset the line number appropriately
+ObjectInput.readObject()	Read and return an object The class that implements this interface defines where the object is read from
+StreamTokenizer.nextToken()	Parses the next token from the input stream of this tokenizer
+ObjectInputStream.available()	Returns the number of bytes that can be read without blocking
+FileReader.FileReader(String)	Creates a new FileReader given the name of the file to read from
+CharArrayReader.skip(long)	Skips characters Returns the number of characters that were skipped
+CharArrayWriter.write(int)	Writes a character to the buffer
+BufferedWriter.write(char[],int,int)	Writes a portion of an array of characters
+StringWriter.StringWriter()	Create a new string writer using the default initial string buffer size
+ObjectOutputStream.PutField.put(String,byte)	Put the value of the named byte field into the persistent field
+OutputStreamWriter.OutputStreamWriter(OutputStream,String)	Creates an OutputStreamWriter that uses the named charset
+ObjectStreamClass.lookup(Class)	Find the descriptor for a class that can be serialized Creates an ObjectStreamClass instance if one does not exist yet for class Null is returned if the specified class does not implement java io Serializable or java io Externalizable
+DataOutputStream.writeBytes(String)	Writes out the string to the underlying output stream as a sequence of bytes Each character in the string is written out in sequence by discarding its high eight bits If no exception is thrown the counter written is incremented by the length of s
+PushbackReader.read()	Reads a single character
+RandomAccessFile.writeChars(String)	Writes a string to the file as a sequence of characters Each character is written to the data output stream as if by the writeChar method The write starts at the current position of the file pointer
+ObjectOutputStream.write(byte[])	Writes an array of bytes This method will block until the bytes are actually written
+RandomAccessFile.setLength(long)	Sets the length of this file
+SequenceInputStream.read()	Reads the next byte of data from this input stream The byte is returned as an int in the range 0 to 255 If no byte is available because the end of the stream has been reached the value 1 is returned
+CharArrayReader.read()	Reads a single character
+FilterInputStream.close()	Closes this input stream and releases any system resources associated with the stream
+DataOutputStream.DataOutputStream(OutputStream)	Creates a new data output stream to write data to the specified underlying output stream The counter written is set to zero
+Reader.read()	Reads a single character This method will block until a character is available an I O error occurs or the end of the stream is reached
+FileFilter.accept(File)	Tests whether or not the specified abstract pathname should be included in a pathname list
+OutputStreamWriter.getEncoding()	Returns the name of the character encoding being used by this stream
+LineNumberInputStream.LineNumberInputStream(InputStream)	Constructs a newline number input stream that reads its input from the specified input stream
+FileWriter.FileWriter(String,boolean)	Constructs a FileWriter object given a file name with a boolean indicating whether or not to append the data written
+PrintStream.flush()	Flushes the stream This is done by writing any buffered output bytes to the underlying output stream and then flushing that stream
+File.list()	Returns an array of strings naming the files and directories in the directory denoted by this abstract pathname
+PrintWriter.println(long)	Prints a long integer and then terminates the line This method behaves as though it invokes print long and then println
+ByteArrayInputStream.ByteArrayInputStream(byte[])	Creates a ByteArrayInputStream so that it uses buf as its buffer array
+FileInputStream.read(byte[])	Reads up to b length bytes of data from this input stream into an array of bytes This method blocks until some input is available
+ObjectOutputStream.writeFloat(float)	Writes a 32 bit float
+ObjectOutputStream.ObjectOutputStream(OutputStream)	Creates an ObjectOutputStream that writes to the specified OutputStream
+ObjectInput.skip(long)	Skips n bytes of input
+PrintWriter.print(boolean)	Prints a boolean value The string produced by String valueOf boolean is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+DataInputStream.readBoolean()	See the general contract of the readBoolean method of DataInput
+LineNumberReader.LineNumberReader(Reader,int)	Create a new line numbering reader reading characters into a buffer of the given size
+PrintStream.print(char[])	Prints an array of characters The characters are converted into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+ByteArrayInputStream.read()	Reads the next byte of data from this input stream The value byte is returned as an int in the range 0 to 255 If no byte is available because the end of the stream has been reached the value 1 is returned
+FileOutputStream.write(byte[],int,int)	Writes len bytes from the specified byte array starting at offset off to this file output stream
+File.createNewFile()	Atomically creates a new empty file named by this abstract pathname if and only if a file with this name does not yet exist The check for the existence of the file and the creation of the file if it does not exist are a single operation that is atomic with respect to all other filesystem activities that might affect the file
+PrintWriter.append(CharSequence)	Appends the specified character sequence to this writer
+DataInputStream.readLong()	See the general contract of the readLong method of DataInput
+PushbackReader.unread(int)	Pushes back a single character by copying it to the front of the pushback buffer After this method returns the next character to be read will have the value char c
+OutputStream.close()	Closes this output stream and releases any system resources associated with this stream The general contract of close is that it closes the output stream A closed stream cannot perform output operations and cannot be reopened
+PrintWriter.println(boolean)	Prints a boolean value and then terminates the line This method behaves as though it invokes print boolean and then println
+Reader.ready()	Tells whether this stream is ready to be read
+File.setExecutable(boolean,boolean)	Sets the owner s or everybody s execute permission for this abstract pathname
+OutputStream.write(byte[])	Writes b length bytes from the specified byte array to this output stream The general contract for write b is that it should have exactly the same effect as the call write b 0 b length
+BufferedOutputStream.write(byte[],int,int)	Writes len bytes from the specified byte array starting at offset off to this buffered output stream
+DataInput.readFloat()	Reads four input bytes and returns a float value It does this by first constructing an int value in exactly the manner of the readInt method then converting this int value to a float in exactly the manner of the method Float intBitsToFloat
+DataOutputStream.writeByte(int)	Writes out a byte to the underlying output stream as a 1 byte value If no exception is thrown the counter written is incremented by 1
+StringWriter.toString()	Return the buffer s current value as a string
+FilterInputStream.read()	Reads the next byte of data from this input stream The value byte is returned as an int in the range 0 to 255 If no byte is available because the end of the stream has been reached the value 1 is returned This method blocks until input data is available the end of the stream is detected or an exception is thrown
+ObjectOutputStream.writeFields()	Write the buffered fields to the stream
+FilePermission.hashCode()	Returns the hash code value for this object
+StreamTokenizer.lineno()	Return the current line number
+Externalizable.readExternal(ObjectInput)	The object implements the readExternal method to restore its contents by calling the methods of DataInput for primitive types and readObject for objects strings and arrays The readExternal method must read the values in the same sequence and with the same types as were written by writeExternal
+File.createTempFile(String,String,File)	Creates a new empty file in the specified directory using the given prefix and suffix strings to generate its name If this method returns successfully then it is guaranteed that The file denoted by the returned abstract pathname did not exist before this method was invoked and Neither this method nor any of its variants will return the same abstract pathname again in the current invocation of the virtual machine
+DataInput.readUnsignedByte()	Reads one input byte zero extends it to type int and returns the result which is therefore in the range 0 through 255
+ObjectInputStream.read(byte[],int,int)	Reads into an array of bytes This method will block until some input is available Consider using java io DataInputStream readFully to read exactly length bytes
+ObjectOutputStream.writeByte(int)	Writes an 8 bit byte
+PushbackInputStream.markSupported()	Tests if this input stream supports the mark and reset methods which it does not
+File.renameTo(File)	Renames the file denoted by this abstract pathname
+StringReader.read()	Reads a single character
+FileInputStream.available()	Returns an estimate of the number of remaining bytes that can be read or skipped over from this input stream without blocking by the next invocation of a method for this input stream The next invocation might be the same thread or another thread A single read or skip of this many bytes will not block but may read or skip fewer bytes
+BufferedReader.read(char[],int,int)	Reads characters into a portion of an array
+InputStream.read(byte[],int,int)	Reads up to len bytes of data from the input stream into an array of bytes An attempt is made to read as many as len bytes but a smaller number may be read
+File.listRoots()	List the available filesystem roots
+ObjectStreamField.getName()	Get the name of this field
+DataOutput.writeBytes(String)	Writes a string to the output stream
+PrintWriter.println()	Terminates the current line by writing the line separator string The line separator string is defined by the system property line separator and is not necessarily a single newline character n
+LineNumberInputStream.mark(int)	Marks the current position in this input stream A subsequent call to the reset method repositions this stream at the last marked position so that subsequent reads re read the same bytes
+DataInputStream.read(byte[])	Reads some number of bytes from the contained input stream and stores them into the buffer array b The number of bytes actually read is returned as an integer This method blocks until input data is available end of file is detected or an exception is thrown
+PushbackReader.skip(long)	Skips characters This method will block until some characters are available an I O error occurs or the end of the stream is reached
+SerializablePermission.SerializablePermission(String,String)	Creates a new SerializablePermission object with the specified name
+FileInputStream.getFD()	Returns the FileDescriptor object that represents the connection to the actual file in the file system being used by this FileInputStream
+LineNumberInputStream.available()	Returns the number of bytes that can be read from this input stream without blocking
+File.getParent()	Returns the pathname string of this abstract pathname s parent or null if this pathname does not name a parent directory
+PrintWriter.PrintWriter(Writer)	Creates a new PrintWriter without automatic line flushing
+StringReader.read(char[],int,int)	Reads characters into a portion of an array
+File.setReadable(boolean)	A convenience method to set the owner s read permission for this abstract pathname
+ObjectOutputStream.writeLong(long)	Writes a 64 bit long
+PushbackReader.close()	Closes the stream and releases any system resources associated with it Once the stream has been closed further read unread ready or skip invocations will throw an IOException
+RandomAccessFile.readInt()	Reads a signed 32 bit integer from this file This method reads 4 bytes from the file starting at the current file pointer
+File.File(String,String)	Creates a new File instance from a parent pathname string and a child pathname string
+Console.writer()	Retrieves the unique PrintWriter object associated with this console
+PipedReader.PipedReader(PipedWriter)	Creates a PipedReader so that it is connected to the piped writer src Data written to src will then be available as input from this stream
+BufferedOutputStream.write(int)	Writes the specified byte to this buffered output stream
+SequenceInputStream.close()	Closes this input stream and releases any system resources associated with the stream
+CharArrayWriter.append(char)	Appends the specified character to this writer
+PipedInputStream.read(byte[],int,int)	Reads up to len bytes of data from this piped input stream into an array of bytes Less than len bytes will be read if the end of the data stream is reached or if len exceeds the pipe s buffer size
+PrintStream.printf(Locale,String,)	A convenience method to write a formatted string to this output stream using the specified format string and arguments
+ByteArrayOutputStream.writeTo(OutputStream)	Writes the complete contents of this byte array output stream to the specified output stream argument as if by calling the output stream s write method using out write buf 0 count
+FileOutputStream.FileOutputStream(String,boolean)	Creates a file output stream to write to the file with the specified name If the second argument is true then bytes will be written to the end of the file rather than the beginning
+Writer.append(CharSequence,int,int)	Appends a subsequence of the specified character sequence to this writer
+FileOutputStream.FileOutputStream(File,boolean)	Creates a file output stream to write to the file represented by the specified File object If the second argument is true then bytes will be written to the end of the file rather than the beginning A new FileDescriptor object is created to represent this file connection
+LineNumberInputStream.getLineNumber()	Returns the current line number
+DataOutputStream.writeBoolean(boolean)	Writes a boolean to the underlying output stream as a 1 byte value The value true is written out as the value byte 1 the value false is written out as the value byte 0 If no exception is thrown the counter written is incremented by 1
+FileWriter.FileWriter(File,boolean)	Constructs a FileWriter object given a File object If the second argument is true then bytes will be written to the end of the file rather than the beginning
+ObjectOutputStream.defaultWriteObject()	Write the non static and non transient fields of the current class to this stream This may only be called from the writeObject method of the class being serialized It will throw the NotActiveException if it is called otherwise
+File.setWritable(boolean)	A convenience method to set the owner s write permission for this abstract pathname
+PrintStream.format(Locale,String,)	Writes a formatted string to this output stream using the specified format string and arguments
+CharArrayWriter.reset()	Resets the buffer so that you can use it again without throwing away the already allocated buffer
+ObjectInputStream.GetField.get(String,short)	Get the value of the named short field from the persistent field
+File.mkdir()	Creates the directory named by this abstract pathname
+PrintStream.println(float)	Prints a float and then terminate the line This method behaves as though it invokes print float and then println
+FileWriter.FileWriter(File)	Constructs a FileWriter object given a File object
+Console.flush()	Flushes the console and forces any buffered output to be written immediately
+InputStreamReader.read(char[],int,int)	Reads characters into a portion of an array
+File.listFiles(FilenameFilter)	Returns an array of abstract pathnames denoting the files and directories in the directory denoted by this abstract pathname that satisfy the specified filter The behavior of this method is the same as that of the listFiles method except that the pathnames in the returned array must satisfy the filter If the given filter is null then all pathnames are accepted Otherwise a pathname satisfies the filter if and only if the value true results when the FilenameFilter accept File String method of the filter is invoked on this abstract pathname and the name of a file or directory in the directory that it denotes
+File.length()	Returns the length of the file denoted by this abstract pathname
+RandomAccessFile.readFully(byte[],int,int)	Reads exactly len bytes from this file into the byte array starting at the current file pointer This method reads repeatedly from the file until the requested number of bytes are read This method blocks until the requested number of bytes are read the end of the stream is detected or an exception is thrown
+PipedWriter.close()	Closes this piped output stream and releases any system resources associated with this stream This stream may no longer be used for writing characters
+DataInput.readUnsignedShort()	Reads two input bytes and returns an int value in the range 0 through 65535 Let a be the first byte read and b be the second byte The value returned is a 0xff 8 b 0xff This method is suitable for reading the bytes written by the writeShort method of interface DataOutput if the argument to writeShort was intended to be a value in the range 0 through 65535
+FileDescriptor.sync()	Force all system buffers to synchronize with the underlying device This method returns after all modified data and attributes of this FileDescriptor have been written to the relevant device s In particular if this FileDescriptor refers to a physical storage medium such as a file in a file system sync will not return until all in memory modified copies of buffers associated with this FileDescriptor have been written to the physical medium
+PushbackInputStream.read()	Reads the next byte of data from this input stream The value byte is returned as an int in the range 0 to 255 If no byte is available because the end of the stream has been reached the value 1 is returned This method blocks until input data is available the end of the stream is detected or an exception is thrown
+PrintStream.checkError()	Flushes the stream and checks its error state The internal error state is set to true when the underlying output stream throws an IOException other than InterruptedIOException and when the setError method is invoked If an operation on the underlying output stream throws an InterruptedIOException then the PrintStream converts the exception back into an interrupt by doing Thread currentThread interrupt or the equivalent
+StreamTokenizer.StreamTokenizer(InputStream)	Creates a stream tokenizer that parses the specified input stream The stream tokenizer is initialized to the following default state All byte values A through Z a through z and u00A0 through u00FF are considered to be alphabetic
+BufferedReader.read()	Reads a single character
+PipedOutputStream.write(byte[],int,int)	Writes len bytes from the specified byte array starting at offset off to this piped output stream
+ByteArrayInputStream.available()	Returns the number of remaining bytes that can be read or skipped over from this input stream
+PrintWriter.flush()	Flushes the stream
+ObjectStreamField.getType()	Get the type of the field If the type is non primitive and this ObjectStreamField was obtained from a deserialized ObjectStreamClass instance then Object class is returned
+PrintStream.append(CharSequence)	Appends the specified character sequence to this output stream
+Writer.flush()	Flushes the stream If the stream has saved any characters from the various write methods in a buffer write them immediately to their intended destination Then if that destination is another character or byte stream flush it Thus one flush invocation will flush all the buffers in a chain of Writers and OutputStreams
+DataOutputStream.write(int)	Writes the specified byte the low eight bits of the argument b to the underlying output stream If no exception is thrown the counter written is incremented by 1
+BufferedInputStream.BufferedInputStream(InputStream,int)	Creates a BufferedInputStream with the specified buffer size and saves its argument the input stream in for later use An internal buffer array of length size is created and stored in buf
+PrintWriter.PrintWriter(String)	Creates a new PrintWriter without automatic line flushing with the specified file name This convenience constructor creates the necessary intermediate OutputStreamWriter which will encode characters using the default charset for this instance of the Java virtual machine
+PrintStream.printf(String,)	A convenience method to write a formatted string to this output stream using the specified format string and arguments
+PrintStream.PrintStream(OutputStream)	Creates a new print stream This stream will not flush automatically
+BufferedReader.readLine()	Reads a line of text A line is considered to be terminated by any one of a line feed n a carriage return r or a carriage return followed immediately by a linefeed
+Console.readLine(String,)	Provides a formatted prompt then reads a single line of text from the console
+PrintWriter.PrintWriter(OutputStream,boolean)	Creates a new PrintWriter from an existing OutputStream This convenience constructor creates the necessary intermediate OutputStreamWriter which will convert characters into bytes using the default character encoding
+PrintWriter.println(int)	Prints an integer and then terminates the line This method behaves as though it invokes print int and then println
+PrintStream.write(int)	Writes the specified byte to this stream If the byte is a newline and automatic flushing is enabled then the flush method will be invoked
+File.isAbsolute()	Tests whether this abstract pathname is absolute The definition of absolute pathname is system dependent On UNIX systems a pathname is absolute if its prefix is On Microsoft Windows systems a pathname is absolute if its prefix is a drive specifier followed by or if its prefix is
+DataInputStream.readUnsignedByte()	See the general contract of the readUnsignedByte method of DataInput
+SequenceInputStream.SequenceInputStream(InputStream,InputStream)	Initializes a newly created SequenceInputStream by remembering the two arguments which will be read in order first s1 and then s2 to provide the bytes to be read from this SequenceInputStream
+FilterWriter.close()	Description copied from class Writer
+PipedInputStream.PipedInputStream(PipedOutputStream)	Creates a PipedInputStream so that it is connected to the piped output stream src Data bytes written to src will then be available as input from this stream
+ObjectStreamField.getTypeCode()	Returns character encoding of field type The encoding is as follows B byte C char D double F float I int J long L class or interface S short Z boolean array
+PipedWriter.connect(PipedReader)	Connects this piped writer to a receiver If this object is already connected to some other piped reader an IOException is thrown
+StringBufferInputStream.skip(long)	Skips n bytes of input from this input stream Fewer bytes might be skipped if the end of the input stream is reached
+FileInputStream.FileInputStream(File)	Creates a FileInputStream by opening a connection to an actual file the file named by the File object file in the file system
+PrintWriter.PrintWriter(File,String)	Creates a new PrintWriter without automatic line flushing with the specified file and charset This convenience constructor creates the necessary intermediate OutputStreamWriter which will encode characters using the provided charset
+BufferedInputStream.BufferedInputStream(InputStream)	Creates a BufferedInputStream and saves its argument the input stream in for later use An internal buffer array is created and stored in buf
+ObjectStreamField.getOffset()	Offset of field within instance data
+CharArrayWriter.CharArrayWriter()	Creates a new CharArrayWriter
+Console.readPassword(String,)	Provides a formatted prompt then reads a password or passphrase from the console with echoing disabled
+FileInputStream.close()	Closes this file input stream and releases any system resources associated with the stream
+StringWriter.write(String)	Write a string
+RandomAccessFile.readUTF()	Reads in a string from this file The string has been encoded using a modified UTF 8 format
+DataInputStream.readShort()	See the general contract of the readShort method of DataInput
+DataOutputStream.write(byte[],int,int)	Writes len bytes from the specified byte array starting at offset off to the underlying output stream
+ObjectInputStream.GetField.ObjectInputStream.GetField()	
+StreamTokenizer.parseNumbers()	Specifies that numbers should be parsed by this tokenizer The syntax table of this tokenizer is modified so that each of the twelve characters 0 1 2 3 4 5 6 7 8 9 has the numeric attribute
+PrintStream.println(double)	Prints a double and then terminate the line This method behaves as though it invokes print double and then println
+PipedReader.close()	Closes this piped stream and releases any system resources associated with the stream
+BufferedInputStream.available()	Returns an estimate of the number of bytes that can be read or skipped over from this input stream without blocking by the next invocation of a method for this input stream The next invocation might be the same thread or another thread A single read or skip of this many bytes will not block but may read or skip fewer bytes
+ObjectOutputStream.writeBytes(String)	Writes a String as a sequence of bytes
+ByteArrayInputStream.mark(int)	Set the current marked position in the stream
+PrintStream.println(String)	Prints a String and then terminate the line This method behaves as though it invokes print String and then println
+DataOutput.writeBoolean(boolean)	Writes a boolean value to this output stream
+ObjectOutput.write(byte[])	Writes an array of bytes This method will block until the bytes are actually written
+PrintStream.print(long)	Prints a long integer The string produced by String valueOf long is translated into bytes according to the platform s default character encoding and these bytes are written in exactly the manner of the write int method
+FilterReader.close()	Description copied from class Reader
+ObjectOutputStream.write(byte[],int,int)	Writes a sub array of bytes
+PipedOutputStream.flush()	Flushes this output stream and forces any buffered output bytes to be written out
+DataOutput.writeShort(int)	Writes two bytes to the output stream to represent the value of the argument
+PrintWriter.write(String,int,int)	Writes a portion of a string
+ObjectInputStream.GetField.get(String,float)	Get the value of the named float field from the persistent field
+PrintWriter.printf(Locale,String,)	A convenience method to write a formatted string to this writer using the specified format string and arguments If automatic flushing is enabled calls to this method will flush the output buffer
+InputStreamReader.ready()	Tells whether this stream is ready to be read An InputStreamReader is ready if its input buffer is not empty or if bytes are available to be read from the underlying byte stream
+RandomAccessFile.writeFloat(float)	Converts the float argument to an int using the floatToIntBits method in class Float and then writes that int value to the file as a four byte quantity high byte first The write starts at the current position of the file pointer
+File.File(URI)	Creates a new File instance by converting the given file URI into an abstract pathname
+SerializablePermission.SerializablePermission(String)	Creates a new SerializablePermission with the specified name
+BufferedReader.BufferedReader(Reader,int)	Creates a buffering character input stream that uses an input buffer of the specified size
+DataInputStream.skipBytes(int)	See the general contract of the skipBytes method of DataInput
+BufferedOutputStream.flush()	Flushes this buffered output stream This forces any buffered output bytes to be written out to the underlying output stream
+StringWriter.getBuffer()	Return the string buffer itself
+DataOutput.write(byte[])	Writes to the output stream all the bytes in array b
+ByteArrayInputStream.close()	Closing a ByteArrayInputStream has no effect The methods in this class can be called after the stream has been closed without generating an IOException
+RandomAccessFile.writeByte(int)	Writes a byte to the file as a one byte value The write starts at the current position of the file pointer
+CharArrayWriter.append(CharSequence,int,int)	Appends a subsequence of the specified character sequence to this writer
+DataInputStream.readUTF()	See the general contract of the readUTF method of DataInput
+ObjectOutputStream.PutField.put(String,boolean)	Put the value of the named boolean field into the persistent field
+RandomAccessFile.readBoolean()	Reads a boolean from this file This method reads a single byte from the file starting at the current file pointer
+FilterInputStream.available()	Returns an estimate of the number of bytes that can be read or skipped over from this input stream without blocking by the next caller of a method for this input stream The next caller might be the same thread or another thread A single read or skip of this many bytes will not block but may read or skip fewer bytes
+PushbackInputStream.reset()	Repositions this stream to the position at the time the mark method was last called on this input stream
+StringReader.skip(long)	Skips the specified number of characters in the stream Returns the number of characters that were skipped
+FilterInputStream.reset()	Repositions this stream to the position at the time the mark method was last called on this input stream
+LineNumberInputStream.skip(long)	Skips over and discards n bytes of data from this input stream The skip method may for a variety of reasons end up skipping over some smaller number of bytes possibly 0 The actual number of bytes skipped is returned If n is negative no bytes are skipped
+ObjectInputStream.readFloat()	Reads a 32 bit float
+Writer.write(String,int,int)	Writes a portion of a string
+RandomAccessFile.write(byte[])	Writes b length bytes from the specified byte array to this file starting at the current file pointer

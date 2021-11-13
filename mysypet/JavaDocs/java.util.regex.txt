@@ -1,0 +1,54 @@
+MatchResult.group()	Returns the input subsequence matched by the previous match
+Matcher.matches()	Attempts to match the entire region against the pattern
+Pattern.compile(String,int)	Compiles the given regular expression into a pattern with the given flags
+PatternSyntaxException.getIndex()	Retrieves the error index
+Matcher.find()	Attempts to find the next subsequence of the input sequence that matches the pattern
+MatchResult.start()	Returns the start index of the match
+Pattern.matches(String,CharSequence)	Compiles the given regular expression and attempts to match the given input against it
+Matcher.quoteReplacement(String)	Returns a literal replacement String for the specified String
+Matcher.toString()	Returns the string representation of this matcher The string representation of a Matcher contains information that may be useful for debugging The exact format is unspecified
+Matcher.reset(CharSequence)	Resets this matcher with a new input sequence
+Matcher.requireEnd()	Returns true if more input could change a positive match into a negative one
+Matcher.regionStart()	Reports the start index of this matcher s region The searches this matcher conducts are limited to finding matches within regionStart inclusive and regionEnd exclusive
+Matcher.useAnchoringBounds(boolean)	Sets the anchoring of region bounds for this matcher
+Matcher.hitEnd()	Returns true if the end of input was hit by the search engine in the last match operation performed by this matcher
+Matcher.group(String)	Returns the input subsequence captured by the given named capturing group during the previous match operation
+Matcher.lookingAt()	Attempts to match the input sequence starting at the beginning of the region against the pattern
+Matcher.toMatchResult()	Returns the match state of this matcher as a MatchResult
+PatternSyntaxException.getDescription()	Retrieves the description of the error
+Matcher.regionEnd()	Reports the end index exclusive of this matcher s region
+MatchResult.group(int)	Returns the input subsequence captured by the given group during the previous match operation
+MatchResult.start(int)	Returns the start index of the subsequence captured by the given group during this match
+Matcher.replaceFirst(String)	Replaces the first subsequence of the input sequence that matches the pattern with the given replacement string
+Matcher.start()	Returns the start index of the previous match
+Pattern.split(CharSequence)	Splits the given input sequence around matches of this pattern
+Matcher.appendTail(StringBuffer)	Implements a terminal append and replace step
+Matcher.replaceAll(String)	Replaces every subsequence of the input sequence that matches the pattern with the given replacement string
+Pattern.split(CharSequence,int)	Splits the given input sequence around matches of this pattern
+Matcher.hasTransparentBounds()	Queries the transparency of region bounds for this matcher
+Matcher.usePattern(Pattern)	Changes the Pattern that this Matcher uses to find matches with
+Matcher.useTransparentBounds(boolean)	Sets the transparency of region bounds for this matcher
+Matcher.groupCount()	Returns the number of capturing groups in this matcher s pattern
+MatchResult.groupCount()	Returns the number of capturing groups in this match result s pattern
+Pattern.pattern()	Returns the regular expression from which this pattern was compiled
+Pattern.matcher(CharSequence)	Creates a matcher that will match the given input against this pattern
+Matcher.reset()	Resets this matcher
+Pattern.compile(String)	Compiles the given regular expression into a pattern
+Pattern.flags()	Returns this pattern s match flags
+Matcher.hasAnchoringBounds()	Queries the anchoring of region bounds for this matcher
+Pattern.toString()	Returns the string representation of this pattern This is the regular expression from which this pattern was compiled
+PatternSyntaxException.PatternSyntaxException(String,String,int)	Constructs a new instance of this class
+PatternSyntaxException.getMessage()	Returns a multi line string containing the description of the syntax error and its index the erroneous regular expression pattern and a visual indication of the error index within the pattern
+Pattern.quote(String)	Returns a literal pattern String for the specified String
+PatternSyntaxException.getPattern()	Retrieves the erroneous regular expression pattern
+Matcher.group()	Returns the input subsequence matched by the previous match
+Matcher.group(int)	Returns the input subsequence captured by the given group during the previous match operation
+Matcher.pattern()	Returns the pattern that is interpreted by this matcher
+MatchResult.end(int)	Returns the offset after the last character of the subsequence captured by the given group during this match
+Matcher.start(int)	Returns the start index of the subsequence captured by the given group during the previous match operation
+Matcher.end()	Returns the offset after the last character matched
+Matcher.appendReplacement(StringBuffer,String)	Implements a non terminal append and replace step
+MatchResult.end()	Returns the offset after the last character matched
+Matcher.find(int)	Resets this matcher and then attempts to find the next subsequence of the input sequence that matches the pattern starting at the specified index
+Matcher.end(int)	Returns the offset after the last character of the subsequence captured by the given group during the previous match operation
+Matcher.region(int,int)	Sets the limits of this matcher s region The region is the part of the input sequence that will be searched to find a match Invoking this method resets the matcher and then sets the region to start at the index specified by the start parameter and end at the index specified by the end parameter

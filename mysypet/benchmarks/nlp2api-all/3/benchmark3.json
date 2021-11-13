@@ -1,0 +1,22 @@
+{
+  "id": 3,
+  "description": "Determine the roots of a polynomial equation",
+  "methodName": "findRoots",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "org.apache.commons.math3.analysis.polynomials.PolynomialFunction",
+    "double"
+  ],
+  "tgtType": "org.apache.commons.math3.complex.Complex[]",
+  "packages": [
+	  "org.apache.commons.math3"
+  ],
+  "libs": [
+    "./lib/commons-math3-3.5.jar",
+    "./lib/commons-lang-2.6.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/3/TestSource.java"
+}

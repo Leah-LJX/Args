@@ -1,0 +1,28 @@
+XPathExpression.evaluate(Object,QName)	Evaluate the compiled XPath expression in the specified context and return the result as the specified type
+XPathFactory.setXPathVariableResolver(XPathVariableResolver)	Establish a default variable resolver
+XPath.evaluate(String,Object,QName)	Evaluate an XPath expression in the specified context and return the result as the specified type
+XPathExpression.evaluate(InputSource,QName)	Evaluate the compiled XPath expression in the context of the specified InputSource and return the result as the specified type
+XPathFactory.isObjectModelSupported(String)	Is specified object model supported by this XPathFactory
+XPath.evaluate(String,InputSource,QName)	Evaluate an XPath expression in the context of the specified InputSource and return the result as the specified type
+XPath.setNamespaceContext(NamespaceContext)	Establish a namespace context
+XPath.getXPathFunctionResolver()	Return the current function resolver
+XPathFactory.setXPathFunctionResolver(XPathFunctionResolver)	Establish a default function resolver
+XPathFactory.getFeature(String)	Get the state of the named feature
+XPathVariableResolver.resolveVariable(QName)	Find a variable in the set of available variables
+XPathFactory.newInstance(String,String,ClassLoader)	Obtain a new instance of a XPathFactory from a factory class name XPathFactory is returned if specified factory class supports the specified object model
+XPath.evaluate(String,Object)	Evaluate an XPath expression in the specified context and return the result as a String
+XPathFunctionResolver.resolveFunction(QName,int)	Find a function in the set of available functions
+XPathFactory.newXPath()	Return a new XPath using the underlying object model determined when the XPathFactory was instantiated
+XPath.reset()	Reset this XPath to its original configuration
+XPath.setXPathFunctionResolver(XPathFunctionResolver)	Establish a function resolver
+XPathFactory.setFeature(String,boolean)	Set a feature for this XPathFactory and XPaths created by this factory
+XPathFactory.newInstance(String)	Get a new XPathFactory instance using the specified object model
+XPath.getXPathVariableResolver()	Return the current variable resolver
+XPath.getNamespaceContext()	Return the current namespace context
+XPath.compile(String)	Compile an XPath expression for later evaluation
+XPathExpression.evaluate(InputSource)	Evaluate the compiled XPath expression in the context of the specified InputSource and return the result as a String
+XPathExpression.evaluate(Object)	Evaluate the compiled XPath expression in the specified context and return the result as a String
+XPath.setXPathVariableResolver(XPathVariableResolver)	Establish a variable resolver
+XPathFunction.evaluate(List)	Evaluate the function with the specified arguments
+XPath.evaluate(String,InputSource)	Evaluate an XPath expression in the context of the specified InputSource and return the result as a String
+XPathFactory.newInstance()	Get a new XPathFactory instance using the default object model DEFAULT OBJECT MODEL URI the W3C DOM

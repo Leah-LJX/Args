@@ -1,0 +1,21 @@
+{
+  "id": 50,
+  "description": "Parse json to string with JSON",
+  "methodName": "parseJson",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "org.json"
+  ],
+  "libs": [
+    "./lib/json-20180813.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/50/TestSource.java"
+}

@@ -1,0 +1,50 @@
+BigInteger.shiftRight(int)	Returns a BigInteger whose value is this n Sign extension is performed The shift distance n may be negative in which case this method performs a left shift
+BigInteger.longValue()	Converts this BigInteger to a long This conversion is analogous to a narrowing primitive conversion from long to int as defined in section 5 1 3 of The Java Language Specification if this BigInteger is too big to fit in a long only the low order 64 bits are returned
+BigInteger.BigInteger(int,int,Random)	Constructs a randomly generated positive BigInteger that is probably prime with the specified bitLength
+BigInteger.nextProbablePrime()	Returns the first integer greater than this BigInteger that is probably prime The probability that the number returned by this method is composite does not exceed 2 100 This method will never skip over a prime when searching if it returns p there is no prime q such that this q p
+BigInteger.testBit(int)	Returns true if and only if the designated bit is set
+BigInteger.andNot(BigInteger)	Returns a BigInteger whose value is this val This method which is equivalent to and val not is provided as a convenience for masking operations This method returns a negative BigInteger if and only if this is negative and val is positive
+BigInteger.divide(BigInteger)	Returns a BigInteger whose value is this val
+BigInteger.compareTo(BigInteger)	Compares this BigInteger with the specified BigInteger This method is provided in preference to individual methods for each of the six boolean comparison operators The suggested idiom for performing these comparisons is x compareTo y op 0 where op is one of the six comparison operators
+BigInteger.remainder(BigInteger)	Returns a BigInteger whose value is this val
+BigInteger.abs()	Returns a BigInteger whose value is the absolute value of this BigInteger
+BigInteger.hashCode()	Returns the hash code for this BigInteger
+BigInteger.pow(int)	Returns a BigInteger whose value is thisexponent
+BigInteger.intValue()	Converts this BigInteger to an int This conversion is analogous to a narrowing primitive conversion from long to int as defined in section 5 1 3 of The Java Language Specification if this BigInteger is too big to fit in an int only the low order 32 bits are returned
+BigInteger.valueOf(long)	Returns a BigInteger whose value is equal to that of the specified long This static factory method is provided in preference to a long constructor because it allows for reuse of frequently used BigIntegers
+BigInteger.negate()	Returns a BigInteger whose value is this
+BigInteger.BigInteger(String)	Translates the decimal String representation of a BigInteger into a BigInteger The String representation consists of an optional minus sign followed by a sequence of one or more decimal digits The character to digit mapping is provided by Character digit
+BigInteger.clearBit(int)	Returns a BigInteger whose value is equivalent to this BigInteger with the designated bit cleared
+BigInteger.doubleValue()	Converts this BigInteger to a double This conversion is similar to the narrowing primitive conversion from double to float as defined in section 5 1 3 of The Java Language Specification if this BigInteger has too great a magnitude to represent as a double it will be converted to Double NEGATIVE INFINITY or Double POSITIVE INFINITY as appropriate Note that even when the return value is finite this conversion can lose information about the precision of the BigInteger value
+BigInteger.signum()	Returns the signum function of this BigInteger
+BigInteger.toByteArray()	Returns a byte array containing the two s complement representation of this BigInteger The byte array will be in big endian byte order the most significant byte is in the zeroth element The array will contain the minimum number of bytes required to represent this BigInteger including at least one sign bit which is ceil this bitLength 1 8 This representation is compatible with the byte constructor
+BigInteger.and(BigInteger)	Returns a BigInteger whose value is this val This method returns a negative BigInteger if and only if this and val are both negative
+BigInteger.max(BigInteger)	Returns the maximum of this BigInteger and val
+BigInteger.subtract(BigInteger)	Returns a BigInteger whose value is this val
+BigInteger.bitCount()	Returns the number of bits in the two s complement representation of this BigInteger that differ from its sign bit This method is useful when implementing bit vector style sets atop BigIntegers
+BigInteger.probablePrime(int,Random)	Returns a positive BigInteger that is probably prime with the specified bitLength The probability that a BigInteger returned by this method is composite does not exceed 2 100
+BigInteger.equals(Object)	Compares this BigInteger with the specified Object for equality
+BigInteger.flipBit(int)	Returns a BigInteger whose value is equivalent to this BigInteger with the designated bit flipped
+BigInteger.multiply(BigInteger)	Returns a BigInteger whose value is this val
+BigInteger.modInverse(BigInteger)	Returns a BigInteger whose value is this 1 mod m
+BigInteger.modPow(BigInteger,BigInteger)	Returns a BigInteger whose value is thisexponent mod m Unlike pow this method permits negative exponents
+BigInteger.bitLength()	Returns the number of bits in the minimal two s complement representation of this BigInteger excluding a sign bit
+BigInteger.toString()	Returns the decimal String representation of this BigInteger
+BigInteger.floatValue()	Converts this BigInteger to a float This conversion is similar to the narrowing primitive conversion from double to float as defined in section 5 1 3 of The Java Language Specification if this BigInteger has too great a magnitude to represent as a float it will be converted to Float NEGATIVE INFINITY or Float POSITIVE INFINITY as appropriate Note that even when the return value is finite this conversion can lose information about the precision of the BigInteger value
+BigInteger.BigInteger(byte[])	Translates a byte array containing the two s complement binary representation of a BigInteger into a BigInteger The input array is assumed to be in big endian byte order the most significant byte is in the zeroth element
+BigInteger.or(BigInteger)	Returns a BigInteger whose value is this val This method returns a negative BigInteger if and only if either this or val is negative
+BigInteger.BigInteger(int,Random)	Constructs a randomly generated BigInteger uniformly distributed over the range 0 to 2numBits 1 inclusive
+BigInteger.not()	Returns a BigInteger whose value is this This method returns a negative value if and only if this BigInteger is non negative
+BigInteger.setBit(int)	Returns a BigInteger whose value is equivalent to this BigInteger with the designated bit set Computes this 1 n
+BigInteger.getLowestSetBit()	Returns the index of the rightmost lowest order one bit in this BigInteger the number of zero bits to the right of the rightmost one bit Returns 1 if this BigInteger contains no one bits
+BigInteger.divideAndRemainder(BigInteger)	Returns an array of two BigIntegers containing this val followed by this val
+BigInteger.mod(BigInteger)	Returns a BigInteger whose value is this mod m This method differs from remainder in that it always returns a non negative BigInteger
+BigInteger.shiftLeft(int)	Returns a BigInteger whose value is this n
+BigInteger.add(BigInteger)	Returns a BigInteger whose value is this val
+BigInteger.BigInteger(int,byte[])	Translates the sign magnitude representation of a BigInteger into a BigInteger The sign is represented as an integer signum value 1 for negative 0 for zero or 1 for positive The magnitude is a byte array in big endian byte order the most significant byte is in the zeroth element A zero length magnitude array is permissible and will result in a BigInteger value of 0 whether signum is 1 0 or 1
+BigInteger.xor(BigInteger)	Returns a BigInteger whose value is this val This method returns a negative BigInteger if and only if exactly one of this and val are negative
+BigInteger.gcd(BigInteger)	Returns a BigInteger whose value is the greatest common divisor of abs this and abs val Returns 0 if this 0 val 0
+BigInteger.BigInteger(String,int)	Translates the String representation of a BigInteger in the specified radix into a BigInteger The String representation consists of an optional minus or plus sign followed by a sequence of one or more digits in the specified radix The character to digit mapping is provided by Character digit The String may not contain any extraneous characters whitespace for example
+BigInteger.isProbablePrime(int)	Returns true if this BigInteger is probably prime false if it s definitely composite If certainty is 0 true is returned
+BigInteger.toString(int)	Returns the String representation of this BigInteger in the given radix If the radix is outside the range from Character MIN RADIX to Character MAX RADIX inclusive it will default to 10 as is the case for Integer toString The digit to character mapping provided by Character forDigit is used and a minus sign is prepended if appropriate This representation is compatible with the String int constructor
+BigInteger.min(BigInteger)	Returns the minimum of this BigInteger and val

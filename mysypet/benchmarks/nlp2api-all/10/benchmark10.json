@@ -1,0 +1,23 @@
+{
+  "id": 10,
+  "description": "Scale a rectangle by a given ratio",
+  "methodName": "scale",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+    "java.awt.geom.Rectangle2D",
+    "double",
+    "double"
+  ],
+  "tgtType": "java.awt.geom.Rectangle2D",
+  "packages": [
+    "java.awt.geom"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/10/TestSource.java"
+}

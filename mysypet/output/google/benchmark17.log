@@ -1,0 +1,1724 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/17/benchmark17.json
+     [java] Benchmark Id: 17
+     [java] Method name: daysBetween
+     [java] Packages: [org.joda.time]
+     [java] Libraries: [./lib/joda-time-2.8.2.jar]
+     [java] Source type(s): [org.joda.time.DateTime, org.joda.time.DateTime]
+     [java] Target type: int
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: org.joda.convert.ToString is a phantom class!
+     [java] Warning: org.joda.convert.FromString is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 17
+     [java] =========cnt:=========130
+     [java] #Classes: 246
+     [java] #Methods: 4425
+     [java] Soot Time: 2475.148534
+     [java] PetriNet for path length: 1 [places: 59 ; transitions: 207 ; edges: 472]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 59 ; transitions: 207 ; edges: 472]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 59 ; transitions: 207 ; edges: 472]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 59 ; transitions: 207 ; edges: 472]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 5 [places: 59 ; transitions: 207 ; edges: 472]
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 5
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 10
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 15
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 20
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 25
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 30
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 35
+     [java] =========sketch========
+     [java] #Program: 40
+     [java] PetriNet for path length: 6 [places: 59 ; transitions: 207 ; edges: 472]
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 40
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 49
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 54
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 59
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] sypet_clone_void
+     [java] #Program: 64
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] sypet_clone_void
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 69
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 74
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 79
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 84
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 89
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 92
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 95
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 98
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 101
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 104
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 107
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 110
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 113
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 116
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 119
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 122
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 125
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 128
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 131
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 134
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 137
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 140
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 143
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 146
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 149
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 152
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 155
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 158
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 161
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 164
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 167
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 170
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 173
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 176
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 179
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 182
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 185
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 188
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 191
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 194
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 197
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 200
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 203
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 206
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 209
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 212
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 215
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 218
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 221
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 224
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 229
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 234
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 239
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 244
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 249
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 254
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 259
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 264
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 269
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 274
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 279
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 284
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 289
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 294
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 299
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 304
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 309
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 314
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 319
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 324
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 329
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 334
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 339
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 344
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 349
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 354
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 359
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 364
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 369
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 374
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 379
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 384
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 389
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: long getMillis()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime minus(long)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 394
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 397
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 402
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 411
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 420
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 429
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 438
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 447
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 456
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 465
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 470
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 475
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 480
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 485
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 490
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 495
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 498
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 501
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 504
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 507
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 510
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 513
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusDays(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 516
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 519
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 522
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 525
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusMonths(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 528
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 531
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate plusYears(int)>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 534
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfWeek(int)>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 537
+     [java] =========sketch========
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusDays(int)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] #Program: 540
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: long getMillis()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime minus(long)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 543
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: long getMillis()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime minus(long)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 546
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: long getMillis()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime minus(long)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] #Program: 549
+     [java] =========sketch========
+     [java] _upper20
+     [java] <org.joda.time.base.BaseDateTime: long getMillis()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime minus(long)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: int getDayOfYear()>
+     [java] #Program: 552
+     [java] =========sketch========
+     [java] _upper20
+     [java] <org.joda.time.base.BaseDateTime: long getMillis()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime minus(long)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getDayOfWeek()>
+     [java] #Program: 555
+     [java] =========sketch========
+     [java] _upper20
+     [java] <org.joda.time.base.BaseDateTime: long getMillis()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime minus(long)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getMonthOfYear()>
+     [java] #Program: 558
+     [java] =========sketch========
+     [java] _upper20
+     [java] <org.joda.time.base.BaseDateTime: long getMillis()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime minus(long)>
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] <org.joda.time.LocalDate: int getYear()>
+     [java] #Program: 561
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 564
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 569
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 574
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 579
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 584
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 589
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 594
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 599
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 604
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 609
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 614
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 619
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 624
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 629
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 634
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 639
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 644
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 649
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 654
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 659
+     [java] =========sketch========
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 664
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 669
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 674
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 679
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 684
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 689
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 694
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 699
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 704
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 709
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 714
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 719
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 724
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 729
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 734
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 739
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 744
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 749
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 754
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 759
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 764
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 769
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 774
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 779
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 784
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 789
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 794
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 799
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 804
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 809
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 814
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDay()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 819
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 824
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 829
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 834
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 839
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 844
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 849
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType yearMonthDayTime()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 854
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 859
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 864
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 869
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.PeriodType: org.joda.time.PeriodType years()>
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant,org.joda.time.PeriodType)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 874
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 879
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] sypet_clone_void
+     [java] #Program: 884
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 889
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 894
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 899
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] sypet_clone_void
+     [java] #Program: 904
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] sypet_clone_void
+     [java] #Program: 909
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] sypet_clone_void
+     [java] #Program: 914
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] sypet_clone_void
+     [java] #Program: 919
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] sypet_clone_void
+     [java] #Program: 924
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] sypet_clone_void
+     [java] #Program: 929
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 934
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 939
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 944
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 949
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 954
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 959
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 964
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 969
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 974
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 979
+     [java] =========sketch========
+     [java] _upper5
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 984
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 989
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 994
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 999
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 1004
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 1009
+     [java] =========sketch========
+     [java] _upper5
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 1014
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getSeconds()>
+     [java] #Program: 1019
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getDays()>
+     [java] #Program: 1024
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getHours()>
+     [java] #Program: 1029
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMinutes()>
+     [java] #Program: 1034
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getMonths()>
+     [java] #Program: 1039
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getWeeks()>
+     [java] #Program: 1044
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Period: void <init>(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Period: int getYears()>
+     [java] #Program: 1049
+     [java] =========sketch========
+     [java] #Program: 1054
+     [java] PetriNet for path length: 7 [places: 59 ; transitions: 207 ; edges: 472]
+     [java] =========sketch========
+     [java] _upper5
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 1054
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 1059
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 1076
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] _upper3
+     [java] <org.joda.time.DateTime: org.joda.time.LocalDate toLocalDate()>
+     [java] _upper3
+     [java] <org.joda.time.Days: org.joda.time.Days daysBetween(org.joda.time.ReadablePartial,org.joda.time.ReadablePartial)>
+     [java] <org.joda.time.Days: int getDays()>
+     [java] #Program: 1085
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 17
+     [java] Recommend Api Number:130
+     [java] Sketch Generation Time: 898.0792589999999
+     [java] Sketch Completion Time: 500.4737440000006
+     [java] Compilation Time: 6941.551378999998
+     [java] Running Test cases Time: 215.5532459999997
+     [java] Synthesis Time: 1614.1062490000002
+     [java] Total Time: 11030.806161999997
+     [java] Number of components: 6
+     [java] Number of holes: 8
+     [java] Number of completed programs: 1086
+     [java] Number of sketches: 236
+     [java] Solution:
+     [java]  org.joda.time.LocalDate sypet_var1603 = sypet_arg1.toLocalDate();
+     [java]  org.joda.time.ReadablePartial sypet_var1604 = sypet_var1603;
+     [java]  org.joda.time.LocalDate sypet_var1605 = sypet_arg0.toLocalDate();
+     [java]  org.joda.time.ReadablePartial sypet_var1606 = sypet_var1605;
+     [java]  org.joda.time.Days sypet_var1607 = org.joda.time.Days.daysBetween(sypet_var1606,sypet_var1604);
+     [java]  int sypet_var1608 = sypet_var1607.getDays();
+     [java]  return sypet_var1608;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 11 seconds

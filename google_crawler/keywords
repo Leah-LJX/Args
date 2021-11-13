@@ -1,0 +1,22 @@
+31:Load an org.w3c.dom.Document from XML in a string javax.xml.parsers java.lang.String java.io.ByteArrayInputStream
+32:Replace string with regular expression java.util.regex
+33:Distance from a point to a line java.awt.geom
+34:Change time zone of the specified time java.util.TimeZone java.text.DateFormat java.text.SimpleDateFormat
+35:Get the week year of a date java.util.Calendar
+36:Parse json to string with Gson com.google.gson
+37:Get the last day of a week org.joda.time
+38:Get the specified day of next n month org.joda.time
+39:Change date from one format to another java.text.SimpleDateFormat java.text.DateFormat
+40:Convert a timestamp to a normal date format java.util.Date java.text.SimpleDateFormat java.text.DateFormat
+41:Generate a current date stamp in a specified format java.util.Date java.text.SimpleDateFormat java.text.DateFormat
+42:Load XML from string javax.xml.parsers org.w3c.dom org.xml.sax
+43:Read an integer from a file java.util.Scanner java.io.File
+44:Convert hex string to float java.lang.Long java.lang.Float
+45:Determine if the date is several months ago org.joda.time
+46:Cast a string to a sql time java.text.SimpleDateFormat java.text.DateFormat java.util.Date java.sql
+47:Get division result using BigFraction org.apache.commons.math3
+48:Find the matched string with regular expression java.util.regex
+49:Reverse a string and append the result to it java.lang.StringBuffer
+50:Parse json to string with JSON org.json
+51:Read a line from a file java.io
+52:Compare two dates java.util.Date java.text.DateFormat java.text.SimpleDateFormat

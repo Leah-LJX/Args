@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "description": "Compute the inner product between two vectors",
+  "methodName": "getInnerProduct",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "com.opengamma.analytics.math.matrix.DoubleMatrix1D",
+    "com.opengamma.analytics.math.matrix.DoubleMatrix1D"
+  ],
+  "tgtType": "double",
+  "packages": [
+    "com.opengamma.analytics.math",
+    "org.apache.commons.math.linear"
+  ],
+  "libs": [
+    "./lib/commons-math-2.2.jar",
+    "./lib/og-analytics-2.17.0.jar",
+    "./lib/commons-lang-2.6.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/2/TestSource.java"
+}

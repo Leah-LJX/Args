@@ -1,0 +1,68 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/3/benchmark3.json
+     [java] Benchmark Id: 3
+     [java] Method name: findRoots
+     [java] Packages: [org.apache.commons.math3]
+     [java] Libraries: [./lib/commons-math3-3.5.jar, ./lib/commons-lang-2.6.jar]
+     [java] Source type(s): [org.apache.commons.math3.analysis.polynomials.PolynomialFunction, double]
+     [java] Target type: org.apache.commons.math3.complex.Complex[]
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 3
+     [java] =========cnt:=========56
+     [java] =========cnt:=========56
+     [java] #Classes: 1215
+     [java] #Methods: 9578
+     [java] Soot Time: 3809.434997
+     [java] PetriNet for path length: 1 [places: 51 ; transitions: 131 ; edges: 280]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 51 ; transitions: 131 ; edges: 280]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 51 ; transitions: 131 ; edges: 280]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 51 ; transitions: 131 ; edges: 280]
+     [java] =========sketch========
+     [java] <org.apache.commons.math3.analysis.polynomials.PolynomialFunction: double[] getCoefficients()>
+     [java] <org.apache.commons.math3.analysis.solvers.LaguerreSolver: void <init>()>
+     [java] <org.apache.commons.math3.analysis.solvers.LaguerreSolver: org.apache.commons.math3.complex.Complex[] solveAllComplex(double[],double)>
+     [java] #Program: 0
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 3
+     [java] Recommend Api Number:56
+     [java] Sketch Generation Time: 33.823925
+     [java] Sketch Completion Time: 8.327613
+     [java] Compilation Time: 352.57927
+     [java] Running Test cases Time: 12.200179
+     [java] Synthesis Time: 54.351717
+     [java] Total Time: 4216.365984
+     [java] Number of components: 3
+     [java] Number of holes: 5
+     [java] Number of completed programs: 1
+     [java] Number of sketches: 1
+     [java] Solution:
+     [java]  double[] sypet_var3 = sypet_arg0.getCoefficients();
+     [java]  org.apache.commons.math3.analysis.solvers.LaguerreSolver sypet_var4 = new org.apache.commons.math3.analysis.solvers.LaguerreSolver();
+     [java]  org.apache.commons.math3.complex.Complex[] sypet_var5 = sypet_var4.solveAllComplex(sypet_var3,sypet_arg1);
+     [java]  return sypet_var5;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 4 seconds

@@ -1,0 +1,25 @@
+{
+  "id": 34,
+  "description": "Change time zone of the specified time",
+  "methodName": "changeTimeZone",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+    "sypet_arg2"
+  ],
+  "srcTypes": [
+    "java.util.Date",
+    "java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "java.util.TimeZone",
+    "java.text.DateFormat",
+    "java.text.SimpleDateFormat"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/test/34/TestSource.java"
+}

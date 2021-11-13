@@ -1,0 +1,587 @@
+AffineTransform.clone()	Returns a copy of this AffineTransform object
+RectangularShape.getMinY()	Returns the smallest Y coordinate of the framing rectangle of the Shape in double precision
+QuadCurve2D.getCtrlY()	Returns the Y coordinate of the control point in double precision
+CubicCurve2D.getFlatnessSq()	Returns the square of the flatness of this curve The flatness is the maximum distance of a control point from the line connecting the end points
+Rectangle2D.add(double,double)	Adds a point specified by the double precision arguments newx and newy to this Rectangle2D The resulting Rectangle2D is the smallest Rectangle2D that contains both the original Rectangle2D and the specified point
+RectangularShape.getMinX()	Returns the smallest X coordinate of the framing rectangle of the Shape in double precision
+AffineTransform.setToScale(double,double)	Sets this transform to a scaling transformation
+CubicCurve2D.getFlatnessSq(double,double,double,double,double,double,double,double)	Returns the square of the flatness of the cubic curve specified by the indicated control points The flatness is the maximum distance of a control point from the line connecting the end points
+Line2D.setLine(Point2D,Point2D)	Sets the location of the end points of this Line2D to the specified Point2D coordinates
+RoundRectangle2D.Double.Double(double,double,double,double,double,double)	Constructs and initializes a RoundRectangle2D from the specified double coordinates
+Path2D.Float.append(PathIterator,boolean)	Appends the geometry of the specified PathIterator object to the path possibly connecting the new geometry to the existing path segments with a line segment
+Line2D.intersects(double,double,double,double)	Tests if the interior of the Shape intersects the interior of a specified rectangular area
+QuadCurve2D.getFlatness(double,double,double,double,double,double)	Returns the flatness or maximum distance of a control point from the line connecting the end points of the quadratic curve specified by the indicated control points
+Line2D.getX2()	Returns the X coordinate of the end point in double precision
+QuadCurve2D.Float.Float(float,float,float,float,float,float)	Constructs and initializes a QuadCurve2D from the specified float coordinates
+CubicCurve2D.getPathIterator(AffineTransform,double)	Return an iteration object that defines the boundary of the flattened shape
+RoundRectangle2D.Double.getX()	Returns the X coordinate of the upper left corner of the framing rectangle in double precision
+AffineTransform.inverseTransform(Point2D,Point2D)	Inverse transforms the specified ptSrc and stores the result in ptDst
+RoundRectangle2D.Double.setRoundRect(RoundRectangle2D)	Sets this RoundRectangle2D to be the same as the specified RoundRectangle2D
+Area.getPathIterator(AffineTransform,double)	Creates a PathIterator for the flattened outline of this Area object Only uncurved path segments represented by the SEG MOVETO SEG LINETO and SEG CLOSE point types are returned by the iterator This Area object is unchanged
+RectangularShape.getBounds()	Returns an integer Rectangle that completely encloses the Shape Note that there is no guarantee that the returned Rectangle is the smallest bounding box that encloses the Shape only that the Shape lies entirely within the indicated Rectangle The returned Rectangle might also fail to completely enclose the Shape if the Shape overflows the limited range of the integer data type The getBounds2D method generally returns a tighter bounding box due to its greater flexibility in representation
+FlatteningPathIterator.getRecursionLimit()	Returns the recursion limit of this iterator
+Path2D.Float.Float(int)	Constructs a new empty single precision Path2D object with the specified winding rule to control operations that require the interior of the path to be defined
+Ellipse2D.Float.setFrame(double,double,double,double)	Sets the location and size of the framing rectangle of this Shape to the specified rectangular values
+RoundRectangle2D.setRoundRect(RoundRectangle2D)	Sets this RoundRectangle2D to be the same as the specified RoundRectangle2D
+Point2D.Double.getY()	Returns the Y coordinate of this Point2D in double precision
+Ellipse2D.Double.setFrame(double,double,double,double)	Sets the location and size of the framing rectangle of this Shape to the specified rectangular values
+Path2D.createTransformedShape(AffineTransform)	Returns a new Shape representing a transformed version of this Path2D
+CubicCurve2D.setCurve(double,double,double,double,double,double,double,double)	Sets the location of the end points and control points of this curve to the specified double coordinates
+CubicCurve2D.getCtrlP2()	Returns the second control point
+Path2D.intersects(PathIterator,double,double,double,double)	Tests if the interior of the specified PathIterator intersects the interior of a specified set of rectangular coordinates
+AffineTransform.AffineTransform(double[])	Constructs a new AffineTransform from an array of double precision values representing either the 4 non translation entries or the 6 specifiable entries of the 3x3 transformation matrix The values are retrieved from the array as m00 m10 m01 m11 m02 m12
+Arc2D.contains(Rectangle2D)	Determines whether or not the interior of the arc entirely contains the specified rectangle
+CubicCurve2D.Float.getY1()	Returns the Y coordinate of the start point in double precision
+FlatteningPathIterator.getWindingRule()	Returns the winding rule for determining the interior of the path
+AffineTransform.getQuadrantRotateInstance(int)	Returns a transform that rotates coordinates by the specified number of quadrants
+RectangularShape.contains(Point2D)	Tests if a specified Point2D is inside the boundary of the Shape as described by the definition of insideness
+QuadCurve2D.Float.getX2()	Returns the X coordinate of the end point in double precision
+Rectangle2D.intersectsLine(double,double,double,double)	Tests if the specified line segment intersects the interior of this Rectangle2D
+AffineTransform.getRotateInstance(double)	Returns a transform representing a rotation transformation
+AffineTransform.transform(float[],int,float[],int,int)	Transforms an array of floating point coordinates by this transform
+AffineTransform.shear(double,double)	Concatenates this transform with a shearing transformation
+AffineTransform.AffineTransform(AffineTransform)	Constructs a new AffineTransform that is a copy of the specified AffineTransform object
+Area.createTransformedArea(AffineTransform)	Creates a new Area object that contains the same geometry as this Area transformed by the specified AffineTransform This Area object is unchanged
+Ellipse2D.Float.getHeight()	Returns the height of the framing rectangle in double precision
+RectangularShape.getCenterX()	Returns the X coordinate of the center of the framing rectangle of the Shape in double precision
+Dimension2D.clone()	Creates a new object of the same class as this object
+Ellipse2D.equals(Object)	Determines whether or not the specified Object is equal to this Ellipse2D The specified Object is equal to this Ellipse2D if it is an instance of Ellipse2D and if its location and size are the same as this Ellipse2D
+Rectangle2D.add(Point2D)	Adds the Point2D object pt to this Rectangle2D
+CubicCurve2D.Float.setCurve(float,float,float,float,float,float,float,float)	Sets the location of the end points and control points of this curve to the specified float coordinates
+AffineTransform.transform(double[],int,double[],int,int)	Transforms an array of double precision coordinates by this transform
+CubicCurve2D.Float.getCtrlP1()	Returns the first control point
+AffineTransform.scale(double,double)	Concatenates this transform with a scaling transformation
+Path2D.contains(Point2D)	Tests if a specified Point2D is inside the boundary of the Shape as described by the definition of insideness
+Rectangle2D.outcode(double,double)	Determines where the specified coordinates lie with respect to this Rectangle2D
+RoundRectangle2D.Float.getX()	Returns the X coordinate of the upper left corner of the framing rectangle in double precision
+Path2D.contains(PathIterator,Rectangle2D)	Tests if the specified Rectangle2D is entirely inside the closed boundary of the specified PathIterator
+Line2D.Float.getP2()	Returns the end Point2D of this Line2D
+Arc2D.Float.Float(int)	Constructs a new arc initialized to location 0 0 size 0 0 angular extents start 0 extent 0 and the specified closure type
+Area.equals(Area)	Tests whether the geometries of the two Area objects are equal
+Area.subtract(Area)	Subtracts the shape of the specified Area from the shape of this Area
+Line2D.setLine(Line2D)	Sets the location of the end points of this Line2D to the same as those end points of the specified Line2D
+Path2D.Double.Double()	Constructs a new empty double precision Path2D object with a default winding rule of Path2D WIND NON ZERO
+Rectangle2D.intersects(double,double,double,double)	Tests if the interior of the Shape intersects the interior of a specified rectangular area
+CubicCurve2D.Double.Double()	Constructs and initializes a CubicCurve with coordinates 0 0 0 0 0 0 0 0
+FlatteningPathIterator.next()	Moves the iterator to the next segment of the path forwards along the primary direction of traversal as long as there are more points in that direction
+Rectangle2D.equals(Object)	Determines whether or not the specified Object is equal to this Rectangle2D The specified Object is equal to this Rectangle2D if it is an instance of Rectangle2D and if its location and size are the same as this Rectangle2D
+Rectangle2D.intersect(Rectangle2D,Rectangle2D,Rectangle2D)	Intersects the pair of specified source Rectangle2D objects and puts the result into the specified destination Rectangle2D object One of the source rectangles can also be the destination to avoid creating a third Rectangle2D object but in this case the original points of this source rectangle will be overwritten by this method
+Line2D.intersectsLine(double,double,double,double)	Tests if the line segment from x1 y1 to x2 y2 intersects this line segment
+Line2D.ptLineDist(double,double,double,double,double,double)	Returns the distance from a point to a line
+Arc2D.Double.Double(int)	Constructs a new arc initialized to location 0 0 size 0 0 angular extents start 0 extent 0 and the specified closure type
+GeneralPath.GeneralPath(Shape)	Constructs a new GeneralPath object from an arbitrary Shape object
+AffineTransform.getTranslateY()	Returns the Y coordinate of the translation element m12 of the 3x3 affine transformation matrix
+RoundRectangle2D.contains(double,double,double,double)	Tests if the interior of the Shape entirely contains the specified rectangular area All coordinates that lie inside the rectangular area must lie within the Shape for the entire rectangular area to be considered contained within the Shape
+AffineTransform.transform(float[],int,double[],int,int)	Transforms an array of floating point coordinates by this transform and stores the results into an array of doubles
+Rectangle2D.Float.createUnion(Rectangle2D)	Returns a new Rectangle2D object representing the union of this Rectangle2D with the specified Rectangle2D
+Ellipse2D.Double.isEmpty()	Determines whether the RectangularShape is empty
+Line2D.Double.getX2()	Returns the X coordinate of the end point in double precision
+QuadCurve2D.subdivide(double[],int,double[],int,double[],int)	Subdivides the quadratic curve specified by the coordinates stored in the src array at indices srcoff through srcoff 5 and stores the resulting two subdivided curves into the two result arrays at the corresponding indices
+Arc2D.setArcType(int)	Sets the closure type of this arc to the specified value OPEN CHORD or PIE
+Path2D.clone()	Creates a new object of the same class as this object
+AffineTransform.setToRotation(double)	Sets this transform to a rotation transformation
+RoundRectangle2D.equals(Object)	Determines whether or not the specified Object is equal to this RoundRectangle2D The specified Object is equal to this RoundRectangle2D if it is an instance of RoundRectangle2D and if its location size and corner arc dimensions are the same as this RoundRectangle2D
+Rectangle2D.Float.toString()	Returns the String representation of this Rectangle2D
+Path2D.Float.quadTo(double,double,double,double)	Adds a curved segment defined by two new points to the path by drawing a Quadratic curve that intersects both the current coordinates and the specified coordinates x2 y2 using the specified point x1 y1 as a quadratic parametric control point
+CubicCurve2D.subdivide(double[],int,double[],int,double[],int)	Subdivides the cubic curve specified by the coordinates stored in the src array at indices srcoff through srcoff 7 and stores the resulting two subdivided curves into the two result arrays at the corresponding indices
+Path2D.Float.Float()	Constructs a new empty single precision Path2D object with a default winding rule of Path2D WIND NON ZERO
+Arc2D.Float.getX()	Returns the X coordinate of the upper left corner of the framing rectangle in double precision
+Area.exclusiveOr(Area)	Sets the shape of this Area to be the combined area of its current shape and the shape of the specified Area minus their intersection
+Point2D.getY()	Returns the Y coordinate of this Point2D in double precision
+CubicCurve2D.getX1()	Returns the X coordinate of the start point in double precision
+CubicCurve2D.Float.Float()	Constructs and initializes a CubicCurve with coordinates 0 0 0 0 0 0 0 0
+Point2D.Float.Float(float,float)	Constructs and initializes a Point2D with the specified coordinates
+Line2D.ptSegDistSq(Point2D)	Returns the square of the distance from a Point2D to this line segment
+Path2D.contains(double,double)	Tests if the specified coordinates are inside the boundary of the Shape as described by the definition of insideness
+QuadCurve2D.Float.getCtrlX()	Returns the X coordinate of the control point in double precision
+Arc2D.Float.getWidth()	Returns the width of the framing rectangle in double precision
+AffineTransform.rotate(double,double,double)	Concatenates this transform with a transform that rotates coordinates around an anchor point
+Line2D.setLine(double,double,double,double)	Sets the location of the end points of this Line2D to the specified double coordinates
+QuadCurve2D.clone()	Creates a new object of the same class and with the same contents as this object
+GeneralPath.GeneralPath()	Constructs a new empty single precision GeneralPath object with a default winding rule of Path2D WIND NON ZERO
+RoundRectangle2D.contains(double,double)	Tests if the specified coordinates are inside the boundary of the Shape as described by the definition of insideness
+CubicCurve2D.getFlatness(double[],int)	Returns the flatness of the cubic curve specified by the control points stored in the indicated array at the indicated index The flatness is the maximum distance of a control point from the line connecting the end points
+Area.isRectangular()	Tests whether this Area is rectangular in shape
+Ellipse2D.Float.getWidth()	Returns the width of the framing rectangle in double precision
+Path2D.reset()	Resets the path to empty The append position is set back to the beginning of the path and all coordinates and point types are forgotten
+Line2D.ptSegDist(double,double)	Returns the distance from a point to this line segment
+CubicCurve2D.Float.getCtrlY2()	Returns the Y coordinate of the second control point in double precision
+Line2D.Float.getY2()	Returns the Y coordinate of the end point in double precision
+Path2D.getCurrentPoint()	Returns the coordinates most recently added to the end of the path as a Point2D object
+AffineTransform.createInverse()	Returns an AffineTransform object representing the inverse transformation
+AffineTransform.createTransformedShape(Shape)	Returns a new Shape object defined by the geometry of the specified Shape after it has been transformed by this transform
+QuadCurve2D.Double.getP2()	Returns the end point
+Arc2D.setArc(double,double,double,double,double,double,int)	Sets the location size angular extents and closure type of this arc to the specified double values
+Arc2D.Double.getWidth()	Returns the width of the framing rectangle in double precision
+Line2D.ptLineDist(Point2D)	Returns the distance from a Point2D to this line
+Line2D.getPathIterator(AffineTransform)	Returns an iteration object that defines the boundary of this Line2D
+AffineTransform.setToTranslation(double,double)	Sets this transform to a translation transformation
+Line2D.Float.Float()	Constructs and initializes a Line with coordinates 0 0 0 0
+QuadCurve2D.getFlatness(double[],int)	Returns the flatness or maximum distance of a control point from the line connecting the end points of the quadratic curve specified by the control points stored in the indicated array at the indicated index
+Area.contains(double,double,double,double)	Tests if the interior of the Shape entirely contains the specified rectangular area All coordinates that lie inside the rectangular area must lie within the Shape for the entire rectangular area to be considered contained within the Shape
+Arc2D.getEndPoint()	Returns the ending point of the arc This point is the intersection of the ray from the center defined by the starting angle plus the angular extent of the arc and the elliptical boundary of the arc
+CubicCurve2D.contains(Rectangle2D)	Tests if the interior of the Shape entirely contains the specified Rectangle2D
+Arc2D.Double.getY()	Returns the Y coordinate of the upper left corner of the framing rectangle in double precision
+Ellipse2D.Double.getHeight()	Returns the height of the framing rectangle in double precision
+RoundRectangle2D.Float.getWidth()	Returns the width of the framing rectangle in double precision
+CubicCurve2D.Float.getCtrlP2()	Returns the second control point
+Arc2D.Double.getAngleStart()	Returns the starting angle of the arc
+AffineTransform.preConcatenate(AffineTransform)	Concatenates an AffineTransform Tx to this AffineTransform Cx in a less commonly used way such that Tx modifies the coordinate transformation relative to the absolute pixel space rather than relative to the existing user space
+AffineTransform.deltaTransform(double[],int,double[],int,int)	Transforms an array of relative distance vectors by this transform
+Arc2D.getAngleExtent()	Returns the angular extent of the arc
+CubicCurve2D.subdivide(CubicCurve2D,CubicCurve2D)	Subdivides this cubic curve and stores the resulting two subdivided curves into the left and right curve parameters
+AffineTransform.quadrantRotate(int,double,double)	Concatenates this transform with a transform that rotates coordinates by the specified number of quadrants around the specified anchor point
+Ellipse2D.Double.getWidth()	Returns the width of the framing rectangle in double precision
+FlatteningPathIterator.getFlatness()	Returns the flatness of this iterator
+Path2D.Float.Float(int,int)	Constructs a new empty single precision Path2D object with the specified winding rule and the specified initial capacity to store path segments
+Rectangle2D.getPathIterator(AffineTransform)	Returns an iteration object that defines the boundary of this Rectangle2D
+CubicCurve2D.Float.getCtrlX2()	Returns the X coordinate of the second control point in double precision
+Path2D.getBounds()	Returns an integer Rectangle that completely encloses the Shape Note that there is no guarantee that the returned Rectangle is the smallest bounding box that encloses the Shape only that the Shape lies entirely within the indicated Rectangle The returned Rectangle might also fail to completely enclose the Shape if the Shape overflows the limited range of the integer data type The getBounds2D method generally returns a tighter bounding box due to its greater flexibility in representation
+Rectangle2D.Double.getWidth()	Returns the width of the framing rectangle in double precision
+AffineTransform.setTransform(double,double,double,double,double,double)	Sets this transform to the matrix specified by the 6 double precision values
+QuadCurve2D.Float.Float()	Constructs and initializes a QuadCurve2D with coordinates 0 0 0 0 0 0
+RectangularShape.getX()	Returns the X coordinate of the upper left corner of the framing rectangle in double precision
+AffineTransform.getMatrix(double[])	Retrieves the 6 specifiable values in the 3x3 affine transformation matrix and places them into an array of double precisions values
+AffineTransform.deltaTransform(Point2D,Point2D)	Transforms the relative distance vector specified by ptSrc and stores the result in ptDst
+Line2D.ptSegDistSq(double,double)	Returns the square of the distance from a point to this line segment
+Area.getPathIterator(AffineTransform)	Creates a PathIterator for the outline of this Area object This Area object is unchanged
+RectangularShape.contains(Rectangle2D)	Tests if the interior of the Shape entirely contains the specified Rectangle2D
+QuadCurve2D.Double.getX1()	Returns the X coordinate of the start point in double in precision
+Line2D.contains(double,double)	Tests if a specified coordinate is inside the boundary of this Line2D This method is required to implement the Shape interface but in the case of Line2D objects it always returns false since a line contains no area
+CubicCurve2D.setCurve(Point2D[],int)	Sets the location of the end points and control points of this curve to the coordinates of the Point2D objects at the specified offset in the specified array
+PathIterator.getWindingRule()	Returns the winding rule for determining the interior of the path
+QuadCurve2D.getFlatness()	Returns the flatness or maximum distance of a control point from the line connecting the end points of this QuadCurve2D
+CubicCurve2D.Double.getCtrlX2()	Returns the X coordinate of the second control point in double precision
+AffineTransform.setToIdentity()	Resets this transform to the Identity transform
+Line2D.Double.getY2()	Returns the Y coordinate of the end point in double precision
+Ellipse2D.contains(double,double,double,double)	Tests if the interior of the Shape entirely contains the specified rectangular area All coordinates that lie inside the rectangular area must lie within the Shape for the entire rectangular area to be considered contained within the Shape
+RectangularShape.setFrameFromDiagonal(double,double,double,double)	Sets the diagonal of the framing rectangle of this Shape based on the two specified coordinates The framing rectangle is used by the subclasses of RectangularShape to define their geometry
+CubicCurve2D.Float.getP1()	Returns the start point
+Path2D.Double.lineTo(double,double)	Adds a point to the path by drawing a straight line from the current coordinates to the new specified coordinates specified in double precision
+Rectangle2D.setRect(Rectangle2D)	Sets this Rectangle2D to be the same as the specified Rectangle2D
+Path2D.Double.getPathIterator(AffineTransform)	Returns an iterator object that iterates along the Shape boundary and provides access to the geometry of the Shape outline If an optional AffineTransform is specified the coordinates returned in the iteration are transformed accordingly
+AffineTransform.rotate(double,double)	Concatenates this transform with a transform that rotates coordinates according to a rotation vector
+RoundRectangle2D.Double.Double()	Constructs a new RoundRectangle2D initialized to location 0 0 0 0 size 0 0 0 0 and corner arcs of radius 0 0
+RoundRectangle2D.Double.setRoundRect(double,double,double,double,double,double)	Sets the location size and corner radii of this RoundRectangle2D to the specified double values
+Rectangle2D.Double.outcode(double,double)	Determines where the specified coordinates lie with respect to this Rectangle2D
+QuadCurve2D.Double.Double()	Constructs and initializes a QuadCurve2D with coordinates 0 0 0 0 0 0
+Rectangle2D.Float.Float()	Constructs a new Rectangle2D initialized to location 0 0 0 0 and size 0 0 0 0
+QuadCurve2D.getX2()	Returns the X coordinate of the end point in double precision
+RoundRectangle2D.Double.getHeight()	Returns the height of the framing rectangle in double precision
+Arc2D.setAngles(Point2D,Point2D)	Sets the starting angle and angular extent of this arc using two points The first point is used to determine the angle of the starting point relative to the arc s center
+Line2D.getY1()	Returns the Y coordinate of the start point in double precision
+Arc2D.Double.setAngleStart(double)	Sets the starting angle of this arc to the specified double value
+AffineTransform.invert()	Sets this transform to the inverse of itself
+RectangularShape.getPathIterator(AffineTransform,double)	Returns an iterator object that iterates along the Shape object s boundary and provides access to a flattened view of the outline of the Shape object s geometry
+RectangularShape.getCenterY()	Returns the Y coordinate of the center of the framing rectangle of the Shape in double precision
+RectangularShape.getMaxX()	Returns the largest X coordinate of the framing rectangle of the Shape in double precision
+FlatteningPathIterator.FlatteningPathIterator(PathIterator,double)	Constructs a new FlatteningPathIterator object that flattens a path as it iterates over it The iterator does not subdivide any curve read from the source iterator to more than 10 levels of subdivision which yields a maximum of 1024 line segments per curve
+Point2D.Double.Double(double,double)	Constructs and initializes a Point2D with the specified coordinates
+QuadCurve2D.solveQuadratic(double[])	Solves the quadratic whose coefficients are in the eqn array and places the non complex roots back into the same array returning the number of roots The quadratic solved is represented by the equation eqn C B A ax 2 bx c 0 A return value of 1 is used to distinguish a constant equation which might be always 0 or never 0 from an equation that has no zeroes
+RoundRectangle2D.Float.setRoundRect(float,float,float,float,float,float)	Sets the location size and corner radii of this RoundRectangle2D to the specified float values
+PathIterator.currentSegment(double[])	Returns the coordinates and type of the current path segment in the iteration
+Rectangle2D.Double.getY()	Returns the Y coordinate of the upper left corner of the framing rectangle in double precision
+QuadCurve2D.contains(Point2D)	Tests if a specified Point2D is inside the boundary of the Shape as described by the definition of insideness
+Path2D.Float.Float(Shape)	Constructs a new single precision Path2D object from an arbitrary Shape object
+AffineTransform.AffineTransform(float[])	Constructs a new AffineTransform from an array of floating point values representing either the 4 non translation entries or the 6 specifiable entries of the 3x3 transformation matrix The values are retrieved from the array as m00 m10 m01 m11 m02 m12
+RectangularShape.setFrame(Point2D,Dimension2D)	Sets the location and size of the framing rectangle of this Shape to the specified Point2D and Dimension2D respectively The framing rectangle is used by the subclasses of RectangularShape to define their geometry
+Path2D.contains(PathIterator,Point2D)	Tests if the specified Point2D is inside the closed boundary of the specified PathIterator
+Path2D.Double.Double(Shape)	Constructs a new double precision Path2D object from an arbitrary Shape object
+QuadCurve2D.intersects(double,double,double,double)	Tests if the interior of the Shape intersects the interior of a specified rectangular area
+Point2D.setLocation(double,double)	Sets the location of this Point2D to the specified double coordinates
+RoundRectangle2D.Float.getHeight()	Returns the height of the framing rectangle in double precision
+Line2D.getBounds()	Returns an integer Rectangle that completely encloses the Shape Note that there is no guarantee that the returned Rectangle is the smallest bounding box that encloses the Shape only that the Shape lies entirely within the indicated Rectangle The returned Rectangle might also fail to completely enclose the Shape if the Shape overflows the limited range of the integer data type The getBounds2D method generally returns a tighter bounding box due to its greater flexibility in representation
+RoundRectangle2D.Float.Float()	Constructs a new RoundRectangle2D initialized to location 0 0 0 0 size 0 0 0 0 and corner arcs of radius 0 0
+Line2D.getP2()	Returns the end Point2D of this Line2D
+RoundRectangle2D.Double.isEmpty()	Determines whether the RectangularShape is empty
+QuadCurve2D.Double.getY2()	Returns the Y coordinate of the end point in double precision
+Arc2D.Double.getX()	Returns the X coordinate of the upper left corner of the framing rectangle in double precision
+Rectangle2D.setRect(double,double,double,double)	Sets the location and size of this Rectangle2D to the specified double values
+RectangularShape.clone()	Creates a new object of the same class and with the same contents as this object
+Path2D.closePath()	Closes the current subpath by drawing a straight line back to the coordinates of the last moveTo If the path is already closed then this method has no effect
+RoundRectangle2D.getPathIterator(AffineTransform)	Returns an iteration object that defines the boundary of this RoundRectangle2D
+Arc2D.contains(double,double)	Determines whether or not the specified point is inside the boundary of the arc
+Line2D.Double.Double()	Constructs and initializes a Line with coordinates 0 0 0 0
+CubicCurve2D.getCtrlY2()	Returns the Y coordinate of the second control point in double precision
+Arc2D.Double.Double(Rectangle2D,double,double,int)	Constructs a new arc initialized to the specified location size angular extents and closure type
+Area.contains(double,double)	Tests if the specified coordinates are inside the boundary of the Shape as described by the definition of insideness
+Point2D.distance(double,double,double,double)	Returns the distance between two points
+QuadCurve2D.Float.getP2()	Returns the end point
+Area.intersects(double,double,double,double)	Tests if the interior of the Shape intersects the interior of a specified rectangular area
+PathIterator.isDone()	Tests if the iteration is complete
+Rectangle2D.Double.setRect(Rectangle2D)	Sets this Rectangle2D to be the same as the specified Rectangle2D
+Line2D.Float.getX2()	Returns the X coordinate of the end point in double precision
+Arc2D.containsAngle(double)	Determines whether or not the specified angle is within the angular extents of the arc
+Point2D.equals(Object)	Determines whether or not two points are equal Two instances of Point2D are equal if the values of their x and y member fields representing their position in the coordinate space are the same
+RoundRectangle2D.Double.getWidth()	Returns the width of the framing rectangle in double precision
+Rectangle2D.Double.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+AffineTransform.getShearY()	Returns the Y coordinate shearing element m10 of the 3x3 affine transformation matrix
+Point2D.setLocation(Point2D)	Sets the location of this Point2D to the same coordinates as the specified Point2D object
+Rectangle2D.Float.isEmpty()	Determines whether the RectangularShape is empty
+CubicCurve2D.Double.getX2()	Returns the X coordinate of the end point in double precision
+Point2D.clone()	Creates a new object of the same class and with the same contents as this object
+Ellipse2D.Double.Double(double,double,double,double)	Constructs and initializes an Ellipse2D from the specified coordinates
+Ellipse2D.Float.Float()	Constructs a new Ellipse2D initialized to location 0 0 and size 0 0
+Ellipse2D.Float.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+QuadCurve2D.getP1()	Returns the start point
+Rectangle2D.Float.createIntersection(Rectangle2D)	Returns a new Rectangle2D object representing the intersection of this Rectangle2D with the specified Rectangle2D
+QuadCurve2D.getP2()	Returns the end point
+Point2D.Float.toString()	Returns a String that represents the value of this Point2D
+Rectangle2D.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+QuadCurve2D.Float.getY2()	Returns the Y coordinate of the end point in double precision
+RoundRectangle2D.Float.isEmpty()	Determines whether the RectangularShape is empty
+Line2D.getPathIterator(AffineTransform,double)	Returns an iteration object that defines the boundary of this flattened Line2D
+Point2D.distanceSq(Point2D)	Returns the square of the distance from this Point2D to a specified Point2D
+Area.contains(Point2D)	Tests if a specified Point2D is inside the boundary of the Shape as described by the definition of insideness
+AffineTransform.getRotateInstance(double,double)	Returns a transform that rotates coordinates according to a rotation vector
+Ellipse2D.Float.isEmpty()	Determines whether the RectangularShape is empty
+RoundRectangle2D.Float.setRoundRect(double,double,double,double,double,double)	Sets the location size and corner radii of this RoundRectangle2D to the specified double values
+RectangularShape.setFrame(double,double,double,double)	Sets the location and size of the framing rectangle of this Shape to the specified rectangular values
+AffineTransform.AffineTransform(double,double,double,double,double,double)	Constructs a new AffineTransform from 6 double precision values representing the 6 specifiable entries of the 3x3 transformation matrix
+Rectangle2D.Float.setRect(float,float,float,float)	Sets the location and size of this Rectangle2D to the specified float values
+CubicCurve2D.Float.getCtrlY1()	Returns the Y coordinate of the first control point in double precision
+RoundRectangle2D.Float.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+RoundRectangle2D.Float.getY()	Returns the Y coordinate of the upper left corner of the framing rectangle in double precision
+CubicCurve2D.Float.getY2()	Returns the Y coordinate of the end point in double precision
+CubicCurve2D.getY1()	Returns the Y coordinate of the start point in double precision
+Area.intersect(Area)	Sets the shape of this Area to the intersection of its current shape and the shape of the specified Area
+IllegalPathStateException.IllegalPathStateException(String)	Constructs an IllegalPathStateException with the specified detail message
+PathIterator.currentSegment(float[])	Returns the coordinates and type of the current path segment in the iteration
+Rectangle2D.setFrame(double,double,double,double)	Sets the location and size of the outer bounds of this Rectangle2D to the specified rectangular values
+Path2D.Float.curveTo(double,double,double,double,double,double)	Adds a curved segment defined by three new points to the path by drawing a B zier curve that intersects both the current coordinates and the specified coordinates x3 y3 using the specified points x1 y1 and x2 y2 as B zier control points
+Area.isEmpty()	Tests whether this Area object encloses any area
+Point2D.getX()	Returns the X coordinate of this Point2D in double precision
+Line2D.Float.Float(Point2D,Point2D)	Constructs and initializes a Line2D from the specified Point2D objects
+Line2D.relativeCCW(double,double,double,double,double,double)	Returns an indicator of where the specified point px py lies with respect to the line segment from x1 y1 to x2 y2
+QuadCurve2D.Float.getCtrlPt()	Returns the control point
+AffineTransform.setToQuadrantRotation(int)	Sets this transform to a rotation transformation that rotates coordinates by the specified number of quadrants
+Path2D.Double.Double(int,int)	Constructs a new empty double precision Path2D object with the specified winding rule and the specified initial capacity to store path segments
+Path2D.Float.lineTo(double,double)	Adds a point to the path by drawing a straight line from the current coordinates to the new specified coordinates specified in double precision
+Path2D.Double.quadTo(double,double,double,double)	Adds a curved segment defined by two new points to the path by drawing a Quadratic curve that intersects both the current coordinates and the specified coordinates x2 y2 using the specified point x1 y1 as a quadratic parametric control point
+Path2D.curveTo(double,double,double,double,double,double)	Adds a curved segment defined by three new points to the path by drawing a B zier curve that intersects both the current coordinates and the specified coordinates x3 y3 using the specified points x1 y1 and x2 y2 as B zier control points
+Arc2D.equals(Object)	Determines whether or not the specified Object is equal to this Arc2D The specified Object is equal to this Arc2D if it is an instance of Arc2D and if its location size arc extents and type are the same as this Arc2D
+Line2D.intersects(Rectangle2D)	Tests if the interior of the Shape intersects the interior of a specified Rectangle2D
+Arc2D.getPathIterator(AffineTransform)	Returns an iteration object that defines the boundary of the arc
+Dimension2D.setSize(double,double)	Sets the size of this Dimension object to the specified width and height
+CubicCurve2D.setCurve(CubicCurve2D)	Sets the location of the end points and control points of this curve to the same as those in the specified CubicCurve2D
+Path2D.Float.lineTo(float,float)	Adds a point to the path by drawing a straight line from the current coordinates to the new specified coordinates specified in float precision
+Arc2D.Double.Double()	Constructs a new OPEN arc initialized to location 0 0 size 0 0 angular extents start 0 extent 0
+Arc2D.Float.isEmpty()	Determines whether the RectangularShape is empty
+RectangularShape.getFrame()	Returns the framing Rectangle2D that defines the overall shape of this object
+Arc2D.contains(double,double,double,double)	Determines whether or not the interior of the arc entirely contains the specified rectangle
+QuadCurve2D.Double.getP1()	Returns the start point
+Path2D.Float.Float(Shape,AffineTransform)	Constructs a new single precision Path2D object from an arbitrary Shape object transformed by an AffineTransform object
+AffineTransform.hashCode()	Returns the hashcode for this transform
+Area.isPolygonal()	Tests whether this Area consists entirely of straight edged polygonal geometry
+AffineTransform.inverseTransform(double[],int,double[],int,int)	Inverse transforms an array of double precision coordinates by this transform
+RoundRectangle2D.Float.setRoundRect(RoundRectangle2D)	Sets this RoundRectangle2D to be the same as the specified RoundRectangle2D
+QuadCurve2D.Float.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+PathIterator.next()	Moves the iterator to the next segment of the path forwards along the primary direction of traversal as long as there are more points in that direction
+Line2D.clone()	Creates a new object of the same class as this object
+Line2D.Float.setLine(double,double,double,double)	Sets the location of the end points of this Line2D to the specified double coordinates
+Line2D.Double.getP2()	Returns the end Point2D of this Line2D
+Arc2D.getStartPoint()	Returns the starting point of the arc This point is the intersection of the ray from the center defined by the starting angle and the elliptical boundary of the arc
+Arc2D.Float.Float()	Constructs a new OPEN arc initialized to location 0 0 size 0 0 angular extents start 0 extent 0
+AffineTransform.toString()	Returns a String that represents the value of this Object
+AffineTransform.concatenate(AffineTransform)	Concatenates an AffineTransform Tx to this AffineTransform Cx in the most commonly useful way to provide a new user space that is mapped to the former user space by Tx
+AffineTransform.getRotateInstance(double,double,double,double)	Returns a transform that rotates coordinates around an anchor point according to a rotation vector
+Ellipse2D.Float.Float(float,float,float,float)	Constructs and initializes an Ellipse2D from the specified coordinates
+AffineTransform.getDeterminant()	Returns the determinant of the matrix representation of the transform
+FlatteningPathIterator.currentSegment(double[])	Returns the coordinates and type of the current path segment in the iteration
+Point2D.Float.getY()	Returns the Y coordinate of this Point2D in double precision
+Area.intersects(Rectangle2D)	Tests if the interior of the Shape intersects the interior of a specified Rectangle2D
+CubicCurve2D.getCtrlY1()	Returns the Y coordinate of the first control point in double precision
+QuadCurve2D.Float.getCtrlY()	Returns the Y coordinate of the control point in double precision
+QuadCurve2D.contains(double,double,double,double)	Tests if the interior of the Shape entirely contains the specified rectangular area All coordinates that lie inside the rectangular area must lie within the Shape for the entire rectangular area to be considered contained within the Shape
+Dimension2D.setSize(Dimension2D)	Sets the size of this Dimension2D object to match the specified size
+Path2D.Double.moveTo(double,double)	Adds a point to the path by moving to the specified coordinates specified in double precision
+AffineTransform.getQuadrantRotateInstance(int,double,double)	Returns a transform that rotates coordinates by the specified number of quadrants around the specified anchor point
+RectangularShape.isEmpty()	Determines whether the RectangularShape is empty
+CubicCurve2D.Double.getCtrlX1()	Returns the X coordinate of the first control point in double precision
+AffineTransform.transform(double[],int,float[],int,int)	Transforms an array of double precision coordinates by this transform and stores the results into an array of floats
+Line2D.ptSegDist(double,double,double,double,double,double)	Returns the distance from a point to a line segment
+QuadCurve2D.getPathIterator(AffineTransform,double)	Returns an iteration object that defines the boundary of the flattened shape of this QuadCurve2D
+Arc2D.setArc(Rectangle2D,double,double,int)	Sets the location size angular extents and closure type of this arc to the specified values
+Line2D.Float.setLine(float,float,float,float)	Sets the location of the end points of this Line2D to the specified float coordinates
+Arc2D.Double.setArc(double,double,double,double,double,double,int)	Sets the location size angular extents and closure type of this arc to the specified double values
+FlatteningPathIterator.currentSegment(float[])	Returns the coordinates and type of the current path segment in the iteration
+Rectangle2D.contains(double,double,double,double)	Tests if the interior of the Shape entirely contains the specified rectangular area All coordinates that lie inside the rectangular area must lie within the Shape for the entire rectangular area to be considered contained within the Shape
+QuadCurve2D.setCurve(Point2D[],int)	Sets the location of the end points and control points of this QuadCurve2D to the coordinates of the Point2D objects at the specified offset in the specified array
+Path2D.moveTo(double,double)	Adds a point to the path by moving to the specified coordinates specified in double precision
+FlatteningPathIterator.isDone()	Tests if the iteration is complete
+Ellipse2D.hashCode()	Returns the hashcode for this Ellipse2D
+Path2D.quadTo(double,double,double,double)	Adds a curved segment defined by two new points to the path by drawing a Quadratic curve that intersects both the current coordinates and the specified coordinates x2 y2 using the specified point x1 y1 as a quadratic parametric control point
+GeneralPath.GeneralPath(int,int)	Constructs a new GeneralPath object with the specified winding rule and the specified initial capacity to store path coordinates
+Rectangle2D.Double.toString()	Returns the String representation of this Rectangle2D
+RectangularShape.getY()	Returns the Y coordinate of the upper left corner of the framing rectangle in double precision
+Line2D.contains(Rectangle2D)	Tests if the interior of this Line2D entirely contains the specified Rectangle2D
+AffineTransform.getScaleX()	Returns the X coordinate scaling element m00 of the 3x3 affine transformation matrix
+CubicCurve2D.Double.getX1()	Returns the X coordinate of the start point in double precision
+QuadCurve2D.Float.setCurve(float,float,float,float,float,float)	Sets the location of the end points and control point of this curve to the specified float coordinates
+Arc2D.Double.Double(double,double,double,double,double,double,int)	Constructs a new arc initialized to the specified location size angular extents and closure type
+Area.getBounds2D()	Returns a high precision bounding Rectangle2D that completely encloses this Area
+CubicCurve2D.getFlatness(double,double,double,double,double,double,double,double)	Returns the flatness of the cubic curve specified by the indicated control points The flatness is the maximum distance of a control point from the line connecting the end points
+QuadCurve2D.Double.getCtrlPt()	Returns the control point
+Rectangle2D.getPathIterator(AffineTransform,double)	Returns an iteration object that defines the boundary of the flattened Rectangle2D Since rectangles are already flat the flatness parameter is ignored
+AffineTransform.@ConstructorProperties(value={"scaleX","shearY","shearX","scaleY","translateX","translateY"}),float,float,float,float,float)	Constructs a new AffineTransform from 6 floating point values representing the 6 specifiable entries of the 3x3 transformation matrix
+Line2D.ptLineDistSq(Point2D)	Returns the square of the distance from a specified Point2D to this line
+Rectangle2D.Double.getX()	Returns the X coordinate of the upper left corner of the framing rectangle in double precision
+Path2D.intersects(PathIterator,Rectangle2D)	Tests if the interior of the specified PathIterator intersects the interior of a specified Rectangle2D
+Ellipse2D.Float.setFrame(float,float,float,float)	Sets the location and size of the framing rectangle of this Shape to the specified rectangular values
+Rectangle2D.Float.getWidth()	Returns the width of the framing rectangle in double precision
+Ellipse2D.Double.getX()	Returns the X coordinate of the upper left corner of the framing rectangle in double precision
+Rectangle2D.Double.getHeight()	Returns the height of the framing rectangle in double precision
+Path2D.Float.getPathIterator(AffineTransform)	Returns an iterator object that iterates along the Shape boundary and provides access to the geometry of the Shape outline If an optional AffineTransform is specified the coordinates returned in the iteration are transformed accordingly
+CubicCurve2D.getP2()	Returns the end point
+Arc2D.Float.setAngleExtent(double)	Sets the angular extent of this arc to the specified double value
+QuadCurve2D.getY2()	Returns the Y coordinate of the end point in double precision
+CubicCurve2D.setCurve(double[],int)	Sets the location of the end points and control points of this curve to the double coordinates at the specified offset in the specified array
+Ellipse2D.getPathIterator(AffineTransform)	Returns an iteration object that defines the boundary of this Ellipse2D
+Arc2D.intersects(double,double,double,double)	Determines whether or not the interior of the arc intersects the interior of the specified rectangle
+CubicCurve2D.Float.setCurve(double,double,double,double,double,double,double,double)	Sets the location of the end points and control points of this curve to the specified double coordinates
+CubicCurve2D.Float.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+Arc2D.Double.getHeight()	Returns the height of the framing rectangle in double precision
+QuadCurve2D.Double.getY1()	Returns the Y coordinate of the start point in double precision
+Path2D.setWindingRule(int)	Sets the winding rule for this path to the specified value
+RoundRectangle2D.getArcWidth()	Gets the width of the arc that rounds off the corners
+Line2D.Double.getY1()	Returns the Y coordinate of the start point in double precision
+Path2D.Double.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+IllegalPathStateException.IllegalPathStateException()	Constructs an IllegalPathStateException with no detail message
+Path2D.Float.quadTo(float,float,float,float)	Adds a curved segment defined by two new points to the path by drawing a Quadratic curve that intersects both the current coordinates and the specified coordinates x2 y2 using the specified point x1 y1 as a quadratic parametric control point
+Line2D.Float.getP1()	Returns the start Point2D of this Line2D
+CubicCurve2D.Float.getP2()	Returns the end point
+Path2D.Float.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+RectangularShape.setFrameFromDiagonal(Point2D,Point2D)	Sets the diagonal of the framing rectangle of this Shape based on two specified Point2D objects The framing rectangle is used by the subclasses of RectangularShape to define their geometry
+Dimension2D.getHeight()	Returns the height of this Dimension in double precision
+QuadCurve2D.getFlatnessSq()	Returns the square of the flatness or maximum distance of a control point from the line connecting the end points of this QuadCurve2D
+QuadCurve2D.Double.setCurve(double,double,double,double,double,double)	Sets the location of the end points and control point of this curve to the specified double coordinates
+RoundRectangle2D.getArcHeight()	Gets the height of the arc that rounds off the corners
+CubicCurve2D.getY2()	Returns the Y coordinate of the end point in double precision
+Rectangle2D.Float.getHeight()	Returns the height of the framing rectangle in double precision
+Line2D.getX1()	Returns the X coordinate of the start point in double precision
+Rectangle2D.createIntersection(Rectangle2D)	Returns a new Rectangle2D object representing the intersection of this Rectangle2D with the specified Rectangle2D
+Arc2D.setAngleStart(Point2D)	Sets the starting angle of this arc to the angle that the specified point defines relative to the center of this arc
+Arc2D.Float.setAngleStart(double)	Sets the starting angle of this arc to the specified double value
+Arc2D.getBounds2D()	Returns the high precision framing rectangle of the arc The framing rectangle contains only the part of this Arc2D that is in between the starting and ending angles and contains the pie wedge if this Arc2D has a PIE closure type
+Line2D.Float.Float(float,float,float,float)	Constructs and initializes a Line from the specified coordinates
+RoundRectangle2D.hashCode()	Returns the hashcode for this RoundRectangle2D
+RoundRectangle2D.Float.getArcHeight()	Gets the height of the arc that rounds off the corners
+AffineTransform.translate(double,double)	Concatenates this transform with a translation transformation
+CubicCurve2D.contains(double,double,double,double)	Tests if the interior of the Shape entirely contains the specified rectangular area All coordinates that lie inside the rectangular area must lie within the Shape for the entire rectangular area to be considered contained within the Shape
+Rectangle2D.Double.isEmpty()	Determines whether the RectangularShape is empty
+Arc2D.Double.setAngleExtent(double)	Sets the angular extent of this arc to the specified double value
+QuadCurve2D.subdivide(QuadCurve2D,QuadCurve2D)	Subdivides this QuadCurve2D and stores the resulting two subdivided curves into the left and right curve parameters
+CubicCurve2D.Double.getCtrlP2()	Returns the second control point
+CubicCurve2D.Float.getCtrlX1()	Returns the X coordinate of the first control point in double precision
+Ellipse2D.Float.getY()	Returns the Y coordinate of the upper left corner of the framing rectangle in double precision
+Line2D.Double.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+CubicCurve2D.Float.Float(float,float,float,float,float,float,float,float)	Constructs and initializes a CubicCurve2D from the specified float coordinates
+Path2D.Float.clone()	Creates a new object of the same class as this object
+AffineTransform.equals(Object)	Returns true if this AffineTransform represents the same affine coordinate transform as the specified argument
+RectangularShape.getMaxY()	Returns the largest Y coordinate of the framing rectangle of the Shape in double precision
+CubicCurve2D.subdivide(CubicCurve2D,CubicCurve2D,CubicCurve2D)	Subdivides the cubic curve specified by the src parameter and stores the resulting two subdivided curves into the left and right curve parameters
+QuadCurve2D.Float.getX1()	Returns the X coordinate of the start point in double in precision
+Point2D.Float.Float()	Constructs and initializes a Point2D with coordinates 0 0
+AffineTransform.setToRotation(double,double,double,double)	Sets this transform to a rotation transformation that rotates coordinates around an anchor point according to a rotation vector
+Area.contains(Rectangle2D)	Tests if the interior of the Shape entirely contains the specified Rectangle2D
+Ellipse2D.Double.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+Rectangle2D.Float.getX()	Returns the X coordinate of the upper left corner of the framing rectangle in double precision
+Arc2D.Double.isEmpty()	Determines whether the RectangularShape is empty
+Path2D.Double.Double(Shape,AffineTransform)	Constructs a new double precision Path2D object from an arbitrary Shape object transformed by an AffineTransform object
+Line2D.Double.setLine(double,double,double,double)	Sets the location of the end points of this Line2D to the specified double coordinates
+AffineTransform.getShearX()	Returns the X coordinate shearing element m01 of the 3x3 affine transformation matrix
+Path2D.Float.curveTo(float,float,float,float,float,float)	Adds a curved segment defined by three new points to the path by drawing a B zier curve that intersects both the current coordinates and the specified coordinates x3 y3 using the specified points x1 y1 and x2 y2 as B zier control points
+RectangularShape.intersects(Rectangle2D)	Tests if the interior of the Shape intersects the interior of a specified Rectangle2D
+Arc2D.setAngleStart(double)	Sets the starting angle of this arc to the specified double value
+Rectangle2D.Float.setRect(Rectangle2D)	Sets this Rectangle2D to be the same as the specified Rectangle2D
+Line2D.Double.Double(Point2D,Point2D)	Constructs and initializes a Line2D from the specified Point2D objects
+Line2D.contains(double,double,double,double)	Tests if the interior of this Line2D entirely contains the specified set of rectangular coordinates
+Path2D.Float.moveTo(double,double)	Adds a point to the path by moving to the specified coordinates specified in double precision
+Line2D.Float.getY1()	Returns the Y coordinate of the start point in double precision
+QuadCurve2D.Double.getCtrlY()	Returns the Y coordinate of the control point in double precision
+Arc2D.Float.Float(Rectangle2D,float,float,int)	Constructs a new arc initialized to the specified location size angular extents and closure type
+RectangularShape.setFrameFromCenter(double,double,double,double)	Sets the framing rectangle of this Shape based on the specified center point coordinates and corner point coordinates The framing rectangle is used by the subclasses of RectangularShape to define their geometry
+RoundRectangle2D.setRoundRect(double,double,double,double,double,double)	Sets the location size and corner radii of this RoundRectangle2D to the specified double values
+Arc2D.getArcType()	Returns the arc closure type of the arc OPEN CHORD or PIE
+QuadCurve2D.getCtrlX()	Returns the X coordinate of the control point in double precision
+QuadCurve2D.contains(double,double)	Tests if the specified coordinates are inside the boundary of the Shape as described by the definition of insideness
+Rectangle2D.add(Rectangle2D)	Adds a Rectangle2D object to this Rectangle2D The resulting Rectangle2D is the union of the two Rectangle2D objects
+Path2D.Double.transform(AffineTransform)	Transforms the geometry of this path using the specified AffineTransform
+Arc2D.Float.getAngleStart()	Returns the starting angle of the arc
+QuadCurve2D.subdivide(QuadCurve2D,QuadCurve2D,QuadCurve2D)	Subdivides the quadratic curve specified by the src parameter and stores the resulting two subdivided curves into the left and right curve parameters
+CubicCurve2D.Double.getY2()	Returns the Y coordinate of the end point in double precision
+Point2D.hashCode()	Returns the hashcode for this Point2D
+QuadCurve2D.Double.getX2()	Returns the X coordinate of the end point in double precision
+Rectangle2D.Float.outcode(double,double)	Determines where the specified coordinates lie with respect to this Rectangle2D
+Arc2D.setArcByTangent(Point2D,Point2D,Point2D,double)	Sets the position bounds and angular extents of this arc to the specified value The starting angle of the arc is tangent to the line specified by points p1 p2 the ending angle is tangent to the line specified by points p2 p3 and the arc has the specified radius
+Ellipse2D.contains(double,double)	Tests if the specified coordinates are inside the boundary of the Shape as described by the definition of insideness
+CubicCurve2D.getP1()	Returns the start point
+QuadCurve2D.setCurve(double,double,double,double,double,double)	Sets the location of the end points and control point of this curve to the specified double coordinates
+CubicCurve2D.Float.getX2()	Returns the X coordinate of the end point in double precision
+GeneralPath.GeneralPath(int)	Constructs a new GeneralPath object with the specified winding rule to control operations that require the interior of the path to be defined
+AffineTransform.setTransform(AffineTransform)	Sets this transform to a copy of the transform in the specified AffineTransform object
+Area.reset()	Removes all of the geometry from this Area and restores it to an empty area
+CubicCurve2D.contains(double,double)	Tests if the specified coordinates are inside the boundary of the Shape as described by the definition of insideness
+Line2D.ptLineDist(double,double)	Returns the distance from a point to this line
+Arc2D.Float.Float(float,float,float,float,float,float,int)	Constructs a new arc initialized to the specified location size angular extents and closure type
+RoundRectangle2D.Double.getY()	Returns the Y coordinate of the upper left corner of the framing rectangle in double precision
+AffineTransform.rotate(double,double,double,double)	Concatenates this transform with a transform that rotates coordinates around an anchor point according to a rotation vector
+AffineTransform.getType()	Retrieves the flag bits describing the conversion properties of this transform
+Point2D.Double.getX()	Returns the X coordinate of this Point2D in double precision
+Dimension2D.getWidth()	Returns the width of this Dimension in double precision
+Line2D.Float.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+Rectangle2D.Double.createUnion(Rectangle2D)	Returns a new Rectangle2D object representing the union of this Rectangle2D with the specified Rectangle2D
+AffineTransform.setToRotation(double,double,double)	Sets this transform to a translated rotation transformation
+Rectangle2D.contains(double,double)	Tests if the specified coordinates are inside the boundary of the Shape as described by the definition of insideness
+RoundRectangle2D.Double.getArcWidth()	Gets the width of the arc that rounds off the corners
+CubicCurve2D.Double.getCtrlY1()	Returns the Y coordinate of the first control point in double precision
+AffineTransform.getScaleInstance(double,double)	Returns a transform representing a scaling transformation
+Path2D.Double.Double(int)	Constructs a new empty double precision Path2D object with the specified winding rule to control operations that require the interior of the path to be defined
+QuadCurve2D.Float.setCurve(double,double,double,double,double,double)	Sets the location of the end points and control point of this curve to the specified double coordinates
+Path2D.lineTo(double,double)	Adds a point to the path by drawing a straight line from the current coordinates to the new specified coordinates specified in double precision
+QuadCurve2D.setCurve(double[],int)	Sets the location of the end points and control points of this QuadCurve2D to the double coordinates at the specified offset in the specified array
+Path2D.contains(PathIterator,double,double)	Tests if the specified coordinates are inside the closed boundary of the specified PathIterator
+NoninvertibleTransformException.NoninvertibleTransformException(String)	Constructs an instance of NoninvertibleTransformException with the specified detail message
+RoundRectangle2D.Float.getArcWidth()	Gets the width of the arc that rounds off the corners
+Path2D.append(PathIterator,boolean)	Appends the geometry of the specified PathIterator object to the path possibly connecting the new geometry to the existing path segments with a line segment
+AffineTransform.transform(Point2D[],int,Point2D[],int,int)	Transforms an array of point objects by this transform
+Point2D.Float.setLocation(float,float)	Sets the location of this Point2D to the specified float coordinates
+CubicCurve2D.Double.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+RectangularShape.getHeight()	Returns the height of the framing rectangle in double precision
+QuadCurve2D.getFlatnessSq(double,double,double,double,double,double)	Returns the square of the flatness or maximum distance of a control point from the line connecting the end points of the quadratic curve specified by the indicated control points
+Line2D.Double.Double(double,double,double,double)	Constructs and initializes a Line2D from the specified coordinates
+Arc2D.setFrame(double,double,double,double)	Sets the location and size of the framing rectangle of this Shape to the specified rectangular values
+FlatteningPathIterator.FlatteningPathIterator(PathIterator,double,int)	Constructs a new FlatteningPathIterator object that flattens a path as it iterates over it
+Line2D.ptSegDistSq(double,double,double,double,double,double)	Returns the square of the distance from a point to a line segment
+Point2D.Float.setLocation(double,double)	Sets the location of this Point2D to the specified double coordinates
+RoundRectangle2D.Double.getArcHeight()	Gets the height of the arc that rounds off the corners
+QuadCurve2D.setCurve(QuadCurve2D)	Sets the location of the end points and control point of this QuadCurve2D to the same as those in the specified QuadCurve2D
+CubicCurve2D.getFlatnessSq(double[],int)	Returns the square of the flatness of the cubic curve specified by the control points stored in the indicated array at the indicated index The flatness is the maximum distance of a control point from the line connecting the end points
+Area.transform(AffineTransform)	Transforms the geometry of this Area using the specified AffineTransform The geometry is transformed in place which permanently changes the enclosed area defined by this object
+Rectangle2D.hashCode()	Returns the hashcode for this Rectangle2D
+RectangularShape.getWidth()	Returns the width of the framing rectangle in double precision
+Path2D.Double.append(PathIterator,boolean)	Appends the geometry of the specified PathIterator object to the path possibly connecting the new geometry to the existing path segments with a line segment
+Area.Area()	Default constructor which creates an empty area
+Arc2D.Float.getHeight()	Returns the height of the framing rectangle in double precision
+Arc2D.setArcByCenter(double,double,double,double,double,int)	Sets the position bounds angular extents and closure type of this arc to the specified values The arc is defined by a center point and a radius rather than a framing rectangle for the full ellipse
+CubicCurve2D.Double.setCurve(double,double,double,double,double,double,double,double)	Sets the location of the end points and control points of this curve to the specified double coordinates
+Arc2D.Float.getAngleExtent()	Returns the angular extent of the arc
+Point2D.distance(Point2D)	Returns the distance from this Point2D to a specified Point2D
+Arc2D.Double.getAngleExtent()	Returns the angular extent of the arc
+CubicCurve2D.Double.getP1()	Returns the start point
+Point2D.Float.getX()	Returns the X coordinate of this Point2D in double precision
+Line2D.ptSegDist(Point2D)	Returns the distance from a Point2D to this line segment
+AffineTransform.getTranslateX()	Returns the X coordinate of the translation element m02 of the 3x3 affine transformation matrix
+QuadCurve2D.setCurve(Point2D,Point2D,Point2D)	Sets the location of the end points and control point of this QuadCurve2D to the specified Point2D coordinates
+Path2D.transform(AffineTransform)	Transforms the geometry of this path using the specified AffineTransform
+Line2D.Double.getX1()	Returns the X coordinate of the start point in double precision
+QuadCurve2D.getCtrlPt()	Returns the control point
+RectangularShape.setFrameFromCenter(Point2D,Point2D)	Sets the framing rectangle of this Shape based on a specified center Point2D and corner Point2D The framing rectangle is used by the subclasses of RectangularShape to define their geometry
+CubicCurve2D.getCtrlX1()	Returns the X coordinate of the first control point in double precision
+QuadCurve2D.getY1()	Returns the Y coordinate of the start point in double precision
+Rectangle2D.createUnion(Rectangle2D)	Returns a new Rectangle2D object representing the union of this Rectangle2D with the specified Rectangle2D
+CubicCurve2D.getCtrlP1()	Returns the first control point
+Line2D.ptLineDistSq(double,double,double,double,double,double)	Returns the square of the distance from a point to a line
+AffineTransform.getTranslateInstance(double,double)	Returns a transform representing a translation transformation
+AffineTransform.rotate(double)	Concatenates this transform with a rotation transformation
+Point2D.distanceSq(double,double,double,double)	Returns the square of the distance between two points
+Arc2D.Float.getY()	Returns the Y coordinate of the upper left corner of the framing rectangle in double precision
+Rectangle2D.Double.setRect(double,double,double,double)	Sets the location and size of this Rectangle2D to the specified double values
+Line2D.ptLineDistSq(double,double)	Returns the square of the distance from a point to this line
+Path2D.intersects(Rectangle2D)	Tests if the interior of the Shape intersects the interior of a specified Rectangle2D
+Path2D.getPathIterator(AffineTransform,double)	Returns an iterator object that iterates along the Shape boundary and provides access to a flattened view of the Shape outline geometry
+Arc2D.hashCode()	Returns the hashcode for this Arc2D
+Path2D.contains(PathIterator,double,double,double,double)	Tests if the specified rectangular area is entirely inside the closed boundary of the specified PathIterator
+CubicCurve2D.Double.getCtrlP1()	Returns the first control point
+RoundRectangle2D.Double.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+AffineTransform.getScaleY()	Returns the Y coordinate scaling element m11 of the 3x3 affine transformation matrix
+CubicCurve2D.getPathIterator(AffineTransform)	Returns an iteration object that defines the boundary of the shape
+Ellipse2D.Double.Double()	Constructs a new Ellipse2D initialized to location 0 0 and size 0 0
+Path2D.Float.transform(AffineTransform)	Transforms the geometry of this path using the specified AffineTransform
+QuadCurve2D.getBounds()	Returns an integer Rectangle that completely encloses the Shape Note that there is no guarantee that the returned Rectangle is the smallest bounding box that encloses the Shape only that the Shape lies entirely within the indicated Rectangle The returned Rectangle might also fail to completely enclose the Shape if the Shape overflows the limited range of the integer data type The getBounds2D method generally returns a tighter bounding box due to its greater flexibility in representation
+QuadCurve2D.intersects(Rectangle2D)	Tests if the interior of the Shape intersects the interior of a specified Rectangle2D
+AffineTransform.setToQuadrantRotation(int,double,double)	Sets this transform to a translated rotation transformation that rotates coordinates by the specified number of quadrants around the specified anchor point
+AffineTransform.transform(Point2D,Point2D)	Transforms the specified ptSrc and stores the result in ptDst
+Path2D.contains(Rectangle2D)	Tests if the interior of the Shape entirely contains the specified Rectangle2D
+CubicCurve2D.getFlatness()	Returns the flatness of this curve The flatness is the maximum distance of a control point from the line connecting the end points
+Line2D.contains(Point2D)	Tests if a given Point2D is inside the boundary of this Line2D
+CubicCurve2D.solveCubic(double[],double[])	Solve the cubic whose coefficients are in the eqn array and place the non complex roots into the res array returning the number of roots
+Line2D.linesIntersect(double,double,double,double,double,double,double,double)	Tests if the line segment from x1 y1 to x2 y2 intersects the line segment from x3 y3 to x4 y4
+Path2D.intersects(double,double,double,double)	Tests if the interior of the Shape intersects the interior of a specified rectangular area
+Path2D.Float.moveTo(float,float)	Adds a point to the path by moving to the specified coordinates specified in float precision
+QuadCurve2D.Float.getY1()	Returns the Y coordinate of the start point in double precision
+AffineTransform.getShearInstance(double,double)	Returns a transform representing a shearing transformation
+Path2D.append(Shape,boolean)	Appends the geometry of the specified Shape object to the path possibly connecting the new geometry to the existing path segments with a line segment
+CubicCurve2D.intersects(Rectangle2D)	Tests if the interior of the Shape intersects the interior of a specified Rectangle2D
+Rectangle2D.Float.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+Arc2D.setAngleExtent(double)	Sets the angular extent of this arc to the specified double value
+Arc2D.setArc(Arc2D)	Sets this arc to be the same as the specified arc
+RoundRectangle2D.intersects(double,double,double,double)	Tests if the interior of the Shape intersects the interior of a specified rectangular area
+Ellipse2D.Double.getY()	Returns the Y coordinate of the upper left corner of the framing rectangle in double precision
+Point2D.distanceSq(double,double)	Returns the square of the distance from this Point2D to a specified point
+QuadCurve2D.solveQuadratic(double[],double[])	Solves the quadratic whose coefficients are in the eqn array and places the non complex roots into the res array returning the number of roots
+CubicCurve2D.Double.getY1()	Returns the Y coordinate of the start point in double precision
+Rectangle2D.Float.Float(float,float,float,float)	Constructs and initializes a Rectangle2D from the specified float coordinates
+Arc2D.setArc(Point2D,Dimension2D,double,double,int)	Sets the location size angular extents and closure type of this arc to the specified values
+QuadCurve2D.contains(Rectangle2D)	Tests if the interior of the Shape entirely contains the specified Rectangle2D
+AffineTransform.isIdentity()	Returns true if this AffineTransform is an identity transform
+Area.clone()	Returns an exact copy of this Area object
+Path2D.Double.curveTo(double,double,double,double,double,double)	Adds a curved segment defined by three new points to the path by drawing a B zier curve that intersects both the current coordinates and the specified coordinates x3 y3 using the specified points x1 y1 and x2 y2 as B zier control points
+CubicCurve2D.getBounds()	Returns an integer Rectangle that completely encloses the Shape Note that there is no guarantee that the returned Rectangle is the smallest bounding box that encloses the Shape only that the Shape lies entirely within the indicated Rectangle The returned Rectangle might also fail to completely enclose the Shape if the Shape overflows the limited range of the integer data type The getBounds2D method generally returns a tighter bounding box due to its greater flexibility in representation
+Line2D.getP1()	Returns the start Point2D of this Line2D
+RoundRectangle2D.setFrame(double,double,double,double)	Sets the location and size of the framing rectangle of this Shape to the specified rectangular values
+RectangularShape.setFrame(Rectangle2D)	Sets the framing rectangle of this Shape to be the specified Rectangle2D The framing rectangle is used by the subclasses of RectangularShape to define their geometry
+Line2D.Double.getP1()	Returns the start Point2D of this Line2D
+CubicCurve2D.contains(Point2D)	Tests if a specified Point2D is inside the boundary of the Shape as described by the definition of insideness
+AffineTransform.AffineTransform()	Constructs a new AffineTransform representing the Identity transformation
+CubicCurve2D.setCurve(Point2D,Point2D,Point2D,Point2D)	Sets the location of the end points and control points of this curve to the specified Point2D coordinates
+QuadCurve2D.Float.getP1()	Returns the start point
+Rectangle2D.outcode(Point2D)	Determines where the specified Point2D lies with respect to this Rectangle2D
+Area.add(Area)	Adds the shape of the specified Area to the shape of this Area
+Area.getBounds()	Returns a bounding Rectangle that completely encloses this Area
+Point2D.Double.setLocation(double,double)	Sets the location of this Point2D to the specified double coordinates
+CubicCurve2D.Double.getP2()	Returns the end point
+Area.isSingular()	Tests whether this Area is comprised of a single closed subpath This method returns true if the path contains 0 or 1 subpaths or false if the path contains more than 1 subpath The subpaths are counted by the number of SEG MOVETO segments that appear in the path
+QuadCurve2D.getFlatnessSq(double[],int)	Returns the square of the flatness or maximum distance of a control point from the line connecting the end points of the quadratic curve specified by the control points stored in the indicated array at the indicated index
+CubicCurve2D.Float.getX1()	Returns the X coordinate of the start point in double precision
+CubicCurve2D.getX2()	Returns the X coordinate of the end point in double precision
+Rectangle2D.union(Rectangle2D,Rectangle2D,Rectangle2D)	Unions the pair of source Rectangle2D objects and puts the result into the specified destination Rectangle2D object One of the source rectangles can also be the destination to avoid creating a third Rectangle2D object but in this case the original points of this source rectangle will be overwritten by this method
+AffineTransform.setToRotation(double,double)	Sets this transform to a rotation transformation that rotates coordinates according to a rotation vector
+QuadCurve2D.Double.getCtrlX()	Returns the X coordinate of the control point in double precision
+Path2D.Double.clone()	Creates a new object of the same class as this object
+Line2D.Float.getX1()	Returns the X coordinate of the start point in double precision
+Path2D.getWindingRule()	Returns the fill style winding rule
+Point2D.distance(double,double)	Returns the distance from this Point2D to a specified point
+Point2D.Double.toString()	Returns a String that represents the value of this Point2D
+CubicCurve2D.getCtrlX2()	Returns the X coordinate of the second control point in double precision
+Ellipse2D.intersects(double,double,double,double)	Tests if the interior of the Shape intersects the interior of a specified rectangular area
+Line2D.relativeCCW(double,double)	Returns an indicator of where the specified point px py lies with respect to this line segment
+Rectangle2D.intersectsLine(Line2D)	Tests if the specified line segment intersects the interior of this Rectangle2D
+Arc2D.getAngleStart()	Returns the starting angle of the arc
+Point2D.Double.Double()	Constructs and initializes a Point2D with coordinates 0 0
+QuadCurve2D.Double.Double(double,double,double,double,double,double)	Constructs and initializes a QuadCurve2D from the specified double coordinates
+Rectangle2D.Double.Double(double,double,double,double)	Constructs and initializes a Rectangle2D from the specified double coordinates
+Arc2D.setAngles(double,double,double,double)	Sets the starting angle and angular extent of this arc using two sets of coordinates The first set of coordinates is used to determine the angle of the starting point relative to the arc s center The second set of coordinates is used to determine the angle of the end point relative to the arc s center
+Ellipse2D.Float.getX()	Returns the X coordinate of the upper left corner of the framing rectangle in double precision
+QuadCurve2D.Double.getBounds2D()	Returns a high precision and more accurate bounding box of the Shape than the getBounds method
+CubicCurve2D.Double.getCtrlY2()	Returns the Y coordinate of the second control point in double precision
+Arc2D.Float.setArc(double,double,double,double,double,double,int)	Sets the location size angular extents and closure type of this arc to the specified double values
+Rectangle2D.Float.setRect(double,double,double,double)	Sets the location and size of this Rectangle2D to the specified double values
+Rectangle2D.Float.getY()	Returns the Y coordinate of the upper left corner of the framing rectangle in double precision
+Path2D.contains(double,double,double,double)	Tests if the interior of the Shape entirely contains the specified rectangular area All coordinates that lie inside the rectangular area must lie within the Shape for the entire rectangular area to be considered contained within the Shape
+CubicCurve2D.solveCubic(double[])	Solves the cubic whose coefficients are in the eqn array and places the non complex roots back into the same array returning the number of roots The solved cubic is represented by the equation eqn c b a d dx 3 ax 2 bx c 0 A return value of 1 is used to distinguish a constant equation that might be always 0 or never 0 from an equation that has no zeroes
+QuadCurve2D.getX1()	Returns the X coordinate of the start point in double in precision
+AffineTransform.getRotateInstance(double,double,double)	Returns a transform that rotates coordinates around an anchor point
+Rectangle2D.Double.Double()	Constructs a new Rectangle2D initialized to location 0 0 and size 0 0
+RoundRectangle2D.Float.Float(float,float,float,float,float,float)	Constructs and initializes a RoundRectangle2D from the specified float coordinates
+CubicCurve2D.Double.Double(double,double,double,double,double,double,double,double)	Constructs and initializes a CubicCurve2D from the specified double coordinates
+Line2D.getY2()	Returns the Y coordinate of the end point in double precision
+Area.Area(Shape)	The Area class creates an area geometry from the specified Shape object The geometry is explicitly closed if the Shape is not already closed The fill rule even odd or winding specified by the geometry of the Shape is used to determine the resulting enclosed area
+Line2D.intersectsLine(Line2D)	Tests if the specified line segment intersects this line segment
+CubicCurve2D.intersects(double,double,double,double)	Tests if the interior of the Shape intersects the interior of a specified rectangular area
+AffineTransform.setToShear(double,double)	Sets this transform to a shearing transformation
+AffineTransform.quadrantRotate(int)	Concatenates this transform with a transform that rotates coordinates by the specified number of quadrants
+Line2D.relativeCCW(Point2D)	Returns an indicator of where the specified Point2D lies with respect to this line segment
+Rectangle2D.Double.createIntersection(Rectangle2D)	Returns a new Rectangle2D object representing the intersection of this Rectangle2D with the specified Rectangle2D
+QuadCurve2D.getPathIterator(AffineTransform)	Returns an iteration object that defines the boundary of the shape of this QuadCurve2D
+CubicCurve2D.clone()	Creates a new object of the same class as this object

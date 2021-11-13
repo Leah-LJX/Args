@@ -1,0 +1,19 @@
+{
+  "id": 35,
+  "description": "Get the week year of a date java.util.Calendar",
+  "methodName": "getWeekYear",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.util.Date"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "java.util.Calendar"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/word2api/35/TestSource.java"
+}

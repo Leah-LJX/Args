@@ -1,0 +1,1691 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/49/benchmark49.json
+     [java] Benchmark Id: 49
+     [java] Method name: reverseAndAppend
+     [java] Packages: [java.lang.StringBuffer]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 49
+     [java] =========cnt:=========87
+     [java] #Classes: 2
+     [java] #Methods: 100
+     [java] Soot Time: 4603.425025
+     [java] PetriNet for path length: 1 [places: 49 ; transitions: 160 ; edges: 428]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 49 ; transitions: 160 ; edges: 428]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 49 ; transitions: 160 ; edges: 428]
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] #Program: 2
+     [java] PetriNet for path length: 4 [places: 49 ; transitions: 160 ; edges: 428]
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 2
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 4
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 6
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 8
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] sypet_clone_void
+     [java] #Program: 10
+     [java] =========sketch========
+     [java] #Program: 12
+     [java] PetriNet for path length: 5 [places: 49 ; transitions: 160 ; edges: 428]
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 12
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 14
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 16
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 18
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 20
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 22
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 24
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 26
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 28
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 30
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 32
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 35
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 38
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 40
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 42
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 44
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 46
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 49
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 51
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 53
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 55
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 57
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 59
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] sypet_clone_void
+     [java] #Program: 61
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 63
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 65
+     [java] =========sketch========
+     [java] #Program: 67
+     [java] PetriNet for path length: 6 [places: 49 ; transitions: 160 ; edges: 428]
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 67
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 69
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 71
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 73
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 75
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 77
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 79
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 81
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 83
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 85
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 87
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 89
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 91
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 93
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: java.lang.String substring(int,int)>
+     [java] #Program: 97
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 99
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: java.lang.String substring(int,int)>
+     [java] #Program: 101
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 103
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 105
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 107
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 110
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 112
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 115
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 117
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 119
+     [java] =========sketch========
+     [java] _upper21
+     [java] sypet_clone_java.lang.CharSequence
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 121
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 123
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 125
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 129
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 131
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 134
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 136
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 138
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer deleteCharAt(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 140
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer appendCodePoint(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 142
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 144
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer deleteCharAt(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 146
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer appendCodePoint(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 148
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 150
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 152
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 154
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 156
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 158
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 160
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 162
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 164
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 166
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 168
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 170
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 172
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer deleteCharAt(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 175
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 177
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 179
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer appendCodePoint(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 181
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer appendCodePoint(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 183
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer deleteCharAt(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 185
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 187
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 190
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 192
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 194
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 196
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 198
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 201
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 204
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 207
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 209
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 211
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 213
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 215
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void ensureCapacity(int)>
+     [java] #Program: 218
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void setLength(int)>
+     [java] #Program: 220
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int,int)>
+     [java] #Program: 222
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 224
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 226
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int,int)>
+     [java] #Program: 228
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 230
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 232
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 234
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 236
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: java.lang.String substring(int,int)>
+     [java] #Program: 238
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: java.lang.String substring(int,int)>
+     [java] #Program: 240
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 242
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 244
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer appendCodePoint(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 246
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer appendCodePoint(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 248
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer deleteCharAt(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 250
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer deleteCharAt(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 252
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 254
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 256
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 258
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 260
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer insert(int,java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 262
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 264
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 266
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void ensureCapacity(int)>
+     [java] #Program: 268
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void setLength(int)>
+     [java] #Program: 270
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 272
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 274
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 278
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 282
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 284
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 286
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 288
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 290
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 292
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 294
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 296
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 299
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 302
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 304
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 306
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 309
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 312
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 314
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 316
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void ensureCapacity(int)>
+     [java] #Program: 318
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 320
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void setLength(int)>
+     [java] #Program: 323
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void ensureCapacity(int)>
+     [java] #Program: 325
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void setLength(int)>
+     [java] #Program: 327
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 329
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 331
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 333
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] _upper21
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 335
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 337
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 340
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void setLength(int)>
+     [java] #Program: 342
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void ensureCapacity(int)>
+     [java] #Program: 344
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void ensureCapacity(int)>
+     [java] #Program: 346
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void setLength(int)>
+     [java] #Program: 348
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 350
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 352
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 355
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 357
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 359
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 361
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int lastIndexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 363
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int indexOf(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 365
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 367
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] sypet_clone_void
+     [java] #Program: 369
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] sypet_clone_void
+     [java] #Program: 372
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 374
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 377
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 380
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 383
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 385
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 387
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_java.lang.StringBuffer
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] sypet_clone_void
+     [java] #Program: 389
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] sypet_clone_void
+     [java] #Program: 391
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] sypet_clone_void
+     [java] #Program: 393
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] sypet_clone_void
+     [java] #Program: 395
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] sypet_clone_void
+     [java] #Program: 397
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] sypet_clone_void
+     [java] #Program: 399
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: void trimToSize()>
+     [java] #Program: 401
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] sypet_clone_void
+     [java] #Program: 403
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 405
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 407
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 409
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 411
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 413
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 415
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 417
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>()>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 419
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 421
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 423
+     [java] =========sketch========
+     [java] #Program: 425
+     [java] PetriNet for path length: 7 [places: 49 ; transitions: 160 ; edges: 428]
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 425
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 427
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 429
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 431
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 433
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 435
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 437
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 439
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 441
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 443
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 445
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 447
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 449
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 451
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 453
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 455
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 457
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 459
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 461
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 463
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int capacity()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 465
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 467
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 469
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 471
+     [java] =========sketch========
+     [java] _upper21
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 473
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 475
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 477
+     [java] =========sketch========
+     [java] _upper21
+     [java] sypet_clone_java.lang.CharSequence
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 479
+     [java] =========sketch========
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] sypet_clone_int
+     [java] <java.lang.StringBuffer: void <init>(int)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 481
+     [java] =========sketch========
+     [java] _upper21
+     [java] sypet_clone_java.lang.CharSequence
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.CharSequence)>
+     [java] <java.lang.StringBuffer: int length()>
+     [java] <java.lang.StringBuffer: java.lang.String substring(int)>
+     [java] #Program: 483
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer reverse()>
+     [java] <java.lang.StringBuffer: void <init>(java.lang.String)>
+     [java] <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>
+     [java] <java.lang.StringBuffer: java.lang.String toString()>
+     [java] #Program: 486
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 49
+     [java] Recommend Api Number:87
+     [java] Sketch Generation Time: 692.1627080000001
+     [java] Sketch Completion Time: 233.56781199999998
+     [java] Compilation Time: 2552.3302909999993
+     [java] Running Test cases Time: 35.126302
+     [java] Synthesis Time: 960.8568220000001
+     [java] Total Time: 8116.612137999999
+     [java] Number of components: 6
+     [java] Number of holes: 7
+     [java] Number of completed programs: 487
+     [java] Number of sketches: 228
+     [java] Solution:
+     [java]  java.lang.StringBuffer sypet_var1185 = new java.lang.StringBuffer(sypet_arg0);
+     [java]  java.lang.StringBuffer sypet_var1186 = sypet_var1185.reverse();
+     [java]  java.lang.StringBuffer sypet_var1187 = new java.lang.StringBuffer(sypet_arg0);
+     [java]  java.lang.StringBuffer sypet_var1188 = sypet_var1187.append(sypet_var1186);
+     [java]  java.lang.String sypet_var1189 = sypet_var1188.toString();
+     [java]  return sypet_var1189;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 9 seconds

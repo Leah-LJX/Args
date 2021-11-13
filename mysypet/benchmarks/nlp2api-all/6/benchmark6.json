@@ -1,0 +1,22 @@
+{
+  "id": 6,
+  "description": "Solve a system of linear equations",
+  "methodName": "solveLinear",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "double[][]",
+    "double[]"
+  ],
+  "tgtType": "double[]",
+  "packages": [
+	  "org.apache.commons.math3.linear"
+  ],
+  "libs": [
+    "./lib/commons-math3-3.5.jar",
+    "./lib/commons-lang-2.6.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/6/TestSource.java"
+}

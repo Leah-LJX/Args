@@ -1,0 +1,19 @@
+{
+  "id": 49,
+  "description": "Reverse a string and append the result to it",
+  "methodName": "reverseAndAppend",
+  "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "java.lang.StringBuffer"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/test/49/TestSource.java"
+}

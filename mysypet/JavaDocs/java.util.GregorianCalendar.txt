@@ -1,0 +1,28 @@
+GregorianCalendar.isWeekDateSupported()	Returns true indicating this GregorianCalendar supports week dates
+GregorianCalendar.getActualMaximum(int)	Returns the maximum value that this calendar field could have taking into consideration the given time value and the current values of the getFirstDayOfWeek getMinimalDaysInFirstWeek getGregorianChange and getTimeZone methods
+GregorianCalendar.getGregorianChange()	Gets the Gregorian Calendar change date This is the point when the switch from Julian dates to Gregorian dates occurred Default is October 15 1582 Gregorian Previous to this dates will be in the Julian calendar
+GregorianCalendar.setWeekDate(int,int,int)	Sets this GregorianCalendar to the date given by the date specifiers weekYear weekOfYear and dayOfWeek weekOfYear follows the WEEK OF YEAR numbering The dayOfWeek value must be one of the DAY OF WEEK values SUNDAY to SATURDAY
+GregorianCalendar.clone()	Description copied from class Calendar
+GregorianCalendar.GregorianCalendar(int,int,int,int,int,int)	Constructs a GregorianCalendar with the given date and time set for the default time zone with the default locale
+GregorianCalendar.hashCode()	Generates the hash code for this GregorianCalendar object
+GregorianCalendar.getMaximum(int)	Returns the maximum value for the given calendar field of this GregorianCalendar instance The maximum value is defined as the largest value returned by the get method for any possible time value taking into consideration the current values of the getFirstDayOfWeek getMinimalDaysInFirstWeek getGregorianChange and getTimeZone methods
+GregorianCalendar.getWeekYear()	Returns the week year represented by this GregorianCalendar The dates in the weeks between 1 and the maximum week number of the week year have the same week year value that may be one year before or after the YEAR calendar year value
+GregorianCalendar.GregorianCalendar(TimeZone,Locale)	Constructs a GregorianCalendar based on the current time in the given time zone with the given locale
+GregorianCalendar.getMinimum(int)	Returns the minimum value for the given calendar field of this GregorianCalendar instance The minimum value is defined as the smallest value returned by the get method for any possible time value taking into consideration the current values of the getFirstDayOfWeek getMinimalDaysInFirstWeek getGregorianChange and getTimeZone methods
+GregorianCalendar.GregorianCalendar(int,int,int)	Constructs a GregorianCalendar with the given date set in the default time zone with the default locale
+GregorianCalendar.add(int,int)	Adds the specified signed amount of time to the given calendar field based on the calendar s rules
+GregorianCalendar.roll(int,boolean)	Adds or subtracts up down a single unit of time on the given time field without changing larger fields
+GregorianCalendar.getWeeksInWeekYear()	Returns the number of weeks in the week year represented by this GregorianCalendar
+GregorianCalendar.getTimeZone()	Description copied from class Calendar
+GregorianCalendar.GregorianCalendar(TimeZone)	Constructs a GregorianCalendar based on the current time in the given time zone with the default locale
+GregorianCalendar.GregorianCalendar()	Constructs a default GregorianCalendar using the current time in the default time zone with the default locale
+GregorianCalendar.getActualMinimum(int)	Returns the minimum value that this calendar field could have taking into consideration the given time value and the current values of the getFirstDayOfWeek getMinimalDaysInFirstWeek getGregorianChange and getTimeZone methods
+GregorianCalendar.GregorianCalendar(int,int,int,int,int)	Constructs a GregorianCalendar with the given date and time set for the default time zone with the default locale
+GregorianCalendar.setGregorianChange(Date)	Sets the GregorianCalendar change date This is the point when the switch from Julian dates to Gregorian dates occurred Default is October 15 1582 Gregorian Previous to this dates will be in the Julian calendar
+GregorianCalendar.equals(Object)	Compares this GregorianCalendar to the specified Object The result is true if and only if the argument is a GregorianCalendar object that represents the same time value millisecond offset from the Epoch under the same Calendar parameters and Gregorian change date as this object
+GregorianCalendar.isLeapYear(int)	Determines if the given year is a leap year Returns true if the given year is a leap year To specify BC year numbers 1 year number must be given For example year BC 4 is specified as 3
+GregorianCalendar.setTimeZone(TimeZone)	Description copied from class Calendar
+GregorianCalendar.roll(int,int)	Adds a signed amount to the specified calendar field without changing larger fields
+GregorianCalendar.getGreatestMinimum(int)	Returns the highest minimum value for the given calendar field of this GregorianCalendar instance The highest minimum value is defined as the largest value returned by getActualMinimum int for any possible time value taking into consideration the current values of the getFirstDayOfWeek getMinimalDaysInFirstWeek getGregorianChange and getTimeZone methods
+GregorianCalendar.GregorianCalendar(Locale)	Constructs a GregorianCalendar based on the current time in the default time zone with the given locale
+GregorianCalendar.getLeastMaximum(int)	Returns the lowest maximum value for the given calendar field of this GregorianCalendar instance The lowest maximum value is defined as the smallest value returned by getActualMaximum int for any possible time value taking into consideration the current values of the getFirstDayOfWeek getMinimalDaysInFirstWeek getGregorianChange and getTimeZone methods

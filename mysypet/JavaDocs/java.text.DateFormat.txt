@@ -1,0 +1,28 @@
+DateFormat.setTimeZone(TimeZone)	Sets the time zone for the calendar of this DateFormat object
+DateFormat.parseObject(String,ParsePosition)	Parses text from a string to produce a Date
+DateFormat.getDateInstance(int,Locale)	Gets the date formatter with the given formatting style for the given locale
+DateFormat.hashCode()	Overrides hashCode
+DateFormat.getAvailableLocales()	Returns an array of all locales for which the get Instance methods of this class can return localized instances
+DateFormat.format(Object,StringBuffer,FieldPosition)	Overrides Format
+DateFormat.getDateTimeInstance()	Gets the date time formatter with the default formatting style for the default locale
+DateFormat.getCalendar()	Gets the calendar associated with this date time formatter
+DateFormat.getDateTimeInstance(int,int)	Gets the date time formatter with the given date and time formatting styles for the default locale
+DateFormat.setNumberFormat(NumberFormat)	Allows you to set the number formatter
+DateFormat.getDateTimeInstance(int,int,Locale)	Gets the date time formatter with the given formatting styles for the given locale
+DateFormat.setCalendar(Calendar)	Set the calendar to be used by this date format Initially the default calendar for the specified or default locale is used
+DateFormat.getNumberFormat()	Gets the number formatter which this date time formatter uses to format and parse a time
+DateFormat.format(Date)	Formats a Date into a date time string
+DateFormat.getInstance()	Get a default date time formatter that uses the SHORT style for both the date and the time
+DateFormat.equals(Object)	Overrides equals
+DateFormat.isLenient()	Tell whether date time parsing is to be lenient
+DateFormat.setLenient(boolean)	Specify whether or not date time parsing is to be lenient With lenient parsing the parser may use heuristics to interpret inputs that do not precisely match this object s format With strict parsing inputs must match this object s format
+DateFormat.format(Date,StringBuffer,FieldPosition)	Formats a Date into a date time string
+DateFormat.parse(String,ParsePosition)	Parse a date time string according to the given parse position For example a time text 07 10 96 4 5 PM PDT will be parsed into a Date that is equivalent to Date 837039900000L
+DateFormat.clone()	Overrides Cloneable
+DateFormat.getDateInstance(int)	Gets the date formatter with the given formatting style for the default locale
+DateFormat.getTimeInstance(int,Locale)	Gets the time formatter with the given formatting style for the given locale
+DateFormat.getTimeZone()	Gets the time zone
+DateFormat.getTimeInstance(int)	Gets the time formatter with the given formatting style for the default locale
+DateFormat.parse(String)	Parses text from the beginning of the given string to produce a date
+DateFormat.getTimeInstance()	Gets the time formatter with the default formatting style for the default locale
+DateFormat.getDateInstance()	Gets the date formatter with the default formatting style for the default locale

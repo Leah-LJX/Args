@@ -1,0 +1,980 @@
+Statement.executeUpdate(String,int)	Executes the given SQL statement and signals the driver with the given flag about whether the auto generated keys produced by this Statement object should be made available for retrieval The driver will ignore the flag if the SQL statement is not an INSERT statement or an SQL statement able to return auto generated keys the list of such statements is vendor specific
+SQLInput.readURL()	Reads an SQL DATALINK value from the stream and returns it as a java net URL object in the Java programming language
+CallableStatement.getRef(String)	Retrieves the value of a JDBC REF structured type parameter as a Ref object in the Java programming language
+SQLRecoverableException.SQLRecoverableException(String)	Constructs a SQLRecoverableException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+DatabaseMetaData.getCrossReference(String,String,String,String,String,String)	Retrieves a description of the foreign key columns in the given foreign key table that reference the primary key or the columns representing a unique constraint of the parent table could be the same or a different table
+ResultSet.getClob(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a Clob object in the Java programming language
+ResultSet.updateAsciiStream(String,InputStream,long)	Updates the designated column with an ascii stream value which will have the specified number of bytes
+DatabaseMetaData.storesUpperCaseQuotedIdentifiers()	Retrieves whether this database treats mixed case quoted SQL identifiers as case insensitive and stores them in upper case
+Statement.getMoreResults()	Moves to this Statement object s next result returns true if it is a ResultSet object and implicitly closes any current ResultSet object s obtained with the method getResultSet
+CallableStatement.getObject(int,Class)	Returns an object representing the value of OUT parameter parameterIndex and will convert from the SQL type of the parameter to the requested Java data type if the conversion is supported If the conversion is not supported or null is specified for the type a SQLException is thrown
+ResultSet.deleteRow()	Deletes the current row from this ResultSet object and from the underlying database This method cannot be called when the cursor is on the insert row
+SQLOutput.writeBlob(Blob)	Writes an SQL BLOB value to the stream
+DatabaseMetaData.supportsStoredFunctionsUsingCallSyntax()	Retrieves whether this database supports invoking user defined or vendor functions using the stored procedure escape syntax
+ResultSet.getString(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a String in the Java programming language
+SQLRecoverableException.SQLRecoverableException()	Constructs a SQLRecoverableException object
+DatabaseMetaData.supportsMultipleOpenResults()	Retrieves whether it is possible to have multiple ResultSet objects returned from a CallableStatement object simultaneously
+SQLInput.readArray()	Reads an SQL ARRAY value from the stream and returns it as an Array object in the Java programming language
+ResultSet.updateString(String,String)	Updates the designated column with a String value
+CallableStatement.setNCharacterStream(String,Reader)	Sets the designated parameter to a Reader object The Reader reads the data till end of file is reached The driver does the necessary conversion from Java character format to the national character set in the database
+SQLInvalidAuthorizationSpecException.SQLInvalidAuthorizationSpecException(String,String,int,Throwable)	Constructs a SQLInvalidAuthorizationSpecException object with a given reason SQLState vendorCode and cause
+CallableStatement.setBigDecimal(String,BigDecimal)	Sets the designated parameter to the given java math BigDecimal value
+DatabaseMetaData.getCatalogTerm()	Retrieves the database vendor s preferred term for catalog
+SQLTransientException.SQLTransientException()	Constructs a SQLTransientException object
+SQLClientInfoException.SQLClientInfoException(Map)	Constructs a SQLClientInfoException object initialized with a given failedProperties
+SQLOutput.writeBytes(byte[])	Writes the next attribute to the stream as an array of bytes
+DatabaseMetaData.getDatabaseMinorVersion()	Retrieves the minor version number of the underlying database
+ResultSetMetaData.isNullable(int)	Indicates the nullability of values in the designated column
+DatabaseMetaData.supportsConvert(int,int)	Retrieves whether this database supports the JDBC scalar function CONVERT for conversions between the JDBC types fromType and toType The JDBC types are the generic SQL data types defined in java sql Types
+ResultSet.updateNClob(String,Reader)	Updates the designated column using the given Reader object
+SQLWarning.SQLWarning(String,Throwable)	Constructs a SQLWarning object with a given reason and cause
+ResultSet.updateNString(int,String)	Updates the designated column with a String value
+CallableStatement.setInt(String,int)	Sets the designated parameter to the given Java int value
+CallableStatement.setBlob(String,InputStream,long)	Sets the designated parameter to a InputStream object The inputstream must contain the number of characters specified by length otherwise a SQLException will be generated when the CallableStatement is executed
+PreparedStatement.setObject(int,Object,int,int)	Sets the value of the designated parameter with the given object The second argument must be an object type for integral values the java lang equivalent objects should be used
+Clob.length()	Retrieves the number of characters in the CLOB value designated by this Clob object
+DatabaseMetaData.getIdentifierQuoteString()	Retrieves the string used to quote SQL identifiers
+DatabaseMetaData.getTables(String,String,String,String[])	Retrieves a description of the tables available in the given catalog
+ResultSet.getTimestamp(int,Calendar)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Timestamp object in the Java programming language
+PreparedStatement.setUnicodeStream(int,InputStream,int)	Sets the designated parameter to the given input stream which will have the specified number of bytes
+PreparedStatement.setNString(int,String)	Sets the designated paramter to the given String object
+ResultSet.isFirst()	Retrieves whether the cursor is on the first row of this ResultSet object
+Clob.getSubString(long,int)	Retrieves a copy of the specified substring in the CLOB value designated by this Clob object
+Time.setMonth(int)	This method is deprecated and should not be used because SQL TIME values do not have a month component
+DriverManager.getLoginTimeout()	Gets the maximum time in seconds that a driver can wait when attempting to log in to a database
+ResultSet.updateClob(String,Reader)	Updates the designated column using the given Reader object
+ResultSet.updateSQLXML(String,SQLXML)	Updates the designated column with a java sql SQLXML value
+Connection.getAutoCommit()	Retrieves the current auto commit mode for this Connection object
+ResultSet.afterLast()	Moves the cursor to the end of this ResultSet object just after the last row This method has no effect if the result set contains no rows
+DriverManager.setLoginTimeout(int)	Sets the maximum time in seconds that a driver will wait while attempting to connect to a database
+DatabaseMetaData.supportsMixedCaseIdentifiers()	Retrieves whether this database treats mixed case unquoted SQL identifiers as case sensitive and as a result stores them in mixed case
+SQLNonTransientException.SQLNonTransientException(String,String,int,Throwable)	Constructs a SQLNonTransientException object with a given reason SQLState vendorCode and cause
+BatchUpdateException.BatchUpdateException(String,int[])	Constructs a BatchUpdateException object initialized with a given reason and updateCounts
+DatabaseMetaData.supportsSubqueriesInComparisons()	Retrieves whether this database supports subqueries in comparison expressions
+SQLWarning.SQLWarning(Throwable)	Constructs a SQLWarning object with a given cause
+ParameterMetaData.getParameterType(int)	Retrieves the designated parameter s SQL type
+CallableStatement.getURL(int)	Retrieves the value of the designated JDBC DATALINK parameter as a java net URL object
+Array.getBaseType()	Retrieves the JDBC type of the elements in the array designated by this Array object
+Connection.isValid(int)	Returns true if the connection has not been closed and is still valid
+SQLOutput.writeTimestamp(Timestamp)	Writes the next attribute to the stream as a java sql Timestamp object
+SQLIntegrityConstraintViolationException.SQLIntegrityConstraintViolationException(String,String)	Constructs a SQLIntegrityConstraintViolationException object with a given reason and SQLState
+Blob.length()	Returns the number of bytes in the BLOB value designated by this Blob object
+ResultSetMetaData.getColumnType(int)	Retrieves the designated column s SQL type
+CallableStatement.getURL(String)	Retrieves the value of a JDBC DATALINK parameter as a java net URL object
+CallableStatement.getTimestamp(String,Calendar)	Retrieves the value of a JDBC TIMESTAMP parameter as a java sql Timestamp object using the given Calendar object to construct the Timestamp object
+Connection.createSQLXML()	Constructs an object that implements the SQLXML interface The object returned initially contains no data The createXmlStreamWriter object and setString method of the SQLXML interface may be used to add data to the SQLXML object
+SQLOutput.writeClob(Clob)	Writes an SQL CLOB value to the stream
+DriverManager.getLogWriter()	Retrieves the log writer
+SQLTransientException.SQLTransientException(String,String,int,Throwable)	Constructs a SQLTransientException object with a given reason SQLState vendorCode and cause
+Blob.free()	This method frees the Blob object and releases the resources that it holds The object is invalid once the free method is called
+DatabaseMetaData.getMaxStatements()	Retrieves the maximum number of active statements to this database that can be open at the same time
+PreparedStatement.setInt(int,int)	Sets the designated parameter to the given Java int value
+ResultSetMetaData.isDefinitelyWritable(int)	Indicates whether a write on the designated column will definitely succeed
+Statement.getResultSetConcurrency()	Retrieves the result set concurrency for ResultSet objects generated by this Statement object
+Array.free()	This method frees the Array object and releases the resources that it holds The object is invalid once the free method is called
+ResultSet.getURL(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a java net URL object in the Java programming language
+CallableStatement.getRowId(int)	Retrieves the value of the designated JDBC ROWID parameter as a java sql RowId object
+DataTruncation.getTransferSize()	Gets the number of bytes of data actually transferred
+Time.getDate()	This method is deprecated and should not be used because SQL TIME values do not have a date component
+DatabaseMetaData.getMaxCatalogNameLength()	Retrieves the maximum number of characters that this database allows in a catalog name
+DatabaseMetaData.supportsBatchUpdates()	Retrieves whether this database supports batch updates
+PreparedStatement.setTimestamp(int,Timestamp)	Sets the designated parameter to the given java sql Timestamp value
+ResultSet.getRowId(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql RowId object in the Java programming language
+ResultSet.updateCharacterStream(int,Reader,long)	Updates the designated column with a character stream value which will have the specified number of bytes
+PreparedStatement.setDate(int,Date)	Sets the designated parameter to the given java sql Date value using the default time zone of the virtual machine that is running the application
+DatabaseMetaData.supportsDataManipulationTransactionsOnly()	Retrieves whether this database supports only data manipulation statements within a transaction
+DatabaseMetaData.nullsAreSortedHigh()	Retrieves whether NULL values are sorted high
+DatabaseMetaData.getJDBCMinorVersion()	Retrieves the minor JDBC version number for this driver
+ParameterMetaData.getPrecision(int)	Retrieves the designated parameter s specified column size
+ResultSet.updateObject(int,Object,int)	Updates the designated column with an Object value
+Blob.truncate(long)	Truncates the BLOB value that this Blob object represents to be len bytes in length
+CallableStatement.getRef(int)	Retrieves the value of the designated JDBC REF structured type parameter as a Ref object in the Java programming language
+ResultSet.getWarnings()	Retrieves the first warning reported by calls on this ResultSet object
+DatabaseMetaData.usesLocalFilePerTable()	Retrieves whether this database uses a file for each table
+SQLInput.readObject()	Reads the datum at the head of the stream and returns it as an Object in the Java programming language The actual type of the object returned is determined by the default type mapping and any customizations present in this stream s type map
+PreparedStatement.setBlob(int,Blob)	Sets the designated parameter to the given java sql Blob object
+SQLException.getErrorCode()	Retrieves the vendor specific exception code for this SQLException object
+PreparedStatement.setCharacterStream(int,Reader,int)	Sets the designated parameter to the given Reader object which is the given number of characters long
+DriverManager.setLogStream(PrintStream)	Sets the logging tracing PrintStream that is used by the DriverManager and all drivers
+ResultSet.updateArray(String,Array)	Updates the designated column with a java sql Array value
+SQLDataException.SQLDataException(Throwable)	Constructs a SQLDataException object with a given cause
+Connection.rollback()	Undoes all changes made in the current transaction and releases any database locks currently held by this Connection object This method should be used only when auto commit mode has been disabled
+DatabaseMetaData.supportsCatalogsInTableDefinitions()	Retrieves whether a catalog name can be used in a table definition statement
+ResultSet.updateTimestamp(int,Timestamp)	Updates the designated column with a java sql Timestamp value
+Date.setMinutes(int)	This method is deprecated and should not be used because SQL Date values do not have a time component
+ResultSet.updateRowId(String,RowId)	Updates the designated column with a RowId value The updater methods are used to update column values in the current row or the insert row The updater methods do not update the underlying database instead the updateRow or insertRow methods are called to update the database
+DatabaseMetaData.supportsANSI92FullSQL()	Retrieves whether this database supports the ANSI92 full SQL grammar supported
+SQLOutput.writeURL(URL)	Writes a SQL DATALINK value to the stream
+SQLRecoverableException.SQLRecoverableException(String,String,int,Throwable)	Constructs a SQLRecoverableException object with a given reason SQLState vendorCode and cause
+PreparedStatement.clearParameters()	Clears the current parameter values immediately
+DatabaseMetaData.getIndexInfo(String,String,String,boolean,boolean)	Retrieves a description of the given table s indices and statistics They are ordered by NON UNIQUE TYPE INDEX NAME and ORDINAL POSITION
+Timestamp.compareTo(Date)	Compares this Timestamp object to the given Date object
+PreparedStatement.getMetaData()	Retrieves a ResultSetMetaData object that contains information about the columns of the ResultSet object that will be returned when this PreparedStatement object is executed
+Timestamp.getNanos()	Gets this Timestamp object s nanos value
+DatabaseMetaData.supportsOpenCursorsAcrossRollback()	Retrieves whether this database supports keeping cursors open across rollbacks
+ResultSet.getObject(String,Class)	Retrieves the value of the designated column in the current row of this ResultSet object and will convert from the SQL type of the column to the requested Java data type if the conversion is supported If the conversion is not supported or null is specified for the type a SQLException is thrown
+ResultSet.getInt(String)	Retrieves the value of the designated column in the current row of this ResultSet object as an int in the Java programming language
+DatabaseMetaData.supportsSchemasInPrivilegeDefinitions()	Retrieves whether a schema name can be used in a privilege definition statement
+Statement.executeBatch()	Submits a batch of commands to the database for execution and if all commands execute successfully returns an array of update counts
+SQLTimeoutException.SQLTimeoutException(Throwable)	Constructs a SQLTimeoutException object with a given cause
+Blob.getBinaryStream(long,long)	Returns an InputStream object that contains a partial Blob value starting with the byte specified by pos which is length bytes in length
+Statement.execute(String)	Executes the given SQL statement which may return multiple results
+PreparedStatement.setNCharacterStream(int,Reader,long)	Sets the designated parameter to a Reader object The Reader reads the data till end of file is reached The driver does the necessary conversion from Java character format to the national character set in the database
+Time.toString()	Formats a time in JDBC time escape format
+DatabaseMetaData.locatorsUpdateCopy()	Indicates whether updates made to a LOB are made on a copy or directly to the LOB
+DatabaseMetaData.getMaxConnections()	Retrieves the maximum number of concurrent connections to this database that are possible
+SQLNonTransientException.SQLNonTransientException()	Constructs a SQLNonTransientException object
+BatchUpdateException.BatchUpdateException(String,String,int[])	Constructs a BatchUpdateException object initialized with a given reason SQLState and updateCounts
+ResultSet.updateNString(String,String)	Updates the designated column with a String value
+Statement.getResultSet()	Retrieves the current result as a ResultSet object
+SQLTransientConnectionException.SQLTransientConnectionException(String,String)	Constructs a SQLTransientConnectionException object with a given reason and SQLState
+CallableStatement.getNClob(int)	Retrieves the value of the designated JDBC NCLOB parameter as a java sql NClob object in the Java programming language
+SQLException.SQLException(String,String)	Constructs a SQLException object with a given reason and SQLState
+SQLInput.wasNull()	Retrieves whether the last value read was SQL NULL
+SQLInput.readBoolean()	Reads the next attribute in the stream and returns it as a boolean in the Java programming language
+Connection.abort(Executor)	Terminates an open connection Calling abort results in The connection marked as closed Closes any physical connection to the database Releases resources used by the connection Insures that any thread that is currently accessing the connection will either progress to completion or throw an SQLException
+Timestamp.hashCode()	Returns a hash code value for this object The result is the exclusive OR of the two halves of the primitive long value returned by the Date getTime method That is the hash code is the value of the expression int this getTime this getTime 32 The hashCode method uses the underlying java util Date implementation and therefore does not include nanos in its computation
+ResultSet.rowDeleted()	Retrieves whether a row has been deleted A deleted row may leave a visible hole in a result set This method can be used to detect holes in a result set The value returned depends on whether or not this ResultSet object can detect deletions
+CallableStatement.registerOutParameter(String,int,String)	Registers the designated output parameter This version of the method registerOutParameter should be used for a user named or REF output parameter Examples of user named types include STRUCT DISTINCT JAVA OBJECT and named array types
+Timestamp.compareTo(Timestamp)	Compares this Timestamp object to the given Timestamp object
+CallableStatement.getDate(int)	Retrieves the value of the designated JDBC DATE parameter as a java sql Date object
+DataTruncation.getRead()	Indicates whether or not the value was truncated on a read
+ResultSet.updateNull(String)	Updates the designated column with a null value
+ResultSetMetaData.getTableName(int)	Gets the designated column s table name
+DatabaseMetaData.supportsMixedCaseQuotedIdentifiers()	Retrieves whether this database treats mixed case quoted SQL identifiers as case sensitive and as a result stores them in mixed case
+Connection.setReadOnly(boolean)	Puts this connection in read only mode as a hint to the driver to enable database optimizations
+DatabaseMetaData.getJDBCMajorVersion()	Retrieves the major JDBC version number for this driver
+SQLException.SQLException(String,String,int,Throwable)	Constructs a SQLException object with a given reason SQLState vendorCode and cause
+ResultSet.isClosed()	Retrieves whether this ResultSet object has been closed A ResultSet is closed if the method close has been called on it or if it is automatically closed
+BatchUpdateException.BatchUpdateException(Throwable)	Constructs a BatchUpdateException object initialized with a given cause
+SQLOutput.writeTime(Time)	Writes the next attribute to the stream as a java sql Time object
+Clob.getAsciiStream()	Retrieves the CLOB value designated by this Clob object as an ascii stream
+Connection.getMetaData()	Retrieves a DatabaseMetaData object that contains metadata about the database to which this Connection object represents a connection
+SQLInput.readRowId()	Reads an SQL ROWID value from the stream and returns it as a RowId object in the Java programming language
+Connection.prepareCall(String)	Creates a CallableStatement object for calling database stored procedures
+ResultSetMetaData.isReadOnly(int)	Indicates whether the designated column is definitely not writable
+Connection.prepareStatement(String,String[])	Creates a default PreparedStatement object capable of returning the auto generated keys designated by the given array
+RowId.toString()	Returns a String representing the value of the SQL ROWID designated by this java sql RowId object
+Connection.setSchema(String)	Sets the given schema name to access
+ResultSet.getCursorName()	Retrieves the name of the SQL cursor used by this ResultSet object
+DatabaseMetaData.nullPlusNonNullIsNull()	Retrieves whether this database supports concatenations between NULL and non NULL values being NULL
+SQLException.SQLException(String,String,Throwable)	Constructs a SQLException object with a given reason SQLState and cause
+DatabaseMetaData.getDriverMinorVersion()	Retrieves this JDBC driver s minor version number
+SQLIntegrityConstraintViolationException.SQLIntegrityConstraintViolationException(String,String,int,Throwable)	Constructs a SQLIntegrityConstraintViolationException object with a given reason SQLState vendorCode and cause
+SQLOutput.writeDouble(double)	Writes the next attribute to the stream as a Java double
+ResultSet.getArray(int)	Retrieves the value of the designated column in the current row of this ResultSet object as an Array object in the Java programming language
+ResultSet.updateNCharacterStream(int,Reader)	Updates the designated column with a character stream value
+CallableStatement.getTime(int,Calendar)	Retrieves the value of the designated JDBC TIME parameter as a java sql Time object using the given Calendar object to construct the time
+DatabaseMetaData.getClientInfoProperties()	Retrieves a list of the client info properties that the driver supports The result set contains the following columns NAME String The name of the client info property MAX LEN int The maximum length of the value for the property DEFAULT VALUE String The default value of the property DESCRIPTION String A description of the property This will typically contain information as to where this property is stored in the database
+CallableStatement.setCharacterStream(String,Reader,long)	Sets the designated parameter to the given Reader object which is the given number of characters long
+ResultSetMetaData.isAutoIncrement(int)	Indicates whether the designated column is automatically numbered
+DatabaseMetaData.getConnection()	Retrieves the connection that produced this metadata object
+ResultSet.updateBinaryStream(int,InputStream,long)	Updates the designated column with a binary stream value which will have the specified number of bytes
+ResultSet.findColumn(String)	Maps the given ResultSet column label to its ResultSet column index
+Timestamp.valueOf(String)	Converts a String object in JDBC timestamp escape format to a Timestamp value
+SQLRecoverableException.SQLRecoverableException(Throwable)	Constructs a SQLRecoverableException object with a given cause
+SQLTransientException.SQLTransientException(String,String,int)	Constructs a SQLTransientException object with a given reason SQLState and vendorCode
+Driver.getParentLogger()	Return the parent Logger of all the Loggers used by this driver This should be the Logger farthest from the root Logger that is still an ancestor of all of the Loggers used by this driver Configuring this Logger will affect all of the log messages generated by the driver
+SQLOutput.writeRowId(RowId)	Writes an SQL ROWID value to the stream
+ResultSetMetaData.getColumnCount()	Returns the number of columns in this ResultSet object
+CallableStatement.getCharacterStream(String)	Retrieves the value of the designated parameter as a java io Reader object in the Java programming language
+CallableStatement.setSQLXML(String,SQLXML)	Sets the designated parameter to the given java sql SQLXML object The driver converts this to an SQL XML value when it sends it to the database
+ResultSetMetaData.getColumnTypeName(int)	Retrieves the designated column s database specific type name
+BatchUpdateException.BatchUpdateException(String,String,int,int[],Throwable)	Constructs a BatchUpdateException object initialized with a given reason SQLState vendorCode cause and updateCounts
+CallableStatement.getObject(int,Map)	Returns an object representing the value of OUT parameter parameterIndex and uses map for the custom mapping of the parameter value
+CallableStatement.setNClob(String,Reader,long)	Sets the designated parameter to a Reader object The reader must contain the number of characters specified by length otherwise a SQLException will be generated when the CallableStatement is executed
+DatabaseMetaData.doesMaxRowSizeIncludeBlobs()	Retrieves whether the return value for the method getMaxRowSize includes the SQL data types LONGVARCHAR and LONGVARBINARY
+Statement.setFetchDirection(int)	Gives the driver a hint as to the direction in which rows will be processed in ResultSet objects created using this Statement object The default value is ResultSet FETCH FORWARD
+Connection.createNClob()	Constructs an object that implements the NClob interface The object returned initially contains no data The setAsciiStream setCharacterStream and setString methods of the NClob interface may be used to add data to the NClob
+SQLRecoverableException.SQLRecoverableException(String,String,int)	Constructs a SQLRecoverableException object with a given reason SQLState and vendorCode
+SQLWarning.SQLWarning(String,String,Throwable)	Constructs a SQLWarning object with a given reason SQLState and cause
+SQLTransactionRollbackException.SQLTransactionRollbackException(Throwable)	Constructs a SQLTransactionRollbackException object with a given cause
+DatabaseMetaData.getMaxColumnsInIndex()	Retrieves the maximum number of columns this database allows in an index
+CallableStatement.setTimestamp(String,Timestamp)	Sets the designated parameter to the given java sql Timestamp value
+PreparedStatement.setFloat(int,float)	Sets the designated parameter to the given Java float value
+SQLTimeoutException.SQLTimeoutException(String,Throwable)	Constructs a SQLTimeoutException object with a given reason and cause
+SQLPermission.SQLPermission(String)	Creates a new SQLPermission object with the specified name
+ResultSet.updateArray(int,Array)	Updates the designated column with a java sql Array value
+SQLInput.readString()	Reads the next attribute in the stream and returns it as a String in the Java programming language
+Ref.setObject(Object)	Sets the structured type value that this Ref object references to the given instance of Object
+DatabaseMetaData.storesMixedCaseQuotedIdentifiers()	Retrieves whether this database treats mixed case quoted SQL identifiers as case insensitive and stores them in mixed case
+Clob.getCharacterStream(long,long)	Returns a Reader object that contains a partial Clob value starting with the character specified by pos which is length characters in length
+DriverManager.getDriver(String)	Attempts to locate a driver that understands the given URL
+Clob.setString(long,String,int,int)	Writes len characters of str starting at character offset to the CLOB value that this Clob represents The string will overwrite the existing characters in the Clob object starting at the position pos If the end of the Clob value is reached while writing the given string then the length of the Clob value will be increased to accomodate the extra characters
+ParameterMetaData.getParameterClassName(int)	Retrieves the fully qualified name of the Java class whose instances should be passed to the method PreparedStatement setObject
+ResultSet.updateNClob(int,Reader,long)	Updates the designated column using the given Reader object which is the given number of characters long
+DatabaseMetaData.getCatalogs()	Retrieves the catalog names available in this database The results are ordered by catalog name
+SQLInput.readNString()	Reads the next attribute in the stream and returns it as a String in the Java programming language It is intended for use when accessing NCHAR NVARCHAR and LONGNVARCHAR columns
+SQLInvalidAuthorizationSpecException.SQLInvalidAuthorizationSpecException(String,String)	Constructs a SQLInvalidAuthorizationSpecException object with a given reason and SQLState
+SQLInput.readByte()	Reads the next attribute in the stream and returns it as a byte in the Java programming language
+ResultSet.getTime(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Time object in the Java programming language
+ResultSet.insertRow()	Inserts the contents of the insert row into this ResultSet object and into the database
+Savepoint.getSavepointId()	Retrieves the generated ID for the savepoint that this Savepoint object represents
+DatabaseMetaData.supportsPositionedUpdate()	Retrieves whether this database supports positioned UPDATE statements
+CallableStatement.getBigDecimal(int)	Retrieves the value of the designated JDBC NUMERIC parameter as a java math BigDecimal object with as many digits to the right of the decimal point as the value contains
+DatabaseMetaData.getSuperTypes(String,String,String)	Retrieves a description of the user defined type UDT hierarchies defined in a particular schema in this database Only the immediate super type sub type relationship is modeled
+ResultSet.getNCharacterStream(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a java io Reader object
+Timestamp.before(Timestamp)	Indicates whether this Timestamp object is earlier than the given Timestamp object
+CallableStatement.registerOutParameter(int,int,int)	Registers the parameter in ordinal position parameterIndex to be of JDBC type sqlType All OUT parameters must be registered before a stored procedure is executed
+SQLXML.free()	This method closes this object and releases the resources that it held
+ResultSet.updateBytes(int,byte[])	Updates the designated column with a byte array value
+SQLTimeoutException.SQLTimeoutException(String,String)	Constructs a SQLTimeoutException object with a given reason and SQLState
+Array.getResultSet(long,int)	Retrieves a result set holding the elements of the subarray that starts at index index and contains up to count successive elements This method uses the connection s type map to map the elements of the array if the map contains an entry for the base type Otherwise the standard mapping is used
+Timestamp.toString()	Formats a timestamp in JDBC timestamp escape format
+Array.getArray(long,int,Map)	Retreives a slice of the SQL ARRAY value designated by this Array object beginning with the specified index and containing up to count successive elements of the SQL array
+SQLDataException.SQLDataException(String,String,Throwable)	Constructs a SQLDataException object with a given reason SQLState and cause
+ResultSet.getRef(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a Ref object in the Java programming language
+DriverManager.getLogStream()	Retrieves the logging tracing PrintStream that is used by the DriverManager and all drivers
+CallableStatement.getBytes(int)	Retrieves the value of the designated JDBC BINARY or VARBINARY parameter as an array of byte values in the Java programming language
+Connection.setTypeMap(Map)	Installs the given TypeMap object as the type map for this Connection object The type map will be used for the custom mapping of SQL structured types and distinct types
+ResultSet.updateBinaryStream(int,InputStream,int)	Updates the designated column with a binary stream value which will have the specified number of bytes
+DatabaseMetaData.getSQLKeywords()	Retrieves a comma separated list of all of this database s SQL keywords that are NOT also SQL 2003 keywords
+ResultSet.getMetaData()	Retrieves the number types and properties of this ResultSet object s columns
+SQLDataException.SQLDataException(String,String)	Constructs a SQLDataException object with a given reason and SQLState The vendor code is initialized to 0
+DatabaseMetaData.getPseudoColumns(String,String,String,String)	Retrieves a description of the pseudo or hidden columns available in a given table within the specified catalog and schema
+CallableStatement.setRowId(String,RowId)	Sets the designated parameter to the given java sql RowId object The driver converts this to a SQL ROWID when it sends it to the database
+SQLWarning.setNextWarning(SQLWarning)	Adds a SQLWarning object to the end of the chain
+ResultSet.getShort(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a short in the Java programming language
+CallableStatement.setAsciiStream(String,InputStream)	Sets the designated parameter to the given input stream
+ResultSet.previous()	Moves the cursor to the previous row in this ResultSet object
+Statement.getWarnings()	Retrieves the first warning reported by calls on this Statement object
+ResultSetMetaData.getScale(int)	Gets the designated column s number of digits to right of the decimal point
+Connection.prepareStatement(String,int)	Creates a default PreparedStatement object that has the capability to retrieve auto generated keys The given constant tells the driver whether it should make auto generated keys available for retrieval This parameter is ignored if the SQL statement is not an INSERT statement or an SQL statement able to return auto generated keys the list of such statements is vendor specific
+ResultSet.getBytes(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a byte array in the Java programming language
+SQLFeatureNotSupportedException.SQLFeatureNotSupportedException(String,Throwable)	Constructs a SQLFeatureNotSupportedException object with a given reason and cause
+PreparedStatement.setLong(int,long)	Sets the designated parameter to the given Java long value
+ResultSet.getCharacterStream(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a java io Reader object
+Connection.prepareCall(String,int,int)	Creates a CallableStatement object that will generate ResultSet objects with the given type and concurrency
+SQLException.getSQLState()	Retrieves the SQLState for this SQLException object
+CallableStatement.getBoolean(int)	Retrieves the value of the designated JDBC BIT or BOOLEAN parameter as a boolean in the Java programming language
+ResultSet.getObject(int,Map)	Retrieves the value of the designated column in the current row of this ResultSet object as an Object in the Java programming language
+SQLOutput.writeBoolean(boolean)	Writes the next attribute to the stream as a Java boolean
+SQLIntegrityConstraintViolationException.SQLIntegrityConstraintViolationException(Throwable)	Constructs an SQLIntegrityConstraintViolationException object with a given cause
+SQLOutput.writeCharacterStream(Reader)	Writes the next attribute to the stream as a stream of Unicode characters
+SQLInput.readBytes()	Reads the next attribute in the stream and returns it as an array of bytes in the Java programming language
+DatabaseMetaData.getResultSetHoldability()	Retrieves this database s default holdability for ResultSet objects
+SQLWarning.SQLWarning()	Constructs a SQLWarning object
+ResultSet.refreshRow()	Refreshes the current row with its most recent value in the database This method cannot be called when the cursor is on the insert row
+SQLTransactionRollbackException.SQLTransactionRollbackException(String,String)	Constructs a SQLTransactionRollbackException object with a given reason and SQLState
+ParameterMetaData.getParameterTypeName(int)	Retrieves the designated parameter s database specific type name
+ResultSet.updateClob(String,Clob)	Updates the designated column with a java sql Clob value
+SQLNonTransientException.SQLNonTransientException(String)	Constructs a SQLNonTransientException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+CallableStatement.getInt(String)	Retrieves the value of a JDBC INTEGER parameter as an int in the Java programming language
+CallableStatement.setCharacterStream(String,Reader,int)	Sets the designated parameter to the given Reader object which is the given number of characters long
+CallableStatement.registerOutParameter(String,int,int)	Registers the parameter named parameterName to be of JDBC type sqlType All OUT parameters must be registered before a stored procedure is executed
+ResultSet.getLong(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a long in the Java programming language
+ResultSet.updateRowId(int,RowId)	Updates the designated column with a RowId value The updater methods are used to update column values in the current row or the insert row The updater methods do not update the underlying database instead the updateRow or insertRow methods are called to update the database
+ResultSet.updateNClob(int,Reader)	Updates the designated column using the given Reader The data will be read from the stream as needed until end of stream is reached The JDBC driver will do any necessary conversion from UNICODE to the database char format
+SQLInput.readTimestamp()	Reads the next attribute in the stream and returns it as a java sql Timestamp object
+Clob.setString(long,String)	Writes the given Java String to the CLOB value that this Clob object designates at the position pos The string will overwrite the existing characters in the Clob object starting at the position pos If the end of the Clob value is reached while writing the given string then the length of the Clob value will be increased to accomodate the extra characters
+ResultSet.getType()	Retrieves the type of this ResultSet object
+ResultSet.getStatement()	Retrieves the Statement object that produced this ResultSet object
+ResultSet.getBigDecimal(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a java math BigDecimal with full precision
+ResultSet.updateBoolean(int,boolean)	Updates the designated column with a boolean value
+CallableStatement.getNString(int)	Retrieves the value of the designated NCHAR NVARCHAR or LONGNVARCHAR parameter as a String in the Java programming language
+SQLNonTransientConnectionException.SQLNonTransientConnectionException(String,String,int)	Constructs a SQLNonTransientConnectionException object with a given reason SQLState and vendorCode
+SQLInvalidAuthorizationSpecException.SQLInvalidAuthorizationSpecException(String,Throwable)	Constructs a SQLInvalidAuthorizationSpecException object with a given reason and cause
+SQLInvalidAuthorizationSpecException.SQLInvalidAuthorizationSpecException(Throwable)	Constructs a SQLInvalidAuthorizationSpecException object with a given cause
+ResultSet.next()	Moves the cursor froward one row from its current position
+ParameterMetaData.getParameterMode(int)	Retrieves the designated parameter s mode
+ResultSet.getNString(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a String in the Java programming language
+CallableStatement.getNClob(String)	Retrieves the value of a JDBC NCLOB parameter as a java sql NClob object in the Java programming language
+SQLTransientConnectionException.SQLTransientConnectionException(String,String,int)	Constructs a SQLTransientConnectionException object with a given reason SQLState and vendorCode
+PreparedStatement.setAsciiStream(int,InputStream,int)	Sets the designated parameter to the given input stream which will have the specified number of bytes
+Time.Time(long)	Constructs a Time object using a milliseconds time value
+Connection.nativeSQL(String)	Converts the given SQL statement into the system s native SQL grammar
+PreparedStatement.setObject(int,Object,int)	Sets the value of the designated parameter with the given object
+CallableStatement.getArray(int)	Retrieves the value of the designated JDBC ARRAY parameter as an Array object in the Java programming language
+DatabaseMetaData.supportsMultipleTransactions()	Retrieves whether this database allows having multiple transactions open at once on different connections
+ResultSet.getNString(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a String in the Java programming language
+DatabaseMetaData.allProceduresAreCallable()	Retrieves whether the current user can call all the procedures returned by the method getProcedures
+SQLSyntaxErrorException.SQLSyntaxErrorException(String,Throwable)	Constructs a SQLSyntaxErrorException object with a given reason and cause
+DatabaseMetaData.isReadOnly()	Retrieves whether this database is in read only mode
+SQLInput.readLong()	Reads the next attribute in the stream and returns it as a long in the Java programming language
+ResultSet.updateBlob(String,InputStream)	Updates the designated column using the given input stream The data will be read from the stream as needed until end of stream is reached
+SQLXML.setBinaryStream()	Retrieves a stream that can be used to write the XML value that this SQLXML instance represents
+CallableStatement.setClob(String,Reader,long)	Sets the designated parameter to a Reader object The reader must contain the number of characters specified by length otherwise a SQLException will be generated when the CallableStatement is executed
+Statement.getResultSetType()	Retrieves the result set type for ResultSet objects generated by this Statement object
+Clob.position(Clob,long)	Retrieves the character position at which the specified Clob object searchstr appears in this Clob object The search begins at position start
+ParameterMetaData.isNullable(int)	Retrieves whether null values are allowed in the designated parameter
+ResultSet.updateAsciiStream(int,InputStream,long)	Updates the designated column with an ascii stream value which will have the specified number of bytes
+SQLTransactionRollbackException.SQLTransactionRollbackException(String,String,int,Throwable)	Constructs a SQLTransactionRollbackException object with a given reason SQLState vendorCode and cause
+SQLTransactionRollbackException.SQLTransactionRollbackException()	Constructs a SQLTransactionRollbackException object
+ResultSet.updateSQLXML(int,SQLXML)	Updates the designated column with a java sql SQLXML value
+SQLNonTransientConnectionException.SQLNonTransientConnectionException(String)	Constructs a SQLNonTransientConnectionException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+DatabaseMetaData.supportsStoredProcedures()	Retrieves whether this database supports stored procedure calls that use the stored procedure escape syntax
+SQLData.writeSQL(SQLOutput)	Writes this object to the given SQL data stream converting it back to its SQL value in the data source
+SQLXML.setString(String)	Sets the XML value designated by this SQLXML instance to the given String representation
+DataTruncation.getIndex()	Retrieves the index of the column or parameter that was truncated
+BatchUpdateException.getUpdateCounts()	Retrieves the update count for each update statement in the batch update that executed successfully before this exception occurred
+DataTruncation.DataTruncation(int,boolean,boolean,int,int,Throwable)	Creates a DataTruncation object with the SQLState initialized to 01004 when read is set to true and 22001 when read is set to false the reason set to Data truncation the vendor code set to 0 and the other fields set to the given values
+Clob.getCharacterStream()	Retrieves the CLOB value designated by this Clob object as a java io Reader object or as a stream of characters
+ResultSet.updateRef(String,Ref)	Updates the designated column with a java sql Ref value
+Date.Date(long)	Constructs a Date object using the given milliseconds time value If the given milliseconds value contains time information the driver will set the time components to the time in the default time zone the time zone of the Java virtual machine running the application that corresponds to zero GMT
+CallableStatement.registerOutParameter(String,int)	Registers the OUT parameter named parameterName to the JDBC type sqlType All OUT parameters must be registered before a stored procedure is executed
+ResultSet.getByte(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a byte in the Java programming language
+DatabaseMetaData.getUserName()	Retrieves the user name as known to this database
+SQLWarning.SQLWarning(String)	Constructs a SQLWarning object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+ResultSet.updateCharacterStream(int,Reader)	Updates the designated column with a character stream value
+SQLWarning.SQLWarning(String,String,int)	Constructs a SQLWarning object with a given reason SQLState and vendorCode
+CallableStatement.setNString(String,String)	Sets the designated parameter to the given String object
+DatabaseMetaData.getUDTs(String,String,String,int[])	Retrieves a description of the user defined types UDTs defined in a particular schema Schema specific UDTs may have type JAVA OBJECT STRUCT or DISTINCT
+CallableStatement.registerOutParameter(int,int,String)	Registers the designated output parameter
+ResultSet.updateBinaryStream(String,InputStream,int)	Updates the designated column with a binary stream value which will have the specified number of bytes
+DatabaseMetaData.getMaxBinaryLiteralLength()	Retrieves the maximum number of hex characters this database allows in an inline binary literal
+Time.getMonth()	This method is deprecated and should not be used because SQL TIME values do not have a month component
+DatabaseMetaData.supportsAlterTableWithDropColumn()	Retrieves whether this database supports ALTER TABLE with drop column
+DatabaseMetaData.getMaxCharLiteralLength()	Retrieves the maximum number of characters this database allows for a character literal
+DatabaseMetaData.nullsAreSortedAtStart()	Retrieves whether NULL values are sorted at the start regardless of sort order
+DatabaseMetaData.getMaxUserNameLength()	Retrieves the maximum number of characters this database allows in a user name
+ResultSet.updateInt(int,int)	Updates the designated column with an int value
+CallableStatement.setAsciiStream(String,InputStream,int)	Sets the designated parameter to the given input stream which will have the specified number of bytes
+CallableStatement.getObject(String,Map)	Returns an object representing the value of OUT parameter parameterName and uses map for the custom mapping of the parameter value
+ResultSet.getDate(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Date object in the Java programming language
+CallableStatement.setBinaryStream(String,InputStream,long)	Sets the designated parameter to the given input stream which will have the specified number of bytes
+DriverManager.registerDriver(Driver)	Registers the given driver with the DriverManager
+ResultSet.getNCharacterStream(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a java io Reader object
+DatabaseMetaData.nullsAreSortedLow()	Retrieves whether NULL values are sorted low
+Timestamp.Timestamp(int,int,int,int,int,int,int)	Constructs a Timestamp object initialized with the given values
+SQLNonTransientConnectionException.SQLNonTransientConnectionException(Throwable)	Constructs a SQLNonTransientConnectionException object with a given cause
+Blob.setBinaryStream(long)	Retrieves a stream that can be used to write to the BLOB value that this Blob object represents The stream begins at position pos
+SQLTransactionRollbackException.SQLTransactionRollbackException(String,Throwable)	Constructs a SQLTransactionRollbackException object with a given reason and cause
+DatabaseMetaData.supportsExpressionsInOrderBy()	Retrieves whether this database supports expressions in ORDER BY lists
+ResultSet.getFetchSize()	Retrieves the fetch size for this ResultSet object
+Time.setTime(long)	Sets a Time object using a milliseconds time value
+CallableStatement.setByte(String,byte)	Sets the designated parameter to the given Java byte value
+Wrapper.unwrap(Class)	Returns an object that implements the given interface to allow access to non standard methods or standard methods not exposed by the proxy
+CallableStatement.getBoolean(String)	Retrieves the value of a JDBC BIT or BOOLEAN parameter as a boolean in the Java programming language
+ResultSet.getTimestamp(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Timestamp object in the Java programming language
+SQLTransactionRollbackException.SQLTransactionRollbackException(String,String,int)	Constructs a SQLTransactionRollbackException object with a given reason SQLState and vendorCode
+ResultSet.updateAsciiStream(String,InputStream,int)	Updates the designated column with an ascii stream value which will have the specified number of bytes
+Connection.setSavepoint()	Creates an unnamed savepoint in the current transaction and returns the new Savepoint object that represents it
+Statement.execute(String,String[])	Executes the given SQL statement which may return multiple results and signals the driver that the auto generated keys indicated in the given array should be made available for retrieval This array contains the names of the columns in the target table that contain the auto generated keys that should be made available The driver will ignore the array if the SQL statement is not an INSERT statement or an SQL statement able to return auto generated keys the list of such statements is vendor specific
+Statement.getMaxFieldSize()	Retrieves the maximum number of bytes that can be returned for character and binary column values in a ResultSet object produced by this Statement object
+ResultSet.rowInserted()	Retrieves whether the current row has had an insertion
+CallableStatement.setBinaryStream(String,InputStream,int)	Sets the designated parameter to the given input stream which will have the specified number of bytes
+CallableStatement.setTimestamp(String,Timestamp,Calendar)	Sets the designated parameter to the given java sql Timestamp value using the given Calendar object The driver uses the Calendar object to construct an SQL TIMESTAMP value which the driver then sends to the database With a a Calendar object the driver can calculate the timestamp taking into account a custom timezone If no Calendar object is specified the driver uses the default timezone which is that of the virtual machine running the application
+DriverManager.setLogWriter(PrintWriter)	Sets the logging tracing PrintWriter object that is used by the DriverManager and all drivers
+ResultSet.getFetchDirection()	Retrieves the fetch direction for this ResultSet object
+Date.setHours(int)	This method is deprecated and should not be used because SQL Date values do not have a time component
+DatabaseMetaData.supportsMultipleResultSets()	Retrieves whether this database supports getting multiple ResultSet objects from a single call to the method execute
+PreparedStatement.setBigDecimal(int,BigDecimal)	Sets the designated parameter to the given java math BigDecimal value
+SQLDataException.SQLDataException(String,String,int,Throwable)	Constructs a SQLDataException object with a given reason SQLState vendorCode and cause
+DatabaseMetaData.getMaxSchemaNameLength()	Retrieves the maximum number of characters that this database allows in a schema name
+DatabaseMetaData.getMaxColumnsInGroupBy()	Retrieves the maximum number of columns this database allows in a GROUP BY clause
+DatabaseMetaData.storesMixedCaseIdentifiers()	Retrieves whether this database treats mixed case unquoted SQL identifiers as case insensitive and stores them in mixed case
+Driver.connect(String,Properties)	Attempts to make a database connection to the given URL
+SQLData.readSQL(SQLInput,String)	Populates this object with data read from the database
+PreparedStatement.setSQLXML(int,SQLXML)	Sets the designated parameter to the given java sql SQLXML object
+DatabaseMetaData.getSuperTables(String,String,String)	Retrieves a description of the table hierarchies defined in a particular schema in this database
+DatabaseMetaData.updatesAreDetected(int)	Retrieves whether or not a visible row update can be detected by calling the method ResultSet rowUpdated
+SQLRecoverableException.SQLRecoverableException(String,Throwable)	Constructs a SQLRecoverableException object with a given reason and cause
+SQLNonTransientConnectionException.SQLNonTransientConnectionException()	Constructs a SQLNonTransientConnectionException object
+Savepoint.getSavepointName()	Retrieves the name of the savepoint that this Savepoint object represents
+DatabaseMetaData.supportsIntegrityEnhancementFacility()	Retrieves whether this database supports the SQL Integrity Enhancement Facility
+Blob.position(byte[],long)	Retrieves the byte position at which the specified byte array pattern begins within the BLOB value that this Blob object represents The search for pattern begins at position start
+DatabaseMetaData.getExportedKeys(String,String,String)	Retrieves a description of the foreign key columns that reference the given table s primary key columns the foreign keys exported by a table They are ordered by FKTABLE CAT FKTABLE SCHEM FKTABLE NAME and KEY SEQ
+ResultSet.last()	Moves the cursor to the last row in this ResultSet object
+DatabaseMetaData.getBestRowIdentifier(String,String,String,int,boolean)	Retrieves a description of a table s optimal set of columns that uniquely identifies a row They are ordered by SCOPE
+ResultSet.getTime(String,Calendar)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Time object in the Java programming language
+Timestamp.after(Timestamp)	Indicates whether this Timestamp object is later than the given Timestamp object
+ResultSetMetaData.isCaseSensitive(int)	Indicates whether a column s case matters
+Struct.getAttributes(Map)	Produces the ordered values of the attributes of the SQL structured type that this Struct object represents
+DatabaseMetaData.supportsColumnAliasing()	Retrieves whether this database supports column aliasing
+Statement.isPoolable()	Returns a value indicating whether the Statement is poolable or not
+DatabaseMetaData.supportsANSI92IntermediateSQL()	Retrieves whether this database supports the ANSI92 intermediate SQL grammar supported
+ResultSetMetaData.isSearchable(int)	Indicates whether the designated column can be used in a where clause
+Statement.setCursorName(String)	Sets the SQL cursor name to the given String which will be used by subsequent Statement object execute methods This name can then be used in SQL positioned update or delete statements to identify the current row in the ResultSet object generated by this statement If the database does not support positioned update delete this method is a noop To insure that a cursor has the proper isolation level to support updates the cursor s SELECT statement should have the form SELECT FOR UPDATE If FOR UPDATE is not present positioned updates may fail
+Statement.execute(String,int[])	Executes the given SQL statement which may return multiple results and signals the driver that the auto generated keys indicated in the given array should be made available for retrieval This array contains the indexes of the columns in the target table that contain the auto generated keys that should be made available The driver will ignore the array if the SQL statement is not an INSERT statement or an SQL statement able to return auto generated keys the list of such statements is vendor specific
+CallableStatement.setNClob(String,NClob)	Sets the designated parameter to a java sql NClob object The object implements the java sql NClob interface This NClob object maps to a SQL NCLOB
+Statement.clearWarnings()	Clears all the warnings reported on this Statement object After a call to this method the method getWarnings will return null until a new warning is reported for this Statement object
+ResultSet.getBoolean(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a boolean in the Java programming language
+CallableStatement.getCharacterStream(int)	Retrieves the value of the designated parameter as a java io Reader object in the Java programming language
+DatabaseMetaData.getSchemaTerm()	Retrieves the database vendor s preferred term for schema
+SQLClientInfoException.SQLClientInfoException(Map,Throwable)	Constructs a SQLClientInfoException object initialized with a given cause and failedProperties
+SQLPermission.SQLPermission(String,String)	Creates a new SQLPermission object with the specified name
+DatabaseMetaData.insertsAreDetected(int)	Retrieves whether or not a visible row insert can be detected by calling the method ResultSet rowInserted
+ResultSet.updateBlob(String,Blob)	Updates the designated column with a java sql Blob value
+ResultSet.getDate(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Date object in the Java programming language
+CallableStatement.setDouble(String,double)	Sets the designated parameter to the given Java double value
+SQLInput.readCharacterStream()	Reads the next attribute in the stream and returns it as a stream of Unicode characters
+BatchUpdateException.BatchUpdateException(String,int[],Throwable)	Constructs a BatchUpdateException object initialized with a given reason cause and updateCounts The SQLState is initialized to null and the vendor code is initialized to 0
+ResultSet.getBoolean(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a boolean in the Java programming language
+Clob.free()	This method frees the Clob object and releases the resources the resources that it holds The object is invalid once the free method is called
+ResultSet.updateBigDecimal(String,BigDecimal)	Updates the designated column with a java sql BigDecimal value
+SQLClientInfoException.SQLClientInfoException(String,String,Map,Throwable)	Constructs a SQLClientInfoException object initialized with a given reason SQLState cause and failedProperties The vendor code is initialized to 0
+Driver.acceptsURL(String)	Retrieves whether the driver thinks that it can open a connection to the given URL Typically drivers will return true if they understand the subprotocol specified in the URL and false if they do not
+CallableStatement.getSQLXML(String)	Retrieves the value of the designated SQL XML parameter as a java sql SQLXML object in the Java programming language
+SQLTransientConnectionException.SQLTransientConnectionException()	Constructs a SQLTransientConnectionException object
+DatabaseMetaData.getTimeDateFunctions()	Retrieves a comma separated list of the time and date functions available with this database
+Statement.getResultSetHoldability()	Retrieves the result set holdability for ResultSet objects generated by this Statement object
+Statement.setMaxRows(int)	Sets the limit for the maximum number of rows that any ResultSet object generated by this Statement object can contain to the given number
+ResultSet.updateNull(int)	Updates the designated column with a null value
+DatabaseMetaData.nullsAreSortedAtEnd()	Retrieves whether NULL values are sorted at the end regardless of sort order
+DatabaseMetaData.getMaxRowSize()	Retrieves the maximum number of bytes this database allows in a single row
+CallableStatement.setObject(String,Object,int,int)	Sets the value of the designated parameter with the given object The second argument must be an object type for integral values the java lang equivalent objects should be used
+ResultSet.updateBlob(int,Blob)	Updates the designated column with a java sql Blob value
+ResultSet.getTime(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Time object in the Java programming language
+Connection.commit()	Makes all changes made since the previous commit rollback permanent and releases any database locks currently held by this Connection object
+Time.Time(int,int,int)	Constructs a Time object initialized with the given values for the hour minute and second
+DatabaseMetaData.getFunctions(String,String,String)	Retrieves a description of the system and user functions available in the given catalog
+CallableStatement.getDouble(String)	Retrieves the value of a JDBC DOUBLE parameter as a double in the Java programming language
+DatabaseMetaData.getColumnPrivileges(String,String,String,String)	Retrieves a description of the access rights for a table s columns
+Timestamp.equals(Object)	Tests to see if this Timestamp object is equal to the given object
+DatabaseMetaData.getVersionColumns(String,String,String)	Retrieves a description of a table s columns that are automatically updated when any value in a row is updated They are unordered
+ResultSet.getNClob(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a NClob object in the Java programming language
+SQLXML.setCharacterStream()	Retrieves a stream to be used to write the XML value that this SQLXML instance represents
+CallableStatement.setFloat(String,float)	Sets the designated parameter to the given Java float value
+Statement.executeUpdate(String)	Executes the given SQL statement which may be an INSERT UPDATE or DELETE statement or an SQL statement that returns nothing such as an SQL DDL statement
+SQLOutput.writeBigDecimal(BigDecimal)	Writes the next attribute to the stream as a java math BigDecimal object
+SQLRecoverableException.SQLRecoverableException(String,String)	Constructs a SQLRecoverableException object with a given reason and SQLState
+Timestamp.equals(Timestamp)	Tests to see if this Timestamp object is equal to the given Timestamp object
+ResultSet.getURL(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a java net URL object in the Java programming language
+SQLIntegrityConstraintViolationException.SQLIntegrityConstraintViolationException(String,String,int)	Constructs a SQLIntegrityConstraintViolationException object with a given reason SQLState and vendorCode
+Statement.getMaxRows()	Retrieves the maximum number of rows that a ResultSet object produced by this Statement object can contain If this limit is exceeded the excess rows are silently dropped
+DatabaseMetaData.supportsSchemasInProcedureCalls()	Retrieves whether a schema name can be used in a procedure call statement
+Connection.prepareStatement(String,int,int,int)	Creates a PreparedStatement object that will generate ResultSet objects with the given type concurrency and holdability
+SQLException.SQLException(Throwable)	Constructs a SQLException object with a given cause
+SQLWarning.SQLWarning(String,String,int,Throwable)	Constructs aSQLWarning object with a given reason SQLState vendorCode and cause
+CallableStatement.getByte(String)	Retrieves the value of a JDBC TINYINT parameter as a byte in the Java programming language
+CallableStatement.setString(String,String)	Sets the designated parameter to the given Java String value
+ResultSet.getSQLXML(int)	Retrieves the value of the designated column in the current row of this ResultSet as a java sql SQLXML object in the Java programming language
+Ref.getBaseTypeName()	Retrieves the fully qualified SQL name of the SQL structured type that this Ref object references
+Timestamp.getTime()	Returns the number of milliseconds since January 1 1970 00 00 00 GMT represented by this Timestamp object
+SQLNonTransientConnectionException.SQLNonTransientConnectionException(String,String,int,Throwable)	Constructs a SQLNonTransientConnectionException object with a given reason SQLState vendorCode and cause
+ResultSet.getDouble(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a double in the Java programming language
+ResultSet.getDate(int,Calendar)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Date object in the Java programming language
+SQLException.SQLException(String)	Constructs a SQLException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+SQLInput.readAsciiStream()	Reads the next attribute in the stream and returns it as a stream of ASCII characters
+Array.getArray(Map)	Retrieves the contents of the SQL ARRAY value designated by this Array object
+Statement.isClosed()	Retrieves whether this Statement object has been closed A Statement is closed if the method close has been called on it or if it is automatically closed
+ResultSet.getBlob(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a Blob object in the Java programming language
+DatabaseMetaData.supportsGroupByUnrelated()	Retrieves whether this database supports using a column that is not in the SELECT statement in a GROUP BY clause
+ResultSet.getCharacterStream(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a java io Reader object
+SQLInput.readSQLXML()	Reads an SQL XML value from the stream and returns it as a SQLXML object in the Java programming language
+Statement.executeQuery(String)	Executes the given SQL statement which returns a single ResultSet object
+SQLSyntaxErrorException.SQLSyntaxErrorException()	Constructs a SQLSyntaxErrorException object
+CallableStatement.getSQLXML(int)	Retrieves the value of the designated SQL XML parameter as a java sql SQLXML object in the Java programming language
+SQLInvalidAuthorizationSpecException.SQLInvalidAuthorizationSpecException(String)	Constructs a SQLInvalidAuthorizationSpecException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+SQLData.getSQLTypeName()	Returns the fully qualified name of the SQL user defined type that this object represents
+CallableStatement.getDate(String,Calendar)	Retrieves the value of a JDBC DATE parameter as a java sql Date object using the given Calendar object to construct the date
+ResultSet.updateFloat(String,float)	Updates the designated column with a float value
+PreparedStatement.setNClob(int,Reader)	Sets the designated parameter to a Reader object
+ResultSet.updateBlob(String,InputStream,long)	Updates the designated column using the given input stream which will have the specified number of bytes
+Driver.getPropertyInfo(String,Properties)	Gets information about the possible properties for this driver
+DatabaseMetaData.supportsOpenCursorsAcrossCommit()	Retrieves whether this database supports keeping cursors open across commits
+ResultSet.updateObject(String,Object)	Updates the designated column with an Object value
+Statement.executeUpdate(String,int[])	Executes the given SQL statement and signals the driver that the auto generated keys indicated in the given array should be made available for retrieval This array contains the indexes of the columns in the target table that contain the auto generated keys that should be made available The driver will ignore the array if the SQL statement is not an INSERT statement or an SQL statement able to return auto generated keys the list of such statements is vendor specific
+DatabaseMetaData.getDefaultTransactionIsolation()	Retrieves this database s default transaction isolation level The possible values are defined in java sql Connection
+DatabaseMetaData.supportsExtendedSQLGrammar()	Retrieves whether this database supports the ODBC Extended SQL grammar
+CallableStatement.getObject(int)	Retrieves the value of the designated parameter as an Object in the Java programming language If the value is an SQL NULL the driver returns a Java null
+Driver.jdbcCompliant()	Reports whether this driver is a genuine JDBC CompliantTM driver
+DatabaseMetaData.getSchemas(String,String)	Retrieves the schema names available in this database The results are ordered by TABLE CATALOG and TABLE SCHEM
+ParameterMetaData.isSigned(int)	Retrieves whether values for the designated parameter can be signed numbers
+ResultSet.updateAsciiStream(String,InputStream)	Updates the designated column with an ascii stream value
+CallableStatement.getShort(String)	Retrieves the value of a JDBC SMALLINT parameter as a short in the Java programming language
+ResultSet.isAfterLast()	Retrieves whether the cursor is after the last row in this ResultSet object
+Connection.isReadOnly()	Retrieves whether this Connection object is in read only mode
+CallableStatement.setBlob(String,InputStream)	Sets the designated parameter to a InputStream object
+SQLInput.readTime()	Reads the next attribute in the stream and returns it as a java sql Time object
+DatabaseMetaData.othersDeletesAreVisible(int)	Retrieves whether deletes made by others are visible
+CallableStatement.getRowId(String)	Retrieves the value of the designated JDBC ROWID parameter as a java sql RowId object
+Connection.setHoldability(int)	Changes the default holdability of ResultSet objects created using this Connection object to the given holdability The default holdability of ResultSet objects can be be determined by invoking DatabaseMetaData getResultSetHoldability
+DatabaseMetaData.autoCommitFailureClosesAllResultSets()	Retrieves whether a SQLException while autoCommit is true inidcates that all open ResultSets are closed even ones that are holdable When a SQLException occurs while autocommit is true it is vendor specific whether the JDBC driver responds with a commit operation a rollback operation or by doing neither a commit nor a rollback A potential result of this difference is in whether or not holdable ResultSets are closed
+Connection.createStruct(String,Object[])	Factory method for creating Struct objects
+SQLFeatureNotSupportedException.SQLFeatureNotSupportedException(String,String)	Constructs a SQLFeatureNotSupportedException object with a given reason and SQLState
+PreparedStatement.setClob(int,Clob)	Sets the designated parameter to the given java sql Clob object
+ResultSet.setFetchSize(int)	Gives the JDBC driver a hint as to the number of rows that should be fetched from the database when more rows are needed for this ResultSet object
+Date.valueOf(String)	Converts a string in JDBC date escape format to a Date value
+Blob.setBytes(long,byte[],int,int)	Writes all or part of the given byte array to the BLOB value that this Blob object represents and returns the number of bytes written
+PreparedStatement.setBinaryStream(int,InputStream,long)	Sets the designated parameter to the given input stream which will have the specified number of bytes
+PreparedStatement.setShort(int,short)	Sets the designated parameter to the given Java short value
+DatabaseMetaData.getDriverVersion()	Retrieves the version number of this JDBC driver as a String
+SQLTransactionRollbackException.SQLTransactionRollbackException(String)	Constructs a SQLTransactionRollbackException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+ResultSet.getRowId(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql RowId object in the Java programming language
+Time.getYear()	This method is deprecated and should not be used because SQL TIME values do not have a year component
+SQLSyntaxErrorException.SQLSyntaxErrorException(String,String,Throwable)	Constructs a SQLSyntaxErrorException object with a given reason SQLState and cause
+DatabaseMetaData.usesLocalFiles()	Retrieves whether this database stores tables in a local file
+DriverManager.deregisterDriver(Driver)	Drops a driver from the DriverManager s list
+ResultSetMetaData.getColumnClassName(int)	Returns the fully qualified name of the Java class whose instances are manufactured if the method ResultSet getObject is called to retrieve a value from the column ResultSet getObject may return a subclass of the class returned by this method
+DatabaseMetaData.getDatabaseMajorVersion()	Retrieves the major version number of the underlying database
+DatabaseMetaData.dataDefinitionIgnoredInTransactions()	Retrieves whether this database ignores a data definition statement within a transaction
+ResultSet.getUnicodeStream(int)	Retrieves the value of the designated column in the current row of this ResultSet object as as a stream of two byte 3 characters The first byte is the high byte the second byte is the low byte
+SQLFeatureNotSupportedException.SQLFeatureNotSupportedException(Throwable)	Constructs a SQLFeatureNotSupportedException object with a given cause
+ResultSet.getBigDecimal(String,int)	Retrieves the value of the designated column in the current row of this ResultSet object as a java math BigDecimal in the Java programming language
+CallableStatement.getTime(String)	Retrieves the value of a JDBC TIME parameter as a java sql Time object
+Statement.getFetchDirection()	Retrieves the direction for fetching rows from database tables that is the default for result sets generated from this Statement object
+SQLTransientException.SQLTransientException(Throwable)	Constructs a SQLTransientException object with a given cause
+DatabaseMetaData.supportsSchemasInDataManipulation()	Retrieves whether a schema name can be used in a data manipulation statement
+Connection.close()	Releases this Connection object s database and JDBC resources immediately instead of waiting for them to be automatically released
+CallableStatement.getNCharacterStream(int)	Retrieves the value of the designated parameter as a java io Reader object in the Java programming language
+Connection.getNetworkTimeout()	Retrieves the number of milliseconds the driver will wait for a database request to complete
+CallableStatement.getBigDecimal(int,int)	Retrieves the value of the designated JDBC NUMERIC parameter as a java math BigDecimal object with scale digits to the right of the decimal point
+DatabaseMetaData.dataDefinitionCausesTransactionCommit()	Retrieves whether a data definition statement within a transaction forces the transaction to commit
+CallableStatement.getTimestamp(int)	Retrieves the value of the designated JDBC TIMESTAMP parameter as a java sql Timestamp object
+DatabaseMetaData.getTablePrivileges(String,String,String)	Retrieves a description of the access rights for each table available in a catalog Note that a table privilege applies to one or more columns in the table It would be wrong to assume that this privilege applies to all columns this may be true for some systems but is not true for all Only privileges matching the schema and table name criteria are returned They are ordered by TABLE CAT TABLE SCHEM TABLE NAME and PRIVILEGE
+DatabaseMetaData.getPrimaryKeys(String,String,String)	Retrieves a description of the given table s primary key columns They are ordered by COLUMN NAME
+SQLNonTransientException.SQLNonTransientException(String,String)	Constructs a SQLNonTransientException object with a given reason and SQLState
+ResultSet.updateBigDecimal(int,BigDecimal)	Updates the designated column with a java math BigDecimal value
+SQLIntegrityConstraintViolationException.SQLIntegrityConstraintViolationException(String)	Constructs a SQLIntegrityConstraintViolationException with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+DatabaseMetaData.supportsSchemasInIndexDefinitions()	Retrieves whether a schema name can be used in an index definition statement
+ResultSet.updateLong(int,long)	Updates the designated column with a long value
+Connection.prepareStatement(String)	Creates a PreparedStatement object for sending parameterized SQL statements to the database
+ResultSet.getBlob(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a Blob object in the Java programming language
+SQLInput.readBigDecimal()	Reads the next attribute in the stream and returns it as a java math BigDecimal object in the Java programming language
+DatabaseMetaData.getColumns(String,String,String,String)	Retrieves a description of table columns available in the specified catalog
+Statement.setMaxFieldSize(int)	Sets the limit for the maximum number of bytes that can be returned for character and binary column values in a ResultSet object produced by this Statement object
+SQLIntegrityConstraintViolationException.SQLIntegrityConstraintViolationException()	Constructs a SQLIntegrityConstraintViolationException object
+Connection.setClientInfo(String,String)	Sets the value of the client info property specified by name to the value specified by value
+SQLXML.getCharacterStream()	Retrieves the XML value designated by this SQLXML instance as a java io Reader object
+ResultSet.getObject(int)	Gets the value of the designated column in the current row of this ResultSet object as an Object in the Java programming language
+ResultSetMetaData.getColumnLabel(int)	Gets the designated column s suggested title for use in printouts and displays The suggested title is usually specified by the SQL AS clause If a SQL AS is not specified the value returned from getColumnLabel will be the same as the value returned by the getColumnName method
+Statement.getGeneratedKeys()	Retrieves any auto generated keys created as a result of executing this Statement object If this Statement object did not generate any keys an empty ResultSet object is returned
+ResultSet.updateClob(int,Clob)	Updates the designated column with a java sql Clob value
+CallableStatement.getObject(String)	Retrieves the value of a parameter as an Object in the Java programming language If the value is an SQL NULL the driver returns a Java null
+DatabaseMetaData.supportsAlterTableWithAddColumn()	Retrieves whether this database supports ALTER TABLE with add column
+CallableStatement.getString(String)	Retrieves the value of a JDBC CHAR VARCHAR or LONGVARCHAR parameter as a String in the Java programming language
+DatabaseMetaData.supportsSelectForUpdate()	Retrieves whether this database supports SELECT FOR UPDATE statements
+Timestamp.setNanos(int)	Sets this Timestamp object s nanos field to the given value
+DatabaseMetaData.getMaxColumnsInOrderBy()	Retrieves the maximum number of columns this database allows in an ORDER BY clause
+PreparedStatement.setBoolean(int,boolean)	Sets the designated parameter to the given Java boolean value
+SQLException.getNextException()	Retrieves the exception chained to this SQLException object by setNextException SQLException ex
+Date.getMinutes()	This method is deprecated and should not be used because SQL Date values do not have a time component
+Connection.createClob()	Constructs an object that implements the Clob interface The object returned initially contains no data The setAsciiStream setCharacterStream and setString methods of the Clob interface may be used to add data to the Clob
+Clob.setAsciiStream(long)	Retrieves a stream to be used to write Ascii characters to the CLOB value that this Clob object represents starting at position pos Characters written to the stream will overwrite the existing characters in the Clob object starting at the position pos If the end of the Clob value is reached while writing characters to the stream then the length of the Clob value will be increased to accomodate the extra characters
+ResultSet.getShort(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a short in the Java programming language
+PreparedStatement.setString(int,String)	Sets the designated parameter to the given Java String value
+DatabaseMetaData.supportsGroupByBeyondSelect()	Retrieves whether this database supports using columns not included in the SELECT statement in a GROUP BY clause provided that all of the columns in the SELECT statement are included in the GROUP BY clause
+Statement.close()	Releases this Statement object s database and JDBC resources immediately instead of waiting for this to happen when it is automatically closed
+PreparedStatement.setTimestamp(int,Timestamp,Calendar)	Sets the designated parameter to the given java sql Timestamp value using the given Calendar object The driver uses the Calendar object to construct an SQL TIMESTAMP value which the driver then sends to the database With a Calendar object the driver can calculate the timestamp taking into account a custom timezone If no Calendar object is specified the driver uses the default timezone which is that of the virtual machine running the application
+CallableStatement.getLong(int)	Retrieves the value of the designated JDBC BIGINT parameter as a long in the Java programming language
+ResultSet.getObject(String,Map)	Retrieves the value of the designated column in the current row of this ResultSet object as an Object in the Java programming language
+DatabaseMetaData.getDatabaseProductName()	Retrieves the name of this database product
+PreparedStatement.setNull(int,int)	Sets the designated parameter to SQL NULL
+ResultSet.updateAsciiStream(int,InputStream,int)	Updates the designated column with an ascii stream value which will have the specified number of bytes
+DatabaseMetaData.getMaxColumnNameLength()	Retrieves the maximum number of characters this database allows for a column name
+CallableStatement.setBoolean(String,boolean)	Sets the designated parameter to the given Java boolean value
+PreparedStatement.addBatch()	Adds a set of parameters to this PreparedStatement object s batch of commands
+SQLClientInfoException.SQLClientInfoException(String,String,Map)	Constructs a SQLClientInfoException object initialized with a given reason SQLState and failedProperties
+ResultSet.updateClob(int,Reader)	Updates the designated column using the given Reader object
+PreparedStatement.setTime(int,Time,Calendar)	Sets the designated parameter to the given java sql Time value using the given Calendar object The driver uses the Calendar object to construct an SQL TIME value which the driver then sends to the database With a Calendar object the driver can calculate the time taking into account a custom timezone If no Calendar object is specified the driver uses the default timezone which is that of the virtual machine running the application
+SQLWarning.SQLWarning(String,String)	Constructs a SQLWarning object with a given reason and SQLState
+Connection.isClosed()	Retrieves whether this Connection object has been closed A connection is closed if the method close has been called on it or if certain fatal errors have occurred
+SQLFeatureNotSupportedException.SQLFeatureNotSupportedException(String,String,int,Throwable)	Constructs a SQLFeatureNotSupportedException object with a given reason SQLState vendorCode and cause
+ResultSet.getArray(String)	Retrieves the value of the designated column in the current row of this ResultSet object as an Array object in the Java programming language
+DataTruncation.getParameter()	Indicates whether the value truncated was a parameter value or a column value
+PreparedStatement.getParameterMetaData()	Retrieves the number types and properties of this PreparedStatement object s parameters
+Connection.createStatement(int,int,int)	Creates a Statement object that will generate ResultSet objects with the given type concurrency and holdability
+DataTruncation.DataTruncation(int,boolean,boolean,int,int)	Creates a DataTruncation object with the SQLState initialized to 01004 when read is set to true and 22001 when read is set to false the reason set to Data truncation the vendor code set to 0 and the other fields set to the given values
+CallableStatement.getDate(int,Calendar)	Retrieves the value of the designated JDBC DATE parameter as a java sql Date object using the given Calendar object to construct the date
+ResultSet.updateByte(String,byte)	Updates the designated column with a byte value
+ResultSetMetaData.getSchemaName(int)	Get the designated column s table s schema
+Array.getArray(long,int)	Retrieves a slice of the SQL ARRAY value designated by this Array object beginning with the specified index and containing up to count successive elements of the SQL array This method uses the type map associated with the connection for customizations of the type mappings
+SQLDataException.SQLDataException()	Constructs a SQLDataException object
+SQLException.iterator()	Returns an iterator over the chained SQLExceptions The iterator will be used to iterate over each SQLException and its underlying cause if any
+PreparedStatement.setRowId(int,RowId)	Sets the designated parameter to the given java sql RowId object The driver converts this to a SQL ROWID value when it sends it to the database
+DriverPropertyInfo.DriverPropertyInfo(String,String)	Constructs a DriverPropertyInfo object with a given name and value The description and choices are intialized to null and required is initialized to false
+Struct.getSQLTypeName()	Retrieves the SQL type name of the SQL structured type that this Struct object represents
+Connection.createStatement()	Creates a Statement object for sending SQL statements to the database
+CallableStatement.getByte(int)	Retrieves the value of the designated JDBC TINYINT parameter as a byte in the Java programming language
+Clob.position(String,long)	Retrieves the character position at which the specified substring searchstr appears in the SQL CLOB value represented by this Clob object The search begins at position start
+ResultSet.getRef(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a Ref object in the Java programming language
+SQLSyntaxErrorException.SQLSyntaxErrorException(String,String)	Constructs a SQLSyntaxErrorException object with a given reason and SQLState
+ResultSet.getDouble(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a double in the Java programming language
+PreparedStatement.setByte(int,byte)	Sets the designated parameter to the given Java byte value
+ResultSet.getSQLXML(String)	Retrieves the value of the designated column in the current row of this ResultSet as a java sql SQLXML object in the Java programming language
+SQLTransientException.SQLTransientException(String,String,Throwable)	Constructs a SQLTransientException object with a given reason SQLState and cause
+CallableStatement.getTime(int)	Retrieves the value of the designated JDBC TIME parameter as a java sql Time object
+CallableStatement.registerOutParameter(int,int)	Registers the OUT parameter in ordinal position parameterIndex to the JDBC type sqlType All OUT parameters must be registered before a stored procedure is executed
+ResultSet.updateNCharacterStream(String,Reader)	Updates the designated column with a character stream value
+DatabaseMetaData.supportsCatalogsInIndexDefinitions()	Retrieves whether a catalog name can be used in an index definition statement
+DatabaseMetaData.generatedKeyAlwaysReturned()	Retrieves whether a generated key will always be returned if the column name s or index es specified for the auto generated key column s are valid and the statement succeeds The key that is returned may or may not be based on the column s for the auto generated key
+DriverManager.println(String)	Prints a message to the current JDBC log stream
+CallableStatement.setNull(String,int)	Sets the designated parameter to SQL NULL
+ResultSet.getTimestamp(String,Calendar)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Timestamp object in the Java programming language
+SQLClientInfoException.SQLClientInfoException(String,Map)	Constructs a SQLClientInfoException object initialized with a given reason and failedProperties
+ResultSet.updateCharacterStream(String,Reader)	Updates the designated column with a character stream value
+DatabaseMetaData.supportsGetGeneratedKeys()	Retrieves whether auto generated keys can be retrieved after a statement has been executed
+DatabaseMetaData.getSQLStateType()	Indicates whether the SQLSTATE returned by SQLException getSQLState is X Open now known as Open Group SQL CLI or SQL 2003
+Connection.rollback(Savepoint)	Undoes all changes made after the given Savepoint object was set
+SQLSyntaxErrorException.SQLSyntaxErrorException(String)	Constructs a SQLSyntaxErrorException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+PreparedStatement.setDouble(int,double)	Sets the designated parameter to the given Java double value
+ResultSet.getBinaryStream(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a stream of uninterpreted bytes
+SQLOutput.writeShort(short)	Writes the next attribute to the stream as a Java short
+DatabaseMetaData.supportsStatementPooling()	Retrieves whether this database supports statement pooling
+CallableStatement.getDate(String)	Retrieves the value of a JDBC DATE parameter as a java sql Date object
+SQLInput.readShort()	Reads the next attribute in the stream and returns it as a short in the Java programming language
+DatabaseMetaData.supportsSavepoints()	Retrieves whether this database supports savepoints
+SQLSyntaxErrorException.SQLSyntaxErrorException(String,String,int,Throwable)	Constructs a SQLSyntaxErrorException object with a given reason SQLState vendorCode and cause
+DatabaseMetaData.getAttributes(String,String,String,String)	Retrieves a description of the given attribute of the given type for a user defined type UDT that is available in the given schema and catalog
+PreparedStatement.executeUpdate()	Executes the SQL statement in this PreparedStatement object which must be an SQL Data Manipulation Language DML statement such as INSERT UPDATE or DELETE or an SQL statement that returns nothing such as a DDL statement
+SQLFeatureNotSupportedException.SQLFeatureNotSupportedException(String,String,Throwable)	Constructs a SQLFeatureNotSupportedException object with a given reason SQLState and cause
+ResultSet.updateNClob(int,NClob)	Updates the designated column with a java sql NClob value
+CallableStatement.getString(int)	Retrieves the value of the designated JDBC CHAR VARCHAR or LONGVARCHAR parameter as a String in the Java programming language
+Blob.getBinaryStream()	Retrieves the BLOB value designated by this Blob instance as a stream
+ResultSet.updateNClob(String,Reader,long)	Updates the designated column using the given Reader object which is the given number of characters long
+SQLIntegrityConstraintViolationException.SQLIntegrityConstraintViolationException(String,String,Throwable)	Constructs a SQLIntegrityConstraintViolationException object with a given reason SQLState and cause
+SQLOutput.writeByte(byte)	Writes the next attribute to the stream as a Java byte
+Clob.truncate(long)	Truncates the CLOB value that this Clob designates to have a length of len characters
+ResultSet.moveToInsertRow()	Moves the cursor to the insert row The current cursor position is remembered while the cursor is positioned on the insert row
+DatabaseMetaData.supportsCatalogsInDataManipulation()	Retrieves whether a catalog name can be used in a data manipulation statement
+ResultSet.getRow()	Retrieves the current row number The first row is number 1 the second number 2 and so on
+SQLInput.readBinaryStream()	Reads the next attribute in the stream and returns it as a stream of uninterpreted bytes
+ResultSet.updateBinaryStream(String,InputStream)	Updates the designated column with a binary stream value
+Connection.clearWarnings()	Clears all warnings reported for this Connection object
+Connection.createArrayOf(String,Object[])	Factory method for creating Array objects
+DatabaseMetaData.getImportedKeys(String,String,String)	Retrieves a description of the primary key columns that are referenced by the given table s foreign key columns the primary keys imported by a table They are ordered by PKTABLE CAT PKTABLE SCHEM PKTABLE NAME and KEY SEQ
+Time.setYear(int)	This method is deprecated and should not be used because SQL TIME values do not have a year component
+ResultSet.relative(int)	Moves the cursor a relative number of rows either positive or negative
+DatabaseMetaData.supportsNonNullableColumns()	Retrieves whether columns in this database may be defined as non nullable
+DatabaseMetaData.getDriverName()	Retrieves the name of this JDBC driver
+DatabaseMetaData.getDriverMajorVersion()	Retrieves this JDBC driver s major version number
+CallableStatement.getClob(String)	Retrieves the value of a JDBC CLOB parameter as a java sql Clob object in the Java programming language
+Statement.execute(String,int)	Executes the given SQL statement which may return multiple results and signals the driver that any auto generated keys should be made available for retrieval The driver will ignore this signal if the SQL statement is not an INSERT statement or an SQL statement able to return auto generated keys the list of such statements is vendor specific
+CallableStatement.getNString(String)	Retrieves the value of the designated NCHAR NVARCHAR or LONGNVARCHAR parameter as a String in the Java programming language
+DatabaseMetaData.supportsCoreSQLGrammar()	Retrieves whether this database supports the ODBC Core SQL grammar
+Statement.isCloseOnCompletion()	Returns a value indicating whether this Statement will be closed when all its dependent result sets are closed
+Statement.clearBatch()	Empties this Statement object s current list of SQL commands
+CallableStatement.setCharacterStream(String,Reader)	Sets the designated parameter to the given Reader object
+Statement.getFetchSize()	Retrieves the number of result set rows that is the default fetch size for ResultSet objects generated from this Statement object
+SQLException.SQLException(String,String,int)	Constructs a SQLException object with a given reason SQLState and vendorCode
+CallableStatement.setBinaryStream(String,InputStream)	Sets the designated parameter to the given input stream
+CallableStatement.setObject(String,Object,int)	Sets the value of the designated parameter with the given object
+SQLXML.getBinaryStream()	Retrieves the XML value designated by this SQLXML instance as a stream
+Date.getHours()	This method is deprecated and should not be used because SQL Date values do not have a time component
+SQLInput.readRef()	Reads an SQL REF value from the stream and returns it as a Ref object in the Java programming language
+SQLXML.setResult(Class)	Returns a Result for setting the XML value designated by this SQLXML instance
+ResultSetMetaData.isWritable(int)	Indicates whether it is possible for a write on the designated column to succeed
+DatabaseMetaData.supportsSubqueriesInIns()	Retrieves whether this database supports subqueries in IN expressions
+CallableStatement.setNClob(String,Reader)	Sets the designated parameter to a Reader object
+DriverManager.getConnection(String,Properties)	Attempts to establish a connection to the given database URL
+CallableStatement.setDate(String,Date)	Sets the designated parameter to the given java sql Date value using the default time zone of the virtual machine that is running the application
+DatabaseMetaData.storesUpperCaseIdentifiers()	Retrieves whether this database treats mixed case unquoted SQL identifiers as case insensitive and stores them in upper case
+DatabaseMetaData.supportsSubqueriesInExists()	Retrieves whether this database supports subqueries in EXISTS expressions
+SQLOutput.writeInt(int)	Writes the next attribute to the stream as a Java int
+Statement.setPoolable(boolean)	Requests that a Statement be pooled or not pooled The value specified is a hint to the statement pool implementation indicating whether the applicaiton wants the statement to be pooled It is up to the statement pool manager as to whether the hint is used
+Connection.getHoldability()	Retrieves the current holdability of ResultSet objects created using this Connection object
+ResultSet.getObject(int,Class)	Retrieves the value of the designated column in the current row of this ResultSet object and will convert from the SQL type of the column to the requested Java data type if the conversion is supported If the conversion is not supported or null is specified for the type a SQLException is thrown
+ResultSet.isLast()	Retrieves whether the cursor is on the last row of this ResultSet object
+RowId.getBytes()	Returns an array of bytes representing the value of the SQL ROWID designated by this java sql RowId object
+DatabaseMetaData.getTableTypes()	Retrieves the table types available in this database The results are ordered by table type
+Statement.getConnection()	Retrieves the Connection object that produced this Statement object
+SQLClientInfoException.getFailedProperties()	Returns the list of client info properties that could not be set The keys in the Map contain the names of the client info properties that could not be set and the values contain one of the reason codes defined in ClientInfoStatus
+Connection.getTransactionIsolation()	Retrieves this Connection object s current transaction isolation level
+ResultSet.getTime(int,Calendar)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Time object in the Java programming language
+ResultSet.updateBinaryStream(int,InputStream)	Updates the designated column with a binary stream value
+SQLNonTransientException.SQLNonTransientException(String,Throwable)	Constructs a SQLTransientException object with a given reason and cause
+BatchUpdateException.BatchUpdateException()	Constructs a BatchUpdateException object
+Date.setSeconds(int)	This method is deprecated and should not be used because SQL Date values do not have a time component
+Array.getArray()	Retrieves the contents of the SQL ARRAY value designated by this Array object in the form of an array in the Java programming language This version of the method getArray uses the type map associated with the connection for customizations of the type mappings
+DatabaseMetaData.getMaxCursorNameLength()	Retrieves the maximum number of characters that this database allows in a cursor name
+DatabaseMetaData.getFunctionColumns(String,String,String,String)	Retrieves a description of the given catalog s system or user function parameters and return type
+SQLXML.getSource(Class)	Returns a Source for reading the XML value designated by this SQLXML instance
+PreparedStatement.setCharacterStream(int,Reader,long)	Sets the designated parameter to the given Reader object which is the given number of characters long
+SQLException.SQLException()	Constructs a SQLException object
+ResultSet.updateCharacterStream(String,Reader,int)	Updates the designated column with a character stream value which will have the specified number of bytes
+SQLInvalidAuthorizationSpecException.SQLInvalidAuthorizationSpecException()	Constructs a SQLInvalidAuthorizationSpecException object
+SQLInvalidAuthorizationSpecException.SQLInvalidAuthorizationSpecException(String,String,Throwable)	Constructs a SQLInvalidAuthorizationSpecException object with a given reason SQLState and cause
+PreparedStatement.setURL(int,URL)	Sets the designated parameter to the given java net URL value
+DatabaseMetaData.getProcedureTerm()	Retrieves the database vendor s preferred term for procedure
+SQLDataException.SQLDataException(String,Throwable)	Constructs a SQLDataException object with a given reason and cause
+DriverManager.getDrivers()	Retrieves an Enumeration with all of the currently loaded JDBC drivers to which the current caller has access
+ResultSet.updateNCharacterStream(String,Reader,long)	Updates the designated column with a character stream value which will have the specified number of bytes The driver does the necessary conversion from Java character format to the national character set in the database
+ResultSet.getAsciiStream(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a stream of ASCII characters The value can then be read in chunks from the stream This method is particularly suitable for retrieving large LONGVARCHAR values
+DatabaseMetaData.supportsUnionAll()	Retrieves whether this database supports SQL UNION ALL
+SQLInput.readDouble()	Reads the next attribute in the stream and returns it as a double in the Java programming language
+SQLOutput.writeSQLXML(SQLXML)	Writes an SQL XML value to the stream
+DatabaseMetaData.othersUpdatesAreVisible(int)	Retrieves whether updates made by others are visible
+ResultSet.getAsciiStream(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a stream of ASCII characters The value can then be read in chunks from the stream This method is particularly suitable for retrieving large LONGVARCHAR values
+DatabaseMetaData.getMaxTableNameLength()	Retrieves the maximum number of characters this database allows in a table name
+SQLClientInfoException.SQLClientInfoException(String,String,int,Map)	Constructs a SQLClientInfoException object initialized with a given reason SQLState vendorCode and failedProperties
+ResultSetMetaData.getCatalogName(int)	Gets the designated column s table s catalog name
+Timestamp.Timestamp(long)	Constructs a Timestamp object using a milliseconds time value The integral seconds are stored in the underlying date value the fractional seconds are stored in the nanos field of the Timestamp object
+SQLTimeoutException.SQLTimeoutException(String)	Constructs a SQLTimeoutException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+ResultSet.updateBinaryStream(String,InputStream,long)	Updates the designated column with a binary stream value which will have the specified number of bytes
+RowId.equals(Object)	Compares this RowId to the specified object The result is true if and only if the argument is not null and is a RowId object that represents the same ROWID as this object
+SQLTransientException.SQLTransientException(String,String)	Constructs a SQLTransientException object with a given reason and SQLState
+Statement.getMoreResults(int)	Moves to this Statement object s next result deals with any current ResultSet object s according to the instructions specified by the given flag and returns true if the next result is a ResultSet object
+SQLOutput.writeRef(Ref)	Writes an SQL REF value to the stream
+PreparedStatement.setBytes(int,byte[])	Sets the designated parameter to the given Java array of bytes The driver converts this to an SQL VARBINARY or LONGVARBINARY depending on the argument s size relative to the driver s limits on VARBINARY values when it sends it to the database
+Driver.getMinorVersion()	Gets the driver s minor version number Initially this should be 0
+ParameterMetaData.getParameterCount()	Retrieves the number of parameters in the PreparedStatement object for which this ParameterMetaData object contains information
+SQLException.SQLException(String,Throwable)	Constructs a SQLException object with a given reason and cause
+Array.getBaseTypeName()	Retrieves the SQL type name of the elements in the array designated by this Array object
+SQLTransientException.SQLTransientException(String)	Constructs a SQLTransientException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+Connection.getWarnings()	Retrieves the first warning reported by calls on this Connection object If there is more than one warning subsequent warnings will be chained to the first one and can be retrieved by calling the method SQLWarning getNextWarning on the warning that was retrieved previously
+Connection.createBlob()	Constructs an object that implements the Blob interface The object returned initially contains no data The setBinaryStream and setBytes methods of the Blob interface may be used to add data to the Blob
+Statement.setFetchSize(int)	Gives the JDBC driver a hint as to the number of rows that should be fetched from the database when more rows are needed for ResultSet objects genrated by this Statement
+PreparedStatement.setBlob(int,InputStream,long)	Sets the designated parameter to a InputStream object The inputstream must contain the number of characters specified by length otherwise a SQLException will be generated when the PreparedStatement is executed
+BatchUpdateException.BatchUpdateException(int[])	Constructs a BatchUpdateException object initialized with a given updateCounts
+ResultSet.updateBlob(int,InputStream,long)	Updates the designated column using the given input stream which will have the specified number of bytes
+ResultSet.setFetchDirection(int)	Gives a hint as to the direction in which the rows in this ResultSet object will be processed
+ResultSet.rowUpdated()	Retrieves whether the current row has been updated The value returned depends on whether or not the result set can detect updates
+ResultSet.getBigDecimal(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a java math BigDecimal with full precision
+ResultSet.updateRow()	Updates the underlying database with the new contents of the current row of this ResultSet object
+CallableStatement.setBlob(String,Blob)	Sets the designated parameter to the given java sql Blob object
+ResultSet.updateDouble(int,double)	Updates the designated column with a double value
+ResultSetMetaData.getColumnDisplaySize(int)	Indicates the designated column s normal maximum width in characters
+ResultSet.getUnicodeStream(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a stream of two byte Unicode characters The first byte is the high byte the second byte is the low byte
+Connection.getTypeMap()	Retrieves the Map object associated with this Connection object
+PreparedStatement.execute()	Executes the SQL statement in this PreparedStatement object which may be any kind of SQL statement
+ResultSet.updateShort(String,short)	Updates the designated column with a short value
+SQLDataException.SQLDataException(String,String,int)	Constructs a SQLDataException object with a given reason SQLState and vendorCode
+ResultSet.updateLong(String,long)	Updates the designated column with a long value
+Connection.setAutoCommit(boolean)	Sets this connection s auto commit mode to the given state
+ResultSet.moveToCurrentRow()	Moves the cursor to the remembered cursor position usually the current row This method has no effect if the cursor is not on the insert row
+CallableStatement.setClob(String,Reader)	Sets the designated parameter to a Reader object
+PreparedStatement.setNCharacterStream(int,Reader)	Sets the designated parameter to a Reader object The Reader reads the data till end of file is reached The driver does the necessary conversion from Java character format to the national character set in the database
+SQLTransientConnectionException.SQLTransientConnectionException(Throwable)	Constructs a SQLTransientConnectionException object with a given cause
+Array.getResultSet(long,int,Map)	Retrieves a result set holding the elements of the subarray that starts at index index and contains up to count successive elements
+DatabaseMetaData.supportsPositionedDelete()	Retrieves whether this database supports positioned DELETE statements
+Statement.closeOnCompletion()	Specifies that this Statement will be closed when all its dependent result sets are closed If execution of the Statement does not produce any result sets this method has no effect
+CallableStatement.getBlob(String)	Retrieves the value of a JDBC BLOB parameter as a Blob object in the Java programming language
+ResultSetMetaData.isCurrency(int)	Indicates whether the designated column is a cash value
+SQLException.setNextException(SQLException)	Adds an SQLException object to the end of the chain
+DatabaseMetaData.supportsGroupBy()	Retrieves whether this database supports some form of GROUP BY clause
+ResultSet.isBeforeFirst()	Retrieves whether the cursor is before the first row in this ResultSet object
+SQLInput.readInt()	Reads the next attribute in the stream and returns it as an int in the Java programming language
+ResultSet.getString(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a String in the Java programming language
+ResultSetMetaData.getColumnName(int)	Get the designated column s name
+DatabaseMetaData.supportsOpenStatementsAcrossRollback()	Retrieves whether this database supports keeping statements open across rollbacks
+DatabaseMetaData.supportsANSI92EntryLevelSQL()	Retrieves whether this database supports the ANSI92 entry level SQL grammar
+ResultSet.beforeFirst()	Moves the cursor to the front of this ResultSet object just before the first row This method has no effect if the result set contains no rows
+ResultSet.updateRef(int,Ref)	Updates the designated column with a java sql Ref value
+ResultSet.updateString(int,String)	Updates the designated column with a String value
+DatabaseMetaData.getNumericFunctions()	Retrieves a comma separated list of math functions available with this database These are the Open Open CLI math function names used in the JDBC function escape clause
+DatabaseMetaData.supportsResultSetType(int)	Retrieves whether this database supports the given result set type
+ResultSet.cancelRowUpdates()	Cancels the updates made to the current row in this ResultSet object
+SQLTransientConnectionException.SQLTransientConnectionException(String,String,int,Throwable)	Constructs a SQLTransientConnectionException object with a given reason SQLState vendorCode and cause
+ResultSet.updateShort(int,short)	Updates the designated column with a short value
+PreparedStatement.setObject(int,Object)	Sets the value of the designated parameter using the given object
+SQLRecoverableException.SQLRecoverableException(String,String,Throwable)	Constructs a SQLRecoverableException object with a given reason SQLState and cause
+DatabaseMetaData.getMaxStatementLength()	Retrieves the maximum number of characters this database allows in an SQL statement
+DatabaseMetaData.getDatabaseProductVersion()	Retrieves the version number of this database product
+Array.getResultSet()	Retrieves a result set that contains the elements of the SQL ARRAY value designated by this Array object If appropriate the elements of the array are mapped using the connection s type map otherwise the standard mapping is used
+DatabaseMetaData.getURL()	Retrieves the URL for this DBMS
+DatabaseMetaData.isCatalogAtStart()	Retrieves whether a catalog appears at the start of a fully qualified table name If not the catalog appears at the end
+Connection.getClientInfo()	Returns a list containing the name and current value of each client info property supported by the driver The value of a client info property may be null if the property has not been set and does not have a default value
+PreparedStatement.setBinaryStream(int,InputStream,int)	Sets the designated parameter to the given input stream which will have the specified number of bytes
+ResultSet.getConcurrency()	Retrieves the concurrency mode of this ResultSet object
+Connection.releaseSavepoint(Savepoint)	Removes the specified Savepoint and subsequent Savepoint objects from the current transaction Any reference to the savepoint after it have been removed will cause an SQLException to be thrown
+DatabaseMetaData.getTypeInfo()	Retrieves a description of all the data types supported by this database They are ordered by DATA TYPE and then by how closely the data type maps to the corresponding JDBC SQL type
+ResultSet.updateCharacterStream(int,Reader,int)	Updates the designated column with a character stream value which will have the specified number of bytes
+ResultSet.getBytes(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a byte array in the Java programming language
+DatabaseMetaData.supportsResultSetConcurrency(int,int)	Retrieves whether this database supports the given concurrency type in combination with the given result set type
+PreparedStatement.setCharacterStream(int,Reader)	Sets the designated parameter to the given Reader object
+DatabaseMetaData.getExtraNameCharacters()	Retrieves all the extra characters that can be used in unquoted identifier names those beyond a z A Z 0 9 and
+DatabaseMetaData.supportsCorrelatedSubqueries()	Retrieves whether this database supports correlated subqueries
+ResultSet.updateAsciiStream(int,InputStream)	Updates the designated column with an ascii stream value
+PreparedStatement.setAsciiStream(int,InputStream)	Sets the designated parameter to the given input stream
+CallableStatement.setAsciiStream(String,InputStream,long)	Sets the designated parameter to the given input stream which will have the specified number of bytes
+CallableStatement.setNCharacterStream(String,Reader,long)	Sets the designated parameter to a Reader object The Reader reads the data till end of file is reached The driver does the necessary conversion from Java character format to the national character set in the database
+Statement.executeUpdate(String,String[])	Executes the given SQL statement and signals the driver that the auto generated keys indicated in the given array should be made available for retrieval This array contains the names of the columns in the target table that contain the auto generated keys that should be made available The driver will ignore the array if the SQL statement is not an INSERT statement or an SQL statement able to return auto generated keys the list of such statements is vendor specific
+ResultSet.wasNull()	Reports whether the last column read had a value of SQL NULL
+DatabaseMetaData.getSearchStringEscape()	Retrieves the string that can be used to escape wildcard characters
+PreparedStatement.setArray(int,Array)	Sets the designated parameter to the given java sql Array object
+Connection.setNetworkTimeout(Executor,int)	Sets the maximum period a Connection or objects created from the Connection will wait for the database to reply to any one request If any request remains unanswered the waiting method will return with a SQLException and the Connection or objects created from the Connection will be marked as closed Any subsequent use of the objects with the exception of the close isClosed or Connection isValid methods will result in a SQLException
+DatabaseMetaData.getSchemas()	Retrieves the schema names available in this database The results are ordered by TABLE CATALOG and TABLE SCHEM
+ResultSet.updateObject(int,Object)	Updates the designated column with an Object value
+SQLOutput.writeArray(Array)	Writes an SQL ARRAY value to the stream
+CallableStatement.getFloat(String)	Retrieves the value of a JDBC FLOAT parameter as a float in the Java programming language
+ResultSet.updateFloat(int,float)	Updates the designated column with a float value
+SQLSyntaxErrorException.SQLSyntaxErrorException(Throwable)	Constructs a SQLSyntaxErrorException object with a given cause
+DatabaseMetaData.getMaxColumnsInTable()	Retrieves the maximum number of columns this database allows in a table
+DriverManager.getConnection(String)	Attempts to establish a connection to the given database URL
+Connection.getCatalog()	Retrieves this Connection object s current catalog name
+ResultSetMetaData.isSigned(int)	Indicates whether values in the designated column are signed numbers
+ResultSet.updateNClob(String,NClob)	Updates the designated column with a java sql NClob value
+DatabaseMetaData.getMaxTablesInSelect()	Retrieves the maximum number of tables this database allows in a SELECT statement
+Statement.cancel()	Cancels this Statement object if both the DBMS and driver support aborting an SQL statement
+Connection.prepareStatement(String,int,int)	Creates a PreparedStatement object that will generate ResultSet objects with the given type and concurrency
+PreparedStatement.setNClob(int,NClob)	Sets the designated parameter to a java sql NClob object The driver converts this to a SQL NCLOB value when it sends it to the database
+ResultSet.close()	Releases this ResultSet object s database and JDBC resources immediately instead of waiting for this to happen when it is automatically closed
+ResultSet.getFloat(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a float in the Java programming language
+DatabaseMetaData.supportsDifferentTableCorrelationNames()	Retrieves whether when table correlation names are supported they are restricted to being different from the names of the tables
+DatabaseMetaData.supportsResultSetHoldability(int)	Retrieves whether this database supports the given result set holdability
+SQLNonTransientConnectionException.SQLNonTransientConnectionException(String,Throwable)	Constructs a SQLTransientException object with a given reason and cause
+ResultSet.updateByte(int,byte)	Updates the designated column with a byte value
+SQLNonTransientException.SQLNonTransientException(Throwable)	Constructs a SQLNonTransientException object with a given cause
+ResultSet.updateDate(int,Date)	Updates the designated column with a java sql Date value
+CallableStatement.setShort(String,short)	Sets the designated parameter to the given Java short value
+SQLOutput.writeLong(long)	Writes the next attribute to the stream as a Java long
+PreparedStatement.setRef(int,Ref)	Sets the designated parameter to the given REF structured type value
+Clob.setCharacterStream(long)	Retrieves a stream to be used to write a stream of Unicode characters to the CLOB value that this Clob object represents at position pos Characters written to the stream will overwrite the existing characters in the Clob object starting at the position pos If the end of the Clob value is reached while writing characters to the stream then the length of the Clob value will be increased to accomodate the extra characters
+Statement.setQueryTimeout(int)	Sets the number of seconds the driver will wait for a Statement object to execute to the given number of seconds
+SQLNonTransientException.SQLNonTransientException(String,String,Throwable)	Constructs a SQLNonTransientException object with a given reason SQLState and cause
+Connection.setClientInfo(Properties)	Sets the value of the connection s client info properties The Properties object contains the names and values of the client info properties to be set The set of client info properties contained in the properties list replaces the current set of client info properties on the connection If a property that is currently set on the connection is not present in the properties list that property is cleared Specifying an empty properties list will clear all of the properties on the connection See setClientInfo String String for more information
+Time.valueOf(String)	Converts a string in JDBC time escape format to a Time value
+PreparedStatement.setClob(int,Reader,long)	Sets the designated parameter to a Reader object The reader must contain the number of characters specified by length otherwise a SQLException will be generated when the PreparedStatement is executed
+BatchUpdateException.BatchUpdateException(int[],Throwable)	Constructs a BatchUpdateException object initialized with a given cause and updateCounts
+Blob.setBytes(long,byte[])	Writes the given array of bytes to the BLOB value that this Blob object represents starting at position pos and returns the number of bytes written
+SQLTimeoutException.SQLTimeoutException(String,String,Throwable)	Constructs a SQLTimeoutException object with a given reason SQLState and cause
+CallableStatement.getDouble(int)	Retrieves the value of the designated JDBC DOUBLE parameter as a double in the Java programming language
+ResultSet.getTimestamp(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Timestamp object in the Java programming language
+SQLInput.readNClob()	Reads an SQL NCLOB value from the stream and returns it as a NClob object in the Java programming language
+DatabaseMetaData.ownInsertsAreVisible(int)	Retrieves whether a result set s own inserts are visible
+PreparedStatement.setBlob(int,InputStream)	Sets the designated parameter to a InputStream object
+ResultSet.updateCharacterStream(String,Reader,long)	Updates the designated column with a character stream value which will have the specified number of bytes
+SQLClientInfoException.SQLClientInfoException()	Constructs a SQLClientInfoException Object
+Array.getResultSet(Map)	Retrieves a result set that contains the elements of the SQL ARRAY value designated by this Array object
+DatabaseMetaData.getStringFunctions()	Retrieves a comma separated list of string functions available with this database These are the Open Group CLI string function names used in the JDBC function escape clause
+ParameterMetaData.getScale(int)	Retrieves the designated parameter s number of digits to right of the decimal point
+SQLFeatureNotSupportedException.SQLFeatureNotSupportedException()	Constructs a SQLFeatureNotSupportedException object
+ResultSet.updateNCharacterStream(int,Reader,long)	Updates the designated column with a character stream value which will have the specified number of bytes The driver does the necessary conversion from Java character format to the national character set in the database
+CallableStatement.getInt(int)	Retrieves the value of the designated JDBC INTEGER parameter as an int in the Java programming language
+BatchUpdateException.BatchUpdateException(String,String,int,int[])	Constructs a BatchUpdateException object initialized with a given reason SQLState vendorCode and updateCounts
+BatchUpdateException.BatchUpdateException(String,String,int[],Throwable)	Constructs a BatchUpdateException object initialized with a given reason SQLState cause and updateCounts The vendor code is initialized to 0
+DatabaseMetaData.supportsFullOuterJoins()	Retrieves whether this database supports full nested outer joins
+DatabaseMetaData.othersInsertsAreVisible(int)	Retrieves whether inserts made by others are visible
+DataTruncation.getDataSize()	Gets the number of bytes of data that should have been transferred
+ResultSet.updateClob(int,Reader,long)	Updates the designated column using the given Reader object which is the given number of characters long
+ResultSet.getObject(String)	Gets the value of the designated column in the current row of this ResultSet object as an Object in the Java programming language
+Blob.position(Blob,long)	Retrieves the byte position in the BLOB value designated by this Blob object at which pattern begins The search begins at position start
+ResultSet.updateTimestamp(String,Timestamp)	Updates the designated column with a java sql Timestamp value
+ResultSet.updateTime(String,Time)	Updates the designated column with a java sql Time value
+DatabaseMetaData.supportsDataDefinitionAndDataManipulationTransactions()	Retrieves whether this database supports both data definition and data manipulation statements within a transaction
+DatabaseMetaData.supportsTransactionIsolationLevel(int)	Retrieves whether this database supports the given transaction isolation level
+ResultSet.getNClob(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a NClob object in the Java programming language
+SQLTimeoutException.SQLTimeoutException()	Constructs a SQLTimeoutException object
+CallableStatement.setBytes(String,byte[])	Sets the designated parameter to the given Java array of bytes
+SQLOutput.writeAsciiStream(InputStream)	Writes the next attribute to the stream as a stream of ASCII characters
+CallableStatement.getObject(String,Class)	Returns an object representing the value of OUT parameter parameterName and will convert from the SQL type of the parameter to the requested Java data type if the conversion is supported If the conversion is not supported or null is specified for the type a SQLException is thrown
+DatabaseMetaData.supportsOrderByUnrelated()	Retrieves whether this database supports using a column that is not in the SELECT statement in an ORDER BY clause
+Connection.setCatalog(String)	Sets the given catalog name in order to select a subspace of this Connection object s database in which to work
+PreparedStatement.setDate(int,Date,Calendar)	Sets the designated parameter to the given java sql Date value using the given Calendar object The driver uses the Calendar object to construct an SQL DATE value which the driver then sends to the database With a Calendar object the driver can calculate the date taking into account a custom timezone If no Calendar object is specified the driver uses the default timezone which is that of the virtual machine running the application
+RowId.hashCode()	Returns a hash code value of this RowId object
+CallableStatement.setDate(String,Date,Calendar)	Sets the designated parameter to the given java sql Date value using the given Calendar object The driver uses the Calendar object to construct an SQL DATE value which the driver then sends to the database With a a Calendar object the driver can calculate the date taking into account a custom timezone If no Calendar object is specified the driver uses the default timezone which is that of the virtual machine running the application
+Statement.getQueryTimeout()	Retrieves the number of seconds the driver will wait for a Statement object to execute
+DatabaseMetaData.supportsNamedParameters()	Retrieves whether this database supports named parameters to callable statements
+ResultSet.updateTime(int,Time)	Updates the designated column with a java sql Time value
+SQLDataException.SQLDataException(String)	Constructs a SQLDataException object with a given reason
+SQLClientInfoException.SQLClientInfoException(String,Map,Throwable)	Constructs a SQLClientInfoException object initialized with a given reason cause and failedProperties
+Statement.setEscapeProcessing(boolean)	Sets escape processing on or off
+DatabaseMetaData.deletesAreDetected(int)	Retrieves whether or not a visible row delete can be detected by calling the method ResultSet rowDeleted If the method deletesAreDetected returns false it means that deleted rows are removed from the result set
+Date.setTime(long)	Sets an existing Date object using the given milliseconds time value
+ResultSet.updateClob(String,Reader,long)	Updates the designated column using the given Reader object which is the given number of characters long
+Connection.createStatement(int,int)	Creates a Statement object that will generate ResultSet objects with the given type and concurrency
+PreparedStatement.executeQuery()	Executes the SQL query in this PreparedStatement object and returns the ResultSet object generated by the query
+Struct.getAttributes()	Produces the ordered values of the attributes of the SQL structured type that this Struct object represents
+SQLTransientConnectionException.SQLTransientConnectionException(String,String,Throwable)	Constructs a SQLTransientConnectionException object with a given reason SQLState and cause
+Date.Date(int,int,int)	Constructs a Date object initialized with the given year month and day
+CallableStatement.setURL(String,URL)	Sets the designated parameter to the given java net URL object
+Ref.getObject()	Retrieves the SQL structured type instance referenced by this Ref object If the connection s type map has an entry for the structured type the instance will be custom mapped to the Java class indicated in the type map Otherwise the structured type instance will be mapped to a Struct object
+DatabaseMetaData.supportsSchemasInTableDefinitions()	Retrieves whether a schema name can be used in a table definition statement
+SQLIntegrityConstraintViolationException.SQLIntegrityConstraintViolationException(String,Throwable)	Constructs a SQLIntegrityConstraintViolationException object with a given reason and cause
+CallableStatement.getLong(String)	Retrieves the value of a JDBC BIGINT parameter as a long in the Java programming language
+DatabaseMetaData.supportsLikeEscapeClause()	Retrieves whether this database supports specifying a LIKE escape clause
+DatabaseMetaData.supportsConvert()	Retrieves whether this database supports the JDBC scalar function CONVERT for the conversion of one JDBC type to another
+CallableStatement.wasNull()	Retrieves whether the last OUT parameter read had the value of SQL NULL Note that this method should be called only after calling a getter method otherwise there is no value to use in determining whether it is null or not
+Timestamp.setTime(long)	Sets this Timestamp object to represent a point in time that is time milliseconds after January 1 1970 00 00 00 GMT
+DriverManager.getConnection(String,String,String)	Attempts to establish a connection to the given database URL
+ResultSet.absolute(int)	Moves the cursor to the given row number in this ResultSet object
+Connection.getSchema()	Retrieves this Connection object s current schema name
+CallableStatement.getTimestamp(String)	Retrieves the value of a JDBC TIMESTAMP parameter as a java sql Timestamp object
+Connection.prepareStatement(String,int[])	Creates a default PreparedStatement object capable of returning the auto generated keys designated by the given array
+ResultSet.clearWarnings()	Clears all warnings reported on this ResultSet object
+CallableStatement.getShort(int)	Retrieves the value of the designated JDBC SMALLINT parameter as a short in the Java programming language
+DatabaseMetaData.supportsOuterJoins()	Retrieves whether this database supports some form of outer join
+DatabaseMetaData.getSystemFunctions()	Retrieves a comma separated list of system functions available with this database These are the Open Group CLI system function names used in the JDBC function escape clause
+PreparedStatement.setClob(int,Reader)	Sets the designated parameter to a Reader object
+SQLOutput.writeDate(Date)	Writes the next attribute to the stream as a java sql Date object
+PreparedStatement.setNull(int,int,String)	Sets the designated parameter to SQL NULL
+SQLOutput.writeNString(String)	Writes the next attribute to the stream as a String in the Java programming language The driver converts this to a SQL NCHAR or NVARCHAR or LONGNVARCHAR value depending on the argument s size relative to the driver s limits on NVARCHAR values when it sends it to the stream
+ResultSet.updateDate(String,Date)	Updates the designated column with a java sql Date value
+ResultSet.getHoldability()	Retrieves the holdability of this ResultSet object
+SQLNonTransientConnectionException.SQLNonTransientConnectionException(String,String,Throwable)	Constructs a SQLNonTransientConnectionException object with a given reason SQLState and cause
+DatabaseMetaData.supportsUnion()	Retrieves whether this database supports SQL UNION
+PreparedStatement.setAsciiStream(int,InputStream,long)	Sets the designated parameter to the given input stream which will have the specified number of bytes
+Connection.setTransactionIsolation(int)	Attempts to change the transaction isolation level for this Connection object to the one given
+SQLFeatureNotSupportedException.SQLFeatureNotSupportedException(String,String,int)	Constructs a SQLFeatureNotSupportedException object with a given reason SQLState and vendorCode
+DatabaseMetaData.getMaxProcedureNameLength()	Retrieves the maximum number of characters that this database allows in a procedure name
+ResultSet.updateInt(String,int)	Updates the designated column with an int value
+ResultSet.getBinaryStream(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a stream of uninterpreted bytes The value can then be read in chunks from the stream This method is particularly suitable for retrieving large LONGVARBINARY values
+DatabaseMetaData.supportsCatalogsInProcedureCalls()	Retrieves whether a catalog name can be used in a procedure call statement
+SQLOutput.writeObject(SQLData)	Writes to the stream the data contained in the given SQLData object
+ResultSet.getFloat(String)	Retrieves the value of the designated column in the current row of this ResultSet object as a float in the Java programming language
+SQLXML.getString()	Returns a string representation of the XML value designated by this SQLXML instance
+SQLClientInfoException.SQLClientInfoException(String,String,int,Map,Throwable)	Constructs a SQLClientInfoException object initialized with a given reason SQLState cause vendorCode and failedProperties
+ResultSet.updateDouble(String,double)	Updates the designated column with a double value
+DatabaseMetaData.getRowIdLifetime()	Indicates whether or not this data source supports the SQL ROWID type and if so the lifetime for which a RowId object remains valid
+SQLWarning.getNextWarning()	Retrieves the warning chained to this SQLWarning object by setNextWarning
+CallableStatement.setTime(String,Time,Calendar)	Sets the designated parameter to the given java sql Time value using the given Calendar object The driver uses the Calendar object to construct an SQL TIME value which the driver then sends to the database With a a Calendar object the driver can calculate the time taking into account a custom timezone If no Calendar object is specified the driver uses the default timezone which is that of the virtual machine running the application
+SQLTransactionRollbackException.SQLTransactionRollbackException(String,String,Throwable)	Constructs a SQLTransactionRollbackException object with a given reason SQLState and cause
+PreparedStatement.setBinaryStream(int,InputStream)	Sets the designated parameter to the given input stream
+DatabaseMetaData.supportsLimitedOuterJoins()	Retrieves whether this database provides limited support for outer joins This will be true if the method supportsFullOuterJoins returns true
+DatabaseMetaData.ownDeletesAreVisible(int)	Retrieves whether a result set s own deletes are visible
+SQLInput.readBlob()	Reads an SQL BLOB value from the stream and returns it as a Blob object in the Java programming language
+PreparedStatement.setTime(int,Time)	Sets the designated parameter to the given java sql Time value
+SQLOutput.writeFloat(float)	Writes the next attribute to the stream as a Java float
+ResultSet.updateBoolean(String,boolean)	Updates the designated column with a boolean value
+DatabaseMetaData.allTablesAreSelectable()	Retrieves whether the current user can use all the tables returned by the method getTables in a SELECT statement
+Connection.prepareCall(String,int,int,int)	Creates a CallableStatement object that will generate ResultSet objects with the given type and concurrency
+SQLOutput.writeString(String)	Writes the next attribute to the stream as a String in the Java programming language
+SQLOutput.writeBinaryStream(InputStream)	Writes the next attribute to the stream as a stream of uninterpreted bytes
+Blob.getBytes(long,int)	Retrieves all or part of the BLOB value that this Blob object represents as an array of bytes This byte array contains up to length consecutive bytes starting at position pos
+Statement.addBatch(String)	Adds the given SQL command to the current list of commmands for this Statement object The commands in this list can be executed as a batch by calling the method executeBatch
+ResultSet.updateObject(String,Object,int)	Updates the designated column with an Object value
+CallableStatement.getBlob(int)	Retrieves the value of the designated JDBC BLOB parameter as a Blob object in the Java programming language
+DatabaseMetaData.ownUpdatesAreVisible(int)	Retrieves whether for the given type of ResultSet object the result set s own updates are visible
+DatabaseMetaData.supportsTransactions()	Retrieves whether this database supports transactions If not invoking the method commit is a noop and the isolation level is TRANSACTION NONE
+SQLInput.readDate()	Reads the next attribute in the stream and returns it as a java sql Date object
+PreparedStatement.setNClob(int,Reader,long)	Sets the designated parameter to a Reader object The reader must contain the number of characters specified by length otherwise a SQLException will be generated when the PreparedStatement is executed
+CallableStatement.setNull(String,int,String)	Sets the designated parameter to SQL NULL
+Statement.getUpdateCount()	Retrieves the current result as an update count if the result is a ResultSet object or there are no more results 1 is returned This method should be called only once per result
+DatabaseMetaData.getMaxColumnsInSelect()	Retrieves the maximum number of columns this database allows in a SELECT list
+ResultSet.getDate(String,Calendar)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql Date object in the Java programming language
+CallableStatement.getArray(String)	Retrieves the value of a JDBC ARRAY parameter as an Array object in the Java programming language
+DatabaseMetaData.getCatalogSeparator()	Retrieves the String that this database uses as the separator between a catalog and table name
+DatabaseMetaData.getMaxIndexLength()	Retrieves the maximum number of bytes this database allows for an index including all of the parts of the index
+SQLTransientConnectionException.SQLTransientConnectionException(String,Throwable)	Constructs a SQLTransientConnectionException object with a given reason and cause
+DatabaseMetaData.supportsOpenStatementsAcrossCommit()	Retrieves whether this database supports keeping statements open across commits
+Connection.getClientInfo(String)	Returns the value of the client info property specified by name This method may return null if the specified client info property has not been set and does not have a default value This method will also return null if the specified client info property name is not supported by the driver
+Date.toString()	Formats a date in the date escape format yyyy mm dd
+DatabaseMetaData.storesLowerCaseIdentifiers()	Retrieves whether this database treats mixed case unquoted SQL identifiers as case insensitive and stores them in lower case
+ResultSetMetaData.getPrecision(int)	Get the designated column s specified column size
+ResultSet.getClob(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a Clob object in the Java programming language
+CallableStatement.getBigDecimal(String)	Retrieves the value of a JDBC NUMERIC parameter as a java math BigDecimal object with as many digits to the right of the decimal point as the value contains
+DatabaseMetaData.supportsMinimumSQLGrammar()	Retrieves whether this database supports the ODBC Minimum SQL grammar
+CallableStatement.getClob(int)	Retrieves the value of the designated JDBC CLOB parameter as a java sql Clob object in the Java programming language
+Wrapper.isWrapperFor(Class)	Returns true if this either implements the interface argument or is directly or indirectly a wrapper for an object that does Returns false otherwise If this implements the interface then return true else if this is a wrapper then return the result of recursively calling isWrapperFor on the wrapped object If this does not implement the interface and is not a wrapper return false
+Driver.getMajorVersion()	Retrieves the driver s major version number Initially this should be 1
+SQLOutput.writeStruct(Struct)	Writes an SQL structured type value to the stream
+CallableStatement.setTime(String,Time)	Sets the designated parameter to the given java sql Time value
+DatabaseMetaData.storesLowerCaseQuotedIdentifiers()	Retrieves whether this database treats mixed case quoted SQL identifiers as case insensitive and stores them in lower case
+SQLNonTransientConnectionException.SQLNonTransientConnectionException(String,String)	Constructs a SQLNonTransientConnectionException object with a given reason and SQLState
+SQLTimeoutException.SQLTimeoutException(String,String,int)	Constructs a SQLTimeoutException object with a given reason SQLState and vendorCode
+ResultSet.getInt(int)	Retrieves the value of the designated column in the current row of this ResultSet object as an int in the Java programming language
+SQLTransientException.SQLTransientException(String,Throwable)	Constructs a SQLTransientException object with a given reason and cause
+SQLInput.readClob()	Reads an SQL CLOB value from the stream and returns it as a Clob object in the Java programming language
+ResultSet.getBigDecimal(int,int)	Retrieves the value of the designated column in the current row of this ResultSet object as a java sql BigDecimal in the Java programming language
+CallableStatement.setLong(String,long)	Sets the designated parameter to the given Java long value
+SQLTimeoutException.SQLTimeoutException(String,String,int,Throwable)	Constructs a SQLTimeoutException object with a given reason SQLState vendorCode and cause
+DatabaseMetaData.supportsCatalogsInPrivilegeDefinitions()	Retrieves whether a catalog name can be used in a privilege definition statement
+ResultSet.first()	Moves the cursor to the first row in this ResultSet object
+CallableStatement.getFloat(int)	Retrieves the value of the designated JDBC FLOAT parameter as a float in the Java programming language
+ResultSet.updateBlob(int,InputStream)	Updates the designated column using the given input stream The data will be read from the stream as needed until end of stream is reached
+CallableStatement.setObject(String,Object)	Sets the value of the designated parameter with the given object
+Ref.getObject(Map)	Retrieves the referenced object and maps it to a Java type using the given type map
+Connection.setSavepoint(String)	Creates a savepoint with the given name in the current transaction and returns the new Savepoint object that represents it
+SQLTransientConnectionException.SQLTransientConnectionException(String)	Constructs a SQLTransientConnectionException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+CallableStatement.getTime(String,Calendar)	Retrieves the value of a JDBC TIME parameter as a java sql Time object using the given Calendar object to construct the time
+Date.getSeconds()	This method is deprecated and should not be used because SQL Date values do not have a time component
+SQLInvalidAuthorizationSpecException.SQLInvalidAuthorizationSpecException(String,String,int)	Constructs a SQLInvalidAuthorizationSpecException object with a given reason SQLState and vendorCode
+DatabaseMetaData.getProcedureColumns(String,String,String,String)	Retrieves a description of the given catalog s stored procedure parameter and result columns
+CallableStatement.setClob(String,Clob)	Sets the designated parameter to the given java sql Clob object
+SQLInput.readFloat()	Reads the next attribute in the stream and returns it as a float in the Java programming language
+SQLSyntaxErrorException.SQLSyntaxErrorException(String,String,int)	Constructs a SQLSyntaxErrorException object with a given reason SQLState and vendorCode
+ResultSet.getByte(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a byte in the Java programming language
+SQLFeatureNotSupportedException.SQLFeatureNotSupportedException(String)	Constructs a SQLFeatureNotSupportedException object with a given reason The SQLState is initialized to null and the vender code is initialized to 0
+DatabaseMetaData.supportsSubqueriesInQuantifieds()	Retrieves whether this database supports subqueries in quantified expressions
+Time.setDate(int)	This method is deprecated and should not be used because SQL TIME values do not have a date component
+ResultSet.getLong(int)	Retrieves the value of the designated column in the current row of this ResultSet object as a long in the Java programming language
+SQLNonTransientException.SQLNonTransientException(String,String,int)	Constructs a SQLNonTransientException object with a given reason SQLState and vendorCode
+ResultSet.updateBytes(String,byte[])	Updates the designated column with a byte array value
+SQLOutput.writeNClob(NClob)	Writes an SQL NCLOB value to the stream
+DatabaseMetaData.getProcedures(String,String,String)	Retrieves a description of the stored procedures available in the given catalog
+CallableStatement.getNCharacterStream(String)	Retrieves the value of the designated parameter as a java io Reader object in the Java programming language
+DatabaseMetaData.supportsTableCorrelationNames()	Retrieves whether this database supports table correlation names
+Time.getDay()	This method is deprecated and should not be used because SQL TIME values do not have a day component
+CallableStatement.getBytes(String)	Retrieves the value of a JDBC BINARY or VARBINARY parameter as an array of byte values in the Java programming language
+CallableStatement.getTimestamp(int,Calendar)	Retrieves the value of the designated JDBC TIMESTAMP parameter as a java sql Timestamp object using the given Calendar object to construct the Timestamp object

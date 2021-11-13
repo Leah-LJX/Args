@@ -1,0 +1,23 @@
+{
+  "id": 30,
+  "description": "Read XML document from a file and get the value of root attribute specified by a string",
+  "methodName": "getAttributeById",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "java.io.File",
+    "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "org.w3c.dom",
+    "javax.xml.parsers",
+    "org.xml.sax"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "30/TestSource.java"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 36,
+  "description": "Parse json to string with Gson",
+  "methodName": "parseJson",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "java.lang.String",
+  "packages": [
+    "com.google.gson"
+  ],
+  "libs": [
+    "./lib/gson-2.3.1.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/36/TestSource.java"
+}

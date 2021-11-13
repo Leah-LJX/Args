@@ -1,0 +1,19 @@
+{
+  "id": 18,
+  "description": "Determine if a given year is a leap year",
+  "methodName": "isLeapYear",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "int"
+  ],
+  "tgtType": "boolean",
+  "packages": [
+    "java.util"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/18/TestSource.java"
+}

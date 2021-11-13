@@ -1,0 +1,22 @@
+{
+  "id": 27,
+  "description": "Generate an XML element from a string javax.xml.parsers org.w3c.dom org.xml.sax",
+  "methodName": "stringToElement",
+    "paramNames": [
+    "sypet_arg0"
+  ],
+  "srcTypes": [
+    "java.lang.String"
+  ],
+  "tgtType": "org.w3c.dom.Element",
+  "packages": [
+    "org.w3c.dom",
+    "javax.xml.parsers",
+    "org.xml.sax",
+    "java.io"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/word2api/27/TestSource.java"
+}

@@ -1,0 +1,924 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/13/benchmark13.json
+     [java] Benchmark Id: 13
+     [java] Method name: rotate
+     [java] Packages: [java.awt.geom]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.awt.geom.Area, java.awt.geom.Point2D, double]
+     [java] Target type: java.awt.geom.Area
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 13
+     [java] =========cnt:=========79
+     [java] #Classes: 50
+     [java] #Methods: 751
+     [java] Soot Time: 4407.545198
+     [java] PetriNet for path length: 1 [places: 59 ; transitions: 162 ; edges: 346]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 59 ; transitions: 162 ; edges: 346]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 59 ; transitions: 162 ; edges: 346]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 59 ; transitions: 162 ; edges: 346]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 5 [places: 59 ; transitions: 162 ; edges: 346]
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 3
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 6
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 9
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 14
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 17
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 20
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 23
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 28
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 33
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 38
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 43
+     [java] =========sketch========
+     [java] #Program: 48
+     [java] PetriNet for path length: 6 [places: 59 ; transitions: 162 ; edges: 346]
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper1
+     [java] <java.awt.geom.Area: void <init>(java.awt.Shape)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 48
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 50
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 53
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: double distance(double,double)>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double)>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 56
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 58
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getHeight()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 61
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getY()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 64
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.RectangularShape: double getCenterY()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 67
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getCenterX()>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 70
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 73
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 76
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 81
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 86
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 91
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 96
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getMinX()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 101
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getMinY()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 106
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getWidth()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 111
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getX()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 116
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Point2D
+     [java] <java.awt.geom.Point2D: double distance(java.awt.geom.Point2D)>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 121
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getCenterX()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 124
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getCenterY()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 127
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] sypet_clone_double
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 130
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double,double)>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 137
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] sypet_clone_java.awt.geom.Point2D
+     [java] <java.awt.geom.Point2D: double distance(java.awt.geom.Point2D)>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 144
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getHeight()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 147
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] sypet_clone_java.awt.geom.Point2D
+     [java] <java.awt.geom.Point2D: double distance(java.awt.geom.Point2D)>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 150
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 153
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 156
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: void <init>(java.awt.geom.AffineTransform)>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 159
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getY()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 162
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getX()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 165
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getMinX()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 168
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getMinY()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 171
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] _upper2
+     [java] <java.awt.geom.RectangularShape: double getWidth()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 174
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.AffineTransform: void <init>()>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 177
+     [java] =========sketch========
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] sypet_clone_java.awt.geom.Point2D
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(java.awt.geom.Point2D)>
+     [java] #Program: 179
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 181
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 186
+     [java] =========sketch========
+     [java] <java.awt.geom.AffineTransform: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 193
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: double distance(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 195
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_java.awt.geom.Point2D
+     [java] <java.awt.geom.Point2D: double distance(java.awt.geom.Point2D)>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 198
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 203
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 210
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_java.awt.geom.Point2D
+     [java] <java.awt.geom.Point2D: double distance(java.awt.geom.Point2D)>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 223
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_java.awt.geom.Point2D
+     [java] <java.awt.geom.Point2D: double distance(java.awt.geom.Point2D)>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 228
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 233
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 236
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 239
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 242
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 245
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] sypet_clone_void
+     [java] #Program: 250
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 255
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] sypet_clone_void
+     [java] #Program: 258
+     [java] =========sketch========
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getTranslateInstance(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] sypet_clone_void
+     [java] #Program: 263
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 268
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 275
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 278
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] #Program: 281
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] #Program: 288
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] #Program: 295
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] #Program: 302
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 309
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 312
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 315
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] #Program: 318
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_java.awt.geom.Area
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 325
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 332
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 337
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] #Program: 340
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] #Program: 347
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] #Program: 354
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] #Program: 361
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 368
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 371
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 374
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] #Program: 377
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 384
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 387
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] #Program: 390
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] #Program: 393
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] #Program: 400
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] #Program: 407
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 414
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 417
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 420
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 423
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 426
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 429
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 432
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 435
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 438
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 441
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 444
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 447
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 450
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void add(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 453
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 456
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 459
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 462
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 465
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 468
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 471
+     [java] =========sketch========
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void subtract(java.awt.geom.Area)>
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 474
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void intersect(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 477
+     [java] =========sketch========
+     [java] sypet_clone_double
+     [java] <java.awt.geom.Point2D: void setLocation(double,double)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] <java.awt.geom.Area: void exclusiveOr(java.awt.geom.Area)>
+     [java] <java.awt.geom.Area: void <init>()>
+     [java] #Program: 480
+     [java] =========sketch========
+     [java] #Program: 483
+     [java] PetriNet for path length: 7 [places: 59 ; transitions: 162 ; edges: 346]
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Area
+     [java] sypet_clone_java.awt.geom.Point2D
+     [java] <java.awt.geom.Point2D: double getX()>
+     [java] <java.awt.geom.Point2D: double getY()>
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double,double)>
+     [java] <java.awt.geom.Area: void transform(java.awt.geom.AffineTransform)>
+     [java] #Program: 483
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 13
+     [java] Recommend Api Number:79
+     [java] Sketch Generation Time: 1521.1850029999996
+     [java] Sketch Completion Time: 228.49353300000018
+     [java] Compilation Time: 3482.7029989999955
+     [java] Running Test cases Time: 88.59277200000001
+     [java] Synthesis Time: 1838.2713079999996
+     [java] Total Time: 9728.519504999995
+     [java] Number of components: 6
+     [java] Number of holes: 8
+     [java] Number of completed programs: 488
+     [java] Number of sketches: 119
+     [java] Solution:
+     [java]  double sypet_var827 = sypet_arg1.getX();
+     [java]  double sypet_var828 = sypet_arg1.getY();
+     [java]  java.awt.geom.AffineTransform sypet_var829 = java.awt.geom.AffineTransform.getRotateInstance(sypet_arg2,sypet_var827,sypet_var828);
+     [java]  sypet_arg0.transform(sypet_var829);
+     [java]  return sypet_arg0;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 10 seconds

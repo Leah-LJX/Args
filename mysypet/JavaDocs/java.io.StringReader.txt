@@ -1,0 +1,9 @@
+StringReader.skip(long)	Skips the specified number of characters in the stream Returns the number of characters that were skipped
+StringReader.read()	Reads a single character
+StringReader.close()	Closes the stream and releases any system resources associated with it Once the stream has been closed further read ready mark or reset invocations will throw an IOException
+StringReader.markSupported()	Tells whether this stream supports the mark operation which it does
+StringReader.reset()	Resets the stream to the most recent mark or to the beginning of the string if it has never been marked
+StringReader.StringReader(String)	Creates a new string reader
+StringReader.read(char[],int,int)	Reads characters into a portion of an array
+StringReader.ready()	Tells whether this stream is ready to be read
+StringReader.mark(int)	Marks the present position in the stream Subsequent calls to reset will reposition the stream to this point

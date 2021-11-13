@@ -1,0 +1,26 @@
+Float.Float(String)	Constructs a newly allocated Float object that represents the floating point value of type float represented by the string The string is converted to a float value as if by the valueOf method
+Float.toString(float)	Returns a string representation of the float argument All characters mentioned below are ASCII characters
+Float.valueOf(float)	Returns a Float instance representing the specified float value
+Float.Float(float)	Constructs a newly allocated Float object that represents the primitive float argument
+Float.byteValue()	Returns the value of this Float as a byte by casting to a byte
+Float.compare(float,float)	Compares the two specified float values The sign of the integer value returned is the same as that of the integer that would be returned by the call new Float f1 compareTo new Float f2
+Float.valueOf(String)	Returns a Float object holding the float value represented by the argument string s
+Float.isNaN()	Returns true if this Float value is a Not a Number NaN false otherwise
+Float.toHexString(float)	Returns a hexadecimal string representation of the float argument All characters mentioned below are ASCII characters
+Float.equals(Object)	Compares this object against the specified object The result is true if and only if the argument is not null and is a Float object that represents a float with the same value as the float represented by this object For this purpose two float values are considered to be the same if and only if the method floatToIntBits float returns the identical int value when applied to each
+Float.isInfinite()	Returns true if this Float value is infinitely large in magnitude false otherwise
+Float.floatValue()	Returns the float value of this Float object
+Float.floatToIntBits(float)	Returns a representation of the specified floating point value according to the IEEE 754 floating point single format bit layout
+Float.longValue()	Returns value of this Float as a long by casting to type long
+Float.intBitsToFloat(int)	Returns the float value corresponding to a given bit representation
+Float.compareTo(Float)	Compares two Float objects numerically There are two ways in which comparisons performed by this method differ from those performed by the Java language numerical comparison operators when applied to primitive float values Float NaN is considered by this method to be equal to itself and greater than all other float values including Float POSITIVE INFINITY
+Float.parseFloat(String)	Returns a new float initialized to the value represented by the specified String as performed by the valueOf method of class Float
+Float.Float(double)	Constructs a newly allocated Float object that represents the argument converted to type float
+Float.shortValue()	Returns the value of this Float as a short by casting to a short
+Float.floatToRawIntBits(float)	Returns a representation of the specified floating point value according to the IEEE 754 floating point single format bit layout preserving Not a Number NaN values
+Float.isNaN(float)	Returns true if the specified number is a Not a Number NaN value false otherwise
+Float.intValue()	Returns the value of this Float as an int by casting to type int
+Float.hashCode()	Returns a hash code for this Float object The result is the integer bit representation exactly as produced by the method floatToIntBits float of the primitive float value represented by this Float object
+Float.isInfinite(float)	Returns true if the specified number is infinitely large in magnitude false otherwise
+Float.doubleValue()	Returns the double value of this Float object
+Float.toString()	Returns a string representation of this Float object

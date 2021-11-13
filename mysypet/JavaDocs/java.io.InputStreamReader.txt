@@ -1,0 +1,9 @@
+InputStreamReader.InputStreamReader(InputStream,CharsetDecoder)	Creates an InputStreamReader that uses the given charset decoder
+InputStreamReader.close()	Description copied from class Reader
+InputStreamReader.read(char[],int,int)	Reads characters into a portion of an array
+InputStreamReader.read()	Reads a single character
+InputStreamReader.ready()	Tells whether this stream is ready to be read An InputStreamReader is ready if its input buffer is not empty or if bytes are available to be read from the underlying byte stream
+InputStreamReader.InputStreamReader(InputStream,Charset)	Creates an InputStreamReader that uses the given charset
+InputStreamReader.InputStreamReader(InputStream)	Creates an InputStreamReader that uses the default charset
+InputStreamReader.InputStreamReader(InputStream,String)	Creates an InputStreamReader that uses the named charset
+InputStreamReader.getEncoding()	Returns the name of the character encoding being used by this stream

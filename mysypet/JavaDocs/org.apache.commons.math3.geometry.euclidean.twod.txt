@@ -1,0 +1,123 @@
+Vector2D.angle(Vector2D,Vector2D)	Compute the angular separation between two vectors
+Line.Line(Line)	Copy constructor
+Vector2D.Vector2D(double,Vector2D)	Multiplicative constructor Build a vector from another one and a scale factor
+Vector2D.getNormInf()	Get the L norm for the vector
+Vector2DFormat.Vector2DFormat(String,String,String,NumberFormat)	Create an instance with custom prefix suffix separator and format for components
+Vector2D.Vector2D(double,Vector2D,double,Vector2D,double,Vector2D,double,Vector2D)	Linear constructor Build a vector from four other ones and corresponding scale factors
+ConvexHull2D.getLineSegments()	Get the line segments of the convex hull ordered
+Line.sameOrientationAs(Hyperplane)	Check if the instance has the same orientation as another hyperplane
+MonotoneChain.generate(Collection)	Builds the convex hull from the set of input points
+PolygonsSet.PolygonsSet(BSPTree,double)	Build a polygons set from a BSP tree
+Euclidean2D.getSubSpace()	Get the n 1 dimension subspace of this space
+Vector2D.normalize()	Get a normalized vector aligned with the instance
+Line.toSpace(Point)	Transform a sub space point into a space point
+PolygonsSet.buildNew(BSPTree)	Build a region using the instance as a prototype
+Line.copySelf()	Copy the instance
+Vector2D.getY()	Get the ordinate of the vector
+Segment.getEnd()	Get the end point of the segment
+SubLine.split(Hyperplane)	Split the instance in two parts by an hyperplane
+MonotoneChain.isIncludeCollinearPoints()	Returns if collinear points on the hull will be added as hull vertices
+Line.setOriginOffset(double)	Set the offset of the origin
+Line.intersection(Line)	Get the intersection point of the instance and another line
+Line.getOriginOffset()	Get the offset of the origin
+Vector2D.distanceSq(Vector)	Compute the square of the distance between the instance and another vector
+Line.revertSelf()	Revert the instance
+AklToussaintHeuristic.reducePoints(Collection)	Returns a point set that is reduced by all points for which it is safe to assume that they are not part of the convex hull
+Line.getPointAt(Vector1D,double)	Get one point from the plane
+Vector2D.hashCode()	Get a hashCode for the 2D vector
+PolygonsSet.PolygonsSet(Collection)	Build a polygons set from a Boundary REPresentation B rep
+Vector2D.equals(Object)	Test for the equality of two 2D vectors
+SubLine.intersection(SubLine,boolean)	Get the intersection of the instance and another sub line
+Segment.getStart()	Get the start point of the segment
+SubLine.SubLine(Vector2D,Vector2D)	Create a sub line from two endpoints
+Vector2D.distance(Point)	Compute the distance between the instance and another point
+Vector2D.toArray()	Get the vector coordinates as a dimension 2 array
+PolygonsSet.PolygonsSet(BSPTree)	Build a polygons set from a BSP tree
+Euclidean2D.getInstance()	Get the unique instance
+PolygonsSet.PolygonsSet(double)	Build a polygons set representing the whole plane
+SubLine.getSegments()	Get the endpoints of the sub line
+Vector2DFormat.Vector2DFormat(NumberFormat)	Create an instance with a custom number format for components
+ConvexHullGenerator2D.generate(Collection)	Builds the convex hull from the set of input points
+Segment.getLine()	Get the line containing the segment
+PolygonsSet.getVertices()	Get the vertices of the polygon
+Line.contains(Vector2D)	Check if the line contains a point
+Vector2D.isNaN()	Returns true if any coordinate of this point is NaN false otherwise
+Vector2D.distance(Vector2D,Vector2D)	Compute the distance between two vectors according to the L2 norm
+Vector2D.Vector2D(double,Vector2D,double,Vector2D)	Linear constructor Build a vector from two other ones and corresponding scale factors
+Vector2D.toString()	Get a string representation of this vector
+PolygonsSet.PolygonsSet(double,double,double,double)	Build a parallellepipedic box
+SubLine.SubLine(Hyperplane,Region)	Simple constructor
+Vector2D.add(Vector)	Add a vector to the instance
+Vector2D.distanceSq(Vector2D,Vector2D)	Compute the square of the distance between two vectors
+Vector2D.isInfinite()	Returns true if any coordinate of this vector is infinite and none are NaN false otherwise
+Line.isParallelTo(Line)	Check the instance is parallel to another line
+Vector2D.distance(Vector)	Compute the distance between the instance and another vector according to the L2 norm
+Vector2D.distance1(Vector)	Compute the distance between the instance and another vector according to the L1 norm
+Line.getOffset(Point)	Get the offset oriented distance of a point
+Line.getReverse()	Get the reverse of the instance
+PolygonsSet.PolygonsSet()	Build a polygons set representing the whole real line
+Segment.Segment(Vector2D,Vector2D,Line)	Build a segment
+Line.Line(Vector2D,Vector2D,double)	Build a line from two points
+Line.getAngle()	Get the angle of the line
+MonotoneChain.MonotoneChain(boolean,double)	Create a new MonotoneChain instance
+PolygonsSet.PolygonsSet(Collection,double)	Build a polygons set from a Boundary REPresentation B rep
+Line.toSubSpace(Point)	Transform a space point into a sub space point
+Line.reset(Vector2D,double)	Reset the instance as if built from a line and an angle
+PolygonsSet.PolygonsSet(double,double,double,double,double)	Build a parallellepipedic box
+SubLine.side(Hyperplane)	Compute the relative position of the instance with respect to an hyperplane
+Line.toSubSpace(Vector)	Transform a space point into a sub space point
+Line.Line(Vector2D,double,double)	Build a line from a point and an angle
+DiskGenerator.DiskGenerator()	
+SubLine.SubLine(Segment)	Create a sub line from a segment
+Line.distance(Vector2D)	Compute the distance between the instance and a point
+Vector2D.Vector2D(double[])	Simple constructor
+Line.getOffset(Line)	Get the offset oriented distance of a parallel line
+Vector2DFormat.parse(String)	Parses a string to produce a Vector object
+Line.setAngle(double)	Set the angle of the line
+Vector2D.crossProduct(Vector2D,Vector2D)	Compute the cross product of the instance and the given points
+Vector2D.scalarMultiply(double)	Multiply the instance by a scalar
+ConvexHull2D.createRegion()	Returns a new region that is enclosed by the convex hull
+Vector2D.subtract(Vector)	Subtract a vector from the instance
+Line.toSpace(Vector)	Transform a sub space point into a space point
+Vector2D.getSpace()	Get the space to which the point belongs
+Vector2D.subtract(double,Vector)	Subtract a scaled vector from the instance
+Vector2D.getNormSq()	Get the square of the norm for the vector
+Vector2D.negate()	Get the opposite of the instance
+PolygonsSet.PolygonsSet(double,)	Build a polygon from a simple list of vertices
+Line.getTransform(AffineTransform)	Get a Transform embedding an affine transform
+Vector2D.getNorm()	Get the L2 norm for the vector
+Vector2DFormat.getInstance()	Returns the default 2D vector format for the current locale
+Line.wholeSpace()	Build a region covering the whole space
+Vector2DFormat.Vector2DFormat(String,String,String)	Create an instance with custom prefix suffix and separator
+Segment.distance(Vector2D)	Calculates the shortest distance from a point to this line segment
+Vector2D.add(double,Vector)	Add a scaled vector to the instance
+DiskGenerator.ballOnSupport(List)	Create a ball whose boundary lies on prescribed support points
+ConvexHull2D.getVertices()	Get the vertices of the convex hull
+Vector2DFormat.format(Vector,StringBuffer,FieldPosition)	Formats a Vector object to produce a string
+Vector2D.dotProduct(Vector)	Compute the dot product of the instance and another vector
+Vector2D.getZero()	Get the null vector of the vectorial space or origin point of the affine space
+Vector2DFormat.parse(String,ParsePosition)	Parses a string to produce a Vector object
+Vector2D.getNorm1()	Get the L1 norm for the vector
+Line.Line(Vector2D,double)	Build a line from a point and an angle
+MonotoneChain.MonotoneChain(boolean)	Create a new MonotoneChain instance
+Vector2DFormat.Vector2DFormat()	Create an instance with default settings
+Line.getTolerance()	Get the tolerance below which points are considered to belong to the hyperplane
+Line.getOffset(Vector)	Get the offset oriented distance of a vector
+Euclidean2D.getDimension()	Get the dimension of the space
+ConvexHull2D.ConvexHull2D(Vector2D[],double)	Simple constructor
+Vector2D.toString(NumberFormat)	Get a string representation of this vector
+MonotoneChain.findHullVertices(Collection)	Find the convex hull vertices from the set of input points
+SubLine.SubLine(Vector2D,Vector2D,double)	Create a sub line from two endpoints
+Vector2D.getX()	Get the abscissa of the vector
+Line.translateToPoint(Vector2D)	Translate the line to force it passing by a point
+Line.Line(Vector2D,Vector2D)	Build a line from two points
+Line.reset(Vector2D,Vector2D)	Reset the instance as if built from two points
+MonotoneChain.MonotoneChain()	Create a new MonotoneChain instance
+Line.wholeHyperplane()	Build a sub hyperplane covering the whole hyperplane
+Vector2D.Vector2D(double,Vector2D,double,Vector2D,double,Vector2D)	Linear constructor Build a vector from three other ones and corresponding scale factors
+Vector2D.distanceInf(Vector)	Compute the distance between the instance and another vector according to the L norm
+Vector2D.Vector2D(double,double)	Simple constructor
+Vector2D.distanceInf(Vector2D,Vector2D)	Compute the distance between two vectors according to the L norm
+Vector2DFormat.getInstance(Locale)	Returns the default 2D vector format for the given locale
+Line.project(Point)	Project a point to the hyperplane
+MonotoneChain.getTolerance()	Get the tolerance below which points are considered identical

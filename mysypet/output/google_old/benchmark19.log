@@ -1,0 +1,69 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/19/benchmark19.json
+     [java] Benchmark Id: 19
+     [java] Method name: getDayFromString
+     [java] Packages: [org.joda.time]
+     [java] Libraries: [./lib/joda-time-2.8.2.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String]
+     [java] Target type: int
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: org.joda.convert.ToString is a phantom class!
+     [java] Warning: org.joda.convert.FromString is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 19
+     [java] =========cnt:=========94
+     [java] #Classes: 246
+     [java] #Methods: 4425
+     [java] Soot Time: 2763.031851
+     [java] PetriNet for path length: 1 [places: 52 ; transitions: 164 ; edges: 360]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 52 ; transitions: 164 ; edges: 360]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 52 ; transitions: 164 ; edges: 360]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 52 ; transitions: 164 ; edges: 360]
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.LocalDateTime: org.joda.time.LocalDateTime parse(java.lang.String,org.joda.time.format.DateTimeFormatter)>
+     [java] <org.joda.time.LocalDateTime: int getDayOfMonth()>
+     [java] #Program: 0
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 19
+     [java] Recommend Api Number:94
+     [java] Sketch Generation Time: 35.817437
+     [java] Sketch Completion Time: 7.415552999999999
+     [java] Compilation Time: 337.079659
+     [java] Running Test cases Time: 42.170485
+     [java] Synthesis Time: 85.40347499999999
+     [java] Total Time: 3185.5149850000003
+     [java] Number of components: 3
+     [java] Number of holes: 5
+     [java] Number of completed programs: 1
+     [java] Number of sketches: 1
+     [java] Solution:
+     [java]  org.joda.time.format.DateTimeFormatter sypet_var3 = org.joda.time.format.DateTimeFormat.forPattern(sypet_arg1);
+     [java]  org.joda.time.LocalDateTime sypet_var4 = org.joda.time.LocalDateTime.parse(sypet_arg0,sypet_var3);
+     [java]  int sypet_var5 = sypet_var4.getDayOfMonth();
+     [java]  return sypet_var5;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 3 seconds

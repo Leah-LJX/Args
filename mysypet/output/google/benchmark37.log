@@ -1,0 +1,1071 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/37/benchmark37.json
+     [java] Benchmark Id: 37
+     [java] Method name: getLastDayOfWeek
+     [java] Packages: [org.joda.time]
+     [java] Libraries: [./lib/joda-time-2.8.2.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: org.joda.convert.ToString is a phantom class!
+     [java] Warning: org.joda.convert.FromString is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 37
+     [java] =========cnt:=========106
+     [java] #Classes: 246
+     [java] #Methods: 4425
+     [java] Soot Time: 2476.351443
+     [java] PetriNet for path length: 1 [places: 56 ; transitions: 180 ; edges: 409]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 56 ; transitions: 180 ; edges: 409]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 56 ; transitions: 180 ; edges: 409]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 56 ; transitions: 180 ; edges: 409]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 5 [places: 56 ; transitions: 180 ; edges: 409]
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 3
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 6
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 9
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 12
+     [java] =========sketch========
+     [java] <org.joda.time.format.ISODateTimeFormat: org.joda.time.format.DateTimeFormatter date()>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 15
+     [java] =========sketch========
+     [java] #Program: 18
+     [java] PetriNet for path length: 6 [places: 56 ; transitions: 180 ; edges: 409]
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] _upper5
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadableInstant)>
+     [java] #Program: 18
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 21
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.LocalDate: void <init>(org.joda.time.DateTimeZone)>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 24
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 27
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 30
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 33
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property millisOfSecond()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 36
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 39
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property hourOfDay()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 42
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 45
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property monthOfYear()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 48
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property secondOfMinute()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 51
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property year()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 54
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] _upper5
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadableInstant)>
+     [java] #Program: 57
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate now(org.joda.time.DateTimeZone)>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 60
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: void <init>()>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 63
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now()>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZone(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 66
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now()>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 69
+     [java] =========sketch========
+     [java] <org.joda.time.DateTime: void <init>()>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZone(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 72
+     [java] =========sketch========
+     [java] <org.joda.time.format.ISODateTimeFormat: org.joda.time.format.DateTimeFormatter date()>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 75
+     [java] =========sketch========
+     [java] <org.joda.time.format.ISODateTimeFormat: org.joda.time.format.DateTimeFormatter date()>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] _upper5
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadableInstant)>
+     [java] #Program: 78
+     [java] =========sketch========
+     [java] <org.joda.time.format.ISODateTimeFormat: org.joda.time.format.DateTimeFormatter date()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String,org.joda.time.format.DateTimeFormatter)>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 81
+     [java] =========sketch========
+     [java] <org.joda.time.format.ISODateTimeFormat: org.joda.time.format.DateTimeFormatter date()>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.LocalDate parseLocalDate(java.lang.String)>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 84
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 87
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] sypet_clone_org.joda.time.format.DateTimeFormatter
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.LocalDate parseLocalDate(java.lang.String)>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 94
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] sypet_clone_org.joda.time.format.DateTimeFormatter
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String,org.joda.time.format.DateTimeFormatter)>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 97
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] sypet_clone_org.joda.time.format.DateTimeFormatter
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper5
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadableInstant)>
+     [java] #Program: 100
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] _upper3
+     [java] sypet_clone_void
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 103
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <org.joda.time.format.ISODateTimeFormat: org.joda.time.format.DateTimeFormatter date()>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 106
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] sypet_clone_void
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 109
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] sypet_clone_void
+     [java] #Program: 112
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] sypet_clone_void
+     [java] #Program: 115
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] sypet_clone_void
+     [java] #Program: 118
+     [java] =========sketch========
+     [java] #Program: 121
+     [java] PetriNet for path length: 7 [places: 56 ; transitions: 180 ; edges: 409]
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property secondOfMinute()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 121
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate$Property dayOfWeek()>
+     [java] <org.joda.time.LocalDate$Property: org.joda.time.LocalDate withMinimumValue()>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 124
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZone(org.joda.time.DateTimeZone)>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 127
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZone(org.joda.time.DateTimeZone)>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 132
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 135
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZone(org.joda.time.DateTimeZone)>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 138
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 141
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 144
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZone(org.joda.time.DateTimeZone)>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 149
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 154
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 159
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 164
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 169
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 172
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 175
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 178
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 181
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property hourOfDay()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 184
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property hourOfDay()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 187
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property monthOfYear()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 190
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property millisOfSecond()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 193
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property millisOfSecond()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 196
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property secondOfMinute()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 199
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 202
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 205
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property year()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 208
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property monthOfYear()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 211
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property secondOfMinute()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 214
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property year()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 217
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property year()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 220
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 223
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property hourOfDay()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 226
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property hourOfDay()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 229
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property millisOfSecond()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 232
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property millisOfSecond()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 235
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property secondOfMinute()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 238
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 241
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 244
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property year()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 247
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property monthOfYear()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 250
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property monthOfYear()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 253
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property secondOfMinute()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 256
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZone(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 259
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZone(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 264
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 267
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZone(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 270
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 273
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withZone(org.joda.time.DateTimeZone)>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 276
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadableInstant)>
+     [java] #Program: 281
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: void <init>(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime roundFloorCopy()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 284
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime roundFloorCopy()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString(java.lang.String)>
+     [java] #Program: 287
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 290
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 293
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 296
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property year()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 299
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 302
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property hourOfDay()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 305
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property hourOfDay()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 308
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 311
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property millisOfSecond()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 314
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property millisOfSecond()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 317
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property monthOfYear()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 320
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 323
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property secondOfMinute()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 326
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property monthOfYear()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 329
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property year()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper5
+     [java] <org.joda.time.ReadableInstant: java.lang.String toString()>
+     [java] #Program: 332
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 335
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 338
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property dayOfMonth()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 341
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property hourOfDay()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 344
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property hourOfDay()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 347
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property secondOfMinute()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 350
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property millisOfSecond()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 353
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property millisOfSecond()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 356
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 359
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 362
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property year()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 365
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property monthOfYear()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMaximumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 368
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property monthOfYear()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 371
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property secondOfMinute()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 374
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property year()>
+     [java] <org.joda.time.DateTime$Property: org.joda.time.DateTime withMinimumValue()>
+     [java] _upper11
+     [java] <org.joda.time.base.AbstractDateTime: java.lang.String toString()>
+     [java] #Program: 377
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property year()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 380
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property hourOfDay()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 383
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property millisOfSecond()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 386
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property minuteOfHour()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 389
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property monthOfYear()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 392
+     [java] =========sketch========
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: org.joda.time.DateTime parseDateTime(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime$Property secondOfMinute()>
+     [java] _upper14
+     [java] <org.joda.time.field.AbstractReadableInstantFieldProperty: java.lang.String getAsString()>
+     [java] #Program: 395
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate$Property dayOfYear()>
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.LocalDate$Property: org.joda.time.LocalDate withMinimumValue()>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 398
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime withTimeAtStartOfDay()>
+     [java] _upper5
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadableInstant)>
+     [java] #Program: 401
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate$Property dayOfMonth()>
+     [java] <org.joda.time.LocalDate$Property: org.joda.time.LocalDate withMinimumValue()>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 404
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate$Property dayOfWeek()>
+     [java] <org.joda.time.LocalDate$Property: org.joda.time.LocalDate withMaximumValue()>
+     [java] _upper3
+     [java] <org.joda.time.format.DateTimeFormat: org.joda.time.format.DateTimeFormatter forPattern(java.lang.String)>
+     [java] <org.joda.time.format.DateTimeFormatter: java.lang.String print(org.joda.time.ReadablePartial)>
+     [java] #Program: 407
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 37
+     [java] Recommend Api Number:106
+     [java] Sketch Generation Time: 817.9171850000005
+     [java] Sketch Completion Time: 308.595587
+     [java] Compilation Time: 2697.0799409999995
+     [java] Running Test cases Time: 107.88259199999995
+     [java] Synthesis Time: 1234.3953640000004
+     [java] Total Time: 6407.8267479999995
+     [java] Number of components: 6
+     [java] Number of holes: 8
+     [java] Number of completed programs: 409
+     [java] Number of sketches: 130
+     [java] Solution:
+     [java]  org.joda.time.LocalDate sypet_var980 = org.joda.time.LocalDate.parse(sypet_arg0);
+     [java]  org.joda.time.LocalDate.Property sypet_var981 = sypet_var980.dayOfWeek();
+     [java]  org.joda.time.LocalDate sypet_var982 = sypet_var981.withMaximumValue();
+     [java]  org.joda.time.ReadablePartial sypet_var983 = sypet_var982;
+     [java]  org.joda.time.format.DateTimeFormatter sypet_var984 = org.joda.time.format.DateTimeFormat.forPattern(sypet_arg1);
+     [java]  java.lang.String sypet_var985 = sypet_var984.print(sypet_var983);
+     [java]  return sypet_var985;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 7 seconds

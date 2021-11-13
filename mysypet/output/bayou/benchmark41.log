@@ -1,0 +1,160 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/bayou/41/benchmark41.json
+     [java] Benchmark Id: 41
+     [java] Method name: compare2Dates
+     [java] Packages: [java.util.Date, java.text.DateFormat, java.text.SimpleDateFormat]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String, java.lang.String]
+     [java] Target type: boolean
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ljxdata/seq_result/41
+     [java] filenamedata/seq_result/41/2.java
+     [java] filenamedata/seq_result/41/1.java
+     [java] filenamedata/seq_result/41/7.java
+     [java] filenamedata/seq_result/41/4.java
+     [java] filenamedata/seq_result/41/5.java
+     [java] filenamedata/seq_result/41/8.java
+     [java] filenamedata/seq_result/41/9.java
+     [java] filenamedata/seq_result/41/3.java
+     [java] filenamedata/seq_result/41/6.java
+     [java] filenamedata/seq_result/41/10.java
+     [java] =========bayou-program-api=======
+     [java] java.lang.Boolean.parseBoolean
+     [java] java.util.Date.<init>
+     [java] java.text.SimpleDateFormat.parse
+     [java] java.text.SimpleDateFormat.<init>
+     [java] java.text.DateFormat.format
+     [java] java.util.Date.after
+     [java] java.lang.String.startsWith
+     [java] java.text.SimpleDateFormat.format
+     [java] java.util.Date.before
+     [java] java.lang.String.equals
+     [java] java.text.SimpleDateFormat.setLenient
+     [java] =========cnt:=========18
+     [java] #Classes: 8
+     [java] #Methods: 181
+     [java] Soot Time: 6915.541791
+     [java] PetriNet for path length: 1 [places: 48 ; transitions: 90 ; edges: 198]
+     [java] PetriNet for path length: 2 [places: 48 ; transitions: 90 ; edges: 198]
+     [java] PetriNet for path length: 3 [places: 48 ; transitions: 90 ; edges: 198]
+     [java] PetriNet for path length: 4 [places: 48 ; transitions: 90 ; edges: 198]
+     [java] PetriNet for path length: 5 [places: 48 ; transitions: 90 ; edges: 198]
+     [java] PetriNet for path length: 6 [places: 48 ; transitions: 90 ; edges: 198]
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] Note: /Source.java uses or overrides a deprecated API.
+     [java] Note: Recompile with -Xlint:deprecation for details.
+     [java] PetriNet for path length: 7 [places: 48 ; transitions: 90 ; edges: 198]
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 41
+     [java] Recommend Api Number:18
+     [java] Sketch Generation Time: 172.44266599999997
+     [java] Sketch Completion Time: 34.435207
+     [java] Compilation Time: 1752.2763269999998
+     [java] Running Test cases Time: 32.585466000000004
+     [java] Synthesis Time: 239.463339
+     [java] Total Time: 8907.281457000001
+     [java] Number of components: 6
+     [java] Number of holes: 9
+     [java] Number of completed programs: 27
+     [java] Number of sketches: 3
+     [java] Solution:
+     [java]  java.text.SimpleDateFormat sypet_var20 = new java.text.SimpleDateFormat(sypet_arg2);
+     [java]  java.text.DateFormat sypet_var21 = sypet_var20;
+     [java]  java.util.Date sypet_var22 = sypet_var21.parse(sypet_arg1);
+     [java]  java.util.Date sypet_var23 = sypet_var21.parse(sypet_arg0);
+     [java]  boolean sypet_var24 = sypet_var23.before(sypet_var22);
+     [java]  return sypet_var24;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 9 seconds

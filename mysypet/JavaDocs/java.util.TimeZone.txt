@@ -1,0 +1,22 @@
+TimeZone.getDisplayName(Locale)	Returns a long standard time name of this TimeZone suitable for presentation to the user in the specified locale
+TimeZone.getDisplayName(boolean,int,Locale)	Returns a name in the specified style of this TimeZone suitable for presentation to the user in the specified locale If the specified daylight is true a Daylight Saving Time name is returned even if this TimeZone doesn t observe Daylight Saving Time Otherwise a Standard Time name is returned
+TimeZone.getOffset(int,int,int,int,int,int)	Gets the time zone offset for current date modified in case of daylight savings This is the offset to add to UTC to get local time
+TimeZone.getRawOffset()	Returns the amount of time in milliseconds to add to UTC to get standard time in this time zone Because this value is not affected by daylight saving time it is called raw offset
+TimeZone.inDaylightTime(Date)	Queries if the given date is in Daylight Saving Time in this time zone
+TimeZone.getAvailableIDs(int)	Gets the available IDs according to the given time zone offset in milliseconds
+TimeZone.getOffset(long)	Returns the offset of this time zone from UTC at the specified date If Daylight Saving Time is in effect at the specified date the offset value is adjusted with the amount of daylight saving
+TimeZone.getDefault()	Gets the default TimeZone for this host
+TimeZone.setDefault(TimeZone)	Sets the TimeZone that is returned by the getDefault method If zone is null reset the default to the value it had originally when the VM first started
+TimeZone.TimeZone()	Sole constructor For invocation by subclass constructors typically implicit
+TimeZone.getTimeZone(String)	Gets the TimeZone for the given ID
+TimeZone.getAvailableIDs()	Gets all the available IDs supported
+TimeZone.clone()	Creates a copy of this TimeZone
+TimeZone.getID()	Gets the ID of this time zone
+TimeZone.observesDaylightTime()	Returns true if this TimeZone is currently in Daylight Saving Time or if a transition from Standard Time to Daylight Saving Time occurs at any future time
+TimeZone.useDaylightTime()	Queries if this TimeZone uses Daylight Saving Time
+TimeZone.getDisplayName(boolean,int)	Returns a name in the specified style of this TimeZone suitable for presentation to the user in the default locale If the specified daylight is true a Daylight Saving Time name is returned even if this TimeZone doesn t observe Daylight Saving Time Otherwise a Standard Time name is returned
+TimeZone.setID(String)	Sets the time zone ID This does not change any other data in the time zone object
+TimeZone.getDisplayName()	Returns a long standard time name of this TimeZone suitable for presentation to the user in the default locale
+TimeZone.setRawOffset(int)	Sets the base time zone offset to GMT
+TimeZone.hasSameRules(TimeZone)	Returns true if this zone has the same rule and offset as another zone
+TimeZone.getDSTSavings()	Returns the amount of time to be added to local standard time to get local wall clock time

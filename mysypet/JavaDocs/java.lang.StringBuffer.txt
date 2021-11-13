@@ -1,0 +1,54 @@
+StringBuffer.capacity()	Returns the current capacity The capacity is the amount of storage available for newly inserted characters beyond which an allocation will occur
+StringBuffer.delete(int,int)	Removes the characters in a substring of this sequence
+StringBuffer.StringBuffer(CharSequence)	Constructs a string buffer that contains the same characters as the specified CharSequence The initial capacity of the string buffer is 16 plus the length of the CharSequence argument
+StringBuffer.insert(int,float)	Inserts the string representation of the float argument into this sequence
+StringBuffer.StringBuffer()	Constructs a string buffer with no characters in it and an initial capacity of 16 characters
+StringBuffer.deleteCharAt(int)	Removes the char at the specified position in this sequence This sequence is shortened by one char
+StringBuffer.append(CharSequence)	Appends the specified CharSequence to this sequence
+StringBuffer.append(String)	Appends the specified string to this character sequence
+StringBuffer.ensureCapacity(int)	Ensures that the capacity is at least equal to the specified minimum
+StringBuffer.insert(int,long)	Inserts the string representation of the long argument into this sequence
+StringBuffer.lastIndexOf(String)	Returns the index within this string of the rightmost occurrence of the specified substring The rightmost empty string is considered to occur at the index value this length
+StringBuffer.length()	Returns the length character count
+StringBuffer.getChars(int,int,char[],int)	Characters are copied from this sequence into the destination character array dst The first character to be copied is at index srcBegin the last character to be copied is at index srcEnd 1 The total number of characters to be copied is srcEnd srcBegin The characters are copied into the subarray of dst starting at index dstBegin and ending at index dstbegin srcEnd srcBegin 1
+StringBuffer.insert(int,char[])	Inserts the string representation of the char array argument into this sequence
+StringBuffer.append(Object)	Appends the string representation of the Object argument
+StringBuffer.trimToSize()	Attempts to reduce storage used for the character sequence
+StringBuffer.StringBuffer(int)	Constructs a string buffer with no characters in it and the specified initial capacity
+StringBuffer.append(CharSequence,int,int)	Appends a subsequence of the specified CharSequence to this sequence
+StringBuffer.insert(int,String)	Inserts the string into this character sequence
+StringBuffer.append(float)	Appends the string representation of the float argument to this sequence
+StringBuffer.toString()	Returns a string representing the data in this sequence
+StringBuffer.offsetByCodePoints(int,int)	Returns the index within this sequence that is offset from the given index by codePointOffset code points Unpaired surrogates within the text range given by index and codePointOffset count as one code point each
+StringBuffer.append(StringBuffer)	Appends the specified StringBuffer to this sequence
+StringBuffer.appendCodePoint(int)	Appends the string representation of the codePoint argument to this sequence
+StringBuffer.setCharAt(int,char)	The character at the specified index is set to ch This sequence is altered to represent a new character sequence that is identical to the old character sequence except that it contains the character ch at position index
+StringBuffer.insert(int,char[],int,int)	Inserts the string representation of a subarray of the str array argument into this sequence The subarray begins at the specified offset and extends len chars
+StringBuffer.append(boolean)	Appends the string representation of the boolean argument to the sequence
+StringBuffer.codePointAt(int)	Returns the character Unicode code point at the specified index The index refers to char values Unicode code units and ranges from 0 to length 1
+StringBuffer.append(char[],int,int)	Appends the string representation of a subarray of the char array argument to this sequence
+StringBuffer.insert(int,CharSequence,int,int)	Inserts a subsequence of the specified CharSequence into this sequence
+StringBuffer.codePointBefore(int)	Returns the character Unicode code point before the specified index The index refers to char values Unicode code units and ranges from 1 to length
+StringBuffer.insert(int,double)	Inserts the string representation of the double argument into this sequence
+StringBuffer.substring(int,int)	Returns a new String that contains a subsequence of characters currently contained in this sequence The substring begins at the specified start and extends to the character at index end 1
+StringBuffer.replace(int,int,String)	Replaces the characters in a substring of this sequence with characters in the specified String The substring begins at the specified start and extends to the character at index end 1 or to the end of the sequence if no such character exists First the characters in the substring are removed and then the specified String is inserted at start This sequence will be lengthened to accommodate the specified String if necessary
+StringBuffer.append(double)	Appends the string representation of the double argument to this sequence
+StringBuffer.insert(int,Object)	Inserts the string representation of the Object argument into this character sequence
+StringBuffer.reverse()	Causes this character sequence to be replaced by the reverse of the sequence If there are any surrogate pairs included in the sequence these are treated as single characters for the reverse operation Thus the order of the high low surrogates is never reversed
+StringBuffer.insert(int,char)	Inserts the string representation of the char argument into this sequence
+StringBuffer.subSequence(int,int)	Returns a new character sequence that is a subsequence of this sequence
+StringBuffer.insert(int,boolean)	Inserts the string representation of the boolean argument into this sequence
+StringBuffer.codePointCount(int,int)	Returns the number of Unicode code points in the specified text range of this sequence The text range begins at the specified beginIndex and extends to the char at index endIndex 1 Thus the length in chars of the text range is endIndex beginIndex Unpaired surrogates within this sequence count as one code point each
+StringBuffer.append(char[])	Appends the string representation of the char array argument to this sequence
+StringBuffer.indexOf(String,int)	Returns the index within this string of the first occurrence of the specified substring starting at the specified index The integer returned is the smallest value k for which k Math min fromIndex this length this toString startsWith str k If no such value of k exists then 1 is returned
+StringBuffer.lastIndexOf(String,int)	Returns the index within this string of the last occurrence of the specified substring The integer returned is the largest value k such that k Math min fromIndex this length this toString startsWith str k If no such value of k exists then 1 is returned
+StringBuffer.StringBuffer(String)	Constructs a string buffer initialized to the contents of the specified string The initial capacity of the string buffer is 16 plus the length of the string argument
+StringBuffer.setLength(int)	Sets the length of the character sequence
+StringBuffer.insert(int,CharSequence)	Inserts the specified CharSequence into this sequence
+StringBuffer.append(int)	Appends the string representation of the int argument to this sequence
+StringBuffer.append(char)	Appends the string representation of the char argument to this sequence
+StringBuffer.indexOf(String)	Returns the index within this string of the first occurrence of the specified substring The integer returned is the smallest value k such that this toString startsWith str k is true
+StringBuffer.charAt(int)	Returns the char value in this sequence at the specified index
+StringBuffer.insert(int,int)	Inserts the string representation of the second int argument into this sequence
+StringBuffer.substring(int)	Returns a new String that contains a subsequence of characters currently contained in this character sequence The substring begins at the specified index and extends to the end of this sequence
+StringBuffer.append(long)	Appends the string representation of the long argument to this sequence

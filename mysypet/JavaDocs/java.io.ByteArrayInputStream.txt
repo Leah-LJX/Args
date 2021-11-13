@@ -1,0 +1,10 @@
+ByteArrayInputStream.available()	Returns the number of remaining bytes that can be read or skipped over from this input stream
+ByteArrayInputStream.mark(int)	Set the current marked position in the stream
+ByteArrayInputStream.skip(long)	Skips n bytes of input from this input stream Fewer bytes might be skipped if the end of the input stream is reached
+ByteArrayInputStream.ByteArrayInputStream(byte[],int,int)	Creates ByteArrayInputStream that uses buf as its buffer array The initial value of pos is offset and the initial value of count is the minimum of offset length and buf length
+ByteArrayInputStream.markSupported()	Tests if this InputStream supports mark reset The markSupported method of ByteArrayInputStream always returns true
+ByteArrayInputStream.read(byte[],int,int)	Reads up to len bytes of data into an array of bytes from this input stream
+ByteArrayInputStream.ByteArrayInputStream(byte[])	Creates a ByteArrayInputStream so that it uses buf as its buffer array
+ByteArrayInputStream.reset()	Resets the buffer to the marked position The marked position is 0 unless another position was marked or an offset was specified in the constructor
+ByteArrayInputStream.close()	Closing a ByteArrayInputStream has no effect The methods in this class can be called after the stream has been closed without generating an IOException
+ByteArrayInputStream.read()	Reads the next byte of data from this input stream The value byte is returned as an int in the range 0 to 255 If no byte is available because the end of the stream has been reached the value 1 is returned

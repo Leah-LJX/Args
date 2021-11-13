@@ -1,0 +1,118 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/11/benchmark11.json
+     [java] Benchmark Id: 11
+     [java] Method name: shear
+     [java] Packages: [java.awt.Shape, java.awt.geom]
+     [java] Libraries: [./lib/rt7.jar]
+     [java] Source type(s): [java.awt.geom.Rectangle2D, double, double]
+     [java] Target type: java.awt.geom.Rectangle2D
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.spec.DESKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DESedeKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.spec.SecretKeySpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKeyFactory is a phantom class!
+     [java] Warning: javax.crypto.spec.IvParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEKeySpec is a phantom class!
+     [java] Warning: javax.crypto.Mac is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: sun.security.ssl.Krb5Helper is a phantom class!
+     [java] Warning: com.oracle.jrockit.jfr.FlightRecorder is a phantom class!
+     [java] Warning: sun.security.ssl.SSLSocketImpl is a phantom class!
+     [java] Warning: javax.crypto.CipherInputStream is a phantom class!
+     [java] Warning: javax.crypto.CipherOutputStream is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.EUC_TW$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.DoubleByteEncoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0201$Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0208_Decoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Encoder is a phantom class!
+     [java] Warning: sun.nio.cs.ext.JIS_X_0212_Decoder is a phantom class!
+     [java] Warning: javax.crypto.spec.PBEParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] Warning: javax.crypto.spec.OAEPParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource is a phantom class!
+     [java] Warning: javax.crypto.spec.PSource$PSpecified is a phantom class!
+     [java] Warning: javax.crypto.KeyGenerator is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 11
+     [java] =========cnt:=========90
+     [java] #Classes: 51
+     [java] #Methods: 761
+     [java] Soot Time: 4694.795974
+     [java] PetriNet for path length: 1 [places: 54 ; transitions: 168 ; edges: 368]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 54 ; transitions: 168 ; edges: 368]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 54 ; transitions: 168 ; edges: 368]
+     [java] =========sketch========
+     [java] sypet_clone_java.awt.geom.Rectangle2D
+     [java] <java.awt.geom.Rectangle2D: void add(double,double)>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] #Program: 3
+     [java] PetriNet for path length: 4 [places: 54 ; transitions: 168 ; edges: 368]
+     [java] =========sketch========
+     [java] #Program: 3
+     [java] PetriNet for path length: 5 [places: 54 ; transitions: 168 ; edges: 368]
+     [java] =========sketch========
+     [java] _upper1
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getScaleInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: java.awt.Shape createTransformedShape(java.awt.Shape)>
+     [java] <java.awt.Shape: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] #Program: 3
+     [java] =========sketch========
+     [java] _upper1
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getRotateInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: java.awt.Shape createTransformedShape(java.awt.Shape)>
+     [java] <java.awt.Shape: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] #Program: 6
+     [java] =========sketch========
+     [java] _upper1
+     [java] <java.awt.geom.AffineTransform: java.awt.geom.AffineTransform getShearInstance(double,double)>
+     [java] <java.awt.geom.AffineTransform: java.awt.Shape createTransformedShape(java.awt.Shape)>
+     [java] <java.awt.Shape: java.awt.geom.Rectangle2D getBounds2D()>
+     [java] #Program: 9
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 11
+     [java] Recommend Api Number:90
+     [java] Sketch Generation Time: 60.650906
+     [java] Sketch Completion Time: 19.935983
+     [java] Compilation Time: 534.4060539999999
+     [java] Running Test cases Time: 4.2648399999999995
+     [java] Synthesis Time: 84.851729
+     [java] Total Time: 5314.053757
+     [java] Number of components: 4
+     [java] Number of holes: 7
+     [java] Number of completed programs: 11
+     [java] Number of sketches: 4
+     [java] Solution:
+     [java]  java.awt.Shape sypet_var22 = sypet_arg0;
+     [java]  java.awt.geom.AffineTransform sypet_var23 = java.awt.geom.AffineTransform.getShearInstance(sypet_arg1,sypet_arg2);
+     [java]  java.awt.Shape sypet_var24 = sypet_var23.createTransformedShape(sypet_var22);
+     [java]  java.awt.geom.Rectangle2D sypet_var25 = sypet_var24.getBounds2D();
+     [java]  return sypet_var25;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 5 seconds

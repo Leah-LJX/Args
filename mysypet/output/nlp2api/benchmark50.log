@@ -1,0 +1,23 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/nlp2api/50/benchmark50.json
+     [java] Benchmark Id: 50
+     [java] Method name: parseJson
+     [java] Packages: [org.json]
+     [java] Libraries: [./lib/json-20180813.jar]
+     [java] Source type(s): [java.lang.String, java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+
+BUILD FAILED
+/root/workspace/liujiaxin/mysypet/build.xml:75: Java returned: 137
+
+Total time: 1 second

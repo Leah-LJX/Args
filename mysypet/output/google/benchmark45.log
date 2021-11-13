@@ -1,0 +1,100 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/45/benchmark45.json
+     [java] Benchmark Id: 45
+     [java] Method name: beforeSeveralMonths
+     [java] Packages: [org.joda.time]
+     [java] Libraries: [./lib/joda-time-2.8.2.jar]
+     [java] Source type(s): [java.lang.String, int]
+     [java] Target type: boolean
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: org.joda.convert.ToString is a phantom class!
+     [java] Warning: org.joda.convert.FromString is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 45
+     [java] =========cnt:=========138
+     [java] #Classes: 246
+     [java] #Methods: 4425
+     [java] Soot Time: 2401.769245
+     [java] PetriNet for path length: 1 [places: 60 ; transitions: 216 ; edges: 491]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 60 ; transitions: 216 ; edges: 491]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 60 ; transitions: 216 ; edges: 491]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 4 [places: 60 ; transitions: 216 ; edges: 491]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 5 [places: 60 ; transitions: 216 ; edges: 491]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 6 [places: 60 ; transitions: 216 ; edges: 491]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 7 [places: 60 ; transitions: 216 ; edges: 491]
+     [java] =========sketch========
+     [java] <org.joda.time.DateTimeZone: org.joda.time.DateTimeZone forID(java.lang.String)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime now(org.joda.time.DateTimeZone)>
+     [java] <org.joda.time.DateTime: org.joda.time.DateTime plusMonths(int)>
+     [java] _upper5
+     [java] sypet_clone_org.joda.time.ReadableInstant
+     [java] <org.joda.time.ReadableInstant: boolean isAfter(org.joda.time.ReadableInstant)>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] sypet_clone_org.joda.time.LocalDate
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate withDayOfMonth(int)>
+     [java] _upper4
+     [java] _upper3
+     [java] <org.joda.time.base.AbstractPartial: boolean isAfter(org.joda.time.ReadablePartial)>
+     [java] #Program: 2
+     [java] =========sketch========
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate parse(java.lang.String)>
+     [java] _upper3
+     [java] <org.joda.time.LocalDate: void <init>()>
+     [java] <org.joda.time.LocalDate: org.joda.time.LocalDate minusYears(int)>
+     [java] _upper4
+     [java] <org.joda.time.base.AbstractPartial: boolean isAfter(org.joda.time.ReadablePartial)>
+     [java] #Program: 6
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 45
+     [java] Recommend Api Number:138
+     [java] Sketch Generation Time: 281.752106
+     [java] Sketch Completion Time: 10.006807000000002
+     [java] Compilation Time: 403.661951
+     [java] Running Test cases Time: 47.276545000000006
+     [java] Synthesis Time: 339.03545800000006
+     [java] Total Time: 3144.466654
+     [java] Number of components: 6
+     [java] Number of holes: 8
+     [java] Number of completed programs: 7
+     [java] Number of sketches: 3
+     [java] Solution:
+     [java]  org.joda.time.LocalDate sypet_var17 = org.joda.time.LocalDate.parse(sypet_arg0);
+     [java]  org.joda.time.ReadablePartial sypet_var18 = sypet_var17;
+     [java]  org.joda.time.LocalDate sypet_var19 = new org.joda.time.LocalDate();
+     [java]  org.joda.time.LocalDate sypet_var20 = sypet_var19.minusYears(sypet_arg1);
+     [java]  org.joda.time.base.AbstractPartial sypet_var21 = sypet_var20;
+     [java]  boolean sypet_var22 = sypet_var21.isAfter(sypet_var18);
+     [java]  return sypet_var22;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 3 seconds

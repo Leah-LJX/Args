@@ -1,0 +1,25 @@
+{
+  "id": 47,
+  "description": "Get division result using BigFraction",
+  "methodName": "getDivision",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1",
+  	"sypet_arg2",
+  	"sypet_arg3"
+  ],
+  "srcTypes": [
+    "int",
+	  "int",
+	  "int",
+	  "int"
+  ],
+  "tgtType": "org.apache.commons.math3.fraction.BigFraction",
+  "packages": [
+	  "org.apache.commons.math3"
+  ],
+  "libs": [
+    "./lib/commons-math3-3.5.jar"
+  ],
+  "testPath": "benchmarks/test/47/TestSource.java"
+}

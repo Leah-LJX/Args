@@ -1,0 +1,1657 @@
+Buildfile: /root/workspace/liujiaxin/mysypet/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/25/benchmark25.json
+     [java] Benchmark Id: 25
+     [java] Method name: getTitle
+     [java] Packages: [org.jsoup]
+     [java] Libraries: [./lib/jsoup-1.8.3.jar]
+     [java] Source type(s): [java.lang.String]
+     [java] Target type: java.lang.String
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] ============usingGoogle===============
+     [java] 25
+     [java] =========cnt:=========17
+     [java] #Classes: 234
+     [java] #Methods: 1481
+     [java] Soot Time: 1483.936509
+     [java] PetriNet for path length: 1 [places: 45 ; transitions: 86 ; edges: 183]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 2 [places: 45 ; transitions: 86 ; edges: 183]
+     [java] =========sketch========
+     [java] #Program: 0
+     [java] PetriNet for path length: 3 [places: 45 ; transitions: 86 ; edges: 183]
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 0
+     [java] =========sketch========
+     [java] #Program: 2
+     [java] PetriNet for path length: 4 [places: 45 ; transitions: 86 ; edges: 183]
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 2
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 4
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 6
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 8
+     [java] =========sketch========
+     [java] #Program: 10
+     [java] PetriNet for path length: 5 [places: 45 ; transitions: 86 ; edges: 183]
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 10
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 12
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 14
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 16
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 18
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] #Program: 20
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 22
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 24
+     [java] =========sketch========
+     [java] #Program: 26
+     [java] PetriNet for path length: 6 [places: 45 ; transitions: 86 ; edges: 183]
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 26
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 28
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 30
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 32
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 34
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 36
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 38
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 42
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 46
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 48
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 50
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 52
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 54
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 56
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 58
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 60
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] #Program: 62
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] sypet_clone_void
+     [java] #Program: 64
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] sypet_clone_void
+     [java] #Program: 66
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 68
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 70
+     [java] =========sketch========
+     [java] #Program: 72
+     [java] PetriNet for path length: 7 [places: 45 ; transitions: 86 ; edges: 183]
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 72
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 74
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 76
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 78
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 80
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] _upper8
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 84
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 86
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 88
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 90
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 94
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 98
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 102
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 104
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.select.Elements select(java.lang.String)>
+     [java] <org.jsoup.select.Elements: org.jsoup.nodes.Element first()>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 106
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] sypet_clone_org.jsoup.nodes.Element
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 108
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 110
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 114
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 117
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 125
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 127
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 135
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 143
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 151
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 158
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 162
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 170
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 178
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 182
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 189
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 196
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 200
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 203
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 205
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 207
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 210
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 213
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 215
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 217
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 219
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] #Program: 221
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] #Program: 223
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] #Program: 225
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] #Program: 229
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] #Program: 231
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] #Program: 233
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] sypet_clone_void
+     [java] #Program: 237
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] sypet_clone_void
+     [java] #Program: 239
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 241
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 243
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 245
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 249
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 251
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 255
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 257
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 259
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 261
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 265
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 269
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 271
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 273
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 275
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 279
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 283
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 285
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 287
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 289
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 291
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 293
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 295
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 299
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 303
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 305
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 307
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_void
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 309
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 311
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 315
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 317
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 321
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 323
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 325
+     [java] =========sketch========
+     [java] sypet_clone_void
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 327
+     [java] =========sketch========
+     [java] #Program: 329
+     [java] PetriNet for path length: 8 [places: 45 ; transitions: 86 ; edges: 183]
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 329
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 331
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 333
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 335
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 337
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 339
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 341
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 343
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 345
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 347
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 349
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 357
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 361
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 365
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 368
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] _upper8
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Element: org.jsoup.select.Elements select(java.lang.String)>
+     [java] <org.jsoup.select.Elements: org.jsoup.nodes.Element first()>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 372
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 374
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 378
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 380
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 384
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 386
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 390
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 394
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 397
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 399
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 401
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 403
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 405
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.select.Elements select(java.lang.String)>
+     [java] <org.jsoup.select.Elements: org.jsoup.nodes.Element first()>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 408
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 410
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 412
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] sypet_clone_org.jsoup.nodes.Element
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 414
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] _upper8
+     [java] sypet_clone_org.jsoup.nodes.Element
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 416
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] _upper8
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 418
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] sypet_clone_org.jsoup.nodes.Element
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.nodes.Element: org.jsoup.select.Elements select(java.lang.String)>
+     [java] <org.jsoup.select.Elements: org.jsoup.nodes.Element first()>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 421
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.select.Elements select(java.lang.String)>
+     [java] <org.jsoup.select.Elements: org.jsoup.nodes.Element first()>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 423
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: org.jsoup.nodes.Element text(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 425
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 427
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 430
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 434
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 438
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 442
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 444
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 446
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 450
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 452
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 456
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 458
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 460
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 465
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 473
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 481
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 485
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 487
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] sypet_clone_org.jsoup.nodes.Element
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 490
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] _upper8
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 493
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 496
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] sypet_clone_org.jsoup.Connection
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Connection: org.jsoup.Connection userAgent(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 499
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] #Program: 501
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 504
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 506
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 528
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] #Program: 536
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] _upper8
+     [java] <org.jsoup.nodes.Element: java.lang.String text()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 538
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 546
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 554
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 562
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 570
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 578
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 586
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 594
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String,java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 607
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 615
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 623
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 627
+     [java] =========sketch========
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] sypet_clone_org.jsoup.Connection
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 635
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 639
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 643
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] sypet_clone_org.jsoup.nodes.Document
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 651
+     [java] =========sketch========
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Jsoup: org.jsoup.Connection connect(java.lang.String)>
+     [java] sypet_clone_java.lang.String
+     [java] <org.jsoup.Connection: org.jsoup.nodes.Document get()>
+     [java] <org.jsoup.nodes.Document: java.lang.String title()>
+     [java] <org.jsoup.Jsoup: org.jsoup.nodes.Document parse(java.lang.String)>
+     [java] <org.jsoup.nodes.Document: void title(java.lang.String)>
+     [java] #Program: 664
+     [java] =========Statistics=========
+     [java] Benchmark Id: 25
+     [java] Recommend Api Number:17
+     [java] Soot Time: 1483.936509
+     [java] Sketch Generation Time: 588.2370880000001
+     [java] Sketch Completion Time: 334.52884600000027
+     [java] Compilation Time: 3772.6785149999964
+     [java] Running Test cases Time: 595481.0481750002
+     [java] Synthesis Time: null
+     [java] Total Time: null
+     [java] Number of components: null
+     [java] Number of holes: null
+     [java] Number of completed programs: 668
+     [java] Number of sketches: 195
+     [java] TIMEOUT after 600000 ms
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 10 minutes 2 seconds

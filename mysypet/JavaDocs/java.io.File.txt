@@ -1,0 +1,54 @@
+File.equals(Object)	Tests this abstract pathname for equality with the given object
+File.exists()	Tests whether the file or directory denoted by this abstract pathname exists
+File.compareTo(File)	Compares two abstract pathnames lexicographically The ordering defined by this method depends upon the underlying system On UNIX systems alphabetic case is significant in comparing pathnames on Microsoft Windows systems it is not
+File.renameTo(File)	Renames the file denoted by this abstract pathname
+File.setWritable(boolean,boolean)	Sets the owner s or everybody s write permission for this abstract pathname
+File.isFile()	Tests whether the file denoted by this abstract pathname is a normal file A file is normal if it is not a directory and in addition satisfies other system dependent criteria Any non directory file created by a Java application is guaranteed to be a normal file
+File.isAbsolute()	Tests whether this abstract pathname is absolute The definition of absolute pathname is system dependent On UNIX systems a pathname is absolute if its prefix is On Microsoft Windows systems a pathname is absolute if its prefix is a drive specifier followed by or if its prefix is
+File.length()	Returns the length of the file denoted by this abstract pathname
+File.listRoots()	List the available filesystem roots
+File.lastModified()	Returns the time that the file denoted by this abstract pathname was last modified
+File.canRead()	Tests whether the application can read the file denoted by this abstract pathname
+File.isDirectory()	Tests whether the file denoted by this abstract pathname is a directory
+File.canExecute()	Tests whether the application can execute the file denoted by this abstract pathname
+File.getCanonicalFile()	Returns the canonical form of this abstract pathname Equivalent to new File this getCanonicalPath
+File.canWrite()	Tests whether the application can modify the file denoted by this abstract pathname
+File.File(String)	Creates a new File instance by converting the given pathname string into an abstract pathname If the given string is the empty string then the result is the empty abstract pathname
+File.delete()	Deletes the file or directory denoted by this abstract pathname If this pathname denotes a directory then the directory must be empty in order to be deleted
+File.setReadOnly()	Marks the file or directory named by this abstract pathname so that only read operations are allowed After invoking this method the file or directory is guaranteed not to change until it is either deleted or marked to allow write access Whether or not a read only file or directory may be deleted depends upon the underlying system
+File.toString()	Returns the pathname string of this abstract pathname This is just the string returned by the getPath method
+File.getParentFile()	Returns the abstract pathname of this abstract pathname s parent or null if this pathname does not name a parent directory
+File.listFiles(FilenameFilter)	Returns an array of abstract pathnames denoting the files and directories in the directory denoted by this abstract pathname that satisfy the specified filter The behavior of this method is the same as that of the listFiles method except that the pathnames in the returned array must satisfy the filter If the given filter is null then all pathnames are accepted Otherwise a pathname satisfies the filter if and only if the value true results when the FilenameFilter accept File String method of the filter is invoked on this abstract pathname and the name of a file or directory in the directory that it denotes
+File.getFreeSpace()	Returns the number of unallocated bytes in the partition named by this abstract path name
+File.getParent()	Returns the pathname string of this abstract pathname s parent or null if this pathname does not name a parent directory
+File.mkdir()	Creates the directory named by this abstract pathname
+File.getAbsolutePath()	Returns the absolute pathname string of this abstract pathname
+File.setExecutable(boolean,boolean)	Sets the owner s or everybody s execute permission for this abstract pathname
+File.getTotalSpace()	Returns the size of the partition named by this abstract pathname
+File.setReadable(boolean)	A convenience method to set the owner s read permission for this abstract pathname
+File.createNewFile()	Atomically creates a new empty file named by this abstract pathname if and only if a file with this name does not yet exist The check for the existence of the file and the creation of the file if it does not exist are a single operation that is atomic with respect to all other filesystem activities that might affect the file
+File.isHidden()	Tests whether the file named by this abstract pathname is a hidden file The exact definition of hidden is system dependent On UNIX systems a file is considered to be hidden if its name begins with a period character On Microsoft Windows systems a file is considered to be hidden if it has been marked as such in the filesystem
+File.File(URI)	Creates a new File instance by converting the given file URI into an abstract pathname
+File.createTempFile(String,String,File)	Creates a new empty file in the specified directory using the given prefix and suffix strings to generate its name If this method returns successfully then it is guaranteed that The file denoted by the returned abstract pathname did not exist before this method was invoked and Neither this method nor any of its variants will return the same abstract pathname again in the current invocation of the virtual machine
+File.File(String,String)	Creates a new File instance from a parent pathname string and a child pathname string
+File.listFiles()	Returns an array of abstract pathnames denoting the files in the directory denoted by this abstract pathname
+File.getAbsoluteFile()	Returns the absolute form of this abstract pathname Equivalent to new File this getAbsolutePath
+File.createTempFile(String,String)	Creates an empty file in the default temporary file directory using the given prefix and suffix to generate its name Invoking this method is equivalent to invoking createTempFile prefix suffix null
+File.toPath()	Returns a java nio file Path object constructed from the this abstract path The resulting Path is associated with the default filesystem
+File.setReadable(boolean,boolean)	Sets the owner s or everybody s read permission for this abstract pathname
+File.File(File,String)	Creates a new File instance from a parent abstract pathname and a child pathname string
+File.getName()	Returns the name of the file or directory denoted by this abstract pathname This is just the last name in the pathname s name sequence If the pathname s name sequence is empty then the empty string is returned
+File.setExecutable(boolean)	A convenience method to set the owner s execute permission for this abstract pathname
+File.getPath()	Converts this abstract pathname into a pathname string The resulting string uses the default name separator character to separate the names in the name sequence
+File.listFiles(FileFilter)	Returns an array of abstract pathnames denoting the files and directories in the directory denoted by this abstract pathname that satisfy the specified filter The behavior of this method is the same as that of the listFiles method except that the pathnames in the returned array must satisfy the filter If the given filter is null then all pathnames are accepted Otherwise a pathname satisfies the filter if and only if the value true results when the FileFilter accept File method of the filter is invoked on the pathname
+File.getCanonicalPath()	Returns the canonical pathname string of this abstract pathname
+File.mkdirs()	Creates the directory named by this abstract pathname including any necessary but nonexistent parent directories Note that if this operation fails it may have succeeded in creating some of the necessary parent directories
+File.getUsableSpace()	Returns the number of bytes available to this virtual machine on the partition named by this abstract pathname When possible this method checks for write permissions and other operating system restrictions and will therefore usually provide a more accurate estimate of how much new data can actually be written than getFreeSpace
+File.deleteOnExit()	Requests that the file or directory denoted by this abstract pathname be deleted when the virtual machine terminates
+File.setLastModified(long)	Sets the last modified time of the file or directory named by this abstract pathname
+File.setWritable(boolean)	A convenience method to set the owner s write permission for this abstract pathname
+File.toURI()	Constructs a file URI that represents this abstract pathname
+File.hashCode()	Computes a hash code for this abstract pathname Because equality of abstract pathnames is inherently system dependent so is the computation of their hash codes On UNIX systems the hash code of an abstract pathname is equal to the exclusive or of the hash code of its pathname string and the decimal value 1234321 On Microsoft Windows systems the hash code is equal to the exclusive or of the hash code of its pathname string converted to lower case and the decimal value 1234321 Locale is not taken into account on lowercasing the pathname string
+File.list()	Returns an array of strings naming the files and directories in the directory denoted by this abstract pathname
+File.toURL()	Converts this abstract pathname into a file URL The exact form of the URL is system dependent If it can be determined that the file denoted by this abstract pathname is a directory then the resulting URL will end with a slash
+File.list(FilenameFilter)	Returns an array of strings naming the files and directories in the directory denoted by this abstract pathname that satisfy the specified filter The behavior of this method is the same as that of the list method except that the strings in the returned array must satisfy the filter If the given filter is null then all names are accepted Otherwise a name satisfies the filter if and only if the value true results when the FilenameFilter accept File String method of the filter is invoked on this abstract pathname and the name of a file or directory in the directory that it denotes

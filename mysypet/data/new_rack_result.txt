@@ -1,0 +1,14 @@
+10#Graphics	Rectangle	Color	JFrame	JPanel	Area	Dimension	Shape	Image	Path
+11#Area	ArrayList	Path	Shape	Graphics	Object	PathIterator	Class	JFrame	Point
+12#Graphics	ArrayList	Color	Point	Object	Rectangle	JFrame	Dimension	Class	Arrays
+13#Graphics	Point	Color	AffineTransform	JFrame	Class	ArrayList	JPanel	Path	Object
+14#ArrayList	Graphics	Dimension	Shape	Object	Rectangle	Color	JFrame	Area	Arrays
+15#ArrayList	Graphics	Rectangle	Arrays	JFrame	Ellipse	Object	Area	Color	BasicStroke
+32#Pattern	Matcher	ArrayList	Arrays	Map	Object	HashMap	Test	File	Match
+33#ArrayList	Graphics	Point	Color	Path	GeneralPath	JFrame	PathIterator	JPanel	Area
+35#Calendar	SimpleDateFormat	DateTime	GregorianCalendar	ArrayList	Locale	DateFormat	LocalDate	Object	TimeZone
+43#Scanner	BufferedReader	File	IOException	ArrayList	FileReader	Object	FileInputStream	Map	Enter
+44#ArrayList	Arrays	BigInteger	Object	Hex	Test	Class	Decimal	Map	SimpleDateFormat
+48#Pattern	Matcher	ArrayList	Arrays	Map	Object	Test	Match	Class	HashMap
+49#ArrayList	Object	Arrays	File	Test	Pattern	ArrayAppend	Map	IOException	Class
+38#BufferedReader	File	IOException	Scanner	FileInputStream	InputStream	ArrayList	FileReader	Object	Graphics

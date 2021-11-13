@@ -1,0 +1,723 @@
+#-----command-----:proxychains ./run-sypet.sh benchmarks/google/1/benchmark1.json 
+ProxyChains-3.1 (http://proxychains.sf.net)
+Buildfile: /home/ljx/workplace/liujiaxin/sypet-master-ljx/build.xml
+
+sypet:
+     [java] ----------Options
+     [java] Verbose: false
+     [java] Timeout: 600000
+     [java] Round Robin: false
+     [java] Round Robin Iterations: 100
+     [java] Round Robin Range: 2
+     [java] Solver limit: 5
+     [java] ----------benchmarks/google/1/benchmark1.json
+     [java] Benchmark Id: 1
+     [java] Method name: invert
+     [java] Packages: [org.apache.commons.math3.linear]
+     [java] Libraries: [./lib/commons-math3-3.5.jar]
+     [java] Source type(s): [org.apache.commons.math3.linear.RealMatrix]
+     [java] Target type: org.apache.commons.math3.linear.RealMatrix
+     [java] --------------------------------------------------------
+     [java] Warning: javax.crypto.BadPaddingException is a phantom class!
+     [java] Warning: javax.crypto.IllegalBlockSizeException is a phantom class!
+     [java] Warning: javax.crypto.Cipher is a phantom class!
+     [java] Warning: javax.crypto.SealedObject is a phantom class!
+     [java] Warning: javax.crypto.NoSuchPaddingException is a phantom class!
+     [java] Warning: javax.crypto.SecretKey is a phantom class!
+     [java] Warning: javax.crypto.spec.DHPublicKeySpec is a phantom class!
+     [java] Warning: javax.crypto.spec.DHParameterSpec is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHKey is a phantom class!
+     [java] Warning: javax.crypto.interfaces.DHPublicKey is a phantom class!
+     [java] ============usingGoogle===============
+     [java] Compute the pseudo-inverse of a matrix org.apache.commons.math3.linear
+     [java] define class
+     [java] define class2
+     [java] define function1
+     [java] define function2
+     [java] test
+     [java] Compute the pseudo-inverse of a matrix org.apache.commons.math3.linear
+     [java] 1
+     [java] Load use agent string from file
+     [java] Finishing load use agent string from file
+     [java] 3
+     [java] current initial url: /url?q=https://commons.apache.org/proper/commons-math/javadocs/api-3.6/org/apache/commons/math3/linear/DecompositionSolver.html&sa=U&ved=0ahUKEwjHipDzx_3kAhUhGaYKHYjtCycQFggUMAA&usg=AOvVaw3VSBtTuLHSbJraOvYoUg_e
+     [java] current after analysis url: https://commons.apache.org/proper/commons-math/javadocs/api-3.6/org/apache/commons/math3/linear/DecompositionSolver.html
+     [java] current initial url: /url?q=https://fossies.org/dox/commons-math3-3.6.1-src/interfaceorg_1_1apache_1_1commons_1_1math3_1_1linear_1_1DecompositionSolver.html&sa=U&ved=0ahUKEwjHipDzx_3kAhUhGaYKHYjtCycQFggZMAE&usg=AOvVaw0TTSm8L3EELeWTAQ2tr9GS
+     [java] current after analysis url: https://fossies.org/dox/commons-math3-3.6.1-src/interfaceorg_1_1apache_1_1commons_1_1math3_1_1linear_1_1DecompositionSolver.html
+     [java] current initial url: /url?q=https://www.programcreek.com/java-api-examples/index.php%3Fapi%3Dorg.apache.commons.math3.linear.SingularValueDecomposition&sa=U&ved=0ahUKEwjHipDzx_3kAhUhGaYKHYjtCycQFggeMAI&usg=AOvVaw1euLBtT3kBON6Abs35aelH
+     [java] current after analysis url: https://www.programcreek.com/java-api-examples/index.php?api=org.apache.commons.math3.linear.SingularValueDecomposition
+     [java] current initial url: /url?q=https://github.com/broadinstitute/gatk/blob/master/src/main/java/org/broadinstitute/hellbender/utils/svd/SparkSingularValueDecomposer.java&sa=U&ved=0ahUKEwjHipDzx_3kAhUhGaYKHYjtCycQFggjMAM&usg=AOvVaw2IMsyZXVIgLYSezpuP4c89
+     [java] current after analysis url: https://github.com/broadinstitute/gatk/blob/master/src/main/java/org/broadinstitute/hellbender/utils/svd/SparkSingularValueDecomposer.java
+     [java] current initial url: /url?q=https://github.com/deeplearning4j/nd4j/blob/master/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/inverse/InvertMatrix.java&sa=U&ved=0ahUKEwjHipDzx_3kAhUhGaYKHYjtCycQFggoMAQ&usg=AOvVaw1mQkjhEad2D5-EmlKJqB76
+     [java] current after analysis url: https://github.com/deeplearning4j/nd4j/blob/master/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/inverse/InvertMatrix.java
+     [java] current initial url: /url?q=https://stackoverflow.com/questions/1992638/java-inverse-matrix-calculation&sa=U&ved=0ahUKEwjHipDzx_3kAhUhGaYKHYjtCycQFgguMAU&usg=AOvVaw1vOYbm_iCpwp5HP5HfN6au
+     [java] current after analysis url: https://stackoverflow.com/questions/1992638/java-inverse-matrix-calculation
+     [java] current initial url: /url?q=https://alvinalexander.com/java/jwarehouse/commons-math3-3.6.1/src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java.shtml&sa=U&ved=0ahUKEwjHipDzx_3kAhUhGaYKHYjtCycQFggzMAY&usg=AOvVaw0-Pc1n9FxZzHjAlJ-DL7y2
+     [java] current after analysis url: https://alvinalexander.com/java/jwarehouse/commons-math3-3.6.1/src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java.shtml
+     [java] current initial url: /url?q=http://javadox.com/org.apache.commons/commons-math3/3.1/org/apache/commons/math3/linear/class-use/RealMatrix.html&sa=U&ved=0ahUKEwjHipDzx_3kAhUhGaYKHYjtCycQFgg1MAc&usg=AOvVaw2SDjvjTXop1dY-wGjOvfDo
+     [java] current after analysis url: http://javadox.com/org.apache.commons/commons-math3/3.1/org/apache/commons/math3/linear/class-use/RealMatrix.html
+     [java] current initial url: /url?q=http://finmath.net/finmath-lib/apidocs/net/finmath/functions/LinearAlgebra.html&sa=U&ved=0ahUKEwjHipDzx_3kAhUhGaYKHYjtCycQFgg6MAg&usg=AOvVaw2bEKL_4x17yat74t33E6ku
+     [java] current after analysis url: http://finmath.net/finmath-lib/apidocs/net/finmath/functions/LinearAlgebra.html
+     [java] current initial url: /url?q=https://www.eclipse.org/january/apidocs/2.0.1/src-html/org/eclipse/january/dataset/LinearAlgebra.html&sa=U&ved=0ahUKEwjHipDzx_3kAhUhGaYKHYjtCycQFgg_MAk&usg=AOvVaw1npsHm-JTxxrKX7fkfSmOm
+     [java] current after analysis url: https://www.eclipse.org/january/apidocs/2.0.1/src-html/org/eclipse/january/dataset/LinearAlgebra.html
+     [java] result amount 10
+     [java] 1
+     [java] 98
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat: java.lang.StringBuffer format(org.apache.commons.math3.geometry.Vector,java.lang.StringBuffer,java.text.FieldPosition)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat: org.apache.commons.math3.geometry.euclidean.twod.Vector2D parse(java.lang.String)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat: org.apache.commons.math3.geometry.euclidean.twod.Vector2D parse(java.lang.String,java.text.ParsePosition)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat: org.apache.commons.math3.geometry.Vector parse(java.lang.String,java.text.ParsePosition)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2DFormat: org.apache.commons.math3.geometry.Vector parse(java.lang.String)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D: int getDimension()>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: double[] toArray()>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: double getNorm()>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: org.apache.commons.math3.geometry.euclidean.twod.Vector2D add(org.apache.commons.math3.geometry.Vector)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: org.apache.commons.math3.geometry.euclidean.twod.Vector2D add(double,org.apache.commons.math3.geometry.Vector)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: org.apache.commons.math3.geometry.euclidean.twod.Vector2D subtract(org.apache.commons.math3.geometry.Vector)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: org.apache.commons.math3.geometry.euclidean.twod.Vector2D subtract(double,org.apache.commons.math3.geometry.Vector)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: org.apache.commons.math3.geometry.euclidean.twod.Vector2D scalarMultiply(double)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: double dotProduct(org.apache.commons.math3.geometry.Vector)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: boolean equals(java.lang.Object)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: java.lang.String toString()>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: java.lang.String toString(java.text.NumberFormat)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: org.apache.commons.math3.geometry.Vector scalarMultiply(double)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: org.apache.commons.math3.geometry.Vector subtract(double,org.apache.commons.math3.geometry.Vector)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: org.apache.commons.math3.geometry.Vector subtract(org.apache.commons.math3.geometry.Vector)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: org.apache.commons.math3.geometry.Vector add(double,org.apache.commons.math3.geometry.Vector)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.Vector2D: org.apache.commons.math3.geometry.Vector add(org.apache.commons.math3.geometry.Vector)>
+     [java] useful API:<org.apache.commons.math3.geometry.euclidean.twod.NestedLoops: void add(org.apache.commons.math3.geometry.euclidean.twod.Vector2D[])>
+     [java] useful API:<org.apache.commons.math3.linear.TriDiagonalTransformer: org.apache.commons.math3.linear.RealMatrix getQ()>
+     [java] useful API:<org.apache.commons.math3.linear.TriDiagonalTransformer: org.apache.commons.math3.linear.RealMatrix getQT()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: void <init>(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: void <init>(org.apache.commons.math3.linear.RealMatrix,double)>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: void <init>(double[],double[])>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: void <init>(double[],double[],double)>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: org.apache.commons.math3.linear.RealMatrix getV()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: org.apache.commons.math3.linear.RealMatrix getD()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: org.apache.commons.math3.linear.RealMatrix getVT()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: boolean hasComplexEigenvalues()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: double[] getRealEigenvalues()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: double[] getImagEigenvalues()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: double getDeterminant()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: org.apache.commons.math3.linear.RealMatrix getSquareRoot()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition: org.apache.commons.math3.linear.DecompositionSolver getSolver()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition$Solver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix solve(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition$Solver: boolean isNonSingular()>
+     [java] useful API:<org.apache.commons.math3.linear.EigenDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix getInverse()>
+     [java] useful API:<org.apache.commons.math3.linear.SymmLQ: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SymmLQ: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SymmLQ: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SymmLQ: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector,boolean,double)>
+     [java] useful API:<org.apache.commons.math3.linear.SymmLQ: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.HessenbergTransformer: org.apache.commons.math3.linear.RealMatrix getP()>
+     [java] useful API:<org.apache.commons.math3.linear.HessenbergTransformer: org.apache.commons.math3.linear.RealMatrix getH()>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.linear.FieldVector add(org.apache.commons.math3.linear.SparseFieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.linear.FieldVector copy()>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.FieldElement dotProduct(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.FieldElement[] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: int getDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.FieldElement getEntry(int)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.linear.FieldVector getSubVector(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.linear.FieldMatrix outerProduct(org.apache.commons.math3.linear.SparseFieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.linear.FieldMatrix outerProduct(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: void set(org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: void setEntry(int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.linear.SparseFieldVector subtract(org.apache.commons.math3.linear.SparseFieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.linear.FieldVector subtract(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.FieldElement[] toArray()>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.linear.FieldVector add(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldVectorPreservingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldVectorPreservingVisitor,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldVectorChangingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldVectorChangingVisitor,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldVector: boolean equals(java.lang.Object)>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition: void <init>(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition: void <init>(org.apache.commons.math3.linear.RealMatrix,double)>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition: org.apache.commons.math3.linear.RealMatrix getL()>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition: org.apache.commons.math3.linear.RealMatrix getU()>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition: org.apache.commons.math3.linear.RealMatrix getP()>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition: double getDeterminant()>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition: org.apache.commons.math3.linear.DecompositionSolver getSolver()>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition$Solver: boolean isNonSingular()>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition$Solver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix solve(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.LUDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix getInverse()>
+     [java] useful API:<org.apache.commons.math3.linear.PreconditionedIterativeLinearSolver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.PreconditionedIterativeLinearSolver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.PreconditionedIterativeLinearSolver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.PreconditionedIterativeLinearSolver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ConjugateGradient: void <init>(int,double,boolean)>
+     [java] useful API:<org.apache.commons.math3.linear.ConjugateGradient: void <init>(org.apache.commons.math3.util.IterationManager,double,boolean)>
+     [java] useful API:<org.apache.commons.math3.linear.RRQRDecomposition: org.apache.commons.math3.linear.RealMatrix getP()>
+     [java] useful API:<org.apache.commons.math3.linear.RRQRDecomposition: int getRank(double)>
+     [java] useful API:<org.apache.commons.math3.linear.RRQRDecomposition: org.apache.commons.math3.linear.DecompositionSolver getSolver()>
+     [java] useful API:<org.apache.commons.math3.linear.RRQRDecomposition$Solver: boolean isNonSingular()>
+     [java] useful API:<org.apache.commons.math3.linear.RRQRDecomposition$Solver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RRQRDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix solve(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.RRQRDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix getInverse()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: org.apache.commons.math3.linear.FieldMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: org.apache.commons.math3.linear.FieldMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: org.apache.commons.math3.linear.Array2DRowFieldMatrix add(org.apache.commons.math3.linear.Array2DRowFieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: org.apache.commons.math3.linear.Array2DRowFieldMatrix subtract(org.apache.commons.math3.linear.Array2DRowFieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: org.apache.commons.math3.linear.Array2DRowFieldMatrix multiply(org.apache.commons.math3.linear.Array2DRowFieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: org.apache.commons.math3.FieldElement[][] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: org.apache.commons.math3.FieldElement[][] getDataRef()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: org.apache.commons.math3.FieldElement getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: void setEntry(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: void multiplyEntry(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: org.apache.commons.math3.FieldElement[] operate(org.apache.commons.math3.FieldElement[])>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowFieldMatrix: org.apache.commons.math3.FieldElement[] preMultiply(org.apache.commons.math3.FieldElement[])>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: org.apache.commons.math3.linear.RealMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: org.apache.commons.math3.linear.RealMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: org.apache.commons.math3.linear.DiagonalMatrix add(org.apache.commons.math3.linear.DiagonalMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: org.apache.commons.math3.linear.DiagonalMatrix subtract(org.apache.commons.math3.linear.DiagonalMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: org.apache.commons.math3.linear.DiagonalMatrix multiply(org.apache.commons.math3.linear.DiagonalMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: org.apache.commons.math3.linear.RealMatrix multiply(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: double[][] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: double[] getDataRef()>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: double getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: void setEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: void multiplyEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: double[] operate(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: double[] preMultiply(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: org.apache.commons.math3.linear.RealVector preMultiply(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: org.apache.commons.math3.linear.DiagonalMatrix inverse()>
+     [java] useful API:<org.apache.commons.math3.linear.DiagonalMatrix: org.apache.commons.math3.linear.DiagonalMatrix inverse(double)>
+     [java] useful API:<org.apache.commons.math3.linear.BiDiagonalTransformer: org.apache.commons.math3.linear.RealMatrix getU()>
+     [java] useful API:<org.apache.commons.math3.linear.BiDiagonalTransformer: org.apache.commons.math3.linear.RealMatrix getV()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix add(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix add(org.apache.commons.math3.linear.BlockRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix subtract(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix subtract(org.apache.commons.math3.linear.BlockRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix scalarAdd(double)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix scalarMultiply(double)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix multiply(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix multiply(org.apache.commons.math3.linear.BlockRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: double[][] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: double getNorm()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix getSubMatrix(int,int,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix getRowMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: void setRowMatrix(int,org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: void setRowMatrix(int,org.apache.commons.math3.linear.BlockRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix getColumnMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: void setColumnMatrix(int,org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealVector getRowVector(int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: void setRowVector(int,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: double[] getColumn(int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: double getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: void setEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: void multiplyEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.BlockRealMatrix transpose()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: double[] operate(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: double[] preMultiply(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealMatrixChangingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealMatrixPreservingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix transpose()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix getColumnMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix getRowMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix getSubMatrix(int,int,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix multiply(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix scalarAdd(double)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix subtract(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockRealMatrix: org.apache.commons.math3.linear.RealMatrix add(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: void <init>(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: org.apache.commons.math3.linear.RealMatrix getU()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: org.apache.commons.math3.linear.RealMatrix getUT()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: org.apache.commons.math3.linear.RealMatrix getS()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: double[] getSingularValues()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: org.apache.commons.math3.linear.RealMatrix getV()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: org.apache.commons.math3.linear.RealMatrix getVT()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: org.apache.commons.math3.linear.RealMatrix getCovariance(double)>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: double getNorm()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: double getConditionNumber()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: double getInverseConditionNumber()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: int getRank()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition: org.apache.commons.math3.linear.DecompositionSolver getSolver()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition$Solver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix solve(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition$Solver: boolean isNonSingular()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix getInverse()>
+     [java] useful API:<org.apache.commons.math3.linear.SingularValueDecomposition$1: void visit(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.NonSymmetricMatrixException: int getColumn()>
+     [java] useful API:<org.apache.commons.math3.linear.CholeskyDecomposition: void <init>(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.CholeskyDecomposition: void <init>(org.apache.commons.math3.linear.RealMatrix,double,double)>
+     [java] useful API:<org.apache.commons.math3.linear.CholeskyDecomposition: org.apache.commons.math3.linear.RealMatrix getL()>
+     [java] useful API:<org.apache.commons.math3.linear.CholeskyDecomposition: org.apache.commons.math3.linear.RealMatrix getLT()>
+     [java] useful API:<org.apache.commons.math3.linear.CholeskyDecomposition: double getDeterminant()>
+     [java] useful API:<org.apache.commons.math3.linear.CholeskyDecomposition: org.apache.commons.math3.linear.DecompositionSolver getSolver()>
+     [java] useful API:<org.apache.commons.math3.linear.CholeskyDecomposition$Solver: boolean isNonSingular()>
+     [java] useful API:<org.apache.commons.math3.linear.CholeskyDecomposition$Solver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.CholeskyDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix solve(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.CholeskyDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix getInverse()>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealMatrix createRealMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealMatrix createRealMatrix(double[][])>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealMatrix createRealIdentityMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealMatrix createRealDiagonalMatrix(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealVector createRealVector(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealMatrix createRowRealMatrix(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealMatrix createColumnRealMatrix(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: void checkSymmetric(org.apache.commons.math3.linear.RealMatrix,double)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: boolean isSymmetric(org.apache.commons.math3.linear.RealMatrix,double)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: void serializeRealMatrix(org.apache.commons.math3.linear.RealMatrix,java.io.ObjectOutputStream)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: void solveLowerTriangularSystem(org.apache.commons.math3.linear.RealMatrix,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: void solveUpperTriangularSystem(org.apache.commons.math3.linear.RealMatrix,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealMatrix blockInverse(org.apache.commons.math3.linear.RealMatrix,int)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealMatrix inverse(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils: org.apache.commons.math3.linear.RealMatrix inverse(org.apache.commons.math3.linear.RealMatrix,double)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils$BigFractionMatrixConverter: void visit(int,int,org.apache.commons.math3.fraction.BigFraction)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils$BigFractionMatrixConverter: void visit(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils$FractionMatrixConverter: void visit(int,int,org.apache.commons.math3.fraction.Fraction)>
+     [java] useful API:<org.apache.commons.math3.linear.MatrixUtils$FractionMatrixConverter: void visit(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.DefaultRealMatrixPreservingVisitor: void <init>()>
+     [java] useful API:<org.apache.commons.math3.linear.DefaultRealMatrixPreservingVisitor: void visit(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix add(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.BlockFieldMatrix add(org.apache.commons.math3.linear.BlockFieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix subtract(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.BlockFieldMatrix subtract(org.apache.commons.math3.linear.BlockFieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix scalarAdd(org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix scalarMultiply(org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix multiply(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.BlockFieldMatrix multiply(org.apache.commons.math3.linear.BlockFieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.FieldElement[][] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix getSubMatrix(int,int,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix getRowMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: void setRowMatrix(int,org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: void setRowMatrix(int,org.apache.commons.math3.linear.BlockFieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix getColumnMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: void setColumnMatrix(int,org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldVector getRowVector(int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: void setRowVector(int,org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.FieldElement[] getColumn(int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.FieldElement getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: void setEntry(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: void multiplyEntry(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.linear.FieldMatrix transpose()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.FieldElement[] operate(org.apache.commons.math3.FieldElement[])>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.FieldElement[] preMultiply(org.apache.commons.math3.FieldElement[])>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldMatrixChangingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.BlockFieldMatrix: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldMatrixPreservingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.DefaultRealMatrixChangingVisitor: double visit(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.SchurTransformer: org.apache.commons.math3.linear.RealMatrix getP()>
+     [java] useful API:<org.apache.commons.math3.linear.RectangularCholeskyDecomposition: org.apache.commons.math3.linear.RealMatrix getRootMatrix()>
+     [java] useful API:<org.apache.commons.math3.linear.RectangularCholeskyDecomposition: int getRank()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVectorChangingVisitor: org.apache.commons.math3.FieldElement visit(int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVectorPreservingVisitor: void visit(int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.linear.FieldVector copy()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.linear.FieldVector add(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.linear.ArrayFieldVector add(org.apache.commons.math3.linear.ArrayFieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.linear.FieldVector subtract(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.linear.ArrayFieldVector subtract(org.apache.commons.math3.linear.ArrayFieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.FieldElement[] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.FieldElement[] getDataRef()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.FieldElement dotProduct(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.FieldElement dotProduct(org.apache.commons.math3.linear.ArrayFieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.linear.FieldMatrix outerProduct(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.linear.FieldMatrix outerProduct(org.apache.commons.math3.linear.ArrayFieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.FieldElement getEntry(int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: int getDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.linear.FieldVector getSubVector(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: void setEntry(int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: void set(int,org.apache.commons.math3.linear.ArrayFieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: void set(org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.FieldElement[] toArray()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldVectorPreservingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldVectorPreservingVisitor,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldVectorChangingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldVectorChangingVisitor,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayFieldVector: boolean equals(java.lang.Object)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldLUDecomposition: org.apache.commons.math3.linear.FieldMatrix getL()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldLUDecomposition: org.apache.commons.math3.linear.FieldMatrix getU()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldLUDecomposition: org.apache.commons.math3.linear.FieldMatrix getP()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldLUDecomposition: org.apache.commons.math3.FieldElement getDeterminant()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldLUDecomposition: org.apache.commons.math3.linear.FieldDecompositionSolver getSolver()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldLUDecomposition$Solver: boolean isNonSingular()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldLUDecomposition$Solver: org.apache.commons.math3.linear.FieldVector solve(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldLUDecomposition$Solver: org.apache.commons.math3.linear.ArrayFieldVector solve(org.apache.commons.math3.linear.ArrayFieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldLUDecomposition$Solver: org.apache.commons.math3.linear.FieldMatrix solve(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldLUDecomposition$Solver: org.apache.commons.math3.linear.FieldMatrix getInverse()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldDecompositionSolver: org.apache.commons.math3.linear.FieldVector solve(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldDecompositionSolver: org.apache.commons.math3.linear.FieldMatrix solve(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldDecompositionSolver: boolean isNonSingular()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldDecompositionSolver: org.apache.commons.math3.linear.FieldMatrix getInverse()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix add(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix subtract(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix scalarAdd(org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix scalarMultiply(org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix multiply(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix preMultiply(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix power(int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.FieldElement[][] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix getSubMatrix(int,int,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix getSubMatrix(int[],int[])>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: void copySubMatrix(int[],int[],org.apache.commons.math3.FieldElement[][])>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix getRowMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: void setRowMatrix(int,org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix getColumnMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: void setColumnMatrix(int,org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldVector getRowVector(int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: void setRowVector(int,org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.FieldElement[] getColumn(int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.FieldElement getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: void setEntry(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: void multiplyEntry(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldMatrix transpose()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: boolean isSquare()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.FieldElement[] operate(org.apache.commons.math3.FieldElement[])>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldVector operate(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.FieldElement[] preMultiply(org.apache.commons.math3.FieldElement[])>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.linear.FieldVector preMultiply(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldMatrixChangingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldMatrixPreservingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: java.lang.String toString()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix: boolean equals(java.lang.Object)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix$3: void visit(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix$2: void visit(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractFieldMatrix$1: org.apache.commons.math3.FieldElement visit(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldMatrix: org.apache.commons.math3.linear.FieldMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldMatrix: org.apache.commons.math3.linear.FieldMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldMatrix: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldMatrix: org.apache.commons.math3.FieldElement getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldMatrix: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldMatrix: void multiplyEntry(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.SparseFieldMatrix: void setEntry(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: org.apache.commons.math3.linear.RealVector add(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: org.apache.commons.math3.linear.OpenMapRealVector add(org.apache.commons.math3.linear.OpenMapRealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: org.apache.commons.math3.linear.OpenMapRealVector copy()>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: double dotProduct(org.apache.commons.math3.linear.OpenMapRealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: org.apache.commons.math3.linear.OpenMapRealVector getSubVector(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: int getDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: double getEntry(int)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: void setEntry(int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: void set(double)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: org.apache.commons.math3.linear.OpenMapRealVector subtract(org.apache.commons.math3.linear.OpenMapRealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: org.apache.commons.math3.linear.RealVector subtract(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: double[] toArray()>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: boolean equals(java.lang.Object)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: org.apache.commons.math3.linear.RealVector copy()>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealVector: org.apache.commons.math3.linear.RealVector getSubVector(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: void <init>()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: void <init>(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: void <init>(double[][])>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: void <init>(double[][],boolean)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: void <init>(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: org.apache.commons.math3.linear.RealMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: org.apache.commons.math3.linear.RealMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: org.apache.commons.math3.linear.Array2DRowRealMatrix add(org.apache.commons.math3.linear.Array2DRowRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: org.apache.commons.math3.linear.Array2DRowRealMatrix subtract(org.apache.commons.math3.linear.Array2DRowRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: org.apache.commons.math3.linear.Array2DRowRealMatrix multiply(org.apache.commons.math3.linear.Array2DRowRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: double[][] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: double[][] getDataRef()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: double getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: void setEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: void multiplyEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: double[] operate(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.Array2DRowRealMatrix: double[] preMultiply(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrixFormat: java.lang.String format(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrixFormat: java.lang.StringBuffer format(org.apache.commons.math3.linear.RealMatrix,java.lang.StringBuffer,java.text.FieldPosition)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrixFormat: org.apache.commons.math3.linear.RealMatrix parse(java.lang.String)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrixFormat: org.apache.commons.math3.linear.RealMatrix parse(java.lang.String,java.text.ParsePosition)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix add(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix subtract(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix scalarAdd(double)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix scalarMultiply(double)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix multiply(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix preMultiply(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix power(int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: double[][] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: double getNorm()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix getSubMatrix(int,int,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix getSubMatrix(int[],int[])>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: void copySubMatrix(int[],int[],double[][])>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix getRowMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: void setRowMatrix(int,org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix getColumnMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: void setColumnMatrix(int,org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealVector getRowVector(int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: void setRowVector(int,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: double[] getColumn(int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: void multiplyEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix transpose()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: boolean isSquare()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: double[] operate(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealVector operate(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: double[] preMultiply(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealVector preMultiply(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealMatrixChangingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealMatrixPreservingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: java.lang.String toString()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: boolean equals(java.lang.Object)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: org.apache.commons.math3.linear.RealMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: double getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix: void setEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix$5: void visit(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix$4: void visit(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix$3: double visit(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix$2: void visit(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.AbstractRealMatrix$1: void visit(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: void <init>(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: void <init>(org.apache.commons.math3.linear.OpenMapRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: org.apache.commons.math3.linear.OpenMapRealMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: org.apache.commons.math3.linear.OpenMapRealMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: org.apache.commons.math3.linear.OpenMapRealMatrix add(org.apache.commons.math3.linear.OpenMapRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: org.apache.commons.math3.linear.OpenMapRealMatrix subtract(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: org.apache.commons.math3.linear.OpenMapRealMatrix subtract(org.apache.commons.math3.linear.OpenMapRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: org.apache.commons.math3.linear.RealMatrix multiply(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: org.apache.commons.math3.linear.OpenMapRealMatrix multiply(org.apache.commons.math3.linear.OpenMapRealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: double getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: void setEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: void multiplyEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: org.apache.commons.math3.linear.RealMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: org.apache.commons.math3.linear.RealMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.OpenMapRealMatrix: org.apache.commons.math3.linear.RealMatrix subtract(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.DefaultFieldMatrixPreservingVisitor: void visit(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.DecompositionSolver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.DecompositionSolver: org.apache.commons.math3.linear.RealMatrix solve(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.DecompositionSolver: boolean isNonSingular()>
+     [java] useful API:<org.apache.commons.math3.linear.DecompositionSolver: org.apache.commons.math3.linear.RealMatrix getInverse()>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition: void <init>(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition: void <init>(org.apache.commons.math3.linear.RealMatrix,double)>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition: org.apache.commons.math3.linear.RealMatrix getR()>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition: org.apache.commons.math3.linear.RealMatrix getQ()>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition: org.apache.commons.math3.linear.RealMatrix getQT()>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition: org.apache.commons.math3.linear.RealMatrix getH()>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition: org.apache.commons.math3.linear.DecompositionSolver getSolver()>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition$Solver: boolean isNonSingular()>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition$Solver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix solve(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.QRDecomposition$Solver: org.apache.commons.math3.linear.RealMatrix getInverse()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVectorFormat: java.lang.String format(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVectorFormat: java.lang.StringBuffer format(org.apache.commons.math3.linear.RealVector,java.lang.StringBuffer,java.text.FieldPosition)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVectorFormat: org.apache.commons.math3.linear.ArrayRealVector parse(java.lang.String)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVectorFormat: org.apache.commons.math3.linear.ArrayRealVector parse(java.lang.String,java.text.ParsePosition)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(double[],boolean)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(double[],int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(java.lang.Double[])>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(java.lang.Double[],int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(org.apache.commons.math3.linear.ArrayRealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(org.apache.commons.math3.linear.ArrayRealVector,boolean)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.ArrayRealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(org.apache.commons.math3.linear.ArrayRealVector,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(org.apache.commons.math3.linear.RealVector,org.apache.commons.math3.linear.ArrayRealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(org.apache.commons.math3.linear.ArrayRealVector,double[])>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(double[],org.apache.commons.math3.linear.ArrayRealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void <init>(double[],double[])>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: org.apache.commons.math3.linear.ArrayRealVector copy()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: org.apache.commons.math3.linear.ArrayRealVector add(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: org.apache.commons.math3.linear.ArrayRealVector subtract(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: org.apache.commons.math3.linear.ArrayRealVector map(org.apache.commons.math3.analysis.UnivariateFunction)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: double[] getDataRef()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: double dotProduct(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: double getNorm()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: double getLInfNorm()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: org.apache.commons.math3.linear.RealMatrix outerProduct(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: double getEntry(int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: int getDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: org.apache.commons.math3.linear.RealVector getSubVector(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void setEntry(int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: void set(double)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: double[] toArray()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: java.lang.String toString()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: boolean equals(java.lang.Object)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealVectorPreservingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealVectorPreservingVisitor,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealVectorChangingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealVectorChangingVisitor,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: org.apache.commons.math3.linear.RealVector map(org.apache.commons.math3.analysis.UnivariateFunction)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: org.apache.commons.math3.linear.RealVector copy()>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: org.apache.commons.math3.linear.RealVector subtract(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.ArrayRealVector: org.apache.commons.math3.linear.RealVector add(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.JacobiPreconditioner: org.apache.commons.math3.linear.JacobiPreconditioner create(org.apache.commons.math3.linear.RealLinearOperator)>
+     [java] useful API:<org.apache.commons.math3.linear.JacobiPreconditioner: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.JacobiPreconditioner: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.JacobiPreconditioner: org.apache.commons.math3.linear.RealVector operate(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.JacobiPreconditioner: org.apache.commons.math3.linear.RealLinearOperator sqrt()>
+     [java] useful API:<org.apache.commons.math3.linear.JacobiPreconditioner$1: org.apache.commons.math3.linear.RealVector operate(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.JacobiPreconditioner$1: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.JacobiPreconditioner$1: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.RealLinearOperator: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.RealLinearOperator: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.RealLinearOperator: org.apache.commons.math3.linear.RealVector operate(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.IterativeLinearSolver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.IterativeLinearSolver: org.apache.commons.math3.linear.RealVector solve(org.apache.commons.math3.linear.RealLinearOperator,org.apache.commons.math3.linear.RealVector,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrixPreservingVisitor: void visit(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: org.apache.commons.math3.linear.FieldVector copy()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: org.apache.commons.math3.linear.FieldVector add(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: org.apache.commons.math3.linear.FieldVector subtract(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: org.apache.commons.math3.FieldElement[] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: org.apache.commons.math3.FieldElement dotProduct(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: org.apache.commons.math3.linear.FieldMatrix outerProduct(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: org.apache.commons.math3.FieldElement getEntry(int)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: void setEntry(int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: int getDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: org.apache.commons.math3.linear.FieldVector getSubVector(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: void set(org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldVector: org.apache.commons.math3.FieldElement[] toArray()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix add(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix subtract(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix scalarAdd(org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix scalarMultiply(org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix multiply(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix preMultiply(org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix power(int)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.FieldElement[][] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix getSubMatrix(int,int,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix getSubMatrix(int[],int[])>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: void copySubMatrix(int[],int[],org.apache.commons.math3.FieldElement[][])>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix getRowMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: void setRowMatrix(int,org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix getColumnMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: void setColumnMatrix(int,org.apache.commons.math3.linear.FieldMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldVector getRowVector(int)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: void setRowVector(int,org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.FieldElement[] getColumn(int)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.FieldElement getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: void setEntry(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: void multiplyEntry(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldMatrix transpose()>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.FieldElement[] operate(org.apache.commons.math3.FieldElement[])>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldVector operate(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.FieldElement[] preMultiply(org.apache.commons.math3.FieldElement[])>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.linear.FieldVector preMultiply(org.apache.commons.math3.linear.FieldVector)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldMatrixChangingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrix: org.apache.commons.math3.FieldElement walkInOptimizedOrder(org.apache.commons.math3.linear.FieldMatrixPreservingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.FieldMatrixChangingVisitor: org.apache.commons.math3.FieldElement visit(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.DefaultFieldMatrixChangingVisitor: org.apache.commons.math3.FieldElement visit(int,int,org.apache.commons.math3.FieldElement)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVectorChangingVisitor: double visit(int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVectorPreservingVisitor: void visit(int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrixPreservingVisitor: void visit(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrixChangingVisitor: double visit(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: int getDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: double getEntry(int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: void setEntry(int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: org.apache.commons.math3.linear.RealVector getSubVector(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: org.apache.commons.math3.linear.RealVector add(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: org.apache.commons.math3.linear.RealVector subtract(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: org.apache.commons.math3.linear.RealVector copy()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: double dotProduct(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: double getNorm()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: double getLInfNorm()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: org.apache.commons.math3.linear.RealMatrix outerProduct(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: void set(double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: double[] toArray()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: org.apache.commons.math3.linear.RealVector map(org.apache.commons.math3.analysis.UnivariateFunction)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealVectorPreservingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealVectorPreservingVisitor,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealVectorChangingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealVectorChangingVisitor,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector: boolean equals(java.lang.Object)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: org.apache.commons.math3.linear.RealVector map(org.apache.commons.math3.analysis.UnivariateFunction)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: org.apache.commons.math3.linear.RealVector copy()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: org.apache.commons.math3.linear.RealVector add(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: org.apache.commons.math3.linear.RealVector subtract(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: double dotProduct(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: double getNorm()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: double getLInfNorm()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: org.apache.commons.math3.linear.RealMatrix outerProduct(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: double getEntry(int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: void setEntry(int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: int getDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: org.apache.commons.math3.linear.RealVector getSubVector(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: void set(double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2: double[] toArray()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2$2: boolean hasNext()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$2$1: boolean hasNext()>
+     [java] useful API:<org.apache.commons.math3.linear.RealVector$1: boolean hasNext()>
+     [java] useful API:<org.apache.commons.math3.linear.AnyMatrix: boolean isSquare()>
+     [java] useful API:<org.apache.commons.math3.linear.AnyMatrix: int getRowDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.AnyMatrix: int getColumnDimension()>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix createMatrix(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix copy()>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix add(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix subtract(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix scalarAdd(double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix scalarMultiply(double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix multiply(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix preMultiply(org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix power(int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: double[][] getData()>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: double getNorm()>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix getSubMatrix(int,int,int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix getSubMatrix(int[],int[])>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: void copySubMatrix(int[],int[],double[][])>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix getRowMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: void setRowMatrix(int,org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix getColumnMatrix(int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: void setColumnMatrix(int,org.apache.commons.math3.linear.RealMatrix)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealVector getRowVector(int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: void setRowVector(int,org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: double[] getColumn(int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: double getEntry(int,int)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: void setEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: void multiplyEntry(int,int,double)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealMatrix transpose()>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: double[] operate(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealVector operate(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: double[] preMultiply(double[])>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: org.apache.commons.math3.linear.RealVector preMultiply(org.apache.commons.math3.linear.RealVector)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealMatrixChangingVisitor)>
+     [java] useful API:<org.apache.commons.math3.linear.RealMatrix: double walkInOptimizedOrder(org.apache.commons.math3.linear.RealMatrixPreservingVisitor)>
+     [java] =========cnt:=========626
+     [java] #Classes: 128
+     [java] #Methods: 1539
+     [java] Soot Time: 38229.043205
+     [java] PetriNet for path length: 1 [places: 138 ; transitions: 786 ; edges: 2054]
+     [java] PetriNet for path length: 2 [places: 138 ; transitions: 786 ; edges: 2054]
+     [java] PetriNet for path length: 3 [places: 138 ; transitions: 786 ; edges: 2054]
+     [java] PetriNet for path length: 4 [places: 138 ; transitions: 786 ; edges: 2054]
+     [java] =========Statistics (time in milliseconds)=========
+     [java] Benchmark Id: 1
+     [java] Recommend Api Number:626
+     [java] Sketch Generation Time: 289.04548900000003
+     [java] Sketch Completion Time: 99.19478000000004
+     [java] Compilation Time: 1868.7307559999995
+     [java] Running Test cases Time: 2163.7074780000007
+     [java] Synthesis Time: 2551.9477470000006
+     [java] Total Time: 42649.721708
+     [java] Number of components: 3
+     [java] Number of holes: 4
+     [java] Number of completed programs: 231
+     [java] Number of sketches: 116
+     [java] Solution:
+     [java]  org.apache.commons.math3.linear.SingularValueDecomposition sypet_var417 = new org.apache.commons.math3.linear.SingularValueDecomposition(sypet_arg0);
+     [java]  org.apache.commons.math3.linear.DecompositionSolver sypet_var418 = sypet_var417.getSolver();
+     [java]  org.apache.commons.math3.linear.RealMatrix sypet_var419 = sypet_var418.getInverse();
+     [java]  return sypet_var419;
+     [java]  
+     [java] ============================
+
+BUILD SUCCESSFUL
+Total time: 43 seconds
+

@@ -1,0 +1,21 @@
+{
+  "id": 19,
+  "description": "Return the day of a date string",
+  "methodName": "getDayFromString",
+    "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "java.lang.String",
+    "java.lang.String"
+  ],
+  "tgtType": "int",
+  "packages": [
+    "org.joda.time"
+  ],
+  "libs": [
+    "./lib/joda-time-2.8.2.jar"
+  ],
+  "testPath": "benchmarks/nlp2api/19/TestSource.java"
+}

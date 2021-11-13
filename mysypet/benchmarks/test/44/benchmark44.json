@@ -1,0 +1,22 @@
+{
+  "id": 44,
+  "description": "Convert hex string to float",
+  "methodName": "hex2Float",
+  "paramNames": [
+    "sypet_arg0",
+    "sypet_arg1"
+  ],
+  "srcTypes": [
+    "java.lang.String",
+    "int"
+  ],
+  "tgtType": "float",
+  "packages": [
+    "java.lang.Long",
+    "java.lang.Float"
+  ],
+  "libs": [
+    "./lib/rt7.jar"
+  ],
+  "testPath": "benchmarks/test/44/TestSource.java"
+}
